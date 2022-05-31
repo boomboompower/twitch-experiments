@@ -18,7 +18,11 @@ import fetch from 'node-fetch';
                 console.log('Downloading new twitch data: ', o[0])
 
                 writeFileSync(resolve('docs', 'settings.js'), await nextFetch.text(), {encoding: 'utf8'})
+            } else {
+                process.exit(-1);
             }
         }
+    } else {
+        process.exit(-1);
     }
 })();
