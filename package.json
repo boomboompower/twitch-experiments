@@ -11,14 +11,16 @@
     "package-update": "npm install"
   },
   "dependencies": {
+    "js-beautify": "^1.14.3",
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
+    "@types/js-beautify": "^1.13.3",
     "@types/node-fetch": "^2.6.1",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
-    "node-fetch": "^2.6.7",
     "eslint": "^8.14.0",
+    "node-fetch": "^2.6.7",
     "typescript": "^4.6.4"
   },
   "keywords": [],
