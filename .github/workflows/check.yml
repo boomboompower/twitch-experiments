@@ -1,0 +1,21 @@
+name: App Update Check
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Commit Version
+        run: |
+          git config --global user.name 'boomboompower'
+          git config --global user.email '12974350+boomboompower@users.noreply.github.com'
+          git commit -m "Update ${{ steps.version.outputs.content }}"
+          git push
