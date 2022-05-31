@@ -17,7 +17,9 @@ import fetch from 'node-fetch';
             if (nextFetch.ok) {
                 console.log('Downloading new twitch data: ', o[0])
 
-                writeFileSync(resolve('docs', 'settings.js'), await nextFetch.text(), {encoding: 'utf8'})
+                const obj = await nextFetch.json();
+
+                writeFileSync(resolve('docs', 'settings.js'), JSON.stringify(obj, null, 4), {encoding: 'utf8'})
             } else {
                 process.exit(-1);
             }
