@@ -154,6 +154,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "commerce_bar_experience": "sponsored",
+  "community-intros-15": [0, false],
   "community-moments-rollout": [1, false],
   "community_boost_enabled": [0, false],
   "community_moments_jitter_range_seconds": 0,
@@ -309,7 +310,7 @@ window.__twilightSettings = {
   "megacommerce_kpop_end_date": "2020-10-31T06:59:59Z",
   "megacommerce_kpop_start_date": "2020-10-19T21:00:00Z",
   "membrane_channel": "",
-  "membrane_channels": "[{\"login\": \"sykkuno\", \"end\": \"2022-06-01T00:00:00Z\"}]",
+  "membrane_channels": "[]",
   "messages_disclosure_enabled": false,
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
@@ -441,7 +442,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-1744da.pdx01.abs.hls.ttvnw.net/v1/segment/CgiGpxyUaGGiJt-JeknlMwVhQR8BZO8yTRJZTS0Rg6ltwUSpBG3T7rNNkiM6w_ZE2B1gIW3GccTzCt1UvlBvJdfVR_SMVx7dPdg0mFpyNHamuS-zbjtGVP9nT7xwN_QhwLyPmZwpLXI8TWIiGrgVJ0qs1YvMg4-h0RSJyf-navsgDwI9DMinkr13TSJeIMKaMbKZUQZlIiyZotIrhObzbuJbErCF39wG_6hNO9mjOT3NFE9NYyF4Ay1w6XBAp3fRAUuHMuX0V7ah5NuTqhfPF0uP-ZxSvmhHOYSLATa7RvCzoQpncNEQrz4C6R-BrK_v-9HEZFyH-fN3NydVUYnMDGFgNIxj9QxqkdgPRp1NobHZ3kwDP6gywNsUuGpSnvxDNnCeX87aeaFVYcHLrTNY7Ovizd9sbRxHoFo5eN_pH7ec441wIGPFkOokmEw0kgnDPHuxJ9AbCxwHt2Ep9ZSk75NLN-FPjeH2g5A14TVF-J6T40099LS7zNZJ728Vrkucmx3tLUlBktUCBR_k4rLBeY4iveff6RtqLdUR2TyUEZuZkFxk0WBKNU26E6IGb40rhwEK_J58W_hcIPOl4sA2uy2G2kFGIaOENGe8Tsp69U7l4UFkgBqfhtvyAjpfbsaHIWkA8qcH_YqkrgyqyeEtvZ4X4CGyvcHGLaY3N6Kd_7Q2HXvTSHdPmqdyuAGs5xsx5_T55jipJ6-FefwhBNL89dQiNpJqPpA0mX0Q13InNe-zMzUH9n3ud4_kbWxSVFfJ_Ok46D.ts",
+  "spade_url": "https://video-edge-9a4517.pdx01.abs.hls.ttvnw.net/v1/segment/Csad6e6OmJM2o89xdg-f16xxetXGccoHGtAw6SGRLD7-JcGYI8eFo-wM3lWYS19VDITYrTpmnxVvHJYfNCNm7sLhdu65AJ7ZpUdVWrd57pcFDKE-2bVe-ya-ZpoO2zBKeGrgDwR4JuHjCIZ4Qlr7HlUFHhe0XgHc_G35wgkUbzqLvw6wTnqD34c2ZCmLpeVWUuChGlGuE5S0g8a8b6yAMpOWHfjbj9RHGLpVndG2TTXgN5rBqXXybqQ-pDFhvtqmd3AfFT0suywVoK9HIrDCtW88O6UmMzJjlsK9nOtQB3iBGb_Id_-IEgVd0EHhBEom88COG4WUfCRVezIsfpe1X0-GQ7SLRu1MBIM1pvsudXoFadH01_eKt5tMLCGzkKivV5cN4u9IFgG1tp0CURsbXwW2w3C-ywd9ZikJB_7wBI4oDY6h-7m5G_6tvDT0cSDl9FrncPPrgFDPhGEt6Oz0EFCKBdqpRQDLCFUXjOWBCFypKsCFFqD86f99ozcTuXWM93fSxOfjQkdve_Rmuk792nl475yakSVKDdbkgzcRwxJk1yN7HUN0PemeYeA5j2j7A6jU_7_5EICNuHrO7PH2d73u2_Z9_67mFzRr_be4_oQu0C4RaQI96y3MlqjExOFuDhvrdQbkDSY_vIspAx8NJC0SAe6zZY6Ic-vEJfARteaGYz8-KpqADKmc9_QzJPxlDLyOodFoyZSSQD9INhqyx093tlgLwmqMOFDiY32yxbuQ3-6U_7mqyDYWUWjuopV-Pjm.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -456,7 +457,7 @@ window.__twilightSettings = {
   "studio-front-end-copy-paste": [0, false],
   "studio_companion_mode": [0, true],
   "studio_import": [0, false],
-  "studio_import_changelog_date": "2022-05-23 00:00:00 GMT-0700",
+  "studio_import_changelog_date": "2022-06-21 00:00:00 GMT-0700",
   "studio_layer_rotation_flag": [0, false],
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [0, false],
@@ -2389,13 +2390,13 @@ window.__twilightSettings = {
     },
     "51f19f70-f28d-426f-95d9-1ef5c0922b4a": {
       "name": "ab_motivation_wg_fresh_thirty_day_streams_card",
-      "v": 21243,
+      "v": 21321,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
