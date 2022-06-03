@@ -76,7 +76,7 @@ window.__twilightSettings = {
   "c2_message_size": [0, false],
   "c2_message_size_participants": [""],
   "c2_message_size_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_4ZuHnB79TByKEJM",
-  "c2_midnight_squid": true,
+  "c2_midnight_squid": false,
   "c2_screenshot": [0, false],
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
@@ -316,7 +316,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [1, false],
+  "motivation_lvf_flag": [0, false],
   "multi_month_gifting": true,
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
@@ -334,12 +334,13 @@ window.__twilightSettings = {
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
   "omsdk_domain_allowlist_in_Twilight": ["ddacn6pr5v0tl.cloudfront.net", "c.amazon-adsystem.com", "www.twitch.tv"],
-  "onboarding_verification": false,
+  "onboarding_verification": [0, false],
   "one_click_checkout_blocklist": ["86137825"],
   "one_click_checkout_country_allowlist": ["US"],
   "one_click_checkout_country_block_list": ["KR"],
   "one_click_checkout_eu_country_allowlist": ["AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK"],
   "one_click_checkout_v2_country_allowlist": ["AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "US", "BR", "AU", "KR"],
+  "p55v1b": [0, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
@@ -442,7 +443,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-9a4517.pdx01.abs.hls.ttvnw.net/v1/segment/Csad6e6OmJM2o89xdg-f16xxetXGccoHGtAw6SGRLD7-JcGYI8eFo-wM3lWYS19VDITYrTpmnxVvHJYfNCNm7sLhdu65AJ7ZpUdVWrd57pcFDKE-2bVe-ya-ZpoO2zBKeGrgDwR4JuHjCIZ4Qlr7HlUFHhe0XgHc_G35wgkUbzqLvw6wTnqD34c2ZCmLpeVWUuChGlGuE5S0g8a8b6yAMpOWHfjbj9RHGLpVndG2TTXgN5rBqXXybqQ-pDFhvtqmd3AfFT0suywVoK9HIrDCtW88O6UmMzJjlsK9nOtQB3iBGb_Id_-IEgVd0EHhBEom88COG4WUfCRVezIsfpe1X0-GQ7SLRu1MBIM1pvsudXoFadH01_eKt5tMLCGzkKivV5cN4u9IFgG1tp0CURsbXwW2w3C-ywd9ZikJB_7wBI4oDY6h-7m5G_6tvDT0cSDl9FrncPPrgFDPhGEt6Oz0EFCKBdqpRQDLCFUXjOWBCFypKsCFFqD86f99ozcTuXWM93fSxOfjQkdve_Rmuk792nl475yakSVKDdbkgzcRwxJk1yN7HUN0PemeYeA5j2j7A6jU_7_5EICNuHrO7PH2d73u2_Z9_67mFzRr_be4_oQu0C4RaQI96y3MlqjExOFuDhvrdQbkDSY_vIspAx8NJC0SAe6zZY6Ic-vEJfARteaGYz8-KpqADKmc9_QzJPxlDLyOodFoyZSSQD9INhqyx093tlgLwmqMOFDiY32yxbuQ3-6U_7mqyDYWUWjuopV-Pjm.ts",
+  "spade_url": "https://video-edge-4d145f.pdx01.abs.hls.ttvnw.net/v1/segment/CiIUI2KpS1A_o3yVPEKdF-JgmC99g5jiHFcy5fW-JAVE8IxBnYqUpVf4b-uhnanvHK7kKCq12bILFJVogZPlXBMxFBHCrP1V7til5Krwwc7rIbH7kKbfSxdMKAEx6-frNth3pYi3AGR0j2AHBsm1UM7_XHcA5twNKa9uE5MiAfqeF18QWqpF7xtX5TtWCOYzmCmbLBJF_LrAumEexytW7nNuiHdywT-Clh2J1CbYghAIzs3Oisn1bIugENqNmAm19n4NqihFHR0saNn5ZO3Cbi6F3C3a0B_kYM3aZAuc3mpakqBxMukq7TwvyQNu0qJa-c7KNcdYQgbe_7X_jM1iWVwfkFRso7FVmu6LEH1pdLrTKVGKGe1ruBqgSgO1hupgNEC2D5CgcIyTExAy1NzttweZsIDgzzMaI75lfS43ZqSGgdebHOgZGJMBXl9HK_4Eg4P4hDI3N7rMcrKMKeI2EKOY2rZ1bLWYC-jraq4qCpnQyik7WR-0NsYxwJx9OZ4776aYyUVQXS5N_pA9oOty8KtOAaGQzEL_ObkcxOvMNZD61TqmeTEQM92lBDrOzAxhk2n2u_9QYd98Cj52MQ9fdTSNJTOJR1EZsEvZLsrv6X3pS81KN1SGVL8LJ8cgNh2NUuXQ67r6PZEkPRpgeIWJd2j0GHoJ4GXs5xNdXGN53pG1OFaFqBnXgaZU7OopyLtFEMEZ2GnFEnCsfEiJeDXN7Wu0WEPHRKIbgdhRQmUm-ndUof42lg3lhtD_Wo2XhHKu3ZVLnRqNBj_gxtUeJeSjAuW.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -1023,18 +1024,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "on"
-      }]
-    },
-    "12806c8b-99ae-425b-88cc-3a6e4088a1c3": {
-      "name": "cecg_category_suggestions",
-      "v": 20645,
-      "t": 3,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "12a2340d-84c9-42d7-a108-dd24a0c2d2df": {
@@ -3637,16 +3626,16 @@ window.__twilightSettings = {
     },
     "8c49935d-21cd-49a7-b0f8-d514068a5351": {
       "name": "upcoming_schedules_directory_page",
-      "v": 21255,
+      "v": 21340,
       "t": 1,
       "groups": [{
-        "weight": 10,
+        "weight": 0,
         "value": "active"
       }, {
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 90,
+        "weight": 100,
         "value": "active_alt"
       }]
     },
@@ -4465,18 +4454,6 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
-    "b465cff0-db85-49d4-ba60-e23e9e87ddaf": {
-      "name": "cecg_vod_tool_prod",
-      "v": 20772,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "b513457d-752d-4e41-9aae-aeaedd8280e4": {
       "name": "default_emotes_for_new_affiliates",
       "v": 20454,
@@ -4869,13 +4846,13 @@ window.__twilightSettings = {
     },
     "d07845e7-e953-4d39-afcb-1a973549ded5": {
       "name": "subscriber_recap",
-      "v": 19476,
+      "v": 21345,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant 1"
       }]
     },
@@ -5092,7 +5069,7 @@ window.__twilightSettings = {
     },
     "dae30e72-5c82-497a-91ca-9fae23a66b0a": {
       "name": "contribution_matching",
-      "v": 21282,
+      "v": 21354,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -5366,18 +5343,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "on"
-      }]
-    },
-    "eac76aca-8752-4d5c-88e8-723f4d0598b6": {
-      "name": "cecg_vod_tool",
-      "v": 20643,
-      "t": 3,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "eb1b8c9b-cd6d-4221-ac97-4d12883921f1": {
