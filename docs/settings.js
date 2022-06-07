@@ -263,6 +263,7 @@ window.__twilightSettings = {
   "fft_v1_sf": [0, false],
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
+  "Founders_Badge_Revocation_Flag": [0, false],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
@@ -445,7 +446,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-2fac63.pdx01.abs.hls.ttvnw.net/v1/segment/CgMrrliWtc0hZpc5Mz596s8z9gLlw9JhNuBQYXlpiUTcx5UjK33EreGE-qi5Wn5tJMrBqq5aML4CALpLLhr20HQYPvFxuceSl-kI9_f8XpeiGzT3ZRkW0y0p2RqfNAgwoeU-lwN9OvgcqkdDDK0fZRiadAKUD4MdbG0we8B_Ag8jqKXYf8gzffEDqz9k9tHhFjIrLuoLeikfb6kP29WlvkTFIoxHZLDByKiUJ3ade2_2WbYatm2C41SVYxQNM_eKBloueWHpElFbOd89Rcn1UgTdBPYsFqRISrKu6aDP7S1OJ0xqmJbG26EwBzu-2t-qVoiICzmI1H9oTJWw48xWmKOSAzFxFjj9pei6UauLxPl_CIMz0X0Ldh5XGQFfybzef8qM0bmp_zgzqjjbGdp84jLKl9ESUTKLL5R2qppQVRXKG2d2SMne_BrTUbmmGls0OzEas7NDmwyAgzgXrnPtPPZYsfED3XcGp0BFcsSZ9UZVkQxFqMCOaIM44Q8XV94r8mjs9WUL-SGH0WTmfQ4LjoU5CjLx2VvRhmwwAyANMgS62MDBwlg0Nj1WRy1VRecQk0UOoKow2rHC8AkP6MnnMkUbmrWYagkVtOD9UwIWxXaKLcjVZsvt0tTlsCdD-p7pnN6dMseDWCAH7FkrJzk6Dm-6X1V7T5r7ADw2IQ9IQX1gfmfz_lt7oLrDVCSMkIRaA8iKYM6BBtNvLMIk6LhFLhqCwar9PQanf2RW60Np4SYF3k9sgH2sefA28Mkruj27X34cDFPnbyGcAbTEDjoOur6W.ts",
+  "spade_url": "https://video-edge-40ca7b.pdx01.abs.hls.ttvnw.net/v1/segment/CuMizeWIcQPPWizmpC6yOxqr2-tbby3sRHN-tly4HVyPv-R9SaCruq60YIWz8YW0FIezG0EvinAdL_De1XFic3ufpQ6bdaTe2IzIeyZUD7GNmdt8u2USWxAShBUQT5fMRtUIpdl3Vrp2_ZHiN_0Hs-1BctP18hi_4a7R-Ddrn_P-_VOpg0fsYZpjO3CE-XvPKvJ3o1oRyWgI07GFUws5VQNh8bIvxZYuDhJysDcm2T9Uzf_8t8BzqyYff6PM6uNd9lhoUI6XY46nc2C4OC36Un3QQD01fyN8Faeyy7aFSgtGeUCUWzIapf7FZNKw0JFhB9a8nnN8rlT6Th1kXMkj1grf2Gqa1B51wlDiPk3DIPvUjxS1jfK-kmZgey9MGMgHUHigK-lJfatiAUF1y_WfzonCUKBnMMXy7vozoZjNCAOtMPOXo2C2t4NeXNUbw4FK5TK9eED47QPJeTArWdc7ZQl7lgRjcJ9YvuHB05Cnkt2St3dnT4jfVaNAKiKGJMIOmjPGXYQVo6naB6tOSCeb1Nho3qo2HJLgQ8FD31vgxQ3Bby1LKLm8uWKd1EydiCVxy2u-TZGeDD5iXhyeIbwTHCIMC23PRmq4Tx28z7C2JLguSi1uT6LUsD1wKBwG4DrWpxBxWcz1iUl25bQfE38ko0539J4jHM7YJQAKO3XyxtGptKvXg9OXFXr6mGI7_sZOyniEMr8b76qLAJ562XeVbN1vC8aRYgSj3RmaRCvKxIwpJ7UkGZuSdILm81_J6KPtLn.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -457,14 +458,14 @@ window.__twilightSettings = {
   "stream_summary_use_druid": false,
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
-  "studio-front-end-copy-paste": [0, false],
+  "studio-front-end-copy-paste": [1, true],
   "studio_companion_mode": [0, true],
-  "studio_import": [0, false],
+  "studio_import": [0, true],
   "studio_import_changelog_date": "2022-06-21 00:00:00 GMT-0700",
   "studio_layer_rotation_flag": [0, false],
   "studio_multi_methods": [0, false],
-  "studio_native_media_layer": [0, false],
-  "studio_native_text_layer": [0, false],
+  "studio_native_media_layer": [0, true],
+  "studio_native_text_layer": [0, true],
   "studio_onboarding_tutorial_flag": [0, false],
   "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
@@ -2329,6 +2330,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "yes"
+      }]
+    },
+    "4db14a3e-37a0-4e44-8eee-012900479160": {
+      "name": "cecg_stream_summary_email",
+      "v": 21418,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "4ed6d4e5-caa6-4c5f-8880-d376328ffb4a": {
@@ -5581,7 +5594,7 @@ window.__twilightSettings = {
     },
     "f4f60d8d-02e1-49fb-acf2-03150ab04fa5": {
       "name": "studio_layer_rotation",
-      "v": 19763,
+      "v": 21399,
       "t": 2,
       "groups": [{
         "weight": 100,
