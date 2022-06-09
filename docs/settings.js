@@ -263,7 +263,7 @@ window.__twilightSettings = {
   "fft_v1_sf": [0, false],
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
-  "Founders_Badge_Revocation_Flag": [0, true],
+  "Founders_Badge_Revocation_Flag": [0, false],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
@@ -287,6 +287,7 @@ window.__twilightSettings = {
   "is_nami_enabled": [1, true],
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
+  "kpsdk_flag": [0, false],
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
@@ -446,7 +447,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-8d1614.pdx01.abs.hls.ttvnw.net/v1/segment/CptlxeBpDrmmbyfH4TRZVknIMV_-O2BtjtfMB4590dEB6kdaeHpToq96XoPZxQyDVmN_Z7IEGFwEC8I7sgzG_O61kvQ8y2g5hL8uZH12RFbq_wLUZyNe8TUiZFDB478XXk1Mfug5f8y5CEca_CZn7j0Cv2biivpMQ64ZNvPVXJ14jnqVq8JPWQKlyO0IN3Rbg_zWpt2dA24UucsvIJTWQ9w49OUqQST5kwBCSBMI2WW7QXsfQNjFzbv3828lFp9OPd__-gLWBUmnlMXqeax7IFAlHBGr-yXaUZZRYp6pzbgkbPtX_-AwOdG5vac_ay4SiqKPESHlqPlT0a5qdv-EucyQkRBH1Lo-QBKnEvAuD4bMPI32Bdlon97hXDD4WR-h87ySOZ_fhtayQ8OUYRp_Fnsa8xVggmGsWSj2Iza93gpd09gtWZGt98ONBSh45lK51XNlvilh3csS6OQX_6GcSfODQRoTjHEp51QN8Kv2Hf2bMWvGoFGG4Nf-gJDWCDHoR2AvDwMsiB1bbfoZ8WE9OY8L3-QSxpPiM_5mOUlJr07LptC5pSkBzwZaqAZNEWqr_IbXaq8EGfyyxNtPO8aQ0c9YQnqyibOAr3JCx2EcRW_1vOuR1l-L_TuTS66ztMnbUoxWaW_V_Rqm4Bg06JcehBStKvYCEc58i1tjnvnKrk0oBqeq3RhlmYqytpnssC-n5Z1ia6hZYkAsghwzlxUmUQlQLfNM8GIzFkvdqZcNFChxAy_WdsWpkLE3_2QXMaB3VqEi9ebn8uB3Q5bS-0Q_.ts",
+  "spade_url": "https://video-edge-8a5586.pdx01.abs.hls.ttvnw.net/v1/segment/Cgcwr7ZnNP_4wYLHywwxGJdiTAWYTRFD-PSkRyS1WOs0rnKhg379qTmEgPakdX2aYAur6SyAfhM2gbH_VZHyWKhaw_dIgUXHsLpBqk4wlZ7hB--0LGA6akRiR-xgkCO5VT1a7ftFWRuW9UjCzjtrp4zgd_v_TOc-S4O41MQtgidx9SJdgaP9t6FZKxlcBLeIZI_zpFDbOh0x0kkoS9nkZscWGTn558uDpG9OruNspLwhieelUJOB3MZPNfrFQL26eUcR7_dQYQrYDfrw5RoNelk3nDTFBWCD2sIfiYfdhydyxOJXX9ZtJ88VnyJWBmgOz44amsbsy3-CzNnw_Q1TYu66lnz0d5IVV2ZMNuxty20crO9O7jVLReT3VRsdIlWyNNEvfxEW3QHvs6O-5o8nWDsFmUXNaLWwFIo8SP-GzlGHaVal1O2dfnPl4G2nYPFtJmXig6Ml6nDTwc9p8sGYrrJc0DHej-avs3wUYbSfdqyW8LshTnWlSSC2I-JfOV4bAELcybBqxganqz9fmBdpVBCjvxih5doZYjBWDoyBOtuHgT2Zualu59Tjpe6sscZ2kfA79CdmgZhegds7fUYX31uiobWEzBUV8uP_TOmvDnWA_tXHD6WTmUwpAM2BKrhk0OLaOy1lyYKiVxVW4jdPXNBgrFumujUqtROWrvIv8CPktP-0Or20qv0KFbdU1br7_ksMMUAeR6x65aUC-ro7jZNUW6z08ER4W3NfbS52teqqMx8h4oemU8odSKhaZV.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -465,7 +466,7 @@ window.__twilightSettings = {
   "studio_layer_rotation_flag": [0, false],
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [0, true],
-  "studio_native_text_layer": [0.1, true],
+  "studio_native_text_layer": [0.2, true],
   "studio_onboarding_tutorial_flag": [0, false],
   "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
@@ -1720,9 +1721,9 @@ window.__twilightSettings = {
     },
     "30a4fa5c-ae9a-4218-a374-258ea981190a": {
       "name": "last_x_events",
-      "v": 21440,
+      "v": 21473,
       "t": 3,
-      "s": 1,
+      "s": 2,
       "groups": [{
         "weight": 50,
         "value": "control"
@@ -5244,6 +5245,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "no"
+      }]
+    },
+    "e3f4c0c6-3728-451b-8fc3-9ccf2cbf36fa": {
+      "name": "v2_ab_motivation_wg_fresh_thirty_day_streams_card",
+      "v": 21475,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "e3f98642-92df-404b-a7eb-21da0473a96b": {
