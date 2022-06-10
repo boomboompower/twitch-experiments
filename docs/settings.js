@@ -2,6 +2,7 @@ window.__twilightSettings = {
   "environment": "production",
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
+  "ach_migration_to_rarecandy": [0, false],
   "acommand_enabled": true,
   "active_gift_promo_offer_feature_flag": [1, true],
   "activity_feed_qa_ff": [1, true],
@@ -127,7 +128,7 @@ window.__twilightSettings = {
   "cf_wp_retry_count": 3,
   "cg_sku_presentment_part2": true,
   "cg_tools_creator_goals_card": [0, false],
-  "cg_tools_creator_goals_card_AAtest": [1, false],
+  "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
@@ -288,6 +289,7 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "kpsdk_flag": [0, false],
+  "kpsdk_timeout": 15000,
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
@@ -447,7 +449,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-8a5586.pdx01.abs.hls.ttvnw.net/v1/segment/Cgcwr7ZnNP_4wYLHywwxGJdiTAWYTRFD-PSkRyS1WOs0rnKhg379qTmEgPakdX2aYAur6SyAfhM2gbH_VZHyWKhaw_dIgUXHsLpBqk4wlZ7hB--0LGA6akRiR-xgkCO5VT1a7ftFWRuW9UjCzjtrp4zgd_v_TOc-S4O41MQtgidx9SJdgaP9t6FZKxlcBLeIZI_zpFDbOh0x0kkoS9nkZscWGTn558uDpG9OruNspLwhieelUJOB3MZPNfrFQL26eUcR7_dQYQrYDfrw5RoNelk3nDTFBWCD2sIfiYfdhydyxOJXX9ZtJ88VnyJWBmgOz44amsbsy3-CzNnw_Q1TYu66lnz0d5IVV2ZMNuxty20crO9O7jVLReT3VRsdIlWyNNEvfxEW3QHvs6O-5o8nWDsFmUXNaLWwFIo8SP-GzlGHaVal1O2dfnPl4G2nYPFtJmXig6Ml6nDTwc9p8sGYrrJc0DHej-avs3wUYbSfdqyW8LshTnWlSSC2I-JfOV4bAELcybBqxganqz9fmBdpVBCjvxih5doZYjBWDoyBOtuHgT2Zualu59Tjpe6sscZ2kfA79CdmgZhegds7fUYX31uiobWEzBUV8uP_TOmvDnWA_tXHD6WTmUwpAM2BKrhk0OLaOy1lyYKiVxVW4jdPXNBgrFumujUqtROWrvIv8CPktP-0Or20qv0KFbdU1br7_ksMMUAeR6x65aUC-ro7jZNUW6z08ER4W3NfbS52teqqMx8h4oemU8odSKhaZV.ts",
+  "spade_url": "https://video-edge-59eb92.pdx01.abs.hls.ttvnw.net/v1/segment/CtXhX-HNDzEGkSQW4okhPmMAfJ4N3a5Wx75uT_aiHuplkXqGiGvvTloHY5tUDG7k08IwfP38IabSNFReikzo9F3LGNKOX3JGjTCpjyjNt6HmI720qpV12y89A5EADZzIEBtf-s0wY9wPTq6Yh7mI_9kYsjZhD78atigsF2zxdkS4wcmWRp4crXoU_B7SZIJjSoIM9zKQ-CARrOoMtb2SOMbugrBHrry3_3d5eSd38eN_yYoHmHbXFFUz8gESZuxYjXOdsFy7AEHMdM0rJrrOy78MJ6uMBBP_s60hJ_hmAJUZYP6Yy7mXv2qXty7XB19FqBPDH1X6_5uW6GyUgAZBBJ-mKIO7K5FTOiAmVCyWyJUTU_xaCEI4Lbm6b-Y2WexVXu93nwomkOwf6o4ZbJ5I6H8IC_pGMulEkRXAWLAi8lcikTswp4zmqXwBJrEtXpwGthgZFpQEFRI8w0WUOL2ID4AiAKwd_x_OywB5rx22NhrAAXqfFsQH23QJjIAweSej-PdavlGbJBc30bl29uVjElivIm-kN4fzyNPvlUVFQzdHHM0T3TF3aBgqP_uRL6huIaSvP7O1wGPWKJkS0tI1775Z6zfUAtxK11WKn74yHJez0N0RGwnS_Sqh-etaAPxzPAd3RLJwOFGPjPpeEYwxHXDvofC7UGXmHZpBr-eeAeCgT4TQ7iSmUxDjn3TqYiYFSkdTVoEf2c0KHms65Gjee-7fBDyZbZX8BktxWHoiSma6_Or8KUWs4JgjCVhw8Kf9k123KrvNDoPde_Te90R6k.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -466,7 +468,7 @@ window.__twilightSettings = {
   "studio_layer_rotation_flag": [0, false],
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [0, true],
-  "studio_native_text_layer": [0.2, true],
+  "studio_native_text_layer": [0.5, true],
   "studio_onboarding_tutorial_flag": [0, false],
   "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
@@ -783,13 +785,13 @@ window.__twilightSettings = {
     },
     "0bddb46c-0c61-49a2-90f9-c6a91f2f35f2": {
       "name": "cg_tools_features_creator_goals",
-      "v": 21438,
+      "v": 21491,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -3266,7 +3268,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 21304,
+      "v": 21494,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3275,10 +3277,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3381,17 +3383,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 21303,
+      "v": 21493,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }]
     },
@@ -4689,13 +4691,13 @@ window.__twilightSettings = {
     },
     "caec9374-0f39-48fd-a4ba-dc314fc03707": {
       "name": "disco_simplify_logged_out_channel_page_v2",
-      "v": 20903,
+      "v": 21496,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -5249,13 +5251,13 @@ window.__twilightSettings = {
     },
     "e3f4c0c6-3728-451b-8fc3-9ccf2cbf36fa": {
       "name": "v2_ab_motivation_wg_fresh_thirty_day_streams_card",
-      "v": 21475,
+      "v": 21489,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
