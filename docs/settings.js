@@ -82,8 +82,8 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3x_vod_collections_migr_hours": 4,
-  "c3x_vod_collections_migr_state": "notice",
-  "c3x_vod_collections_migr_timestamp": 1655139600010,
+  "c3x_vod_collections_migr_state": "off",
+  "c3x_vod_collections_migr_timestamp": 1655155800482,
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl-staff", "cpt_meticulous", "spontent-staff", "espontent-staff"],
@@ -324,7 +324,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [0, false],
+  "motivation_lvf_flag": [1, false],
   "multi_month_gifting": true,
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
@@ -451,7 +451,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-7f06ad.pdx01.abs.hls.ttvnw.net/v1/segment/Cr-rxA0fPp81duHwTgbn0yW8lppXci_-Eeq0OPbwjts13qqEp7ZnKIeszUgZRjaAvOsi0bJp2HelUgkT_VlkKR1ZPiX_sQ5sM4QTKrOZw-7TqHGf3ExIMz5W55tXdGJrjSCjjZ5wJfgVIZma8Xe6Oef77SFGoL0gFbv5DVGU-_kyZFosMiv9IfDtgzBHRyerubgeXEZW-DA4WyEoZrMu2ezXoTbqR4nBA1IHfiFTplmpswuxfL96GyfemFTTOiwc5HA1lKTbPGY4iihXL4ueSDTqufAS0Zj38Cqt-5F4BkA7YxHrgukzJvrBPT15Jzul5OWd10FITypyAxQX8YheHC5gS3dVNiBQ2XLsHGNmwELuhabR4pSZ9uiT-hbtOU8_RVaNeetAN3tu0ZUbyQ_iQHf8GE-vxGgKwUq3P8XGNBq-frTFx336XlE_Mf0d2jgId-8rkk3vpCui1LsDCKsyJ-eDXc_a1Ep3vg3avlaePgPt64fQZeYYf07Qp1SNgrMrJD4fPzBxz7dTcxyfNeez4iUnZHrnr80JNyVwa4GJZCazyY6j1Z2KJg5HV9B7eAaODxedFclN0NHLwFmMd3okpDw8YTEAvbhV16eZMWP6jo4htg4y6lWDptxyB9vFQzoj50MH3xd8eSXh0hy_5OMr3Y5OzbQqQdLjVokcwKv3Wbg3icy0hr2dazf6APM2HHncfvlS0fAR4c7xqNhpMGyoNPkaXyu_NXaK5sgKhv9f64BY8CwcCNlxDGv7V3_-Zac.ts",
+  "spade_url": "https://video-edge-ed99a3.pdx01.abs.hls.ttvnw.net/v1/segment/Ck_uDLhGQtwUO2_NM66a8b729k6uffWjafOdhm5Z-n7hvCLyCehHziPagGvFjIxUaQUheQ5h3PthW7cdvIVCpSGeaRteV1rF88UufGRz1u-t5z6DuaKUPN-e9ppyXCyLB9l1vSl80xZXpqfxdWWf1jULK2Yk5oidtV816YfCEZUOaBM6UzgYLJsTkMXcpVuEqHmV_tJOGZ_J0JJUFSb5AABEfCUazVCSx6VKvq1mxOq5g8y9ee3BrgZZsAmiEtByjDVe0C3-cdBFDNX2yL3LeDUmAGP9scNxsrwI1AQ_RG_ULLxrASJ_2hJI2FIcfjX7QT2es-jS-hru6qiOdL4e7px1FnN9xj6Iq0nqTuKLGZJ6GuAQq0eHdcKYJQTyfO-TVr6VHw09vxwog5UOnanl_HKPN2jMBLjF_m4Zd5IbYVeD7pZLcLBvtZBYrv6tGV8ZCvRRkbQlsvtJp9Hoall5ADBJTkCm0pHLXOQmhd4AYHQoZqvfB0rxnugxmzaRrWEbid9_vD7tb5CvzVHHoajaL5bl1KEGVppgsE1_5xiNTulKsN-T76GHt_G7f0YxWLqyjjCrbsgaNpFEUeGPT_FB0dWVBKHJIupG4gP_zvXcfw6-DEdmktNt47mw_kzcnj2rNg4dZvp5nRDqP2IwyDb8Yj1VnwD7dfTrM438cUk49pssnp066oEdPBrXJBXFf8Ece7vPe05MIrMT9PU-0vtXaLJtQUCx3ZlTUfJtYDewi5tjA981vIRphgk3sriAmnx5WEFTPSH6UiV2BwOVDY83s41ouL.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -468,6 +468,8 @@ window.__twilightSettings = {
   "studio_import": [0, true],
   "studio_import_changelog_date": "2022-06-21 00:00:00 GMT-0700",
   "studio_layer_rotation_flag": [0, false],
+  "studio_layer_rotation_flag_mac": [0, false],
+  "studio_layer_rotations_changelog_date": "2022-07-25 00:00:00 GMT-0700",
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [0, true],
   "studio_native_text_layer": [1, true],
@@ -1892,6 +1894,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant1"
+      }]
+    },
+    "37f3bb1b-c6c9-4e79-a707-346c41e0ff7d": {
+      "name": "cg_tools_features_creator_goals_launch",
+      "v": 21529,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "38b59330-9056-47a5-a858-615dcd103666": {
@@ -4610,6 +4624,18 @@ window.__twilightSettings = {
         "value": "AAX"
       }]
     },
+    "bffeec9a-486f-4d04-846f-b57cca9bfbee": {
+      "name": "motivation_wg_live_viewer_feedback_v3",
+      "v": 21533,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "variant"
+      }]
+    },
     "c0cc65fb-a706-4f0c-bac4-d92520780a30": {
       "name": "player_desktop_web_disable_dropped_frame_filter",
       "v": 11008,
@@ -5948,14 +5974,14 @@ window.__twilightSettings = {
     },
     "fc1c53d9-b666-41f7-bdbc-90fa2fdbb8f4": {
       "name": "SawmillStaff",
-      "v": 20946,
+      "v": 21528,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }]
     },
