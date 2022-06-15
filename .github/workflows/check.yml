@@ -24,5 +24,6 @@ jobs:
           git config --global user.name 'boomboompower'
           git config --global user.email '12974350+boomboompower@users.noreply.github.com'
           git add docs/settings.js
+          git add docs/production.js
           git commit -m "Automated Update ${{ github.run_number }}"
           git push
