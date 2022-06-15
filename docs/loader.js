@@ -133,7 +133,7 @@ try {
         return window.__twilightSettings.experiments[a].name.toString().localeCompare(window.__twilightSettings.experiments[b].name)
     });
 
-    if (productionExperiments) {
+    if (typeof productionExperiments !== 'undefined') {
         let p = (function() {
             const sortedSelection = [];
             const tasks_map = [];
