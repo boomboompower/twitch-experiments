@@ -32,6 +32,32 @@ const beautifierOptions: JSBeautifyOptions = {
                 process.exit(-1);
             }
         }
+
+        const twilightProd = text.match(/https:\/\/static\.twitchcdn\.net\/assets\/sunlight-main-(?<js>[a-zA-Z0-9]{20})\.js/g)
+
+        if (twilightProd && twilightProd.length > 0) {
+            const nextFetch = await fetch(twilightProd[0]);
+
+            if (nextFetch.ok) {
+                console.log('Downloading new twitch sunlight data', twilightProd[0]);
+
+                const obj = js(await nextFetch.text());
+                const matches = obj.matchAll(/ +(var [a-z] = \(\([a-z] = {}\)|[a-z])\.[0-9a-zA-Z_-]+ = {\n +id: "(?<id>[0-9A-Za-z-_]+)",\n +default: "[0-9A-Za-z-_ ]+",?(\n +staffOverride: "[0-9A-Za-z-_ ]+")?\n +}/gm);
+
+                let current = matches.next();
+                let productionExperiments = [];
+
+                while (!current.done) {
+                    productionExperiments.push(current.value.groups.id);
+
+                    current = matches.next();
+                }
+
+                writeFileSync(resolve('docs', 'production.js'), `const productionExperiments = ${JSON.stringify(productionExperiments, null, 4)}`, {encoding: "utf8"})
+            } else {
+                console.error('No updating done for experiments.');
+            }
+        }
     } else {
         process.exit(-1);
     }

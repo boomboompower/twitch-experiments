@@ -1,107 +1,37 @@
-<body>
-    <div style="padding: 10px;" id="overrides"></div>
-    <div style="position: fixed; right: 50px; ">
-        <h1>Resulting Cookie</h1>
-        <textarea id="result" aria-label="Cookie" style="resize: none; width: 500px; height: 300px; "></textarea>
-    </div>
-    <script src="settings.js"></script>
-    <script>
-        try {
-            document.body.style.fontFamily = 'monospace';
-            document.body.style.display = 'flex'
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Twitch Cookie Generator</title>
 
-            const overridesElement = document.getElementById('overrides')
-            const resultingText = document.getElementById('result');
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="core.css">
+    </head>
+    <body>
+        <main>
+            <h1>Twitch Experiment Overrides</h1>
+            <button id="copy">Copy Cookie</button>
+            <div class="meta" style="margin: 15px 0">
+                <div>&#x26A0;&#xFE0F; You are responsible for what you do on your twitch account, use these overrides with caution. &#x26A0;&#xFE0F;</div>
+                <div>&#x26A0;&#xFE0F; I am not responsible for any account terminations which may occur from this tool. &#x26A0;&#xFE0F;</div>
+            </div>
+            <div class="meta">
+                <span>A tool which allows you to generate a cookie to override experiments on the twitch website.</span>
 
-            let overridenExperiments = {}
+                <blockquote>1. Select all the overrides you would like to use</blockquote>
+                <blockquote>2. Click the "Copy Cookie" button</blockquote>
+                <blockquote>3. Paste these into the relevant location on the twitch website</blockquote>
+                <blockquote>4. Profit</blockquote>
+            </div>
+            <div class="meta" id="calculation"></div>
 
-            function resetCookie() {
-                const o = {
-                    experiments: {},
-                    disabled: []
-                }
-
-                for (const exp of Object.keys(overridenExperiments)) {
-                    o.experiments[exp] = overridenExperiments[exp];
-                }
-
-                resultingText.textContent = JSON.stringify(o).replaceAll(/["]/g, '%22').replaceAll(/[,]/g, '%2C');
-            }
-
-            const keys = Object.keys(window.__twilightSettings.experiments);
-
-            // Sort by experiment name
-            keys.sort((a, b) => {
-                return window.__twilightSettings.experiments[a].name.toString().localeCompare(window.__twilightSettings.experiments[b].name)
-            });
-
-
-
-            for (const experimentKey of keys) {
-                const experiment = window.__twilightSettings.experiments[experimentKey];
-
-                const wrap = document.createElement('div');
-                const o = document.createElement("div");
-                const opts = document.createElement('ul')
-
-                o.style.fontWeight = 'bold'
-                o.innerText = experiment.name;
-
-                let largestWeight = document.createElement('li');
-                let largestWeightVal = 0;
-
-                for (const group of experiment.groups) {
-                    const ok = document.createElement('li')
-                    const textVal = document.createElement('span');
-                    const override = document.createElement('a');
-
-                    if (group.weight > largestWeightVal) {
-                        largestWeightVal = group.weight;
-                        largestWeight = ok;
-                    }
-
-                    override.href = '#1';
-                    override.innerText = 'Override'
-
-                    override.addEventListener('click', (e) => {
-                        if (largestWeight === ok) {
-                            return;
-                        }
-
-                        e.preventDefault();
-
-                        overridenExperiments[experimentKey] = group.value;
-
-                        resetCookie();
-                    })
-
-                    textVal.innerText = group.value + ": " + group.weight + " - ";
-
-                    ok.appendChild(textVal);
-                    ok.appendChild(override);
-                    opts.appendChild(ok)
-                }
-
-                largestWeight.addEventListener('click', (e) => {
-                    e.preventDefault();
-
-                    delete overridenExperiments[experimentKey];
-
-                    resetCookie();
-                })
-
-                largestWeight.lastElementChild.innerText = '#'
-                largestWeight.style.fontWeight = 'bold'
-
-                wrap.appendChild(o)
-                wrap.appendChild(opts)
-
-                overridesElement.appendChild(wrap);
-
-                resetCookie()
-            }
-        } catch (e) {
-            document.write(e.toString())
-        }
-    </script>
-</body>
+            <div id="overrides"></div>
+        </main>
+        <footer>
+            <div>&copy; MIT License - Designed by boomboompower</div>
+            <div>This service is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the twitch.tv service or any of its subsidiaries or its affiliates.</div>
+        </footer>
+        <script src="production.js"></script>
+        <script src="settings.js"></script>
+        <script src="loader.js"></script>
+    </body>
+</html>
