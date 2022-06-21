@@ -98,11 +98,7 @@ try {
 
                 lastSelected = ok;
 
-                if (ok === largestWeight) {
-                    delete overridenExperiments[experimentKey];
-                } else {
-                    overridenExperiments[experimentKey] = group.value;
-                }
+                overridenExperiments[experimentKey] = group.value;
 
                 resetCookie();
             })
