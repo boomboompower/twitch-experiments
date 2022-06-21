@@ -42,7 +42,7 @@ try {
         }, 1200)
     }
 
-    function getExperimentObject(experiment, experimentKey, experimentName = undefined, index = -1) {
+    function getExperimentObject(experiment, experimentKey, experimentName = undefined, index = -1, staffOverride = undefined) {
         const wrap = document.createElement('div');
         const nameDiv = document.createElement('div');
         const opts = document.createElement('form')
@@ -53,6 +53,7 @@ try {
 
             nameDiv.style.padding = '0';
 
+            indexDiv.style.userSelect = 'none';
             indexDiv.style.display = 'inline-block';
             indexDiv.style.padding = '5px';
             indexDiv.style.fontSize = '0.8rem'
@@ -87,6 +88,10 @@ try {
 
             label.innerText = group.value + ": " + group.weight;
             label.setAttribute('for', experimentKey + '-' + group.value);
+
+            if (staffOverride === group.value) {
+                label.classList.add('staff');
+            }
 
             if (group.weight > largestWeightVal) {
                 largestWeightVal = group.weight;
@@ -143,7 +148,7 @@ try {
                 const unregisteredExperiments = [];
                 const servingOneList = [];
                 const defaults = [...keys].filter(function (i) {
-                    const n = !!productionExperiments.includes(i);
+                    const n = !!productionExperiments.find((a) => { return a.id === i });
 
                     n || unregisteredExperiments.push(window.__twilightSettings.experiments[i])
 
@@ -160,7 +165,8 @@ try {
                         key: i,
                         name: n.name + " - " + i,
                         data: n,
-                        servingOneGroup: e
+                        servingOneGroup: e,
+                        staffOverride: productionExperiments.find((a) => { return a.id === i })?.staffOverride
                     };
 
                     e && servingOneList.push(t)
@@ -207,7 +213,7 @@ try {
                 let i = 0;
 
                 for (const experiment of activeExperiments) {
-                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i);
+                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i, experiment.staffOverride);
 
                     overridesElement.appendChild(wrap);
                 }

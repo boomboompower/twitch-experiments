@@ -42,13 +42,18 @@ const beautifierOptions: JSBeautifyOptions = {
                 console.log('Downloading new twitch sunlight data', twilightProd[0]);
 
                 const obj = js(await nextFetch.text());
-                const matches = obj.matchAll(/ +(var [a-z] = \(\([a-z] = {}\)|[a-z])\.[0-9a-zA-Z_-]+ = {\n +id: "(?<id>[0-9A-Za-z-_]+)",\n +default: "[0-9A-Za-z-_ ]+",?(\n +staffOverride: "[0-9A-Za-z-_ ]+")?\n +}/gm);
+                const matches = obj.matchAll(/ +(var [a-z] = \(\([a-z] = {}\)|[a-z])(\n +)?(\.|\[")[0-9a-zA-Z_\-.]+("])? = {\n +id: "(?<id>[0-9A-Za-z-_]+)",\n +default: "[0-9A-Za-z-_ ]+",?(\n +staffOverride: "(?<staff>[0-9A-Za-z-_ ]+)")?\n +}/gm);
 
                 let current = matches.next();
                 let productionExperiments = [];
 
                 while (!current.done) {
-                    productionExperiments.push(current.value.groups.id);
+                    productionExperiments.push(
+                        {
+                            id: current.value.groups.id,
+                            staffOverride: current.value.groups.staff
+                        }
+                    );
 
                     current = matches.next();
                 }
