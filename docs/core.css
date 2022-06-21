@@ -13,7 +13,7 @@ main, footer {
     margin: 0 auto;
 }
 
-main > button {
+main > button, main > select {
     float: right;
 }
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-button {
+button, select {
     background: #9147ff;
     color: #efeff1;
 
@@ -73,6 +73,17 @@ button {
     box-shadow: rgba(0, 0, 0, 0.2) 0 7px 29px 0;
 
     transition: background 200ms ease 0ms;
+}
+
+select {
+    text-align: center;
+    margin: 0 10px;
+
+    background: #4766ff;
+}
+
+select > option {
+    text-align: left;
 }
 
 button:hover {
@@ -91,6 +102,10 @@ button:hover {
     margin-left: 15px;
     position: relative;
     top: -4px
+}
+
+blockquote b {
+    color: #ce5855
 }
 
 footer {
@@ -114,6 +129,15 @@ footer {
         width: 100%;
 
         font-size: 12px;
+    }
+
+    select {
+        text-align: center;
+
+        display: block;
+        margin: 5px 0 20px 0;
+        width: 100%;
+        font-size: 14px;
     }
 
     blockquote {

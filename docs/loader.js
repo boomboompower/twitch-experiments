@@ -2,8 +2,10 @@ try {
     const overridesElement = document.getElementById('overrides')
     const copyButton = document.getElementById('copy');
     const calculationDiv = document.getElementById('calculation');
+    const filterDiv = document.getElementById('filter');
 
     let overridenExperiments = {};
+    let calculationDone = false;
     let currentCookie = "";
 
     function resetCookie() {
@@ -129,104 +131,135 @@ try {
         return window.__twilightSettings.experiments[a].name.toString().localeCompare(window.__twilightSettings.experiments[b].name)
     });
 
-    if (typeof productionExperiments !== 'undefined') {
-        let p = (function() {
-            const sortedSelection = [];
-            const tasks_map = [];
-            const defaults = keys.filter(function (i) {
-                const n = !!productionExperiments.includes(i);
+    filterDiv.addEventListener('change', () => {
+        drawExperiments(filterDiv.selectedIndex)
+    })
 
-                n || sortedSelection.push(window.__twilightSettings.experiments[i])
+    function drawExperiments(index = 0) {
+        overridesElement.innerHTML = '';
 
-                return n;
-            }).map(function (i) {
-                const n = window.__twilightSettings.experiments[i];
-                const e = function (g) {
-                    return g.groups.filter(function (consideration) {
-                        return 0 === consideration.weight;
-                    }).length >= g.groups.length - 1;
-                }(n);
-                const t = {
-                    type: 'Experiment',
-                    key: i,
-                    name: n.name + " - " + i,
-                    data: n,
-                    servingOneGroup: e
+        if (typeof productionExperiments !== 'undefined') {
+            let p = (function() {
+                const unregisteredExperiments = [];
+                const servingOneList = [];
+                const defaults = [...keys].filter(function (i) {
+                    const n = !!productionExperiments.includes(i);
+
+                    n || unregisteredExperiments.push(window.__twilightSettings.experiments[i])
+
+                    return n;
+                }).map(function (i) {
+                    const n = window.__twilightSettings.experiments[i];
+                    const e = function (g) {
+                        return g.groups.filter(function (consideration) {
+                            return 0 === consideration.weight;
+                        }).length >= g.groups.length - 1;
+                    }(n);
+                    const t = {
+                        type: 'Experiment',
+                        key: i,
+                        name: n.name + " - " + i,
+                        data: n,
+                        servingOneGroup: e
+                    };
+
+                    e && servingOneList.push(t)
+
+                    return t;
+                });
+                return {
+                    unregistered: unregisteredExperiments,
+                    servingOne: servingOneList,
+                    defaults: defaults
                 };
+            }());
 
-                e && tasks_map.push(t)
+            function getInactiveExperiments() {
+                let o = [];
 
-                return t;
-            });
-            return {
-                unregistered: sortedSelection,
-                servingOne: tasks_map,
-                defaults: defaults
-            };
-        }());
+                for (const unregistered of p.unregistered) {
+                    o.push(
+                        {
+                            type: 'Experiment',
+                            key: unregistered,
+                            name: unregistered.name,
+                            data: unregistered,
+                            servingOneGroup: false
+                        }
+                    );
+                }
 
-        const activeExperiments = p.defaults.filter(function (insExt) {
-            return !p.servingOne.find(function (npmExt) {
-                return npmExt.name === insExt.name;
-            });
-        });
+                return o;
+            }
 
-        const countSpan = document.createElement('span');
+            const activeExperiments = index === 0 ? p.defaults.filter(function (insExt) {
+                return !p.servingOne.find(function (npmExt) {
+                    return npmExt.name === insExt.name;
+                });
+            }) : index === 1 ? p.servingOne : getInactiveExperiments();
 
-        const countPerRow = p.unregistered.length + p.defaults.length;
-        const bloat = (100 - activeExperiments.length / countPerRow * 100).toPrecision(3);
+            const countSpan = document.createElement('span');
 
-        if (activeExperiments.length > 0) {
-            let i = 0;
+            const countPerRow = p.unregistered.length + p.defaults.length;
+            const bloat = (100 - activeExperiments.length / countPerRow * 100).toPrecision(3);
 
-            for (const experiment of activeExperiments) {
-                const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i);
+            if (activeExperiments.length > 0) {
+                let i = 0;
+
+                for (const experiment of activeExperiments) {
+                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i);
+
+                    overridesElement.appendChild(wrap);
+                }
+
+                if (calculationDiv && !calculationDone) {
+                    if (bloat > 80) {
+                        countSpan.style.color = '#ff8280';
+                    } else if (bloat > 50) {
+                        countSpan.style.color = '#e69900';
+                    } else {
+                        countSpan.style.color = '#00c274';
+                    }
+
+                    countSpan.innerText = bloat + '%';
+
+                    calculationDiv.appendChild(document.createTextNode('Experiment bloat is at '));
+                    calculationDiv.appendChild(countSpan);
+                }
+            } else {
+                const countSpan = document.createElement('span');
+                countSpan.style.color = '#ff8280';
+                countSpan.innerText = 'zero';
+
+                copyButton.style.display = 'none';
+
+                if (calculationDiv && !calculationDone) {
+                    calculationDiv.appendChild(document.createTextNode('There are currently '));
+                    calculationDiv.appendChild(countSpan);
+                    calculationDiv.appendChild(document.createTextNode(' active experiments'));
+                }
+            }
+
+            if (calculationDiv && !calculationDone) {
+                calculationDiv.appendChild(document.createTextNode('. ('));
+                calculationDiv.appendChild(document.createTextNode(activeExperiments.length + ' of ' + countPerRow));
+                calculationDiv.appendChild(document.createTextNode(' experiments being used.)'));
+
+                calculationDone = true;
+            }
+        } else {
+            filterDiv.style.display = 'none';
+
+            for (const experimentKey of keys) {
+                const experiment = window.__twilightSettings.experiments[experimentKey];
+                const wrap = getExperimentObject(experiment, experimentKey);
 
                 overridesElement.appendChild(wrap);
             }
-
-            if (calculationDiv) {
-                if (bloat > 80) {
-                    countSpan.style.color = '#ff8280';
-                } else if (bloat > 50) {
-                    countSpan.style.color = '#e69900';
-                } else {
-                    countSpan.style.color = '#00c274';
-                }
-
-                countSpan.innerText = bloat + '%';
-
-                calculationDiv.appendChild(document.createTextNode('Experiment bloat is at '));
-                calculationDiv.appendChild(countSpan);
-            }
-        } else {
-            const countSpan = document.createElement('span');
-            countSpan.style.color = '#ff8280';
-            countSpan.innerText = 'zero';
-
-            copyButton.style.display = 'none';
-
-            if (calculationDiv) {
-                calculationDiv.appendChild(document.createTextNode('There are currently '));
-                calculationDiv.appendChild(countSpan);
-                calculationDiv.appendChild(document.createTextNode(' active experiments'));
-            }
-        }
-
-        if (calculationDiv) {
-            calculationDiv.appendChild(document.createTextNode('. ('));
-            calculationDiv.appendChild(document.createTextNode(activeExperiments.length + ' of ' + countPerRow));
-            calculationDiv.appendChild(document.createTextNode(' experiments being used.)'));
-        }
-    } else {
-        for (const experimentKey of keys) {
-            const experiment = window.__twilightSettings.experiments[experimentKey];
-            const wrap = getExperimentObject(experiment, experimentKey);
-
-            overridesElement.appendChild(wrap);
         }
     }
 
+    drawExperiments();
     resetCookie()
 } catch (e) {
     document.write(e.toString())

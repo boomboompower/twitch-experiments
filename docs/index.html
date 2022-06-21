@@ -10,6 +10,11 @@
         <main>
             <h1>Twitch Experiment Overrides</h1>
             <button id="copy">Copy Cookie</button>
+            <select aria-label="Filter" id="filter">
+                <option title="These experiments are serving different experiences to our users to make sure our features and changes are valuable to our users.">Active</option>
+                <option title="These experiments are serving the same experience to all our users. This means we don't need the experiment code or configurations to exist.">Serving One</option>
+                <option title="These experiments aren't referenced at all in Twitch, but the configurations for them are still sent to every client who loads up Twitch.tv.">Unregistered</option>
+            </select>
             <div class="meta" style="margin: 15px 0">
                 <div>&#x26A0;&#xFE0F; You are responsible for what you do on your twitch account, use these overrides with caution. &#x26A0;&#xFE0F;</div>
                 <div>&#x26A0;&#xFE0F; I am not responsible for any account terminations which may occur from this tool. &#x26A0;&#xFE0F;</div>
@@ -20,10 +25,11 @@
                 <blockquote>1. Select all the overrides you would like to use</blockquote>
                 <blockquote>2. Click the "Copy Cookie" button</blockquote>
                 <blockquote>3. Paste these into the relevant location on the twitch website</blockquote>
+                <blockquote>5. You can optionally filter to include all experiments however this <b>will</b> lag mobile devices.</blockquote>
                 <blockquote>4. Profit</blockquote>
             </div>
+            
             <div class="meta" id="calculation"></div>
-
             <div id="overrides"></div>
         </main>
         <footer>
