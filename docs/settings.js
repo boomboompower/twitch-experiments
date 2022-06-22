@@ -14,6 +14,7 @@ window.__twilightSettings = {
   "ads_bonus_end_date": "2021-12-31T08:00:00Z",
   "ads_bonus_start_date": "2021-11-01T07:00:00Z",
   "ads_infobox_enabled": [1, false],
+  "ads_preroll_timeline_enabled": [0, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
   "alert_settings_modal": [1, true],
@@ -127,8 +128,8 @@ window.__twilightSettings = {
   "cf_wp_m4_channel_page_integration": [1, true],
   "cf_wp_retry_count": 3,
   "cg_sku_presentment_part2": true,
-  "cg_tools_creator_goals_card": [0, false],
-  "cg_tools_creator_goals_card_AAtest": [0, false],
+  "cg_tools_creator_goals_card": [1, false],
+  "cg_tools_creator_goals_card_AAtest": [1, false],
   "cg_tools_dashboard_search": [0, false],
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
@@ -451,7 +452,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-c2104a.pdx01.abs.hls.ttvnw.net/v1/segment/ClzJEk8uSby0V3SqIbjGM3aC7FxcvHRf-qG3Gj3PN7WUipxTs4JxLEgBVzg6Mevg9HyJhQJK9tLJD79SsNyyaFYQ_u8bIaLtQyxh778rAqFWv9HKC_jPI1OYC-vttPZC6mytKHiETeYwxLnEkTH2v6-oMDI2t9HYwTIw_UFwKis5yA5ARhxx2duDuN_kAd1LcYMpm-bFEtG7ZNm7hmkk5z9kF15_i4QYQaYxitM8IfYwNfiQlJMBA7_QlUW3bdAETGQMRMwIKX4-s3KsKBaDksnWbCYjLUIbAz6-72dwnjQlyNglTaoJ7A5Cd7F122RwJNAGxXQ4CKYjRo88QxBmqqcI0uGAWrNneMWqei7LeI1SJNn2eQ6XMBOFxGolphRNGVyAPWH0BQ8e8CLv9a-3mAzQynl7sNuyPkes-1soAGl_r8avf5tf81jWvUsuvzA2XafUVTSm4XTUcIi9xg5BghlWL18TVL8YfvP_gN8indKBj4GhzdJgKX1Rp5k9bieHXVbnN_GsLlmJnMozjppy2YulFdOM1XjjXEHIPQsove71i0MuhLQBx9VyIBXmDpRPzMRnitgD1PMTOkT9x9lyuqoj2m6URJ5U41ZIYC2CyBVtte0E0GMUQYHyipL1eNkaw1zVHYOyDRHL6lz7R87GEEO28ea9BqYP_xDekLmilWLiX70jvhjuZWkLVhnQDFQ9DmRYphRca29HjcrdrEsW69F2t70s2iWuErwQftVo2aFTBTrchXoLlT0cmeo.ts",
+  "spade_url": "https://video-edge-878d67.pdx01.abs.hls.ttvnw.net/v1/segment/Clwmw9vNVuI8kTvQgWO0VZDIiBAlz5Ir03OUCtbaQzgiTiJmegvIbMwFsPyga0NTNNbuEoFUm550ZX81a3D8-UVcxYihBWlCKy9yraEKbttOi6hRbtVIY0mFnSbadcfv9QPCJASlnEC5YyR5nHj1SKEYcdbsCxAlradhRBh4_wNfgN6wlLGL6ygwzUGM4oa8xVdyFUfoKgNYlAR71-SfuU0oGSk_vC5gABEcYUulbEtl1wavolGZrwfcNkeaEhlmyWuJ_UFzz7RYJAmKANtAt9r1eUr1reIGUddj1aqlY9NmFP2gtJZmzaPWEDdUXkEzZR_iUnx4banjgyPM-fX4-CE2v1uafQCZp0PARVGqCCUVdIbNbjb2O_Ne-p-oYBZdOYlq6AUgwI2cyJptemXgr1R1wZdjeptg_8J3r49aVqJ6mkP0gt8XC8Jln4uGR0x_bjs912pJg89WLMsb4nsQx6xLPh-5zkdTg9McXlDt4vUUcePqXlIWBgm-bLEnKnQHTE0AsYHIzc2oPnritsWRzRZF4W_z1dwviOU6ABRgVqZJPt5khLsjOiT5VHgFjhvJlUXT6h1MQEePaz9NkF4va8IiRH95faJI8i1yfJIVTHl_np702206-LGk7UR_1JGh0hRMjIGjZ70ROEmnzB5aXZVKXLu0es6Ec_CmCnfPEXQJ1gtZzQ0DW-VJbNtxd3ZK87HtCPOY4E9LgWKu0bhdE8tD2BvDQK3_NfdHbKR3rRdKx0uSSgcJV.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -471,7 +472,7 @@ window.__twilightSettings = {
   "studio_layer_rotation_flag_mac": [0, false],
   "studio_layer_rotations_changelog_date": "2022-06-15 00:00:00 GMT-0700",
   "studio_multi_methods": [0, false],
-  "studio_native_media_layer": [0.5, true],
+  "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
   "studio_onboarding_tutorial_flag": [0, false],
   "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
@@ -4796,16 +4797,16 @@ window.__twilightSettings = {
     },
     "cc339232-6c9f-4a36-b443-09c082651472": {
       "name": "seamless_subscription_upgrades",
-      "v": 21670,
+      "v": 21690,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
         "weight": 0,
         "value": "tabs"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "extra_button"
       }]
     },
@@ -5371,13 +5372,13 @@ window.__twilightSettings = {
     },
     "e51fb97f-1dcd-4ba6-8177-81a911b6bf7d": {
       "name": "disco_channel_switcher_logged_in",
-      "v": 21618,
+      "v": 21692,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant1"
       }]
     },
