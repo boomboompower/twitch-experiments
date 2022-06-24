@@ -13,7 +13,6 @@ window.__twilightSettings = {
   "ads_bonus_enabled": [0, false],
   "ads_bonus_end_date": "2021-12-31T08:00:00Z",
   "ads_bonus_start_date": "2021-11-01T07:00:00Z",
-  "ads_infobox_enabled": [1, false],
   "ads_preroll_timeline_enabled": [0, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
@@ -353,7 +352,7 @@ window.__twilightSettings = {
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
-  "payment_methods_migration": [0.1, true],
+  "payment_methods_migration": [0.5, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_transparency": [1, true],
@@ -452,7 +451,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-3f997a.pdx01.abs.hls.ttvnw.net/v1/segment/CpSVAfUdofNA-_RfD_8hRQ2sUU57vUKDgA2UOX15vO-KZvCBsPKUJYCs59AH3eNMgsTLmrucsRpQCEpf5aswU8oAdg2p9blHRosDsTzKIuZD6EJCkyAte86pBv9T0oE-SKHpCUpcFfWtzavq17up1jZsfQlVQl_gsQn2BOh8YkIF3S0ZH2LgdEYheu2tnxQcpqb7V9PpG95Nz-OTn2ZWtWA6MC_faHRIsVqS6walLf8ZvRY_GDnER4CpR_J9Z2qsn2_Wsp8QnQHzRVjF8BZXyyBOCQUcMhn7Ws7Neesgwi9eKUmYZoBT6VzENUq-BFp6xg25bbXbXjNUqiiqa15JqoA3UNDT6595FfrPLTcT_vY6E9_xIFZBlT_-hJKB2ykTbJdvDhXH7LOP36tB0eX6YMCrDPTniyjDk8kY4zmmTYo0Zl6ohEEmlSuYEcDwuxS8GAXxAHd0Ni8ftUTCEg416tDCVI_98jgqHos6n-DfHymU2eR3kRCu35a-SsxLhrYVV4X_0YpwHmrjVUjMSVZ3id5_cJV10VWO0x9JnoK0jOsD3sB6doyWQNqv-3ZtjkkjuiMAI1q1NuncUnKfc7N8cUKA3vXK6pToFw0u28qoWWFtaL14MiCW1irx5FLrO7bVtFoBOard3-EGI3JA2QW_IN2YaD2jjlV6M0O53LmWM-ZQWXVW8kHH5-D2OH_DCstZc_ZXgNEcrihF53dutbSjdwkDfk_litwSKamB1HW1fhgvZoXJWB4vH_sCSn5VZcKG.ts",
+  "spade_url": "https://video-edge-a711d4.pdx01.abs.hls.ttvnw.net/v1/segment/Co03jkyqUDVYM59-evQshVP2JCkJ1zNmX56UDjaiktFo9XirvvWcPDXAu1-PDAwgVK8lkqV5UEdLRtMzl4rIdI_sDGxSr7SVLqzG3SpLWL6kBYdAHi1k2HsHjt0QiW6kiyZY99TjHlgfac_zzLQ1MqetKndU51viijkMjIFvc--vB8Df_PkA8UrgpsodviXYFw-6ei25mYcwXjiUFygPQsBj5_cXlRGbDWkHIqEihRC9xwOV0mCMajeebtdNHRUPPqzSO2UT2RP8ZwZvEq73ZptFE_h6lvaLz5_K3RoZXK9dWghu0ddDhKdgInZ46rJFtUtI9lDhd40h0O5izVG5jwNVC4S28dNapW2Gnftxw7Ps9TUtYL70aSKrjQVOOw94m4j_IMkqCl1BsRhlfdKsVP35RF7c5Z1VFIJIV15NaitLbBWiDnJuHqxiDLC4bL9tE1ftS5w1ytuYUgZ2XJkNd-6GMlmiH2saCfGMazhKY0vuLRKkvruZrFEKDeKLz5vIuTM3k9WpJmLXAOSU0KShwwmhhlDk1-pIlgudPaz96KRQiqMzotDNyLadzTV0uyhXmFcxeW_8oJwGDy4vVRcEqBYZZjc1Ws8-tFQv0t7FWYDh7R-cQUCCRfTEOKAz9VXifx2_jdmWEF1pYPqOglIljLM8m5fx0iCM2hM0lYU_HJdqtYKeWbuN05fFlKA7XQz35DwTBr_MyKFQNXgdioWzGh2rICuLNPEwtPJzE3S9SLPkOcIhkk0Ng1Vtdox4hGRoBlCz9vOIAHroN5j.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -466,7 +465,7 @@ window.__twilightSettings = {
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
   "studio_companion_mode": [0, true],
-  "studio_import": [0.25, true],
+  "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_layer_rotation_flag": [1, true],
   "studio_layer_rotation_flag_mac": [0, false],
@@ -3311,19 +3310,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 21732,
+      "v": 21756,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3426,17 +3425,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 21733,
+      "v": 21757,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
