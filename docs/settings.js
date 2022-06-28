@@ -177,7 +177,6 @@ window.__twilightSettings = {
   "copo_spectator_mode": [1, true],
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
-  "creative_vert": [0, false],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat_highlights": [1, false],
@@ -353,7 +352,7 @@ window.__twilightSettings = {
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
-  "payment_methods_migration": [0.5, true],
+  "payment_methods_migration": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_transparency": [1, true],
@@ -452,7 +451,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-691869.pdx01.abs.hls.ttvnw.net/v1/segment/CtSMB2_1hfxteqpk5SvAHrMk65oitFnqfy-l62Yl15oOGm3wPBGmztRYfviE4IkynlGJkLVJyUIR52dBMIp2IAEB2_2fgX0aZUAt1KFxgHPVWi5ZPlB439N-W3YfpWZQnjRhIamvs31PaWQLD2wVnlJfcV8QpiquuqmQqrr3KDzzw0RtDDgz0KE075ibAtwHHq2Z2EADxnv-SvnMtSaGkpeoUwheukp_rmuHF9VRz5N7HIMLD5jzLPzOHe1QcuaRV9NJl9otlUUkW_lnnx9Y71KGnHLCVVuFtGZcesIbX7_r9MbcuTTW8soPUfip_S_ZbRS7sgivK0WqNa2EHY5qNkL4CC1xZdh10hwoaQIYA_Sin4jq4oj2kUCrrG_PU-bQMJEUIDf1Oqq4TFLFD7YZLARebJK1ETXX4yOpwnugL42z931696VZqKwVhIbO2YQ9o-gynHIV69KXplr4-4EDVIyM-OCxwBs4MGTGCRspRrWAEQlpzN8bGUCbGkxouwOu7cbdKQPmdBnv09SqQ04gGa4tO0Xcm3PqjdNHQIsaOedc3rEBPyXjmW5__BoPfwCdC2zSh63KozHTvumnzrUYxljfGI5I5ByfH0KiqI3e2C3R0yKGRSG3bLhdvhaEFzx864sAHI7bPd5Edk__YRpMjb63FgAuVMZDDf82VE8yn8CbFZaNL5r4Q8EV728wfYtdtCTyjCn76GxQDIWp4s7lqUeayAWiRFivD8n2Rex87dOFN4t1vchrYeo.ts",
+  "spade_url": "https://video-edge-0bd9c3.pdx01.abs.hls.ttvnw.net/v1/segment/CmDVgQcEuIOWk07SCnHgzaJIWiDga-V_apafItIrPybKZ9SE0XwBqdTbFhCAkL1boID6qF7YWTtRaeUHHFTjDcEy1bPaWND4T5gkSyJ3QatrFKo-775iV21X5VQX_aUgX4fWk4OKfEjHY1NaolYX1kEt-wb8tNlPYfovC5V4ZEfZUNDwWxGdVmmtxzi8ZkTyMm7oyLDT7co4mbXAbKZtoRMAFwtNjjignIuds8awp6LXLf_OcMDNHQKSMDl1l91_tTlGev1EOZBbWO8bTcuzx9S7K96ZKUyMyo4MRFxhAGleNhICWAUnQIkAXrqX6v4wLvfYO0IaqmetT1PGY0btccRZAnJSH9y__B78vU9-1LwNwa9rNmL5pqcCuQ7ZjlhpaOoikUO0igOcDHVAeg_HZslBK78oXpYHgq_HELi3ztU22zz3bWSISkLqCieMwHVmFNpXPryftTs9F8u6qdY3ciH_oOH8QefkaoIUWvj0cmznI2UINjAak2DaQk-HlLYBurfypv1fpl9JJBRfZOufrfsph537c2aj0ThH8r90HkS71krUYaoieMfTJN41q1_RwdaOX7IEdLzKfJIFLzA5GMx-z79i2M3l4lbW9c5XUH2gL3v6qlFkmbpfX-4kH3FE5Sk7RNS3HyTvySqUtZWwDArBHKwQjlfVXwxFZPHlBDwk_X5plTa5-JbOOhkmMUw9ZZibhGReSEPYrsZz6WYnglKbfv9IJtntOqncPKByqRiUqg_9NsfogAbLUZIYZy12oR0y4.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -2229,28 +2228,28 @@ window.__twilightSettings = {
     },
     "4a21eec0-1de5-469e-b755-0d1087bbf18b": {
       "name": "one_click",
-      "v": 21241,
+      "v": 21797,
       "t": 1,
       "groups": [{
-        "weight": 25,
+        "weight": 15,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 15,
         "value": "experiment"
       }, {
-        "weight": 20,
+        "weight": 55,
         "value": "variant_1"
       }, {
-        "weight": 20,
+        "weight": 15,
         "value": "variant_2"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "experiment"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant_1"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant_2"
       }]
     },
