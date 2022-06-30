@@ -425,6 +425,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
+  "rpt_messaging": false,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
   "Sandboxed_OMSDK_vendors_in_Twilight": ["IAS", "amazon.com-omid"],
@@ -451,7 +452,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-18de92.pdx01.abs.hls.ttvnw.net/v1/segment/CrRZx_8su4Pk5bFCRSvZlGjoG-23qlR4KXnv2oDtlMj2vgUD_HldqwLmRgy2LOUTvsyP_4HGPhOkNQivhsdqJe7yvP-F3yY7HNmdL9f-YXJktqLmLVSPk5Ra-svWRZmXn-ZAFd6VEhFj8H-yNJu3YgjnNtj-NOrfsEIwaq_MI4LMVyAqQKhkhdv7g0EFHtkhbjMoCFAA0K35y-nrVMEFJLQmrodiFCiELsBKA6VgCqHMeinYV3Mp5jnPWuME7VP5Nf8noXiP-oOMOeJEx0K_9fihwtOQ2-9qSFC2Tpq_RBwrKLmHW90q09aRWxMHdde0pPKYWYVVM0AiwBRFZLO2Hy8053lH8yhCvH89G0sTeZ_TA2gULN-hkLrFVvb0rEm-nPjZXhYulyjVdRiHWKZXROlP9WuwfYkON3s7PEdcFClEqk7k5EeQXiYJV6STSDLhzKzraW5sFdnwtK8Jwj6A3-M-TPwsCDeb6XR0jZ_L8qqcwPstJ5PIRmoW7KLYlfao6tjCWaD493WUZmcSKH2A-hqapEw5EDd3qIS5Hltf-2c5NmX35TBLpHk-nWFEg7nrELLjX3qJ72PACktWMDyRLGjR8q0TUAcvDYFpV-EAyfBXMupDXjb382olYp1yIWUL7_AdQQhJHB3gWmChe-WUN68B0gdimWYFhvOtYheDeJef-OlX3SRMoiUBH_5mzVgwkK13WbImWnsfbMtT7gujs8j_FnOqsM0iiWDupeRSC8IDbGH_GTdyU7CRLhF10Sf.ts",
+  "spade_url": "https://video-edge-be6e4d.pdx01.abs.hls.ttvnw.net/v1/segment/CgdWeo3hfuT9lvE1bKKm_NMRHKbdUkcJ2xVbWs703LE9AGAyoKHE_eNJz3WCs7ldvmLyx8P1QV87iDzVYgjmOzzhUxRa8XTwNVjTw-vAtW1Jc_-gXynn163wUCvsVHjplfMwPdQdwEJjz9DWUF7cp21bTsC7fg880SJ6C4vKbMmGyCOAHhAF400LACd-x8YYNFCAC3v6yex_bUZmkcycG7tusdRwKUx1dVCE7-KRi8T0_EobOj0UBDV7bMk3XLjSvKuWYShtWgU0jgI37WToVln64nGB36kHYrj41dUqVGjzdJOg7kBTHArBFJCSPUVrWjJ41gka_XwNE8OM-gI3lKFTld8DumJ7iSrvc-TohH-Cr75kk6_FCpOljxA68XjYQPe2MjARLX8WnsKVFFHM14BfdrXQPLo0Akeyi4H6TjgGZRqQMe_7RxZftQGQGqO8rgTv4-bN1AOc0I7MnhKcYvHEHA8UqrRTz2_Nz6lYOS6cY39aX9Mt6mDxKcdt4htVF8wFrF1o4O7-jUMM_kVHYoDaEXVuIAH1fZ3U4GBxL7I18CgnfLig2tL8_CR_M0OHrPPAq0GCCU1dAeDgF6pvtZR8jq7lIKuDaSjniepJfiOTWNdK2-GlVCZXGPBJhrVzuFAL9lEuNUlwaWG_mEgpdjt0xA45KFGtGdfAmUd68ZP6oySQpsGEMmyr9CSJ1U1PVSEagWTo199P1L_1znVSc1B9RTIsztzBsnGUxSVOPbizR0onIkXOb.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -474,6 +475,7 @@ window.__twilightSettings = {
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
   "studio_onboarding_tutorial_flag": [0, false],
+  "studio_project_airhorn": [0, false],
   "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
@@ -1851,6 +1853,18 @@ window.__twilightSettings = {
         "value": "holdout"
       }]
     },
+    "36006d8b-bcf1-45fe-a9c7-ced7a2e45694": {
+      "name": "gift_predictions",
+      "v": 21865,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "365bff31-5b22-454a-8438-0f8d56f561fa": {
       "name": "subtier_button_price_cta",
       "v": 16244,
@@ -2413,6 +2427,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "no"
+      }]
+    },
+    "502fe8f0-6858-465e-83b4-8f58f538528a": {
+      "name": "hype_train_all_time_high",
+      "v": 21869,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "hype_train_all_time_high_off"
+      }, {
+        "weight": 0,
+        "value": "hype_train_all_time_high_on"
       }]
     },
     "508f84b8-caaa-48b6-95ef-a0fd73caf914": {
