@@ -133,6 +133,7 @@ window.__twilightSettings = {
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
   "channel_clips_feature": [1, true],
+  "channel_enrolled_sm": [0, false],
   "channel_feed_enabled": false,
   "chat_filter_enabled": "on",
   "chat_filter_start": "2019-01-18T21:49:42.699Z",
@@ -150,6 +151,7 @@ window.__twilightSettings = {
   "chv2_mc_cutover": [0, false],
   "chv2_mc_writeops_disabled": false,
   "chv2_mod_logs_v2_enabled": false,
+  "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
@@ -216,7 +218,6 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disable_preroll_overlay": [1, false],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -343,7 +344,7 @@ window.__twilightSettings = {
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
   "omsdk_domain_allowlist_in_Twilight": ["ddacn6pr5v0tl.cloudfront.net", "c.amazon-adsystem.com", "www.twitch.tv"],
-  "onboarding_verification": [0, false],
+  "onboarding_verification": [1, true],
   "one_click_checkout_blocklist": ["86137825"],
   "one_click_checkout_country_allowlist": ["US"],
   "one_click_checkout_country_block_list": ["KR"],
@@ -427,7 +428,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
-  "rpt_messaging": false,
+  "rpt_messaging": true,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
   "Sandboxed_OMSDK_vendors_in_Twilight": ["IAS", "amazon.com-omid"],
@@ -449,12 +450,13 @@ window.__twilightSettings = {
   "sizmek_versatag_teams": ["wrestling"],
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
+  "smode_rollout_enabled": false,
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-c40f81.pdx01.abs.hls.ttvnw.net/v1/segment/Co9tiny1BCR3dGu7RLg5GWU1kHkQrYJH5H1DFkL1-rF56ouQWD0MeR5IalkWGYmKA_aNVbuLiitYFGes1h3RYjR1awobk2mIJ5r469TVQcVqFEBrmLJoqHUGFjXYua53YkKGP672txM0xFc2v9KUt-ui4J_Z3sL0TtKvf8oBjx5NAw_2RQhUJtraL6ujFT0D6-6vJ6kRQjbz5DqrOpJUMQbozo7imwm_k4gnIYcYp3B5ieeafSpaTRKXfIo29VXoYjtW6mGe7k80HMXJqBum59EzidCuMPmp47FpBg2EvNk_T0qF6MJCPRZkd5FOLZZvMkyj5Ri8_PxpbOfAxNGyC2X4GMxZcDE_Y1F8jrVFK61-4RVmA_JukjmXf6DqS3vfJSQKjvK21Bkg0ZjLK4m5YeYjR_N4JNq77x6oseN5L2y114yNTeB7mare8mSfY-uFZcy7cT8FFNeQ4Y8mVHjqEPoxylBEdztZdCvyzVCTTjNAr8tB3ouUpMYJvBd5hh3_d-TfEn-YU739aPCFK3BHE8DlZwgt8rmQ-Mye4Rrm9k5PtYyrJ22AJgmOJilRrnrpZTC3HEnJ2CAtJkwugkGlkJk_VNNgRd4BYrx_ZyNlwUXAk1g1bW8inat_GdeG0kIzrgfI-BLEo7DFTAMn2vWM_fS736Ud2vdIoE0iDm5XqPrflw83-H7D2F9lnYtBwGUAez3LyjHQvL11R9Psq06q1U_ZivNMxRnTEXjXgkMqcrqzJ5Kz7a_2yeb_ySbweiRc2T0sN2F.ts",
+  "spade_url": "https://video-edge-2e0b82.pdx01.abs.hls.ttvnw.net/v1/segment/CrLFwtpCGRN6UY2iIFprb5ymlYaUIjerLR_ovX34beUy2zs1Rl7TdWUkFqhXxRPuu475AFZjcEn-fOvswFEp-EdrPDcEGQZBwj_j3fkbk3a8zMISJn9LfDvUZpAhyNiEH4UBTnAl9S0juCH1rM7pjAxFdLyQI8VEVe2kYM9PdSmyh8jFAXE6uQXDi6h9SEt55zl9XjFKzLTiboDgQbFpdgDBDPNv0yZ0FyZ3Q4PjSLya7yRwJtcpxu0WbPG3NRdcOnjbBm1b3yrwIClmsHPVNmmkte_CEy9yGCrqc5-hf3y-Y2Qzc7TBrGhGSdDrGUlFqBkHa5ZH3EaYCLkPZxcf0OZdEhjynIXTr-NVTLH_6bq4eXgOEM55JzJ6HsnfyDdTSl0sBUNvGKnzhkkMV1Aeg1RbYHhlYujkJy90LPwZW_b-S6GGFHo9d_1NHS1cZ0fsrYC7x7BG5uYNUIT2z-Iw_hUir2lcyLgUrgZVKIXrS-0YSZmAPq1mGhIweSXqV_ktBeDbZO6v9mYJQxbSSnIb3808NGZcu6v4hudA5SKN4eegNMZYamPat4VkW8ToUht_j057wM1JT14v3VqtZ4vQ-NUqMgKHsti9-AoAkCNd2J0QxaspizyLdj1ROzJGCImL1zqbtBZRzK9cSsPuhF5coEpOJGQdDjpCXrMhEtGZx0SpRAbcXPoqEQP0c54j-CwSpBwX3PhFy8b_Yvksqpb9crSUAFnxJBL1mOwsTYMJ8_bbWSZmrvSJBs-bX2n4Oo5fCq1k9YhxdmXbMpd.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -1917,7 +1919,7 @@ window.__twilightSettings = {
     },
     "39ada830-2a60-481f-a661-fbb6b7a7624d": {
       "name": "squirtle_big_brain_beyonce",
-      "v": 21979,
+      "v": 21996,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -2436,7 +2438,7 @@ window.__twilightSettings = {
     },
     "502fe8f0-6858-465e-83b4-8f58f538528a": {
       "name": "hype_train_all_time_high",
-      "v": 21869,
+      "v": 21988,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -3457,17 +3459,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 21953,
+      "v": 21999,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -4521,7 +4523,7 @@ window.__twilightSettings = {
     },
     "b2e45853-465b-4a8f-96fe-d2611c4dc3f1": {
       "name": "last_x_events_user_level",
-      "v": 21961,
+      "v": 22003,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -5418,13 +5420,13 @@ window.__twilightSettings = {
     },
     "e51fb97f-1dcd-4ba6-8177-81a911b6bf7d": {
       "name": "disco_channel_switcher_logged_in",
-      "v": 21692,
+      "v": 21986,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant1"
       }]
     },
