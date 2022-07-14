@@ -415,5 +415,8 @@ const productionExperiments = [
     {
         "id": "9ec27d93-58ed-481c-a203-7e12131c2291",
         "staffOverride": "on"
+    },
+    {
+        "id": "502fe8f0-6858-465e-83b4-8f58f538528a"
     }
 ]

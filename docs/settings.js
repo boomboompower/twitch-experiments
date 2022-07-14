@@ -368,6 +368,7 @@ window.__twilightSettings = {
   "phone_number_signup_settings": [1, false],
   "pm_b_auto_r": [0, false],
   "poliwag_rollout": [1, true],
+  "powerup_gql": true,
   "premiere_video_manager_public": true,
   "premiere_video_manager_staff": true,
   "prime-crown-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
@@ -456,7 +457,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-2e0b82.pdx01.abs.hls.ttvnw.net/v1/segment/CrLFwtpCGRN6UY2iIFprb5ymlYaUIjerLR_ovX34beUy2zs1Rl7TdWUkFqhXxRPuu475AFZjcEn-fOvswFEp-EdrPDcEGQZBwj_j3fkbk3a8zMISJn9LfDvUZpAhyNiEH4UBTnAl9S0juCH1rM7pjAxFdLyQI8VEVe2kYM9PdSmyh8jFAXE6uQXDi6h9SEt55zl9XjFKzLTiboDgQbFpdgDBDPNv0yZ0FyZ3Q4PjSLya7yRwJtcpxu0WbPG3NRdcOnjbBm1b3yrwIClmsHPVNmmkte_CEy9yGCrqc5-hf3y-Y2Qzc7TBrGhGSdDrGUlFqBkHa5ZH3EaYCLkPZxcf0OZdEhjynIXTr-NVTLH_6bq4eXgOEM55JzJ6HsnfyDdTSl0sBUNvGKnzhkkMV1Aeg1RbYHhlYujkJy90LPwZW_b-S6GGFHo9d_1NHS1cZ0fsrYC7x7BG5uYNUIT2z-Iw_hUir2lcyLgUrgZVKIXrS-0YSZmAPq1mGhIweSXqV_ktBeDbZO6v9mYJQxbSSnIb3808NGZcu6v4hudA5SKN4eegNMZYamPat4VkW8ToUht_j057wM1JT14v3VqtZ4vQ-NUqMgKHsti9-AoAkCNd2J0QxaspizyLdj1ROzJGCImL1zqbtBZRzK9cSsPuhF5coEpOJGQdDjpCXrMhEtGZx0SpRAbcXPoqEQP0c54j-CwSpBwX3PhFy8b_Yvksqpb9crSUAFnxJBL1mOwsTYMJ8_bbWSZmrvSJBs-bX2n4Oo5fCq1k9YhxdmXbMpd.ts",
+  "spade_url": "https://video-edge-979387.pdx01.abs.hls.ttvnw.net/v1/segment/ChZv8oHkrZPUutQmHrHyDqWdiivWIix4x8jMt7RZMe09qwQYOYMHz-perQCw2g0rI9DjVMK5E2eYvjai7m-R7eFKP9ICL41jugh9jrJebzZ0vVn0NYxRxba8Xdy188t-01ukKHi5R26BUDeE1gRlAbRdsAWQl239aGTNfqzPxlKwODIg14B4qdzIxBu-5IJIqgXkF0EX6I5Hw13eqe6ufzklqKzXUzjK7GGsRhcDClq_jbxi_nxd0sNlTRyUWGY--oOikAUSKirOgjyZjPjywiDS7wV04mUnO-bkntM0xG8Lupa_Wpue12-q_88Rjf3yoRCGfT2kXWvjsDJt7_b-9SlqD-XE-Om8xu0BZc5PEAzMjycM4WxDFiQSDA39Z1XHliN3ROMmiGdRbBQwKYdRC8D2oG0MGnLsUqSbt59UjWWXoHKr4b96wvw45_GkqN9DrqrbRp3YAZFMZBzqPV8y_ZPnYT0VE4oG21YDXFJdSnojO70nZtlLoU8yoV7PSxMxAbffMswmapQvie1k6QOzkB2MmMR35WoN9gI3Zzc2vw9Q743k2BY78wyaPB1QsdfuXCPLSh5w4-CoiLUGu8VEh6WiF1o6z9TUPsPnU_ADR80vE2uzurfcGKV8rAUjKCWSIqj4Z30ATkZ5Hxi5VQDtyju9viYmj97C00dhlIVTcS41_QX-C9a2PucFWEgyMyNyHGsGXL9uceyTYG29u9M-8ML88aUvHB2NczHtId3CXYe_uLnMU0W-OLbjFzFxtFxRO3Gk4DZ7FYXZ-fYoxtjwfHBNlALA.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -496,7 +497,7 @@ window.__twilightSettings = {
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
   "tailor_shelves_feature_flag": [0, false],
-  "talk_gs_alpha": [0, false],
+  "talk_gs_alpha": [1, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
@@ -1934,13 +1935,13 @@ window.__twilightSettings = {
     },
     "3ac496e5-3cd2-4e98-a75b-1f3125dc9688": {
       "name": "free_trial_cta_v2",
-      "v": 21100,
+      "v": 22023,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant1"
       }]
     },
@@ -5140,7 +5141,7 @@ window.__twilightSettings = {
     },
     "d70017a1-a0bf-455b-9d1f-c41def5a8bd3": {
       "name": "k_p",
-      "v": 19643,
+      "v": 22006,
       "t": 1,
       "groups": [{
         "weight": 100,
