@@ -153,6 +153,7 @@ window.__twilightSettings = {
   "chv2_mod_logs_v2_enabled": false,
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
+  "claims_form_bulk_input": [0, false],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
@@ -457,10 +458,11 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-979387.pdx01.abs.hls.ttvnw.net/v1/segment/ChZv8oHkrZPUutQmHrHyDqWdiivWIix4x8jMt7RZMe09qwQYOYMHz-perQCw2g0rI9DjVMK5E2eYvjai7m-R7eFKP9ICL41jugh9jrJebzZ0vVn0NYxRxba8Xdy188t-01ukKHi5R26BUDeE1gRlAbRdsAWQl239aGTNfqzPxlKwODIg14B4qdzIxBu-5IJIqgXkF0EX6I5Hw13eqe6ufzklqKzXUzjK7GGsRhcDClq_jbxi_nxd0sNlTRyUWGY--oOikAUSKirOgjyZjPjywiDS7wV04mUnO-bkntM0xG8Lupa_Wpue12-q_88Rjf3yoRCGfT2kXWvjsDJt7_b-9SlqD-XE-Om8xu0BZc5PEAzMjycM4WxDFiQSDA39Z1XHliN3ROMmiGdRbBQwKYdRC8D2oG0MGnLsUqSbt59UjWWXoHKr4b96wvw45_GkqN9DrqrbRp3YAZFMZBzqPV8y_ZPnYT0VE4oG21YDXFJdSnojO70nZtlLoU8yoV7PSxMxAbffMswmapQvie1k6QOzkB2MmMR35WoN9gI3Zzc2vw9Q743k2BY78wyaPB1QsdfuXCPLSh5w4-CoiLUGu8VEh6WiF1o6z9TUPsPnU_ADR80vE2uzurfcGKV8rAUjKCWSIqj4Z30ATkZ5Hxi5VQDtyju9viYmj97C00dhlIVTcS41_QX-C9a2PucFWEgyMyNyHGsGXL9uceyTYG29u9M-8ML88aUvHB2NczHtId3CXYe_uLnMU0W-OLbjFzFxtFxRO3Gk4DZ7FYXZ-fYoxtjwfHBNlALA.ts",
+  "spade_url": "https://video-edge-ed20eb.pdx01.abs.hls.ttvnw.net/v1/segment/Cv2hplhVgtjAM_Tg2_bS9a2wuHjeVCBxlm8L-5IXDgIf6PQjOsrR8kyXbMxLiz9C1eXHaqfkjii93S8buOZqKZEPYHUma-yt4pLOfQ5rcBIgcZxrToPZy72lTv9aZMPJzLIbknVBvAwVYlLkzgzRQP57rpaTpsaDVA9uTs28qEvTgz3qyT91RYY9DhbeN79lJOan-zaNgvlQpPdQX0pb5nry9IsnllIed9UibS01SLl5yfBEe-MUfgGNaFkbfowYzld-BnZ0gUZzXT-NWToETktS-2L8UUr-9TG5dg4W3pAK5uzDvSiFprK0OG6x81kkCwzWPxzcbMNaHhEOtUQw0_6cnEeqVHcMuCQ9A0OC0-2bBIELQoKaCcMKYALj7MzOkNm2zBSUMg33PXDayBf7mI_e5_58PIr7aJE_taiI4r_zVE--5QHiGFv3QYdIeMLqgt-8zKQ7kOOGuSXB-UI8-4IaG6vPmWSEIi7aMkOwrusjEzO19j13dnWdsrHxBMozuvDyRHN6CHm7hJTXd5z-GMJIRjdk5z4uHhWil4cLIWspKNqFBuxGOM2BlHWFhKCUhpSMRDhBO9bh1MpVkm5TLTFeNmrRR0XikNXfY87HrDcpStmlQe0GRJ0hTelamKYOQWCJGBfJbdGbLHLQfqq-9hcwYijO7WA9WC-ryvXf296Y9A-Ls7yILx6mCQYhoXXi057_fqx6oZYM-MRde_5q8R7YdJUPMRnf96-kLpGhVaDaFaKGnGyHaxl5mqbIgaWxVqMfpw.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
+  "spotlight_to_dashboard_entry_flag": [0, false],
   "squad_stream_ads_heartbeat_interval": 240000,
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
@@ -497,7 +499,8 @@ window.__twilightSettings = {
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
   "tailor_shelves_feature_flag": [0, false],
-  "talk_gs_alpha": [1, true],
+  "talk_gs_alpha": [0, false],
+  "talk_gs_alpha_uxr": [1, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
@@ -1770,6 +1773,19 @@ window.__twilightSettings = {
       "name": "vx_disco_personalized_cards",
       "v": 17373,
       "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "32c7f734-16ae-46dc-b6cf-43869ee3d9a5": {
+      "name": "spotlight_to_dashboard_entry",
+      "v": 22047,
+      "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
@@ -3311,6 +3327,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "enabled"
+      }]
+    },
+    "7b360704-69ee-4423-b2dd-74310f4856cf": {
+      "name": "cecg_stream_summary_email_aatest",
+      "v": 22049,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "7b8d95e0-69f8-403f-bf2a-e9efe6233b36": {
