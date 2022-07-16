@@ -369,7 +369,7 @@ window.__twilightSettings = {
   "phone_number_signup_settings": [1, false],
   "pm_b_auto_r": [0, false],
   "poliwag_rollout": [1, true],
-  "powerup_gql": true,
+  "powerup_gql": false,
   "premiere_video_manager_public": true,
   "premiere_video_manager_staff": true,
   "prime-crown-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
@@ -458,7 +458,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-ed20eb.pdx01.abs.hls.ttvnw.net/v1/segment/Cv2hplhVgtjAM_Tg2_bS9a2wuHjeVCBxlm8L-5IXDgIf6PQjOsrR8kyXbMxLiz9C1eXHaqfkjii93S8buOZqKZEPYHUma-yt4pLOfQ5rcBIgcZxrToPZy72lTv9aZMPJzLIbknVBvAwVYlLkzgzRQP57rpaTpsaDVA9uTs28qEvTgz3qyT91RYY9DhbeN79lJOan-zaNgvlQpPdQX0pb5nry9IsnllIed9UibS01SLl5yfBEe-MUfgGNaFkbfowYzld-BnZ0gUZzXT-NWToETktS-2L8UUr-9TG5dg4W3pAK5uzDvSiFprK0OG6x81kkCwzWPxzcbMNaHhEOtUQw0_6cnEeqVHcMuCQ9A0OC0-2bBIELQoKaCcMKYALj7MzOkNm2zBSUMg33PXDayBf7mI_e5_58PIr7aJE_taiI4r_zVE--5QHiGFv3QYdIeMLqgt-8zKQ7kOOGuSXB-UI8-4IaG6vPmWSEIi7aMkOwrusjEzO19j13dnWdsrHxBMozuvDyRHN6CHm7hJTXd5z-GMJIRjdk5z4uHhWil4cLIWspKNqFBuxGOM2BlHWFhKCUhpSMRDhBO9bh1MpVkm5TLTFeNmrRR0XikNXfY87HrDcpStmlQe0GRJ0hTelamKYOQWCJGBfJbdGbLHLQfqq-9hcwYijO7WA9WC-ryvXf296Y9A-Ls7yILx6mCQYhoXXi057_fqx6oZYM-MRde_5q8R7YdJUPMRnf96-kLpGhVaDaFaKGnGyHaxl5mqbIgaWxVqMfpw.ts",
+  "spade_url": "https://video-edge-3e044b.pdx01.abs.hls.ttvnw.net/v1/segment/CiN-hL69E3fILxCPNbO1G-hvy2P9SmvhHi5Tlu1aZ-f-tzfHFA2lqBnJfEfGK2iF-b2AC3xArEHZUPjxG18HpspM_BFa0il1gQNh-cyc8K_g0l1oMKc5bAmSzoZe8Sc2NNr8CnFHBwMgxtD9dcR4ACWPeRRW7NFocTB9PLiTabE1ddRGtlWdxoGtkQQMbzn24XOAnWaRG38nSk1abWvrGHJvVAFs5Zmj4IbtK9i3p4Zm-RgR-4cEa65sDFvn0ZVGv18FWP2imnKJfEfqI_bOi-BdI0wU-8ggJNwDdpEYA3vSSm-y8IEGnVtERFwFVa9D4FPj7XHdRszxgNQhxmuBfSH8HgN_HEp7aii8AdZdC81t3ONe_3cmS8zpH6F2WQFGQ4PT88mhhgojfNLwirgXgnzema_4LwSjmqEg4WgF-MEiYu8zcSxOKQzCqFQi5cHdYH2mLqK8twnpjxZSxDooY3DIJoGGS9hPolZ7hf0A5pZ-7gigXI_31wZDwjtsnyiAFYkZ3jRVpdFF-28IaPQwzuILrQPOh9V44rNr4kixLOZvA7_qNbqYFEOyw6_lx3vU4NeE6Fei-gWq0yLFNtGZ7dOx-oiZEWejw2IdegRBFqPkgl9ihgFzMYWe8uixUdQTWWO_2d5-4pS2PmW-Zun0Lf-H1n3s0jTx7ivFvHx9NK3DdSsdIbHQOwGmVLd38rSvg2F33_aCTkgocqV95ShcY3FWxFVM5PTvZmCh_nyYJKGZrcnbDp6t37moOPpZNlTSiQ9wfEee0f_.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -3373,19 +3373,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 21952,
+      "v": 22062,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3488,17 +3488,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 21999,
+      "v": 22067,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
