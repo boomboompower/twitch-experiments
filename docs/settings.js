@@ -457,7 +457,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-61c27c.pdx01.abs.hls.ttvnw.net/v1/segment/CpRRBrjYw0_3lghdcJsKYXF--0-8OhQM0GlZTHlx1ILqa_4xBVM8BRajqxB1YjHigbpwSwrlVT-Y4eT920dTwCZt7Ml1c-hitl1DH3a5ScnNmXXV3sTHyLCzUVUvqBDVOno5HzLp3ErbS1BJSCPQRU-neMp3QntbjaS7qXpdIECF02FtrhnGwa31318CiaavXv-OCHCle4N2y-bHDM83iQTmN6jTDOQTW3He2eoP7lIm82mWw_5_WrnBgU-F0hnL2yZP9-FuwjRUQ7DInLZjOx4TEpHkyTPhnoOGM0VrgBrfjThwTitvCo7yvl6arRIQCI-ZEJQmSlKOUQA-dG21uN4Tvk4ogBob8QJMr3pa0ndAsT2XffK1rzgs821FzaufeaS_NbRM1CkXZXtl9J-A9OxgVup9ZMOdXSN8dBcf_W0JHB-jSDA_k14fyWMG4G9V85LXdaJUKZH5E-AfL_ddjX6aVnp3YnimwT-C5lAOQeqQyUpyT1WsyzpVjUYXw4J1sY6fctWe8h-2Wy2gRoQUucDkxlRT0LAGVlMsNk-ZynbPRNNmCIcZvn9qKGmrscqsPTtpW7yzXJQWFiwnel-35oMW58Jx6RkzpC_LPOkg5geoKc3duyceAwJQRbH2k6fQiic5lGM9l2ihrjyuK5BxMRSfkJWKAo7KBGvx9INBdJRZCMmFZkVedfF2fl1dcmsEuvK4kKUDOKcT7gTEwRME5LH3N0SSC59wInqUcC9PaoLJHR7XnWrAkjRLw.ts",
+  "spade_url": "https://video-edge-b62114.pdx01.abs.hls.ttvnw.net/v1/segment/CjtGi3bJpQ2BjxXlD-QofI_ZEnZ32uwVgfMVVfx78o9a6U3IIsST-NTx82VYcf7EItFN1g6jKSCWIWJnijme0-3J73YgZ1NEBw3fiEruOW1XNe15pdnipyFr4J8UNeohgssLCojuc4RA2BxmRQ6eAxcqqU4QkCozLIWzQWiLMHntFl3k2U1pT5DBXJc0AGrTPAf-pMs4dz3asmdNVBYAdAzp6rLTqnTYgwKmtHlMRFuJLKdxrny12O79BKa7v5njPCydfU8UzsUhPC52h0gFVYWijgbEf3BhGkh1LRaWVNo5rpGSes9tRIq-SCIkuYrsK5apVYU-b_MaXqYxRLyfvqLO8znJ2ciYfPbxyxmRK_B3m-mpDxQ9XdU-hZcL5f-VMTsk_SbEXVIHL1J_n19dTJI1-93TCEYQhQXMh8bFDyFIAp2njzA1Fnfjc6YqlfgvBCUwz9pO04ajex2DhYpXCK-AT8pXcEQOYaRJ51gKhS7RBuwjFjcjE7VnHKaPDrtCh-w0A6C8UlQw4By225dukzJJy2vXfVyyLShiOXSMy69BsFgTE3_7dD4qc8o8LbUHmI4upM0WnLtXJiKUfNX3wiB58UpKHG610JhRXJ7CCiTLl4dRfUFMk_wFhP-nCrUTaeSs1UjTpe02afT_m4x5YQch4YJfcBo8ZjeBocOMnu9MQZekQp0rF-9mBHzxDeLGGRCo1ZqvkRWBciFNJ3cNaTgpYgy6v9xvYgpernpfQDNVqYGZS4Ep0jmh-8IkwGAuO1BhdQFmuS.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -473,6 +473,7 @@ window.__twilightSettings = {
   "studio-front-end-copy-paste": [1, true],
   "studio_capture_decouple_flag": [0, false],
   "studio_companion_mode": [0, true],
+  "studio_default_layout_change_flag": [0, false],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_layer_rotation_flag": [1, true],
@@ -517,7 +518,7 @@ window.__twilightSettings = {
   "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
-  "use-gql-rev": [0, false],
+  "use-gql-rev": [0.1, false],
   "use_intersection": true,
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
@@ -1728,14 +1729,14 @@ window.__twilightSettings = {
     },
     "30a4fa5c-ae9a-4218-a374-258ea981190a": {
       "name": "last_x_events",
-      "v": 21473,
+      "v": 22206,
       "t": 3,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "events"
       }, {
         "weight": 0,
@@ -2827,13 +2828,13 @@ window.__twilightSettings = {
     },
     "61363124-f688-498a-91be-0835184002be": {
       "name": "com30_pcln",
-      "v": 21291,
+      "v": 22199,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant"
       }]
     },
@@ -5279,6 +5280,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant1"
+      }]
+    },
+    "ddd6e39a-98d5-4a43-91a9-ca8313ba4455": {
+      "name": "studio_default_layout_change",
+      "v": 22203,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "ddf312f2-bcd5-412c-a64b-86335adee351": {
