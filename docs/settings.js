@@ -274,6 +274,7 @@ window.__twilightSettings = {
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
+  "home_shelf_moments": [0, false],
   "host_commands_rollout_v2": [1, false],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
@@ -366,7 +367,6 @@ window.__twilightSettings = {
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
-  "pm_b_auto_r": [0, false],
   "poliwag_rollout": [1, true],
   "powerup_gql": true,
   "premiere_video_manager_public": true,
@@ -457,7 +457,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-b62114.pdx01.abs.hls.ttvnw.net/v1/segment/CjtGi3bJpQ2BjxXlD-QofI_ZEnZ32uwVgfMVVfx78o9a6U3IIsST-NTx82VYcf7EItFN1g6jKSCWIWJnijme0-3J73YgZ1NEBw3fiEruOW1XNe15pdnipyFr4J8UNeohgssLCojuc4RA2BxmRQ6eAxcqqU4QkCozLIWzQWiLMHntFl3k2U1pT5DBXJc0AGrTPAf-pMs4dz3asmdNVBYAdAzp6rLTqnTYgwKmtHlMRFuJLKdxrny12O79BKa7v5njPCydfU8UzsUhPC52h0gFVYWijgbEf3BhGkh1LRaWVNo5rpGSes9tRIq-SCIkuYrsK5apVYU-b_MaXqYxRLyfvqLO8znJ2ciYfPbxyxmRK_B3m-mpDxQ9XdU-hZcL5f-VMTsk_SbEXVIHL1J_n19dTJI1-93TCEYQhQXMh8bFDyFIAp2njzA1Fnfjc6YqlfgvBCUwz9pO04ajex2DhYpXCK-AT8pXcEQOYaRJ51gKhS7RBuwjFjcjE7VnHKaPDrtCh-w0A6C8UlQw4By225dukzJJy2vXfVyyLShiOXSMy69BsFgTE3_7dD4qc8o8LbUHmI4upM0WnLtXJiKUfNX3wiB58UpKHG610JhRXJ7CCiTLl4dRfUFMk_wFhP-nCrUTaeSs1UjTpe02afT_m4x5YQch4YJfcBo8ZjeBocOMnu9MQZekQp0rF-9mBHzxDeLGGRCo1ZqvkRWBciFNJ3cNaTgpYgy6v9xvYgpernpfQDNVqYGZS4Ep0jmh-8IkwGAuO1BhdQFmuS.ts",
+  "spade_url": "https://video-edge-3f1b9d.pdx01.abs.hls.ttvnw.net/v1/segment/CmkSFjA48EhsO87HNoR3zuW3xNK2sZdmmM09hyt_28glU0LEHP8XXBdcjc7EK3Ts_yBZoCeMYlYr6KPKLGZgf3s_IUpJ78Ivl9h9EepRvMXN5rbyRrH_LvCYrQoIoQsIBEQZ8_xSpjNOuaONEBawlWymtITvrV3fG1o6Rm4Zd6LG-8r8AuUmk6CwA4oVEPdeccVz9QLs7hnTphNKtIJ6KJhPGwjXoquZrOKD_n1ZGVZlH1WwiPt9V8ULaAAGaVaKm1fLrF8uE0xufMSda7Dj5pUYbBPq4LXgmfwYIjqUUk-zi8IB8HqgWu1SZBFMK6S2lniMrk4ayqgdAAi2lIPiLz4TMWPrJfXCWSHxWbbSOb3915xYZbRNL87Ix8OB1FtrnOyyfEYqrj5EF69GvV0W327M--IR9X5s6xQCuCIZESmL3FHbgrqFqtQOjEPV75YkBR9z8dgXQKxMw-YaBfqXUZP55d_EpQdYsihj0XtLXGXkFJgMT5FSiC4kIY119Vt3ISKyjLm3215TWij-UjH2zzdy6NKjvjzjCljpIw636cp65KL74Bzb9pRATmouaZCMdPWQSUGePWRGP83M0jgTYRiAlUa9oyLHUF5OIfX2dcV8M6D5oNTPsaIBJT90T5FXiki_VgLsqKSeUcjDvcekDq-0F3VwOsn8ojUfy5edwex58SYZrAnGHnZeFtysoFtxxj0oVOK3Bn605ajVILFrgs2sJgKap-Z1WvWhdh0wxHDS1WKIRYAhRGIm1xv3VN___l.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -471,7 +471,7 @@ window.__twilightSettings = {
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
-  "studio_capture_decouple_flag": [0, false],
+  "studio_capture_decouple_flag": [1, true],
   "studio_companion_mode": [0, true],
   "studio_default_layout_change_flag": [0, false],
   "studio_import": [1, true],
@@ -518,7 +518,7 @@ window.__twilightSettings = {
   "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
-  "use-gql-rev": [0.1, false],
+  "use-gql-rev": [0.5, false],
   "use_intersection": true,
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
@@ -4553,8 +4553,9 @@ window.__twilightSettings = {
     },
     "b2e45853-465b-4a8f-96fe-d2611c4dc3f1": {
       "name": "last_x_events_user_level",
-      "v": 22003,
+      "v": 22255,
       "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
@@ -4601,6 +4602,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "b57ca653-237e-491a-a421-2bd4a7b6e8c8": {
+      "name": "xsolla_back_button_checkout",
+      "v": 22254,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
       }]
     },
     "b76b82ac-d5cf-4845-a96f-5243c22856bd": {
@@ -4668,13 +4681,13 @@ window.__twilightSettings = {
     },
     "b9c4d3ca-29e3-403e-a5d8-dff457ccb01d": {
       "name": "studio_capture_decouple",
-      "v": 22154,
+      "v": 22250,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
