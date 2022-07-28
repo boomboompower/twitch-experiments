@@ -55,6 +55,7 @@ window.__twilightSettings = {
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_charity_event": "off",
+  "bits_on_polls": true,
   "bits_prime_offer": false,
   "bits_project_marley": [1, true],
   "bits_project_stucco_dashboard": [0, false],
@@ -457,7 +458,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-3f1b9d.pdx01.abs.hls.ttvnw.net/v1/segment/CmkSFjA48EhsO87HNoR3zuW3xNK2sZdmmM09hyt_28glU0LEHP8XXBdcjc7EK3Ts_yBZoCeMYlYr6KPKLGZgf3s_IUpJ78Ivl9h9EepRvMXN5rbyRrH_LvCYrQoIoQsIBEQZ8_xSpjNOuaONEBawlWymtITvrV3fG1o6Rm4Zd6LG-8r8AuUmk6CwA4oVEPdeccVz9QLs7hnTphNKtIJ6KJhPGwjXoquZrOKD_n1ZGVZlH1WwiPt9V8ULaAAGaVaKm1fLrF8uE0xufMSda7Dj5pUYbBPq4LXgmfwYIjqUUk-zi8IB8HqgWu1SZBFMK6S2lniMrk4ayqgdAAi2lIPiLz4TMWPrJfXCWSHxWbbSOb3915xYZbRNL87Ix8OB1FtrnOyyfEYqrj5EF69GvV0W327M--IR9X5s6xQCuCIZESmL3FHbgrqFqtQOjEPV75YkBR9z8dgXQKxMw-YaBfqXUZP55d_EpQdYsihj0XtLXGXkFJgMT5FSiC4kIY119Vt3ISKyjLm3215TWij-UjH2zzdy6NKjvjzjCljpIw636cp65KL74Bzb9pRATmouaZCMdPWQSUGePWRGP83M0jgTYRiAlUa9oyLHUF5OIfX2dcV8M6D5oNTPsaIBJT90T5FXiki_VgLsqKSeUcjDvcekDq-0F3VwOsn8ojUfy5edwex58SYZrAnGHnZeFtysoFtxxj0oVOK3Bn605ajVILFrgs2sJgKap-Z1WvWhdh0wxHDS1WKIRYAhRGIm1xv3VN___l.ts",
+  "spade_url": "https://video-edge-94c92b.pdx01.abs.hls.ttvnw.net/v1/segment/Ck6EwqQDdTPDNy3nfdjXRQnudh-e1oim_qLIT6olqTnEAtdFMwjEKigUhhhFbJl84N8sKaW2Hbx882gyscyguCCBBd9Qzxb72CBGm6mqRL7VuYreXXSt89lGMu7ECaQUq5rJWkNn0pM-Q7krhTs0ZXFt3OsEN3IzGFxEu296UBdFUeTOsDoTQsZGIK_1I_jl6zbQ4mVIdbH9Dl08W16lv8uuo-8iuSaXu-teI_4ov47Ypm7iGybEe73jaPoWRqvqmw-3Z6YYzV9NtPAkVqH6IfVRUsqkxDil6hA1MT_tf8WWSuamllZqdh6Wb9irzuOKzaKZlwdAVRRiDc85yUdXPGw-DJeXx1FYKtltJQJrIBl42J2XXUVlQTJYYcgKkNo5MQFpRmQBkTb8ID6ouKonC7KQfK8-orDrv7zB56qnHp-5yqrmwn7CBHpmjm4s6cOowkjuYYqHq6ZaPLYOH4fNQ-qi8RkzY5l5OzbfQtS_4zowQZX0SMX4DWXXy5voO_wOuw6bjWJ-FpKzXFkKcW5KJg-Madb-qOSQNRpKRGKtzJg-P7Kx5SZNWSoHUZQKtgSOhWLVe_R2D89QeBmEAjAy4Stp1m7tZnTYZIqkcHQ0Xf-iFMCW_cnfO1p2UZqkAs9CVfjjuVrNKVyks7w2hSxK1VOS4QLZGSSJTiv1dEEqrZMMTfD9igZAaSycha_kXrzfEUh5TKc553dj4tgNidO9r64r-IKxuYEfRlvDxERVelPDzMsjzJzMwWPGuKQisQi8_PF.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -518,7 +519,7 @@ window.__twilightSettings = {
   "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
-  "use-gql-rev": [0.5, false],
+  "use-gql-rev": [0, false],
   "use_intersection": true,
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
@@ -552,6 +553,7 @@ window.__twilightSettings = {
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
+  "xsolla_back_button_country_allowlist": ["US"],
   "xsolla_enabled": [1, true],
   "zuora_enabled": [1, false],
   "experiments": {
@@ -4020,6 +4022,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "999eae94-1456-4f61-807e-f9a8a20d36e3": {
+      "name": "cecg_stream_summary_email_aatest_v2",
+      "v": 22264,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "99c425d5-7d9f-47bd-a13a-409903cd6515": {
       "name": "SIGNUP_REDIRECT",
       "v": 2033,
@@ -4040,13 +4054,13 @@ window.__twilightSettings = {
     },
     "9b438522-a2c8-465c-aa03-c3d4bacf5509": {
       "name": "community-gifting-recommendation-v2.8",
-      "v": 21193,
+      "v": 22274,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control_2_6"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant_2_8"
       }, {
         "weight": 0,
@@ -4553,14 +4567,14 @@ window.__twilightSettings = {
     },
     "b2e45853-465b-4a8f-96fe-d2611c4dc3f1": {
       "name": "last_x_events_user_level",
-      "v": 22255,
+      "v": 22260,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "events"
       }]
     },
@@ -6165,13 +6179,14 @@ window.__twilightSettings = {
     },
     "ff26667a-d03c-4f60-8fb7-3cc01175df64": {
       "name": "squad_mode_deprecation_v1",
-      "v": 22150,
+      "v": 22258,
       "t": 1,
+      "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
