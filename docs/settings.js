@@ -262,6 +262,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
+  "fft_channel_analytics_maint_date_gmt": "2022-08-11T00:00:00Z",
   "fft_v1": [0, true],
   "fft_v1_sf": [0, true],
   "first_paid_gift_offer_feature_flag": [1, true],
@@ -458,7 +459,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-94c92b.pdx01.abs.hls.ttvnw.net/v1/segment/Ck6EwqQDdTPDNy3nfdjXRQnudh-e1oim_qLIT6olqTnEAtdFMwjEKigUhhhFbJl84N8sKaW2Hbx882gyscyguCCBBd9Qzxb72CBGm6mqRL7VuYreXXSt89lGMu7ECaQUq5rJWkNn0pM-Q7krhTs0ZXFt3OsEN3IzGFxEu296UBdFUeTOsDoTQsZGIK_1I_jl6zbQ4mVIdbH9Dl08W16lv8uuo-8iuSaXu-teI_4ov47Ypm7iGybEe73jaPoWRqvqmw-3Z6YYzV9NtPAkVqH6IfVRUsqkxDil6hA1MT_tf8WWSuamllZqdh6Wb9irzuOKzaKZlwdAVRRiDc85yUdXPGw-DJeXx1FYKtltJQJrIBl42J2XXUVlQTJYYcgKkNo5MQFpRmQBkTb8ID6ouKonC7KQfK8-orDrv7zB56qnHp-5yqrmwn7CBHpmjm4s6cOowkjuYYqHq6ZaPLYOH4fNQ-qi8RkzY5l5OzbfQtS_4zowQZX0SMX4DWXXy5voO_wOuw6bjWJ-FpKzXFkKcW5KJg-Madb-qOSQNRpKRGKtzJg-P7Kx5SZNWSoHUZQKtgSOhWLVe_R2D89QeBmEAjAy4Stp1m7tZnTYZIqkcHQ0Xf-iFMCW_cnfO1p2UZqkAs9CVfjjuVrNKVyks7w2hSxK1VOS4QLZGSSJTiv1dEEqrZMMTfD9igZAaSycha_kXrzfEUh5TKc553dj4tgNidO9r64r-IKxuYEfRlvDxERVelPDzMsjzJzMwWPGuKQisQi8_PF.ts",
+  "spade_url": "https://video-edge-f604b7.pdx01.abs.hls.ttvnw.net/v1/segment/Ci8vZDqqLZpCEqe8zfrXAjXiz8cgLJ0hMqr5xfyHFWI97XAJN2nn1HGq7ULRlKBa3Bz5ikVn4Cn9L7ffygtiMKGnflXtljSJKvv3eFtW0cIwfGQkT5jy0PVCkahzR_wRCmYok9H3lPm_fulXT7lXJtzU7V_tYo0cu6O4B_gEdOz6J9Qk3CWClj3iUSOwZNnqHfk22quX_rH17kxhtRFX-ii_qQ6KCf1l7femc1Vz24Z8XH3zaaSroTuq-vfHwICxnfpWF1E9dSyySI6xaalujNBzuW9KaluLC6sxeyhx1w6WAHVHURM79ijLq60wslnRLihq0u0BIDP-Ma5SHBtrEsFosNxl8t8Qmhuwuml11gFim7flc6yhTi8f1jmL4M9k9m12qUZTmjW6WdhGanvoaMI_ab6a01MMHR8wDJ7B_CjR3RVbA3Qmod9yrL5Epx4fxYZZJFZmugbAfcBU1x94v3ixYqrJIEdTXqwLu6KE3ClVRQ2GAqTuQ4urXzbhTApNcm7lG5hQiR1R4QHbe1QLm0zwoaIBTiLPG_5lRJQQEUMddqL45LTSC0lF4rnfB-zSgZV-uI7mqyH-QIRy7RnB34qbBEPfoPjIYwWb2FeD29djRGfz5vj0IEuyzV6wKMyBEHbqp1THqmv3d8SBzx5wR6GHz65lqobz_JgN8KvDiCx7ehaF0vQAHcr8V7azP7HWDXMOMpvOn3dVwStUngXujm-v1HwRcg7dC_SYH3wFGVLinbFnaz9lx2NdNXmVEwKzg.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -519,7 +520,7 @@ window.__twilightSettings = {
   "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
-  "use-gql-rev": [0, false],
+  "use-gql-rev": [1, false],
   "use_intersection": true,
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
@@ -553,7 +554,7 @@ window.__twilightSettings = {
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
-  "xsolla_back_button_country_allowlist": ["US"],
+  "xsolla_back_button_country_allowlist": ["US", "DE", "CA", "FR", "ES", "SE", "IT", "NL", "AT", "FI", "CH", "KR", "RU", "BR", "JP"],
   "xsolla_enabled": [1, true],
   "zuora_enabled": [1, false],
   "experiments": {
@@ -3892,6 +3893,18 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "93729647-b618-41e1-8677-2bc6fb35ca51": {
+      "name": "duende_proxima",
+      "v": 22296,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "9452d9e2-6588-408c-b8aa-1e54ff1e2f4a": {
       "name": "twilight_expando_featuro",
       "v": 2526,
@@ -4515,6 +4528,18 @@ window.__twilightSettings = {
       }, {
         "weight": 1,
         "value": "last"
+      }]
+    },
+    "b0ba55f3-02d7-4b43-a393-0d7f530e5751": {
+      "name": "contigo_ojos",
+      "v": 22295,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "b1237c9f-015f-41da-800b-222ecd01b52d": {
@@ -5209,13 +5234,13 @@ window.__twilightSettings = {
     },
     "d70017a1-a0bf-455b-9d1f-c41def5a8bd3": {
       "name": "k_p",
-      "v": 22006,
+      "v": 22278,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
