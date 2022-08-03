@@ -460,7 +460,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-ab2585.pdx01.abs.hls.ttvnw.net/v1/segment/CmHelI1L940yFvF-bcBXFWauoABXycEOe0EzbG0ND4OEXike5682PMH2IN2Bk9PXxL532Cotbl6Z-pbGWEGtDQAseKoZdd4646tLXjbld7yUy-xFZG7Qod-shkrasRH_ddVYC2XVX25583KwJMNtbH5YkmJ9-A3tmOESKOwqbKM19lfLb5BDK4ohdGHt8IAPzdRlYYKVLvZiRKyItJv-2PVlHNIw1Vx-gTnGYD9EPi8GjO3PMcnoGZ2aV6B7YqA2yMUL6SIiLqyq3Rm9WNnHLCxGFrM0dTQdTLT2LDFyyLs27OiLMhJGJbgLWTmr1e5xp3QKOPbbXJCwCxvrCcMJfqFy9iJQkPNP98Jk3a4OJLcW9_p84Oe7Vn0t571Fa8la3W0wbsaAyvBdnVwT21nrGBOtKLwuzv0qf5cf5cVUn6R_IZvIWjYrLPHnLilKdC80iciM2Y_429cRXUrtnYGeF679aPJbrMBQBlY4HAlcMGqzl3pmXMoQGZ2yp92C7bBOzP93YVwYRvTQ1_cLGbGlSfEBPeFeF5c6UO1J3JXsFTMmNrHfFu9AjjICUV0YXUfjbt5IsJIdq0YP7Wg9hVYWs1zbrRWTA6rXlXZvMPaYJzAbrwrmM7dlHMZPg6rQgmYiN5ri60gqH5qNYnHw6fAY6VvOPO30AbPltMpvozEeoc1xLTC4XuM2Vh3lZPDtKf2hvsDIur3rnk00W6DKDt2yk0mWgV2LFGMGngMMYKKq42jlf6LCsn5pbIa8M0CV_h.ts",
+  "spade_url": "https://video-edge-9b3bf0.pdx01.abs.hls.ttvnw.net/v1/segment/CpfT9JQpFZt9cyWzNXO_EzbLtptGPbqBtnjH6qTAb7GtSTtpl2JSUvTIB8JcjwgzHiEva4Hmt8fjffw8CJQuPBFCi49YrkiblG6poeKEzCKWpRB64727WcutJ-NCp3htaFZb7sdKR-Na8mojnLwG80MhODmHiIs6INBdPz8n7lQoQX1coda0uiJf7qGqGG5jtmrky-xpif9me9fybPMal4MwI-cCC0U5tYOg4xx-wV_LNGvhxx__Vp3a1zQbOCJKFxcKTrSgWPOERTuyO9VIhk8g46Qqb5wPMD5vnsP64Gv5K54kH2yoSAU019cpmRilA9Tzn6l1NDDUPVN8jQRuC9aaEcSiE54mEu4TENdEp7XKqRXRiVwOg8ck2axEK5xXu8yMt9mRdrI1-VfCd1tuHj4VQ2Iq-A8mPsXJaxRZv_5WH-dE33Oj_-MXTFRGPDk0SuRiKdRvLFFBIB_exJ0yk1RxvAOPkfuIpW2euW15zQiK6ayqY62wf_bRH-Z4A4IFZQO7OrEVtDmfxhk1qO_AeG3ktIuyyYML94aNtMeE1xNmwPvy5SIMQkoUs6c7k_rXeNAPkfzQZyUEJbkLEKt8VXpfzJeg7H4A-KlxUQRzkQaPNO9xyemVplW2OLYC6lIbmrTihuGNeksK7hnpMDoM0EZyjXLU64Ki8hdPR6QGvrNOXL-5PUyK8mjFBVDj2ziaWXYtN3fwYiy7OwqvADq3ixD5Aob781VxqaxnDwgXf_xQrt-dZH2HIowYlUlYwzKrCyazVUCEHarI.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -3116,6 +3116,18 @@ window.__twilightSettings = {
         "value": "Experiment"
       }]
     },
+    "6ff7e080-b755-4006-9209-fe5456901679": {
+      "name": "second_pincer_manuever_jackie_chan",
+      "v": 22357,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
       "v": 22142,
@@ -3379,7 +3391,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 22341,
+      "v": 22379,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3388,10 +3400,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3494,17 +3506,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 22342,
+      "v": 22380,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -5239,13 +5251,13 @@ window.__twilightSettings = {
     },
     "d70017a1-a0bf-455b-9d1f-c41def5a8bd3": {
       "name": "k_p",
-      "v": 22333,
+      "v": 22376,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
@@ -5600,6 +5612,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "off"
+      }]
+    },
+    "ea2c9418-1a27-4ec7-b289-9021ee25776d": {
+      "name": "pogchat_10",
+      "v": 22385,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "Control"
+      }, {
+        "weight": 0,
+        "value": "Variant"
       }]
     },
     "ea3c43f2-6518-4d1e-be39-735013d4718e": {
