@@ -173,6 +173,7 @@ window.__twilightSettings = {
   "consent_modal_tldr": [1, true],
   "consolidated_dashboard_settings": "on",
   "content_promo": [0, false],
+  "contigo_ojos_y_duende_proxima_AA": true,
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
@@ -362,6 +363,7 @@ window.__twilightSettings = {
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_transparency": [1, true],
+  "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
@@ -432,6 +434,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
+  "rpt_countries": ["ES", "JP", "IT", "TW", "JP", "MX", "AR"],
   "rpt_messaging": true,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
@@ -460,11 +463,11 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-c9c309.pdx01.abs.hls.ttvnw.net/v1/segment/ChlzzouVUrzW1Mzpvry7D_t9AgjSKzGw7vVTDYrceTGQSb_j8KXLnJ9rfYYuIaDPK3ce0i2avtIvGVbCyxFVTlYvLQksshquPvhu9C7_2dnh6rdes84dl3lJmcyN1hRtUHpMEspKszVAA2NgzLXgsJfWRS0Lfklu5-2AMrjWxmlKlMMOS4kpiNXWvbj3nJjhYNacOWPHonzV4_75OzAJNuHWjJg86tdfgH7A2VvIMR4p924QXO7C-RiftME_uT78xx60Jmo2PDgbsTkN7_kYkaV3Nh6Z1lcM2cORBY3fCm4e0slkg-ymX_IFgWEq242bPlUqt3aUtNyTB_ud7ViMZHSvqFMyucYnjlvqkcaCyFnGwjETnLEOPw82VUjsuAYuGk2eECgl407RzwSZHgVlM9U_mFaW1MWKiuOgGtVN8rCLeCwyeh2-cdqm3RgKRLDthVky_Yz7RNxhjY6XhwnoS3X9EMb8BW1qPdgubnh8nuO9MW4bTHtOQJKxVP3-soxMC054yY9PVnFn51CIJDh3BUq_qAIapzlIMfoz3ePw2qI523VoODeRCE-fFGvdRk_Ejts-xEl6RaLdfY-ZDvUOyDnaXtLQ8lI-cjuELHndf4cdfpsh4fXUNxQvuivQNETdLlgVqO6yKk0N6A4ITkiQMsXTxHug6HH2S7H8XvIwuMf53IwTZciuaDom-ZFeWo_lJiHScZiMTB298vXsRoMTNMi0o8woQIBJGkXmnEcDhOFVGDgZpcKg3TegtbcR9--LJrw8ZP6KI3t.ts",
+  "spade_url": "https://video-edge-571fbc.pdx01.abs.hls.ttvnw.net/v1/segment/CkxYMzQuuNjL_QJW58QW6cb61VnipVAh4g4iMRsJgCzxdV53USOPeg-VLz5wSAQzNWFrYpQCdRDI5IfIuU8WxjujePJrO9mOGAguEuT4nB0eZP6sAzDZ9J_WXsyz5h4WiXmCau9thiFYTSS64EFZ3NA-bcze2c_X1cUIlw5h_6WNHHjdk-eW7TDmKRo0ugqR6ZEvViLq_HNh66xgGtRSYvc3MLdZ-iENcxNqJHc1DdN5hV8xwCGc_3K9xYRE_2R7gpE2MZXBdcQc0vOi9N3-1K2QWC3VmOrnGg4c2ElYdWGGlXorCnn5hDedJr4PBoojqL-cvfnZVzkVmudPZIw1j0PDEr9iH0szhF7shDnqNJbaxQOWiVWhjBupg-G4066GRV9CP89AN7g8oHhQ--ZNTp5Qe-6Jsep7Di0XllZaY2Kx3EgMvMN3bu9ecGlr6WJmQhZfdxXhreA8Zo2NyONCBw-fdWzxaXmO9mM9UdrPoECfDYbt7nGOQtz0qFUe0HbWnMPqanCm0ZvzBOjRelSu4pnp7GTonQBEdWKrzscrs4jwJDz4gFscnqhwi_a_F_hh6DUH7sO79R-pCTjVQYLk0N0Nvswel4ovr2htL0P544JGvLZ03mqm-To6TLC-HxHEabvfWplxeYnb_s9gH24Gn05ijLsUAVfVOKsf1QElSb_A3jiroSyI6VeokM6z_7yNvVGH1zWZi0QYjEmadvqiQ2Jq8_b7eT9YliC6OPNeqzaaV8wi2aIgxCwGsgs1w1B2PeMv1rq.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
-  "spotlight_to_dashboard_entry_flag": [1, true],
+  "spotlight_to_dashboard_entry_flag": [0, false],
   "squad_stream_ads_heartbeat_interval": 240000,
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
@@ -488,7 +491,7 @@ window.__twilightSettings = {
   "studio_onboarding_tutorial_flag": [0, false],
   "studio_project_airhorn": [0, false],
   "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
-  "studio_transition_ui_flag": [0, false],
+  "studio_transition_ui_flag": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
@@ -3118,13 +3121,13 @@ window.__twilightSettings = {
     },
     "6ff7e080-b755-4006-9209-fe5456901679": {
       "name": "second_pincer_manuever_jackie_chan",
-      "v": 22357,
+      "v": 22453,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant"
       }]
     },
@@ -5579,8 +5582,9 @@ window.__twilightSettings = {
     },
     "e81d16c8-f83a-4f5f-a4e4-ebaf1402d863": {
       "name": "studio_transition_ui",
-      "v": 22132,
+      "v": 22442,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 50,
         "value": "control"
