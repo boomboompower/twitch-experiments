@@ -232,6 +232,9 @@ const productionExperiments = [
         "id": "6ff7e080-b755-4006-9209-fe5456901679"
     },
     {
+        "id": "93729647-b618-41e1-8677-2bc6fb35ca51"
+    },
+    {
         "id": "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884"
     },
     {
@@ -442,6 +445,9 @@ const productionExperiments = [
     {
         "id": "9ec27d93-58ed-481c-a203-7e12131c2291",
         "staffOverride": "on"
+    },
+    {
+        "id": "b57ca653-237e-491a-a421-2bd4a7b6e8c8"
     },
     {
         "id": "e3e2e186-a378-484c-bf15-2c5194e3bcf8"
