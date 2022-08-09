@@ -435,7 +435,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
-  "rpt_countries": ["ES", "JP", "IT", "TW", "JP", "MX", "AR"],
+  "rpt_countries": ["ES", "JP", "IT", "TW", "MX", "AR"],
   "rpt_messaging": true,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
@@ -464,7 +464,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-95b879.pdx01.abs.hls.ttvnw.net/v1/segment/CuKgvolExL_viphITcSUtfNU6s3fy-gpzOSptv2LA12ynVdMLWVmsw7bwsk63Gr2h3TmOzAb1OTljZfytZC7oAgENawou8NyG3zxj7aK2TM9vrus09jZqbQd2Ea_FNJr50ZbhDKh8t58Ww2qWuMph7yM2ayZR9JUWCEG7nTpSe1Qd0ezm3U4uv46QkdnZVxliZhsijTAm91R81Pour1giPUqi6WJmbf8hTTGC9wCBDxRlqvkPvyj2fbcjodcWEYFvI01nWPgTYCKK8rs_Mqzjkc6id24TQGRKU5WTj-L9dXLpbLzp4SW_gZNj7rYxNiKzutP8napmo2UWnrKFjMV_3x-mWqHgfWquzpk6IMklhvMnmiU6rodL4Lk7r8GzR7GlT9kqSNkRXkRA-Sl3DtIhMFwi1fv0HtnGIWgtPnS55DS86GhoElwIOVYl2b0GvgsBHpuCiumVUL6x6PccwN5MG5IaVWUbUuo2NESRu7aAMYyoY8XHoVoikLPylbOwRL6AAKsNt1fBVARNLwh9dSNjyTfXgPjXg1jfBOcQM2jpqP3VWMMvvvc9dIOOGeu5S5KF5Fi1uTGFNvjyDKIQW_yz_ehGNtfvG4pKTr9F6OF18giXhGyZZfY4ankbIv-6xZFW2BL4w_YzdslEV9Ufp2IKmeS-MzGMt7HIORyR7zTQXnNa0Bi7_IoFHUQPqYnpgiULrEe31jdj2B1PRykWe-pLdkHoThXqOHQE7vz3lRbQzDS0qT3jf1M5trxMV76IadL4KWVfo4H-1RZs4QIa2BtdHhSFu.ts",
+  "spade_url": "https://video-edge-ef4ea7.pdx01.abs.hls.ttvnw.net/v1/segment/CkGl6sJMNz80-zHQ8bxVoR-FFYU_RN5dJQAyXnr_vxRP5ycS47v7sNMk2cXq1aQijHitZRKPGDq_QYReUk7MpXa-9Wt292SDJfyOZleqhMEsWH_saZzOfYP7eQTKQZs3PYZ4WKZWMAlLHdiSPPxJQLlTijJmmJOdVd6toGkMv_DhwyUu1lE72SoLBrpyma9rmUYWV7kbezngwWTK30AjwZkRb5yuPRhXuKCPYxljkkAeCcBiTAWgndTKEr8z3aQHTM9VLnH_fFPswg-w0CDED-C9amJQPIgmurfjMNyrsbeF2_LhvdxiGZ6vf4DkGcrKOuN9ZJaJvdJckBn-IhHq6050PhTNgXgwXGfxSyNfq6RV59oULAPx0M7PJ8dqPwbdj6R45wIeYs3ah1-CkGk7Bh5kRu5WtdBCbsOjnonCj14t5Oa4r6EN3vsskxXJRQ_iEP-Xfrvf5BgIb34n_s46fxaXdW4v1FBG7aQqo7nuNCGxo-4EJzKiMDUVhQk71jfu02tJh3Gdn9tcEr_8lPbTxz1iGfI4CoDmVrkIl_LabdXshcsbYLT4pNscmYuq44MftQWNPKrvSCllqldc2h8WwcUQL-rYKb2_vwRUOsmTCWDVJZRJg21lkrey7TghOBfF0OfUqpO0DRZXg8T57eBGsfsriPeiHTga4z8TFnxcutODEXKuz02VHAl0rFEoOqGzKTfUof0cqY9gXw_VNgdDpotzcwzoPFbp3IdVB3RzKpKAi3RGz_dY8NI5_Sy89AbimM8pynzvczxUKdabTMgFD.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -512,6 +512,7 @@ window.__twilightSettings = {
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
+  "thunderdome_removal_flag": [0, true],
   "tifa_enabled": [1, false],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
@@ -3134,16 +3135,16 @@ window.__twilightSettings = {
     },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
-      "v": 22142,
+      "v": 22500,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant2"
       }]
     },
@@ -3186,7 +3187,7 @@ window.__twilightSettings = {
     },
     "72975220-4ab7-4007-a32f-554647f1daed": {
       "name": "split_screen_eligibility",
-      "v": 21146,
+      "v": 22508,
       "t": 2,
       "groups": [{
         "weight": 0,
@@ -3510,17 +3511,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 22380,
+      "v": 22501,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -4666,13 +4667,13 @@ window.__twilightSettings = {
     },
     "b57ca653-237e-491a-a421-2bd4a7b6e8c8": {
       "name": "xsolla_back_button_checkout",
-      "v": 22254,
+      "v": 22504,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant_1"
       }]
     },
