@@ -249,6 +249,7 @@ window.__twilightSettings = {
   "event_directory_enabled_games": [],
   "events_deprecation_date": "2019-11-12T23:59:59Z",
   "events_deprecation_notice_enabled": true,
+  "expressions_developer_badge": [0, false],
   "expStaff_upcoming_schedules_directory_page": "active",
   "expStaff_vx_vert": "variant1",
   "ext_challenges_whitelist": ["wlisor7an1m544ki2r9i1usl4d5ul0", "a9e46yl7gqwlsz7q6fqdqnrxng7tau", "ltszuxapi6b0wfpde6vqe2rodth4c5", "kd1b92hzrraf5k3uidm0a1u4fhrp6o", "8skl5ohvxvl8deeejox1e1fh7ovunh", "0vzjxlrppvwz5vzhfqwanqmka2g01l", "qxxw3ujo98hs4szinbwt59m94d9ozo"],
@@ -266,8 +267,8 @@ window.__twilightSettings = {
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
   "fft_channel_analytics_maint_date_gmt": "2022-08-11T00:00:00Z",
-  "fft_v1": [0, true],
-  "fft_v1_sf": [0, true],
+  "fft_v1": [0.32, true],
+  "fft_v1_sf": [0.32, true],
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
   "Founders_Badge_Revocation_Flag": [1, true],
@@ -451,6 +452,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "should_extensions_check_google_analytics_consent": true,
+  "shoutout": [0, false],
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
@@ -465,7 +467,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-16373f.pdx01.abs.hls.ttvnw.net/v1/segment/Cnk9dOM_PfLbXVuvP0Ry8vxkXuGWrnE5kHtdBZmjQu6pLjOtLFndTx9wGNDkknAmFfidQVbfyLdAfdgi6UxQQ0RhxG8IRzvuufysCjLIsNiyJEUCXe88Ss_tbK-_TwlbwWI4u5orDfDJdefpKY1gGP7qMPa91LIzg7GNm0CSfHVcXMQfj3Abk6wghqHlyq4mlMP4Bot1YRrgccohlEvnqIUapYpcBHu6z9yMlvmnKIp-pzGS9oJq-WKEXiElhfSqmnFjgyaTXaROQOqvhJQErgBQrh-m3kgt81SgRZB6Nd8M6TjgW_iqjc3Uwr1YVlldehJjfd-CrqstgBMQh_PVz3aHiU5YqifG72GjewoF-kz2fcZaRwtK-ETumqYkiHA7mXVLLFTu_1QLczVsZoCMRK8AHktzBipZm8RuaG2xC-27UCtZYdMLozqNqgC1gGgcXWuChdi4nrNtt4zc3pCoVR_g2wnckoeEt1mAhm3dYQNx5sVIxOFtVzOVlSxdelGrDPyICBWyIdm2XFsyY5DjsRNHFHjKYhSEb2c4Zb38OTLSS_XtYuYsxkZuR15lnr8G_LKvB0Fy_U5gM7vp7xm_bPLEVesaEPqwLWRXdSTbrnBUDRHHzjb60q1N6hVSiz5ctoBxWADL5TZYJGwjvLRhNE1MFH5gh0R1EciiH1zZ0wyWCC4U_kwYYZ8pkKxb2BFELc3bCND35zw1VGSvNwHLeeK5EjimrG_l-w_-Rmc2l4pMUbF4pLOENrCPxs1NdSlhGBKbCaNahEirlRdoPC71mi.ts",
+  "spade_url": "https://video-edge-f85a06.pdx01.abs.hls.ttvnw.net/v1/segment/Cnsmn811sJJsx-PILzFNbsojATctehUqxkltrs3j2fGNbV4CiBoNMho-mGgY1rpNn2_K6VlbKSEibLYyFMM2YTLRuW_-PnMB6TkHWjzVkeu2Hs_sbBfoxl2VaTMwQT-RlpQV01CFt0r-cZymyftS2d5b3CWc9sHHEz-yte46aFD1lLq8-JXWYphBP-yJQgeZgE1LYRuHCxRi_sE47muTyVXmi32OWfRxim7q_Wt40DRQEW4sbgHH_B4kkQNomc05wmR2zUrXU-l237FvW7U4lUwG_xOlmIv7FIdSdBVQxFgcOLFvYZsFrjgkCB_mhzSEk_SUlUd9-D8BsZSqtY6wp0hSHNmbkCQbi0IK2Ht0iCKh1xirvzmL8zYWKESawSAGqMrrpOpcyo_c7txZzcysojXsFB8LJXtnLPvDq-gM_5b2Z3by-iVUZWW7VE6c6mwC5h9MJUfjdz5htCXALDqyxzdP9VoLLvDgSjP9kq-y4CmyUXlMBALl0tnb_m_nu2LT86PDCEDNULAwtC-3rifmMtIhXV_abHrKFGvzyvl2eBrzoRe5fZjG1E7bpmjave5K72RqnwiCLo57Kg7Kvx4bgHFLdKcVGbxNcB4ajU1iQnDFe_2Esycy0Ui0Vdf387HwFnkwP8Jw6sw_M7nInXNU7CrzA_XbobNX6zhYxeOPhhG5Fz6QEMNsLb-Xcc4mxtlT4HEOYAuEydXKIe8K7SfiGv7158sAPISR0FQA91IB2j4XuVSKjFIDWUoYvMqR.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -4506,6 +4508,18 @@ window.__twilightSettings = {
       }, {
         "weight": 98,
         "value": "control"
+      }]
+    },
+    "ad919c2c-f746-432f-88aa-b06141b5de30": {
+      "name": "show_taxes_and_fees",
+      "v": 22715,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "ae266243-0248-4e57-b207-0ad86b2d42ad": {
