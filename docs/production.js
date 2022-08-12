@@ -190,9 +190,6 @@ const productionExperiments = [
         "id": "fff85c38-ca37-42c8-961e-024a0e63cb1b"
     },
     {
-        "id": "8a892711-cc75-421e-a665-7e13c799d1f2"
-    },
-    {
         "id": "1f7e7664-f082-44cc-847e-e57dec0a6bb9"
     },
     {
@@ -419,9 +416,6 @@ const productionExperiments = [
     },
     {
         "id": "7351a180-6fac-49c2-a473-1a935de216bb"
-    },
-    {
-        "id": "3ac496e5-3cd2-4e98-a75b-1f3125dc9688"
     },
     {
         "id": "72975220-4ab7-4007-a32f-554647f1daed",
