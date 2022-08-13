@@ -266,7 +266,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
-  "fft_channel_analytics_maint_date_gmt": "2022-08-11T00:00:00Z",
+  "fft_channel_analytics_maint_date_gmt": "",
   "fft_v1": [1, true],
   "fft_v1_sf": [1, true],
   "first_paid_gift_offer_feature_flag": [1, true],
@@ -437,7 +437,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
-  "rpt_countries": ["ES", "JP", "IT", "TW", "MX", "AR"],
+  "rpt_countries": ["ES", "JP", "IT", "TW", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE"],
   "rpt_messaging": true,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
@@ -453,6 +453,7 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutout": [0, false],
+  "Shoutouts": [0, true],
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
@@ -467,7 +468,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-4d1f1c.pdx01.abs.hls.ttvnw.net/v1/segment/ChnvSEt5RJ4kIz9dA5iRedcN_xgrb1AjVfp_3lgB7CB-sSxC6MljxcwtlDYpuuSIGG4IXTvyyJQzkmbN6HQdkcMmDcUFzXaxBvyI8Trsxb2Z5vZfvDGpKT0Xa1v-psNqu3_RcNjrKeK7VkVpYlP49hnBQhwLkbpJ6cE5rMHI3F4ZLA9kFTqr_1tcgZQdEUTD5kHbF43_kPRG8CqwzNgT1GpCPHWEra1UVmDlh3_4qNUxZSV6QIhROdkcVS0oy3eWh_HHhtNVqELr0d4MP7Jw0qhgtHW65PKtzfhBax7knLiNmB6Z25VKWztaHulsFhMXNDVM16D6HAoQf-WiMzL-93M1OzccfRlmohgQ6j6eLkzY0Fsb_o5EmrVihc9_ZLm2TQWU_ArLyGVkJB1hqCohREF79R4n87XMqdhD0j4IP6y_z9DM1vYDhqcwFd6G3JXJA3pyQpSWnjhH0sz9hev5361Skci0HOAubTwnSqwvktyDfsYu_7T-KeOxvuwntOe_VVLEkyQL7anG8lwj9lq7rXN_GdGt5nFJhAhehph2iMZ2fL8Ht2gHL3VvChQ31ehoNuLYt2MSM0hLu-ifUPUziTsn7yh8A9prAXB7Zmj9SzgKQcOeHJ8FUz1MK9Xw8cFSemqBV7-eYy6ASDu6vVX_2Mht3UrNxDXPkyoHh-9cP4DwyrcL_lYTYThI9SqN-ie0lGN1h0DgQG8NBl3Mz_QwM2o3mvez2tnxNT7UiYZjHiZXxIvf-V9_HZTupGee70bRYQ2c0JYd.ts",
+  "spade_url": "https://video-edge-4551e2.pdx01.abs.hls.ttvnw.net/v1/segment/CuleDwuHiGS7qSpHKfgYCKxA-Xkj3vpvzeAk3C_N_HH64nnuMGX6G090_MjVfdfX6gLAnYpKRu10LR6ExM-wfmiWqzZE985IhEHUei2D-UvqfS2JNdrUmPIkLW7mqkwKoJ-RU5eRuG-_70LJsNBgLGk6A3rfbEl_xTq6PILnVKQyo_tucCLyIBSwA2o7aHM06RcXYeO0ks5HLjNUIvm-0R9Vl3RfZ3juY0K9fQgy4SqYmru7xobejG6gNmU0r-Lt3AgGm5AfwYr_sjWcKltSmKGLvYrq526r0szCVs3TBB1LJoOD_XWuwx2TyWCfIw88tZEto4QiN4IBqtWZIuXMp3_Z67ZGQJ4TSNMBEAaIjowQtsbDNa4RsQ0Fdr3kxggCNKU91idvnUHJ7LLqD0vRIoZcjsP_3VMzuljkn8CPX927LoqqCjOEIctanMVr8F0NJiMGn1b4mTqq5N-yuzPN1dbGedx_ZkD7cjBeugc_-lkkTcE_oriKYVWYWbdZ6HKZMmWSy5YV2eP1gQO0_vBJ4J5XiuhY5bBecADH4-U6d6n0YFTayr49l8RYkgO686-dI-x2-UjomW9b-PjONVoQz-bx80ungn7LDpzUuHk88pjs0Z-7CDSUtZQhRKDLMB8Vns_JC4DUSf-4-YFQl6rMO_xKzAkMJl5ehZ8FV7mS3sywIJ4DGYzGxTGdsRRlgCb02lpAr-3o4LTXsNe9r-cg1LkJF_YZoPZlqp0gmINlv6d6Vq1rE1nVDs7FFlbOs6hNzcKDjJXpB.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -3527,17 +3528,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 22553,
+      "v": 22794,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -4230,18 +4231,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "9fd5885d-28c6-48b6-9ca8-10150cce0eba": {
-      "name": "kneafsey-test",
-      "v": 18370,
-      "t": 1,
-      "groups": [{
-        "weight": 10,
-        "value": "test1"
-      }, {
-        "weight": 100,
-        "value": "test2"
       }]
     },
     "a08f8d09-7890-4eae-914f-6b272d05d1aa": {
