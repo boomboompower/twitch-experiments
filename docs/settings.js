@@ -152,6 +152,8 @@ window.__twilightSettings = {
   "chv2_mod_logs_v2_enabled": false,
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
+  "cit_kasada_rollout": [0, false],
+  "cit_manager_rollout": [0, false],
   "claims_form_bulk_input": [0, false],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
@@ -272,7 +274,6 @@ window.__twilightSettings = {
   "fft_v1_sf": [1, true],
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
-  "Founders_Badge_Revocation_Flag": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
@@ -468,7 +469,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-75a2e3.pdx01.abs.hls.ttvnw.net/v1/segment/CgVqqEzI04fgRscMXkt8eycVkjfiaRe0bXZL_Kb89ZXz2h-MEJxlt9d2kIvXSUMiNIVtzf_DuaJacQyNqcFtFHhgTCdW9zKjKrJe2uAlre04-R9PDMqTS2F_4A-PzuIztcFhWIgDcCq7nVMqipqMGIekGUqaqnYUsbnK3zTgOkTiGdiqZywaRaYeqzoLqpYrWRVDrfrEBh179yYbW6iEfqE0WmbYhTu6N1sFY3cg9QwEfscUORlVfnISp4DFeqQtuPtlVm21RBkQsxJo4pdzePfwNIWwu3-OfYqSBL4EBhUJz1QPdyxCtV2y7fDNVdUVHwliGI8SErbHGyTxBfzOT15XhJUqH0H0MYskd-uMu3CRpd0ix4Qn7TWVX9TAXziiYSaxQ8ublSF45uMmdPaGHi3lVipJJMPMsa66IQhmXILcYwjW59XSESFFN_PGQ90_H7DNbYDVcuf3pOpdHkNbNFJ9rHAEEYp05cn7KUN0EEPLTa5XfiB8w1TqxcaJrs5fQjBjIvMwYW-5lV1uNnPv21HWYnKA6SKUhzHQWw2Lg_3rzchlX_uQ1Mo2SO3Ya8jiJ0oo9N4NIGhIr9s9Q_wv95Trqy3UoAkbnn1KHk4gkPbxd3-6vx-vV-Wxh1rNn2TtVa2RA7SXaP9-3jDItGwhLfVePfnOik9WBPH8BjZAQ8d-ZGaVbsEaRvcK4yLb3p4tdM-p_rVKor3NoB8A7cXspOavEYCzHJ1rqa8MVpviRj3V5aTnBe4FDLtWS2uGWYHmNMwvrsbbJiaKvrdc9x.ts",
+  "spade_url": "https://video-edge-f4c14a.pdx01.abs.hls.ttvnw.net/v1/segment/CqmDdq8rAgADN7G7ZfdIGPPzl0vl6VaTyEFHuAFkEUEt6_0WAw3D6iUcwx1rpjjPve9GFJwHNkU3O375ZegseRGVDomvBc7hD1vAEaHrxjLJev5Xryt1-HzDpN9yzfNagFmo1MgRMDi-X9U6Fa1KwCElcWN0o0G7xwR0zlAZ0AHq936tXU8CDarlON1rzfrs31II6AqD_QhR1TMnZxIGfUvCvQt0T6B8BsYizCniFQm--Z1moa_4wPaIcPdEee8CK_rsVLvLG63wr-4nih7joA0pekhTEm3fOMuewnz6iT_boW5b1l3dBDJkK_tlheVMSSTyv0ckDLv6jy83r6ipdUFTZ7f5xHsai3_YTzuD5up3PlRtM23DFXU5FSBwQTFciQA7qeKflwDtP5v6cTjOAkqWsG3yVI2lzdhv6sSovrC--vDSd0FMUw20yPoWFBUqRnFA3Stto6xI7g3Tb_r5pyGymWHgIJ8gT8GyL8bFRs67vl_5fux5XIFOk1d7Ui71gg-J1vuqjhnhnJ_GiFx9snRpXjR3Cg9dDPhwtuiCR700N4M0_eHp8QIuiiqt0HVHV2M_GHnouNEn3m99fgmh41DpKOF8WVRkOgdAg5Ch7H4ZPj_XEBPuD_iKHFDa1hPlwPA8ooNx_QXYJ9Kd92jm6Y6Ijo8UGfXJyWN3OfG95Tr7lvpWu25m9n1x-6gyYPw3t5RVkxwDthMLW6BzgRqF5-hDzc7FOFYYBOS_Nn-uGXez7oFw3PP0GBTrlVxfCh8m_FOvPF.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -506,6 +507,8 @@ window.__twilightSettings = {
   "subscriber_badge_progression": true,
   "subtember_2021_end_date": "2021-09-30 23:59:00 GMT-0700",
   "subtember_2021_start_date": "2021-09-02 13:00:00 GMT-0700",
+  "subtember_2022_end_date": "2022-09-30 23:59:00 GMT-0700",
+  "subtember_2022_start_date": "2022-09-01 11:00:00 GMT-0700",
   "subtember_sponsored_cheermote_end_date": "2019-09-25T00:00:00Z",
   "subtember_updated_callout": true,
   "subtoken_balance_wallet": false,
@@ -3131,16 +3134,16 @@ window.__twilightSettings = {
     },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
-      "v": 23703,
+      "v": 23793,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant2"
       }]
     },

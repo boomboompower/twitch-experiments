@@ -15,9 +15,6 @@ const productionExperiments = [
         "id": "32c7f734-16ae-46dc-b6cf-43869ee3d9a5"
     },
     {
-        "id": "f4f60d8d-02e1-49fb-acf2-03150ab04fa5"
-    },
-    {
         "id": "d44f032c-1c84-4545-ae91-77ff485ef33a"
     },
     {
