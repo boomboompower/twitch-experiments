@@ -177,6 +177,7 @@ window.__twilightSettings = {
   "consolidated_dashboard_settings": "on",
   "content_promo": [0, false],
   "contigo_ojos_y_duende_proxima_AA": true,
+  "contigo_ojos_y_duende_proxima_playback_position": 5,
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
@@ -469,7 +470,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-3a7044.pdx01.abs.hls.ttvnw.net/v1/segment/Ct8VJMb0tPXaqLNfXfVr4v1y22CTX8jW-QpFU59eRUEwa4ky96y_356U3eyl6Zl0suOf8TbnleDvjcE7SyXfUDenot8qbaUx0G__58oxGjEN_fYEDf4b39msSDYSku9ypOdqVbtdCBQScHS6dDcxWrFvH88i4l4YisO7C65y7K7yjk4O-nLZseg2h9IBwEis_hK1uRXKPl5rtHJDGRRwZ3wxAY5Jtd98vqVDhrAonoZqN2WH7uKDAFYL6UuqjMCMLZBAzw751EEOf1-qvbR4OIImZH4bDh7SV2vNFmLV9-4_HhQaK2dYC1Y7HdiW9FUY7JnN9_c4hpz8LREOHvemy1pl0YGYtoPkkiCRnjrMhLPRHMkKyhgod2c49fCLnOHAUQH_3VSCG1rh5Puqm1jmdsonBhL5UK-TzAfi-Koqq7VwAdr2j9fDzC9yHu3WdV4NKylp4SgtCvzbVUXrFl3g5uhgOcx18S9gMhMDS-hpgi8vlhA-IUbWzoP2McEzQvAk1Iz74-EQI2odmF0_cicRvnIjJ2BfKm7exZRg6ax6vx5YhqxlQENbD2lFrEalIpgUWOmmyRSdrjEDgqxMtwtgif-0OP0RUmgbrRCbpTShJEEIw5SdYF6a_JgTNx_6EQaWkel0AwdF5sqntj4Nr8tkBkhWWOh5ZGEWquPBSh5YfY0pMOCwhhhChqIBLZ_nwZOZgxUmyxCcCNQKghxXt1NX3PrBnI_AunMhVHFybshCj8Na1I_b9FU0kuGlBuLbr.ts",
+  "spade_url": "https://video-edge-458e13.pdx01.abs.hls.ttvnw.net/v1/segment/CvOPIQSym5W2oFMQv0JjawG0TzFd8Q2KBimQjhXGLBS-cgVXZ5x-LDR9q6euSmUMkv7qXVkZQ7aPLaperGD_YR7pQyvDgNsyikwBtz5WRwRJH-d54Tlvebv4zXF1xY7QouSqNPTvw8EB6LsgktxHLBJGt6XxKYST6l59Ga2li5AQP_PUb0kpeKVzcDe5eUTAy5LltuKgRtueT6UJliYvOyFSI-KGy9m-3ztRITZJPSNSh28IbeQTMmTQFDVn2fv7NmbmDawva_bL_yXuy167BH5VHWtU8gYXhGmE5dXeB_pLgwtrtRnZsgfyms2a4gSK5mMW_yJXFPcNphWp02tctVMZf2Q8HGOnKZLoODicgPG9GTSB4Uggng-YFuqXfu1wr7xwEXPmrtb6VXt9ag04VVYmqp_igqL9_q4D_nrSf3eJ3_a_HfG7yGDN4r1Zs1liC5pg1QPO-XD1CB_bofdrGKidOQAk6RVEZVc1TK_EhqnsfyfZ9NuY1VcS9yAnIeEs4Uvs200W0qixQk3ya_OnE1tIwajjTLpJCd-X5POonHG0umPQ04eiNBiwFZUbI0boTt7Zt2QPbF2xL6E6uiUpj3B5Nner6rpYlwyqKuuAjb24mstGC_vjumnWYdEC8gEQteCNc5DPHO-KIldj4PKt_ZNJVXdDblKYKK3hW3J7_Kt80CoEitVeRn0dEE3eDS6DQL_tXEpY_3izapsMiVQ5hpnB2-6kiuD3YLhWxwXyUh8Giu4tsF6XyzYqLQ3J0KGPRus1.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -488,8 +489,6 @@ window.__twilightSettings = {
   "studio_default_layout_change_flag": [1, true],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
-  "studio_layer_rotation_flag": [1, true],
-  "studio_layer_rotation_flag_mac": [1, true],
   "studio_layer_rotations_changelog_date": "2022-06-15 00:00:00 GMT-0700",
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [1, true],
@@ -3562,17 +3561,14 @@ window.__twilightSettings = {
     },
     "833cbdea-72f8-4187-b150-9eab884f98cb": {
       "name": "creator_follow_cue",
-      "v": 22325,
+      "v": 23833,
       "t": 2,
       "groups": [{
-        "weight": 34,
-        "value": "variantA"
+        "weight": 50,
+        "value": "activity-feed"
       }, {
-        "weight": 33,
-        "value": "variantB"
-      }, {
-        "weight": 33,
-        "value": "variantC"
+        "weight": 50,
+        "value": "chat"
       }]
     },
     "842f8360-8948-42f2-a088-92e266724cc8": {
@@ -3734,18 +3730,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 100,
-        "value": "variant"
-      }]
-    },
-    "8a892711-cc75-421e-a665-7e13c799d1f2": {
-      "name": "spotlight_forced_onboarding",
-      "v": 13965,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
         "value": "variant"
       }]
     },
@@ -5937,18 +5921,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "f4f60d8d-02e1-49fb-acf2-03150ab04fa5": {
-      "name": "studio_layer_rotation",
-      "v": 22138,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
       }]
     },
     "f65ff295-57dd-4ed0-8011-4df783456b56": {
