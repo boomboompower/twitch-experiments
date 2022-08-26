@@ -155,6 +155,7 @@ window.__twilightSettings = {
   "cit_gql_rollout": [0, false],
   "cit_kasada_rollout": [0, false],
   "cit_manager_rollout": [1, false],
+  "cit_max_retries": 3,
   "claims_form_bulk_input": [0, false],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
@@ -180,6 +181,7 @@ window.__twilightSettings = {
   "contigo_ojos_y_duende_proxima_AA": true,
   "contigo_ojos_y_duende_proxima_playback_position": 5,
   "contigo_ojos_y_duende_proxima_upcoming_ff": [0, false],
+  "contigo_ojos_y_duende_proxima_upcoming_limit": 0,
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
@@ -250,6 +252,7 @@ window.__twilightSettings = {
   "enable_category_suggestion_cluster": true,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_localized_twitch_music_link": false,
+  "enable_owl_maintenance": [0, false],
   "enable_vod_tool_cluster": true,
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
@@ -474,7 +477,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-f2213d.pdx01.abs.hls.ttvnw.net/v1/segment/Cu4nuLVoQgrca0geRPN3h1yLnsH1fIrB7Hsm-f4GZbAhfvl89OIzsQ5gDJQH9-dDenH1Xg8STUiS9sYXfD_fAIFI_ZoSjG8dRdEqpgJ_rLfdCcGTTr0_L3wz-IinLMh4Da9ZYLhov1s6lUKsOBQmI3kpU_biQELaP-tUaEIkzd1cVz5CDD_98YpiDlf6vcjWZQdm-fhWwfl_NJfgS8UmP8SFdrx17L0ZbP9p0jSDrp0WW9xuTD3uF2Ajf6sj2exHMBbMgYBGFebg48nllo6C4fDQ7aiviV8JHY_EME_jZedtHPSgDe6bu0pJUDyXqI4GnnFk6Ksr2XiRSZDSv1aI3TKWh5zAE2Mt8D89w8IrECinTUbiUbl7maXggBFbdw-VONHeEBMVmDD0IQn_3vhCuvZsq-tb2Ym6-1dC4PQIcl-3pYXnKg5FFmAbfgVMd5awp0CvULoQZY7z_PNs6tEdjk58HGlYcWf92uo1sSNyd-NkUenIwvxzFfDnEfcDnX9Iedqx0Es0BCuik5BqaNuGrjO0q3grAAkVsQi0JS7dZJ5Iz7Wmm0BTbXW4dPURRb5FWAR7cKzQgn6w6beSSgZpSOb6TrZo_YQdkvJz3oMzLYEis0_vkuKzMa7up-XqT8VkOlbbbp412WbdYksi0t5kSvitrTPVUJriJwg53zmkqjmei4w4hZYHUFJeDrTrl59r7nQMliCsLa1MlVClYe_AUvih0x4BgXNln4CRE2fpk6u2guWtO0TCLPdQaeIVKzvJBubCFy9t4Zvm.ts",
+  "spade_url": "https://video-edge-4470a0.pdx01.abs.hls.ttvnw.net/v1/segment/CuMG0U_QflGcrnh4yDWBfV6VLqRKmlG5yV7IZHV8_iad9-tPAEFixG6z2wPppO4svRdOxRmUgPhLmgJ2Aof2e-oQr8w4u7s7EkLpvnc-dmvotVq1cEua7DZh_E9I-7bZOAQ-jtRyxdzesBF3yooECmf2TLyFgDMPY7BeykOIpaStv-QnfpEnz3VcY1n9e7sncyr-UUtsQA9UTfSej6IJF-GFs9Ce9T_2n1VpHLVcRAVIqxEwd6cK9VRyaa3jzfwY6LK2GjmW7oQG1qeoyzc1YnqVOm1s4OZAh3brQC3s5HfetZIPcsBtNHRK81qR06wGqlqrE3nzzA2ob2YX8oO0HbnIl_wkG0dhSzDVlWiAbLoPBrXg71iPEkUiItq3Sn9q5O9TQiBqSBabotzuKGcDa5E7p7zrUa88dQMrBz8_MnTck_EHyDA5H1JdRZOVoJwR0YxcjEsNSL1jvA-Nqgv9J_H6J0GnaxA0OwjI2aTmW9KGJyL_RSVFQdXNYB6W-W-atIQcINf30hNX2RLZLi-PHkijcuYqsuABArmVR5DreiM_D9WIGIitvv0LDzIGY3NXltHlPQJ_ftnml0t7A28werfYkrm2MQ-6ktoCPIqq2F5i7CQgjVHlCu8fhgchUedrDDSidZoQWdbhZ1xluqWbOwkM3dvHg5qpFz5hXd66h3DjYdqpfmFi5Ws1GN3kX2xxBvN7WcJqLKXh1QnROKawM0is82jdfjmyl_aYIbmO0iEwHUOlUS6NYBdsPza8V_qPu3l5Su4B2.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -498,8 +501,7 @@ window.__twilightSettings = {
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
   "studio_project_airhorn": [0, false],
-  "studio_scene_templates_changelog_date": "2021-08-11 00:00:00 GMT-0700",
-  "studio_transition_ui_flag": [1, true],
+  "studio_transition_ui_flag": [0, false],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
@@ -1863,6 +1865,18 @@ window.__twilightSettings = {
         "value": "holdout"
       }]
     },
+    "344204fc-59ce-4cdf-a127-1ca08d1f57f1": {
+      "name": "timeseries_referrals",
+      "v": 23903,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "36006d8b-bcf1-45fe-a9c7-ced7a2e45694": {
       "name": "gift_predictions",
       "v": 21865,
@@ -2923,6 +2937,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "6616da0d-27f6-4f66-850a-b80c27576a65": {
+      "name": "simplified_checkout",
+      "v": 23902,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "experiment"
       }]
     },
     "6699df7d-9f23-494c-87a1-06fdf80f1e68": {
