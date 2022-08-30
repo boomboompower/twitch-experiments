@@ -10,9 +10,6 @@ window.__twilightSettings = {
   "ad_content_metadata_rollout": [1, false],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
-  "ads_bonus_enabled": [0, false],
-  "ads_bonus_end_date": "2021-12-31T08:00:00Z",
-  "ads_bonus_start_date": "2021-11-01T07:00:00Z",
   "ads_preroll_timeline_enabled": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
@@ -52,7 +49,7 @@ window.__twilightSettings = {
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_charity_event": "off",
-  "bits_on_polls": true,
+  "bits_on_polls": false,
   "bits_prime_offer": false,
   "bits_project_marley": [1, true],
   "bits_project_stucco_dashboard": [0, false],
@@ -149,7 +146,7 @@ window.__twilightSettings = {
   "chv2_mod_logs_v2_enabled": false,
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
-  "cit_gql_rollout": [0, false],
+  "cit_gql_rollout": [1, false],
   "cit_kasada_rollout": [0, false],
   "cit_manager_rollout": [1, false],
   "cit_max_retries": 3,
@@ -246,7 +243,7 @@ window.__twilightSettings = {
   "emote_card_whitelist": ["184009112"],
   "emote_picker_load_bits_tier_emotes": [1, true],
   "enable_async_giftcard_redemption": [1, true],
-  "enable_category_suggestion_cluster": true,
+  "enable_category_suggestion_cluster": false,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_localized_twitch_music_link": false,
   "enable_owl_maintenance": [0, false],
@@ -474,7 +471,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-5f3dea.pdx01.abs.hls.ttvnw.net/v1/segment/CoGE8IKkjGiCnduwsd61iG5LuTz6hFv_OjU1Po9OUQ3-GZ1jtFb8EejdC-O7X8ivQNfRp0CgYkvtOJHPXsdFOkYb17q12Fac6vQ9ye2Y_IAsvlydj1KEU_DO6yMoVT4M0XOGcVuXNg7_5Rgggyyxjf2RnmvXZJSIj04QbHkG8AqptNFCxH5HZX8Wi1-lphbcPO0-Mi0Df8w2Wi7unRn7RsL52JcZgT_M7FhxuYGKIBs3yCOCjZfeEG_mkN4wwBPzGycPqq9tuei8DnWy3b4UBckGVNuFGP23_an1W3HJwftceldVptCha9XYy_uHFh3jNHN5rG0pEiRR-OI1PAErd7ZIj48QaKR22wMQH8J6klqiLGUh4HMxPMT8OZMSNV1Jjl_YgelByGTtpV_QAdJZKpTwv3Q0dCZ4frN4BGF46qpyp4rub0Kdbxrzpo24-twvATnXMUfaDhRdm_asvw8wH7GN-3MsvtKs1oBMKo1M2kxmnpIdL1mLzY5A7hfldjaXaDC8M6kQwXHWQlnlPWNO363R3GNGcWS3X3PbxH8UF5-bI4Up7II2g463OFuesSDuLSo_XzUMtke7GCjjRok_D3sQk_HTP83c17AoxpRSBtVwxNtegj1IdhQRZEsoK3KBUQNWdCBYpy-nYMakm3vkvyjRKirmuZ-sJfxPPf8T0zGQFxcRwYCY-W9NIBd9Kn5ytHGapcYJRDtvnmjS9e7kzjcSZwwu1IcOx5KFjztMqlicFvNQ4ID2dCIb.ts",
+  "spade_url": "https://video-edge-7f5183.pdx01.abs.hls.ttvnw.net/v1/segment/Cpai04kkPgPfwa2vYp47xnsi1M5oj40Cw2S1octIs2_OBOw8Zc_KSGIcdwWxmbE-wA4IvFjCPrkRyatK_XZ2NrJLeja2YBxpiCP3XEs0DrESD7d8PmmHQb6JeGFGRlf-BMBV41-gZRvbrmjF0t6U5ZObqVVNlQKeVdy9tfC3h7jVa_VWKWSTer-uk-WvvJPN2iaNyt_QjwcaEbGEH0VLjfnVh-BDDJRZzdr0UmwpBKXdcT2PAWcnAqmp66myk0CWQ4uCOW0jx8iJ0jVqzroc7RdcBkGVcd2D-7KZ8NzM1-n9rsFgxx_GP49Vs6RDSk0B3L1WfYGmQPgHPX49jEfAbWz9XtJriRxirStClcocTtiBXm_1Xm0yrP8OEgXym5_EOjwnOlGUcEYUktvBSsvudWDEMc4ICk3xcbp7m8P8uKVl4EQYUN-erWGSoi1Jhct4TjQNaJSaIzCU6Zo0vnVXAX-axaaeV4NSUu7-4d4tyMivQHO54jdCSTXC7lGdC4eh-77egLo7Cdfg18GUcFwB_uA3AMPfGpx45cFOHEgJBy395Gibr6rWP-b3HOp4JFuo71yOVj6piQQFTrEj6EF9vB42xJDA7UkGQBsOYvviMig47Nk-JrJSUx6uePpzfKM8DbKlmfSfXbF6PLh5B-wRozdiWE_K0gwnE9tN7vHPocAQaRjAhAUOMyE2iu7czdh_G18dyg11JB5-JMFENt5cQarJLBjRbyVJdgqCGnstGfsEm5etHVibV_xKq_aWfh9h_42diQ-bof5JtBwNHN79DxHx6.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -4862,17 +4859,14 @@ window.__twilightSettings = {
     },
     "c0634742-95ef-4a6a-a763-d011fba5ba6d": {
       "name": "one_click_gifts_global",
-      "v": 23849,
+      "v": 23950,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant_1"
-      }, {
-        "weight": 0,
-        "value": "variant_2"
+        "value": "variant"
       }]
     },
     "c0cc65fb-a706-4f0c-bac4-d92520780a30": {
