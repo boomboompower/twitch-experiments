@@ -65,6 +65,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
+  "branded_content_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -247,6 +248,7 @@ window.__twilightSettings = {
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_localized_twitch_music_link": false,
   "enable_owl_maintenance": [0, false],
+  "enable_passport_integrity": [0, false],
   "enable_vod_tool_cluster": true,
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
@@ -281,7 +283,7 @@ window.__twilightSettings = {
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [0, false],
-  "guest_star_screen_sharing": [0, true],
+  "guest_star_screen_sharing": [1, true],
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
@@ -336,7 +338,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [1, false],
+  "motivation_lvf_flag": [0, false],
   "multi_month_gifting": true,
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
@@ -374,6 +376,7 @@ window.__twilightSettings = {
   "paypal_eu_subs": true,
   "pdms_access_requests": [0, true],
   "persisted_queries_enabled": true,
+  "persona_flow": [0.1, true],
   "personalized_sub_modal_phase_one": true,
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
@@ -471,7 +474,7 @@ window.__twilightSettings = {
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
-  "spade_url": "https://video-edge-7f5183.pdx01.abs.hls.ttvnw.net/v1/segment/Cpai04kkPgPfwa2vYp47xnsi1M5oj40Cw2S1octIs2_OBOw8Zc_KSGIcdwWxmbE-wA4IvFjCPrkRyatK_XZ2NrJLeja2YBxpiCP3XEs0DrESD7d8PmmHQb6JeGFGRlf-BMBV41-gZRvbrmjF0t6U5ZObqVVNlQKeVdy9tfC3h7jVa_VWKWSTer-uk-WvvJPN2iaNyt_QjwcaEbGEH0VLjfnVh-BDDJRZzdr0UmwpBKXdcT2PAWcnAqmp66myk0CWQ4uCOW0jx8iJ0jVqzroc7RdcBkGVcd2D-7KZ8NzM1-n9rsFgxx_GP49Vs6RDSk0B3L1WfYGmQPgHPX49jEfAbWz9XtJriRxirStClcocTtiBXm_1Xm0yrP8OEgXym5_EOjwnOlGUcEYUktvBSsvudWDEMc4ICk3xcbp7m8P8uKVl4EQYUN-erWGSoi1Jhct4TjQNaJSaIzCU6Zo0vnVXAX-axaaeV4NSUu7-4d4tyMivQHO54jdCSTXC7lGdC4eh-77egLo7Cdfg18GUcFwB_uA3AMPfGpx45cFOHEgJBy395Gibr6rWP-b3HOp4JFuo71yOVj6piQQFTrEj6EF9vB42xJDA7UkGQBsOYvviMig47Nk-JrJSUx6uePpzfKM8DbKlmfSfXbF6PLh5B-wRozdiWE_K0gwnE9tN7vHPocAQaRjAhAUOMyE2iu7czdh_G18dyg11JB5-JMFENt5cQarJLBjRbyVJdgqCGnstGfsEm5etHVibV_xKq_aWfh9h_42diQ-bof5JtBwNHN79DxHx6.ts",
+  "spade_url": "https://video-edge-4b2c9e.pdx01.abs.hls.ttvnw.net/v1/segment/Cl5VprFSnpunvcv3FMLH9i_bk7Jt-MqocnF78eElAWNDARPnb2jpeBM_Uau1p4-0t_7Xpgft0SZ2PwXS-3y2JNPQyUGZiGcG1FQ8eZIQcrVbAUAz9feqqw1VS6vKJ7NNxSI83GvvHLMKVr4VDRN1FKATTO0G5MC7CPjT8zlh5tsfHnM4qovVfLuBqSkBCiGhQLmjyu8a1XXcZmG4MSil-8tfFCZc8HyliEnwWI5tCxViQn5372EiZPu4R5asWRGGLju5m_nQ27qXD-pRF_1pOk1kze72SDrNBc76svyTwvHH34gC2bpIvNS4i3lmCBjhzQryhjl8TPr7zgM8598ibZ5I2DDAHRTPLVwLcFhYEAomuyVJKuJJxUF6Wuh8THo-3htQnBi7C17TXwHD8d2sFHsIJzkz7Sgns-cOXH0KyszGBZijxwEBozAmFtuZwJjC2U_R8VR9PCz7BPy0IrDoiXgsi4RQRJbCthjEZGVbD0Eq7D5S75b3yrohF2GdvQCKpscptGzuiP4ucLn0sSQE7Mvog7LtVefQipZrPaU104YVqz5r8ykz2ZVyw_maxNcTmfXn_pKlp4UvYV0_PShzM7qyo4ltHHHTWmYgDNGnjul5RmdNgq-8bIHMIU-6Wiy6srwEmP-tHXMcRNSBOoZLtEBwave7URiu6DdRde3fwU_CUFCSCejVhN8lCZTaiXy78AzcbkPILzzJVVqPj8nlYwyjqCwGkzUtSNY-NcSM0zvDsu9o5288p7oZba2IfyOx0M1z2yDxYbuf561TpOSFAT.ts",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -2426,13 +2429,13 @@ window.__twilightSettings = {
     },
     "4db14a3e-37a0-4e44-8eee-012900479160": {
       "name": "cecg_stream_summary_email",
-      "v": 21418,
+      "v": 23978,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 75,
         "value": "variant"
       }]
     },
@@ -4669,6 +4672,18 @@ window.__twilightSettings = {
         "value": "variant_a"
       }]
     },
+    "b2b6d1e2-2b33-496b-8d77-6cfc454e0881": {
+      "name": "motivation_wg_live_viewer_feedback_v2",
+      "v": 23975,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
+      }]
+    },
     "b2e45853-465b-4a8f-96fe-d2611c4dc3f1": {
       "name": "last_x_events_user_level",
       "v": 23740,
@@ -4783,6 +4798,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "expanded"
+      }]
+    },
+    "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
+      "name": "seg_mented_signup",
+      "v": 23977,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
+      }, {
+        "weight": 0,
+        "value": "variant_2"
       }]
     },
     "b8c26067-ebc7-4942-8c7d-14beec8a2d85": {
