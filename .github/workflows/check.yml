@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+    inputs:
+      message:
+        description: The commit message to use
+        required: false
 
 jobs:
   check:
@@ -20,12 +24,17 @@ jobs:
       - run: npm run start --if-present
 
       - name: Commit Version
+        shell: bash
         run: |
           git config --global user.name 'github-bot'
           git config --global user.email '6031226+github-bot@users.noreply.github.com'
           git add docs/settings.js
           git add docs/production.js
-          git commit -m "Automated Update ${{ github.run_number }}"
+          if [ "${{ github.event.inputs.message }}" == "" ]; then
+            git commit -m "Automated Update ${{ github.run_number }}"
+          else
+            git commit -m "${{ github.event.inputs.message }}"
+          fi
           git push
         continue-on-error: true
       - name: Done
