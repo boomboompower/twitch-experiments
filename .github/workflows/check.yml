@@ -27,3 +27,7 @@ jobs:
           git add docs/production.js
           git commit -m "Automated Update ${{ github.run_number }}"
           git push
+        continue-on-error: true
+      - name: Done
+        run: |
+          echo Goodbye!
