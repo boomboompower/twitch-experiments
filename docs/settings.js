@@ -247,8 +247,6 @@ window.__twilightSettings = {
   "enable_category_suggestion_cluster": false,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_localized_twitch_music_link": false,
-  "enable_owl_maintenance": [0, false],
-  "enable_passport_integrity": [0, false],
   "enable_vod_tool_cluster": true,
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
@@ -304,6 +302,8 @@ window.__twilightSettings = {
   "is_nami_enabled": [1, true],
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
+  "kpsdk_login_flag": [0, false],
+  "kpsdk_signup_flag": [0, false],
   "kpsdk_timeout": 45000,
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
@@ -495,6 +495,7 @@ window.__twilightSettings = {
   "studio_companion_mode": [0, true],
   "studio_default_hotkeys": [0, false],
   "studio_default_layout_change_flag": [1, true],
+  "studio_feature_intros_toggle": [0, true],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_multi_methods": [0, false],
@@ -2171,13 +2172,13 @@ window.__twilightSettings = {
     },
     "43376150-2b03-4d30-bfa6-dab9560722cf": {
       "name": "vxd_password_feedback",
-      "v": 22579,
+      "v": 24025,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "feedback"
       }]
     },
@@ -2191,18 +2192,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "yes"
-      }]
-    },
-    "45069b09-abff-46b5-a46a-585ba61d184a": {
-      "name": "motivation_wg_live_viewer_feedback_v2",
-      "v": 21513,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
       }]
     },
     "4524eda3-ae03-4a4d-a821-a65a83ef7687": {
@@ -4548,13 +4537,13 @@ window.__twilightSettings = {
     },
     "ad919c2c-f746-432f-88aa-b06141b5de30": {
       "name": "show_taxes_and_fees",
-      "v": 23993,
+      "v": 24023,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 20,
         "value": "variant"
       }]
     },
@@ -4677,7 +4666,7 @@ window.__twilightSettings = {
     },
     "b2b6d1e2-2b33-496b-8d77-6cfc454e0881": {
       "name": "motivation_wg_live_viewer_feedback_v2",
-      "v": 23975,
+      "v": 24024,
       "t": 2,
       "groups": [{
         "weight": 50,
@@ -4840,6 +4829,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "ba9ce207-d32d-4725-9499-43e369f4136d": {
+      "name": "bda_migration_flag",
+      "v": 24034,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "control"
       }]
     },
     "bd1b4ced-f031-4733-b5f5-6b9f5ce14777": {
