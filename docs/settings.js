@@ -13,6 +13,7 @@ window.__twilightSettings = {
   "ads_preroll_timeline_enabled": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
+  "alakazam_expiry": "2023-01-01",
   "alert_settings_modal": [1, true],
   "Allowed_OMSDK_vendors_in_Twilight": ["IAS", "doubleverify.com-omid", "amazon.com-omid", "iabtechlab.com-omid"],
   "am_ccar_feature_enabled": [1, true],
@@ -69,6 +70,7 @@ window.__twilightSettings = {
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
+  "c2_exp_survey": "",
   "c2_learn_more": "https://twitch.uservoice.com/forums/921826/suggestions/43388733",
   "c2_message_size": [0, false],
   "c2_message_size_participants": [""],
@@ -159,6 +161,7 @@ window.__twilightSettings = {
   "cmon_chat_introduction": [1, false],
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
+  "com30_friendly_bird": [0, false],
   "com30_ssoln_aa": true,
   "commerce_bar_experience": "sponsored",
   "community-intros-15": [1, false],
@@ -340,6 +343,7 @@ window.__twilightSettings = {
   "mods_goodbye_takeover": true,
   "motivation_lvf_flag": [0, false],
   "multi_month_gifting": true,
+  "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
   "native_account_recovery": "on",
@@ -503,6 +507,7 @@ window.__twilightSettings = {
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
   "studio_project_airhorn": [0, false],
+  "studio_stream_alerts_changelog_date": "2022-09-22 00:00:00 GMT-0700",
   "studio_transition_ui_flag": [0, false],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
@@ -1179,13 +1184,13 @@ window.__twilightSettings = {
     },
     "169d2a2d-20f3-4376-917e-681f34a0a41e": {
       "name": "cecg_vod_tool_prod_all",
-      "v": 23994,
+      "v": 24068,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "variant"
       }]
     },
@@ -6016,6 +6021,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "holdback"
+      }]
+    },
+    "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
+      "name": "venmo_us",
+      "v": 24070,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "variant"
+      }, {
+        "weight": 100,
+        "value": "control "
       }]
     },
     "f4c0f4c8-6fb6-46f9-bb82-2051c2ad49fc": {
