@@ -341,10 +341,6 @@ const productionExperiments = [
         "staffOverride": "treatment"
     },
     {
-        "id": "36a39ecd-42d2-4c4f-ad43-1d40b48378c2",
-        "name": "multimonth_evergreen_discount"
-    },
-    {
         "id": "d9a876a6-b481-4dcc-9c19-1d717bc623de",
         "name": "happening_now_notifications"
     },
@@ -524,11 +520,6 @@ const productionExperiments = [
         "id": "d07845e7-e953-4d39-afcb-1a973549ded5",
         "name": "subscriber_recap",
         "staffOverride": "variant 1"
-    },
-    {
-        "id": "cd6e0530-ee25-4416-9b76-3b4f4cc517ca",
-        "name": "the_sill",
-        "staffOverride": "treatment"
     },
     {
         "id": "40cccbb0-2936-4116-9b58-417fdee39806",
