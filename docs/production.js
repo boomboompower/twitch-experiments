@@ -373,10 +373,6 @@ const productionExperiments = [
         "name": "vx_disco_signup_nudge"
     },
     {
-        "id": "5e5c3b4f-81f9-4e3a-8643-5388d18222d2",
-        "name": "reduce_subs_confusion"
-    },
-    {
         "id": "56c7bb02-7fe7-41e3-a719-e84d762e72d6",
         "name": "copo_multi_option_predictions"
     },
