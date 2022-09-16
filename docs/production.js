@@ -236,10 +236,6 @@ const productionExperiments = [
         "name": "community_insights"
     },
     {
-        "id": "2559f1ee-d998-4fb5-8be7-9213e688a589",
-        "name": "bits_skus_reduction"
-    },
-    {
         "id": "fff85c38-ca37-42c8-961e-024a0e63cb1b",
         "name": "settings_overlay_indicator"
     },
@@ -330,10 +326,6 @@ const productionExperiments = [
     {
         "id": "fa56c911-0a8a-49ce-a114-61c95e5ed868",
         "name": "pvc_web"
-    },
-    {
-        "id": "11f76b25-03b0-4f44-b54f-ed8afe402dfe",
-        "name": "idplat_randor"
     },
     {
         "id": "6000221a-906c-4087-85b8-fd99c936c900",
@@ -477,10 +469,6 @@ const productionExperiments = [
         "name": "disco_raid_settings_v2"
     },
     {
-        "id": "1a445d6d-d9f8-4ce8-8467-19e3e3f2d84b",
-        "name": "simplified_gifting_offer_presentment"
-    },
-    {
         "id": "b235449a-b882-4266-b968-0fc591fba387",
         "name": "gift_chat_command"
     },
@@ -586,6 +574,10 @@ const productionExperiments = [
     {
         "id": "43376150-2b03-4d30-bfa6-dab9560722cf",
         "name": "vxd_password_feedback"
+    },
+    {
+        "id": "6616da0d-27f6-4f66-850a-b80c27576a65",
+        "name": "simplify_checkout"
     },
     {
         "id": "344204fc-59ce-4cdf-a127-1ca08d1f57f1",

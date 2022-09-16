@@ -285,12 +285,14 @@ window.__twilightSettings = {
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [0, false],
+  "guest_star_request_to_join": false,
   "guest_star_screen_sharing": [1, true],
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "home_shelf_moments": [1, false],
   "host_commands_rollout_v2": [1, false],
+  "host_deprecation": false,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -369,6 +371,7 @@ window.__twilightSettings = {
   "one_click_checkout_v2_country_allowlist": ["AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "US", "BR", "AU", "KR"],
   "one_click_gifts_global_country_allowlist": ["DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "one_click_gifts_global_flag": false,
+  "one_click_recurring_subs_flag": false,
   "p55v1b": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -383,7 +386,7 @@ window.__twilightSettings = {
   "paypal_eu_subs": true,
   "pdms_access_requests": [0, false],
   "persisted_queries_enabled": true,
-  "persona_flow": [0, true],
+  "persona_flow": [0.2, true],
   "personalized_sub_modal_phase_one": true,
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
@@ -468,6 +471,7 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "Shoutouts": [0, true],
+  "shoutouts_ccv_cap_setting": 100000,
   "shoutouts_jitter_setting": 2000,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
@@ -1731,6 +1735,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "two_step"
+      }]
+    },
+    "2d9223a5-5342-4324-bdd8-658eb560973b": {
+      "name": "one_click_recurring",
+      "v": 24236,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
+      }, {
+        "weight": 0,
+        "value": "variant_2"
       }]
     },
     "306b5fc1-d28c-4603-b2de-462d32c207bd": {
@@ -3699,6 +3718,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "879f81dc-22c6-468b-976a-71c47ad7b202": {
+      "name": "omnibus_purchase_checkout",
+      "v": 24244,
+      "t": 1,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "treatment"
       }]
     },
     "883426d8-69c4-4f49-b549-bcc342fb1262": {
