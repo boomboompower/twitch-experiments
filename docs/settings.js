@@ -36,6 +36,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_duration_bounds": [30, 90],
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
+  "auth_kpsdk_load": [0, false],
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
   "badge_flair_enabled": true,
@@ -250,6 +251,7 @@ window.__twilightSettings = {
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
   "enable_desktop_app_sunset_banner": [1, true],
+  "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
   "enable_vod_tool_cluster": true,
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
@@ -471,7 +473,7 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "Shoutouts": [0, true],
-  "shoutouts_ccv_cap_setting": 100000,
+  "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 2000,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
@@ -522,7 +524,7 @@ window.__twilightSettings = {
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
-  "subtember_2022_end_date": "2022-09-30 23:59:00 GMT-0700",
+  "subtember_2022_end_date": "2022-10-01T06:59:59+00:00",
   "subtember_2022_start_date": "2022-08-31 11:00:00 GMT-0700",
   "subtoken_balance_wallet": false,
   "subtokens": [0, true],
@@ -557,6 +559,7 @@ window.__twilightSettings = {
   "use_intersection": true,
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
+  "venmo_feature_flag": true,
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -1341,6 +1344,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "sugg_tags"
+      }]
+    },
+    "1ed04f13-b393-41b0-b432-3d48742f3d82": {
+      "name": "Twilight MultiHostSDK NPM Distribution",
+      "v": 24275,
+      "t": 1,
+      "groups": [{
+        "weight": 0,
+        "value": "base"
+      }, {
+        "weight": 100,
+        "value": "variant-a"
+      }, {
+        "weight": 0,
+        "value": "variant-b"
       }]
     },
     "1f7e7664-f082-44cc-847e-e57dec0a6bb9": {
