@@ -127,7 +127,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "ch-sub-emote-card": [0, false],
-  "ch_feature_card": [0, false],
+  "ch_feature_card": [1, true],
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
   "channel_clips_feature": [1, true],
@@ -388,7 +388,7 @@ window.__twilightSettings = {
   "paypal_eu_subs": true,
   "pdms_access_requests": [0, false],
   "persisted_queries_enabled": true,
-  "persona_flow": [0.2, true],
+  "persona_flow": [0, true],
   "personalized_sub_modal_phase_one": true,
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
@@ -474,7 +474,7 @@ window.__twilightSettings = {
   "should_extensions_check_google_analytics_consent": true,
   "Shoutouts": [0, true],
   "shoutouts_ccv_cap_setting": 50000,
-  "shoutouts_jitter_setting": 2000,
+  "shoutouts_jitter_setting": 1000,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
@@ -541,6 +541,7 @@ window.__twilightSettings = {
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
+  "thumbtack_ready": false,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
   "tokenization": true,
@@ -1191,13 +1192,13 @@ window.__twilightSettings = {
     },
     "169d2a2d-20f3-4376-917e-681f34a0a41e": {
       "name": "cecg_vod_tool_prod_all",
-      "v": 24068,
+      "v": 24310,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -2425,18 +2426,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "4b59d3a3-2a23-41a0-b0f6-a588969cf052": {
-      "name": "cutwater_embeds_recs",
-      "v": 18737,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "4bc764f2-f282-41e9-8aeb-15cb1f132d78": {
       "name": "animated_emotes_for_affiliates",
       "v": 18817,
@@ -3595,17 +3584,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24160,
+      "v": 24312,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -5141,18 +5130,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
-      }]
-    },
-    "cd6e0530-ee25-4416-9b76-3b4f4cc517ca": {
-      "name": "the_sill",
-      "v": 21190,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
       }]
     },
     "ce577266-68fa-40eb-8c07-5ae30488338f": {
