@@ -36,7 +36,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_duration_bounds": [30, 90],
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
-  "auth_kpsdk_load": [0, false],
+  "auth_kpsdk_load": [1, false],
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
   "badge_flair_enabled": true,
@@ -287,7 +287,7 @@ window.__twilightSettings = {
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [0, false],
-  "guest_star_request_to_join": false,
+  "guest_star_request_to_join": [0, false],
   "guest_star_screen_sharing": [1, true],
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
   "hide_feedback_on_promoted_card": false,
@@ -388,7 +388,7 @@ window.__twilightSettings = {
   "paypal_eu_subs": true,
   "pdms_access_requests": [0, false],
   "persisted_queries_enabled": true,
-  "persona_flow": [0, true],
+  "persona_flow": [0.2, true],
   "personalized_sub_modal_phase_one": true,
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
@@ -474,7 +474,7 @@ window.__twilightSettings = {
   "should_extensions_check_google_analytics_consent": true,
   "Shoutouts": [0, true],
   "shoutouts_ccv_cap_setting": 50000,
-  "shoutouts_jitter_setting": 1000,
+  "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
@@ -507,7 +507,7 @@ window.__twilightSettings = {
   "studio_companion_mode": [0, true],
   "studio_default_hotkeys": [0, false],
   "studio_default_layout_change_flag": [1, true],
-  "studio_feature_intros_toggle": [0, true],
+  "studio_feature_intros_toggle": [0, false],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_multi_methods": [0, false],
@@ -3341,6 +3341,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "77a6194a-a408-4c3c-ab84-499ccb6e40c4": {
+      "name": "disco_sn_query_ctx_login",
+      "v": 24342,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "77e51732-1a86-4be7-91d3-f67f1512d7b2": {
       "name": "hide_redundant_payment_methods",
       "v": 12537,
@@ -5635,6 +5647,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "e2a55f6e-0226-41c2-8320-a1a4abf7c611": {
+      "name": "ts_feature_intro",
+      "v": 24359,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {
