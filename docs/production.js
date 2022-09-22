@@ -590,5 +590,9 @@ const productionExperiments = [
     {
         "id": "169d2a2d-20f3-4376-917e-681f34a0a41e",
         "name": "cecg_vod_tool_prod_all"
+    },
+    {
+        "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
+        "name": "twilight_multihostsdk_version"
     }
 ]
