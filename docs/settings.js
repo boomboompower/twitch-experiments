@@ -76,7 +76,7 @@ window.__twilightSettings = {
   "c2_message_size": [0, false],
   "c2_message_size_participants": [""],
   "c2_message_size_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_4ZuHnB79TByKEJM",
-  "c2_midnight_squid": false,
+  "c2_midnight_squid": true,
   "c2_screenshot": [0, false],
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
@@ -180,7 +180,7 @@ window.__twilightSettings = {
   "content_promo": [0, false],
   "contigo_ojos_y_duende_proxima_AA": false,
   "contigo_ojos_y_duende_proxima_playback_position": 5,
-  "contigo_ojos_y_duende_proxima_upcoming_ff": [0, false],
+  "contigo_ojos_y_duende_proxima_upcoming_ff": [1, false],
   "contigo_ojos_y_duende_proxima_upcoming_limit": -1,
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
@@ -277,6 +277,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
+  "fft_auto": [0, false],
   "fft_channel_analytics_maint_date_gmt": "",
   "fft_v1": [1, true],
   "fft_v1_sf": [1, true],
@@ -286,7 +287,7 @@ window.__twilightSettings = {
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
-  "guest_star_channel_page": [0, false],
+  "guest_star_channel_page": [1, true],
   "guest_star_request_to_join": [0, false],
   "guest_star_screen_sharing": [1, true],
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
@@ -312,7 +313,7 @@ window.__twilightSettings = {
   "is_zuko_enabled": [1, true],
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
-  "kpsdk_timeout": 45000,
+  "kpsdk_timeout": 90000,
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
@@ -534,7 +535,7 @@ window.__twilightSettings = {
   "sw_rollout": [0, false],
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
-  "talk_gs_alpha_signup_page": [1, true],
+  "talk_gs_alpha_signup_page": [0, false],
   "talk_gs_alpha_signup_page_cta": "https://discord.gg/cranFYSYV5",
   "talk_gs_ftue": [0, false],
   "talk_gs_nl_phone_verification": [0, false],
@@ -1350,7 +1351,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24392,
+      "v": 24409,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3742,13 +3743,13 @@ window.__twilightSettings = {
     },
     "879f81dc-22c6-468b-976a-71c47ad7b202": {
       "name": "omnibus_purchase_checkout",
-      "v": 24244,
+      "v": 24398,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -4593,13 +4594,13 @@ window.__twilightSettings = {
     },
     "ad919c2c-f746-432f-88aa-b06141b5de30": {
       "name": "show_taxes_and_fees",
-      "v": 24023,
+      "v": 24400,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "variant"
       }]
     },
