@@ -469,6 +469,10 @@ const productionExperiments = [
         "name": "disco_raid_settings_v2"
     },
     {
+        "id": "77a6194a-a408-4c3c-ab84-499ccb6e40c4",
+        "name": "disco_sn_query_ctx_login"
+    },
+    {
         "id": "b235449a-b882-4266-b968-0fc591fba387",
         "name": "gift_chat_command"
     },
