@@ -392,7 +392,7 @@ window.__twilightSettings = {
   "paypal_eu_subs": true,
   "pdms_access_requests": [0, false],
   "persisted_queries_enabled": true,
-  "persona_flow": [0.2, true],
+  "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
@@ -2592,6 +2592,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "57a642f6-2040-4ad9-a552-b5c3665779aa": {
+      "name": "insights_nav_redesign",
+      "v": 24495,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "5846909c-a259-49c6-b235-ccb9507aaf4d": {
       "name": "twilight_quarterly_streamer_survey_for_partners",
       "v": 8148,
@@ -3419,19 +3431,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 24159,
+      "v": 24482,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3534,17 +3546,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24312,
+      "v": 24481,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -5379,13 +5391,13 @@ window.__twilightSettings = {
     },
     "d9255c42-cd69-4297-a4bd-c0f1f8a8f913": {
       "name": "disco_shoutouts_rollout",
-      "v": 23916,
+      "v": 24497,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -6341,13 +6353,13 @@ window.__twilightSettings = {
     },
     "fd5e2971-70d5-4ba9-9c04-ddd084576067": {
       "name": "disco_raid_settings_v2",
-      "v": 21976,
+      "v": 24487,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "rollout"
       }]
     },

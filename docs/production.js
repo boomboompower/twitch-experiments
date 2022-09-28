@@ -125,6 +125,10 @@ const productionExperiments = [
         "name": "TWILIGHT_PLAYER_CORE_NPM_STAFF"
     },
     {
+        "id": "879f81dc-22c6-468b-976a-71c47ad7b202",
+        "name": "omnibus_purchase_checkout"
+    },
+    {
         "id": "c3a0a0bf-d5d1-4937-b751-05868d2ba3d0",
         "name": "twilight_prime_gift_bomb_dashboard"
     },
@@ -136,6 +140,10 @@ const productionExperiments = [
         "id": "9ef43141-fe9c-42b9-8566-9ce8f8fd8d65",
         "name": "prioritize_paypal_eu",
         "staffOverride": "control"
+    },
+    {
+        "id": "ba9ce207-d32d-4725-9499-43e369f4136d",
+        "name": "bda_migration_flag"
     },
     {
         "id": "ecee5139-250a-4615-861e-96671259be3a",
