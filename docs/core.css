@@ -75,6 +75,10 @@ button, select {
     transition: background 200ms ease 0ms;
 }
 
+#import {
+    margin-bottom: 10px;
+}
+
 select {
     text-align: center;
     margin: 0 10px;

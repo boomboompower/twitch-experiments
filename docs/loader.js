@@ -1,24 +1,72 @@
 try {
-    const overridesElement = document.getElementById('overrides')
+    const overridesElement = document.getElementById('overrides');
     const copyButton = document.getElementById('copy');
     const calculationDiv = document.getElementById('calculation');
     const filterDiv = document.getElementById('filter');
+    let importButton = document.getElementById('import');
 
     let overridenExperiments = {};
     let calculationDone = false;
     let currentCookie = "";
 
     function resetCookie() {
-        const o = {
+        // basic template for how the experiment override cookie is formed.
+        const temporaryObject = {
             experiments: {},
             disabled: []
         }
 
+        // iterate through all experiments and add them to our temporary object
         for (const exp of Object.keys(overridenExperiments)) {
-            o.experiments[exp] = overridenExperiments[exp];
+            temporaryObject.experiments[exp] = overridenExperiments[exp];
         }
 
-        currentCookie = JSON.stringify(o).replaceAll(/["]/g, '%22').replaceAll(/[,]/g, '%2C');
+        // similar format to how regular experiments are stored in the cookie
+        currentCookie = JSON.stringify(temporaryObject)
+            .replaceAll(/ /g, '%20')
+            .replaceAll(/["]/g, '%22')
+            .replaceAll(/[,]/g, '%2C');
+    }
+
+    // A bit of a hack to override cookies from an existing state.
+    function importCookie() {
+        let current = prompt('Enter your current experiment cookie')
+
+        // do nothing for empty strings
+        if (!current || current.trim().length === 0) return
+
+        try {
+            current = decodeURIComponent(current)
+        } catch (e) {
+            alert('Unable to parse cookie. Could not decode.')
+
+            return
+        }
+
+        try {
+            let parsedCookie = JSON.parse(current)
+
+            // missing critical component of cookie :(
+            // they might have used the wrong thingo
+            if (!parsedCookie.experiments) {
+                alert('Cookie was missing the experiments object.')
+
+                return
+            }
+
+            let overrides = Object.entries(parsedCookie.experiments)
+
+            // add each override to our override list
+            for (let entry of overrides) {
+                overridenExperiments[entry[0]] = entry[1]
+            }
+
+            // draw the new screen
+            drawExperiments(filterDiv.selectedIndex)
+            resetCookie()
+        } catch (e) {
+            alert('Unable to parse cookie. Invalid JSON.')
+        }
     }
 
     function copyCookie() {
@@ -74,17 +122,18 @@ try {
         let largestWeight = document.createElement('li');
         let largestWeightVal = 0;
         let lastSelected = undefined;
+        let hasOverride = overridenExperiments[experimentKey] !== undefined
 
         for (const group of experiment.groups) {
             const chunk = document.createElement('div');
-            const ok = document.createElement('input')
+            const radioObject = document.createElement('input')
             const label = document.createElement('label');
 
-            ok.label = label;
-            ok.setAttribute('type', 'radio');
-            ok.setAttribute('name', experimentKey)
-            ok.setAttribute('value', group.value);
-            ok.setAttribute('id', experimentKey + '-' + group.value)
+            radioObject.label = label;
+            radioObject.setAttribute('type', 'radio');
+            radioObject.setAttribute('name', experimentKey)
+            radioObject.setAttribute('value', group.value);
+            radioObject.setAttribute('id', experimentKey + '-' + group.value)
 
             label.innerText = group.value + ": " + group.weight;
             label.setAttribute('for', experimentKey + '-' + group.value);
@@ -93,30 +142,38 @@ try {
                 label.classList.add('staff');
             }
 
+            // if the overriden experiments contains this object, we should use it instead.
+            if (hasOverride && group.value === overridenExperiments[experimentKey]) {
+                radioObject.checked = true
+                lastSelected = radioObject
+            }
+            // decide which experiment has the largest weight
             if (group.weight > largestWeightVal) {
                 largestWeightVal = group.weight;
-                largestWeight = ok;
+                largestWeight = radioObject;
             }
 
-            ok.addEventListener('change', () => {
-                if (lastSelected === ok) {
+            radioObject.addEventListener('change', () => {
+                if (lastSelected === radioObject) {
                     return;
                 }
 
-                lastSelected = ok;
+                lastSelected = radioObject;
 
                 overridenExperiments[experimentKey] = group.value;
 
                 resetCookie();
             })
 
-            chunk.appendChild(ok)
+            chunk.appendChild(radioObject)
             chunk.appendChild(label)
             opts.appendChild(chunk)
         }
 
-        lastSelected = largestWeight;
-        largestWeight.checked = true;
+        if (!hasOverride) {
+            lastSelected = largestWeight;
+            largestWeight.checked = true;
+        }
         largestWeight.label.classList.add('blip');
 
         wrap.appendChild(nameDiv)
@@ -128,6 +185,10 @@ try {
     copyButton.addEventListener('click', () => {
         copyCookie();
     })
+
+    if (importButton) {
+        importButton.addEventListener('click', () => { importCookie() })
+    }
 
     const keys = Object.keys(window.__twilightSettings.experiments);
     // Sort by experiment name
