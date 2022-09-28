@@ -54,12 +54,19 @@ try {
                 return
             }
 
+            let oldText = importButton.innerText;
             let overrides = Object.entries(parsedCookie.experiments)
 
             // add each override to our override list
             for (let entry of overrides) {
                 overridenExperiments[entry[0]] = entry[1]
             }
+
+            importButton.innerText = 'Cookie Imported';
+
+            setTimeout(() => {
+                importButton.innerText = oldText;
+            }, 1200)
 
             // draw the new screen
             drawExperiments(filterDiv.selectedIndex)
