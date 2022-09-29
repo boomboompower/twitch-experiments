@@ -520,6 +520,7 @@ window.__twilightSettings = {
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
   "studio_project_airhorn": [0, false],
+  "studio_scene_intro_cta": "Set Up Your Stream Layouts",
   "studio_stream_alerts_changelog_date": "2022-09-22 00:00:00 GMT-0700",
   "studio_transition_ui_flag": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
@@ -548,7 +549,7 @@ window.__twilightSettings = {
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
-  "thumbtack_ready": false,
+  "thumbtack_ready": true,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
   "tokenization": true,
@@ -5393,13 +5394,13 @@ window.__twilightSettings = {
     },
     "d9255c42-cd69-4297-a4bd-c0f1f8a8f913": {
       "name": "disco_shoutouts_rollout",
-      "v": 24497,
+      "v": 24524,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },

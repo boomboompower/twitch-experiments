@@ -20,6 +20,10 @@ const productionExperiments = [
         "name": "spotlight_to_dashboard_entry"
     },
     {
+        "id": "e2a55f6e-0226-41c2-8320-a1a4abf7c611",
+        "name": "ts_feature_intro"
+    },
+    {
         "id": "d44f032c-1c84-4545-ae91-77ff485ef33a",
         "name": "studio_stinger_transition_ui"
     },
@@ -82,6 +86,10 @@ const productionExperiments = [
     {
         "id": "16fc8592-4e1e-4750-9a4e-e7ddd7e4ca3e",
         "name": "cutwater_embeds_upsell_standard"
+    },
+    {
+        "id": "833cbdea-72f8-4187-b150-9eab884f98cb",
+        "name": "creator_follow_cue"
     },
     {
         "id": "145ddca3-2724-45ed-9ded-3bf9d2e79811",
@@ -572,8 +580,8 @@ const productionExperiments = [
         "name": "xsolla_back_button_checkout"
     },
     {
-        "id": "7a036454-ea87-4a34-b8e3-e2facc0a5b50",
-        "name": "rfsh-alakazam"
+        "id": "57a642f6-2040-4ad9-a552-b5c3665779aa",
+        "name": "insights_nav_redesign"
     },
     {
         "id": "e3e2e186-a378-484c-bf15-2c5194e3bcf8",
@@ -596,12 +604,8 @@ const productionExperiments = [
         "name": "simplify_checkout"
     },
     {
-        "id": "344204fc-59ce-4cdf-a127-1ca08d1f57f1",
+        "id": "344204fc-59ce-s4cdf-a127-1ca08d1f57f1",
         "name": "timeseries_referrals"
-    },
-    {
-        "id": "169d2a2d-20f3-4376-917e-681f34a0a41e",
-        "name": "cecg_vod_tool_prod_all"
     },
     {
         "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
