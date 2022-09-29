@@ -192,7 +192,7 @@ window.__twilightSettings = {
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat_highlights": [1, false],
-  "creator_chat_highlights_full_release": [0, false],
+  "creator_chat_highlights_full_release": [1, false],
   "creator_defined_benefits": true,
   "creator_follow_cue": [0, false],
   "creator_follow_cue_card": [0, false],
@@ -312,6 +312,7 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "kpsdk_deprecated_url": "",
+  "kpsdk_electron_app": ["yrml35ak347op87qu9l38z2tsptbob", "03iw14r94gnetrn0uhjwetusachffp"],
   "kpsdk_helpsite_url": "",
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
@@ -541,6 +542,7 @@ window.__twilightSettings = {
   "talk_gs_alpha_signup_page": [0, false],
   "talk_gs_alpha_signup_page_cta": "https://discord.gg/cranFYSYV5",
   "talk_gs_ftue": [0, false],
+  "talk_gs_mod_access": [0, false],
   "talk_gs_nl_phone_verification": [0, false],
   "talk_gs_nl_reporting": [0, false],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
@@ -572,7 +574,7 @@ window.__twilightSettings = {
   "viewer_milestones_enabled": true,
   "VLM_HLS_Midrolls": [1, false],
   "vod-clips-category-exclusion-feature-enabled": true,
-  "vod-tool-release-copy-blurb-update": [0, false],
+  "vod-tool-release-copy-blurb-update": [1, true],
   "vod_archives_vira_grand": "on",
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
@@ -1199,13 +1201,13 @@ window.__twilightSettings = {
     },
     "169d2a2d-20f3-4376-917e-681f34a0a41e": {
       "name": "cecg_vod_tool_prod_all",
-      "v": 24310,
+      "v": 24507,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -4542,13 +4544,13 @@ window.__twilightSettings = {
     },
     "ad919c2c-f746-432f-88aa-b06141b5de30": {
       "name": "show_taxes_and_fees",
-      "v": 24400,
+      "v": 24508,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 15,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 85,
         "value": "variant"
       }]
     },
