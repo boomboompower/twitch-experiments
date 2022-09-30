@@ -520,7 +520,7 @@ window.__twilightSettings = {
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
   "studio_project_airhorn": [0, false],
-  "studio_scene_intro_cta": "Set Up Your Stream Layouts",
+  "studio_scene_intro_cta": [0, false],
   "studio_stream_alerts_changelog_date": "2022-09-22 00:00:00 GMT-0700",
   "studio_transition_ui_flag": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
@@ -541,7 +541,7 @@ window.__twilightSettings = {
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
   "talk_gs_alpha_signup_page": [0, false],
-  "talk_gs_alpha_signup_page_cta": "https://discord.gg/cranFYSYV5",
+  "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_ftue": [0, false],
   "talk_gs_mod_access": [0, false],
   "talk_gs_nl_phone_verification": [0, false],
@@ -1359,16 +1359,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24472,
+      "v": 24534,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -3434,19 +3434,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 24482,
+      "v": 24537,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3549,17 +3549,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24481,
+      "v": 24536,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
