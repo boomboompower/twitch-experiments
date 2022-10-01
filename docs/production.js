@@ -608,6 +608,10 @@ const productionExperiments = [
         "name": "timeseries_referrals"
     },
     {
+        "id": "c0634742-95ef-4a6a-a763-d011fba5ba6d",
+        "name": "one_click_gifts_global"
+    },
+    {
         "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
         "name": "twilight_multihostsdk_version"
     }

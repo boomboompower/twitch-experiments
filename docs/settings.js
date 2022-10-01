@@ -151,7 +151,9 @@ window.__twilightSettings = {
   "chv2_mod_logs_v2_enabled": false,
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
+  "cit_fetch_at_boot": [1, false],
   "cit_gql_rollout": [1, false],
+  "cit_kasada_at_boot": [1, false],
   "cit_kasada_rollout": [1, false],
   "cit_manager_rollout": [1, false],
   "cit_max_retries": 3,
@@ -194,8 +196,8 @@ window.__twilightSettings = {
   "creator_chat_highlights": [1, false],
   "creator_chat_highlights_full_release": [1, false],
   "creator_defined_benefits": true,
-  "creator_follow_cue": [0, false],
-  "creator_follow_cue_card": [0, false],
+  "creator_follow_cue": [1, false],
+  "creator_follow_cue_card": [1, false],
   "creator_goals_changelog_date": "2021-08-25 00:00:00 GMT-0700",
   "creator_incentive_enabled": [1, false],
   "creatorhome_goals_experiment_mock_component_v2": [0, false],
@@ -4739,13 +4741,13 @@ window.__twilightSettings = {
     },
     "b57ca653-237e-491a-a421-2bd4a7b6e8c8": {
       "name": "xsolla_back_button_checkout",
-      "v": 22504,
+      "v": 24545,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant_1"
       }]
     },
@@ -4901,13 +4903,13 @@ window.__twilightSettings = {
     },
     "c0634742-95ef-4a6a-a763-d011fba5ba6d": {
       "name": "one_click_gifts_global",
-      "v": 23950,
+      "v": 24547,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
