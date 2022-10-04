@@ -298,7 +298,7 @@ window.__twilightSettings = {
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "home_shelf_moments": [1, false],
   "host_commands_rollout_v2": [1, false],
-  "host_deprecation": false,
+  "host_deprecation": true,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -384,7 +384,6 @@ window.__twilightSettings = {
   "p55v1b": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
-  "panini": "2022-10-01T06:59:59+00:00",
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
@@ -525,6 +524,7 @@ window.__twilightSettings = {
   "studio_project_airhorn": [0, false],
   "studio_scene_intro_cta": [0, false],
   "studio_stream_alerts_changelog_date": "2022-09-22 00:00:00 GMT-0700",
+  "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
@@ -534,8 +534,6 @@ window.__twilightSettings = {
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
-  "subtember_2022_end_date": "2022-10-01T06:59:59+00:00",
-  "subtember_2022_start_date": "2022-08-31 11:00:00 GMT-0700",
   "subtoken_balance_wallet": false,
   "subtokens": [0, false],
   "subtokens_help_link": "https://help.twitch.tv/",
@@ -606,7 +604,6 @@ window.__twilightSettings = {
   "xsolla_back_button_country_allowlist": ["US", "DE", "CA", "FR", "ES", "SE", "IT", "NL", "AT", "FI", "CH", "KR", "RU", "BR", "JP"],
   "xsolla_back_button_flag": true,
   "xsolla_enabled": [1, true],
-  "zanini": "2022-09-26T18:00:00+00:00",
   "zuora_enabled": [1, false],
   "experiments": {
     "011d1499-61b3-49b2-92b2-b2ffd353ef00": {
@@ -1362,16 +1359,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24534,
+      "v": 24586,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -3552,7 +3549,7 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24536,
+      "v": 24581,
       "t": 1,
       "s": 6,
       "groups": [{
