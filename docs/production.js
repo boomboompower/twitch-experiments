@@ -601,7 +601,7 @@ const productionExperiments = [
     },
     {
         "id": "6616da0d-27f6-4f66-850a-b80c27576a65",
-        "name": "simplify_checkout"
+        "name": "simplified_checkout"
     },
     {
         "id": "344204fc-59ce-s4cdf-a127-1ca08d1f57f1",

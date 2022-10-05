@@ -83,7 +83,7 @@ window.__twilightSettings = {
   "c3p_sprig_countries": ["US", "CA"],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
-  "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast"],
+  "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla"],
   "celebi_animation_settings": "{}",
   "celebi_beta_channels": ["seph"],
   "celebi_celebration_area": "EVERYWHERE",
@@ -126,7 +126,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "ch-sub-emote-card": [0, false],
+  "ch-sub-emote-card": [1, true],
   "ch_feature_card": [1, true],
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
@@ -197,7 +197,7 @@ window.__twilightSettings = {
   "creator_chat_highlights_full_release": [1, false],
   "creator_defined_benefits": true,
   "creator_follow_cue": [1, false],
-  "creator_follow_cue_card": [1, false],
+  "creator_follow_cue_card": [0, false],
   "creator_goals_changelog_date": "2021-08-25 00:00:00 GMT-0700",
   "creator_incentive_enabled": [1, false],
   "creatorhome_goals_experiment_mock_component_v2": [0, false],
@@ -275,6 +275,7 @@ window.__twilightSettings = {
   "extension_review_maintenance": [0, false],
   "extensions_dynamic_management": [1, true],
   "extensions_gql_migration": [1, true],
+  "extensions_graphql_request_override": [0, false],
   "extensions_popout_enabled": "on",
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
@@ -315,7 +316,7 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "kpsdk_deprecated_url": "",
-  "kpsdk_electron_app": ["yrml35ak347op87qu9l38z2tsptbob", "03iw14r94gnetrn0uhjwetusachffp"],
+  "kpsdk_electron_app": ["03iw14r94gnetrn0uhjwetusachffp"],
   "kpsdk_helpsite_url": "",
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
@@ -550,6 +551,7 @@ window.__twilightSettings = {
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
+  "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 90, \"amzn1.twitch.commerce.product.size-50-powercheer\": 120, \"amzn1.twitch.commerce.product.size-100-powercheer\": 150}",
   "thumbtack_ready": true,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
@@ -2938,8 +2940,8 @@ window.__twilightSettings = {
       }]
     },
     "6616da0d-27f6-4f66-850a-b80c27576a65": {
-      "name": "simplified_checkout",
-      "v": 23902,
+      "name": "simplified_checkout_device_id",
+      "v": 24611,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -4228,6 +4230,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "9f4d2fea-0813-4c43-b76c-0e8847bfb8b5": {
+      "name": "simplified_checkout",
+      "v": 24612,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "experiment"
+      }]
+    },
     "9f4dd7bf-2df6-4c26-834f-58b153f61329": {
       "name": "bits_new_user_cheer_v1.1",
       "v": 7692,
@@ -4545,13 +4559,13 @@ window.__twilightSettings = {
     },
     "ad919c2c-f746-432f-88aa-b06141b5de30": {
       "name": "show_taxes_and_fees",
-      "v": 24508,
+      "v": 24607,
       "t": 2,
       "groups": [{
-        "weight": 15,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 85,
+        "weight": 100,
         "value": "variant"
       }]
     },
