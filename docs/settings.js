@@ -519,6 +519,7 @@ window.__twilightSettings = {
   "studio_feature_intros_toggle": [0, false],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
+  "studio_macos_13_banner": "off",
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
@@ -546,6 +547,7 @@ window.__twilightSettings = {
   "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_ftue": [0, false],
   "talk_gs_mod_access": [0, false],
+  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843"],
   "talk_gs_nl_phone_verification": [0, false],
   "talk_gs_nl_reporting": [0, false],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
@@ -883,7 +885,7 @@ window.__twilightSettings = {
     },
     "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
       "name": "sw_chat_desc_opt",
-      "v": 24377,
+      "v": 24632,
       "t": 2,
       "groups": [{
         "weight": 1,
@@ -1911,6 +1913,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a": {
+      "name": "sw_livestream_vod_prompt_bar",
+      "v": 24634,
+      "t": 2,
+      "groups": [{
+        "weight": 1,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment1"
+      }, {
+        "weight": 0,
+        "value": "treatment2"
       }]
     },
     "36006d8b-bcf1-45fe-a9c7-ced7a2e45694": {
@@ -4232,13 +4249,13 @@ window.__twilightSettings = {
     },
     "9f4d2fea-0813-4c43-b76c-0e8847bfb8b5": {
       "name": "simplified_checkout",
-      "v": 24612,
+      "v": 24628,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "experiment"
       }]
     },

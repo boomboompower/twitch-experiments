@@ -600,7 +600,7 @@ const productionExperiments = [
         "name": "vxd_password_feedback"
     },
     {
-        "id": "6616da0d-27f6-4f66-850a-b80c27576a65",
+        "id": "9f4d2fea-0813-4c43-b76c-0e8847bfb8b5",
         "name": "simplified_checkout"
     },
     {
