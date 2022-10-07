@@ -547,13 +547,13 @@ window.__twilightSettings = {
   "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_ftue": [0, false],
   "talk_gs_mod_access": [0, false],
-  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843"],
+  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997"],
   "talk_gs_nl_phone_verification": [0, false],
   "talk_gs_nl_reporting": [0, false],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
-  "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 90, \"amzn1.twitch.commerce.product.size-50-powercheer\": 120, \"amzn1.twitch.commerce.product.size-100-powercheer\": 150}",
+  "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": true,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
@@ -3568,17 +3568,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24581,
+      "v": 24671,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
