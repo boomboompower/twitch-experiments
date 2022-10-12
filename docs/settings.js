@@ -275,7 +275,7 @@ window.__twilightSettings = {
   "extension_review_maintenance": [0, false],
   "extensions_dynamic_management": [1, true],
   "extensions_gql_migration": [1, true],
-  "extensions_graphql_request_override": [0, false],
+  "extensions_graphql_request_override": [1, false],
   "extensions_popout_enabled": "on",
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
@@ -315,9 +315,9 @@ window.__twilightSettings = {
   "is_nami_enabled": [1, true],
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
-  "kpsdk_deprecated_url": "",
+  "kpsdk_deprecated_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_electron_app": ["03iw14r94gnetrn0uhjwetusachffp"],
-  "kpsdk_helpsite_url": "",
+  "kpsdk_helpsite_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
   "kpsdk_timeout": 90000,
@@ -420,6 +420,7 @@ window.__twilightSettings = {
   "prime_subsite_up": true,
   "prism-endpoint-migration": [0, false],
   "project_airhorn": [0, false],
+  "project_ape": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
@@ -5199,16 +5200,16 @@ window.__twilightSettings = {
     },
     "d019f327-caac-40d9-a672-08425d45c38f": {
       "name": "hidden_mw_22",
-      "v": 23743,
+      "v": 24706,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 98,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "a"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "b"
       }]
     },
@@ -5729,13 +5730,13 @@ window.__twilightSettings = {
     },
     "e5c813df-a190-4def-b0cb-932224c989f1": {
       "name": "warp_web_prod",
-      "v": 18864,
+      "v": 24717,
       "t": 1,
       "groups": [{
-        "weight": 990,
+        "weight": 1000,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -6319,17 +6320,17 @@ window.__twilightSettings = {
     },
     "fba9e195-1661-42c2-85f5-64320965273e": {
       "name": "subs_pif",
-      "v": 12817,
+      "v": 24711,
       "t": 2,
       "s": 2,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "gift_first"
       }, {
-        "weight": 25,
+        "weight": 100,
         "value": "thank_first"
       }, {
         "weight": 0,
