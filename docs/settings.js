@@ -76,7 +76,7 @@ window.__twilightSettings = {
   "c2_message_size": [0, false],
   "c2_message_size_participants": [""],
   "c2_message_size_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_4ZuHnB79TByKEJM",
-  "c2_midnight_squid": true,
+  "c2_midnight_squid": false,
   "c2_screenshot": [0, false],
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
@@ -292,6 +292,7 @@ window.__twilightSettings = {
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [1, true],
   "guest_star_request_to_join": [0, false],
+  "guest_star_request_to_join_follow_time": 1800000,
   "guest_star_request_to_join_max_size": 100,
   "guest_star_screen_sharing": [1, true],
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
@@ -466,7 +467,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
-  "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM"],
+  "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US"],
   "rpt_messaging": true,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
@@ -546,7 +547,7 @@ window.__twilightSettings = {
   "talk_gs_alpha": [1, true],
   "talk_gs_alpha_signup_page": [0, false],
   "talk_gs_alpha_signup_page_cta": "",
-  "talk_gs_ftue": [0, false],
+  "talk_gs_ftue": [1, true],
   "talk_gs_mod_access": [0, false],
   "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997"],
   "talk_gs_nl_phone_verification": [0, false],
@@ -574,7 +575,6 @@ window.__twilightSettings = {
   "use_intersection": true,
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
-  "venmo_feature_flag": true,
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -2933,6 +2933,18 @@ window.__twilightSettings = {
         "value": "CHANNEL_POINTS_1x"
       }]
     },
+    "643a6e17-a433-4d4f-929d-7a2cc395578d": {
+      "name": "catsug_rollout",
+      "v": 24735,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "64efc0f7-dd26-49e3-bc61-2cb1bc759990": {
       "name": "experiments_json_tds",
       "v": 6755,
@@ -5200,16 +5212,16 @@ window.__twilightSettings = {
     },
     "d019f327-caac-40d9-a672-08425d45c38f": {
       "name": "hidden_mw_22",
-      "v": 24706,
+      "v": 24741,
       "t": 1,
       "groups": [{
-        "weight": 98,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 10,
         "value": "a"
       }, {
-        "weight": 1,
+        "weight": 10,
         "value": "b"
       }]
     },

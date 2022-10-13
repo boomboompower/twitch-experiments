@@ -145,18 +145,8 @@ const productionExperiments = [
         "name": "prime_gaming_crown_offer_prioritization"
     },
     {
-        "id": "9ef43141-fe9c-42b9-8566-9ce8f8fd8d65",
-        "name": "prioritize_paypal_eu",
-        "staffOverride": "control"
-    },
-    {
         "id": "ba9ce207-d32d-4725-9499-43e369f4136d",
         "name": "bda_migration_flag"
-    },
-    {
-        "id": "ecee5139-250a-4615-861e-96671259be3a",
-        "name": "prioritize_xsolla",
-        "staffOverride": "control"
     },
     {
         "id": "f75ab09d-daf7-46db-bdd5-bb5a2f413cf7",
@@ -169,10 +159,6 @@ const productionExperiments = [
     {
         "id": "de013c6f-a800-45ee-9ab4-7965c405e3eb",
         "name": "TWILIGHT_ARCHER"
-    },
-    {
-        "id": "064cdbc9-a25a-4000-a759-cb5d16762af7",
-        "name": "paypal_first_v2"
     },
     {
         "id": "dcb08cfd-cf6c-41d8-9755-477dde483eed",
@@ -270,10 +256,6 @@ const productionExperiments = [
     {
         "id": "028ce2d5-c0e3-4517-8081-7e8f4556a55b",
         "name": "channel_points_reward_limits_v2"
-    },
-    {
-        "id": "77e51732-1a86-4be7-91d3-f67f1512d7b2",
-        "name": "hide_redundant_payment_methods"
     },
     {
         "id": "218acff9-67f7-459f-9f3e-d9b41238e761",
@@ -604,7 +586,7 @@ const productionExperiments = [
         "name": "simplified_checkout"
     },
     {
-        "id": "344204fc-59ce-s4cdf-a127-1ca08d1f57f1",
+        "id": "344204fc-59ce-4cdf-a127-1ca08d1f57f1",
         "name": "timeseries_referrals"
     },
     {
