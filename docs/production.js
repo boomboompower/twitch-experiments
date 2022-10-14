@@ -193,10 +193,6 @@ const productionExperiments = [
         "name": "nielsen_analytics"
     },
     {
-        "id": "fba9e195-1661-42c2-85f5-64320965273e",
-        "name": "subs_pif"
-    },
-    {
         "id": "cd1c4693-e7a8-49d9-837c-3d175f61f438",
         "name": "WarpIPv4"
     },
@@ -588,6 +584,10 @@ const productionExperiments = [
     {
         "id": "344204fc-59ce-4cdf-a127-1ca08d1f57f1",
         "name": "timeseries_referrals"
+    },
+    {
+        "id": "f47b4c5a-9351-4cb8-86da-7036f512d29c",
+        "name": "venmo_us"
     },
     {
         "id": "c0634742-95ef-4a6a-a763-d011fba5ba6d",

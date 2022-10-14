@@ -197,7 +197,7 @@ window.__twilightSettings = {
   "creator_chat_highlights_full_release": [1, false],
   "creator_defined_benefits": true,
   "creator_follow_cue": [1, false],
-  "creator_follow_cue_card": [0, false],
+  "creator_follow_cue_card": [1, false],
   "creator_goals_changelog_date": "2021-08-25 00:00:00 GMT-0700",
   "creator_incentive_enabled": [1, false],
   "creatorhome_goals_experiment_mock_component_v2": [0, false],
@@ -383,7 +383,6 @@ window.__twilightSettings = {
   "one_click_gifts_global_country_allowlist": ["DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "one_click_gifts_global_flag": false,
   "one_click_recurring_subs_flag": false,
-  "p55v1b": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
@@ -511,6 +510,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
+  "stream_summary_vod_tool_v2_exp": [0, false],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
@@ -1364,16 +1364,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24586,
+      "v": 24766,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -5438,7 +5438,7 @@ window.__twilightSettings = {
     },
     "d9255c42-cd69-4297-a4bd-c0f1f8a8f913": {
       "name": "disco_shoutouts_rollout",
-      "v": 24524,
+      "v": 24767,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -6363,14 +6363,14 @@ window.__twilightSettings = {
     },
     "fc1c53d9-b666-41f7-bdbc-90fa2fdbb8f4": {
       "name": "SawmillStaff",
-      "v": 24142,
+      "v": 24755,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "treatment"
       }]
     },
