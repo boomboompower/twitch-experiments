@@ -6330,25 +6330,6 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
-    "fba9e195-1661-42c2-85f5-64320965273e": {
-      "name": "subs_pif",
-      "v": 24711,
-      "t": 2,
-      "s": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "gift_first"
-      }, {
-        "weight": 100,
-        "value": "thank_first"
-      }, {
-        "weight": 0,
-        "value": "use_ml"
-      }]
-    },
     "fbebba18-e17d-4bb0-b586-0b1f10673bc7": {
       "name": "CIP_RELEASE",
       "v": 16915,
