@@ -291,7 +291,7 @@ window.__twilightSettings = {
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [1, true],
-  "guest_star_request_to_join": [0, false],
+  "guest_star_request_to_join": [1, false],
   "guest_star_request_to_join_follow_time": 1800000,
   "guest_star_request_to_join_max_size": 100,
   "guest_star_screen_sharing": [1, true],
