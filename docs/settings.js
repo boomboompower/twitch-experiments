@@ -383,6 +383,7 @@ window.__twilightSettings = {
   "one_click_gifts_global_country_allowlist": ["DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "one_click_gifts_global_flag": false,
   "one_click_recurring_subs_flag": false,
+  "one_click_subs_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
