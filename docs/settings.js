@@ -292,6 +292,7 @@ window.__twilightSettings = {
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [1, true],
   "guest_star_request_to_join": [1, false],
+  "guest_star_request_to_join_follow_or_sub": false,
   "guest_star_request_to_join_follow_time": 1800000,
   "guest_star_request_to_join_max_size": 100,
   "guest_star_screen_sharing": [1, true],
@@ -532,6 +533,7 @@ window.__twilightSettings = {
   "studio_stream_alerts_changelog_date": "2022-09-22 00:00:00 GMT-0700",
   "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
+  "studio_vcam": [0, false],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
@@ -553,7 +555,7 @@ window.__twilightSettings = {
   "talk_gs_mod_access": [0, false],
   "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997"],
   "talk_gs_nl_phone_verification": [0, true],
-  "talk_gs_nl_reporting": [0, false],
+  "talk_gs_nl_reporting": [0, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
@@ -5471,6 +5473,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "treatment"
+      }]
+    },
+    "da962d5f-c928-4777-86bd-26b389301f62": {
+      "name": "v9_turbo",
+      "v": 24842,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "dae30e72-5c82-497a-91ca-9fae23a66b0a": {

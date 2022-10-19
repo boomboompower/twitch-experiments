@@ -596,5 +596,9 @@ const productionExperiments = [
     {
         "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
         "name": "twilight_multihostsdk_version"
+    },
+    {
+        "id": "643a6e17-a433-4d4f-929d-7a2cc395578d",
+        "name": "catsug_rollout"
     }
 ]
