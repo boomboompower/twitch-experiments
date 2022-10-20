@@ -246,10 +246,6 @@ const productionExperiments = [
         "name": "vx_tag_id"
     },
     {
-        "id": "5b184339-90a9-4706-bdd6-44a3f658ad82",
-        "name": "ca_emote_perform"
-    },
-    {
         "id": "028ce2d5-c0e3-4517-8081-7e8f4556a55b",
         "name": "channel_points_reward_limits_v2"
     },

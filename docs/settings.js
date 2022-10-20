@@ -166,6 +166,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
+  "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "commerce_bar_experience": "sponsored",
   "community-intros-15": [1, false],
@@ -520,7 +521,7 @@ window.__twilightSettings = {
   "studio_companion_mode": [0, true],
   "studio_default_hotkeys": [0, false],
   "studio_default_layout_change_flag": [1, true],
-  "studio_feature_intros_toggle": [0, false],
+  "studio_feature_intros_toggle": [1, true],
   "studio_hotkey_tooltips_changelog_date": "2022-11-08 00:00:00 GMT-0700",
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
@@ -553,7 +554,7 @@ window.__twilightSettings = {
   "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_ftue": [1, true],
   "talk_gs_mod_access": [0, false],
-  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997"],
+  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997", "606660604", "21653133", "514820819", "619212647", "826025598", "265990473"],
   "talk_gs_nl_phone_verification": [0, true],
   "talk_gs_nl_reporting": [0, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
@@ -1160,6 +1161,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "1442a820-6d09-4f08-914c-d88cc5cabdfe": {
+      "name": "com30_lols",
+      "v": 24857,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "145ddca3-2724-45ed-9ded-3bf9d2e79811": {
       "name": "vx_left_nav_category_click_thru",
       "v": 14189,
@@ -1367,16 +1380,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24766,
+      "v": 24854,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -4457,13 +4470,13 @@ window.__twilightSettings = {
     },
     "a6adfb56-c434-405b-a774-2d6c96e2f815": {
       "name": "v8_turbo",
-      "v": 21217,
+      "v": 24846,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -5439,6 +5452,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "d77e19a0-d70a-4cbb-b428-ccb30f72873d": {
+      "name": "disco_bcols",
+      "v": 24847,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }]
+    },
     "d9255c42-cd69-4297-a4bd-c0f1f8a8f913": {
       "name": "disco_shoutouts_rollout",
       "v": 24767,
@@ -5663,13 +5688,13 @@ window.__twilightSettings = {
     },
     "e2a55f6e-0226-41c2-8320-a1a4abf7c611": {
       "name": "ts_feature_intro",
-      "v": 24359,
+      "v": 24851,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
