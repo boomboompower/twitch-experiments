@@ -2633,13 +2633,13 @@ window.__twilightSettings = {
     },
     "57a642f6-2040-4ad9-a552-b5c3665779aa": {
       "name": "insights_nav_redesign",
-      "v": 24495,
+      "v": 24872,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -3482,19 +3482,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 24537,
+      "v": 24866,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3597,17 +3597,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24671,
+      "v": 24879,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -3742,7 +3742,7 @@ window.__twilightSettings = {
     },
     "879f81dc-22c6-468b-976a-71c47ad7b202": {
       "name": "omnibus_purchase_checkout",
-      "v": 24398,
+      "v": 24877,
       "t": 1,
       "groups": [{
         "weight": 100,
