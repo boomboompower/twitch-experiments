@@ -463,6 +463,10 @@ const productionExperiments = [
         "name": "disco_sn_query_ctx_login"
     },
     {
+        "id": "d77e19a0-d70a-4cbb-b428-ccb30f72873d",
+        "name": "disco_bcols"
+    },
+    {
         "id": "b235449a-b882-4266-b968-0fc591fba387",
         "name": "gift_chat_command"
     },

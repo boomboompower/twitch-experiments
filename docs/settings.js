@@ -293,7 +293,7 @@ window.__twilightSettings = {
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [1, true],
   "guest_star_request_to_join": [1, false],
-  "guest_star_request_to_join_follow_or_sub": false,
+  "guest_star_request_to_join_follow_or_sub": true,
   "guest_star_request_to_join_follow_time": 1800000,
   "guest_star_request_to_join_max_size": 100,
   "guest_star_screen_sharing": [1, true],
@@ -460,6 +460,7 @@ window.__twilightSettings = {
   "revenue_dashboard_hype_train": true,
   "revenue_leaderboards": true,
   "reward_campaigns": [0, false],
+  "reward_campaigns_gql_reads": [0, false],
   "rocket_train_passengers": ["408380599", "478863946", "695413795"],
   "rocket_train_ready": [1, false],
   "rocket_wheels_help_article": "https://help.twitch.tv/s/article/boost-train",
@@ -3597,17 +3598,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24879,
+      "v": 24897,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -5502,14 +5503,14 @@ window.__twilightSettings = {
     },
     "da962d5f-c928-4777-86bd-26b389301f62": {
       "name": "v9_turbo",
-      "v": 24842,
+      "v": 24899,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "treatment"
       }]
     },
     "dae30e72-5c82-497a-91ca-9fae23a66b0a": {
