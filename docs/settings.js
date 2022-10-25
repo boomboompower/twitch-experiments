@@ -53,7 +53,7 @@ window.__twilightSettings = {
   "bits_charity_event": "off",
   "bits_on_polls": false,
   "bits_prime_offer": false,
-  "bits_project_marley": [1, true],
+  "bits_project_marley": [0, false],
   "bits_project_stucco_dashboard": [0, false],
   "bits_sponsored_cheermote_dashboard_settings": "off",
   "bits_sponsored_cheermotes": "on",
@@ -310,6 +310,7 @@ window.__twilightSettings = {
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "include_chat_timing_nonce": true,
+  "insight_chats": [0, false],
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
@@ -532,7 +533,7 @@ window.__twilightSettings = {
   "studio_native_text_layer": [1, true],
   "studio_project_airhorn": [0, false],
   "studio_scene_intro_cta": [0, false],
-  "studio_stream_alerts_changelog_date": "2022-09-22 00:00:00 GMT-0700",
+  "studio_stream_alerts_changelog_date": "2022-10-31 00:00:00 GMT-0700",
   "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
   "studio_vcam": [0, false],
@@ -1381,16 +1382,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24854,
+      "v": 24923,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -2936,6 +2937,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "627e2d9a-254f-4565-aafb-d69d031825e3": {
+      "name": "aip_utc",
+      "v": 24916,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "OFF"
+      }, {
+        "weight": 0,
+        "value": "ON"
+      }, {
+        "weight": 0,
+        "value": "758477004"
       }]
     },
     "63ce5036-1f44-4555-9aac-1daa84571ae8": {

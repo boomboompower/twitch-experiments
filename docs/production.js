@@ -282,6 +282,10 @@ const productionExperiments = [
         "name": "contigo_ojos_y_duende_proxima"
     },
     {
+        "id": "1442a820-6d09-4f08-914c-d88cc5cabdfe",
+        "name": "com30_lols"
+    },
+    {
         "id": "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884",
         "name": "com30_ssoln"
     },
