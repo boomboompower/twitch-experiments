@@ -479,10 +479,12 @@ window.__twilightSettings = {
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
+  "sda_clear_timers": [0, true],
   "sda_lowerthird_web": [1, true],
   "sda_lshape_web": [0, true],
+  "sda_subsequent_calls": [0, false],
   "sda_suppress_flag": [1, true],
-  "sda_transition_animation_reduction": [0, true],
+  "sda_transition_animation_reduction": [0.25, true],
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
@@ -496,6 +498,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
+  "skins": "",
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
   "smode_rollout_enabled": false,
@@ -3614,17 +3617,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24897,
+      "v": 24933,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -5245,16 +5248,16 @@ window.__twilightSettings = {
     },
     "d019f327-caac-40d9-a672-08425d45c38f": {
       "name": "hidden_mw_22",
-      "v": 24741,
+      "v": 24943,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "a"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "b"
       }]
     },
@@ -5519,13 +5522,13 @@ window.__twilightSettings = {
     },
     "da962d5f-c928-4777-86bd-26b389301f62": {
       "name": "v9_turbo",
-      "v": 24899,
+      "v": 24944,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },

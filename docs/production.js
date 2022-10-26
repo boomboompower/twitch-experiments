@@ -541,8 +541,8 @@ const productionExperiments = [
         "name": "last_x_events_user_level"
     },
     {
-        "id": "a6adfb56-c434-405b-a774-2d6c96e2f815",
-        "name": "v8_turbo"
+        "id": "da962d5f-c928-4777-86bd-26b389301f62",
+        "name": "v9_turbo"
     },
     {
         "id": "9c0ac7b2-66b0-4980-9bee-42e07c9202c3",
