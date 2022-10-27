@@ -604,5 +604,9 @@ const productionExperiments = [
     {
         "id": "643a6e17-a433-4d4f-929d-7a2cc395578d",
         "name": "catsug_rollout"
+    },
+    {
+        "id": "2d9223a5-5342-4324-bdd8-658eb560973b",
+        "name": "one_click_recurring"
     }
 ]

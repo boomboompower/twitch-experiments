@@ -484,7 +484,7 @@ window.__twilightSettings = {
   "sda_lshape_web": [0, true],
   "sda_subsequent_calls": [0, false],
   "sda_suppress_flag": [1, true],
-  "sda_transition_animation_reduction": [0.25, true],
+  "sda_transition_animation_reduction": [1, true],
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
@@ -527,7 +527,7 @@ window.__twilightSettings = {
   "studio_default_hotkeys": [0, false],
   "studio_default_layout_change_flag": [1, true],
   "studio_feature_intros_toggle": [1, true],
-  "studio_hotkey_tooltips_changelog_date": "2022-11-08 00:00:00 GMT-0700",
+  "studio_hotkey_tooltips_changelog_date": "2022-11-03 00:00:00 GMT-0700",
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_macos_13_banner": "off",
@@ -559,7 +559,7 @@ window.__twilightSettings = {
   "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_ftue": [1, true],
   "talk_gs_mod_access": [0, false],
-  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997", "606660604", "21653133", "514820819", "619212647", "826025598", "265990473"],
+  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997", "606660604", "21653133", "514820819", "619212647", "826025598", "265990473", "765138050", "271273154", "414673216", "275810482"],
   "talk_gs_nl_phone_verification": [0, true],
   "talk_gs_nl_reporting": [0, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
@@ -3502,16 +3502,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 24866,
+      "v": 24952,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -3617,17 +3617,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24933,
+      "v": 24953,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }]
     },
@@ -5542,6 +5542,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "daeed5a8-45e2-4c35-8ab4-e5cb909c2177": {
+      "name": "studio_download_page_redesign",
+      "v": 24954,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "db024908-d3f7-42a4-ad15-433ab9bf9484": {
