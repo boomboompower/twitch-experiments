@@ -136,6 +136,7 @@ window.__twilightSettings = {
   "chat_filter_enabled": "on",
   "chat_filter_start": "2019-01-18T21:49:42.699Z",
   "chat_globalaccelerator_pct": 1.0,
+  "chat_highlights_settings": [0, false],
   "chat_history": [1, true],
   "chat_input_box_followers_only_restriction_enabled": "on",
   "chat_input_box_slow_mode_restriction_enabled": "on",
@@ -558,10 +559,10 @@ window.__twilightSettings = {
   "talk_gs_alpha_signup_page": [0, false],
   "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_ftue": [1, true],
-  "talk_gs_mod_access": [0, false],
-  "talk_gs_mod_access_allowlist": ["514236910", "834171496", "834169294", "834173535", "66477792", "826023756", "834170843", "135096974", "802309960", "739957997", "606660604", "21653133", "514820819", "619212647", "826025598", "265990473", "765138050", "271273154", "414673216", "275810482"],
-  "talk_gs_nl_phone_verification": [0, true],
-  "talk_gs_nl_reporting": [0, true],
+  "talk_gs_mod_access": [1, false],
+  "talk_gs_mod_access_allowlist": ["514236910"],
+  "talk_gs_nl_phone_verification": [1, true],
+  "talk_gs_nl_reporting": [1, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
@@ -1761,16 +1762,16 @@ window.__twilightSettings = {
     },
     "2d9223a5-5342-4324-bdd8-658eb560973b": {
       "name": "one_click_recurring",
-      "v": 24236,
+      "v": 24960,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 33,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_2"
       }]
     },
@@ -4298,13 +4299,13 @@ window.__twilightSettings = {
     },
     "9f4d2fea-0813-4c43-b76c-0e8847bfb8b5": {
       "name": "simplified_checkout",
-      "v": 24628,
+      "v": 24956,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "experiment"
       }]
     },

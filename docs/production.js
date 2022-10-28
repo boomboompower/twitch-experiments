@@ -323,8 +323,7 @@ const productionExperiments = [
     },
     {
         "id": "6000221a-906c-4087-85b8-fd99c936c900",
-        "name": "vxchan_stream_1.1_actions",
-        "staffOverride": "treatment"
+        "name": "vxchan_stream_1.1_actions"
     },
     {
         "id": "d9a876a6-b481-4dcc-9c19-1d717bc623de",
