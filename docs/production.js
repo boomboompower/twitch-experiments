@@ -4,10 +4,6 @@ const productionExperiments = [
         "name": "studio_default_layout_change"
     },
     {
-        "id": "e81d16c8-f83a-4f5f-a4e4-ebaf1402d863",
-        "name": "studio_transition_ui"
-    },
-    {
         "id": "b9c4d3ca-29e3-403e-a5d8-dff457ccb01d",
         "name": "studio_capture_decouple"
     },
