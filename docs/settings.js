@@ -389,7 +389,7 @@ window.__twilightSettings = {
   "one_click_checkout_v2_country_allowlist": ["AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "US", "BR", "AU", "KR"],
   "one_click_gifts_global_country_allowlist": ["DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "one_click_gifts_global_flag": true,
-  "one_click_recurring_subs_flag": false,
+  "one_click_recurring_subs_flag": true,
   "one_click_subs_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -483,7 +483,7 @@ window.__twilightSettings = {
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
-  "sda_clear_timers": [0, true],
+  "sda_clear_timers": [1, true],
   "sda_lowerthird_web": [1, true],
   "sda_lshape_web": [0, true],
   "sda_subsequent_calls": [0, true],
@@ -570,7 +570,7 @@ window.__twilightSettings = {
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
-  "thumbtack_ready": true,
+  "thumbtack_ready": false,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
   "tokenization": true,
@@ -661,6 +661,24 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "active"
+      }]
+    },
+    "01e67e5b-742e-4aeb-918c-4312edd70215": {
+      "name": "catsug_v2",
+      "v": 25006,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }, {
+        "weight": 0,
+        "value": "variant2"
+      }, {
+        "weight": 0,
+        "value": "variant3"
       }]
     },
     "028ce2d5-c0e3-4517-8081-7e8f4556a55b": {
@@ -5478,7 +5496,7 @@ window.__twilightSettings = {
     },
     "d77e19a0-d70a-4cbb-b428-ccb30f72873d": {
       "name": "disco_bcols",
-      "v": 24847,
+      "v": 25007,
       "t": 1,
       "groups": [{
         "weight": 100,

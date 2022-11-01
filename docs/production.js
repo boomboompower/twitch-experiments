@@ -12,10 +12,6 @@ const productionExperiments = [
         "name": "squad_mode_deprecation_v1"
     },
     {
-        "id": "32c7f734-16ae-46dc-b6cf-43869ee3d9a5",
-        "name": "spotlight_to_dashboard_entry"
-    },
-    {
         "id": "e2a55f6e-0226-41c2-8320-a1a4abf7c611",
         "name": "ts_feature_intro"
     },
