@@ -362,7 +362,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [0, false],
+  "motivation_lvf_flag": [1, false],
   "multi_month_gifting": true,
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
@@ -529,7 +529,7 @@ window.__twilightSettings = {
   "studio_capture_decouple_flag": [1, true],
   "studio_companion_mode": [0, true],
   "studio_default_hotkeys": [0, false],
-  "studio_default_layout_change_flag": [1, true],
+  "studio_default_layout_change_flag": [0, false],
   "studio_feature_intros_toggle": [1, true],
   "studio_hotkey_tooltips_changelog_date": "2022-11-03 00:00:00 GMT-0700",
   "studio_import": [1, true],
@@ -552,8 +552,8 @@ window.__twilightSettings = {
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
-  "subtoken_balance_wallet": false,
-  "subtokens": [0, false],
+  "subtoken_balance_wallet": true,
+  "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/",
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
@@ -3639,17 +3639,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 24982,
+      "v": 25032,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -4776,13 +4776,13 @@ window.__twilightSettings = {
     },
     "b2b6d1e2-2b33-496b-8d77-6cfc454e0881": {
       "name": "motivation_wg_live_viewer_feedback_v2",
-      "v": 24024,
+      "v": 25027,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
