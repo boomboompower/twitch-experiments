@@ -362,7 +362,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [1, false],
+  "motivation_lvf_flag": [0, false],
   "multi_month_gifting": true,
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
@@ -5665,6 +5665,18 @@ window.__twilightSettings = {
         "value": "inline"
       }]
     },
+    "de093100-d55e-4f71-b429-4e707029775f": {
+      "name": "stream_summary_vod_tool_v2_exp",
+      "v": 25059,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "de21a099-8394-4482-bf7a-f2034629e627": {
       "name": "sda_post_fill_drop",
       "v": 16948,
@@ -5742,13 +5754,13 @@ window.__twilightSettings = {
     },
     "e2a55f6e-0226-41c2-8320-a1a4abf7c611": {
       "name": "ts_feature_intro",
-      "v": 24851,
+      "v": 25044,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
