@@ -1,13 +1,5 @@
 const productionExperiments = [
     {
-        "id": "ddd6e39a-98d5-4a43-91a9-ca8313ba4455",
-        "name": "studio_default_layout_change"
-    },
-    {
-        "id": "b9c4d3ca-29e3-403e-a5d8-dff457ccb01d",
-        "name": "studio_capture_decouple"
-    },
-    {
         "id": "ff26667a-d03c-4f60-8fb7-3cc01175df64",
         "name": "squad_mode_deprecation_v1"
     },
@@ -555,10 +547,6 @@ const productionExperiments = [
     {
         "id": "57a642f6-2040-4ad9-a552-b5c3665779aa",
         "name": "insights_nav_redesign"
-    },
-    {
-        "id": "e3e2e186-a378-484c-bf15-2c5194e3bcf8",
-        "name": "simplify_support_panel_resub"
     },
     {
         "id": "502fe8f0-6858-465e-83b4-8f58f538528a",
