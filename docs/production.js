@@ -499,10 +499,6 @@ const productionExperiments = [
         "name": "better_onsite_gift_notifications"
     },
     {
-        "id": "d2e4a581-40d0-48e2-ba4d-429609ef430d",
-        "name": "creator_features_and_tools_creator_home_upsell"
-    },
-    {
         "id": "cc339232-6c9f-4a36-b443-09c082651472",
         "name": "seamless_subscription_upgrades"
     },

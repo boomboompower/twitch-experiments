@@ -81,6 +81,7 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
+  "category-suggestions-rollout-callout-copy-update": [0, false],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla", "vcoesports"],
@@ -228,9 +229,9 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
-  "dev_holiday_banner_end_date": "",
-  "dev_holiday_banner_review_cutoff_date": "",
-  "dev_holiday_banner_start_date": "",
+  "dev_holiday_banner_end_date": "2022-11-27T08:00:00Z",
+  "dev_holiday_banner_review_cutoff_date": "2022-11-22T08:00:00Z",
+  "dev_holiday_banner_start_date": "2022-11-24T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -489,7 +490,7 @@ window.__twilightSettings = {
   "sda_clear_timers": [1, true],
   "sda_lowerthird_web": [1, true],
   "sda_lshape_web": [0, true],
-  "sda_subsequent_calls": [0.25, true],
+  "sda_subsequent_calls": [0.5, true],
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
   "search_debounce_timeout_ms": 50,
@@ -622,8 +623,6 @@ window.__twilightSettings = {
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
-  "xsolla_back_button_country_allowlist": ["US", "DE", "CA", "FR", "ES", "SE", "IT", "NL", "AT", "FI", "CH", "KR", "RU", "BR", "JP"],
-  "xsolla_back_button_flag": true,
   "xsolla_enabled": [1, true],
   "zuora_enabled": [1, false],
   "experiments": {
@@ -1840,6 +1839,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "milestones"
+      }]
+    },
+    "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e": {
+      "name": "mandatory_email_verification",
+      "v": 25115,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "3128fa9f-5059-4186-a47d-e35ed3a2c649": {
@@ -3214,6 +3222,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "claim_free_with_prime"
+      }]
+    },
+    "6e7a704f-7d2f-4cb4-ba1d-29a1ab074d01": {
+      "name": "na-panmeh",
+      "v": 25112,
+      "t": 3,
+      "groups": [{
+        "weight": 5,
+        "value": "control"
+      }, {
+        "weight": 95,
+        "value": "treatment"
       }]
     },
     "6fbde053-695a-44f4-a518-9de5c698b87e": {
@@ -4842,18 +4862,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "b57ca653-237e-491a-a421-2bd4a7b6e8c8": {
-      "name": "xsolla_back_button_checkout",
-      "v": 24545,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant_1"
-      }]
-    },
     "b76b82ac-d5cf-4845-a96f-5243c22856bd": {
       "name": "sub_modal_variant",
       "v": 6573,
@@ -5101,6 +5109,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "whatever"
+      }]
+    },
+    "c4c31c6a-4576-4856-b699-548c80d4db30": {
+      "name": "cheering_web_ux_improvements",
+      "v": 25113,
+      "t": 2,
+      "groups": [{
+        "weight": 5,
+        "value": "control"
+      }, {
+        "weight": 95,
+        "value": "treatment"
       }]
     },
     "c6fd0d37-c577-4e5f-a2a7-9d2e1c7c300b": {
