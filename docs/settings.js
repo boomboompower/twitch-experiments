@@ -366,7 +366,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [1, false],
+  "motivation_lvf_flag": [0, false],
   "multi_month_gifting": true,
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
@@ -488,9 +488,10 @@ window.__twilightSettings = {
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
   "sda_clear_timers": [1, true],
+  "sda_dynamic_durations": [0, true],
   "sda_lowerthird_web": [1, true],
   "sda_lshape_web": [0, true],
-  "sda_subsequent_calls": [0.5, true],
+  "sda_subsequent_calls": [1, true],
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
   "search_debounce_timeout_ms": 50,
@@ -507,6 +508,7 @@ window.__twilightSettings = {
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
   "skins": "",
+  "skins_enabled": [0, true],
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
   "smode_rollout_enabled": false,
@@ -544,7 +546,8 @@ window.__twilightSettings = {
   "studio_native_text_layer": [1, true],
   "studio_project_airhorn": [0, false],
   "studio_scene_intro_cta": [0, false],
-  "studio_stream_alerts_changelog_date": "2022-10-31 00:00:00 GMT-0700",
+  "studio_show_download_page_to_all": false,
+  "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0700",
   "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
   "studio_vcam": [0, false],
@@ -1843,11 +1846,14 @@ window.__twilightSettings = {
     },
     "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e": {
       "name": "mandatory_email_verification",
-      "v": 25115,
+      "v": 25146,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
       }]
     },
     "3128fa9f-5059-4186-a47d-e35ed3a2c649": {
@@ -4799,13 +4805,13 @@ window.__twilightSettings = {
     },
     "b2b6d1e2-2b33-496b-8d77-6cfc454e0881": {
       "name": "motivation_wg_live_viewer_feedback_v2",
-      "v": 25027,
+      "v": 25151,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },

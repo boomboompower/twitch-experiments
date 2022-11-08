@@ -462,10 +462,6 @@ const productionExperiments = [
         "name": "memberships_heartbreak_allowed"
     },
     {
-        "id": "0c53018f-422d-42c6-9ac4-4876fe203115",
-        "name": "mastercard_experiment"
-    },
-    {
         "id": "3421e6e0-aa9e-4738-8b60-73cb6eac8dea",
         "name": "sidenav_active_gift"
     },
