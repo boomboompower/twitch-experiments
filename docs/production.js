@@ -579,5 +579,9 @@ const productionExperiments = [
     {
         "id": "2d9223a5-5342-4324-bdd8-658eb560973b",
         "name": "one_click_recurring"
+    },
+    {
+        "id": "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c",
+        "name": "seg_mented_signup"
     }
 ]

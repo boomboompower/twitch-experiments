@@ -318,7 +318,7 @@ window.__twilightSettings = {
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "include_chat_timing_nonce": true,
-  "insight_chats": [0, false],
+  "insight_chats": [1, true],
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
@@ -488,7 +488,7 @@ window.__twilightSettings = {
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
   "sda_clear_timers": [1, true],
-  "sda_dynamic_durations": [0, true],
+  "sda_dynamic_durations": [1, true],
   "sda_lowerthird_web": [1, true],
   "sda_lshape_web": [0, true],
   "sda_subsequent_calls": [1, true],
@@ -544,10 +544,10 @@ window.__twilightSettings = {
   "studio_multi_methods": [0, false],
   "studio_native_media_layer": [1, true],
   "studio_native_text_layer": [1, true],
-  "studio_project_airhorn": [0, false],
+  "studio_project_airhorn": [1, false],
   "studio_scene_intro_cta": [0, false],
   "studio_show_download_page_to_all": false,
-  "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0700",
+  "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0800",
   "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
   "studio_vcam": [0, false],
@@ -3268,13 +3268,13 @@ window.__twilightSettings = {
     },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
-      "v": 24139,
+      "v": 25152,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 60,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 30,
         "value": "variant1"
       }, {
         "weight": 10,
