@@ -202,7 +202,6 @@ window.__twilightSettings = {
   "creator_follow_cue": [1, false],
   "creator_follow_cue_card": [1, false],
   "creator_goals_changelog_date": "2021-08-25 00:00:00 GMT-0700",
-  "creator_incentive_enabled": [1, false],
   "creatorhome_goals_experiment_mock_component_v2": [0, false],
   "creatorhome_new_affiliates_cluster_query": [1, false],
   "creatorhome_new_affiliates_home": [1, false],
@@ -564,6 +563,7 @@ window.__twilightSettings = {
   "subtokens_help_link": "https://help.twitch.tv/",
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
+  "switch_request_2fa_endpoint": [0, false],
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
   "talk_gs_alpha_signup_page": [0, false],
@@ -574,6 +574,7 @@ window.__twilightSettings = {
   "talk_gs_nl_phone_verification": [1, true],
   "talk_gs_nl_reporting": [1, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
+  "talk_gs_sbs": [0, false],
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
@@ -1846,13 +1847,13 @@ window.__twilightSettings = {
     },
     "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e": {
       "name": "mandatory_email_verification",
-      "v": 25146,
+      "v": 25175,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant_1"
       }]
     },
@@ -3268,13 +3269,13 @@ window.__twilightSettings = {
     },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
-      "v": 25152,
+      "v": 25166,
       "t": 2,
       "groups": [{
-        "weight": 60,
+        "weight": 40,
         "value": "control"
       }, {
-        "weight": 30,
+        "weight": 50,
         "value": "variant1"
       }, {
         "weight": 10,
@@ -4921,16 +4922,16 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 23977,
+      "v": 25165,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_2"
       }]
     },

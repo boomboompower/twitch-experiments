@@ -533,10 +533,6 @@ const productionExperiments = [
         "staffOverride": "on"
     },
     {
-        "id": "b57ca653-237e-491a-a421-2bd4a7b6e8c8",
-        "name": "xsolla_back_button_checkout"
-    },
-    {
         "id": "57a642f6-2040-4ad9-a552-b5c3665779aa",
         "name": "insights_nav_redesign"
     },
@@ -583,5 +579,9 @@ const productionExperiments = [
     {
         "id": "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c",
         "name": "seg_mented_signup"
+    },
+    {
+        "id": "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e",
+        "name": "mandatory_email_verification"
     }
 ]
