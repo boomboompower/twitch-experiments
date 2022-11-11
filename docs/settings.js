@@ -457,6 +457,7 @@ window.__twilightSettings = {
   "radio_soundtrack_cms_feature_flag": [0, true],
   "radio_soundtrack_ugc_feature_flag": [0, true],
   "radio_update_soundtrack_playlist": [1, true],
+  "raid_chat_highlights": [0, false],
   "raid_commands_rollout_v2": [1, true],
   "raids_use_legacy_api": false,
   "recurly_cc_disabled_countries": [],
@@ -1413,16 +1414,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 24923,
+      "v": 25187,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant-b"
       }]
     },
@@ -3269,13 +3270,13 @@ window.__twilightSettings = {
     },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
-      "v": 25166,
+      "v": 25182,
       "t": 2,
       "groups": [{
-        "weight": 40,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 70,
         "value": "variant1"
       }, {
         "weight": 10,
@@ -6476,18 +6477,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant1"
-      }]
-    },
-    "fbebba18-e17d-4bb0-b586-0b1f10673bc7": {
-      "name": "CIP_RELEASE",
-      "v": 16915,
-      "t": 3,
-      "groups": [{
-        "weight": 0,
-        "value": "ON"
-      }, {
-        "weight": 100,
-        "value": "OFF"
       }]
     },
     "fc1c53d9-b666-41f7-bdbc-90fa2fdbb8f4": {
