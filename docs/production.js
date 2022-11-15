@@ -577,6 +577,10 @@ const productionExperiments = [
         "name": "one_click_recurring"
     },
     {
+        "id": "c4c31c6a-4576-4856-b699-548c80d4db30",
+        "name": "cheering_web_ux_improvements"
+    },
+    {
         "id": "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c",
         "name": "seg_mented_signup"
     },
