@@ -168,7 +168,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
-  "com30_lols_AA": false,
+  "com30_lols_AA": true,
   "com30_ssoln_aa": false,
   "commerce_bar_experience": "sponsored",
   "community-intros-15": [1, false],
@@ -672,7 +672,7 @@ window.__twilightSettings = {
     },
     "01e67e5b-742e-4aeb-918c-4312edd70215": {
       "name": "catsug_v2",
-      "v": 25006,
+      "v": 25235,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -686,6 +686,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant3"
+      }, {
+        "weight": 0,
+        "value": "variant4"
       }]
     },
     "028ce2d5-c0e3-4517-8081-7e8f4556a55b": {
@@ -1197,13 +1200,13 @@ window.__twilightSettings = {
     },
     "1442a820-6d09-4f08-914c-d88cc5cabdfe": {
       "name": "com30_lols",
-      "v": 24857,
+      "v": 25228,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant"
       }]
     },
@@ -3270,16 +3273,16 @@ window.__twilightSettings = {
     },
     "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884": {
       "name": "com30_ssoln",
-      "v": 25208,
+      "v": 25225,
       "t": 2,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 90,
+        "weight": 100,
         "value": "variant1"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant2"
       }]
     },
@@ -3555,19 +3558,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 24983,
+      "v": 25229,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3670,17 +3673,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25032,
+      "v": 25230,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
