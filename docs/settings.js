@@ -297,7 +297,7 @@ window.__twilightSettings = {
   "graphql_result_proxy_rollout": [0.01, false],
   "guest_star_channel_page": [1, true],
   "guest_star_request_to_join": [1, false],
-  "guest_star_request_to_join_audio_only": [0, false],
+  "guest_star_request_to_join_audio_only": [1, false],
   "guest_star_request_to_join_filter_sort": [1, false],
   "guest_star_request_to_join_follow_or_sub": true,
   "guest_star_request_to_join_follow_time": 1800000,
@@ -405,7 +405,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pdms_access_requests": [0, false],
+  "pdms_access_requests": [0, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
@@ -564,7 +564,8 @@ window.__twilightSettings = {
   "subtokens_help_link": "https://help.twitch.tv/",
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
-  "switch_request_2fa_endpoint": [1, false],
+  "switch_request_2fa_endpoint": [0, false],
+  "tagging_stream_title": [0, false],
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
   "talk_gs_alpha_signup_page": [0, false],
@@ -1417,16 +1418,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 25194,
+      "v": 25257,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -2682,13 +2683,13 @@ window.__twilightSettings = {
     },
     "57a642f6-2040-4ad9-a552-b5c3665779aa": {
       "name": "insights_nav_redesign",
-      "v": 24872,
+      "v": 25256,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -3558,19 +3559,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 25229,
+      "v": 25247,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3673,17 +3674,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25230,
+      "v": 25246,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -5069,6 +5070,18 @@ window.__twilightSettings = {
       }, {
         "weight": 95,
         "value": "control"
+      }]
+    },
+    "c2478c4d-8ba4-4403-a7c6-da5907480989": {
+      "name": "persistent_goals",
+      "v": 25255,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "c2dd6984-2aa8-4ac4-ba47-0cb1322e8ae9": {
