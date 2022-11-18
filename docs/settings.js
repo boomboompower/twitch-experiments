@@ -1,5 +1,6 @@
 window.__twilightSettings = {
   "environment": "production",
+  "2fa_remember_me": [0, false],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
   "ach_migration_to_rarecandy": [1, true],
@@ -384,6 +385,7 @@ window.__twilightSettings = {
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
   "omsdk_domain_allowlist_in_Twilight": ["ddacn6pr5v0tl.cloudfront.net", "c.amazon-adsystem.com", "www.twitch.tv"],
+  "onboarding_agreement_api": false,
   "onboarding_verification": [1, true],
   "one_click_checkout_blocklist": ["86137825"],
   "one_click_checkout_country_allowlist": ["US"],
@@ -1221,6 +1223,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "15e9840b-134e-41c5-93c6-ce638e404887": {
+      "name": "moat_adblocker_mitigation_fastly",
+      "v": 25288,
+      "t": 1,
+      "groups": [{
+        "weight": 0,
+        "value": "on"
+      }, {
+        "weight": 100,
+        "value": "off"
       }]
     },
     "164332c9-759a-46f5-92de-63d43ff2fd35": {
@@ -3016,13 +3030,13 @@ window.__twilightSettings = {
     },
     "643a6e17-a433-4d4f-929d-7a2cc395578d": {
       "name": "catsug_rollout",
-      "v": 24735,
+      "v": 25277,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -4850,6 +4864,18 @@ window.__twilightSettings = {
         "value": "community_gift_subscribe_button"
       }]
     },
+    "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da": {
+      "name": "m_fastly",
+      "v": 25291,
+      "t": 1,
+      "groups": [{
+        "weight": 0,
+        "value": "variant"
+      }, {
+        "weight": 100,
+        "value": "control "
+      }]
+    },
     "b40df9a0-9dcd-4946-b364-830b7693d2dd": {
       "name": "avs_checkout",
       "v": 12013,
@@ -5074,13 +5100,13 @@ window.__twilightSettings = {
     },
     "c2478c4d-8ba4-4403-a7c6-da5907480989": {
       "name": "persistent_goals",
-      "v": 25255,
+      "v": 25287,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
