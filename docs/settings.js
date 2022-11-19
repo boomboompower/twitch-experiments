@@ -1,6 +1,6 @@
 window.__twilightSettings = {
   "environment": "production",
-  "2fa_remember_me": [0, false],
+  "2fa_remember_me": [1, false],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
   "ach_migration_to_rarecandy": [1, true],
@@ -385,7 +385,7 @@ window.__twilightSettings = {
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
   "omsdk_domain_allowlist_in_Twilight": ["ddacn6pr5v0tl.cloudfront.net", "c.amazon-adsystem.com", "www.twitch.tv"],
-  "onboarding_agreement_api": false,
+  "onboarding_agreement_api": [0, false],
   "onboarding_verification": [1, true],
   "one_click_checkout_blocklist": ["86137825"],
   "one_click_checkout_country_allowlist": ["US"],
@@ -857,6 +857,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "08f1ceee-2a38-4a83-8b84-97de5d4dd62d": {
+      "name": "motivation_wg_live_viewer_feedback_v2_a/b",
+      "v": 25304,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "09fe28c4-fb9a-4242-ad47-4cfb7f3da6af": {
@@ -3688,17 +3697,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25246,
+      "v": 25295,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -5038,18 +5047,6 @@ window.__twilightSettings = {
         "value": "AAX"
       }]
     },
-    "bffeec9a-486f-4d04-846f-b57cca9bfbee": {
-      "name": "motivation_wg_live_viewer_feedback_v3",
-      "v": 24011,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "c0634742-95ef-4a6a-a763-d011fba5ba6d": {
       "name": "one_click_gifts_global",
       "v": 24547,
@@ -5752,13 +5749,13 @@ window.__twilightSettings = {
     },
     "de093100-d55e-4f71-b429-4e707029775f": {
       "name": "stream_summary_vod_tool_v2_exp",
-      "v": 25070,
+      "v": 25299,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },

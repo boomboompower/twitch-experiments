@@ -88,10 +88,6 @@ const productionExperiments = [
         "name": "liverecs_holdout_v2"
     },
     {
-        "id": "b1567f40-9748-42e3-a65b-1b81c90068b1",
-        "name": "TWILIGHT_CAROUSEL_HOLDBACK"
-    },
-    {
         "id": "b24e5cd6-c649-4cab-b768-03ad6cf488be",
         "name": "TWILIGHT_EXTENDED_PRESENCE"
     },
