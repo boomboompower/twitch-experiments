@@ -296,12 +296,14 @@ window.__twilightSettings = {
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
+  "guest_star_channel_invites_query": [0, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_request_to_join": [1, false],
-  "guest_star_request_to_join_audio_only": [1, false],
-  "guest_star_request_to_join_filter_sort": [1, false],
+  "guest_star_request_to_join": [1, true],
+  "guest_star_request_to_join_audio_only": [1, true],
+  "guest_star_request_to_join_filter_sort": [1, true],
   "guest_star_request_to_join_follow_or_sub": true,
   "guest_star_request_to_join_follow_time": 1800000,
+  "guest_star_request_to_join_guest_list_invite": false,
   "guest_star_request_to_join_highlight_duration": 300,
   "guest_star_request_to_join_max_size": 100,
   "guest_star_screen_sharing": [1, true],
@@ -353,6 +355,7 @@ window.__twilightSettings = {
   "mastercard_experiment_end_date": "2022-05-31T23:59:59Z",
   "mastercard_experiment_expiry_date": "2022-12-31T00:00:00Z",
   "mastercard_experiment_start_date": "2022-05-03T00:00:00Z",
+  "mature_content_feature_flag": [0, false],
   "megacommerce_holiday_2020_part1_end_date": "2020-12-16 13:59:59 GMT-0800",
   "megacommerce_holiday_2020_part1_start_date": "2020-12-02 14:00:00 GMT-0800",
   "megacommerce_holiday_2020_part2_end_date": "2021-01-04 13:59:59 GMT-0800",
@@ -2946,6 +2949,21 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "5f83e7ae-00e0-4c9e-996b-039c508ffd58": {
+      "name": "sw_skip_reorder_detailed_reason",
+      "v": 25335,
+      "t": 2,
+      "groups": [{
+        "weight": 1,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment1"
+      }, {
+        "weight": 0,
+        "value": "treatment2"
+      }]
+    },
     "5fd568be-2073-4f99-84d5-565e8b2a3343": {
       "name": "TWILIGHT_AAX_DISPLAY",
       "v": 3615,
@@ -3757,6 +3775,24 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "chat"
+      }]
+    },
+    "83e7ac97-5ad9-4564-a47e-9a7814a895bc": {
+      "name": "disco_carousel_shelf",
+      "v": 25322,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "none"
+      }, {
+        "weight": 0,
+        "value": "bigger"
+      }, {
+        "weight": 0,
+        "value": "autoplay"
       }]
     },
     "842f8360-8948-42f2-a088-92e266724cc8": {
