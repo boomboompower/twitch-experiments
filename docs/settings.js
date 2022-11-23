@@ -129,6 +129,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "ch-sub-emote-card": [1, true],
+  "ch_creators_in_community": [0, false],
   "ch_feature_card": [1, true],
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
@@ -303,7 +304,6 @@ window.__twilightSettings = {
   "guest_star_request_to_join_filter_sort": [1, true],
   "guest_star_request_to_join_follow_or_sub": true,
   "guest_star_request_to_join_follow_time": 1800000,
-  "guest_star_request_to_join_guest_list_invite": false,
   "guest_star_request_to_join_highlight_duration": 300,
   "guest_star_request_to_join_max_size": 100,
   "guest_star_screen_sharing": [1, true],
@@ -5327,6 +5327,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
+      }]
+    },
+    "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc": {
+      "name": "bits_insufficient_balance_checkout",
+      "v": 25371,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "ce577266-68fa-40eb-8c07-5ae30488338f": {
