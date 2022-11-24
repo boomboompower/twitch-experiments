@@ -24,6 +24,7 @@ window.__twilightSettings = {
   "amazon_ads_url_prime_page_uk": "https://aax-eu.amazon-adsystem.com/s/iui3?d=forester-did&ex-fargs=%3Fid%3D5b59d365-e0b2-268d-00a0-aa0f59cce0c1%26type%3D4%26m%3D3&ex-fch=416613&ex-src=https://www.twitch.tv/&ex-hargs=v%3D1.0%3Bc%3D3815840130302%3Bp%3D5B59D365-E0B2-268D-00A0-AA0F59CCE0C1",
   "amazon_ads_url_prime_page_us": "https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fid%3D573a4bd9-f106-f600-a392-699ceaddb160%26type%3D6%26m%3D1&ex-fch=416613&ex-src=https://www.twitch.tv/prime&ex-hargs=v%3D1.0%3Bc%3D7416603020101%3Bp%3D573A4BD9-F106-F600-A392-699CEADDB160",
   "amazon_advertising_pixel": "https://s.amazon-adsystem.com/iu3?pid=49226e71-48b6-4ccb-bf4c-f82acb404220",
+  "amazon_footer_flag": [0, true],
   "amazon_pay_enabled": [1, true],
   "amv2_phase_2": [1, true],
   "amv2_phase_2_ccp": [1, false],
@@ -379,6 +380,7 @@ window.__twilightSettings = {
   "native_not_me": "on",
   "netherlands_merch_link_reroute": [1, true],
   "new_device_login_digit_only": true,
+  "new_games_pill_weeks": 3,
   "new_live_announcements": true,
   "new_me_command": [1, false],
   "new_password_message": [0, true],
@@ -575,7 +577,6 @@ window.__twilightSettings = {
   "talk_gs_alpha": [1, true],
   "talk_gs_alpha_signup_page": [0, false],
   "talk_gs_alpha_signup_page_cta": "",
-  "talk_gs_ftue": [1, true],
   "talk_gs_mod_access": [1, false],
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
@@ -1878,14 +1879,26 @@ window.__twilightSettings = {
     },
     "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e": {
       "name": "mandatory_email_verification",
-      "v": 25175,
+      "v": 25388,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant_1"
+      }]
+    },
+    "31182d13-4f91-4daf-b1b6-b74cd8123281": {
+      "name": "disco_new_games_pill_rollout",
+      "v": 25395,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "3128fa9f-5059-4186-a47d-e35ed3a2c649": {
@@ -2903,7 +2916,7 @@ window.__twilightSettings = {
     },
     "5d1dd623-d756-4477-9d65-4dde29e20a89": {
       "name": "insights_tag_impressions",
-      "v": 25310,
+      "v": 25382,
       "t": 1,
       "groups": [{
         "weight": 0,

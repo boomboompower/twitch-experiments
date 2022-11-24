@@ -96,11 +96,6 @@ const productionExperiments = [
         "name": "bits_enabled_extension_recommendation"
     },
     {
-        "id": "53829145-1f99-483c-adf0-2ac3043a03c3",
-        "name": "extensions_installation_optimization",
-        "staffOverride": "test"
-    },
-    {
         "id": "a22564bf-1fa7-49ef-b2a2-e45ed1d88f30",
         "name": "extension_overlay_improvement"
     },
@@ -531,6 +526,10 @@ const productionExperiments = [
     {
         "id": "57a642f6-2040-4ad9-a552-b5c3665779aa",
         "name": "insights_nav_redesign"
+    },
+    {
+        "id": "5d1dd623-d756-4477-9d65-4dde29e20a89",
+        "name": "insights_tag_impressions"
     },
     {
         "id": "502fe8f0-6858-465e-83b4-8f58f538528a",
