@@ -380,6 +380,7 @@ window.__twilightSettings = {
   "native_not_me": "on",
   "netherlands_merch_link_reroute": [1, true],
   "new_device_login_digit_only": true,
+  "new_games_pill_rollout": [0, true],
   "new_games_pill_weeks": 3,
   "new_live_announcements": true,
   "new_me_command": [1, false],
@@ -2249,6 +2250,18 @@ window.__twilightSettings = {
         "value": "debounce_and_all_heartbeat"
       }]
     },
+    "4252ded7-ee34-4c28-92b2-f950b18855a4": {
+      "name": "mfa_form",
+      "v": 25397,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
+      }]
+    },
     "429018e2-0cab-4ec4-a129-8a93c4f2b1b9": {
       "name": "norton_badge_v2",
       "v": 11684,
@@ -2634,21 +2647,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "experiment"
-      }]
-    },
-    "53829145-1f99-483c-adf0-2ac3043a03c3": {
-      "name": "extensions_installation_optimization",
-      "v": 11389,
-      "t": 3,
-      "groups": [{
-        "weight": 34,
-        "value": "control"
-      }, {
-        "weight": 33,
-        "value": "test"
-      }, {
-        "weight": 33,
-        "value": "test_no_later_button"
       }]
     },
     "545d72f6-7809-4281-a329-cb3750cb0301": {
