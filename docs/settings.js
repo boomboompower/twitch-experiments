@@ -16,7 +16,6 @@ window.__twilightSettings = {
   "affiliate_revenue_share_banner": [1, false],
   "alakazam_expiry": "2023-01-01",
   "alert_settings_modal": [1, true],
-  "Allowed_OMSDK_vendors_in_Twilight": ["IAS", "doubleverify.com-omid", "amazon.com-omid", "iabtechlab.com-omid"],
   "am_ccar_feature_enabled": [1, true],
   "amazon_ads_url": "https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=twitch.tv&ex-hargs=v%3D1.0%3Bc%3D8858214122683%3Bp%3De75425fb-5407-7bd5-fd20-f462e98a8777",
   "amazon_ads_url_crown_uk": "https://aax-eu.amazon-adsystem.com/s/iui3?d=forester-did&ex-fargs=%3Fid%3Db8b26227-de81-5bfb-4046-b9158f6a8c08%26type%3D4%26m%3D3&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D3815840130302%3Bp%3DB8B26227-DE81-5BFB-4046-B9158F6A8C08",
@@ -171,7 +170,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
-  "com30_lols_AA": true,
+  "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "commerce_bar_experience": "sponsored",
   "community-intros-15": [1, false],
@@ -231,9 +230,6 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
-  "dev_holiday_banner_end_date": "2022-11-27T08:00:00Z",
-  "dev_holiday_banner_review_cutoff_date": "2022-11-22T08:00:00Z",
-  "dev_holiday_banner_start_date": "2022-11-24T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -298,6 +294,7 @@ window.__twilightSettings = {
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
+  "guest_star_audio_controls": [0, false],
   "guest_star_channel_invites_query": [0, true],
   "guest_star_channel_page": [1, true],
   "guest_star_request_to_join": [1, true],
@@ -380,8 +377,8 @@ window.__twilightSettings = {
   "native_not_me": "on",
   "netherlands_merch_link_reroute": [1, true],
   "new_device_login_digit_only": true,
+  "new_games_pill_days": 21,
   "new_games_pill_rollout": [0, true],
-  "new_games_pill_weeks": 3,
   "new_live_announcements": true,
   "new_me_command": [1, false],
   "new_password_message": [0, true],
@@ -390,7 +387,6 @@ window.__twilightSettings = {
   "No_Track_Pages": ["/user/password-reset"],
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
-  "omsdk_domain_allowlist_in_Twilight": ["ddacn6pr5v0tl.cloudfront.net", "c.amazon-adsystem.com", "www.twitch.tv"],
   "onboarding_agreement_api": [0, false],
   "onboarding_verification": [1, true],
   "one_click_checkout_blocklist": ["86137825"],
@@ -491,7 +487,6 @@ window.__twilightSettings = {
   "rpt_messaging": true,
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
-  "Sandboxed_OMSDK_vendors_in_Twilight": ["IAS", "amazon.com-omid"],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
@@ -558,7 +553,7 @@ window.__twilightSettings = {
   "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0800",
   "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
-  "studio_vcam": [0, false],
+  "studio_vcam": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
@@ -944,13 +939,13 @@ window.__twilightSettings = {
     },
     "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
       "name": "sw_chat_desc_opt",
-      "v": 24632,
+      "v": 25435,
       "t": 2,
       "groups": [{
-        "weight": 1,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }]
     },
@@ -1217,7 +1212,7 @@ window.__twilightSettings = {
     },
     "1442a820-6d09-4f08-914c-d88cc5cabdfe": {
       "name": "com30_lols",
-      "v": 25228,
+      "v": 25430,
       "t": 2,
       "groups": [{
         "weight": 90,
@@ -2012,13 +2007,13 @@ window.__twilightSettings = {
     },
     "344204fc-59ce-4cdf-a127-1ca08d1f57f1": {
       "name": "timeseries_referrals",
-      "v": 23903,
+      "v": 25409,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -3080,13 +3075,13 @@ window.__twilightSettings = {
     },
     "643a6e17-a433-4d4f-929d-7a2cc395578d": {
       "name": "catsug_rollout",
-      "v": 25277,
+      "v": 25411,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -3623,19 +3618,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 25247,
+      "v": 25418,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3738,17 +3733,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25295,
+      "v": 25419,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -4934,7 +4929,7 @@ window.__twilightSettings = {
     },
     "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da": {
       "name": "m_fastly",
-      "v": 25291,
+      "v": 25439,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -5021,16 +5016,16 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 25165,
+      "v": 25427,
       "t": 1,
       "groups": [{
-        "weight": 34,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant_1"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant_2"
       }]
     },
