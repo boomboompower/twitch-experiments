@@ -284,7 +284,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
-  "fft_auto": [0, false],
+  "fft_auto": [1, false],
   "fft_channel_analytics_maint_date_gmt": "",
   "fft_v1": [1, true],
   "fft_v1_sf": [1, true],
@@ -553,7 +553,7 @@ window.__twilightSettings = {
   "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0800",
   "studio_stream_info_intro_cta": [0, false],
   "studio_transition_ui_flag": [1, true],
-  "studio_vcam": [1, true],
+  "studio_vcam": [0, false],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
@@ -675,7 +675,7 @@ window.__twilightSettings = {
     },
     "01e67e5b-742e-4aeb-918c-4312edd70215": {
       "name": "catsug_v2",
-      "v": 25235,
+      "v": 25462,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -939,13 +939,13 @@ window.__twilightSettings = {
     },
     "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
       "name": "sw_chat_desc_opt",
-      "v": 25435,
+      "v": 25456,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -989,6 +989,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "enabled"
+      }]
+    },
+    "0e629110-9517-48f7-a852-8b59678aad3c": {
+      "name": "project_ape",
+      "v": 25461,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "0e636d13-56a8-44f4-bd51-7e65cd5a5225": {
@@ -2007,22 +2019,22 @@ window.__twilightSettings = {
     },
     "344204fc-59ce-4cdf-a127-1ca08d1f57f1": {
       "name": "timeseries_referrals",
-      "v": 25409,
+      "v": 25447,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "treatment"
       }]
     },
     "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a": {
       "name": "sw_livestream_vod_prompt_bar",
-      "v": 24634,
+      "v": 25454,
       "t": 2,
       "groups": [{
-        "weight": 1,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
@@ -3618,19 +3630,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 25418,
+      "v": 25459,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3733,17 +3745,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25419,
+      "v": 25458,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
