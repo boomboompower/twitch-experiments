@@ -134,7 +134,7 @@ window.__twilightSettings = {
   "change_payout_method_reauth_required": true,
   "channel_banned_alias_enabled": [0, false],
   "channel_clips_feature": [1, true],
-  "channel_enrolled_sm": [0, false],
+  "channel_enrolled_sm": [1, true],
   "channel_feed_enabled": false,
   "chat_filter_enabled": "on",
   "chat_filter_start": "2019-01-18T21:49:42.699Z",
@@ -219,7 +219,7 @@ window.__twilightSettings = {
   "dashboard_prime_earnings": "on",
   "dashboard_prime_earnings_new_copy": "off",
   "dashboard_vp_widget_enabled": true,
-  "date_smode_enabled": "2023-12-31T23:59:59Z",
+  "date_smode_enabled": "2022-11-30T18:00:00Z",
   "Default_Emote_Library": [1, false],
   "delete_mod_actions_enabled": [1, false],
   "deprecate_friends": true,
@@ -297,6 +297,7 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [0, false],
   "guest_star_channel_invites_query": [0, true],
   "guest_star_channel_page": [1, true],
+  "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
   "guest_star_request_to_join_filter_sort": [1, true],
@@ -328,7 +329,7 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "kpsdk_deprecated_url": "https://help.twitch.tv/s/article/supported-browsers",
-  "kpsdk_electron_app": ["03iw14r94gnetrn0uhjwetusachffp"],
+  "kpsdk_electron_app": [],
   "kpsdk_helpsite_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
@@ -514,7 +515,7 @@ window.__twilightSettings = {
   "skins_enabled": [0, true],
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
-  "smode_rollout_enabled": false,
+  "smode_rollout_enabled": true,
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
@@ -611,6 +612,7 @@ window.__twilightSettings = {
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
+  "vod_upload_v2_rollout": [0, false],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
@@ -939,13 +941,13 @@ window.__twilightSettings = {
     },
     "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
       "name": "sw_chat_desc_opt",
-      "v": 25456,
+      "v": 25472,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -1453,16 +1455,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 25257,
+      "v": 25475,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -2019,28 +2021,28 @@ window.__twilightSettings = {
     },
     "344204fc-59ce-4cdf-a127-1ca08d1f57f1": {
       "name": "timeseries_referrals",
-      "v": 25447,
+      "v": 25466,
       "t": 3,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
     "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a": {
       "name": "sw_livestream_vod_prompt_bar",
-      "v": 25454,
+      "v": 25473,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment2"
       }]
     },
@@ -5728,13 +5730,13 @@ window.__twilightSettings = {
     },
     "daeed5a8-45e2-4c35-8ab4-e5cb909c2177": {
       "name": "studio_download_page_redesign",
-      "v": 24954,
+      "v": 25474,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
