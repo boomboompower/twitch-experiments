@@ -1,5 +1,9 @@
 const productionExperiments = [
     {
+        "id": "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da",
+        "name": "m_fastly"
+    },
+    {
         "id": "daeed5a8-45e2-4c35-8ab4-e5cb909c2177",
         "name": "studio_download_page_redesign"
     },

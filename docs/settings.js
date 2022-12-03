@@ -70,6 +70,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "branded_content_feature_flag": [0, false],
+  "bs_mct_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -300,6 +301,7 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [0, false],
   "guest_star_channel_invites_query": [0, true],
   "guest_star_channel_page": [1, true],
+  "guest_star_dashboard_creator_landing_page": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
@@ -357,7 +359,6 @@ window.__twilightSettings = {
   "mastercard_experiment_end_date": "2022-05-31T23:59:59Z",
   "mastercard_experiment_expiry_date": "2022-12-31T00:00:00Z",
   "mastercard_experiment_start_date": "2022-05-03T00:00:00Z",
-  "mature_content_feature_flag": [0, false],
   "megacommerce_holiday_2020_part1_end_date": "2020-12-16 13:59:59 GMT-0800",
   "megacommerce_holiday_2020_part1_start_date": "2020-12-02 14:00:00 GMT-0800",
   "megacommerce_holiday_2020_part2_end_date": "2021-01-04 13:59:59 GMT-0800",
@@ -2720,18 +2721,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "56ea4f1e-bcfc-4ed3-8b64-f471f8b872f0": {
-      "name": "default_emotes_new_affiliates",
-      "v": 16816,
-      "t": 3,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "57a642f6-2040-4ad9-a552-b5c3665779aa": {
       "name": "insights_nav_redesign",
       "v": 25256,
@@ -3752,17 +3741,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25458,
+      "v": 25514,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -4948,13 +4937,13 @@ window.__twilightSettings = {
     },
     "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da": {
       "name": "m_fastly",
-      "v": 25439,
+      "v": 25513,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 25,
         "value": "variant"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "control "
       }]
     },
@@ -4968,18 +4957,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
-      }]
-    },
-    "b513457d-752d-4e41-9aae-aeaedd8280e4": {
-      "name": "default_emotes_for_new_affiliates",
-      "v": 20454,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
       }]
     },
     "b76b82ac-d5cf-4845-a96f-5243c22856bd": {
