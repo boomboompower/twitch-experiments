@@ -173,6 +173,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
+  "com30_hydro_pump": [0, false],
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "commerce_bar_experience": "sponsored",
@@ -618,7 +619,7 @@ window.__twilightSettings = {
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
-  "vod_upload_v2_rollout": [0, false],
+  "vod_upload_v2_rollout": [0.25, false],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
@@ -1433,6 +1434,21 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant"
+      }]
+    },
+    "1b16c1dc-9ea4-439a-9543-1b773e58ec65": {
+      "name": "sw_skip_detailed_reorder_main",
+      "v": 25529,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment1"
+      }, {
+        "weight": 0,
+        "value": "treatment2"
       }]
     },
     "1c668d47-f15d-43ce-a54c-b2e27eeaa6b6": {
@@ -2961,21 +2977,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "5f83e7ae-00e0-4c9e-996b-039c508ffd58": {
-      "name": "sw_skip_reorder_detailed_reason",
-      "v": 25335,
-      "t": 2,
-      "groups": [{
-        "weight": 1,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment1"
-      }, {
-        "weight": 0,
-        "value": "treatment2"
       }]
     },
     "5fd568be-2073-4f99-84d5-565e8b2a3343": {
@@ -4937,13 +4938,13 @@ window.__twilightSettings = {
     },
     "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da": {
       "name": "m_fastly",
-      "v": 25513,
+      "v": 25552,
       "t": 1,
       "groups": [{
-        "weight": 25,
+        "weight": 100,
         "value": "variant"
       }, {
-        "weight": 75,
+        "weight": 0,
         "value": "control "
       }]
     },
@@ -5414,13 +5415,13 @@ window.__twilightSettings = {
     },
     "d019f327-caac-40d9-a672-08425d45c38f": {
       "name": "hidden_mw_22",
-      "v": 24943,
+      "v": 25547,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "a"
       }, {
         "weight": 0,
