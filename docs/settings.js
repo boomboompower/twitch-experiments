@@ -84,7 +84,7 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
-  "category-suggestions-rollout-callout-copy-update": [0, false],
+  "category-suggestions-rollout-callout-copy-update": [1, true],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla", "vcoesports"],
@@ -537,7 +537,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
-  "stream_summary_vod_tool_v2_exp": [0, false],
+  "stream_summary_vod_tool_v2_exp": [1, true],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
@@ -545,7 +545,6 @@ window.__twilightSettings = {
   "studio_companion_mode": [0, true],
   "studio_default_hotkeys": [1, true],
   "studio_default_layout_change_flag": [0, false],
-  "studio_feature_intros_toggle": [1, true],
   "studio_hotkey_tooltips_changelog_date": "2022-11-03 00:00:00 GMT-0700",
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
@@ -619,7 +618,7 @@ window.__twilightSettings = {
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
-  "vod_upload_v2_rollout": [0.25, false],
+  "vod_upload_v2_rollout": [0.5, false],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
@@ -684,22 +683,22 @@ window.__twilightSettings = {
     },
     "01e67e5b-742e-4aeb-918c-4312edd70215": {
       "name": "catsug_v2",
-      "v": 25462,
+      "v": 25577,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant2"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant3"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant4"
       }]
     },
@@ -870,11 +869,14 @@ window.__twilightSettings = {
     },
     "08f1ceee-2a38-4a83-8b84-97de5d4dd62d": {
       "name": "motivation_wg_live_viewer_feedback_v2_a/b",
-      "v": 25304,
+      "v": 25586,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "09fe28c4-fb9a-4242-ad47-4cfb7f3da6af": {
@@ -948,7 +950,7 @@ window.__twilightSettings = {
     },
     "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
       "name": "sw_chat_desc_opt",
-      "v": 25472,
+      "v": 25572,
       "t": 2,
       "groups": [{
         "weight": 90,
@@ -2055,7 +2057,7 @@ window.__twilightSettings = {
     },
     "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a": {
       "name": "sw_livestream_vod_prompt_bar",
-      "v": 25473,
+      "v": 25576,
       "t": 2,
       "groups": [{
         "weight": 80,
@@ -4897,13 +4899,13 @@ window.__twilightSettings = {
     },
     "b2b6d1e2-2b33-496b-8d77-6cfc454e0881": {
       "name": "motivation_wg_live_viewer_feedback_v2",
-      "v": 25151,
+      "v": 25584,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -5895,18 +5897,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
-      }]
-    },
-    "e2a55f6e-0226-41c2-8320-a1a4abf7c611": {
-      "name": "ts_feature_intro",
-      "v": 25044,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
       }]
     },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {

@@ -12,6 +12,10 @@ const productionExperiments = [
         "name": "squad_mode_deprecation_v1"
     },
     {
+        "id": "c2478c4d-8ba4-4403-a7c6-da5907480989",
+        "name": "persistent_goals"
+    },
+    {
         "id": "e2a55f6e-0226-41c2-8320-a1a4abf7c611",
         "name": "ts_feature_intro"
     },
