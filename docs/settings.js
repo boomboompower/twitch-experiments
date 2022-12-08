@@ -373,7 +373,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
-  "motivation_lvf_flag": [0, false],
+  "motivation_lvf_flag": [1, false],
   "multi_month_gifting": true,
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
@@ -618,7 +618,7 @@ window.__twilightSettings = {
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
-  "vod_upload_v2_rollout": [0.5, false],
+  "vod_upload_v2_rollout": [0.75, false],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
@@ -6301,16 +6301,16 @@ window.__twilightSettings = {
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
       "name": "mse_in_workers",
-      "v": 21667,
+      "v": 25588,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 98,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "holdback"
       }]
     },
