@@ -302,6 +302,7 @@ window.__twilightSettings = {
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
   "guest_star_dashboard_creator_landing_page": [0, false],
+  "guest_star_first_party_survey": [1, true],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
@@ -500,6 +501,7 @@ window.__twilightSettings = {
   "sda_dynamic_durations": [1, true],
   "sda_lowerthird_web": [1, true],
   "sda_lshape_web": [0, true],
+  "sda_squeeze_reduction": [0, true],
   "sda_subsequent_calls": [1, true],
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
@@ -1629,6 +1631,21 @@ window.__twilightSettings = {
         "value": "variant0"
       }]
     },
+    "2542f7b8-4dcc-4ca9-a855-64055d82f5bd": {
+      "name": "aip_pt_to_utc",
+      "v": 25631,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "OFF"
+      }, {
+        "weight": 0,
+        "value": "ON"
+      }, {
+        "weight": 0,
+        "value": "758477004"
+      }]
+    },
     "2559f1ee-d998-4fb5-8be7-9213e688a589": {
       "name": "bits_skus_reduction",
       "v": 24150,
@@ -1748,6 +1765,27 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "enabled"
+      }]
+    },
+    "29b2c41d-9b61-4513-95ca-4080591292d0": {
+      "name": "let_twitch_decide_experiment",
+      "v": 25642,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "toggle_off_1_break"
+      }, {
+        "weight": 0,
+        "value": "toggle_off_3_break"
+      }, {
+        "weight": 0,
+        "value": "togggle_on_1_break"
+      }, {
+        "weight": 0,
+        "value": "toggle_on_3_break"
       }]
     },
     "2a419c5c-16b5-48fa-83d4-a5764408545b": {
@@ -5721,13 +5759,13 @@ window.__twilightSettings = {
     },
     "da962d5f-c928-4777-86bd-26b389301f62": {
       "name": "v9_turbo",
-      "v": 24944,
+      "v": 25643,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -6331,16 +6369,16 @@ window.__twilightSettings = {
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
       "name": "mse_in_workers",
-      "v": 25588,
+      "v": 25637,
       "t": 1,
       "groups": [{
-        "weight": 98,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "treatment"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "holdback"
       }]
     },
