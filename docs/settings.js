@@ -133,7 +133,7 @@ window.__twilightSettings = {
   "ch_creators_in_community": [1, true],
   "ch_feature_card": [1, true],
   "change_payout_method_reauth_required": true,
-  "channel_analytics_subs_to_gql": [0, false],
+  "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
   "channel_clips_feature": [1, true],
   "channel_enrolled_sm": [1, true],
@@ -141,7 +141,7 @@ window.__twilightSettings = {
   "chat_filter_enabled": "on",
   "chat_filter_start": "2019-01-18T21:49:42.699Z",
   "chat_globalaccelerator_pct": 1.0,
-  "chat_highlights_settings": [0, false],
+  "chat_highlights_settings": [1, false],
   "chat_history": [1, true],
   "chat_input_box_followers_only_restriction_enabled": "on",
   "chat_input_box_slow_mode_restriction_enabled": "on",
@@ -298,11 +298,12 @@ window.__twilightSettings = {
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
-  "guest_star_audio_controls": [0, false],
+  "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_dashboard_creator_landing_page": [0, false],
+  "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [1, true],
+  "guest_star_guest_audio_controls": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
@@ -468,7 +469,7 @@ window.__twilightSettings = {
   "radio_soundtrack_cms_feature_flag": [0, true],
   "radio_soundtrack_ugc_feature_flag": [0, true],
   "radio_update_soundtrack_playlist": [1, true],
-  "raid_chat_highlights": [0, false],
+  "raid_chat_highlights": [1, false],
   "raid_commands_rollout_v2": [1, true],
   "raids_use_legacy_api": false,
   "recurly_cc_disabled_countries": [],
@@ -586,7 +587,7 @@ window.__twilightSettings = {
   "talk_gs_nl_phone_verification": [1, true],
   "talk_gs_nl_reporting": [1, true],
   "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
-  "talk_gs_rtj_mod_actions": [0, false],
+  "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [0, false],
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
@@ -1237,13 +1238,13 @@ window.__twilightSettings = {
     },
     "1442a820-6d09-4f08-914c-d88cc5cabdfe": {
       "name": "com30_lols",
-      "v": 25430,
+      "v": 25655,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -1768,8 +1769,8 @@ window.__twilightSettings = {
       }]
     },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
-      "name": "let_twitch_decide_experiment",
-      "v": 25642,
+      "name": "toad_experiment",
+      "v": 25668,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -6369,16 +6370,16 @@ window.__twilightSettings = {
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
       "name": "mse_in_workers",
-      "v": 25637,
+      "v": 25651,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "treatment"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "holdback"
       }]
     },
