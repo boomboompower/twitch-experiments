@@ -52,6 +52,7 @@ window.__twilightSettings = {
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_charity_event": "off",
+  "bits_management_devsite": [0, false],
   "bits_on_polls": false,
   "bits_prime_offer": false,
   "bits_project_marley": [0, false],
@@ -172,7 +173,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
-  "com30_hydro_pump": [0, true],
+  "com30_hydro_pump": [1, true],
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "commerce_bar_experience": "sponsored",
@@ -202,7 +203,6 @@ window.__twilightSettings = {
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat_highlights": [1, false],
-  "creator_chat_highlights_full_release": [1, false],
   "creator_defined_benefits": true,
   "creator_follow_cue": [0, false],
   "creator_follow_cue_card": [0, false],
@@ -301,8 +301,8 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_dashboard_creator_landing_page": [1, true],
-  "guest_star_first_party_survey": [1, true],
+  "guest_star_dashboard_creator_landing_page": [0, true],
+  "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_request_to_join": [1, true],
@@ -3026,6 +3026,19 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "5ef3d086-7e9f-4d73-87e8-a070521b2c76": {
+      "name": "auto_mod_smart_detection",
+      "v": 25675,
+      "t": 2,
+      "s": 1,
+      "groups": [{
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "5fd568be-2073-4f99-84d5-565e8b2a3343": {
       "name": "TWILIGHT_AAX_DISPLAY",
       "v": 3615,
@@ -5159,13 +5172,13 @@ window.__twilightSettings = {
     },
     "c0634742-95ef-4a6a-a763-d011fba5ba6d": {
       "name": "one_click_gifts_global",
-      "v": 24547,
+      "v": 25688,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -6370,16 +6383,16 @@ window.__twilightSettings = {
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
       "name": "mse_in_workers",
-      "v": 25651,
+      "v": 25696,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "holdback"
       }]
     },
