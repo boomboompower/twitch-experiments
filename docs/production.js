@@ -136,6 +136,14 @@ const productionExperiments = [
         "name": "bda_migration_flag"
     },
     {
+        "id": "d1a80945-a4db-41c5-956c-4518ad26a8ca",
+        "name": "bda_migration_flag_2"
+    },
+    {
+        "id": "976de33d-4b81-41ee-8633-615146d8a369",
+        "name": "bda_migration_flag_3"
+    },
+    {
         "id": "f75ab09d-daf7-46db-bdd5-bb5a2f413cf7",
         "name": "TWILIGHT_CLIPS_ON_THE_BRAIN"
     },
@@ -598,6 +606,10 @@ const productionExperiments = [
     {
         "id": "c4c31c6a-4576-4856-b699-548c80d4db30",
         "name": "cheering_web_ux_improvements"
+    },
+    {
+        "id": "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc",
+        "name": "bits_insufficient_balance_checkout"
     },
     {
         "id": "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c",

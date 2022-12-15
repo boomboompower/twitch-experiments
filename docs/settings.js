@@ -130,9 +130,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "ch-sub-emote-card": [1, true],
   "ch_creators_in_community": [1, true],
-  "ch_feature_card": [1, true],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
@@ -301,7 +299,7 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_dashboard_creator_landing_page": [0, true],
+  "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
@@ -326,7 +324,6 @@ window.__twilightSettings = {
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "include_chat_timing_nonce": true,
-  "insight_chats": [1, true],
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
@@ -533,7 +530,6 @@ window.__twilightSettings = {
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
-  "spotlight_to_dashboard_entry_flag": [1, true],
   "squad_stream_ads_heartbeat_interval": 240000,
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
@@ -544,11 +540,7 @@ window.__twilightSettings = {
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
-  "studio_capture_decouple_flag": [1, true],
   "studio_companion_mode": [0, true],
-  "studio_default_hotkeys": [1, true],
-  "studio_default_layout_change_flag": [0, false],
-  "studio_hotkey_tooltips_changelog_date": "2022-11-03 00:00:00 GMT-0700",
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_macos_13_banner": "off",
@@ -560,7 +552,6 @@ window.__twilightSettings = {
   "studio_show_download_page_to_all": false,
   "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0800",
   "studio_stream_info_intro_cta": [0, false],
-  "studio_transition_ui_flag": [1, true],
   "studio_vcam": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
@@ -1513,6 +1504,18 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
+    "1fb804bc-4aea-4d17-a7d9-10d121d27257": {
+      "name": "persistent_goals_2",
+      "v": 25720,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "2005226d-07fe-46cf-a229-d91dd03d8d3a": {
       "name": "delete_XP",
       "v": 3634,
@@ -2004,19 +2007,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
-      }]
-    },
-    "32c7f734-16ae-46dc-b6cf-43869ee3d9a5": {
-      "name": "spotlight_to_dashboard_entry",
-      "v": 24133,
-      "t": 2,
-      "s": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5085,13 +5075,13 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 25427,
+      "v": 25705,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant_1"
       }, {
         "weight": 0,
@@ -5107,18 +5097,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 5,
-        "value": "variant"
-      }]
-    },
-    "b9c4d3ca-29e3-403e-a5d8-dff457ccb01d": {
-      "name": "studio_capture_decouple",
-      "v": 24134,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5220,7 +5198,7 @@ window.__twilightSettings = {
     },
     "c2478c4d-8ba4-4403-a7c6-da5907480989": {
       "name": "persistent_goals",
-      "v": 25287,
+      "v": 25703,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -5849,18 +5827,6 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
-    "ddd6e39a-98d5-4a43-91a9-ca8313ba4455": {
-      "name": "studio_default_layout_change",
-      "v": 24136,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "ddf312f2-bcd5-412c-a64b-86335adee351": {
       "name": "offline_embeds_overlay",
       "v": 16008,
@@ -6085,19 +6051,6 @@ window.__twilightSettings = {
       }, {
         "weight": 5,
         "value": "support_panel"
-      }]
-    },
-    "e81d16c8-f83a-4f5f-a4e4-ebaf1402d863": {
-      "name": "studio_transition_ui",
-      "v": 24135,
-      "t": 1,
-      "s": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
       }]
     },
     "e85998cd-a7b4-400e-8139-6b1aeab9b4c9": {
