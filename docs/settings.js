@@ -52,7 +52,7 @@ window.__twilightSettings = {
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_charity_event": "off",
-  "bits_management_devsite": [0, false],
+  "bits_management_devsite": [1, false],
   "bits_on_polls": false,
   "bits_prime_offer": false,
   "bits_project_marley": [0, false],
@@ -299,9 +299,10 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
+  "guest_star_creator_dashboard_example_videos_list": ["1660063041@00:13:26", "1655581817@01:06:24", "1649312567@01:35:05", "1675602078@2:33:23", "1679248875@001:03:25", "1667879886@00:45:55"],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
-  "guest_star_guest_audio_controls": [0, false],
+  "guest_star_guest_audio_controls": [1, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
@@ -1473,19 +1474,19 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 25612,
+      "v": 25729,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 95,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -1506,13 +1507,13 @@ window.__twilightSettings = {
     },
     "1fb804bc-4aea-4d17-a7d9-10d121d27257": {
       "name": "persistent_goals_2",
-      "v": 25720,
+      "v": 25736,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -5775,13 +5776,13 @@ window.__twilightSettings = {
     },
     "daeed5a8-45e2-4c35-8ab4-e5cb909c2177": {
       "name": "studio_download_page_redesign",
-      "v": 25474,
+      "v": 25734,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -6031,13 +6032,13 @@ window.__twilightSettings = {
     },
     "e5c813df-a190-4def-b0cb-932224c989f1": {
       "name": "warp_web_prod",
-      "v": 24717,
+      "v": 25740,
       "t": 1,
       "groups": [{
-        "weight": 1000,
+        "weight": 990,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -6363,13 +6364,13 @@ window.__twilightSettings = {
     },
     "f4c0f4c8-6fb6-46f9-bb82-2051c2ad49fc": {
       "name": "warp_web_staff",
-      "v": 16646,
+      "v": 25742,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
