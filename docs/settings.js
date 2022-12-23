@@ -945,13 +945,13 @@ window.__twilightSettings = {
     },
     "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
       "name": "sw_chat_desc_opt",
-      "v": 25572,
+      "v": 25761,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -2093,16 +2093,16 @@ window.__twilightSettings = {
     },
     "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a": {
       "name": "sw_livestream_vod_prompt_bar",
-      "v": 25576,
+      "v": 25762,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment1"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment2"
       }]
     },
