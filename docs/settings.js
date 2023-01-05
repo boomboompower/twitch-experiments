@@ -5382,13 +5382,13 @@ window.__twilightSettings = {
     },
     "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc": {
       "name": "bits_insufficient_balance_checkout",
-      "v": 25371,
+      "v": 25791,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
