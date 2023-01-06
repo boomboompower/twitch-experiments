@@ -469,10 +469,6 @@ const productionExperiments = [
         "name": "gift_chat_command"
     },
     {
-        "id": "13d9c799-61b8-45ad-bed9-7a9822483576",
-        "name": "memberships_heartbreak_allowed"
-    },
-    {
         "id": "3421e6e0-aa9e-4738-8b60-73cb6eac8dea",
         "name": "sidenav_active_gift"
     },
@@ -594,14 +590,6 @@ const productionExperiments = [
     {
         "id": "01e67e5b-742e-4aeb-918c-4312edd70215",
         "name": "catsug_v2"
-    },
-    {
-        "id": "0d2b40d3-858d-476c-ac2e-e10047a08f75",
-        "name": "sw_chat_desc_opt"
-    },
-    {
-        "id": "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a",
-        "name": "sw_livestream_vod_prompt_bar"
     },
     {
         "id": "c4c31c6a-4576-4856-b699-548c80d4db30",

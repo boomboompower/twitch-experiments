@@ -996,7 +996,7 @@ window.__twilightSettings = {
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
-      "v": 25461,
+      "v": 25807,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -1004,6 +1004,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "enable_project_ape_channel_id"
       }]
     },
     "0e636d13-56a8-44f4-bd51-7e65cd5a5225": {
