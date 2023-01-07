@@ -465,6 +465,10 @@ const productionExperiments = [
         "name": "disco_bcols"
     },
     {
+        "id": "83e7ac97-5ad9-4564-a47e-9a7814a895bc",
+        "name": "disco_carousel_shelf"
+    },
+    {
         "id": "b235449a-b882-4266-b968-0fc591fba387",
         "name": "gift_chat_command"
     },
