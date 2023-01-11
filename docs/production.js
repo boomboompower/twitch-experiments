@@ -535,10 +535,6 @@ const productionExperiments = [
         "name": "pinned_chat"
     },
     {
-        "id": "d70017a1-a0bf-455b-9d1f-c41def5a8bd3",
-        "name": "k_p"
-    },
-    {
         "id": "9ec27d93-58ed-481c-a203-7e12131c2291",
         "name": "branded_content_rollout",
         "staffOverride": "on"

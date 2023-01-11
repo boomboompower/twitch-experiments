@@ -889,6 +889,21 @@ window.__twilightSettings = {
         "value": "ten_minutes"
       }]
     },
+    "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
+      "name": "toga-turtle-street",
+      "v": 25869,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant 1"
+      }, {
+        "weight": 0,
+        "value": "variant 2"
+      }]
+    },
     "0bddb46c-0c61-49a2-90f9-c6a91f2f35f2": {
       "name": "cg_tools_features_creator_goals",
       "v": 21491,
@@ -1970,18 +1985,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_1"
-      }]
-    },
-    "31182d13-4f91-4daf-b1b6-b74cd8123281": {
-      "name": "disco_new_games_pill_rollout",
-      "v": 25395,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "3128fa9f-5059-4186-a47d-e35ed3a2c649": {
@@ -3678,7 +3681,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 25847,
+      "v": 25857,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3687,10 +3690,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3793,17 +3796,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25848,
+      "v": 25856,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -4380,14 +4383,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 13188,
+      "v": 25865,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "treatment"
       }]
     },
@@ -5103,13 +5106,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 25488,
+      "v": 25868,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }]
     },
