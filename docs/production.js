@@ -606,5 +606,9 @@ const productionExperiments = [
     {
         "id": "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e",
         "name": "mandatory_email_verification"
+    },
+    {
+        "id": "2542f7b8-4dcc-4ca9-a855-64055d82f5bd",
+        "name": "aip_pt_to_utc"
     }
 ]

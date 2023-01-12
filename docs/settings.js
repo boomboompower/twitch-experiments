@@ -151,6 +151,7 @@ window.__twilightSettings = {
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
+  "chv2_ma_cutover": [0, true],
   "chv2_mc_cutover": [0, false],
   "chv2_mc_writeops_disabled": false,
   "chv2_mod_logs_v2_enabled": false,
@@ -174,6 +175,8 @@ window.__twilightSettings = {
   "com30_hydro_pump": [1, true],
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
+  "com30_tpc": [0, false],
+  "com30_tpc_regions": ["AT", "BE", "BR", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SM", "SK", "SI", "KR", "ES", "SE", "GB"],
   "commerce_bar_experience": "sponsored",
   "community-intros-15": [1, false],
   "community-moments-rollout": [1, false],
@@ -296,7 +299,9 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_creator_dashboard_example_videos_list": ["1660063041@00:13:26", "1655581817@01:06:24", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1667879886@00:45:55"],
+  "guest_star_creator_dashboard_example_clips_list": [],
+  "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
+  "guest_star_creator_dashboard_use_clips": true,
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
@@ -953,18 +958,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "activity_similarity_title"
-      }]
-    },
-    "0d2b40d3-858d-476c-ac2e-e10047a08f75": {
-      "name": "sw_chat_desc_opt",
-      "v": 25761,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
       }]
     },
     "0d552a1e-eb26-4e2a-bc80-9e1da4005a5c": {
@@ -1653,7 +1646,7 @@ window.__twilightSettings = {
     },
     "2542f7b8-4dcc-4ca9-a855-64055d82f5bd": {
       "name": "aip_pt_to_utc",
-      "v": 25631,
+      "v": 25883,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -1663,7 +1656,7 @@ window.__twilightSettings = {
         "value": "ON"
       }, {
         "weight": 0,
-        "value": "758477004"
+        "value": "758477958"
       }]
     },
     "2559f1ee-d998-4fb5-8be7-9213e688a589": {
@@ -2092,21 +2085,6 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "treatment"
-      }]
-    },
-    "3583a0ff-db6a-43dc-a6f0-aeee18bb6d9a": {
-      "name": "sw_livestream_vod_prompt_bar",
-      "v": 25762,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment1"
-      }, {
-        "weight": 0,
-        "value": "treatment2"
       }]
     },
     "36006d8b-bcf1-45fe-a9c7-ced7a2e45694": {
@@ -4383,14 +4361,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 25865,
+      "v": 25873,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 60,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 40,
         "value": "treatment"
       }]
     },
@@ -5106,13 +5084,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 25868,
+      "v": 25876,
       "t": 2,
       "groups": [{
-        "weight": 1,
+        "weight": 5,
         "value": "treatment"
       }, {
-        "weight": 99,
+        "weight": 95,
         "value": "control"
       }]
     },
