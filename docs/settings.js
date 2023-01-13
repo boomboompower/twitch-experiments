@@ -151,7 +151,7 @@ window.__twilightSettings = {
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
-  "chv2_ma_cutover": [0, true],
+  "chv2_ma_cutover": [0, false],
   "chv2_mc_cutover": [0, false],
   "chv2_mc_writeops_disabled": false,
   "chv2_mod_logs_v2_enabled": false,
@@ -173,6 +173,7 @@ window.__twilightSettings = {
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
   "com30_hydro_pump": [1, true],
+  "com30_hydro_pump_is_dry": false,
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
@@ -299,7 +300,7 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_creator_dashboard_example_clips_list": [],
+  "guest_star_creator_dashboard_example_clips_list": ["TawdrySwissJayDoubleRainbow-czYIRl_9qSmW1BPt", "HumbleFunnyEyeballBudStar-EGElg3kB7Z0h0MJk", "SparklingTsundereOryxNononoCat-wVZBPVG6FkWzh9Iq", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": true,
   "guest_star_dashboard_creator_landing_page": [1, true],
@@ -2302,13 +2303,13 @@ window.__twilightSettings = {
     },
     "4252ded7-ee34-4c28-92b2-f950b18855a4": {
       "name": "mfa_form",
-      "v": 25397,
+      "v": 25909,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant_1"
       }]
     },
@@ -4361,14 +4362,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 25873,
+      "v": 25900,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 60,
+        "weight": 40,
         "value": "control"
       }, {
-        "weight": 40,
+        "weight": 60,
         "value": "treatment"
       }]
     },
@@ -5084,13 +5085,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 25876,
+      "v": 25902,
       "t": 2,
       "groups": [{
-        "weight": 5,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }]
     },
