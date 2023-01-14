@@ -173,11 +173,10 @@ window.__twilightSettings = {
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
   "com30_hydro_pump": [1, true],
-  "com30_hydro_pump_is_dry": false,
+  "com30_hydro_pump_is_dry": true,
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
-  "com30_tpc_regions": ["AT", "BE", "BR", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SM", "SK", "SI", "KR", "ES", "SE", "GB"],
   "commerce_bar_experience": "sponsored",
   "community-intros-15": [1, false],
   "community-moments-rollout": [1, false],
@@ -302,7 +301,7 @@ window.__twilightSettings = {
   "guest_star_channel_page": [1, true],
   "guest_star_creator_dashboard_example_clips_list": ["TawdrySwissJayDoubleRainbow-czYIRl_9qSmW1BPt", "HumbleFunnyEyeballBudStar-EGElg3kB7Z0h0MJk", "SparklingTsundereOryxNononoCat-wVZBPVG6FkWzh9Iq", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
-  "guest_star_creator_dashboard_use_clips": true,
+  "guest_star_creator_dashboard_use_clips": [0, false],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
@@ -565,7 +564,7 @@ window.__twilightSettings = {
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
-  "subtoken_balance_wallet": true,
+  "subtoken_balance_wallet": false,
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/",
   "sunlight_roles_manager_editor_readonly": [0, false],
@@ -1483,7 +1482,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 25783,
+      "v": 25917,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1492,10 +1491,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 80,
+        "weight": 95,
         "value": "variant-b"
       }, {
-        "weight": 20,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -4362,14 +4361,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 25900,
+      "v": 25918,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 40,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 60,
+        "weight": 80,
         "value": "treatment"
       }]
     },
@@ -5085,13 +5084,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 25902,
+      "v": 25915,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 50,
         "value": "treatment"
       }, {
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }]
     },
@@ -6319,16 +6318,16 @@ window.__twilightSettings = {
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
       "name": "mse_in_workers",
-      "v": 25696,
+      "v": 25916,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 99,
         "value": "treatment"
       }, {
-        "weight": 50,
+        "weight": 1,
         "value": "holdback"
       }]
     },
