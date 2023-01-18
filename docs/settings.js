@@ -131,6 +131,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "ch_creators_in_community": [1, true],
+  "ch_feature_goals": [0, false],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
@@ -299,7 +300,7 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_creator_dashboard_example_clips_list": ["TawdrySwissJayDoubleRainbow-czYIRl_9qSmW1BPt", "HumbleFunnyEyeballBudStar-EGElg3kB7Z0h0MJk", "SparklingTsundereOryxNononoCat-wVZBPVG6FkWzh9Iq", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1"],
+  "guest_star_creator_dashboard_example_clips_list": ["TawdrySwissJayDoubleRainbow-czYIRl_9qSmW1BPt", "HumbleFunnyEyeballBudStar-EGElg3kB7Z0h0MJk", "SparklingTsundereOryxNononoCat-wVZBPVG6FkWzh9Iq", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "SnappyRespectfulMonkeyAMPEnergyCherry-xiTmpkYs-2JEDfuZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [0, false],
   "guest_star_dashboard_creator_landing_page": [1, true],
@@ -615,6 +616,7 @@ window.__twilightSettings = {
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
+  "vod_upload_restricted_regions": [],
   "vod_upload_v2_rollout": [1, false],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
@@ -1482,7 +1484,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 25917,
+      "v": 25954,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1491,10 +1493,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 80,
         "value": "variant-b"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -3774,17 +3776,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25856,
+      "v": 25946,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -4361,14 +4363,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 25918,
+      "v": 25943,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 20,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 80,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -5084,13 +5086,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 25915,
+      "v": 25944,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }]
     },
