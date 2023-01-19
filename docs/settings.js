@@ -302,7 +302,7 @@ window.__twilightSettings = {
   "guest_star_channel_page": [1, true],
   "guest_star_creator_dashboard_example_clips_list": ["TawdrySwissJayDoubleRainbow-czYIRl_9qSmW1BPt", "HumbleFunnyEyeballBudStar-EGElg3kB7Z0h0MJk", "SparklingTsundereOryxNononoCat-wVZBPVG6FkWzh9Iq", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "SnappyRespectfulMonkeyAMPEnergyCherry-xiTmpkYs-2JEDfuZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
-  "guest_star_creator_dashboard_use_clips": [0, false],
+  "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
@@ -314,6 +314,9 @@ window.__twilightSettings = {
   "guest_star_request_to_join_follow_time": 1800000,
   "guest_star_request_to_join_highlight_duration": 300,
   "guest_star_request_to_join_max_size": 100,
+  "guest_star_request_to_join_mods_filter": [0, false],
+  "guest_star_request_to_join_private_call_out_duration": 30,
+  "guest_star_request_to_join_vips_filter": [0, false],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
@@ -1484,7 +1487,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 25954,
+      "v": 25959,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1493,10 +1496,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 80,
+        "weight": 95,
         "value": "variant-b"
       }, {
-        "weight": 20,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -5525,13 +5528,13 @@ window.__twilightSettings = {
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
       "name": "bda_migration_flag_2",
-      "v": 25614,
+      "v": 25970,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }]
     },
