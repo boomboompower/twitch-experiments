@@ -1,11 +1,11 @@
 const productionExperiments = [
     {
-        "id": "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da",
-        "name": "m_fastly"
+        "id": "0b0d562f-72f3-46e5-8535-eeb84203fe3f",
+        "name": "toga-turtle-street"
     },
     {
-        "id": "daeed5a8-45e2-4c35-8ab4-e5cb909c2177",
-        "name": "studio_download_page_redesign"
+        "id": "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da",
+        "name": "m_fastly"
     },
     {
         "id": "ff26667a-d03c-4f60-8fb7-3cc01175df64",
