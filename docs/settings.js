@@ -131,6 +131,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "ch_creators_in_community": [1, true],
+  "ch_feature_auto_mod": [0, false],
   "ch_feature_goals": [0, false],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
@@ -621,7 +622,6 @@ window.__twilightSettings = {
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
   "vod_upload_restricted_regions": [],
-  "vod_upload_v2_rollout": [1, false],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
@@ -4311,13 +4311,13 @@ window.__twilightSettings = {
     },
     "976de33d-4b81-41ee-8633-615146d8a369": {
       "name": "bda_migration_flag_3",
-      "v": 25615,
+      "v": 25999,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }]
     },
