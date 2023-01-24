@@ -156,7 +156,7 @@ window.__twilightSettings = {
   "chv2_ma_cutover": [0, false],
   "chv2_mc_cutover": [0, false],
   "chv2_mc_writeops_disabled": false,
-  "chv2_mod_logs_v2_enabled": false,
+  "chv2_mod_logs_v2_enabled": true,
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
@@ -309,6 +309,7 @@ window.__twilightSettings = {
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_no_candidates_help_link": "",
+  "guest_star_notifications": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
   "guest_star_request_to_join_filter_sort": [1, true],
@@ -392,7 +393,7 @@ window.__twilightSettings = {
   "netherlands_merch_link_reroute": [1, true],
   "new_device_login_digit_only": true,
   "new_games_pill_days": 30,
-  "new_games_pill_rollout": [0, true],
+  "new_games_pill_rollout": [1, false],
   "new_live_announcements": true,
   "new_me_command": [1, false],
   "new_password_message": [0, true],
@@ -856,6 +857,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "rest"
+      }]
+    },
+    "07e2244c-d870-4c52-9050-9dda43c4f124": {
+      "name": "subscriber_recap_v2",
+      "v": 26046,
+      "t": 2,
+      "groups": [{
+        "weight": 80,
+        "value": "rollout"
+      }, {
+        "weight": 20,
+        "value": "control"
       }]
     },
     "08703cd4-7b66-4987-ad43-cddc7095cbc3": {
@@ -1449,16 +1462,16 @@ window.__twilightSettings = {
     },
     "1b16c1dc-9ea4-439a-9543-1b773e58ec65": {
       "name": "sw_skip_detailed_reorder_main",
-      "v": 25529,
+      "v": 26045,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment2"
       }]
     },
@@ -3665,19 +3678,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 25857,
+      "v": 26019,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant-m"
       }]
     },
@@ -3780,17 +3793,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 25946,
+      "v": 26018,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -4311,13 +4324,13 @@ window.__twilightSettings = {
     },
     "976de33d-4b81-41ee-8633-615146d8a369": {
       "name": "bda_migration_flag_3",
-      "v": 25999,
+      "v": 26042,
       "t": 1,
       "groups": [{
-        "weight": 20,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 80,
+        "weight": 0,
         "value": "control"
       }]
     },
