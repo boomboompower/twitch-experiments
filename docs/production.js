@@ -489,10 +489,6 @@ const productionExperiments = [
         "name": "more_default_quick_actions"
     },
     {
-        "id": "caec9374-0f39-48fd-a4ba-dc314fc03707",
-        "name": "disco_simplify_logged_out_channel_page_v2"
-    },
-    {
         "id": "d9255c42-cd69-4297-a4bd-c0f1f8a8f913",
         "name": "disco_shoutouts_rollout"
     },

@@ -402,7 +402,7 @@ window.__twilightSettings = {
   "No_Track_Pages": ["/user/password-reset"],
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
-  "onboarding_agreement_api": [0, false],
+  "onboarding_agreement_api": [1, true],
   "onboarding_verification": [1, true],
   "one_click_checkout_blocklist": ["86137825"],
   "one_click_checkout_country_allowlist": ["US"],
@@ -1801,7 +1801,7 @@ window.__twilightSettings = {
     },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
       "name": "toad_experiment",
-      "v": 25850,
+      "v": 26063,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -1811,13 +1811,13 @@ window.__twilightSettings = {
         "value": "toggle_off_1_break"
       }, {
         "weight": 0,
-        "value": "toggle_off_3_break"
+        "value": "toggle_off_2_break"
       }, {
         "weight": 0,
         "value": "toggle_on_1_break"
       }, {
         "weight": 0,
-        "value": "toggle_on_3_break"
+        "value": "toggle_on_2_break"
       }]
     },
     "2a419c5c-16b5-48fa-83d4-a5764408545b": {
@@ -3678,19 +3678,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 26019,
+      "v": 26049,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3793,17 +3793,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26018,
+      "v": 26050,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-b"
       }]
     },
@@ -4238,14 +4238,14 @@ window.__twilightSettings = {
     },
     "93729647-b618-41e1-8677-2bc6fb35ca51": {
       "name": "contigo_ojos_y_duende_proxima",
-      "v": 24149,
+      "v": 26061,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 5,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 95,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5704,13 +5704,13 @@ window.__twilightSettings = {
     },
     "d77e19a0-d70a-4cbb-b428-ccb30f72873d": {
       "name": "disco_bcols",
-      "v": 25007,
+      "v": 26059,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant1"
       }]
     },
