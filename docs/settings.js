@@ -4324,13 +4324,13 @@ window.__twilightSettings = {
     },
     "976de33d-4b81-41ee-8633-615146d8a369": {
       "name": "bda_migration_flag_3",
-      "v": 26042,
+      "v": 26078,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }]
     },
@@ -5314,18 +5314,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "caec9374-0f39-48fd-a4ba-dc314fc03707": {
-      "name": "disco_simplify_logged_out_channel_page_v2",
-      "v": 21901,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "cbf02f73-63ee-4e4d-adce-713b1b351206": {
       "name": "expressions_popular_emotes",
       "v": 20045,
@@ -5978,13 +5966,13 @@ window.__twilightSettings = {
     },
     "e3f4c0c6-3728-451b-8fc3-9ccf2cbf36fa": {
       "name": "v2_ab_motivation_wg_fresh_thirty_day_streams_card",
-      "v": 21489,
+      "v": 26086,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -6313,6 +6301,18 @@ window.__twilightSettings = {
     "f1825646-3eac-4bac-8be3-ab9f736b7dd8": {
       "name": "new_search_backend",
       "v": 5622,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "f2905d26-c24a-488e-93f4-0f8e887a003f": {
+      "name": "homepage_signup_login_gate",
+      "v": 26093,
       "t": 1,
       "groups": [{
         "weight": 100,
