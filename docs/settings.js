@@ -154,7 +154,7 @@ window.__twilightSettings = {
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
   "chv2_ma_cutover": [0, false],
-  "chv2_mc_cutover": [0, false],
+  "chv2_mc_cutover": true,
   "chv2_mc_writeops_disabled": false,
   "chv2_mod_logs_v2_enabled": true,
   "chv2_vcmlp_writeops_disabled": false,
@@ -1501,7 +1501,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26014,
+      "v": 26124,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1510,10 +1510,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 95,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -3793,17 +3793,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26050,
+      "v": 26127,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
