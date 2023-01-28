@@ -1501,7 +1501,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26124,
+      "v": 26150,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2096,13 +2096,13 @@ window.__twilightSettings = {
     },
     "344204fc-59ce-4cdf-a127-1ca08d1f57f1": {
       "name": "timeseries_referrals",
-      "v": 25466,
+      "v": 26136,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -5103,13 +5103,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 25944,
+      "v": 26143,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }]
     },
@@ -5530,13 +5530,13 @@ window.__twilightSettings = {
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
       "name": "bda_migration_flag_2",
-      "v": 25988,
+      "v": 26144,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }]
     },

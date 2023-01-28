@@ -485,10 +485,6 @@ const productionExperiments = [
         "name": "more_default_quick_actions"
     },
     {
-        "id": "d9255c42-cd69-4297-a4bd-c0f1f8a8f913",
-        "name": "disco_shoutouts_rollout"
-    },
-    {
         "id": "d07845e7-e953-4d39-afcb-1a973549ded5",
         "name": "subscriber_recap",
         "staffOverride": "variant 1"
