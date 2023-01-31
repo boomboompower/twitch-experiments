@@ -132,7 +132,7 @@ window.__twilightSettings = {
   "cg_tools_dashboard_search": [0, false],
   "ch_creators_in_community": [1, true],
   "ch_feature_auto_mod": [0, false],
-  "ch_feature_goals": [0, false],
+  "ch_feature_goals": [1, true],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
@@ -243,6 +243,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
+  "disable_swl": true,
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -2971,13 +2972,13 @@ window.__twilightSettings = {
     },
     "5d1dd623-d756-4477-9d65-4dde29e20a89": {
       "name": "insights_tag_impressions",
-      "v": 25382,
+      "v": 26170,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "on"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "off"
       }]
     },
@@ -6571,6 +6572,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "new"
+      }]
+    },
+    "fb445923-7402-4442-98ae-b29e49d08c9c": {
+      "name": "preroll_pbyp_eligibility",
+      "v": 26174,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "control"
       }]
     },
     "fb46a20b-d002-47f6-8c0e-4bb785c6ffa4": {
