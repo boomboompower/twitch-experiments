@@ -239,6 +239,7 @@ window.__twilightSettings = {
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
+  "developer_badge_connected_games": [0, false],
   "directory_page_upcoming_schedules": [1, true],
   "disable_multiview_load": false,
   "disable_payout_balance": false,
@@ -248,6 +249,7 @@ window.__twilightSettings = {
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
   "DMCA_Persistent_Banner_Hint": [1, false],
+  "double_phone_verification": [0, false],
   "drops_10_devsite_decommission": true,
   "drops_2_time_based_ui_enabled": true,
   "drops_2_ui_enabled": true,
@@ -581,14 +583,11 @@ window.__twilightSettings = {
   "tagging_stream_title": [0, false],
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
-  "talk_gs_alpha_signup_page": [0, false],
-  "talk_gs_alpha_signup_page_cta": "",
   "talk_gs_bs_audio_customization": [0, false],
   "talk_gs_mod_access": [1, false],
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
   "talk_gs_nl_reporting": [1, true],
-  "talk_gs_obs_plugin_link": "https://obsproject.com/forum/resources/obs-virtualcam.949/",
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [0, false],
   "tax_onboarding_maintenance": [0, false],
@@ -3633,6 +3632,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "enabled"
+      }]
+    },
+    "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
+      "name": "ru_mvw",
+      "v": 26181,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "7b360704-69ee-4423-b2dd-74310f4856cf": {
