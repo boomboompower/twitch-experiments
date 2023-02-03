@@ -131,7 +131,8 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "ch_creators_in_community": [1, true],
-  "ch_feature_auto_mod": [0, false],
+  "ch_feature_auto_mod": [1, true],
+  "ch_feature_chat_rules": [0, false],
   "ch_feature_goals": [1, true],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
@@ -550,6 +551,7 @@ window.__twilightSettings = {
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
+  "stream_summary_vod_tool_v2_override": false,
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
@@ -1502,7 +1504,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26206,
+      "v": 26213,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1511,10 +1513,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 80,
+        "weight": 50,
         "value": "variant-b"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -1538,13 +1540,13 @@ window.__twilightSettings = {
     },
     "1fb804bc-4aea-4d17-a7d9-10d121d27257": {
       "name": "persistent_goals_2",
-      "v": 25736,
+      "v": 26231,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -3505,6 +3507,18 @@ window.__twilightSettings = {
         "value": "fa"
       }]
     },
+    "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
+      "name": "homepage_headliner_redesign",
+      "v": 26232,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "74cf95b0-e0bc-4485-938e-849cbb36ea7f": {
       "name": "pause_your_sub",
       "v": 15683,
@@ -3932,6 +3946,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "8541ea57-586b-4c1e-843a-c3e53f3fe139": {
+      "name": "insights_tag_impressions_channel",
+      "v": 26212,
+      "t": 3,
+      "groups": [{
+        "weight": 50,
+        "value": "on"
+      }, {
+        "weight": 50,
+        "value": "off"
       }]
     },
     "854a8252-d166-437e-b5a9-1c6ad5a9e5d3": {
@@ -6213,6 +6239,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "active"
+      }]
+    },
+    "ee0aa3fc-296a-4d83-b185-7077206755f2": {
+      "name": "hls_refactor_web",
+      "v": 26234,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "ee3b0114-4938-4dfa-82ce-5e36ce690a37": {
