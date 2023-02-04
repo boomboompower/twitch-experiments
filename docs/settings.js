@@ -1504,7 +1504,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26213,
+      "v": 26241,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1513,10 +1513,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
@@ -1848,6 +1848,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant 1"
+      }]
+    },
+    "2a78981b-6bc7-41fc-8e15-b11542f4c5c9": {
+      "name": "disco_onboarding_lite",
+      "v": 26240,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "2a90d5d9-47ba-47d5-9f92-4b12a7d62ae2": {

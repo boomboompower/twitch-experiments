@@ -490,6 +490,11 @@ const productionExperiments = [
         "staffOverride": "variant 1"
     },
     {
+        "id": "07e2244c-d870-4c52-9050-9dda43c4f124",
+        "name": "subscriber_recap_v2",
+        "staffOverride": "rollout"
+    },
+    {
         "id": "40cccbb0-2936-4116-9b58-417fdee39806",
         "name": "better_onsite_gift_notifications"
     },
