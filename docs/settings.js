@@ -171,6 +171,7 @@ window.__twilightSettings = {
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
+  "clips-manager-refresh": [0, false],
   "cmon_chat_introduction": [1, false],
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
@@ -302,6 +303,7 @@ window.__twilightSettings = {
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
+  "gs_firefox_support": [0, false],
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
@@ -586,7 +588,7 @@ window.__twilightSettings = {
   "tagging_stream_title_first_query_disabled": false,
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
-  "talk_gs_bs_audio_customization": [0, false],
+  "talk_gs_bs_audio_customization": [1, true],
   "talk_gs_mod_access": [1, false],
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
@@ -625,7 +627,7 @@ window.__twilightSettings = {
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
-  "vod_upload_restricted_regions": [],
+  "vod_upload_restricted_regions": ["KR"],
   "vod_uploads_restriction": "restricted",
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
@@ -1671,7 +1673,7 @@ window.__twilightSettings = {
     },
     "2542f7b8-4dcc-4ca9-a855-64055d82f5bd": {
       "name": "aip_pt_to_utc",
-      "v": 26199,
+      "v": 26279,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -1681,7 +1683,7 @@ window.__twilightSettings = {
         "value": "ON"
       }, {
         "weight": 100,
-        "value": "758477958"
+        "value": "808249822"
       }]
     },
     "2559f1ee-d998-4fb5-8be7-9213e688a589": {
@@ -1852,11 +1854,20 @@ window.__twilightSettings = {
     },
     "2a78981b-6bc7-41fc-8e15-b11542f4c5c9": {
       "name": "disco_onboarding_lite",
-      "v": 26240,
+      "v": 26282,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "none"
+      }, {
+        "weight": 0,
+        "value": "simplified"
+      }, {
+        "weight": 0,
+        "value": "supercats"
       }]
     },
     "2a90d5d9-47ba-47d5-9f92-4b12a7d62ae2": {
@@ -3884,10 +3895,10 @@ window.__twilightSettings = {
     },
     "83e7ac97-5ad9-4564-a47e-9a7814a895bc": {
       "name": "disco_carousel_shelf",
-      "v": 25322,
+      "v": 26259,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
         "weight": 0,
@@ -3896,7 +3907,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "bigger"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "autoplay"
       }]
     },
@@ -4431,14 +4442,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 25943,
+      "v": 26257,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "treatment"
       }]
     },
