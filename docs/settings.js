@@ -1467,16 +1467,16 @@ window.__twilightSettings = {
     },
     "1b16c1dc-9ea4-439a-9543-1b773e58ec65": {
       "name": "sw_skip_detailed_reorder_main",
-      "v": 26045,
+      "v": 26288,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment1"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment2"
       }]
     },
@@ -1506,7 +1506,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26241,
+      "v": 26299,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1518,13 +1518,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -4442,14 +4442,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 26257,
+      "v": 26289,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
