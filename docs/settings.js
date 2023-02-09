@@ -1028,17 +1028,17 @@ window.__twilightSettings = {
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
-      "v": 25807,
+      "v": 26319,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 0,
-        "value": "enable_project_ape_channel_id"
+        "weight": 100,
+        "value": "758474519,758475291,758476554"
       }]
     },
     "0e636d13-56a8-44f4-bd51-7e65cd5a5225": {
@@ -4442,14 +4442,14 @@ window.__twilightSettings = {
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
       "name": "chat_history",
-      "v": 26289,
+      "v": 26313,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "treatment"
       }]
     },
