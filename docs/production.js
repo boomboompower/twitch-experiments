@@ -237,10 +237,6 @@ const productionExperiments = [
         "name": "vx_defer"
     },
     {
-        "id": "6c924bf0-aa95-411a-b97f-a6fd2c184576",
-        "name": "vx_tag_id"
-    },
-    {
         "id": "028ce2d5-c0e3-4517-8081-7e8f4556a55b",
         "name": "channel_points_reward_limits_v2"
     },
