@@ -315,7 +315,7 @@ window.__twilightSettings = {
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_no_candidates_help_link": "",
-  "guest_star_notifications": [0, false],
+  "guest_star_notifications": [1, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
   "guest_star_request_to_join_filter_sort": [1, true],
@@ -533,7 +533,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"0\":{\"channels\":[\"twitchmedia27\",\"adsbunny\",\"azulesaul\",\"qa_saul_partner\"],\"lowerThird\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/lowerthird.png\",\"hexcode\":\"#E61D2A\",\"backgroundType\":\"ASSET\"},\"aboveChat\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/abovechat.png\",\"hexcode\":\"#E61D2A\",\"backgroundType\":\"ASSET\"},\"videoOverlay\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/logo2.png\",\"hexcode\":\"#E61D2A\",\"backgroundType\":\"ASSET\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Coca-Cola\",\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/logo1.png\",\"CTA\":\"Use Code Bill 20 for 20% off\",\"url\":\"https://www.coca-colacompany.com/\"},\"start\":\"2022-10-25T19:29:33Z\",\"end\":\"2023-10-25T19:29:33Z\"},\"1\":{\"channels\":[\"twitchmedia3\"],\"lowerThird\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/lowerthird.png\",\"hexcode\":\"#019BD1\",\"backgroundType\":\"COLOR_WITH_NAME\"},\"aboveChat\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/abovechat.png\",\"hexcode\":\"#019BD1\",\"backgroundType\":\"COLOR_WITH_NAME\"},\"videoOverlay\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/logo2-2.png\",\"hexcode\":\"#019BD1\",\"backgroundType\":\"COLOR_WITH_NAME\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Invisalign\",\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/logo-2.png\",\"CTA\":\"Fall in love with your smile!\",\"url\":\"https://www.invisalign.com/\"},\"start\":\"2022-10-25T19:29:33Z\",\"end\":\"2023-10-25T19:29:33Z\"},\"2\":{\"channels\":[\"twitchmedia26\"],\"lowerThird\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/lowerthird.png\",\"hexcode\":\"#FEB81C\",\"backgroundType\":\"SOLID_COLOR\"},\"aboveChat\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/abovechat.png\",\"hexcode\":\"#FEB81C\",\"backgroundType\":\"SOLID_COLOR\"},\"videoOverlay\":{\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/logo2-3.png\",\"hexcode\":\"#FEB81C\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"McDonald's\",\"assetURL\":\"https://beta-public-campaign-assets.s3.us-west-2.amazonaws.com/logo-3.png\",\"CTA\":\"Order Delivery Now for 15% Off\",\"url\":\"https://www.mcdonalds.com/us/en-us.html\"},\"start\":\"2022-10-25T19:29:33Z\",\"end\":\"2023-10-25T19:29:33Z\"}}",
+  "skins": "",
   "skins_enabled": [0, true],
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
@@ -1507,7 +1507,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26299,
+      "v": 26345,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1519,13 +1519,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -3729,16 +3729,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 26201,
+      "v": 26347,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -3844,17 +3844,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26202,
+      "v": 26348,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
