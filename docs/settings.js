@@ -226,6 +226,7 @@ window.__twilightSettings = {
   "dashboard_payout_incentives": "on",
   "dashboard_prime_earnings": "on",
   "dashboard_prime_earnings_new_copy": "off",
+  "dashboard_viewer_retention": [0, false],
   "dashboard_vp_widget_enabled": true,
   "date_smode_enabled": "2022-11-30T18:00:00Z",
   "Default_Emote_Library": [1, false],
@@ -551,6 +552,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
+  "stream_manager_default_templates": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
@@ -1674,16 +1676,16 @@ window.__twilightSettings = {
     },
     "2542f7b8-4dcc-4ca9-a855-64055d82f5bd": {
       "name": "aip_pt_to_utc",
-      "v": 26279,
+      "v": 26359,
       "t": 3,
       "groups": [{
         "weight": 0,
         "value": "OFF"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "ON"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "808249822"
       }]
     },
@@ -3729,19 +3731,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 26347,
+      "v": 26366,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3844,17 +3846,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26348,
+      "v": 26367,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
