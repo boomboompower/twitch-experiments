@@ -453,10 +453,6 @@ const productionExperiments = [
         "name": "disco_sn_query_ctx_login"
     },
     {
-        "id": "d77e19a0-d70a-4cbb-b428-ccb30f72873d",
-        "name": "disco_bcols"
-    },
-    {
         "id": "83e7ac97-5ad9-4564-a47e-9a7814a895bc",
         "name": "disco_carousel_shelf"
     },

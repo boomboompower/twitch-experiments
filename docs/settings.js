@@ -308,14 +308,14 @@ window.__twilightSettings = {
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_creator_dashboard_example_clips_list": ["TawdrySwissJayDoubleRainbow-czYIRl_9qSmW1BPt", "HumbleFunnyEyeballBudStar-EGElg3kB7Z0h0MJk", "SparklingTsundereOryxNononoCat-wVZBPVG6FkWzh9Iq", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66", "SnappyRespectfulMonkeyAMPEnergyCherry-xiTmpkYs-2JEDfuZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1"],
+  "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_low_trust_user_indicator": [0, false],
-  "guest_star_no_candidates_help_link": "",
+  "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
@@ -1031,7 +1031,7 @@ window.__twilightSettings = {
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
-      "v": 26342,
+      "v": 26380,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -1041,7 +1041,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 100,
-        "value": "758474519,758475291,785596802"
+        "value": "758474519,758475291"
       }]
     },
     "0e636d13-56a8-44f4-bd51-7e65cd5a5225": {
@@ -4389,13 +4389,13 @@ window.__twilightSettings = {
     },
     "976de33d-4b81-41ee-8633-615146d8a369": {
       "name": "bda_migration_flag_3",
-      "v": 26078,
+      "v": 26378,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }]
     },
@@ -5168,13 +5168,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 26143,
+      "v": 26377,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }]
     },
@@ -5595,13 +5595,13 @@ window.__twilightSettings = {
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
       "name": "bda_migration_flag_2",
-      "v": 26144,
+      "v": 26379,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }]
     },
@@ -5753,18 +5753,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "d77e19a0-d70a-4cbb-b428-ccb30f72873d": {
-      "name": "disco_bcols",
-      "v": 26059,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant1"
       }]
     },
     "d9255c42-cd69-4297-a4bd-c0f1f8a8f913": {
