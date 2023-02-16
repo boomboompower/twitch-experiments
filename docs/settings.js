@@ -178,6 +178,7 @@ window.__twilightSettings = {
   "com30_friendly_bird": [0, false],
   "com30_hydro_pump": [1, true],
   "com30_hydro_pump_is_dry": true,
+  "com30_lil_bro_browsing_AA": false,
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
@@ -300,6 +301,8 @@ window.__twilightSettings = {
   "fft_channel_analytics_maint_date_gmt": "",
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
+  "force_totp_enrollment": [0, false],
+  "force_totp_enrollment_qa": [0, false],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
@@ -1509,7 +1512,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26345,
+      "v": 26415,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -4389,13 +4392,13 @@ window.__twilightSettings = {
     },
     "976de33d-4b81-41ee-8633-615146d8a369": {
       "name": "bda_migration_flag_3",
-      "v": 26378,
+      "v": 26423,
       "t": 1,
       "groups": [{
-        "weight": 1,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 99,
+        "weight": 80,
         "value": "control"
       }]
     },
@@ -5168,13 +5171,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 26377,
+      "v": 26421,
       "t": 2,
       "groups": [{
-        "weight": 1,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 99,
+        "weight": 80,
         "value": "control"
       }]
     },
@@ -5188,6 +5191,21 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "new"
+      }]
+    },
+    "bd285f75-4849-4bb2-8550-24637237a856": {
+      "name": "com30_lil_bro_browsing",
+      "v": 26385,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }, {
+        "weight": 0,
+        "value": "variant2"
       }]
     },
     "bd9234fc-3c40-45f6-a544-868478744ba7": {
@@ -5595,13 +5613,13 @@ window.__twilightSettings = {
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
       "name": "bda_migration_flag_2",
-      "v": 26379,
+      "v": 26422,
       "t": 1,
       "groups": [{
-        "weight": 1,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 99,
+        "weight": 80,
         "value": "control"
       }]
     },
