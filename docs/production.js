@@ -4,10 +4,6 @@ const productionExperiments = [
         "name": "toga-turtle-street"
     },
     {
-        "id": "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da",
-        "name": "m_fastly"
-    },
-    {
         "id": "ff26667a-d03c-4f60-8fb7-3cc01175df64",
         "name": "squad_mode_deprecation_v1"
     },
@@ -275,6 +271,10 @@ const productionExperiments = [
     {
         "id": "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884",
         "name": "com30_ssoln"
+    },
+    {
+        "id": "bd285f75-4849-4bb2-8550-24637237a856",
+        "name": "com30_lil_bro_browsing"
     },
     {
         "id": "cf91e619-8d8b-486f-83a3-13db61bfbfaf",
