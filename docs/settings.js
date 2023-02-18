@@ -337,6 +337,7 @@ window.__twilightSettings = {
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "home_shelf_moments": [1, false],
+  "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
   "hype_train_colors_enabled": true,
@@ -538,9 +539,10 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"1\":{\"channels\":[\"sodapoppin\"],\"lowerThird\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Leaderboard+Background+Asset+2.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#0A101D\"},\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#0A101D\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Starforge Systems\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"CTA\":\"The Best PCs in the Universe\",\"url\":\"https://starforgepc.com/Soda\"},\"start\":\"2023-02-17T08:00:00Z\",\"end\":\"2023-02-18T07:59:00Z\"}}",
-  "skins_enabled": [1, true],
+  "skins": "",
+  "skins_enabled": [0, true],
   "skins_experience": "savant",
+  "skins_show_adfree": false,
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
   "smode_rollout_enabled": true,
@@ -4394,13 +4396,13 @@ window.__twilightSettings = {
     },
     "976de33d-4b81-41ee-8633-615146d8a369": {
       "name": "bda_migration_flag_3",
-      "v": 26462,
+      "v": 26473,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }]
     },
@@ -5173,13 +5175,13 @@ window.__twilightSettings = {
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
-      "v": 26460,
+      "v": 26471,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }]
     },
@@ -5615,13 +5617,13 @@ window.__twilightSettings = {
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
       "name": "bda_migration_flag_2",
-      "v": 26461,
+      "v": 26472,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }]
     },
@@ -6007,6 +6009,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
+      "name": "transcode-mode",
+      "v": 26469,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "cbr_v1"
+      }, {
+        "weight": 0,
+        "value": "vbr_v1"
       }]
     },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {

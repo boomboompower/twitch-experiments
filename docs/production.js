@@ -60,10 +60,6 @@ const productionExperiments = [
         "name": "TWILIGHT_AD_DENSITY_WIDGET"
     },
     {
-        "id": "994869b7-223b-4d34-b30c-46b403d6468b",
-        "name": "chat_history"
-    },
-    {
         "id": "04283b1e-d699-43bd-8aef-d46ca7f8f97f",
         "name": "chat_pause_hover_default"
     },
@@ -267,10 +263,6 @@ const productionExperiments = [
     {
         "id": "1442a820-6d09-4f08-914c-d88cc5cabdfe",
         "name": "com30_lols"
-    },
-    {
-        "id": "70a84f4d-e9e3-458e-bd9b-e1d89b1a0884",
-        "name": "com30_ssoln"
     },
     {
         "id": "bd285f75-4849-4bb2-8550-24637237a856",
