@@ -261,10 +261,6 @@ const productionExperiments = [
         "name": "second_pincer_manuever_jackie_chan"
     },
     {
-        "id": "1442a820-6d09-4f08-914c-d88cc5cabdfe",
-        "name": "com30_lols"
-    },
-    {
         "id": "bd285f75-4849-4bb2-8550-24637237a856",
         "name": "com30_lil_bro_browsing"
     },

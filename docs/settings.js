@@ -539,8 +539,8 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "",
-  "skins_enabled": [0, true],
+  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\"],\"lowerThird\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Leaderboard+Background+Asset+2.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#0A101D\"},\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#0A101D\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Starforge Systems\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"CTA\":\"The Best PCs in the Universe\",\"url\":\"https://starforgepc.com/Soda\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-01T07:59:00Z\"}}",
+  "skins_enabled": [1, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
   "sl_exp": 0,
@@ -1516,7 +1516,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26451,
+      "v": 26512,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1528,13 +1528,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
