@@ -581,10 +581,6 @@ const productionExperiments = [
         "name": "mandatory_email_verification"
     },
     {
-        "id": "1b16c1dc-9ea4-439a-9543-1b773e58ec65",
-        "name": "sw_skip_detailed_reorder_main"
-    },
-    {
         "id": "2542f7b8-4dcc-4ca9-a855-64055d82f5bd",
         "name": "aip_pt_to_utc"
     },

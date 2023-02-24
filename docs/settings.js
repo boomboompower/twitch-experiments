@@ -171,7 +171,6 @@ window.__twilightSettings = {
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
-  "clips-manager-refresh": [0, false],
   "cmon_chat_introduction": [1, false],
   "cmr-flag": [0, false],
   "code_redemption_redeem_page": "on",
@@ -604,7 +603,7 @@ window.__twilightSettings = {
   "talk_gs_nl_phone_verification": [1, true],
   "talk_gs_nl_reporting": [1, true],
   "talk_gs_rtj_mod_actions": [1, false],
-  "talk_gs_sbs": [0, false],
+  "talk_gs_sbs": [1, true],
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
@@ -2107,14 +2106,14 @@ window.__twilightSettings = {
     },
     "3421e6e0-aa9e-4738-8b60-73cb6eac8dea": {
       "name": "sidenav_active_gift",
-      "v": 19052,
+      "v": 26516,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant"
       }]
     },
