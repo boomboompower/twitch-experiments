@@ -559,6 +559,7 @@ window.__twilightSettings = {
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
   "stream_manager_default_templates": [0, false],
+  "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
@@ -602,6 +603,7 @@ window.__twilightSettings = {
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
   "talk_gs_nl_reporting": [1, true],
+  "talk_gs_pinned_guests": [0, false],
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [1, true],
   "tax_onboarding_maintenance": [0, false],
@@ -895,18 +897,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
-      }]
-    },
-    "08f1ceee-2a38-4a83-8b84-97de5d4dd62d": {
-      "name": "motivation_wg_live_viewer_feedback_v2_a/b",
-      "v": 26444,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
       }]
     },
     "09fe28c4-fb9a-4242-ad47-4cfb7f3da6af": {
@@ -1714,6 +1704,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "D"
+      }]
+    },
+    "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb": {
+      "name": "chat_signup_gate",
+      "v": 26552,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "gradient"
+      }, {
+        "weight": 0,
+        "value": "modal"
       }]
     },
     "26869b8b-7885-4b2e-a677-5ea918c5ab2a": {
@@ -5027,18 +5032,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_a"
-      }]
-    },
-    "b2b6d1e2-2b33-496b-8d77-6cfc454e0881": {
-      "name": "motivation_wg_live_viewer_feedback_v2",
-      "v": 25584,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "b2e45853-465b-4a8f-96fe-d2611c4dc3f1": {
