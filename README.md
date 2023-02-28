@@ -17,3 +17,8 @@ Take a look at the CI, basically
 1. Clone the project 
 2. Run npm install
 3. Run npm start when ready.
+
+### Forking
+By default, the github action will not automatically run on any forks. This is intentional to prevent unwanted branch updates.
+
+The action can still be run manually, or the condition in the action can be removed if you would like your fork to run the job daily - just be aware of the quotas on your account! 
