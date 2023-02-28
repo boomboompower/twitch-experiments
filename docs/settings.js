@@ -176,6 +176,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_friendly_bird": [0, false],
+  "com30_golden_snippets": [0, true],
   "com30_hydro_pump": [1, true],
   "com30_hydro_pump_is_dry": true,
   "com30_lil_bro_browsing_AA": false,
@@ -243,7 +244,7 @@ window.__twilightSettings = {
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
-  "developer_badge_connected_games": [0, false],
+  "developer_badge_connected_games": [1, true],
   "directory_page_upcoming_schedules": [1, true],
   "disable_multiview_load": false,
   "disable_payout_balance": false,
@@ -560,6 +561,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "stream_manager_default_templates": [0, false],
   "stream_manager_layout_tracking": [0, false],
+  "stream_manager_swappable_panels": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
@@ -603,7 +605,7 @@ window.__twilightSettings = {
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
   "talk_gs_nl_reporting": [1, true],
-  "talk_gs_pinned_guests": [0, false],
+  "talk_gs_pinned_guests": [1, true],
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [1, true],
   "tax_onboarding_maintenance": [0, false],
@@ -631,6 +633,7 @@ window.__twilightSettings = {
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
+  "viewer_alerts_customization": [0, true],
   "viewer_milestones_enabled": true,
   "VLM_HLS_Midrolls": [1, false],
   "vod-clips-category-exclusion-feature-enabled": true,
@@ -1462,21 +1465,6 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant"
-      }]
-    },
-    "1b16c1dc-9ea4-439a-9543-1b773e58ec65": {
-      "name": "sw_skip_detailed_reorder_main",
-      "v": 26288,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment1"
-      }, {
-        "weight": 0,
-        "value": "treatment2"
       }]
     },
     "1c668d47-f15d-43ce-a54c-b2e27eeaa6b6": {
@@ -2483,6 +2471,24 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "469d3786-5788-4cba-b987-d1456de03de6": {
+      "name": "percolite-shelf-reranking-logged-in",
+      "v": 26559,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }, {
+        "weight": 0,
+        "value": "variant2"
+      }, {
+        "weight": 0,
+        "value": "variant3"
       }]
     },
     "47597570-dd4e-4996-85eb-86db164cae9c": {
@@ -3742,19 +3748,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 26366,
+      "v": 26567,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3857,17 +3863,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26455,
+      "v": 26566,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -6099,13 +6105,13 @@ window.__twilightSettings = {
     },
     "e5c813df-a190-4def-b0cb-932224c989f1": {
       "name": "warp_web_prod",
-      "v": 25976,
+      "v": 26575,
       "t": 1,
       "groups": [{
-        "weight": 995,
+        "weight": 98,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 2,
         "value": "treatment"
       }]
     },
@@ -6463,6 +6469,24 @@ window.__twilightSettings = {
       }, {
         "weight": 10,
         "value": "treatment"
+      }]
+    },
+    "f4c2bf99-4ce0-4f69-b815-969dc434d0d4": {
+      "name": "percolite-shelf-reranking-logged-out",
+      "v": 26560,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }, {
+        "weight": 0,
+        "value": "variant2"
+      }, {
+        "weight": 0,
+        "value": "variant3"
       }]
     },
     "f65ff295-57dd-4ed0-8011-4df783456b56": {

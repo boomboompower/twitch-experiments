@@ -537,10 +537,6 @@ const productionExperiments = [
         "name": "simplified_checkout"
     },
     {
-        "id": "344204fc-59ce-4cdf-a127-1ca08d1f57f1",
-        "name": "timeseries_referrals"
-    },
-    {
         "id": "f47b4c5a-9351-4cb8-86da-7036f512d29c",
         "name": "venmo_us"
     },
