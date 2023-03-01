@@ -1,6 +1,7 @@
 window.__twilightSettings = {
   "environment": "production",
   "2fa_remember_me": [1, false],
+  "2fa_restricted_country_code": [],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
   "ach_migration_to_rarecandy": [1, true],
@@ -323,6 +324,7 @@ window.__twilightSettings = {
   "guest_star_notifications": [1, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
+  "guest_star_request_to_join_fetchNextPage_request_cap": 5,
   "guest_star_request_to_join_filter_sort": [1, true],
   "guest_star_request_to_join_follow_or_sub": true,
   "guest_star_request_to_join_follow_time": 1800000,
@@ -330,6 +332,7 @@ window.__twilightSettings = {
   "guest_star_request_to_join_max_size": 100,
   "guest_star_request_to_join_mods_filter": [1, true],
   "guest_star_request_to_join_private_call_out_duration": 30,
+  "guest_star_request_to_join_sort": [0, false],
   "guest_star_request_to_join_vips_filter": [1, true],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
@@ -539,8 +542,8 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\"],\"lowerThird\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Leaderboard+Background+Asset+2.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#0A101D\"},\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#0A101D\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"hexcode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Starforge Systems\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"CTA\":\"The Best PCs in the Universe\",\"url\":\"https://starforgepc.com/Soda\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-01T07:59:00Z\"}}",
-  "skins_enabled": [1, true],
+  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\"],\"lowerThird\":{\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"iconBackgroundHexcode\":\"#FFF\"},\"aboveChat\":{\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"iconBackgroundHexcode\":\"#FFF\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LOGO-SPK.png\",\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Sour Patch Kids\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LOGO-SPK.png\",\"CTA\":\"SOUR PATCH KIDS Fruit Fight!\",\"url\":\"https://sourpatchkids.com/fruits/?utm_medium=video&utm_source=-&utm_campaign=cand_sour-patch_us_janmar_2023_usd_eng_enthusiast_123_us23sp03_std_core&utm_term=twitchfruitfighttournament&utm_content=1x1\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-01T07:59:00Z\"}}",
+  "skins_enabled": [0, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
   "sl_exp": 0,
@@ -6010,8 +6013,8 @@ window.__twilightSettings = {
       }]
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
-      "name": "transcode-mode",
-      "v": 26469,
+      "name": "player_transcode_mode",
+      "v": 26590,
       "t": 1,
       "groups": [{
         "weight": 100,

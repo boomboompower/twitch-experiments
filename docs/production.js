@@ -16,6 +16,14 @@ const productionExperiments = [
         "name": "ts_feature_intro"
     },
     {
+        "id": "f4c2bf99-4ce0-4f69-b815-969dc434d0d4",
+        "name": "percolite-shelf-reranking-logged-out"
+    },
+    {
+        "id": "469d3786-5788-4cba-b987-d1456de03de6",
+        "name": "percolite-shelf-reranking-logged-in"
+    },
+    {
         "id": "d44f032c-1c84-4545-ae91-77ff485ef33a",
         "name": "studio_stinger_transition_ui"
     },
