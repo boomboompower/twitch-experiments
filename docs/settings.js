@@ -1814,22 +1814,22 @@ window.__twilightSettings = {
     },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
       "name": "toad_experiment",
-      "v": 26063,
+      "v": 26606,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 60,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_off_1_break"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_off_2_break"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_on_1_break"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_on_2_break"
       }]
     },
