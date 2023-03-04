@@ -319,6 +319,8 @@ window.__twilightSettings = {
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
+  "guest_star_left_nav_augmented_data_feature_flag": [0, false],
+  "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
@@ -1496,7 +1498,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26512,
+      "v": 26625,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1508,13 +1510,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -3751,19 +3753,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 26567,
+      "v": 26622,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3866,17 +3868,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26566,
+      "v": 26621,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },

@@ -241,6 +241,10 @@ const productionExperiments = [
         "name": "channel_points_reward_limits_v2"
     },
     {
+        "id": "f2905d26-c24a-488e-93f4-0f8e887a003f",
+        "name": "homepage_signup_login_gate"
+    },
+    {
         "id": "218acff9-67f7-459f-9f3e-d9b41238e761",
         "name": "ht_celeb_experiment"
     },
@@ -591,5 +595,9 @@ const productionExperiments = [
     {
         "id": "4252ded7-ee34-4c28-92b2-f950b18855a4",
         "name": "mfa_form"
+    },
+    {
+        "id": "29b2c41d-9b61-4513-95ca-4080591292d0",
+        "name": "toad_experiment"
     }
 ]
