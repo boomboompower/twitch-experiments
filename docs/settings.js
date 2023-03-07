@@ -373,6 +373,7 @@ window.__twilightSettings = {
   "low_trust_users_rollout_enabled": false,
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
+  "lynx_release": "2023-12-31T21:00",
   "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
@@ -544,7 +545,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\"],\"lowerThird\":{\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"iconBackgroundHexcode\":\"#FFF\"},\"aboveChat\":{\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"iconBackgroundHexcode\":\"#FFF\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LOGO-SPK.png\",\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Sour Patch Kids\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LOGO-SPK.png\",\"CTA\":\"SOUR PATCH KIDS Fruit Fight!\",\"url\":\"https://sourpatchkids.com/fruits/?utm_medium=video&utm_source=-&utm_campaign=cand_sour-patch_us_janmar_2023_usd_eng_enthusiast_123_us23sp03_std_core&utm_term=twitchfruitfighttournament&utm_content=1x1\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-01T07:59:00Z\"}}",
+  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\",\"qa_gummyace_partner\"],\"lowerThird\":{\"hexcode\": \"#FFF\", \"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/LowerThirdBG1.png\"},\"aboveChat\":{\"hexcode\": \"#000\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\", \"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Sour Patch Kids\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"CTA\":\"PLAY RESIDENT EVIL NOW\",\"url\":\"https://sourpatchkids.com/fruits/?utm_medium=video&utm_source=-&utm_campaign=cand_sour-patch_us_janmar_2023_usd_eng_enthusiast_123_us23sp03_std_core&utm_term=twitchfruitfighttournament&utm_content=1x1\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\"}}",
   "skins_enabled": [0, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
@@ -3868,17 +3869,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26621,
+      "v": 26662,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -5503,6 +5504,18 @@ window.__twilightSettings = {
         "value": "variant3"
       }]
     },
+    "cf51c206-6e43-4a5d-817f-a72669375f5d": {
+      "name": "chat_happening_now_2023",
+      "v": 26656,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "cf91e619-8d8b-486f-83a3-13db61bfbfaf": {
       "name": "bits_top_nav_explanation ",
       "v": 12127,
@@ -6414,13 +6427,13 @@ window.__twilightSettings = {
     },
     "f2905d26-c24a-488e-93f4-0f8e887a003f": {
       "name": "homepage_signup_login_gate",
-      "v": 26093,
+      "v": 26659,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "variant"
       }]
     },
