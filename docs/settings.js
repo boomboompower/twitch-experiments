@@ -545,10 +545,12 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\",\"qa_gummyace_partner\"],\"lowerThird\":{\"hexcode\": \"#FFF\", \"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/LowerThirdBG1.png\"},\"aboveChat\":{\"hexcode\": \"#000\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\", \"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Sour Patch Kids\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"CTA\":\"PLAY RESIDENT EVIL NOW\",\"url\":\"https://sourpatchkids.com/fruits/?utm_medium=video&utm_source=-&utm_campaign=cand_sour-patch_us_janmar_2023_usd_eng_enthusiast_123_us23sp03_std_core&utm_term=twitchfruitfighttournament&utm_content=1x1\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\"}}",
+  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\",\"qa_gummyace_partner\"],\"lowerThird\":{\"hexcode\": \"#FFF\", \"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/LowerThirdBG1.png\"},\"aboveChat\":{\"hexcode\": \"#000\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\", \"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Sour Patch Kids\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"CTA\":\"Pre-order, support The Completionist\",\"url\":\"https://urldefense.com/v3/__https:/www.nexus.gg/completionist__;!!AHh8_Z5O2w!j8mZTbovQCHc5ZQdY_aJbn85oj9BI3Kx62jBi2Wa1s53TeAPZA5QVePnyHbdTylJCAjvxD4ep-3OK2GTBWc$\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\"}}",
   "skins_enabled": [0, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
+  "skins_show_to_channel_ad_free": false,
+  "skins_show_to_turbo": false,
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
   "smode_rollout_enabled": true,
@@ -3023,13 +3025,13 @@ window.__twilightSettings = {
     },
     "5d1dd623-d756-4477-9d65-4dde29e20a89": {
       "name": "insights_tag_impressions",
-      "v": 26170,
+      "v": 26680,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "on"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "off"
       }]
     },
@@ -3921,13 +3923,13 @@ window.__twilightSettings = {
     },
     "83e7ac97-5ad9-4564-a47e-9a7814a895bc": {
       "name": "disco_carousel_shelf",
-      "v": 26259,
+      "v": 26669,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "none"
       }, {
         "weight": 0,
