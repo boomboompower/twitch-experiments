@@ -1,7 +1,7 @@
 window.__twilightSettings = {
   "environment": "production",
   "2fa_remember_me": [1, false],
-  "2fa_restricted_country_code": [],
+  "2fa_restricted_country_code": ["RU"],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
   "ach_migration_to_rarecandy": [1, true],
@@ -469,6 +469,7 @@ window.__twilightSettings = {
   "project_airhorn": [0, false],
   "project_ape": [0, false],
   "project_ape_initial_launch": [0, false],
+  "project_celebration_alerts": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
@@ -545,7 +546,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"0\":{\"channels\":[\"qa_saul_partner\",\"qa_md_partner\",\"qa_gummyace_partner\"],\"lowerThird\":{\"hexcode\": \"#FFF\", \"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/LowerThirdBG1.png\"},\"aboveChat\":{\"hexcode\": \"#000\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexcode\":\"#000\", \"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"videoOverlay\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"hexcode\":\"#9146FF\",\"backgroundType\":\"SOLID_COLOR\",\"assetLocation\":\"bottom_right\"},\"brand\":{\"name\":\"Sour Patch Kids\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/OnScreenBG2.png\",\"CTA\":\"Pre-order, support The Completionist\",\"url\":\"https://urldefense.com/v3/__https:/www.nexus.gg/completionist__;!!AHh8_Z5O2w!j8mZTbovQCHc5ZQdY_aJbn85oj9BI3Kx62jBi2Wa1s53TeAPZA5QVePnyHbdTylJCAjvxD4ep-3OK2GTBWc$\"},\"start\":\"2023-02-15T08:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\"}}",
+  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-08T08:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://urldefense.com/v3/__https:/www.nexus.gg/completionist__;!!AHh8_Z5O2w!j8mZTbovQCHc5ZQdY_aJbn85oj9BI3Kx62jBi2Wa1s53TeAPZA5QVePnyHbdTylJCAjvxD4ep-3OK2GTBWc$\",\"name\":\"CAMPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}}}",
   "skins_enabled": [0, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
@@ -1038,7 +1039,7 @@ window.__twilightSettings = {
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
-      "v": 26380,
+      "v": 26696,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -1048,7 +1049,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 100,
-        "value": "758474519,758475291"
+        "value": "758474519,758475291,785596802"
       }]
     },
     "0e636d13-56a8-44f4-bd51-7e65cd5a5225": {
