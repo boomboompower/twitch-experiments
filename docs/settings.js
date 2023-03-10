@@ -310,6 +310,7 @@ window.__twilightSettings = {
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_firefox_support": [0, false],
+  "gs_rtj_partner_only_allowlist": ["21653133"],
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
@@ -334,7 +335,7 @@ window.__twilightSettings = {
   "guest_star_request_to_join_max_size": 100,
   "guest_star_request_to_join_mods_filter": [1, true],
   "guest_star_request_to_join_private_call_out_duration": 30,
-  "guest_star_request_to_join_sort": [0, false],
+  "guest_star_request_to_join_sort": [1, true],
   "guest_star_request_to_join_vips_filter": [1, true],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
@@ -546,11 +547,11 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-08T08:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://urldefense.com/v3/__https:/www.nexus.gg/completionist__;!!AHh8_Z5O2w!j8mZTbovQCHc5ZQdY_aJbn85oj9BI3Kx62jBi2Wa1s53TeAPZA5QVePnyHbdTylJCAjvxD4ep-3OK2GTBWc$\",\"name\":\"CAMPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}}}",
-  "skins_enabled": [0, true],
+  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}}}",
+  "skins_enabled": [1, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
-  "skins_show_to_channel_ad_free": false,
+  "skins_show_to_channel_ad_free": true,
   "skins_show_to_turbo": false,
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
@@ -623,6 +624,7 @@ window.__twilightSettings = {
   "thumbtack_ready": false,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
+  "time-to-stream-feature-flag": [0, false],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "twilight_device_type": [0, true],
@@ -1820,22 +1822,22 @@ window.__twilightSettings = {
     },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
       "name": "toad_experiment",
-      "v": 26606,
+      "v": 26757,
       "t": 3,
       "groups": [{
-        "weight": 60,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "toggle_off_1_break"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "toggle_off_2_break"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "toggle_on_1_break"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "toggle_on_2_break"
       }]
     },
@@ -3757,7 +3759,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 26622,
+      "v": 26748,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3766,10 +3768,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3872,17 +3874,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26662,
+      "v": 26752,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }]
     },
@@ -5281,13 +5283,13 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 25097,
+      "v": 26725,
       "t": 3,
       "groups": [{
-        "weight": 5,
+        "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }]
     },
@@ -6032,14 +6034,14 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 26594,
+      "v": 26754,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "cbr_v1"
       }, {
         "weight": 0,
-        "value": "vbr_v1"
+        "value": "cbr_v2"
       }]
     },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {
