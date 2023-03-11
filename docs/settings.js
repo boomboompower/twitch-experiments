@@ -180,7 +180,7 @@ window.__twilightSettings = {
   "com30_golden_snippets": [0, true],
   "com30_hydro_pump": [1, true],
   "com30_hydro_pump_is_dry": true,
-  "com30_lil_bro_browsing_AA": false,
+  "com30_lil_bro_browsing_AA": true,
   "com30_lols_AA": false,
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
@@ -548,7 +548,7 @@ window.__twilightSettings = {
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
   "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}}}",
-  "skins_enabled": [1, true],
+  "skins_enabled": [0, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
   "skins_show_to_channel_ad_free": true,
@@ -3874,17 +3874,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26752,
+      "v": 26769,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-b"
       }]
     },
@@ -3926,7 +3926,7 @@ window.__twilightSettings = {
     },
     "83e7ac97-5ad9-4564-a47e-9a7814a895bc": {
       "name": "disco_carousel_shelf",
-      "v": 26669,
+      "v": 26763,
       "t": 2,
       "groups": [{
         "weight": 99,
@@ -3938,7 +3938,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "bigger"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "autoplay"
       }]
     },
@@ -5208,16 +5208,16 @@ window.__twilightSettings = {
     },
     "bd285f75-4849-4bb2-8550-24637237a856": {
       "name": "com30_lil_bro_browsing",
-      "v": 26385,
+      "v": 26770,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant2"
       }]
     },
