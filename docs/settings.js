@@ -172,6 +172,7 @@ window.__twilightSettings = {
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
+  "clips-exporter-youtube-connection": [0, false],
   "cmon_chat_introduction": [1, false],
   "cmr-flag": [0, false],
   "code_redemption_redeem_page": "on",
@@ -548,8 +549,8 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\", \"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:0Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/LogoGreen.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Soda\"}}}",
-  "skins_enabled": [0, true],
+  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\", \"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
+  "skins_enabled": [1, true],
   "skins_experience": "savant",
   "skins_show_adfree": false,
   "skins_show_to_channel_ad_free": true,
@@ -581,6 +582,7 @@ window.__twilightSettings = {
   "strike_ccar_feature_enabled": [0, false],
   "studio-front-end-copy-paste": [1, true],
   "studio_companion_mode": [0, true],
+  "studio_guest_star_layer": [0, false],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
   "studio_macos_13_banner": "off",
@@ -1042,7 +1044,7 @@ window.__twilightSettings = {
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
-      "v": 26696,
+      "v": 26841,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -1052,7 +1054,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 100,
-        "value": "758474519,758475291,785596802"
+        "value": "758474519,758475291,657055705"
       }]
     },
     "0e636d13-56a8-44f4-bd51-7e65cd5a5225": {
@@ -1971,16 +1973,16 @@ window.__twilightSettings = {
     },
     "2d9223a5-5342-4324-bdd8-658eb560973b": {
       "name": "one_click_recurring",
-      "v": 24960,
+      "v": 26818,
       "t": 2,
       "groups": [{
-        "weight": 33,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 100,
         "value": "variant_1"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant_2"
       }]
     },
@@ -2487,19 +2489,19 @@ window.__twilightSettings = {
     },
     "469d3786-5788-4cba-b987-d1456de03de6": {
       "name": "percolite-shelf-reranking-logged-in",
-      "v": 26559,
+      "v": 26829,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 70,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant2"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant3"
       }]
     },
@@ -3203,6 +3205,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "644da5b3-fe6b-40f4-b7a3-426348b228bc": {
+      "name": "com30_shapeshifting_ocp",
+      "v": 26837,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "64efc0f7-dd26-49e3-bc61-2cb1bc759990": {
       "name": "experiments_json_tds",
       "v": 6755,
@@ -3875,17 +3889,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 26769,
+      "v": 26815,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -6497,19 +6511,19 @@ window.__twilightSettings = {
     },
     "f4c2bf99-4ce0-4f69-b815-969dc434d0d4": {
       "name": "percolite-shelf-reranking-logged-out",
-      "v": 26560,
+      "v": 26822,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 70,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant2"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant3"
       }]
     },

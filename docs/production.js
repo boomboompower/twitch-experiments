@@ -68,6 +68,10 @@ const productionExperiments = [
         "name": "TWILIGHT_AD_DENSITY_WIDGET"
     },
     {
+        "id": "cf51c206-6e43-4a5d-817f-a72669375f5d",
+        "name": "chat_happening_now_2023"
+    },
+    {
         "id": "04283b1e-d699-43bd-8aef-d46ca7f8f97f",
         "name": "chat_pause_hover_default"
     },
@@ -311,10 +315,6 @@ const productionExperiments = [
     {
         "id": "6000221a-906c-4087-85b8-fd99c936c900",
         "name": "vxchan_stream_1.1_actions"
-    },
-    {
-        "id": "d9a876a6-b481-4dcc-9c19-1d717bc623de",
-        "name": "happening_now_notifications"
     },
     {
         "id": "d15008ba-4869-4c35-aa8d-92c38f709a87",
@@ -587,6 +587,14 @@ const productionExperiments = [
     {
         "id": "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e",
         "name": "mandatory_email_verification"
+    },
+    {
+        "id": "0e629110-9517-48f7-a852-8b59678aad3c",
+        "name": "project_ape"
+    },
+    {
+        "id": "2542f7b8-4dcc-4ca9-a855-64055d82f5bd",
+        "name": "aip_pt_to_utc"
     },
     {
         "id": "4252ded7-ee34-4c28-92b2-f950b18855a4",
