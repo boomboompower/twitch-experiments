@@ -188,12 +188,12 @@ window.__twilightSettings = {
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
   "commerce_bar_experience": "sponsored",
-  "community-intros-15": [1, false],
-  "community-moments-rollout": [1, false],
   "community_boost_enabled": [0, false],
   "community_moments_jitter_range_seconds": 0,
   "community_moments_quick_action_new_date": "2022-02-08T19:00:00Z",
   "community_sub_gifting_banner_timeouts": [0, 25, 35, 45, 55, 60, 60],
+  "community-intros-15": [1, false],
+  "community-moments-rollout": [1, false],
   "consent_banner_headline_rollout": [0, true],
   "consent_dismiss_button_rollout": [1, true],
   "consent_enabled": [1, false],
@@ -456,10 +456,6 @@ window.__twilightSettings = {
   "poliwag_rollout": [1, true],
   "premiere_video_manager_public": true,
   "premiere_video_manager_staff": true,
-  "prime-crown-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
-  "prime-free-offer-ids": [],
-  "prime-gifting-whitelist": ["solidfps", "hexy", "streamerhouse", "datmodz", "macho", "schviftyfive", "inigomontoya", "xtony_t_x", "angryjoeshow", "harrisheller", "kasrram", "qa_prime_partner_1", "qa_cx_tp_080616580000"],
-  "prime-loot-page-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
   "prime_2_paid": "on",
   "prime_blocked_regions": ["IN", "IND", "CU", "CUB", "SD", "SUD", "IR", "IRN", "CHN", "CN", "SY", "SYR", "PRK", "KP", "RU", "RUS", "BY", "BLR"],
   "prime_gift_experiment_offer_ids": ["66b38719-794e-2aa7-9ce6-66690ef4f6aa", "34b38f7c-55f8-fbc6-e2b1-1d23987cf594", "8ab38ee7-ad80-a88c-dfe9-aef78c980fde", "acb38f7b-c3f2-307c-2017-c4f3a6acd402"],
@@ -469,6 +465,10 @@ window.__twilightSettings = {
   "prime_promo_content_base_url": "https://twitch.amazon.com/prime",
   "prime_sub_blocked_regions": ["IN"],
   "prime_subsite_up": true,
+  "prime-crown-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
+  "prime-free-offer-ids": [],
+  "prime-gifting-whitelist": ["solidfps", "hexy", "streamerhouse", "datmodz", "macho", "schviftyfive", "inigomontoya", "xtony_t_x", "angryjoeshow", "harrisheller", "kasrram", "qa_prime_partner_1", "qa_cx_tp_080616580000"],
+  "prime-loot-page-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
   "prism-endpoint-migration": [0, false],
   "project_airhorn": [0, false],
   "project_ape": [1, false],
@@ -484,7 +484,6 @@ window.__twilightSettings = {
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
   "quick_actions_sanitization_check": [1, false],
-  "radio-track-promotion-v0": [1, true],
   "radio_add_tracks_soundtrack_playlist": [1, true],
   "radio_create_soundtrack_playlist": [1, true],
   "radio_delete_soundtrack_playlist": [1, true],
@@ -499,6 +498,7 @@ window.__twilightSettings = {
   "radio_soundtrack_cms_feature_flag": [0, true],
   "radio_soundtrack_ugc_feature_flag": [0, true],
   "radio_update_soundtrack_playlist": [1, true],
+  "radio-track-promotion-v0": [1, true],
   "raid_chat_highlights": [1, false],
   "raid_commands_rollout_v2": [1, true],
   "raids_use_legacy_api": false,
@@ -563,8 +563,8 @@ window.__twilightSettings = {
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
-  "soundtrack-playlist-promo": true,
   "soundtrack_content_promo_v1": true,
+  "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
   "spotlight_creator_home_upsell_exp": [1, false],
@@ -582,7 +582,6 @@ window.__twilightSettings = {
   "stream_summary_vod_tool_v2_override": true,
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
-  "studio-front-end-copy-paste": [1, true],
   "studio_companion_mode": [0, true],
   "studio_guest_star_layer": [0, false],
   "studio_import": [1, true],
@@ -597,6 +596,7 @@ window.__twilightSettings = {
   "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0800",
   "studio_stream_info_intro_cta": [0, false],
   "studio_vcam": [1, true],
+  "studio-front-end-copy-paste": [1, true],
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
@@ -642,8 +642,8 @@ window.__twilightSettings = {
   "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
-  "use-gql-rev": [1, false],
   "use_intersection": true,
+  "use-gql-rev": [1, false],
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "verify_email_login": [1, false],
@@ -652,13 +652,13 @@ window.__twilightSettings = {
   "viewer_alerts_customization": [0, true],
   "viewer_milestones_enabled": true,
   "VLM_HLS_Midrolls": [1, false],
-  "vod-clips-category-exclusion-feature-enabled": true,
   "vod_archives_vira_grand": "on",
   "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
   "vod_upload_restricted_regions": ["KR"],
   "vod_uploads_restriction": "restricted",
+  "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
   "vxp_blockbuster_creator_enabled": [1, true],
   "vxp_glitchcon": false,
@@ -1672,21 +1672,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant0"
-      }]
-    },
-    "2542f7b8-4dcc-4ca9-a855-64055d82f5bd": {
-      "name": "aip_pt_to_utc",
-      "v": 26359,
-      "t": 3,
-      "groups": [{
-        "weight": 0,
-        "value": "OFF"
-      }, {
-        "weight": 100,
-        "value": "ON"
-      }, {
-        "weight": 0,
-        "value": "808249822"
       }]
     },
     "2559f1ee-d998-4fb5-8be7-9213e688a589": {
@@ -3166,21 +3151,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "627e2d9a-254f-4565-aafb-d69d031825e3": {
-      "name": "aip_utc",
-      "v": 25784,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "OFF"
-      }, {
-        "weight": 0,
-        "value": "ON"
-      }, {
-        "weight": 0,
-        "value": "758477958"
       }]
     },
     "63ce5036-1f44-4555-9aac-1daa84571ae8": {
