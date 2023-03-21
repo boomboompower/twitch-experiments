@@ -1,5 +1,6 @@
 window.__twilightSettings = {
   "environment": "production",
+  "2fa_edit_phone_number": [0, false],
   "2fa_remember_me": [1, false],
   "2fa_restricted_country_code": ["RU"],
   "account_checkup_m2": [1, true],
@@ -182,8 +183,9 @@ window.__twilightSettings = {
   "com30_golden_snippets": [0, true],
   "com30_hydro_pump": [1, true],
   "com30_hydro_pump_is_dry": true,
-  "com30_lil_bro_browsing_AA": true,
+  "com30_lil_bro_browsing_AA": false,
   "com30_lols_AA": false,
+  "com30_pepe_silvia": [0.03, false],
   "com30_shapeshifting_ocp_aa": [1, false],
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
@@ -306,8 +308,6 @@ window.__twilightSettings = {
   "fft_channel_analytics_maint_date_gmt": "",
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
-  "force_totp_enrollment": [0, false],
-  "force_totp_enrollment_qa": [0, false],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friend_writes_disabled": [0, false],
   "giftcard_currency_expansion": [1, true],
@@ -583,6 +583,8 @@ window.__twilightSettings = {
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio_companion_mode": [0, true],
+  "studio_guest_star_default_layout": [0, false],
+  "studio_guest_star_default_layout_release_date": "2023-04-15",
   "studio_guest_star_layer": [0, false],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
@@ -3064,19 +3066,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "5ef3d086-7e9f-4d73-87e8-a070521b2c76": {
-      "name": "auto_mod_smart_detection",
-      "v": 25675,
-      "t": 2,
-      "s": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "treatment"
-      }, {
-        "weight": 100,
-        "value": "control"
-      }]
-    },
     "5fd568be-2073-4f99-84d5-565e8b2a3343": {
       "name": "TWILIGHT_AAX_DISPLAY",
       "v": 3615,
@@ -5207,8 +5196,9 @@ window.__twilightSettings = {
     },
     "bd285f75-4849-4bb2-8550-24637237a856": {
       "name": "com30_lil_bro_browsing",
-      "v": 26770,
+      "v": 26923,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 90,
         "value": "control"
@@ -6045,13 +6035,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 26893,
+      "v": 26920,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 75,
         "value": "cbr_v1"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "cbr_v2"
       }, {
         "weight": 0,

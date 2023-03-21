@@ -603,5 +603,9 @@ const productionExperiments = [
     {
         "id": "29b2c41d-9b61-4513-95ca-4080591292d0",
         "name": "toad_experiment"
+    },
+    {
+        "id": "e24202cd-cd09-4f39-8095-03e16a62e5cd",
+        "name": "mobile_native_web_transcode_mode"
     }
 ]
