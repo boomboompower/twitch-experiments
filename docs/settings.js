@@ -4025,13 +4025,13 @@ window.__twilightSettings = {
     },
     "879f81dc-22c6-468b-976a-71c47ad7b202": {
       "name": "omnibus_purchase_checkout",
-      "v": 26890,
+      "v": 26952,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -5272,13 +5272,13 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 26725,
+      "v": 26957,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }]
     },
@@ -6035,13 +6035,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 26920,
+      "v": 26955,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "cbr_v1"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "cbr_v2"
       }, {
         "weight": 0,
