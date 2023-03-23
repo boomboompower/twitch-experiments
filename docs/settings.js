@@ -584,7 +584,7 @@ window.__twilightSettings = {
   "strike_ccar_feature_enabled": [0, false],
   "studio_companion_mode": [0, true],
   "studio_guest_star_default_layout": [0, false],
-  "studio_guest_star_default_layout_release_date": "2023-04-15",
+  "studio_guest_star_default_layout_release_date": "2023-03-22",
   "studio_guest_star_layer": [0, false],
   "studio_import": [1, true],
   "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
@@ -3168,13 +3168,13 @@ window.__twilightSettings = {
     },
     "644da5b3-fe6b-40f4-b7a3-426348b228bc": {
       "name": "com30_shapeshifting_ocp",
-      "v": 26837,
+      "v": 26977,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant"
       }]
     },
