@@ -314,6 +314,7 @@ window.__twilightSettings = {
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_firefox_support": [0, false],
   "gs_rtj_partner_only_allowlist": ["21653133"],
+  "guest_star_advanced_audio_controls": [0, true],
   "guest_star_audio_controls": [1, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
@@ -321,6 +322,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
+  "guest_star_express_ftue": [0, false],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
@@ -554,7 +556,7 @@ window.__twilightSettings = {
   "sizmek_versatag_teams": ["wrestling"],
   "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\", \"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
   "skins_enabled": [1, true],
-  "skins_experience": "savant",
+  "skins_experience": "GQL",
   "skins_show_to_channel_ad_free": true,
   "skins_show_to_turbo": false,
   "sl_exp": 0,
@@ -898,13 +900,13 @@ window.__twilightSettings = {
     },
     "07e2244c-d870-4c52-9050-9dda43c4f124": {
       "name": "subscriber_recap_v2",
-      "v": 26046,
+      "v": 26990,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "rollout"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }]
     },
