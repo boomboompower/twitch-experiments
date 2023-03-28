@@ -185,7 +185,7 @@ window.__twilightSettings = {
   "com30_hydro_pump_is_dry": true,
   "com30_lil_bro_browsing_AA": false,
   "com30_lols_AA": false,
-  "com30_pepe_silvia": [0.03, false],
+  "com30_pepe_silvia": [0, false],
   "com30_shapeshifting_ocp_aa": [1, false],
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
@@ -554,7 +554,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\", \"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/MediumRectangleBackgroundAsset.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
+  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#E9E600\",\"iconBackgroundType\":\"SOLID_COLOR\",\"backgroundType\":\"SOLID_COLOR\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Build your own Corsair keyboard!\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Blk_Square-resized.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\", \"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
   "skins_enabled": [1, true],
   "skins_experience": "GQL",
   "skins_show_to_channel_ad_free": true,
@@ -3142,6 +3142,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a": {
+      "name": "disco-merhaba",
+      "v": 27004,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
       }]
     },
     "63ce5036-1f44-4555-9aac-1daa84571ae8": {
