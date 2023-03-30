@@ -268,8 +268,6 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "edit_broadcast_poll_interval_ms": 60000,
-  "embed_upsell_hover_time_after_first_upsell": 30,
-  "embed_upsell_preview_duration_sec": 180,
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
   "emote_card_whitelist": ["184009112"],
@@ -430,7 +428,6 @@ window.__twilightSettings = {
   "onboarding_agreement_api": [1, true],
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
-  "one_click_checkout_country_block_list": ["KR"],
   "one_click_gifts_global_country_allowlist": ["DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "one_click_gifts_global_flag": true,
   "one_click_recurring_subs_flag": true,
@@ -552,7 +549,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#E9E600\",\"iconBackgroundType\":\"SOLID_COLOR\",\"backgroundType\":\"SOLID_COLOR\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Build your own Corsair keyboard!\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Blk_Square-resized.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\", \"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
+  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"ghost-2023-04-test\":{\"channels\":[\"qa_raquel_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/AboveChat-Banner1.jpg\"},\"start\":\"2023-03-29T00:00:00Z\",\"end\":\"2023-04-10T00:00:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/ColorLogo1.jpg\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.ghostlifestyle.com/products/ghost-gamer-x-faze-clan?variant=42485696594097\",\"name\":\"Ghost\",\"ctaMessage\":\"Use code ZOOMAA to save 20%\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/WhiteLogo1.jpg\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#E9E600\",\"iconBackgroundType\":\"SOLID_COLOR\",\"backgroundType\":\"SOLID_COLOR\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Build your own Corsair keyboard!\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Blk_Square-resized.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\",\"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
   "skins_enabled": [1, true],
   "skins_experience": "GQL",
   "skins_show_to_channel_ad_free": true,
@@ -631,7 +628,7 @@ window.__twilightSettings = {
   "thumbtack_ready": false,
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
-  "time-to-stream-feature-flag": [0, false],
+  "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "twilight_device_type": [0, true],
@@ -724,22 +721,22 @@ window.__twilightSettings = {
     },
     "01e67e5b-742e-4aeb-918c-4312edd70215": {
       "name": "catsug_v2",
-      "v": 25577,
+      "v": 27038,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "variant1"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "variant2"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "variant3"
       }, {
-        "weight": 20,
+        "weight": 100,
         "value": "variant4"
       }]
     },
@@ -940,16 +937,16 @@ window.__twilightSettings = {
     },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
       "name": "toga-turtle-street",
-      "v": 27015,
+      "v": 27028,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant 1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant 2"
       }]
     },
@@ -1383,18 +1380,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "release_removed"
-      }]
-    },
-    "16fc8592-4e1e-4750-9a4e-e7ddd7e4ca3e": {
-      "name": "cutwater_embeds_upsell_standard",
-      "v": 13448,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "soft_variant"
       }]
     },
     "172f025c-5e5d-49e3-9e7f-29e2d2505f8e": {
@@ -2245,18 +2230,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "3ef03482-99c0-4415-ad0a-58d8cd0e8ebb": {
-      "name": "one_click_load_shed_KR",
-      "v": 11553,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "3fa741f6-0bc9-425a-a618-e0ce1e45463a": {
       "name": "to_the_edge",
       "v": 15981,
@@ -2303,6 +2276,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "fork"
+      }]
+    },
+    "4175854e-ac90-49cf-a871-d5d7616e9837": {
+      "name": "chmod-bcsvs",
+      "v": 27041,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "41cc8630-60da-4689-a8aa-7bf6f414faca": {
@@ -2569,18 +2554,6 @@ window.__twilightSettings = {
         "value": "variant_2"
       }]
     },
-    "4a2f2094-32ab-4ddb-bc1f-3ca7917b6a5c": {
-      "name": "one_click_load_shed_BR",
-      "v": 11552,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "4abc50dc-41d1-413e-8d5b-64acd88f6938": {
       "name": "ad_moat_amazon",
       "v": 7543,
@@ -2668,18 +2641,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 75,
-        "value": "variant"
-      }]
-    },
-    "4ed6d4e5-caa6-4c5f-8880-d376328ffb4a": {
-      "name": "one_click_checkout_v0_1",
-      "v": 11551,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
         "value": "variant"
       }]
     },
@@ -4037,13 +3998,13 @@ window.__twilightSettings = {
     },
     "879f81dc-22c6-468b-976a-71c47ad7b202": {
       "name": "omnibus_purchase_checkout",
-      "v": 26952,
+      "v": 27029,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -6448,13 +6409,13 @@ window.__twilightSettings = {
     },
     "f2905d26-c24a-488e-93f4-0f8e887a003f": {
       "name": "homepage_signup_login_gate",
-      "v": 26659,
+      "v": 27043,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -6729,13 +6690,13 @@ window.__twilightSettings = {
     },
     "fb445923-7402-4442-98ae-b29e49d08c9c": {
       "name": "preroll_pbyp_eligibility",
-      "v": 26174,
+      "v": 27045,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }]
     },

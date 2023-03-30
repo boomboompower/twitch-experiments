@@ -80,14 +80,6 @@ const productionExperiments = [
         "name": "cutwater_embeds_recs"
     },
     {
-        "id": "5a8345e2-4ba8-4c13-a955-63e148fa7b59",
-        "name": "cutwater_embeds_upsell_gray"
-    },
-    {
-        "id": "16fc8592-4e1e-4750-9a4e-e7ddd7e4ca3e",
-        "name": "cutwater_embeds_upsell_standard"
-    },
-    {
         "id": "833cbdea-72f8-4187-b150-9eab884f98cb",
         "name": "creator_follow_cue"
     },
@@ -291,10 +283,6 @@ const productionExperiments = [
     {
         "id": "a55dd577-ea7e-4e74-9978-2aa997e59603",
         "name": "eu_direct_debit"
-    },
-    {
-        "id": "5c931adb-4a60-4a57-a181-294098fc274a",
-        "name": "cf_wp_new_onboarding"
     },
     {
         "id": "4240d6df-f34f-4732-a9ae-2f77b5225462",
