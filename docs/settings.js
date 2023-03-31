@@ -185,7 +185,6 @@ window.__twilightSettings = {
   "com30_hydro_pump_is_dry": true,
   "com30_lil_bro_browsing_AA": false,
   "com30_lols_AA": false,
-  "com30_pepe_silvia": [0, false],
   "com30_shapeshifting_ocp_aa": [1, false],
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
@@ -229,7 +228,6 @@ window.__twilightSettings = {
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
   "da_manager_m2": [1, false],
-  "dashboard_moderation_settings_enabled": true,
   "dashboard_payout_history": true,
   "dashboard_payout_incentives": "on",
   "dashboard_prime_earnings": "on",
@@ -428,10 +426,6 @@ window.__twilightSettings = {
   "onboarding_agreement_api": [1, true],
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
-  "one_click_gifts_global_country_allowlist": ["DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
-  "one_click_gifts_global_flag": true,
-  "one_click_recurring_subs_flag": true,
-  "one_click_subs_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
@@ -549,7 +543,7 @@ window.__twilightSettings = {
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
   "sizmek_versatag_teams": ["wrestling"],
-  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"ghost-2023-04-test\":{\"channels\":[\"qa_raquel_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/AboveChat-Banner1.jpg\"},\"start\":\"2023-03-29T00:00:00Z\",\"end\":\"2023-04-10T00:00:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/ColorLogo1.jpg\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.ghostlifestyle.com/products/ghost-gamer-x-faze-clan?variant=42485696594097\",\"name\":\"Ghost\",\"ctaMessage\":\"Use code ZOOMAA to save 20%\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/WhiteLogo1.jpg\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#E9E600\",\"iconBackgroundType\":\"SOLID_COLOR\",\"backgroundType\":\"SOLID_COLOR\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Build your own Corsair keyboard!\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Blk_Square-resized.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\",\"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
+  "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"ghost-2023-04-test\":{\"channels\":[\"qa_raquel_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/AboveChat-Banner1.jpg\"},\"start\":\"2023-03-29T00:00:00Z\",\"end\":\"2023-04-10T00:00:00Z\",\"videoOverlay\":{\"assetLocation\":\"top_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/ColorLogo1.jpg\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.ghostlifestyle.com/products/ghost-gamer-x-faze-clan?variant=42485696594097\",\"name\":\"Ghost\",\"ctaMessage\":\"Use code ZOOMAA to save 20%\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/WhiteLogo1.jpg\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#E9E600\",\"iconBackgroundType\":\"SOLID_COLOR\",\"backgroundType\":\"SOLID_COLOR\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Build your own Corsair keyboard!\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Blk_Square-resized.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\",\"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
   "skins_enabled": [1, true],
   "skins_experience": "GQL",
   "skins_show_to_channel_ad_free": true,
@@ -863,18 +857,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "06e28d69-ff23-470a-a69f-6e83395c46f8": {
-      "name": "one_click_load_shed_AU",
-      "v": 11554,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "07cba5d2-55ac-46ea-af6f-34fd3d759145": {
@@ -1945,21 +1927,6 @@ window.__twilightSettings = {
         "value": "two_step"
       }]
     },
-    "2d9223a5-5342-4324-bdd8-658eb560973b": {
-      "name": "one_click_recurring",
-      "v": 26818,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant_1"
-      }, {
-        "weight": 0,
-        "value": "variant_2"
-      }]
-    },
     "306b5fc1-d28c-4603-b2de-462d32c207bd": {
       "name": "ads_countdown_timers",
       "v": 5877,
@@ -2513,45 +2480,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "upsell"
-      }]
-    },
-    "4a0430e5-e05c-4790-ba33-0944209afc41": {
-      "name": "one_click_load_shed_EU27",
-      "v": 11555,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
-    "4a21eec0-1de5-469e-b755-0d1087bbf18b": {
-      "name": "one_click",
-      "v": 21890,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "experiment"
-      }, {
-        "weight": 100,
-        "value": "variant_1"
-      }, {
-        "weight": 0,
-        "value": "variant_2"
-      }, {
-        "weight": 0,
-        "value": "experiment"
-      }, {
-        "weight": 0,
-        "value": "variant_1"
-      }, {
-        "weight": 0,
-        "value": "variant_2"
       }]
     },
     "4abc50dc-41d1-413e-8d5b-64acd88f6938": {
@@ -5207,18 +5135,6 @@ window.__twilightSettings = {
         "value": "AAX"
       }]
     },
-    "c0634742-95ef-4a6a-a763-d011fba5ba6d": {
-      "name": "one_click_gifts_global",
-      "v": 25688,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
-      }]
-    },
     "c0cc65fb-a706-4f0c-bac4-d92520780a30": {
       "name": "player_desktop_web_disable_dropped_frame_filter",
       "v": 11008,
@@ -6690,13 +6606,13 @@ window.__twilightSettings = {
     },
     "fb445923-7402-4442-98ae-b29e49d08c9c": {
       "name": "preroll_pbyp_eligibility",
-      "v": 27045,
+      "v": 27069,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }]
     },

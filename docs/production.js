@@ -373,10 +373,6 @@ const productionExperiments = [
         "name": "twilight_roster_gql"
     },
     {
-        "id": "4a21eec0-1de5-469e-b755-0d1087bbf18b",
-        "name": "one_click"
-    },
-    {
         "id": "32841811-2c64-41dd-b7b0-bd5fd5cd3a12",
         "name": "vx_disco_personalized_cards"
     },
@@ -415,10 +411,6 @@ const productionExperiments = [
     {
         "id": "4664cf2d-0df6-43fb-8196-25fac34700d5",
         "name": "wysiwyg_chat_input_user_id"
-    },
-    {
-        "id": "e4758fdb-58f0-401c-a3e4-d5cbafd8eae2",
-        "name": "vxp_bottom_banner_v2"
     },
     {
         "id": "fba332ae-a178-4b73-8aed-cbc84418e83f",
@@ -541,20 +533,12 @@ const productionExperiments = [
         "name": "venmo_us"
     },
     {
-        "id": "c0634742-95ef-4a6a-a763-d011fba5ba6d",
-        "name": "one_click_gifts_global"
-    },
-    {
         "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
         "name": "twilight_multihostsdk_version"
     },
     {
         "id": "643a6e17-a433-4d4f-929d-7a2cc395578d",
         "name": "catsug_rollout"
-    },
-    {
-        "id": "2d9223a5-5342-4324-bdd8-658eb560973b",
-        "name": "one_click_recurring"
     },
     {
         "id": "01e67e5b-742e-4aeb-918c-4312edd70215",
