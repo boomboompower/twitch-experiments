@@ -229,10 +229,6 @@ const productionExperiments = [
         "name": "settings_overlay_indicator"
     },
     {
-        "id": "1f7e7664-f082-44cc-847e-e57dec0a6bb9",
-        "name": "vx_defer"
-    },
-    {
         "id": "028ce2d5-c0e3-4517-8081-7e8f4556a55b",
         "name": "channel_points_reward_limits_v2"
     },
@@ -317,14 +313,6 @@ const productionExperiments = [
         "name": "vxp_contextual_upsell"
     },
     {
-        "id": "d442bdd2-0c83-4bc1-b8ce-abb86c1d5556",
-        "name": "vx_disco_follow_nudge_logged_out"
-    },
-    {
-        "id": "09fe28c4-fb9a-4242-ad47-4cfb7f3da6af",
-        "name": "vx_disco_follow_nudge_logged_in"
-    },
-    {
         "id": "339010ee-1d18-4e91-8fd7-25b0848d279b",
         "name": "vx_disco_search_suggestions_v1_logged_out"
     },
@@ -399,10 +387,6 @@ const productionExperiments = [
     {
         "id": "38b59330-9056-47a5-a858-615dcd103666",
         "name": "disco_sprig_logged_out"
-    },
-    {
-        "id": "9f896da5-16c8-4ec3-b4b7-99168faa5d55",
-        "name": "disco_sprig_logged_in"
     },
     {
         "id": "0d552a1e-eb26-4e2a-bc80-9e1da4005a5c",
