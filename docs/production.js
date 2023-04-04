@@ -553,6 +553,10 @@ const productionExperiments = [
         "name": "mfa_form"
     },
     {
+        "id": "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c",
+        "name": "ru_mvw"
+    },
+    {
         "id": "fb445923-7402-4442-98ae-b29e49d08c9c",
         "name": "preroll_pbyp_eligibility"
     },

@@ -376,7 +376,7 @@ window.__twilightSettings = {
   "low_trust_users_rollout_enabled": false,
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
-  "lynx_release": "2023-12-31T21:00",
+  "lynx_release": "2023-04-04T11:30:00Z",
   "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
@@ -3030,6 +3030,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "631c9574-0e7e-4114-80f2-3c4f7c86c4da": {
+      "name": "views_from_twitch_in_chart",
+      "v": 27100,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treament"
+      }]
+    },
     "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a": {
       "name": "disco-merhaba",
       "v": 27004,
@@ -4687,6 +4699,18 @@ window.__twilightSettings = {
         "value": "treament"
       }]
     },
+    "a79fd789-8561-450e-881e-133517728556": {
+      "name": "csai_preroll_pbyp_exp",
+      "v": 27112,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "a83efadb-c417-47e2-9431-921b6116cc0e": {
       "name": "use_rare_candy_vip",
       "v": 13926,
@@ -6308,6 +6332,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "no"
+      }]
+    },
+    "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
+      "name": "is-user-in-friendly-fraud-group",
+      "v": 27116,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "holdout"
+      }, {
+        "weight": 0,
+        "value": "friendly_fraud_model"
       }]
     },
     "f1825646-3eac-4bac-8be3-ab9f736b7dd8": {
