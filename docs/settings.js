@@ -253,7 +253,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disable_swl": true,
+  "disable_swl": false,
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -1477,7 +1477,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 26625,
+      "v": 27141,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1489,13 +1489,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -3593,13 +3593,13 @@ window.__twilightSettings = {
     },
     "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
       "name": "ru_mvw",
-      "v": 26181,
+      "v": 27126,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -5370,13 +5370,13 @@ window.__twilightSettings = {
     },
     "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc": {
       "name": "bits_insufficient_balance_checkout",
-      "v": 25791,
+      "v": 27142,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },

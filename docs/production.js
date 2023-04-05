@@ -557,8 +557,8 @@ const productionExperiments = [
         "name": "ru_mvw"
     },
     {
-        "id": "fb445923-7402-4442-98ae-b29e49d08c9c",
-        "name": "preroll_pbyp_eligibility"
+        "id": "a79fd789-8561-450e-881e-133517728556",
+        "name": "csai_preroll_pbyp_exp"
     },
     {
         "id": "29b2c41d-9b61-4513-95ca-4080591292d0",
