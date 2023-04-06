@@ -341,7 +341,6 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [0, false],
-  "heartbreak_allowed": ["tehmorag", "norbro86", "meadowfox", "jimorian", "starflame", "guru", "jcog", "twiggie", "demoncatdaphne", "hearthvalley", "studingo", "finamenon", "skee", "twrongnotwright", "qa_long_partner", "modularseattle", "vicksy", "fgsquared", "ferretbomb", "dracon", "tomshi", "nayfal", "indeedee", "skynyx", "lothar", "snowlit", "fruitbats", "catalystz", "xocliw", "mshoboslayer", "bekyamon", "tugboet", "thesilvergauntlets", "kristikates", "loctavian", "2dkiri", "monado", "guddah", "slevinthheaven", "mathulu", "magnetron", "lotharhs", "fm_guru", "emray", "jenericlive", "matrixis"],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "home_shelf_moments": [1, false],
@@ -464,6 +463,7 @@ window.__twilightSettings = {
   "project_airhorn": [0, false],
   "project_ape": [1, false],
   "project_celebration_alerts": [0, false],
+  "project_leviosa": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
@@ -3044,13 +3044,13 @@ window.__twilightSettings = {
     },
     "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a": {
       "name": "disco-merhaba",
-      "v": 27004,
+      "v": 27166,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant1"
       }]
     },
@@ -3937,13 +3937,13 @@ window.__twilightSettings = {
     },
     "879f81dc-22c6-468b-976a-71c47ad7b202": {
       "name": "omnibus_purchase_checkout",
-      "v": 27029,
+      "v": 27169,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },

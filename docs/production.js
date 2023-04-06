@@ -417,6 +417,10 @@ const productionExperiments = [
         "name": "disco_raid_settings_v2"
     },
     {
+        "id": "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a",
+        "name": "disco-merhaba"
+    },
+    {
         "id": "77a6194a-a408-4c3c-ab84-499ccb6e40c4",
         "name": "disco_sn_query_ctx_login"
     },
@@ -567,5 +571,9 @@ const productionExperiments = [
     {
         "id": "e24202cd-cd09-4f39-8095-03e16a62e5cd",
         "name": "mobile_native_web_transcode_mode"
+    },
+    {
+        "id": "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb",
+        "name": "chat_signup_gate"
     }
 ]
