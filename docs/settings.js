@@ -205,6 +205,7 @@ window.__twilightSettings = {
   "contigo_ojos_y_duende_proxima_playback_position": 5,
   "contigo_ojos_y_duende_proxima_upcoming_ff": [1, false],
   "contigo_ojos_y_duende_proxima_upcoming_limit": -1,
+  "contribution_matching_oz": "",
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
@@ -318,6 +319,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
+  "guest_star_discovery_card": [0, false],
   "guest_star_express_ftue": [0, false],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
@@ -497,7 +499,7 @@ window.__twilightSettings = {
   "recurly_spm_guard": [1, true],
   "recurly_tax_enabled": "true",
   "redeem_page_zip_code_required_countries": ["US", "CA"],
-  "returning_user_highlights": [0, false],
+  "returning_user_highlights": [1, false],
   "revenue_dashboard_hype_train": true,
   "revenue_leaderboards": true,
   "revive_creator_anniversary": [0, false],
@@ -3593,13 +3595,13 @@ window.__twilightSettings = {
     },
     "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
       "name": "ru_mvw",
-      "v": 27126,
+      "v": 27190,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment"
       }]
     },
