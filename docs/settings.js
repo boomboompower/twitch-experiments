@@ -159,7 +159,6 @@ window.__twilightSettings = {
   "chv2_ma_cutover": [0, false],
   "chv2_mc_cutover": true,
   "chv2_mc_writeops_disabled": false,
-  "chv2_mod_logs_v2_enabled": true,
   "chv2_vcml_cutover": [0, false],
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
@@ -1667,16 +1666,16 @@ window.__twilightSettings = {
     },
     "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb": {
       "name": "chat_signup_gate",
-      "v": 26552,
+      "v": 27196,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "gradient"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "modal"
       }]
     },
