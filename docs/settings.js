@@ -73,6 +73,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "branded_content_feature_flag": [0, false],
+  "branded_content_gql_feature_flag_new": [0, false],
   "bs_mct_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -566,7 +567,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "stream_manager_default_templates": [0, false],
   "stream_manager_layout_tracking": [0, false],
-  "stream_manager_swappable_panels": [0, false],
+  "stream_manager_swappable_panels": [0.2, true],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
@@ -625,6 +626,7 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "TV2_launch_date": "2023-06-01T16:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -2430,20 +2432,24 @@ window.__twilightSettings = {
     },
     "469d3786-5788-4cba-b987-d1456de03de6": {
       "name": "percolite-shelf-reranking-logged-in",
-      "v": 26829,
+      "v": 27235,
       "t": 2,
+      "s": 1,
       "groups": [{
-        "weight": 70,
+        "weight": 60,
         "value": "control"
       }, {
         "weight": 10,
-        "value": "variant1"
+        "value": "variant1a"
       }, {
         "weight": 10,
-        "value": "variant2"
+        "value": "variant1b"
       }, {
         "weight": 10,
-        "value": "variant3"
+        "value": "variant2a"
+      }, {
+        "weight": 10,
+        "value": "variant2b"
       }]
     },
     "47597570-dd4e-4996-85eb-86db164cae9c": {
@@ -4702,13 +4708,13 @@ window.__twilightSettings = {
     },
     "a79fd789-8561-450e-881e-133517728556": {
       "name": "csai_preroll_pbyp_exp",
-      "v": 27185,
+      "v": 27226,
       "t": 2,
       "groups": [{
-        "weight": 1,
+        "weight": 10,
         "value": "treatment"
       }, {
-        "weight": 99,
+        "weight": 90,
         "value": "control"
       }]
     },
@@ -5948,7 +5954,7 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 26955,
+      "v": 27236,
       "t": 1,
       "groups": [{
         "weight": 50,
@@ -6425,20 +6431,24 @@ window.__twilightSettings = {
     },
     "f4c2bf99-4ce0-4f69-b815-969dc434d0d4": {
       "name": "percolite-shelf-reranking-logged-out",
-      "v": 26822,
+      "v": 27234,
       "t": 1,
+      "s": 1,
       "groups": [{
-        "weight": 70,
+        "weight": 60,
         "value": "control"
       }, {
         "weight": 10,
-        "value": "variant1"
+        "value": "variant1a"
       }, {
         "weight": 10,
-        "value": "variant2"
+        "value": "variant1b"
       }, {
         "weight": 10,
-        "value": "variant3"
+        "value": "variant2a"
+      }, {
+        "weight": 10,
+        "value": "variant2b"
       }]
     },
     "f65ff295-57dd-4ed0-8011-4df783456b56": {

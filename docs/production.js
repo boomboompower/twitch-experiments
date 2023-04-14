@@ -429,6 +429,10 @@ const productionExperiments = [
         "name": "disco_carousel_shelf"
     },
     {
+        "id": "2a78981b-6bc7-41fc-8e15-b11542f4c5c9",
+        "name": "disco_onboarding_lite"
+    },
+    {
         "id": "b235449a-b882-4266-b968-0fc591fba387",
         "name": "gift_chat_command"
     },
