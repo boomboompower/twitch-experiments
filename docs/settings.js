@@ -1,6 +1,5 @@
 window.__twilightSettings = {
   "environment": "production",
-  "2fa_edit_phone_number": [0, false],
   "2fa_remember_me": [1, false],
   "2fa_restricted_country_code": ["RU"],
   "account_checkup_m2": [1, true],
@@ -466,6 +465,7 @@ window.__twilightSettings = {
   "project_ape": [1, false],
   "project_celebration_alerts": [0, false],
   "project_leviosa": [0, false],
+  "Project_Polaris": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
@@ -567,7 +567,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "stream_manager_default_templates": [0, false],
   "stream_manager_layout_tracking": [0, false],
-  "stream_manager_swappable_panels": [0.2, true],
+  "stream_manager_swappable_panels": [1, true],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
@@ -1783,10 +1783,10 @@ window.__twilightSettings = {
     },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
       "name": "toad_experiment",
-      "v": 26757,
+      "v": 27283,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
@@ -1800,6 +1800,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "toggle_on_2_break"
+      }, {
+        "weight": 100,
+        "value": "disable"
       }]
     },
     "2a419c5c-16b5-48fa-83d4-a5764408545b": {
@@ -4708,13 +4711,13 @@ window.__twilightSettings = {
     },
     "a79fd789-8561-450e-881e-133517728556": {
       "name": "csai_preroll_pbyp_exp",
-      "v": 27226,
+      "v": 27280,
       "t": 2,
       "groups": [{
-        "weight": 10,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 90,
+        "weight": 80,
         "value": "control"
       }]
     },
