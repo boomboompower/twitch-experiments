@@ -376,7 +376,7 @@ window.__twilightSettings = {
   "low_trust_users_rollout_enabled": false,
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
-  "lynx_release": "2023-04-04T11:30:00Z",
+  "lynx_release": "2023-04-18T19:20:55.267Z",
   "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
@@ -1831,19 +1831,19 @@ window.__twilightSettings = {
     },
     "2a78981b-6bc7-41fc-8e15-b11542f4c5c9": {
       "name": "disco_onboarding_lite",
-      "v": 26282,
+      "v": 27295,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "none"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "simplified"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "supercats"
       }]
     },
@@ -3603,13 +3603,13 @@ window.__twilightSettings = {
     },
     "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
       "name": "ru_mvw",
-      "v": 27190,
+      "v": 27300,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
