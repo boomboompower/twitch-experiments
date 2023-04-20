@@ -72,7 +72,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "branded_content_feature_flag": [0, false],
-  "branded_content_gql_feature_flag_new": [0, false],
+  "branded_content_gql_feature_flag_new": [0, true],
   "bs_mct_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -626,7 +626,7 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "TV2_launch_date": "2023-06-01T16:00:00.86838Z",
+  "TV2_launch_date": "2023-08-01T16:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -1480,7 +1480,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 27141,
+      "v": 27324,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1492,13 +1492,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -1783,25 +1783,25 @@ window.__twilightSettings = {
     },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
       "name": "toad_experiment",
-      "v": 27283,
+      "v": 27331,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 60,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_off_1_break"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_off_2_break"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_on_1_break"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "toggle_on_2_break"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "disable"
       }]
     },
