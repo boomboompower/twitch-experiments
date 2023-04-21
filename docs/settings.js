@@ -72,7 +72,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "branded_content_feature_flag": [0, false],
-  "branded_content_gql_feature_flag_new": [0, true],
+  "branded_content_gql_feature_flag_new": [0.25, true],
   "bs_mct_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -4711,13 +4711,13 @@ window.__twilightSettings = {
     },
     "a79fd789-8561-450e-881e-133517728556": {
       "name": "csai_preroll_pbyp_exp",
-      "v": 27280,
+      "v": 27337,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 80,
+        "weight": 0,
         "value": "control"
       }]
     },
@@ -5130,17 +5130,17 @@ window.__twilightSettings = {
     },
     "bd285f75-4849-4bb2-8550-24637237a856": {
       "name": "com30_lil_bro_browsing",
-      "v": 26923,
+      "v": 27335,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant1"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant2"
       }]
     },
