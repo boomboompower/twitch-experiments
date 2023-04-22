@@ -72,7 +72,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "branded_content_feature_flag": [0, false],
-  "branded_content_gql_feature_flag_new": [0.25, true],
+  "branded_content_gql_feature_flag_new": [1, true],
   "bs_mct_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
