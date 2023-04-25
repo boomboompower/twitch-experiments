@@ -3,11 +3,11 @@ try {
     const copyButton = document.getElementById('copy');
     const calculationDiv = document.getElementById('calculation');
     const filterDiv = document.getElementById('filter');
-    let importButton = document.getElementById('import');
+    const importButton = document.getElementById('import');
 
-    let overridenExperiments = {};
+    const overriddenExperiments = {};
     let calculationDone = false;
-    let currentCookie = "";
+    let currentCookie = '';
 
     function resetCookie() {
         // basic template for how the experiment override cookie is formed.
@@ -17,8 +17,8 @@ try {
         }
 
         // iterate through all experiments and add them to our temporary object
-        for (const exp of Object.keys(overridenExperiments)) {
-            temporaryObject.experiments[exp] = overridenExperiments[exp];
+        for (const exp of Object.keys(overriddenExperiments)) {
+            temporaryObject.experiments[exp] = overriddenExperiments[exp];
         }
 
         // similar format to how regular experiments are stored in the cookie
@@ -44,22 +44,22 @@ try {
         }
 
         try {
-            let parsedCookie = JSON.parse(current)
+            const parsedCookie = JSON.parse(current);
 
             // missing critical component of cookie :(
-            // they might have used the wrong thingo
+            // they might have used the wrong cookie value
             if (!parsedCookie.experiments) {
                 alert('Cookie was missing the experiments object.')
 
                 return
             }
 
-            let oldText = importButton.innerText;
-            let overrides = Object.entries(parsedCookie.experiments)
+            const oldText = importButton.innerText;
+            const overrides = Object.entries(parsedCookie.experiments);
 
             // add each override to our override list
-            for (let entry of overrides) {
-                overridenExperiments[entry[0]] = entry[1]
+            for (const entry of overrides) {
+                overriddenExperiments[entry[0]] = entry[1]
             }
 
             importButton.innerText = 'Cookie Imported';
@@ -97,7 +97,7 @@ try {
         }, 1200)
     }
 
-    function getExperimentObject(experiment, experimentKey, experimentName = undefined, index = -1, staffOverride = undefined) {
+    function getExperimentObject(experiment, experimentKey, experimentName = undefined, index = -1, staffOverride = undefined, foundOn = undefined) {
         const wrap = document.createElement('div');
         const nameDiv = document.createElement('div');
         const opts = document.createElement('form')
@@ -126,10 +126,43 @@ try {
             nameDiv.innerText = experimentName || experiment.name;
         }
 
+        if (foundOn !== undefined) {
+            let foundDate = undefined;
+
+            try {
+                const date = new Date(foundOn);
+
+                // 2022-06-15T07:19:12.000Z
+                // Magic number but this is when the first run occurred.
+                if (date.getUTCDate() === 15 && date.getUTCMonth() === 5 && date.getUTCFullYear() === 2022) {
+                    foundDate = undefined;
+                } else {
+                    foundDate = date.toLocaleDateString();
+                }
+            } catch (e) {
+                console.error(`Failed to parse date for ${experimentName}`, e)
+            }
+
+            if (foundDate !== undefined) {
+                const foundElement = document.createElement('div');
+                foundElement.style.float = 'right';
+                foundElement.style.padding = '5px';
+                foundElement.style.fontSize = '0.8rem'
+                foundElement.style.fontFamily = 'monospace';
+                foundElement.style.display = 'inline-block';
+
+                foundElement.innerText = `Found ${foundDate}` ;
+
+                nameDiv.appendChild(foundElement);
+            }
+        } else {
+            console.warn(`No found date for ${experimentKey}`)
+        }
+
         let largestWeight = document.createElement('li');
         let largestWeightVal = 0;
         let lastSelected = undefined;
-        let hasOverride = overridenExperiments[experimentKey] !== undefined
+        const hasOverride = overriddenExperiments[experimentKey] !== undefined
 
         for (const group of experiment.groups) {
             const chunk = document.createElement('div');
@@ -140,17 +173,17 @@ try {
             radioObject.setAttribute('type', 'radio');
             radioObject.setAttribute('name', experimentKey)
             radioObject.setAttribute('value', group.value);
-            radioObject.setAttribute('id', experimentKey + '-' + group.value)
+            radioObject.setAttribute('id', `${experimentKey}-${group.value}`)
 
-            label.innerText = group.value + ": " + group.weight;
-            label.setAttribute('for', experimentKey + '-' + group.value);
+            label.innerText = `${group.value}: ${group.weight}`;
+            label.setAttribute('for', `${experimentKey}-${group.value}`);
 
             if (staffOverride === group.value) {
                 label.classList.add('staff');
             }
 
             // if the overriden experiments contains this object, we should use it instead.
-            if (hasOverride && group.value === overridenExperiments[experimentKey]) {
+            if (hasOverride && group.value === overriddenExperiments[experimentKey]) {
                 radioObject.checked = true
                 lastSelected = radioObject
             }
@@ -167,7 +200,7 @@ try {
 
                 lastSelected = radioObject;
 
-                overridenExperiments[experimentKey] = group.value;
+                overriddenExperiments[experimentKey] = group.value;
 
                 resetCookie();
             })
@@ -208,80 +241,103 @@ try {
         drawExperiments(filterDiv.selectedIndex)
     })
 
+    function isServingOneGroup(exp) {
+        const groupsAt0 = exp.groups.filter((group) => {
+            return group.weight === 0;
+        });
+
+        return groupsAt0.length >= exp.groups.length - 1;
+    }
+
+    function normalizeExperiments() {
+        const unregistered = [];
+        const servingOne = [];
+
+        // experiment t = 1 is an experiment on a device ID     [Device]
+        // experiment t = 2 is an experiment using a user ID    [User]
+        // experiment t = 3 is an experiment using a channel    [Channel]
+        //
+        // experiment v is the experiment version.
+
+        const defaults = Object.keys(window.__twilightSettings.experiments)
+            .filter((key) => {
+                const isRegistered = productionExperiments.find((a) => { return a.id === key });
+
+                if (!isRegistered) {
+                    unregistered.push(window.__twilightSettings.experiments[key]);
+                }
+                return isRegistered;
+            })
+            .map((key) => {
+                const expData = window.__twilightSettings.experiments[key];
+                const servingOneGroup = isServingOneGroup(expData);
+
+                const exp = {
+                    type: 'Experiment',
+                    key,
+                    name: `${expData.name} - ${key}`,
+                    data: expData,
+                    servingOneGroup,
+                };
+
+                if (servingOneGroup) {
+                    servingOne.push(exp);
+                }
+
+                return exp;
+            });
+
+        return {
+            unregistered,
+            servingOne,
+            defaults,
+        };
+    }
+
+    function getInactiveExperiments(normalizedExperiments) {
+        const inactiveExperiments = [];
+
+        for (const unregistered of normalizedExperiments.unregistered) {
+            inactiveExperiments.push(
+                {
+                    type: 'Experiment',
+                    key: unregistered,
+                    name: unregistered.name,
+                    data: unregistered,
+                    servingOneGroup: false
+                }
+            );
+        }
+
+        return inactiveExperiments;
+    }
+
     function drawExperiments(index = 0) {
         overridesElement.innerHTML = '';
 
         if (typeof productionExperiments !== 'undefined') {
-            let p = (function() {
-                const unregisteredExperiments = [];
-                const servingOneList = [];
-                const defaults = [...keys].filter(function (i) {
-                    const n = !!productionExperiments.find((a) => { return a.id === i });
+            const normalizedExperiments = normalizeExperiments();
 
-                    n || unregisteredExperiments.push(window.__twilightSettings.experiments[i])
-
-                    return n;
-                }).map(function (i) {
-                    const n = window.__twilightSettings.experiments[i];
-                    const e = function (g) {
-                        return g.groups.filter(function (consideration) {
-                            return 0 === consideration.weight;
-                        }).length >= g.groups.length - 1;
-                    }(n);
-                    const t = {
-                        type: 'Experiment',
-                        key: i,
-                        name: n.name + " - " + i,
-                        data: n,
-                        servingOneGroup: e,
-                        staffOverride: productionExperiments.find((a) => { return a.id === i })?.staffOverride
-                    };
-
-                    e && servingOneList.push(t)
-
-                    return t;
-                });
-                return {
-                    unregistered: unregisteredExperiments,
-                    servingOne: servingOneList,
-                    defaults: defaults
-                };
-            }());
-
-            function getInactiveExperiments() {
-                let o = [];
-
-                for (const unregistered of p.unregistered) {
-                    o.push(
-                        {
-                            type: 'Experiment',
-                            key: unregistered,
-                            name: unregistered.name,
-                            data: unregistered,
-                            servingOneGroup: false
-                        }
-                    );
-                }
-
-                return o;
-            }
-
-            const activeExperiments = index === 0 ? p.defaults.filter(function (insExt) {
-                return !p.servingOne.find(function (npmExt) {
+            const activeExperiments = index === 0 ? normalizedExperiments.defaults.filter((insExt) => {
+                return !normalizedExperiments.servingOne.find((npmExt) => {
                     return npmExt.name === insExt.name;
                 });
-            }) : index === 1 ? p.servingOne : getInactiveExperiments();
+            }) : index === 1 ? normalizedExperiments.servingOne : getInactiveExperiments(normalizedExperiments);
 
             const countSpan = document.createElement('span');
 
-            const countPerRow = p.unregistered.length + p.defaults.length;
+            const countPerRow = normalizedExperiments.unregistered.length + normalizedExperiments.defaults.length;
             const bloat = (100 - activeExperiments.length / countPerRow * 100).toPrecision(3);
 
             if (activeExperiments.length > 0) {
                 let i = 0;
 
                 for (const experiment of activeExperiments) {
-                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i, experiment.staffOverride);
+                    // This is a lot of overhead for one field. Consider changing this in the future.
+                    const prodExp = productionExperiments.find((a) => { return a.id === experiment.key })
+
+                    // noinspection JSUnresolvedVariable
+                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i, experiment.staffOverride, prodExp?.dateFound);
 
                     overridesElement.appendChild(wrap);
                 }
@@ -295,7 +351,7 @@ try {
                         countSpan.style.color = '#00c274';
                     }
 
-                    countSpan.innerText = bloat + '%';
+                    countSpan.innerText = `${bloat}%`;
 
                     calculationDiv.appendChild(document.createTextNode('Experiment bloat is at '));
                     calculationDiv.appendChild(countSpan);
@@ -316,7 +372,7 @@ try {
 
             if (calculationDiv && !calculationDone) {
                 calculationDiv.appendChild(document.createTextNode('. ('));
-                calculationDiv.appendChild(document.createTextNode(activeExperiments.length + ' of ' + countPerRow));
+                calculationDiv.appendChild(document.createTextNode(`${activeExperiments.length} of ${countPerRow}`));
                 calculationDiv.appendChild(document.createTextNode(' experiments being used.)'));
 
                 calculationDone = true;
