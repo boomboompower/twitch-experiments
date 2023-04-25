@@ -269,6 +269,8 @@ try {
                 return isRegistered;
             })
             .map((key) => {
+                const prodExperiment = productionExperiments.find((a) => { return a.id === key });
+
                 const expData = window.__twilightSettings.experiments[key];
                 const servingOneGroup = isServingOneGroup(expData);
 
@@ -278,6 +280,10 @@ try {
                     name: `${expData.name} - ${key}`,
                     data: expData,
                     servingOneGroup,
+                    // Custom Attributes - START
+                    staffOverride: prodExperiment?.staffOverride,
+                    dateFound: prodExperiment?.dateFound,
+                    // Custom Attributes - END
                 };
 
                 if (servingOneGroup) {
@@ -333,11 +339,7 @@ try {
                 let i = 0;
 
                 for (const experiment of activeExperiments) {
-                    // This is a lot of overhead for one field. Consider changing this in the future.
-                    const prodExp = productionExperiments.find((a) => { return a.id === experiment.key })
-
-                    // noinspection JSUnresolvedVariable
-                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i, experiment.staffOverride, prodExp?.dateFound);
+                    const wrap = getExperimentObject(experiment.data, experiment.key, experiment.name, ++i, experiment.staffOverride, experiment?.dateFound);
 
                     overridesElement.appendChild(wrap);
                 }
