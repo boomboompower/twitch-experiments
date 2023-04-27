@@ -468,7 +468,7 @@ window.__twilightSettings = {
   "prism-endpoint-migration": [0, false],
   "project_airhorn": [0, false],
   "project_ape": [1, false],
-  "project_celebration_alerts": [0, false],
+  "project_celebration_alerts": [1, false],
   "project_leviosa": [0, false],
   "Project_Polaris": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
@@ -507,7 +507,7 @@ window.__twilightSettings = {
   "returning_user_highlights": [1, false],
   "revenue_dashboard_hype_train": true,
   "revenue_leaderboards": true,
-  "revive_creator_anniversary": [0, false],
+  "revive_creator_anniversary": [1, false],
   "reward_campaigns": [1, false],
   "reward_campaigns_gql_reads": [0, false],
   "rocket_train_passengers": ["408380599", "478863946", "695413795"],
@@ -632,6 +632,7 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "TV2_flag": [0, false],
   "TV2_launch_date": "2023-08-01T16:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -1674,16 +1675,16 @@ window.__twilightSettings = {
     },
     "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb": {
       "name": "chat_signup_gate",
-      "v": 27196,
+      "v": 27403,
       "t": 1,
       "groups": [{
-        "weight": 34,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "gradient"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "modal"
       }]
     },
@@ -3047,15 +3048,15 @@ window.__twilightSettings = {
       }]
     },
     "631c9574-0e7e-4114-80f2-3c4f7c86c4da": {
-      "name": "views_from_twitch_in_chart",
-      "v": 27100,
+      "name": "views_from_twitch_m2",
+      "v": 27411,
       "t": 3,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "treament"
+        "value": "treatment"
       }]
     },
     "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a": {
