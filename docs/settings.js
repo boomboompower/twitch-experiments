@@ -158,6 +158,7 @@ window.__twilightSettings = {
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
   "chv2_ma_cutover": [0, false],
+  "chv2_ma_deleteops_disabled": false,
   "chv2_mc_cutover": true,
   "chv2_mc_writeops_disabled": false,
   "chv2_vcml_cutover": [0, false],
@@ -356,6 +357,7 @@ window.__twilightSettings = {
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
+  "hypechat_revenue": [0, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "include_chat_timing_nonce": true,
@@ -412,6 +414,7 @@ window.__twilightSettings = {
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
+  "mv_rd": [0, false],
   "native_account_recovery": "on",
   "native_broadcast_blacklist": [],
   "native_not_me": "on",
@@ -448,7 +451,6 @@ window.__twilightSettings = {
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
-  "pogcheer_revenue": [0, true],
   "poliwag_rollout": [1, true],
   "premiere_video_manager_public": true,
   "premiere_video_manager_staff": true,
@@ -3610,13 +3612,13 @@ window.__twilightSettings = {
     },
     "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
       "name": "ru_mvw",
-      "v": 27300,
+      "v": 27426,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "treatment"
       }]
     },
@@ -5314,6 +5316,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variantC"
+      }]
+    },
+    "c86b522c-2b6c-40d6-97c2-c8912d1f8763": {
+      "name": "disco_bpli",
+      "v": 27421,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
       }]
     },
     "c8a5d390-5dcf-427f-bfc9-8ed4a3f3a6a8": {
