@@ -2707,6 +2707,18 @@ window.__twilightSettings = {
         "value": "bottom"
       }]
     },
+    "56842994-d26e-4f5c-98bd-c6970c1835a3": {
+      "name": "guest_star_left_nav_online_channel_augmentation",
+      "v": 27459,
+      "t": 1,
+      "groups": [{
+        "weight": 1,
+        "value": "holdout"
+      }, {
+        "weight": 0,
+        "value": "allowed"
+      }]
+    },
     "5684b8eb-5d61-4685-84e2-43090b32179d": {
       "name": "extensions_turn_off_for_viewers",
       "v": 5298,
