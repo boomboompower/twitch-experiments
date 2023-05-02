@@ -134,6 +134,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "ch_creators_in_community": [1, true],
+  "ch_dome": [0, false],
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
   "ch_feature_goals": [1, true],
@@ -187,7 +188,7 @@ window.__twilightSettings = {
   "com30_hydro_pump_is_dry": true,
   "com30_lil_bro_browsing_AA": false,
   "com30_lols_AA": false,
-  "com30_shapeshifting_ocp_aa": [1, false],
+  "com30_shapeshifting_ocp_aa": [0, false],
   "com30_ssoln_aa": false,
   "com30_tpc": [0, false],
   "commerce_bar_experience": "sponsored",
@@ -261,7 +262,7 @@ window.__twilightSettings = {
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
   "DMCA_Persistent_Banner_Hint": [1, false],
-  "double_phone_verification": [0, false],
+  "double_phone_verification": [1, false],
   "double_phone_verification_with_sync": [0, false],
   "drops_10_devsite_decommission": true,
   "drops_2_time_based_ui_enabled": true,
@@ -280,6 +281,7 @@ window.__twilightSettings = {
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
   "enable_vod_tool_cluster": true,
+  "engagement_dashboard": [0, true],
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
   "eu_respawn_enabled": "on",
@@ -405,6 +407,7 @@ window.__twilightSettings = {
   "membrane_channel": "",
   "membrane_channels": "[]",
   "messages_disclosure_enabled": false,
+  "midnight_in_paris": false,
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
@@ -573,7 +576,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
-  "stream_manager_default_templates": [0, false],
+  "stream_manager_default_templates": [0.2, false],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_swappable_panels": [1, true],
   "stream_manager_views_tile_query_update": [0, false],
@@ -1489,7 +1492,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 27371,
+      "v": 27489,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1501,13 +1504,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -3111,13 +3114,13 @@ window.__twilightSettings = {
     },
     "644da5b3-fe6b-40f4-b7a3-426348b228bc": {
       "name": "com30_shapeshifting_ocp",
-      "v": 26977,
+      "v": 27471,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 20,
         "value": "variant"
       }]
     },
