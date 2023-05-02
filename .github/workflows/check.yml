@@ -23,6 +23,8 @@ jobs:
 
       - run: npm install
       - run: npm run start --if-present
+        env:
+          WEBHOOK_URL: ${{ secrets.API_KEY }}
 
       - name: Commit Version
         shell: bash
