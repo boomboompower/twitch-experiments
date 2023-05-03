@@ -71,7 +71,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "branded_content_feature_flag": [0, false],
+  "branded_content_feature_flag": [1, true],
   "branded_content_gql_feature_flag_new": [1, true],
   "bs_mct_feature_flag": [0, false],
   "c2_cel_exp": [0, false],
@@ -576,7 +576,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
-  "stream_manager_default_templates": [0.2, false],
+  "stream_manager_default_templates": [0.5, false],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_swappable_panels": [1, true],
   "stream_manager_views_tile_query_update": [0, false],
@@ -5140,6 +5140,18 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "bb661986-5a54-4991-a49a-98fe3a3512c5": {
+      "name": "empty-leaderboard-cta",
+      "v": 27526,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "bd1b4ced-f031-4733-b5f5-6b9f5ce14777": {
       "name": "community-gifting-recommendation-v2.5",
       "v": 9718,
@@ -5335,7 +5347,7 @@ window.__twilightSettings = {
     },
     "c86b522c-2b6c-40d6-97c2-c8912d1f8763": {
       "name": "disco_bpli",
-      "v": 27421,
+      "v": 27528,
       "t": 2,
       "groups": [{
         "weight": 100,
