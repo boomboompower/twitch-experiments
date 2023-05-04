@@ -713,5 +713,10 @@ const productionExperiments = [
         "id": "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb",
         "name": "chat_signup_gate",
         "dateFound": "2023-04-06T01:19:44.000Z"
+    },
+    {
+        "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
+        "name": "guest_star_left_nav_online_channel_augmentation",
+        "dateFound": "2023-05-04T01:21:12.148Z"
     }
 ]

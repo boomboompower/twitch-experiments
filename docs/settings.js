@@ -325,7 +325,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
-  "guest_star_express_ftue": [0, false],
+  "guest_star_express_ftue": [0, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
@@ -576,7 +576,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
-  "stream_manager_default_templates": [0.5, false],
+  "stream_manager_default_templates": [0.8, false],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_swappable_panels": [1, true],
   "stream_manager_views_tile_query_update": [0, false],
@@ -2712,13 +2712,13 @@ window.__twilightSettings = {
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
-      "v": 27459,
+      "v": 27550,
       "t": 1,
       "groups": [{
-        "weight": 1,
+        "weight": 95,
         "value": "holdout"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "allowed"
       }]
     },
@@ -6110,6 +6110,18 @@ window.__twilightSettings = {
       }, {
         "weight": 2,
         "value": "treatment"
+      }]
+    },
+    "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f": {
+      "name": "Twilight amazon-ivs-web-broadcast API",
+      "v": 27535,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "v2"
+      }, {
+        "weight": 0,
+        "value": "v1"
       }]
     },
     "e7a13ac9-8d55-435f-a238-827032e83b31": {
