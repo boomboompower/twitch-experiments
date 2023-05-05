@@ -496,6 +496,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "c86b522c-2b6c-40d6-97c2-c8912d1f8763",
+        "name": "disco_bpli",
+        "dateFound": "2023-05-05T01:16:09.319Z"
+    },
+    {
         "id": "e51fb97f-1dcd-4ba6-8177-81a911b6bf7d",
         "name": "disco_channel_switcher_logged_in",
         "dateFound": "2022-06-15T07:19:12.000Z"

@@ -318,6 +318,7 @@ window.__twilightSettings = {
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "guest_star_advanced_audio_controls": [0, true],
   "guest_star_audio_controls": [1, false],
+  "guest_star_bug_reporting_dialog": [0, false],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
   "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
@@ -325,7 +326,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
-  "guest_star_express_ftue": [0, true],
+  "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
@@ -576,7 +577,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
-  "stream_manager_default_templates": [0.8, false],
+  "stream_manager_default_templates": [1, false],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_swappable_panels": [1, true],
   "stream_manager_views_tile_query_update": [0, false],
@@ -2950,6 +2951,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "off"
+      }]
+    },
+    "5d4d13bb-601e-43fb-8505-351966deb700": {
+      "name": "streamer_chat_ad_alerts",
+      "v": 27570,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "5e5c3b4f-81f9-4e3a-8643-5388d18222d2": {
@@ -5347,13 +5360,13 @@ window.__twilightSettings = {
     },
     "c86b522c-2b6c-40d6-97c2-c8912d1f8763": {
       "name": "disco_bpli",
-      "v": 27528,
+      "v": 27569,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant1"
       }]
     },
