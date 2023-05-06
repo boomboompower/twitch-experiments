@@ -408,7 +408,7 @@ window.__twilightSettings = {
   "membrane_channel": "",
   "membrane_channels": "[]",
   "messages_disclosure_enabled": false,
-  "midnight_in_paris": false,
+  "midnight_in_paris": true,
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
@@ -6018,13 +6018,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 27236,
+      "v": 27589,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "cbr_v1"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "cbr_v2"
       }, {
         "weight": 0,
