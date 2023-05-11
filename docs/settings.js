@@ -321,7 +321,7 @@ window.__twilightSettings = {
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "guest_star_advanced_audio_controls": [1, true],
   "guest_star_audio_controls": [1, false],
-  "guest_star_bug_reporting_dialog": [0, false],
+  "guest_star_bug_reporting_dialog": [1, true],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
   "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
@@ -642,7 +642,7 @@ window.__twilightSettings = {
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "TV2_flag": [0, false],
-  "TV2_launch_date": "2023-08-01T16:00:00.86838Z",
+  "TV2_launch_date": "2023-09-01T16:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -2734,13 +2734,13 @@ window.__twilightSettings = {
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
-      "v": 27625,
+      "v": 27630,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 80,
         "value": "holdout"
       }, {
-        "weight": 10,
+        "weight": 20,
         "value": "allowed"
       }]
     },
@@ -2794,14 +2794,41 @@ window.__twilightSettings = {
     },
     "596c83f5-e0c6-44f1-bf05-de9e0d665100": {
       "name": "checkout_ux_phase_1",
-      "v": 27599,
+      "v": 27628,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "treatment"
+        "value": "variant_a"
+      }, {
+        "weight": 0,
+        "value": "variant_b"
+      }, {
+        "weight": 0,
+        "value": "variant_c"
+      }, {
+        "weight": 0,
+        "value": "variant_d"
+      }, {
+        "weight": 0,
+        "value": "variant_e"
+      }, {
+        "weight": 0,
+        "value": "variant_f"
+      }, {
+        "weight": 0,
+        "value": "variant_g"
+      }, {
+        "weight": 0,
+        "value": "variant_h"
+      }, {
+        "weight": 0,
+        "value": "variant_i"
+      }, {
+        "weight": 0,
+        "value": "variant_j"
       }]
     },
     "59923599-4c38-478d-b930-e7f03cfd2259": {
