@@ -181,7 +181,7 @@ window.__twilightSettings = {
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [0, false],
   "cmon_chat_introduction": [1, false],
-  "cmr-flag": [0, false],
+  "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_disco_squidward_snuggles": [0, false],
@@ -2734,13 +2734,13 @@ window.__twilightSettings = {
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
-      "v": 27630,
+      "v": 27643,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 60,
         "value": "holdout"
       }, {
-        "weight": 20,
+        "weight": 40,
         "value": "allowed"
       }]
     },
@@ -3688,13 +3688,13 @@ window.__twilightSettings = {
     },
     "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
       "name": "ru_mvw",
-      "v": 27426,
+      "v": 27646,
       "t": 2,
       "groups": [{
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -5856,13 +5856,13 @@ window.__twilightSettings = {
     },
     "da034a34-736e-4c7f-9576-2113cc7ce211": {
       "name": "v6s_versions",
-      "v": 18418,
+      "v": 27644,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -6078,16 +6078,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 27589,
+      "v": 27641,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "cbr_v1"
       }, {
-        "weight": 0,
-        "value": "cbr_v2"
-      }, {
-        "weight": 0,
+        "weight": 1,
         "value": "vbr_v1"
       }]
     },
