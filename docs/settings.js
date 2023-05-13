@@ -358,7 +358,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": [],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -641,8 +641,9 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "TV2_DNR_date": "2023-09-01T16:00:00.86838Z",
   "TV2_flag": [0, false],
-  "TV2_launch_date": "2023-09-01T16:00:00.86838Z",
+  "TV2_launch_date": "2023-05-23T16:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -2734,13 +2735,13 @@ window.__twilightSettings = {
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
-      "v": 27643,
+      "v": 27659,
       "t": 1,
       "groups": [{
-        "weight": 60,
+        "weight": 50,
         "value": "holdout"
       }, {
-        "weight": 40,
+        "weight": 50,
         "value": "allowed"
       }]
     },
@@ -6078,13 +6079,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 27641,
+      "v": 27656,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 95,
         "value": "cbr_v1"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "vbr_v1"
       }]
     },
