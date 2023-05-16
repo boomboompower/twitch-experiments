@@ -161,7 +161,7 @@ window.__twilightSettings = {
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
   "chv2_ma_cutover": [0, false],
-  "chv2_ma_deleteops_disabled": false,
+  "chv2_ma_deleteops_disabled": true,
   "chv2_mc_cutover": true,
   "chv2_mc_writeops_disabled": false,
   "chv2_vcml_cutover": [0, false],
@@ -327,6 +327,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
+  "guest_star_crossover_alpha": [0, false],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
   "guest_star_express_ftue": [1, true],
@@ -358,7 +359,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "mrschimchim", "andycampbell"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -2735,13 +2736,13 @@ window.__twilightSettings = {
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
-      "v": 27659,
+      "v": 27705,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 25,
         "value": "holdout"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "allowed"
       }]
     },
@@ -3858,17 +3859,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 27623,
+      "v": 27701,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -5098,6 +5099,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "community_gift_subscribe_button"
+      }]
+    },
+    "b3a4f310-4bb5-411c-b01e-37007a97ee82": {
+      "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments_aa",
+      "v": 27698,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "b3b1b51d-85cd-40e3-a41d-7ddb6cb259da": {
@@ -6816,6 +6829,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "boost_and_cache"
+      }]
+    },
+    "fb5fbd14-1f80-4e47-b544-ca182ab389ea": {
+      "name": "alerts_house_channel",
+      "v": 27700,
+      "t": 3,
+      "groups": [{
+        "weight": 90,
+        "value": "treatment"
+      }, {
+        "weight": 10,
+        "value": "control"
       }]
     },
     "fba332ae-a178-4b73-8aed-cbc84418e83f": {
