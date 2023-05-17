@@ -572,6 +572,7 @@ window.__twilightSettings = {
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack_content_promo_v1": true,
+  "soundtrack_deprecation_notification": [0, false],
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
@@ -642,9 +643,9 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "TV2_DNR_date": "2023-09-01T16:00:00.86838Z",
+  "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [0, false],
-  "TV2_launch_date": "2023-05-23T16:00:00.86838Z",
+  "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -2736,13 +2737,13 @@ window.__twilightSettings = {
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
-      "v": 27705,
+      "v": 27743,
       "t": 1,
       "groups": [{
-        "weight": 25,
+        "weight": 1,
         "value": "holdout"
       }, {
-        "weight": 75,
+        "weight": 99,
         "value": "allowed"
       }]
     },
@@ -6092,13 +6093,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 27656,
+      "v": 27734,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "cbr_v1"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "vbr_v1"
       }]
     },
