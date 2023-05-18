@@ -640,6 +640,11 @@ const productionExperiments = [
         "dateFound": "2022-10-06T02:09:24.000Z"
     },
     {
+        "id": "596c83f5-e0c6-44f1-bf05-de9e0d665100",
+        "name": "checkout_ux_phase_1",
+        "dateFound": "2023-05-18T01:22:53.534Z"
+    },
+    {
         "id": "f47b4c5a-9351-4cb8-86da-7036f512d29c",
         "name": "venmo_us",
         "dateFound": "2022-10-14T02:41:48.000Z"

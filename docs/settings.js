@@ -359,7 +359,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "mrschimchim", "andycampbell"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbell"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -452,7 +452,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pdms_access_requests": [0, true],
+  "pdms_access_requests": [0.01, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
@@ -498,6 +498,7 @@ window.__twilightSettings = {
   "radio_fetch_soundtrack_playlist": [1, true],
   "radio_fetch_soundtrack_playlists": [1, true],
   "radio_fetch_soundtrack_tracks": [1, true],
+  "radio_modification_notification": [0, false],
   "radio_move_tracks_soundtrack_playlist": [1, true],
   "radio_remove_tracks_soundtrack_playlist": [1, true],
   "radio_soundtrack_account_link_feature_flag": [1, true],
@@ -572,7 +573,6 @@ window.__twilightSettings = {
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
   "soundtrack_content_promo_v1": true,
-  "soundtrack_deprecation_notification": [0, false],
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
@@ -663,7 +663,7 @@ window.__twilightSettings = {
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
-  "viewer_alerts_customization": [0, true],
+  "viewer_alerts_customization": [1, true],
   "viewer_milestones_enabled": true,
   "VLM_HLS_Midrolls": [1, false],
   "vod_archives_vira_grand": "on",
@@ -1499,7 +1499,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 27597,
+      "v": 27751,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1511,13 +1511,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -2797,7 +2797,7 @@ window.__twilightSettings = {
     },
     "596c83f5-e0c6-44f1-bf05-de9e0d665100": {
       "name": "checkout_ux_phase_1",
-      "v": 27628,
+      "v": 27779,
       "t": 2,
       "groups": [{
         "weight": 100,
