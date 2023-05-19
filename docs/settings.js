@@ -359,7 +359,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbell"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -2883,6 +2883,18 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "5a3c2a88-a7e6-4e75-a12d-ec7a82264351": {
+      "name": "ch_dome",
+      "v": 27846,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "5a8345e2-4ba8-4c13-a955-63e148fa7b59": {
       "name": "cutwater_embeds_upsell_gray",
       "v": 13447,
@@ -4896,6 +4908,18 @@ window.__twilightSettings = {
         "value": "async_checkout"
       }]
     },
+    "aad04371-3d53-45e3-bbf9-96ebaaf10d7f": {
+      "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments",
+      "v": 27838,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "aaf39c7b-2893-47fe-86a2-53f177b3d3b1": {
       "name": "motivation_wg_live_viewer_feedback",
       "v": 20949,
@@ -5435,13 +5459,13 @@ window.__twilightSettings = {
     },
     "c86b522c-2b6c-40d6-97c2-c8912d1f8763": {
       "name": "disco_bpli",
-      "v": 27569,
+      "v": 27833,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant1"
       }]
     },
