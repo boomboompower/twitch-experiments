@@ -134,7 +134,6 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "ch_air_park": [0, false],
   "ch_creators_in_community": [1, true],
   "ch_dome": [0, false],
   "ch_feature_auto_mod": [1, true],
@@ -452,7 +451,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pdms_access_requests": [0.01, true],
+  "pdms_access_requests": [0.05, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
@@ -1499,7 +1498,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 27751,
+      "v": 27865,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1511,13 +1510,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
