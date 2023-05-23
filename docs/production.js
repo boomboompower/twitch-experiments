@@ -728,5 +728,10 @@ const productionExperiments = [
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
         "name": "guest_star_left_nav_online_channel_augmentation",
         "dateFound": "2023-05-04T01:21:12.148Z"
+    },
+    {
+        "id": "5a3c2a88-a7e6-4e75-a12d-ec7a82264351",
+        "name": "ch_dome",
+        "dateFound": "2023-05-23T01:24:16.479Z"
     }
 ]
