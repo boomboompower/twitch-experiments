@@ -357,7 +357,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -451,7 +451,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pdms_access_requests": [0.05, true],
+  "pdms_access_requests": [0.1, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
@@ -498,7 +498,7 @@ window.__twilightSettings = {
   "radio_fetch_soundtrack_playlist": [1, true],
   "radio_fetch_soundtrack_playlists": [1, true],
   "radio_fetch_soundtrack_tracks": [1, true],
-  "radio_modification_notification": [0, false],
+  "radio_modification_notification": [1, false],
   "radio_move_tracks_soundtrack_playlist": [1, true],
   "radio_remove_tracks_soundtrack_playlist": [1, true],
   "radio_soundtrack_account_link_feature_flag": [1, true],
@@ -643,7 +643,7 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
+  "TV2_DNR_date": "2023-09-01T00:00:00.86838Z",
   "TV2_flag": [0, false],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
   "twilight_device_type": [0, true],
@@ -1850,19 +1850,19 @@ window.__twilightSettings = {
     },
     "2a78981b-6bc7-41fc-8e15-b11542f4c5c9": {
       "name": "disco_onboarding_lite",
-      "v": 27295,
+      "v": 27894,
       "t": 2,
       "groups": [{
-        "weight": 25,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "none"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "simplified"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "supercats"
       }]
     },
@@ -3142,13 +3142,13 @@ window.__twilightSettings = {
     },
     "631c9574-0e7e-4114-80f2-3c4f7c86c4da": {
       "name": "views_from_twitch_m2",
-      "v": 27411,
+      "v": 27897,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
