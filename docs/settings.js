@@ -365,6 +365,7 @@ window.__twilightSettings = {
   "hypechat_revenue": [0, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
+  "impacted_notice_banner_enabled": [0, true],
   "include_chat_timing_nonce": true,
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
@@ -644,7 +645,7 @@ window.__twilightSettings = {
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "TV2_DNR_date": "2023-09-01T00:00:00.86838Z",
-  "TV2_flag": [0, false],
+  "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -817,6 +818,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
+      }]
+    },
+    "03bb5648-89b5-4d90-a11f-b1fef426231e": {
+      "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments_gate",
+      "v": 27947,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "04283b1e-d699-43bd-8aef-d46ca7f8f97f": {
@@ -1964,6 +1977,18 @@ window.__twilightSettings = {
       }, {
         "weight": 90,
         "value": "control"
+      }]
+    },
+    "309fdabb-de65-43fe-a5c8-68ccd2f95283": {
+      "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments_ab",
+      "v": 27946,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "30a3a1c0-55bf-4c56-93b8-55fd3ed20011": {
@@ -3757,19 +3782,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 27624,
+      "v": 27943,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -3872,17 +3897,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 27701,
+      "v": 27944,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -5342,7 +5367,7 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 26957,
+      "v": 27950,
       "t": 3,
       "groups": [{
         "weight": 10,
