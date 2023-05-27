@@ -130,6 +130,7 @@ window.__twilightSettings = {
   "cf_wp_m3_search_catalog": [1, true],
   "cf_wp_m4_channel_page_integration": [1, true],
   "cf_wp_retry_count": 3,
+  "cg_pv_enable": false,
   "cg_sku_presentment_part2": true,
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
@@ -365,7 +366,7 @@ window.__twilightSettings = {
   "hypechat_revenue": [0, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
-  "impacted_notice_banner_enabled": [0, true],
+  "impacted_notice_banner_enabled": [1, true],
   "include_chat_timing_nonce": true,
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
@@ -822,13 +823,13 @@ window.__twilightSettings = {
     },
     "03bb5648-89b5-4d90-a11f-b1fef426231e": {
       "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments_gate",
-      "v": 27947,
+      "v": 27962,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -3782,19 +3783,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 27943,
+      "v": 27977,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3897,17 +3898,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 27944,
+      "v": 27976,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -4272,6 +4273,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "8fcc3f0b-f52a-41d2-b510-929f7742807e": {
+      "name": "disco_rcmd_web",
+      "v": 27979,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
       }]
     },
     "903a2a71-3cc6-489a-9f8a-3804624aeec2": {
