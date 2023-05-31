@@ -130,7 +130,6 @@ window.__twilightSettings = {
   "cf_wp_m3_search_catalog": [1, true],
   "cf_wp_m4_channel_page_integration": [1, true],
   "cf_wp_retry_count": 3,
-  "cg_pv_enable": false,
   "cg_sku_presentment_part2": true,
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
@@ -453,7 +452,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pdms_access_requests": [0.1, true],
+  "pdms_access_requests": [0.5, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
@@ -2819,6 +2818,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "Variant"
+      }]
+    },
+    "58777e5e-d828-4cef-b001-f434c0a6566a": {
+      "name": "cg_pv",
+      "v": 28021,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active"
       }]
     },
     "596c83f5-e0c6-44f1-bf05-de9e0d665100": {
