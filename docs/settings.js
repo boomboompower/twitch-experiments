@@ -162,7 +162,7 @@ window.__twilightSettings = {
   "chv2_ma_deleteops_disabled": true,
   "chv2_mc_cutover": true,
   "chv2_mc_writeops_disabled": false,
-  "chv2_vcml_cutover": [0, false],
+  "chv2_vcml_cutover": [1, true],
   "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
@@ -348,6 +348,7 @@ window.__twilightSettings = {
   "guest_star_request_to_join_private_call_out_duration": 30,
   "guest_star_request_to_join_sort": [1, true],
   "guest_star_request_to_join_vips_filter": [1, true],
+  "guest_star_responsiveness": [0, false],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
@@ -4250,6 +4251,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "8de6298f-86f1-4313-919b-52c165a503d1": {
+      "name": "new_vs_returning",
+      "v": 28056,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "8e177f68-71cc-491c-96f5-35e25db2b61d": {
       "name": "twilight_native_login",
       "v": 4351,
@@ -5631,13 +5644,13 @@ window.__twilightSettings = {
     },
     "cf51c206-6e43-4a5d-817f-a72669375f5d": {
       "name": "chat_happening_now_2023",
-      "v": 26656,
+      "v": 28052,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant"
       }]
     },
