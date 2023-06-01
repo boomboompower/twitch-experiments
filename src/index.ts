@@ -1,5 +1,5 @@
 import {resolve} from 'path';
-import {writeFileSync, readFileSync} from 'fs';
+import {writeFileSync, readFileSync, existsSync} from 'fs';
 
 import fetch from 'node-fetch';
 import {js, JSBeautifyOptions} from 'js-beautify';
@@ -11,13 +11,6 @@ const beautifierOptions: JSBeautifyOptions = {
     end_with_newline: true,
     break_chained_methods: true
 };
-
-type StoredExperiment = {
-    id: string,                 // The ID of the experiment.
-    name: string,               // The display name of the experiment
-    staffOverride?: string,     // If there is a staff override stored in twilight it will be stored here too.
-    dateFound?: string          // Called dateFound as it's just the ISO time when this was found in the experiments tab. Not necessarily the exact time it was added
-}
 
 // Stored regexes - (spade is a URL which gets updated daily but is useless to us).
 const spadeRegex = /https:\/\/video-edge-[a-z0-9]{6}\.pdx01\.abs\.hls\.ttvnw\.net\/v1\/segment\/[A-Za-z0-9_-]+\.ts/g;
@@ -42,107 +35,154 @@ function readOldExperiments() : Array<StoredExperiment> {
     }
 }
 
-(async () => {
-    // Use the dashboard for scraping
-    const value = await fetch('https://dashboard.twitch.tv');
+// Just for my own debugging. Feel free to remove.
+function postExperiment(experiment: StoredExperiment) {
+    console.log(`New experiment found: ${experiment.id}`)
 
-    // Check if we can access the website
-    if (!value.ok) {
-        console.log('Unable to fetch dashboard.');
+    // Only post if WEBHOOK_URL exists on the environment variables.
+    if (!postNewExperiments) return;
 
-        process.exit(-1);
-    }
-
-    const text = await value.text()
-
-    const configMatch = text.match(/https:\/\/static\.twitchcdn\.net\/config\/settings\.(?<js>[a-zA-Z0-9]{32})\.js/g)
-
-    if (configMatch && configMatch.length > 0) {
-        const nextFetch = await fetch(configMatch[0]);
-
-        if (nextFetch.ok) {
-            console.log('Downloading new twitch data: ', configMatch[0])
-
-            const obj = await nextFetch.text();
-
-            let configBeatified = js(obj, beautifierOptions);
-            configBeatified = configBeatified.replace(spadeRegex, 'https://boomboompower.github.io/twitch-experiments')
-
-            writeFileSync(resolve('docs', 'settings.js'), configBeatified, {encoding: 'utf8'})
-        } else {
-            console.log('Unable to fetch config file.');
-
-            process.exit(-1);
-        }
-    }
-
-    const twilightProd = text.match(/https:\/\/static\.twitchcdn\.net\/assets\/sunlight-main-(?<js>[a-zA-Z0-9]{20})\.js/g)
-
-    if (twilightProd && twilightProd.length > 0) {
-        const previousContent = readOldExperiments();
-        const nextFetch = await fetch(twilightProd[0]);
-
-        if (nextFetch.ok) {
-            console.log('Downloading new twitch sunlight data', twilightProd[0]);
-
-            const obj = js(await nextFetch.text());
-            const matches = obj.matchAll(experimentRegex);
-
-            let current = matches.next();
-            const productionExperiments: Array<StoredExperiment> = [];
-
-            while (!current.done) {
-                const oldExperiment: StoredExperiment | undefined = previousContent.find((a) => {
-                    return a.id === current.value?.groups.id
-                })
-
-                const storedExperiment: StoredExperiment = {
-                    id: current.value?.groups?.id,
-                    name: current.value?.groups?.experiment,
-                    staffOverride: current.value?.groups?.staff,
-                    dateFound: (oldExperiment === undefined || oldExperiment.dateFound === undefined ? new Date().toISOString() : oldExperiment.dateFound)
-                }
-
-                // Add new experiment object
-                productionExperiments.push(storedExperiment);
-
-                // If it's a new experiment it will not exist in the old storage.
-                if (oldExperiment === undefined) {
-                    postExperiment(storedExperiment)
-                }
-
-                current = matches.next();
-            }
-
-            // Create the cached string
-            const construction = `const productionExperiments = ${JSON.stringify(productionExperiments, null, 4)}`;
-
-            // Write to the cache
-            writeFileSync(resolve('docs', 'production.js'), construction, {encoding: 'utf8'})
-        } else {
-            console.error('No updates found for experiments.');
-        }
-    }
-
-    // Just for my own debugging. Feel free to remove.
-    function postExperiment(experiment: StoredExperiment) {
-        console.log(`New experiment found: ${experiment.id}`)
-
-        // Only post if WEBHOOK_URL exists on the environment variables.
-        if (!postNewExperiments) return;
-
-        fetch(process.env.WEBHOOK_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({'embeds': [
+    fetch(process.env.WEBHOOK_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({'embeds': [
                 {'title': `New Experiment - ${experiment.name}`, 'color': 65450, 'description': `A new experiment \`${experiment.name}\` has been added`,
                     'fields': [{'name': 'ID', 'value': experiment.id, 'inline': true}, {'name': 'Link', 'value': '[Goto](https://github.com/boomboompower/twitch-experiments/commits/main)', 'inline': true}]
                 }]
-            })
-        }).catch((e: Error) => {
-            console.error('An error occurred whilst posting to WEBHOOK_URL ', e.message)
-        });
+        })
+    }).catch((e: Error) => {
+        console.error('An error occurred whilst posting to WEBHOOK_URL ', e.message)
+    });
+}
+
+/**
+ * Fetches the latest settings.json file from twitch.
+ */
+async function checkLatestSettings() {
+    const settingsFetch = await fetch(`https://static.twitchcdn.net/config/settings.json?cachebust=${Math.floor(Math.random() * 100) + 40}`);
+
+    if (settingsFetch.ok) {
+        console.log('Downloading new twitch data: ', 'https://static.twitchcdn.net/config/settings.json')
+
+        const obj = await settingsFetch.text();
+
+        let configBeatified = js(obj, beautifierOptions);
+        configBeatified = configBeatified.replace(spadeRegex, 'https://boomboompower.github.io/twitch-experiments')
+
+        writeFileSync(resolve('docs', 'settings.js'), configBeatified, {encoding: 'utf8'})
+
+        return true;
+    } else {
+        console.log('Unable to fetch config file.');
+
+        return false;
     }
+}
+
+/**
+ * Fetches the latest main sunlight file from twitch. Based on the most recent build info.
+ *
+ * @param buildInfo the latest build info.
+ */
+async function checkLatestExperiments(buildInfo: BuildInfo) {
+    const twilightProd = buildInfo.releases[0].files.find((file: string) => {
+        return file.startsWith('assets/core-') && file.endsWith('.js')
+    })
+
+    if (!twilightProd) {
+        console.error('No updates found for experiments.');
+
+        return false;
+    }
+
+    const previousContent = readOldExperiments();
+    const nextFetch = await fetch(`https://static.twitchcdn.net/${twilightProd}`);
+
+    if (!nextFetch.ok) {
+        return false;
+    }
+
+    console.log('Downloading new twitch sunlight data', twilightProd);
+
+    const obj = js(await nextFetch.text());
+    const matches = obj.matchAll(experimentRegex);
+
+    let current = matches.next();
+    const productionExperiments: Array<StoredExperiment> = [];
+
+    while (!current.done) {
+        const oldExperiment: StoredExperiment | undefined = previousContent.find((a) => {
+            return a.id === current.value?.groups.id
+        })
+
+        const storedExperiment: StoredExperiment = {
+            id: current.value?.groups?.id,
+            name: current.value?.groups?.experiment,
+            staffOverride: current.value?.groups?.staff,
+            dateFound: (oldExperiment === undefined || oldExperiment.dateFound === undefined ? new Date().toISOString() : oldExperiment.dateFound)
+        }
+
+        // Add new experiment object
+        productionExperiments.push(storedExperiment);
+
+        // If it's a new experiment it will not exist in the old storage.
+        if (oldExperiment === undefined) {
+            postExperiment(storedExperiment)
+        }
+
+        current = matches.next();
+    }
+
+    // Create the cached string
+    const construction = `const productionExperiments = ${JSON.stringify(productionExperiments, null, 4)}`;
+
+    // Write to the cache
+    writeFileSync(resolve('docs', 'production.js'), construction, {encoding: 'utf8'});
+
+    return true;
+}
+
+/**
+ * Runs the checker. Checks if an update has been found. If not halts.
+ */
+(async () => {
+    const latestBuild = await fetch('https://static.twitchcdn.net/config/manifest.json?v=1').then(async (o) => {
+        return await o.json();
+    });
+
+    if (!latestBuild || !latestBuild.channels || latestBuild.channels.length === 0) {
+        console.error('No latest twilight data found.')
+
+        return;
+    }
+
+    const buildInfo: BuildInfo = latestBuild.channels[0] as BuildInfo;
+    const newestBuild = `${buildInfo.releases[0].buildId}`;
+
+    if (existsSync('docs/version.txt')) {
+        let lastBuild = readFileSync('docs/version.txt', {encoding: 'utf8'}).trim();
+
+        if (newestBuild === lastBuild) {
+            console.log('no new build')
+
+            return;
+        }
+    }
+
+    console.info(`New build detected ${newestBuild}`)
+
+    writeFileSync('docs/version.txt', newestBuild, {encoding: 'utf8'})
+    writeFileSync('docs/time.txt', new Date(buildInfo.releases[0].created).toLocaleString('en-GB', {year: 'numeric', month: 'long', day: 'numeric'}), {encoding: 'utf8'})
+
+    if (!await checkLatestSettings()) {
+        return;
+    }
+
+    if (!await checkLatestExperiments(buildInfo)) {
+        return;
+    }
+
+    console.log('Successfully handled new build!')
 })();

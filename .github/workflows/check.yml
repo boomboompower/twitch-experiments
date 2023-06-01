@@ -26,6 +26,18 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
 
+      - name: Read Version
+        id: version
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./docs/version.txt
+
+      - name: Read Release Time
+        id: time
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./docs/time.txt
+
       - name: Commit Version
         shell: bash
         run: |
@@ -34,7 +46,7 @@ jobs:
           git add docs/settings.js
           git add docs/production.js
           if [ "${{ github.event.inputs.message }}" == "" ]; then
-            git commit -m "Automated Update ${{ github.run_number }}"
+            git commit -m "${{ steps.time.outputs.content }} - New Build ${{ steps.version.outputs.content }}"
           else
             git commit -m "${{ github.event.inputs.message }}"
           fi
