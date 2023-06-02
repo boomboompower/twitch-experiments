@@ -64,7 +64,7 @@ async function checkLatestSettings() {
     const settingsFetch = await fetch(`https://static.twitchcdn.net/config/settings.json?cachebust=${Math.floor(Math.random() * 100) + 40}`);
 
     if (settingsFetch.ok) {
-        console.log('Downloading new twitch data: ', 'https://static.twitchcdn.net/config/settings.json')
+        console.log('Downloading new twitch data: ', 'https://static.twitchcdn.net/config/settings.js')
 
         const obj = await settingsFetch.text();
 
