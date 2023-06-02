@@ -162,7 +162,7 @@ async function checkLatestExperiments(buildInfo: BuildInfo) {
     const newestBuild = `${buildInfo.releases[0].buildId}`;
 
     if (existsSync('docs/version.txt')) {
-        let lastBuild = readFileSync('docs/version.txt', {encoding: 'utf8'}).trim();
+        const lastBuild = readFileSync('docs/version.txt', {encoding: 'utf8'}).trim();
 
         if (newestBuild === lastBuild) {
             console.log('no new build')

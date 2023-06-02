@@ -6,10 +6,10 @@ type StoredExperiment = {
 }
 
 type ReleaseInfo = {
-    buildId: string,
+    buildId: string,            // The random ID of this build
     created: number,
     files: Array<string>,
-    stage: "live"
+    stage: 'live'
 }
 
 type BuildInfo = {
@@ -18,5 +18,5 @@ type BuildInfo = {
     updated: number,
     primary: boolean,
     active: boolean,
-    releases: Array<ReleaseInfo>
+    releases: ReleaseInfo[]     // update_chunks
 }
