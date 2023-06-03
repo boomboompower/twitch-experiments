@@ -1,7 +1,7 @@
 import {resolve} from 'path';
 import {writeFileSync, readFileSync, existsSync} from 'fs';
 
-import fetch from 'node-fetch';
+import {default as fetchLegacy, RequestInit, Response} from 'node-fetch';
 import {js, JSBeautifyOptions} from 'js-beautify';
 
 // Stored beautifier options
@@ -20,6 +20,25 @@ const experimentRegex = / +(var [a-z] = \(\([a-z] = {}\)|[a-z])(\n +)?(\.|\[")(?
 // If a webhook url is provided, new experiments will be sent here.
 const postNewExperiments = process.env.WEBHOOK_URL !== undefined;
 
+// Override fetch to log when a request is being made.
+async function fetch(url: string, info?: RequestInit) : Promise<Response> {
+    const isSecret = url === process.env.WEBHOOK_URL;
+
+    if (isSecret) {
+        return fetchLegacy(url, info);
+    }
+
+    // Print out fetch
+    process.stdout.write(`Fetching ${url}`)
+
+    const resp = await fetchLegacy(url, info)
+
+    // Print out response code.
+    process.stdout.write(` - ${resp.status}: ${resp.statusText}\n`)
+
+    return resp;
+}
+
 function readOldExperiments() : Array<StoredExperiment> {
     try {
         let oldJSON = readFileSync(resolve('docs', 'production.js'), {encoding: 'utf8'})
@@ -37,7 +56,7 @@ function readOldExperiments() : Array<StoredExperiment> {
 
 // Just for my own debugging. Feel free to remove.
 function postExperiment(experiment: StoredExperiment) {
-    console.log(`New experiment found: ${experiment.id}`)
+    console.log(`New experiment found: ${experiment.id} - ${experiment.name}`)
 
     // Only post if WEBHOOK_URL exists on the environment variables.
     if (!postNewExperiments) return;
@@ -61,11 +80,9 @@ function postExperiment(experiment: StoredExperiment) {
  * Fetches the latest settings.json file from twitch.
  */
 async function checkLatestSettings() {
-    const settingsFetch = await fetch(`https://static.twitchcdn.net/config/settings.json?cachebust=${Math.floor(Math.random() * 100) + 40}`);
+    const settingsFetch = await fetch(`https://static.twitchcdn.net/config/settings.js?cachebust=${Math.floor(Math.random() * 100) + 40}`);
 
     if (settingsFetch.ok) {
-        console.log('Downloading new twitch data: ', 'https://static.twitchcdn.net/config/settings.js')
-
         const obj = await settingsFetch.text();
 
         let configBeatified = js(obj, beautifierOptions);
@@ -103,8 +120,6 @@ async function checkLatestExperiments(buildInfo: BuildInfo) {
     if (!nextFetch.ok) {
         return false;
     }
-
-    console.log('Downloading new twitch sunlight data', twilightProd);
 
     const obj = js(await nextFetch.text());
     const matches = obj.matchAll(experimentRegex);
