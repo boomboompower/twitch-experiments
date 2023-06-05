@@ -456,7 +456,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pdms_access_requests": [0.5, true],
+  "pdms_access_requests": [1, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
