@@ -838,13 +838,13 @@ window.__twilightSettings = {
     },
     "03bb5648-89b5-4d90-a11f-b1fef426231e": {
       "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments_gate",
-      "v": 27962,
+      "v": 28112,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant"
       }]
     },
