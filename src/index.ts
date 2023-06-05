@@ -1,8 +1,8 @@
 import {resolve} from 'path';
 import {writeFileSync, readFileSync, existsSync} from 'fs';
 
-import {default as fetchLegacy, RequestInit, Response} from 'node-fetch';
 import {js, JSBeautifyOptions} from 'js-beautify';
+import {fetch, formatTime, postExperiment} from './utils';
 
 // Stored beautifier options
 const beautifierOptions: JSBeautifyOptions = {
@@ -17,64 +17,53 @@ const spadeRegex = /https:\/\/video-edge-[a-z0-9]{6}\.pdx01\.abs\.hls\.ttvnw\.ne
 // A regex to extract the pattern of the experiments in the main sunlight bundle.
 const experimentRegex = / +(var [a-z] = \(\([a-z] = {}\)|[a-z])(\n +)?(\.|\[")(?<experiment>[0-9a-zA-Z_\-.]+)("])? = {\n +id: "(?<id>[0-9A-Za-z-_]+)",\n +default: "[0-9A-Za-z-_ ]+",?(\n +staffOverride: "(?<staff>[0-9A-Za-z-_ ]+)")?\n +}/gm;
 
-// If a webhook url is provided, new experiments will be sent here.
-const postNewExperiments = process.env.WEBHOOK_URL !== undefined;
 
-// Override fetch to log when a request is being made.
-async function fetch(url: string, info?: RequestInit) : Promise<Response> {
-    const isSecret = url === process.env.WEBHOOK_URL;
-
-    if (isSecret) {
-        return fetchLegacy(url, info);
-    }
-
-    // Print out fetch
-    process.stdout.write(`Fetching ${url}`)
-
-    const resp = await fetchLegacy(url, info)
-
-    // Print out response code.
-    process.stdout.write(` - ${resp.status}: ${resp.statusText}\n`)
-
-    return resp;
-}
-
-function readOldExperiments() : Array<StoredExperiment> {
-    try {
-        let oldJSON = readFileSync(resolve('docs', 'production.js'), {encoding: 'utf8'})
-
-        // we want to parse it as JSON to avoid using eval.
-        oldJSON = oldJSON.substring('const productionExperiments = '.length);
-
-        return JSON.parse(oldJSON)
-    } catch (e) {
-        console.error('Failed to read old production data. ', e)
-
-        return [];
-    }
-}
-
-// Just for my own debugging. Feel free to remove.
-function postExperiment(experiment: StoredExperiment) {
-    console.log(`New experiment found: ${experiment.id} - ${experiment.name}`)
-
-    // Only post if WEBHOOK_URL exists on the environment variables.
-    if (!postNewExperiments) return;
-
-    fetch(process.env.WEBHOOK_URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({'embeds': [
-                {'title': `New Experiment - ${experiment.name}`, 'color': 65450, 'description': `A new experiment \`${experiment.name}\` has been added`,
-                    'fields': [{'name': 'ID', 'value': experiment.id, 'inline': true}, {'name': 'Link', 'value': '[Goto](https://github.com/boomboompower/twitch-experiments/commits/main)', 'inline': true}]
-                }]
-        })
-    }).catch((e: Error) => {
-        console.error('An error occurred whilst posting to WEBHOOK_URL ', e.message)
+/**
+ * Runs the checker. Checks if an update has been found. If not halts.
+ */
+(async () => {
+    const latestBuild = await fetch('https://static.twitchcdn.net/config/manifest.json?v=1').then(async (o) => {
+        return await o.json();
     });
-}
+
+    if (!latestBuild || !latestBuild.channels || latestBuild.channels.length === 0) {
+        console.error('Latest twilight data not found!!!')
+
+        return;
+    }
+
+    const buildInfo: BuildInfo = latestBuild.channels[0] as BuildInfo;
+    const updatedAt = `Updated: ${formatTime(buildInfo.updated, true)}`;
+    const newestBuild = `${buildInfo.releases[0].buildId}\n${updatedAt}`;
+
+    if (existsSync('docs/version.txt')) {
+        const lastBuild = readFileSync('docs/version.txt', {encoding: 'utf8'}).trim();
+
+        if (newestBuild === lastBuild) {
+            console.log('No new build found - Build number & update time matched.')
+
+            return;
+        }
+    }
+
+    const formattedDate = formatTime(buildInfo.releases[0].created);
+
+    console.info(`New build detected ${newestBuild}`)
+
+    writeFileSync('docs/version.txt', newestBuild, {encoding: 'utf8'})
+    writeFileSync('docs/time.txt', `${formattedDate}`, {encoding: 'utf8'})
+
+    if (!await checkLatestSettings()) {
+        return;
+    }
+
+    if (!await checkLatestExperiments(buildInfo)) {
+        return;
+    }
+
+    console.log('Successfully handled new build!')
+})();
+
 
 /**
  * Fetches the latest settings.json file from twitch.
@@ -132,6 +121,7 @@ async function checkLatestExperiments(buildInfo: BuildInfo) {
             return a.id === current.value?.groups.id
         })
 
+        // construct an experiment object
         const storedExperiment: StoredExperiment = {
             id: current.value?.groups?.id,
             name: current.value?.groups?.experiment,
@@ -159,45 +149,17 @@ async function checkLatestExperiments(buildInfo: BuildInfo) {
     return true;
 }
 
-/**
- * Runs the checker. Checks if an update has been found. If not halts.
- */
-(async () => {
-    const latestBuild = await fetch('https://static.twitchcdn.net/config/manifest.json?v=1').then(async (o) => {
-        return await o.json();
-    });
+function readOldExperiments() : Array<StoredExperiment> {
+    try {
+        let oldJSON = readFileSync(resolve('docs', 'production.js'), {encoding: 'utf8'})
 
-    if (!latestBuild || !latestBuild.channels || latestBuild.channels.length === 0) {
-        console.error('No latest twilight data found.')
+        // we want to parse it as JSON to avoid using eval.
+        oldJSON = oldJSON.substring('const productionExperiments = '.length);
 
-        return;
+        return JSON.parse(oldJSON)
+    } catch (e) {
+        console.error('Failed to read old production data. ', e)
+
+        return [];
     }
-
-    const buildInfo: BuildInfo = latestBuild.channels[0] as BuildInfo;
-    const newestBuild = `${buildInfo.releases[0].buildId}`;
-
-    if (existsSync('docs/version.txt')) {
-        const lastBuild = readFileSync('docs/version.txt', {encoding: 'utf8'}).trim();
-
-        if (newestBuild === lastBuild) {
-            console.log('no new build')
-
-            return;
-        }
-    }
-
-    console.info(`New build detected ${newestBuild}`)
-
-    writeFileSync('docs/version.txt', newestBuild, {encoding: 'utf8'})
-    writeFileSync('docs/time.txt', new Date(buildInfo.releases[0].created).toLocaleString('en-GB', {year: 'numeric', month: 'long', day: 'numeric'}), {encoding: 'utf8'})
-
-    if (!await checkLatestSettings()) {
-        return;
-    }
-
-    if (!await checkLatestExperiments(buildInfo)) {
-        return;
-    }
-
-    console.log('Successfully handled new build!')
-})();
+}

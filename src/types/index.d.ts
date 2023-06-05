@@ -7,16 +7,16 @@ type StoredExperiment = {
 
 type ReleaseInfo = {
     buildId: string,            // The random ID of this build
-    created: number,
-    files: Array<string>,
-    stage: 'live'
+    created: number,            // The UNIX time for when twilight was created
+    files: Array<string>,       // A list of entry files for the site.
+    stage: 'live'               // The stage - 'live', 'staging', 'dev'
 }
 
 type BuildInfo = {
-    id: string,
-    created: number,
-    updated: number,
-    primary: boolean,
-    active: boolean,
+    id: string,                 // the identifier for this build
+    created: number,            // the time this build was created
+    updated: number,            // the time this build was updated
+    primary: boolean,           // false - unknown value
+    active: boolean,            // will always be true if latest release
     releases: ReleaseInfo[]     // update_chunks
 }
