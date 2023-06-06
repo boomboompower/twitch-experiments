@@ -366,7 +366,6 @@ window.__twilightSettings = {
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
-  "hypechat_revenue": [0, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [1, true],
@@ -561,6 +560,7 @@ window.__twilightSettings = {
   "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
+  "signup_restricted_country_code": [],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
@@ -1512,18 +1512,6 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant1"
-      }]
-    },
-    "1cd79823-d99e-4874-85a6-bf5d8dffccc3": {
-      "name": "bl3_suggested",
-      "v": 8179,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "sugg_tags"
       }]
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
@@ -2838,14 +2826,14 @@ window.__twilightSettings = {
     },
     "58777e5e-d828-4cef-b001-f434c0a6566a": {
       "name": "cg_pv",
-      "v": 28021,
+      "v": 28158,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "active"
+        "value": "treatment"
       }]
     },
     "596c83f5-e0c6-44f1-bf05-de9e0d665100": {
@@ -3102,18 +3090,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 30,
-        "value": "variant"
-      }]
-    },
-    "5e8985ec-6c1e-4b0b-be6a-1dd9ac6c5edf": {
-      "name": "disco_simplify_logged_out_channel_page",
-      "v": 18679,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
         "value": "variant"
       }]
     },
@@ -3374,18 +3350,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "6a7ad315-a7ee-4feb-a0ab-887b12710f82": {
-      "name": "disco_hol_up",
-      "v": 7474,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
       }]
     },
     "6a7c6d6c-09fa-444e-9192-badfaddde36b": {
@@ -5536,8 +5500,9 @@ window.__twilightSettings = {
     },
     "c86b522c-2b6c-40d6-97c2-c8912d1f8763": {
       "name": "disco_bpli",
-      "v": 27878,
+      "v": 28129,
       "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 75,
         "value": "control"
@@ -6592,11 +6557,11 @@ window.__twilightSettings = {
     },
     "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
       "name": "is-user-in-friendly-fraud-group",
-      "v": 27116,
+      "v": 28136,
       "t": 2,
       "groups": [{
         "weight": 100,
-        "value": "holdout"
+        "value": "control"
       }, {
         "weight": 0,
         "value": "friendly_fraud_model"
