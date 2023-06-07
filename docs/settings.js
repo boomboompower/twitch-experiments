@@ -100,7 +100,7 @@ window.__twilightSettings = {
   "cep_enabled": [0, false],
   "cf_allow_editors_on_clips_manager": [1, false],
   "cf_allow_staff_on_clips_manager": [1, false],
-  "cf_checkbox_graffiti_to_skribbl_migration": false,
+  "cf_checkbox_graffiti_to_skribbl_migration": true,
   "cf_clip_title_maintenance": false,
   "cf_do_you_like_tuna": [1, true],
   "cf_goals_customizations_color": [1, false],
@@ -274,6 +274,7 @@ window.__twilightSettings = {
   "drops_2_user_whitelist": ["25009227", "miri", "cam", "skeltonath", "oroga", "ampt", "butterk2", "rileyjar", "ocean__floor", "cnepetertest", "cnegames", "pennyarcade", "VektorTa", "massiccia", "cicciamassiccia", "ciccia", "new_drops_tester", "cnepetertestviewer", "cado", "overseer_alpha_test", "angela_", "solidsnackdrive", "cnepeter", "CNE_Shawn", "cne_margaret", "levelplane", "CNEMark", "miritest1"],
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
+  "drops_v3_beta": [],
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
@@ -536,6 +537,7 @@ window.__twilightSettings = {
   "rooms_deprecation_selector_hidden": true,
   "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US", "AI", "AL", "AM", "AN", "AZ", "BA", "BD", "BG", "BI", "BJ", "BL", "BV", "BW", "CC", "CF", "CK", "CN", "CV", "CX", "CZ", "DO", "DZ", "EE", "EG", "EH", "ER", "FK", "GE", "GF", "GH", "GL", "GM", "GN", "GQ", "GS", "GW", "HK", "HM", "IN", "IS", "JO", "KE", "KG", "KH", "KI", "KM", "KZ", "LA", "LS", "LU", "LV", "LY", "MA", "MD", "MH", "ML", "MR", "MS", "MV", "MW", "NF", "NP", "NR", "NU", "PG", "PH", "PK", "PL", "PM", "PN", "PS", "PT", "RO", "SB", "SC", "SH", "SJ", "SL", "SO", "SS", "ST", "TD", "TF", "TG", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TV", "UM", "UZ", "VA", "VC", "VG", "VN", "VU", "WF", "WS", "YE", "YT", "ET"],
   "rpt_messaging": true,
+  "rtj_pause_resume_buttons_enabled": [0, false],
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
@@ -632,6 +634,7 @@ window.__twilightSettings = {
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
   "talk_gs_bs_audio_customization": [1, true],
+  "talk_gs_join_session_tokens": [0, false],
   "talk_gs_mod_access": [1, false],
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
@@ -2838,7 +2841,7 @@ window.__twilightSettings = {
     },
     "596c83f5-e0c6-44f1-bf05-de9e0d665100": {
       "name": "checkout_ux_phase_1",
-      "v": 27779,
+      "v": 28184,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -2870,9 +2873,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_i"
-      }, {
-        "weight": 0,
-        "value": "variant_j"
       }]
     },
     "59923599-4c38-478d-b930-e7f03cfd2259": {
@@ -3889,17 +3889,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 27976,
+      "v": 28177,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
