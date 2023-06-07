@@ -700,11 +700,6 @@ const productionExperiments = [
         "dateFound": "2023-01-13T01:39:25.000Z"
     },
     {
-        "id": "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c",
-        "name": "ru_mvw",
-        "dateFound": "2023-04-04T01:25:44.000Z"
-    },
-    {
         "id": "a79fd789-8561-450e-881e-133517728556",
         "name": "csai_preroll_pbyp_exp",
         "dateFound": "2023-04-05T01:09:42.000Z"
@@ -733,6 +728,11 @@ const productionExperiments = [
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
         "name": "guest_star_left_nav_online_channel_augmentation",
         "dateFound": "2023-05-04T01:21:12.148Z"
+    },
+    {
+        "id": "58777e5e-d828-4cef-b001-f434c0a6566a",
+        "name": "cg_pv",
+        "dateFound": "2023-06-07T20:12:59.990Z"
     },
     {
         "id": "5a3c2a88-a7e6-4e75-a12d-ec7a82264351",

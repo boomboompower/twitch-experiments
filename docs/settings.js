@@ -261,7 +261,6 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disable_swl": false,
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -393,7 +392,6 @@ window.__twilightSettings = {
   "low_trust_users_rollout_enabled": false,
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
-  "lynx_release": "2023-04-18T19:20:55.267Z",
   "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
@@ -651,7 +649,7 @@ window.__twilightSettings = {
   "time-to-stream-feature-flag": [1, true],
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "TV2_DNR_date": "2023-09-01T00:00:00.86838Z",
+  "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
   "twilight_device_type": [0, true],
@@ -3718,18 +3716,6 @@ window.__twilightSettings = {
         "value": "enabled"
       }]
     },
-    "7b2a2b20-2dcb-4264-88f6-2b0b2cd8692c": {
-      "name": "ru_mvw",
-      "v": 27646,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
-      }]
-    },
     "7b360704-69ee-4423-b2dd-74310f4856cf": {
       "name": "cecg_stream_summary_email_aatest",
       "v": 22049,
@@ -5355,6 +5341,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
+      }]
+    },
+    "bfcc8d0e-7cc5-41df-88ee-32915e0be9b0": {
+      "name": "af_palkia",
+      "v": 28203,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "c0cc65fb-a706-4f0c-bac4-d92520780a30": {
