@@ -273,7 +273,7 @@ window.__twilightSettings = {
   "drops_2_user_whitelist": ["25009227", "miri", "cam", "skeltonath", "oroga", "ampt", "butterk2", "rileyjar", "ocean__floor", "cnepetertest", "cnegames", "pennyarcade", "VektorTa", "massiccia", "cicciamassiccia", "ciccia", "new_drops_tester", "cnepetertestviewer", "cado", "overseer_alpha_test", "angela_", "solidsnackdrive", "cnepeter", "CNE_Shawn", "cne_margaret", "levelplane", "CNEMark", "miritest1"],
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
-  "drops_v3_beta": [],
+  "drops_v3_dev_console": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
@@ -366,6 +366,7 @@ window.__twilightSettings = {
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
+  "hypechat_revenue": [0, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [1, true],
@@ -5381,13 +5382,13 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 27950,
+      "v": 28208,
       "t": 3,
       "groups": [{
-        "weight": 10,
+        "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }]
     },
