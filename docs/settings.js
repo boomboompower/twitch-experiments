@@ -804,7 +804,7 @@ window.__twilightSettings = {
     },
     "033ddc81-63cf-4e40-a9dc-440df0537f30": {
       "name": "one_click_paid_pinned_chat",
-      "v": 28073,
+      "v": 28240,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -949,6 +949,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "098aed3b-5c49-414f-b53a-d22cbc89cd90": {
+      "name": "brand_lift_survey_experiment_1",
+      "v": 28222,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
+      }, {
+        "weight": 0,
+        "value": "variant_2"
       }]
     },
     "09fe28c4-fb9a-4242-ad47-4cfb7f3da6af": {
@@ -1514,6 +1529,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant1"
+      }]
+    },
+    "1e5baf33-feb3-4f1b-a701-ba9c1f8b0c1f": {
+      "name": "kylmella_test_experiment",
+      "v": 28224,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 20,
+        "value": "test"
       }]
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
