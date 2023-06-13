@@ -572,6 +572,7 @@ window.__twilightSettings = {
   "skins_show_on_front_page": [1, true],
   "skins_show_to_channel_ad_free": true,
   "skins_show_to_turbo": false,
+  "skyscraper_kill_switch": false,
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
   "smode_rollout_enabled": true,
@@ -3800,7 +3801,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 28265,
+      "v": 28290,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3809,10 +3810,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3915,17 +3916,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 28266,
+      "v": 28289,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
