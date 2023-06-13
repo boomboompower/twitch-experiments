@@ -2081,7 +2081,7 @@ window.__twilightSettings = {
     },
     "314d0261-c546-4b5a-848d-3d371fec8515": {
       "name": "during_ad_messaging_eligibility",
-      "v": 27608,
+      "v": 28271,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -2092,9 +2092,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "iteration2"
-      }, {
-        "weight": 0,
-        "value": "iteration3"
       }]
     },
     "32841811-2c64-41dd-b7b0-bd5fd5cd3a12": {
@@ -3117,6 +3114,21 @@ window.__twilightSettings = {
       }, {
         "weight": 30,
         "value": "variant"
+      }]
+    },
+    "5f5676ea-fa4f-40f7-89bd-c4143e1efdd2": {
+      "name": "mktg_alerts_remind",
+      "v": 28268,
+      "t": 1,
+      "groups": [{
+        "weight": 10,
+        "value": "Control"
+      }, {
+        "weight": 45,
+        "value": "Variant A"
+      }, {
+        "weight": 45,
+        "value": "Variant B"
       }]
     },
     "5fd568be-2073-4f99-84d5-565e8b2a3343": {
@@ -5650,8 +5662,9 @@ window.__twilightSettings = {
     },
     "cf51c206-6e43-4a5d-817f-a72669375f5d": {
       "name": "chat_happening_now_2023",
-      "v": 28052,
+      "v": 28270,
       "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 80,
         "value": "control"
@@ -6185,14 +6198,14 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 28250,
+      "v": 28269,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "cbr_v1"
       }, {
-        "weight": 0,
-        "value": "vbr_v1"
+        "weight": 1,
+        "value": "cbr_v2"
       }]
     },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {
