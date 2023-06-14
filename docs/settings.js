@@ -366,7 +366,6 @@ window.__twilightSettings = {
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
-  "hypechat_revenue": [0, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [1, true],
@@ -6199,13 +6198,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 28275,
+      "v": 28300,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "cbr_v1"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "cbr_v2"
       }]
     },
