@@ -748,5 +748,10 @@ const productionExperiments = [
         "id": "033ddc81-63cf-4e40-a9dc-440df0537f30",
         "name": "one_click_paid_pinned_chat",
         "dateFound": "2023-06-03T02:14:00.394Z"
+    },
+    {
+        "id": "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3",
+        "name": "auto_mod_smart_detection",
+        "dateFound": "2023-06-15T20:13:07.912Z"
     }
 ]

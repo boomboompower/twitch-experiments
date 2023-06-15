@@ -634,7 +634,7 @@ window.__twilightSettings = {
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
   "talk_gs_bs_audio_customization": [1, true],
-  "talk_gs_join_session_tokens": [0, false],
+  "talk_gs_join_session_tokens": [0, true],
   "talk_gs_mod_access": [1, false],
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
