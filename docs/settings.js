@@ -2899,6 +2899,18 @@ window.__twilightSettings = {
         "value": "variant_i"
       }]
     },
+    "598cd82d-b6a4-45d4-a8cf-e9a6ebc0686c": {
+      "name": "adm_geometry_window_focus",
+      "v": 28348,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "59923599-4c38-478d-b930-e7f03cfd2259": {
       "name": "CSI_LOOK_WHAT_YOU_MADE_ME_DO",
       "v": 5521,
