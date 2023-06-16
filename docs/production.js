@@ -750,6 +750,11 @@ const productionExperiments = [
         "dateFound": "2023-06-03T02:14:00.394Z"
     },
     {
+        "id": "bb661986-5a54-4991-a49a-98fe3a3512c5",
+        "name": "empty-leaderboard-cta",
+        "dateFound": "2023-06-16T20:13:14.347Z"
+    },
+    {
         "id": "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3",
         "name": "auto_mod_smart_detection",
         "dateFound": "2023-06-15T20:13:07.912Z"
