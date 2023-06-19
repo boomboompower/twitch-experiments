@@ -483,7 +483,7 @@ window.__twilightSettings = {
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
   "project_leviosa": [0, false],
-  "Project_Polaris": [0.4, true],
+  "Project_Polaris": [0.5, true],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
