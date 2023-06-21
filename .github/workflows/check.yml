@@ -21,6 +21,15 @@ jobs:
           node-version: 16.x
           cache: npm
 
+      - name: Restore Cached Versions
+        id: cache-version-restore
+        uses: actions/cache/restore@v3
+        with:
+          path: |
+            docs/time.txt
+            docs/version.txt
+          key: ${{ runner.os }}-versions
+
       - run: npm install
       - run: npm run start --if-present
         env:
@@ -43,8 +52,6 @@ jobs:
         run: |
           git config --global user.name 'github-bot'
           git config --global user.email '6031226+github-bot@users.noreply.github.com'
-          git add docs/version.txt
-          git add docs/time.txt
           git add docs/settings.js
           git add docs/production.js
           if [ "${{ github.event.inputs.message }}" == "" ]; then
@@ -54,6 +61,17 @@ jobs:
           fi
           git push
         continue-on-error: true
+
+      - name: Save Versions to Cache
+        if: success() || failure()
+        id: cache-versions-save
+        uses: actions/cache/save@v3
+        with:
+          path: |
+            docs/time.txt
+            docs/version.txt
+          key: ${{ steps.cache-version-restore.outputs.cache-primary-key }}
+
       - name: Done
         run: |
           echo Goodbye!
