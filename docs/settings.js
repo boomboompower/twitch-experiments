@@ -807,13 +807,13 @@ window.__twilightSettings = {
     },
     "033ddc81-63cf-4e40-a9dc-440df0537f30": {
       "name": "one_click_paid_pinned_chat",
-      "v": 28240,
+      "v": 28470,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -2964,13 +2964,13 @@ window.__twilightSettings = {
     },
     "5a3c2a88-a7e6-4e75-a12d-ec7a82264351": {
       "name": "ch_dome",
-      "v": 27846,
+      "v": 28475,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 67,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant"
       }]
     },

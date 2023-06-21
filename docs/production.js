@@ -60,6 +60,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "f8c43aed-0b0e-47bf-88db-5f188bac2922",
+        "name": "bits_simplified_purchase",
+        "dateFound": "2023-06-21T20:13:22.759Z"
+    },
+    {
         "id": "faccc9c6-d6b3-4723-94a3-a2976a73ec9e",
         "name": "consent_tool_headline",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -728,6 +733,11 @@ const productionExperiments = [
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
         "name": "guest_star_left_nav_online_channel_augmentation",
         "dateFound": "2023-05-04T01:21:12.148Z"
+    },
+    {
+        "id": "314d0261-c546-4b5a-848d-3d371fec8515",
+        "name": "during_ad_messaging_eligibility",
+        "dateFound": "2023-06-21T20:13:22.761Z"
     },
     {
         "id": "58777e5e-d828-4cef-b001-f434c0a6566a",
