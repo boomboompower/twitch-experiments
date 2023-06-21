@@ -73,7 +73,7 @@ window.__twilightSettings = {
   "bounty_board_promotions_enabled": [1, true],
   "branded_content_feature_flag": [1, true],
   "branded_content_gql_feature_flag_new": [1, true],
-  "bs_mct_feature_flag": [0.5, false],
+  "bs_mct_feature_flag": [1, false],
   "bs_mct_gql_gate": [1, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -252,6 +252,8 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
+  "dev_holiday_banner_end_date": "2023-07-10T08:00:00Z",
+  "dev_holiday_banner_start_date": "2023-06-30T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -360,7 +362,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -634,7 +636,7 @@ window.__twilightSettings = {
   "tailor_shelves_feature_flag": [0, false],
   "talk_gs_alpha": [1, true],
   "talk_gs_bs_audio_customization": [1, true],
-  "talk_gs_join_session_tokens": [1, true],
+  "talk_gs_join_session_tokens": [0, false],
   "talk_gs_mod_access": [1, false],
   "talk_gs_mod_access_allowlist": ["514236910"],
   "talk_gs_nl_phone_verification": [1, true],
@@ -4849,7 +4851,7 @@ window.__twilightSettings = {
     },
     "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
       "name": "chat_ad_alerts",
-      "v": 27619,
+      "v": 28452,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -4857,6 +4859,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "737771146"
       }]
     },
     "a5a06042-3edd-400b-bb49-c06beb3480a0": {
@@ -6391,6 +6396,18 @@ window.__twilightSettings = {
         "value": "on"
       }]
     },
+    "eac301ba-275a-4727-ab5b-712f4dc8fb28": {
+      "name": "pg_pd_2023",
+      "v": 28451,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "eb1b8c9b-cd6d-4221-ac97-4d12883921f1": {
       "name": "extensions_dock",
       "v": 7479,
@@ -6717,6 +6734,18 @@ window.__twilightSettings = {
         "value": "variant2b"
       }]
     },
+    "f5cf38e7-026c-4995-b339-f84f49865c8a": {
+      "name": "creator_home_house_channel",
+      "v": 28458,
+      "t": 2,
+      "groups": [{
+        "weight": 80,
+        "value": "treatment"
+      }, {
+        "weight": 20,
+        "value": "control"
+      }]
+    },
     "f65ff295-57dd-4ed0-8011-4df783456b56": {
       "name": "fun_captcha_experiment",
       "v": 12909,
@@ -6831,6 +6860,18 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 99,
+        "value": "treatment"
+      }]
+    },
+    "f8c43aed-0b0e-47bf-88db-5f188bac2922": {
+      "name": "bits_simplified_purchase",
+      "v": 28443,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
         "value": "treatment"
       }]
     },
