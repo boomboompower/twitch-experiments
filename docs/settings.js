@@ -58,7 +58,7 @@ window.__twilightSettings = {
   "bits_prime_offer": false,
   "bits_project_marley": [0, false],
   "bits_project_stucco_dashboard": [0, false],
-  "bits_simplified_purchase": [0, false],
+  "bits_simplified_purchase": [1, true],
   "bits_sponsored_cheermote_dashboard_settings": "off",
   "bits_sponsored_cheermotes": "on",
   "bits_sponsored_cheermotes_announcement": "off",
@@ -330,6 +330,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_crossover_alpha": [0, false],
+  "guest_star_crossover_beta_signup": [0, false],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
   "guest_star_express_ftue": [1, true],
@@ -563,6 +564,7 @@ window.__twilightSettings = {
   "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
+  "sidp_toggle": [0, false],
   "signup_restricted_country_code": [],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
@@ -585,6 +587,7 @@ window.__twilightSettings = {
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
+  "sponsorships_revenue": [0, true],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
   "squad_stream_ads_heartbeat_interval": 240000,
@@ -1536,14 +1539,17 @@ window.__twilightSettings = {
     },
     "1e5baf33-feb3-4f1b-a701-ba9c1f8b0c1f": {
       "name": "kylmella_test_experiment",
-      "v": 28224,
+      "v": 28487,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 70,
         "value": "control"
       }, {
         "weight": 20,
         "value": "test"
+      }, {
+        "weight": 10,
+        "value": "some_new_group"
       }]
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
@@ -2964,13 +2970,13 @@ window.__twilightSettings = {
     },
     "5a3c2a88-a7e6-4e75-a12d-ec7a82264351": {
       "name": "ch_dome",
-      "v": 28475,
+      "v": 28491,
       "t": 2,
       "groups": [{
-        "weight": 67,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -6865,13 +6871,13 @@ window.__twilightSettings = {
     },
     "f8c43aed-0b0e-47bf-88db-5f188bac2922": {
       "name": "bits_simplified_purchase",
-      "v": 28443,
+      "v": 28486,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
