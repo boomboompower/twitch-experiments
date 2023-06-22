@@ -363,12 +363,12 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby"],
+  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
-  "hypechat_revenue": [0, true],
+  "hypechat_revenue": [1, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [1, true],
@@ -485,7 +485,7 @@ window.__twilightSettings = {
   "project_airhorn": [0, false],
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
-  "project_leviosa": [0, false],
+  "project_leviosa": [1, false],
   "Project_Polaris": [0.5, true],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
@@ -3936,17 +3936,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 28289,
+      "v": 28502,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -5409,13 +5409,13 @@ window.__twilightSettings = {
     },
     "bfcc8d0e-7cc5-41df-88ee-32915e0be9b0": {
       "name": "af_palkia",
-      "v": 28203,
+      "v": 28499,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
