@@ -71,6 +71,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
+  "brand_lift_v0": [0, false],
   "branded_content_feature_flag": [1, true],
   "branded_content_gql_feature_flag_new": [1, true],
   "bs_mct_feature_flag": [1, false],
@@ -1553,8 +1554,8 @@ window.__twilightSettings = {
       }]
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
-      "name": "Twilight MultiHostSDK NPM Distribution",
-      "v": 27888,
+      "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
+      "v": 28504,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1566,13 +1567,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
