@@ -364,7 +364,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza"],
+  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
