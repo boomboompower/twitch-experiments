@@ -3575,6 +3575,18 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
+    "7217503e-8217-4ed3-bb04-32e1a4894d26": {
+      "name": "personalized_crown_menu_2023",
+      "v": 28525,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "72975220-4ab7-4007-a32f-554647f1daed": {
       "name": "split_screen_eligibility",
       "v": 22508,
