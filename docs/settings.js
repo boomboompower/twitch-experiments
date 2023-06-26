@@ -495,6 +495,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "prowse_enabled": true,
+  "pubsub_availability_reporting": [0, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
   "quick_actions_sanitization_check": [1, false],
@@ -2091,16 +2092,16 @@ window.__twilightSettings = {
     },
     "314d0261-c546-4b5a-848d-3d371fec8515": {
       "name": "during_ad_messaging_eligibility",
-      "v": 28271,
+      "v": 28545,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "iteration1"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "iteration2"
       }]
     },
@@ -3935,6 +3936,15 @@ window.__twilightSettings = {
         "value": "treatment_c"
       }]
     },
+    "7ef49a91-8645-4e47-bbc5-5cf61acea21e": {
+      "name": "time_sync_enabled",
+      "v": 28540,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "7fa8f4db-6288-4f30-a184-975b1b4aa4ed": {
       "name": "experiments_json_td",
       "v": 6756,
@@ -5458,13 +5468,13 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 28208,
+      "v": 28542,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }]
     },
