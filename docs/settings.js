@@ -364,7 +364,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko"],
+  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -1539,21 +1539,6 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
-    "1e5baf33-feb3-4f1b-a701-ba9c1f8b0c1f": {
-      "name": "kylmella_test_experiment",
-      "v": 28487,
-      "t": 1,
-      "groups": [{
-        "weight": 70,
-        "value": "control"
-      }, {
-        "weight": 20,
-        "value": "test"
-      }, {
-        "weight": 10,
-        "value": "some_new_group"
-      }]
-    },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
       "v": 28504,
@@ -2092,16 +2077,16 @@ window.__twilightSettings = {
     },
     "314d0261-c546-4b5a-848d-3d371fec8515": {
       "name": "during_ad_messaging_eligibility",
-      "v": 28545,
+      "v": 28556,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 33,
         "value": "iteration1"
       }, {
-        "weight": 10,
+        "weight": 33,
         "value": "iteration2"
       }]
     },
@@ -3835,7 +3820,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 28290,
+      "v": 28562,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3959,17 +3944,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 28502,
+      "v": 28563,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
