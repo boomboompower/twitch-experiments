@@ -5055,6 +5055,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "acccd881-087f-4c7a-98b4-3725bd3cd457": {
+      "name": "analytics_revenue_tcc",
+      "v": 28569,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "ad048640-8726-433a-b822-69e30b8faa77": {
       "name": "liverecs_holdout_device",
       "v": 8980,
