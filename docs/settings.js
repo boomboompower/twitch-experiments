@@ -487,7 +487,7 @@ window.__twilightSettings = {
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
   "project_leviosa": [1, false],
-  "Project_Polaris": [0.5, true],
+  "Project_Polaris": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
@@ -3217,13 +3217,13 @@ window.__twilightSettings = {
     },
     "631c9574-0e7e-4114-80f2-3c4f7c86c4da": {
       "name": "views_from_twitch_m2",
-      "v": 27897,
+      "v": 28578,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -6424,13 +6424,13 @@ window.__twilightSettings = {
     },
     "eac301ba-275a-4727-ab5b-712f4dc8fb28": {
       "name": "pg_pd_2023",
-      "v": 28451,
+      "v": 28580,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 80,
         "value": "treatment"
       }]
     },
