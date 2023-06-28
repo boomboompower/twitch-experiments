@@ -364,7 +364,7 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
   "host_deprecation": true,
-  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual"],
+  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -374,6 +374,7 @@ window.__twilightSettings = {
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [1, true],
   "include_chat_timing_nonce": true,
+  "insights_view_in_chart_scroll": [0, false],
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
@@ -4865,16 +4866,16 @@ window.__twilightSettings = {
     },
     "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
       "name": "chat_ad_alerts",
-      "v": 28452,
+      "v": 28589,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "737771146"
       }]
     },
@@ -6456,6 +6457,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "on"
+      }]
+    },
+    "ec5a7a3b-e31e-4fa3-bb58-ddf6dbbb59ea": {
+      "name": "alerts_gtm_p2",
+      "v": 28586,
+      "t": 1,
+      "groups": [{
+        "weight": 80,
+        "value": "variant"
+      }, {
+        "weight": 20,
+        "value": "control"
       }]
     },
     "ec640f44-d211-4331-9cee-bc2716b3130e": {
