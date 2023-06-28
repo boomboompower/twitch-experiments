@@ -1032,6 +1032,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "0c6c28c2-817a-4e54-87e0-109239b4b331": {
+      "name": "pg_pd_2023_v2",
+      "v": 28593,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "0d2af185-1195-4816-a13a-8b2fa9fc8cd9": {
       "name": "social_proof_left_nav",
       "v": 16023,
