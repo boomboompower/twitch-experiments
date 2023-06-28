@@ -497,6 +497,7 @@ window.__twilightSettings = {
   "promotions_sidenav_recommended_enabled": [0, true],
   "prowse_enabled": true,
   "pubsub_availability_reporting": [0, true],
+  "pushdown_ui_flag": [0, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
   "quick_actions_sanitization_check": [1, false],
@@ -657,6 +658,7 @@ window.__twilightSettings = {
   "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
   "time-to-stream-feature-flag": [1, true],
+  "toga_turtle_street_var_2_rollout": false,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
@@ -5981,6 +5983,18 @@ window.__twilightSettings = {
       }, {
         "weight": 10,
         "value": "theatre"
+      }]
+    },
+    "d657d493-01f3-4a2c-9d7e-f0077830273e": {
+      "name": "pushdown_logic_enabled",
+      "v": 28603,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "d70017a1-a0bf-455b-9d1f-c41def5a8bd3": {
