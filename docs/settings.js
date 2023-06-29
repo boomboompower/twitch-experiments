@@ -287,7 +287,7 @@ window.__twilightSettings = {
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
   "enable_vod_tool_cluster": true,
-  "engagement_dashboard": [0, true],
+  "engagement_dashboard": [0, false],
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
   "eu_respawn_enabled": "on",
@@ -5131,6 +5131,18 @@ window.__twilightSettings = {
       }, {
         "weight": 3,
         "value": "holdout"
+      }]
+    },
+    "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4": {
+      "name": "pg_personalized_crown_menu",
+      "v": 28623,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "aeb24e23-67f8-4937-b0fb-57ba9ae2dcf2": {
