@@ -773,5 +773,10 @@ const productionExperiments = [
         "id": "eac301ba-275a-4727-ab5b-712f4dc8fb28",
         "name": "pg_pd_2023",
         "dateFound": "2023-06-26T20:15:23.184Z"
+    },
+    {
+        "id": "0c6c28c2-817a-4e54-87e0-109239b4b331",
+        "name": "pg_pd_2023_v2",
+        "dateFound": "2023-06-29T20:14:16.335Z"
     }
 ]
