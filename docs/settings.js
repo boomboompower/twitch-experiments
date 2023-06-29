@@ -708,6 +708,7 @@ window.__twilightSettings = {
   "web_offers_rollout": [1, true],
   "web_sub_tokens": false,
   "why_sub_button": false,
+  "window_focus_blur_remove": [0, false],
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
