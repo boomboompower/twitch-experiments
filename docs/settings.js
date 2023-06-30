@@ -1038,13 +1038,13 @@ window.__twilightSettings = {
     },
     "0c6c28c2-817a-4e54-87e0-109239b4b331": {
       "name": "pg_pd_2023_v2",
-      "v": 28593,
+      "v": 28650,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 80,
         "value": "treatment"
       }]
     },
@@ -6465,13 +6465,13 @@ window.__twilightSettings = {
     },
     "eac301ba-275a-4727-ab5b-712f4dc8fb28": {
       "name": "pg_pd_2023",
-      "v": 28580,
+      "v": 28649,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 80,
+        "weight": 0,
         "value": "treatment"
       }]
     },
