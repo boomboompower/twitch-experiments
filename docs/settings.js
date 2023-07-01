@@ -5050,14 +5050,14 @@ window.__twilightSettings = {
     },
     "ab79d3b7-2881-4c97-be08-b98f1cc4a074": {
       "name": "ios_paid_pinnedchat",
-      "v": 26874,
+      "v": 28680,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "active"
+        "value": "active_15.6"
       }]
     },
     "ab902512-d0da-4bdd-938e-94c30a4d8953": {
