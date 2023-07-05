@@ -38,14 +38,16 @@ export async function fetch(url: string, info?: RequestInit) : Promise<Response>
 }
 
 // Just for my own debugging. Feel free to remove.
-export function postExperiment(experiment: StoredExperiment) {
+export async function postExperiment(experiment: StoredExperiment) {
     console.log(`New experiment found: ${experiment.id} - ${experiment.name}`)
 
     // Only post if WEBHOOK_URL exists on the environment variables.
     // If a webhook url is provided, new experiments will be sent here.
-    if (!process.env.WEBHOOK_URL !== undefined) return;
+    if (process.env.WEBHOOK_URL === undefined) return;
 
-    fetch(process.env.WEBHOOK_URL, {
+    console.log(`Attempting to post new experiment for ${experiment.id} - ${experiment.name}`)
+
+    const posted = await fetch(process.env.WEBHOOK_URL, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -55,7 +57,13 @@ export function postExperiment(experiment: StoredExperiment) {
                     'fields': [{'name': 'ID', 'value': experiment.id, 'inline': true}, {'name': 'Link', 'value': '[Goto](https://github.com/boomboompower/twitch-experiments/commits/main)', 'inline': true}]
                 }]
         })
-    }).catch((e: Error) => {
-        console.error('An error occurred whilst posting to WEBHOOK_URL ', e.message)
-    });
+    })
+
+    if (!posted.ok) {
+        console.error(`Failed to post to webhook - Status code - ${posted.status}`)
+
+        return;
+    }
+
+    console.log(`Sent notification for ${experiment.id} - ${experiment.name} - got ${posted.status}`)
 }
