@@ -28,7 +28,7 @@ jobs:
           path: |
             docs/time.txt
             docs/version.txt
-          key: ${{ runner.os }}-versions
+          key: ${{ runner.os }}-versions-${{ hashFiles('**/settings.js', '**/production.js') }}
 
       - run: npm install
       - run: npm run start --if-present
@@ -70,7 +70,7 @@ jobs:
           path: |
             docs/time.txt
             docs/version.txt
-          key: ${{ steps.cache-version-restore.outputs.cache-primary-key }}
+          key: ${{ runner.os }}-versions-${{ hashFiles('**/settings.js', '**/production.js') }}
 
       - name: Done
         run: |
