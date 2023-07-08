@@ -331,7 +331,7 @@ window.__twilightSettings = {
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_crossover_alpha": [0, false],
-  "guest_star_crossover_beta_signup": [0, false],
+  "guest_star_crossover_beta_signup": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
   "guest_star_express_ftue": [1, true],
