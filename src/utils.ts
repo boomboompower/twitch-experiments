@@ -52,10 +52,27 @@ export async function postExperiment(experiment: StoredExperiment) {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({'embeds': [
-                {'title': `New Experiment - ${experiment.name}`, 'color': 65450, 'description': `A new experiment \`${experiment.name}\` has been added`,
-                    'fields': [{'name': 'ID', 'value': experiment.id, 'inline': true}, {'name': 'Link', 'value': '[Goto](https://github.com/boomboompower/twitch-experiments/commits/main)', 'inline': true}]
-                }]
+        body: JSON.stringify({
+            'content': '\n'
+            'embeds': [
+                {
+                    'title': `New Experiment - ${experiment.name}`, 
+                    'color': 65450, 
+                    'description': `A new experiment \`${experiment.name}\` has been added`,
+                    'fields': [
+                        {
+                            'name': 'ID', 
+                            'value': String(experiment.id), 
+                            'inline': true
+                        }, 
+                        {
+                            'name': 'Link', 
+                            'value': '[Goto](https://github.com/boomboompower/twitch-experiments/commits/main)', 
+                            'inline': true
+                        }
+                    ]
+                }
+            ]
         })
     })
 
