@@ -233,6 +233,7 @@ window.__twilightSettings = {
   "crowd_chant": [0, false],
   "crowd_chant_length_limit": 120,
   "crowd_chant_query": [0, false],
+  "CSB_flag": [0, false],
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
   "da_manager_m2": [1, false],
@@ -2129,6 +2130,18 @@ window.__twilightSettings = {
         "value": "on"
       }, {
         "weight": 0,
+        "value": "control"
+      }]
+    },
+    "336e4ace-0d3c-4d03-8ada-16794d8f205a": {
+      "name": "prime_merch_offer",
+      "v": 28715,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "treatment"
+      }, {
+        "weight": 50,
         "value": "control"
       }]
     },
