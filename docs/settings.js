@@ -431,6 +431,7 @@ window.__twilightSettings = {
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
   "mv_rd": [0, false],
+  "mv_rd_rollout_date": "2023-07-21T15:00:00Z",
   "native_account_recovery": "on",
   "native_broadcast_blacklist": [],
   "native_not_me": "on",
