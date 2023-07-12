@@ -53,7 +53,7 @@ export async function postExperiment(experiment: StoredExperiment) {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            'content': '\n'
+            'content': '\n',
             'embeds': [
                 {
                     'title': `New Experiment - ${experiment.name}`, 
