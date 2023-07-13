@@ -161,12 +161,6 @@ window.__twilightSettings = {
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
-  "chv2_ma_cutover": [1, true],
-  "chv2_ma_deleteops_disabled": false,
-  "chv2_mc_cutover": true,
-  "chv2_mc_writeops_disabled": false,
-  "chv2_vcml_cutover": [1, true],
-  "chv2_vcmlp_writeops_disabled": false,
   "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
   "cit_gql_rollout": [1, false],
@@ -499,7 +493,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "prowse_enabled": true,
-  "pubsub_availability_reporting": [0, true],
+  "pubsub_availability_reporting": [0.02, true],
   "pubsub_message_reporting": [0, false],
   "pushdown_ui_flag": [0, true],
   "qol_badges_launch": false,
@@ -1561,7 +1555,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 28570,
+      "v": 28792,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1573,13 +1567,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
@@ -4319,13 +4313,13 @@ window.__twilightSettings = {
     },
     "8de6298f-86f1-4313-919b-52c165a503d1": {
       "name": "new_vs_returning",
-      "v": 28056,
+      "v": 28793,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment"
       }]
     },
