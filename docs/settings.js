@@ -248,8 +248,6 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
-  "dev_holiday_banner_end_date": "2023-07-10T08:00:00Z",
-  "dev_holiday_banner_start_date": "2023-06-30T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -485,7 +483,7 @@ window.__twilightSettings = {
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
   "project_leviosa": [1, false],
-  "Project_Polaris": [0, false],
+  "Project_Polaris": [0.5, true],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [1, true],
   "promotions_boost_viewer": [1, true],
@@ -493,7 +491,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "prowse_enabled": true,
-  "pubsub_availability_reporting": [0.02, true],
+  "pubsub_availability_reporting": [0.04, true],
   "pubsub_message_reporting": [0, false],
   "pushdown_ui_flag": [0, true],
   "qol_badges_launch": false,
@@ -566,6 +564,8 @@ window.__twilightSettings = {
   "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
+  "sidp_logout_all_toggle": [0, false],
+  "sidp_table_toggle": [0, false],
   "sidp_toggle": [0, false],
   "signup_restricted_country_code": [],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
@@ -3970,17 +3970,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 28563,
+      "v": 28796,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -4313,13 +4313,13 @@ window.__twilightSettings = {
     },
     "8de6298f-86f1-4313-919b-52c165a503d1": {
       "name": "new_vs_returning",
-      "v": 28793,
+      "v": 28801,
       "t": 3,
       "groups": [{
-        "weight": 80,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 100,
         "value": "treatment"
       }]
     },
