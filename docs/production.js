@@ -730,6 +730,11 @@ const productionExperiments = [
         "dateFound": "2023-04-06T01:19:44.000Z"
     },
     {
+        "id": "a589a73e-5aaa-4046-b673-152db3c4b8a6",
+        "name": "chat_ad_alerts",
+        "dateFound": "2023-07-14T20:14:49.336Z"
+    },
+    {
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
         "name": "guest_star_left_nav_online_channel_augmentation",
         "dateFound": "2023-05-04T01:21:12.148Z"
@@ -768,16 +773,6 @@ const productionExperiments = [
         "id": "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3",
         "name": "auto_mod_smart_detection",
         "dateFound": "2023-06-15T20:13:07.912Z"
-    },
-    {
-        "id": "eac301ba-275a-4727-ab5b-712f4dc8fb28",
-        "name": "pg_pd_2023",
-        "dateFound": "2023-06-26T20:15:23.184Z"
-    },
-    {
-        "id": "0c6c28c2-817a-4e54-87e0-109239b4b331",
-        "name": "pg_pd_2023_v2",
-        "dateFound": "2023-06-29T20:14:16.335Z"
     },
     {
         "id": "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4",
