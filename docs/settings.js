@@ -558,6 +558,7 @@ window.__twilightSettings = {
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
+  "shared_comments_enabled": [0, false],
   "should_extensions_check_google_analytics_consent": true,
   "Shoutouts": [0, true],
   "shoutouts_ccv_cap_setting": 50000,
