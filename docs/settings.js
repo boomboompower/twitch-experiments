@@ -179,6 +179,7 @@ window.__twilightSettings = {
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
+  "com30_disco_krusty_krab": [0, false],
   "com30_disco_squidward_snuggles": [0, false],
   "com30_friendly_bird": [0, false],
   "com30_golden_snippets": [0, true],
