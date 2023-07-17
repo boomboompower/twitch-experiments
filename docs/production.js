@@ -765,6 +765,11 @@ const productionExperiments = [
         "dateFound": "2023-06-03T02:14:00.394Z"
     },
     {
+        "id": "098aed3b-5c49-414f-b53a-d22cbc89cd90",
+        "name": "brand_lift_survey_experiment_1",
+        "dateFound": "2023-07-17T20:15:23.826Z"
+    },
+    {
         "id": "bb661986-5a54-4991-a49a-98fe3a3512c5",
         "name": "empty-leaderboard-cta",
         "dateFound": "2023-06-16T20:13:14.347Z"

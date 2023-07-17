@@ -270,6 +270,9 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "drops_v3_dev_console": [0, false],
+  "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00Z",
+  "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00Z",
+  "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00Z",
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
@@ -708,7 +711,7 @@ window.__twilightSettings = {
   "web_offers_rollout": [1, true],
   "web_sub_tokens": false,
   "why_sub_button": false,
-  "window_focus_blur_remove": [0, false],
+  "window_focus_blur_remove": [0.5, false],
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
@@ -4893,16 +4896,16 @@ window.__twilightSettings = {
     },
     "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
       "name": "chat_ad_alerts",
-      "v": 28589,
+      "v": 28829,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "737771146"
       }]
     },
