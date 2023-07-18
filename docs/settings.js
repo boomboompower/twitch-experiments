@@ -71,7 +71,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0, false],
+  "brand_lift_v0": [0.01, false],
   "branded_content_feature_flag": [1, true],
   "branded_content_gql_feature_flag_new": [1, true],
   "bs_mct_feature_flag": [1, false],
@@ -407,6 +407,7 @@ window.__twilightSettings = {
   "mastercard_experiment_end_date": "2022-05-31T23:59:59Z",
   "mastercard_experiment_expiry_date": "2022-12-31T00:00:00Z",
   "mastercard_experiment_start_date": "2022-05-03T00:00:00Z",
+  "mc_sd": [0, false],
   "megacommerce_holiday_2020_part1_end_date": "2020-12-16 13:59:59 GMT-0800",
   "megacommerce_holiday_2020_part1_start_date": "2020-12-02 14:00:00 GMT-0800",
   "megacommerce_holiday_2020_part2_end_date": "2021-01-04 13:59:59 GMT-0800",
@@ -968,16 +969,16 @@ window.__twilightSettings = {
     },
     "098aed3b-5c49-414f-b53a-d22cbc89cd90": {
       "name": "brand_lift_survey_experiment_1",
-      "v": 28222,
+      "v": 28839,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_2"
       }]
     },
@@ -3628,6 +3629,18 @@ window.__twilightSettings = {
         "value": "no"
       }]
     },
+    "72cbae70-b2c0-4c99-a1e6-da6a10a39b73": {
+      "name": "player_core_send_recoverable_network_error",
+      "v": 28842,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "7351a180-6fac-49c2-a473-1a935de216bb": {
       "name": "cg_tools_features_creator_goals_aatest",
       "v": 21661,
@@ -3697,6 +3710,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "magic"
+      }]
+    },
+    "754a1643-59f3-467b-aa60-5d2d90bd0b87": {
+      "name": "ads_affiliate_p0_tcc",
+      "v": 28841,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "7678a52b-b88b-491b-b2af-63863fbc0fb0": {
@@ -5088,7 +5113,7 @@ window.__twilightSettings = {
     },
     "acccd881-087f-4c7a-98b4-3725bd3cd457": {
       "name": "analytics_revenue_tcc",
-      "v": 28569,
+      "v": 28838,
       "t": 2,
       "groups": [{
         "weight": 100,
