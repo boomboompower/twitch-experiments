@@ -144,6 +144,7 @@ window.__twilightSettings = {
   "channel_banned_alias_enabled": [0, false],
   "channel_clips_feature": [1, true],
   "channel_enrolled_sm": [1, true],
+  "channel_enrolled_sm_mv": [0, false],
   "channel_feed_enabled": false,
   "chat_connect_backoff": 4000,
   "chat_connect_timeout": 6000,
@@ -545,6 +546,7 @@ window.__twilightSettings = {
   "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US", "AI", "AL", "AM", "AN", "AZ", "BA", "BD", "BG", "BI", "BJ", "BL", "BV", "BW", "CC", "CF", "CK", "CN", "CV", "CX", "CZ", "DO", "DZ", "EE", "EG", "EH", "ER", "FK", "GE", "GF", "GH", "GL", "GM", "GN", "GQ", "GS", "GW", "HK", "HM", "IN", "IS", "JO", "KE", "KG", "KH", "KI", "KM", "KZ", "LA", "LS", "LU", "LV", "LY", "MA", "MD", "MH", "ML", "MR", "MS", "MV", "MW", "NF", "NP", "NR", "NU", "PG", "PH", "PK", "PL", "PM", "PN", "PS", "PT", "RO", "SB", "SC", "SH", "SJ", "SL", "SO", "SS", "ST", "TD", "TF", "TG", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TV", "UM", "UZ", "VA", "VC", "VG", "VN", "VU", "WF", "WS", "YE", "YT", "ET"],
   "rpt_messaging": true,
   "rtj_pause_resume_buttons_enabled": [0, false],
+  "rtj_subscription_limit": [1, true],
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
@@ -587,6 +589,7 @@ window.__twilightSettings = {
   "skyscraper_kill_switch": false,
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
+  "smode_mv_rollout_enabled": false,
   "smode_rollout_enabled": true,
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
@@ -712,7 +715,7 @@ window.__twilightSettings = {
   "web_offers_rollout": [1, true],
   "web_sub_tokens": false,
   "why_sub_button": false,
-  "window_focus_blur_remove": [0.5, false],
+  "window_focus_blur_remove": [1, false],
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
@@ -1561,7 +1564,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 28792,
+      "v": 28852,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1573,13 +1576,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -4921,13 +4924,13 @@ window.__twilightSettings = {
     },
     "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
       "name": "chat_ad_alerts",
-      "v": 28829,
+      "v": 28859,
       "t": 3,
       "groups": [{
-        "weight": 99,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "treatment"
       }, {
         "weight": 0,

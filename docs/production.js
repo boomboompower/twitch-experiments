@@ -780,6 +780,11 @@ const productionExperiments = [
         "dateFound": "2023-06-15T20:13:07.912Z"
     },
     {
+        "id": "d657d493-01f3-4a2c-9d7e-f0077830273e",
+        "name": "pushdown_logic_enabled",
+        "dateFound": "2023-07-18T20:14:03.124Z"
+    },
+    {
         "id": "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4",
         "name": "pg_personalized_crown_menu",
         "dateFound": "2023-07-10T20:15:04.115Z"
