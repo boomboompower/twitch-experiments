@@ -271,9 +271,11 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "drops_v3_dev_console": [0, false],
-  "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00Z",
-  "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00Z",
-  "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00Z",
+  "drops_v3_migration_phase_1_banner_url": "https://twitch.tv",
+  "drops_v3_migration_phase_1_flag": [0, false],
+  "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00",
+  "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
+  "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
@@ -4392,13 +4394,13 @@ window.__twilightSettings = {
     },
     "8fcc3f0b-f52a-41d2-b510-929f7742807e": {
       "name": "disco_rcmd_web",
-      "v": 27979,
+      "v": 28881,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant1"
       }]
     },

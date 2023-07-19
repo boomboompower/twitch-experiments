@@ -311,11 +311,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "61363124-f688-498a-91be-0835184002be",
-        "name": "com30_pcln",
-        "dateFound": "2022-06-16T01:58:55.000Z"
-    },
-    {
         "id": "6ff7e080-b755-4006-9209-fe5456901679",
         "name": "second_pincer_manuever_jackie_chan",
         "dateFound": "2022-08-04T02:02:24.000Z"
