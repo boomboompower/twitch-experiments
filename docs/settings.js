@@ -605,9 +605,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
-  "stream_manager_default_templates": [1, false],
   "stream_manager_layout_tracking": [0, false],
-  "stream_manager_swappable_panels": [1, true],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
@@ -7114,13 +7112,13 @@ window.__twilightSettings = {
     },
     "fb5fbd14-1f80-4e47-b544-ca182ab389ea": {
       "name": "alerts_house_channel",
-      "v": 27700,
+      "v": 28862,
       "t": 3,
       "groups": [{
-        "weight": 90,
+        "weight": 50,
         "value": "treatment"
       }, {
-        "weight": 10,
+        "weight": 50,
         "value": "control"
       }]
     },
