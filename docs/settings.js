@@ -360,6 +360,7 @@ window.__twilightSettings = {
   "guest_star_settings_modal": [1, true],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
+  "hogwarts_express": [0, false],
   "home_shelf_moments": [1, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
   "host_commands_rollout_v2": [1, false],
