@@ -668,6 +668,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": false,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "turbo_revenue": [0, true],
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
@@ -4924,13 +4925,13 @@ window.__twilightSettings = {
     },
     "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
       "name": "chat_ad_alerts",
-      "v": 28859,
+      "v": 28889,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "treatment"
       }, {
         "weight": 0,
@@ -6043,7 +6044,7 @@ window.__twilightSettings = {
     },
     "d657d493-01f3-4a2c-9d7e-f0077830273e": {
       "name": "pushdown_logic_enabled",
-      "v": 28603,
+      "v": 28893,
       "t": 1,
       "groups": [{
         "weight": 100,
