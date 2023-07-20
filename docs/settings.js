@@ -3984,11 +3984,14 @@ window.__twilightSettings = {
     },
     "7ef49a91-8645-4e47-bbc5-5cf61acea21e": {
       "name": "time_sync_enabled",
-      "v": 28540,
+      "v": 28904,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
+      }, {
+        "weight": 100,
+        "value": "737771146, 934811428"
       }]
     },
     "7fa8f4db-6288-4f30-a184-975b1b4aa4ed": {
