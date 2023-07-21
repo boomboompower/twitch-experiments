@@ -549,7 +549,7 @@ window.__twilightSettings = {
   "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US", "AI", "AL", "AM", "AN", "AZ", "BA", "BD", "BG", "BI", "BJ", "BL", "BV", "BW", "CC", "CF", "CK", "CN", "CV", "CX", "CZ", "DO", "DZ", "EE", "EG", "EH", "ER", "FK", "GE", "GF", "GH", "GL", "GM", "GN", "GQ", "GS", "GW", "HK", "HM", "IN", "IS", "JO", "KE", "KG", "KH", "KI", "KM", "KZ", "LA", "LS", "LU", "LV", "LY", "MA", "MD", "MH", "ML", "MR", "MS", "MV", "MW", "NF", "NP", "NR", "NU", "PG", "PH", "PK", "PL", "PM", "PN", "PS", "PT", "RO", "SB", "SC", "SH", "SJ", "SL", "SO", "SS", "ST", "TD", "TF", "TG", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TV", "UM", "UZ", "VA", "VC", "VG", "VN", "VU", "WF", "WS", "YE", "YT", "ET"],
   "rpt_messaging": true,
   "rtj_pause_resume_buttons_enabled": [0, false],
-  "rtj_subscription_limit": [1, true],
+  "rtj_subscription_limit": [0, false],
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
@@ -669,7 +669,6 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": false,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "turbo_revenue": [0, true],
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
@@ -1566,7 +1565,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 28852,
+      "v": 28907,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1578,13 +1577,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
