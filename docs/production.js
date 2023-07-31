@@ -220,26 +220,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "cd1c4693-e7a8-49d9-837c-3d175f61f438",
-        "name": "WarpIPv4",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "ac3b2071-3a44-4e27-8a80-ac72977fea63",
-        "name": "WarpIPv6",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "e5c813df-a190-4def-b0cb-932224c989f1",
-        "name": "warp_web_prod",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "f4c0f4c8-6fb6-46f9-bb82-2051c2ad49fc",
-        "name": "warp_web_staff",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "6a55a881-2e43-4e1b-9ff2-de8916d6f80e",
         "name": "ENABLE_VP9",
         "staffOverride": "treatment",
@@ -279,11 +259,6 @@ const productionExperiments = [
         "id": "028ce2d5-c0e3-4517-8081-7e8f4556a55b",
         "name": "channel_points_reward_limits_v2",
         "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "f2905d26-c24a-488e-93f4-0f8e887a003f",
-        "name": "homepage_signup_login_gate",
-        "dateFound": "2023-03-04T01:38:39.000Z"
     },
     {
         "id": "218acff9-67f7-459f-9f3e-d9b41238e761",
@@ -614,12 +589,6 @@ const productionExperiments = [
         "dateFound": "2022-08-31T02:40:58.000Z"
     },
     {
-        "id": "9ec27d93-58ed-481c-a203-7e12131c2291",
-        "name": "branded_content_rollout",
-        "staffOverride": "on",
-        "dateFound": "2022-07-01T02:21:47.000Z"
-    },
-    {
         "id": "57a642f6-2040-4ad9-a552-b5c3665779aa",
         "name": "insights_nav_redesign",
         "dateFound": "2022-09-29T23:27:53.000Z"
@@ -658,16 +627,6 @@ const productionExperiments = [
         "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
         "name": "twilight_multihostsdk_version",
         "dateFound": "2022-09-22T02:28:01.000Z"
-    },
-    {
-        "id": "643a6e17-a433-4d4f-929d-7a2cc395578d",
-        "name": "catsug_rollout",
-        "dateFound": "2022-10-19T02:30:31.000Z"
-    },
-    {
-        "id": "01e67e5b-742e-4aeb-918c-4312edd70215",
-        "name": "catsug_v2",
-        "dateFound": "2022-12-01T01:55:42.000Z"
     },
     {
         "id": "c4c31c6a-4576-4856-b699-548c80d4db30",
