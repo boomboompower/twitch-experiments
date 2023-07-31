@@ -241,11 +241,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "12d93bfb-f920-495a-9a61-1f7259365f30",
-        "name": "vxp_remind_me_button",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f7d79abf-ba0e-4438-9039-e091cb798e90",
         "name": "community_insights",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -284,11 +279,6 @@ const productionExperiments = [
         "id": "a5870914-ca72-48a8-b03d-829f6bac16be",
         "name": "left_nav_few_follows",
         "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "6ff7e080-b755-4006-9209-fe5456901679",
-        "name": "second_pincer_manuever_jackie_chan",
-        "dateFound": "2022-08-04T02:02:24.000Z"
     },
     {
         "id": "bd285f75-4849-4bb2-8550-24637237a856",
@@ -346,11 +336,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "2789d6cc-a2e9-486d-a022-e792d73ea46b",
-        "name": "vxp_contextual_upsell",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "339010ee-1d18-4e91-8fd7-25b0848d279b",
         "name": "vx_disco_search_suggestions_v1_logged_out",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -396,18 +381,8 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "545d72f6-7809-4281-a329-cb3750cb0301",
-        "name": "vxp_bottom_banner",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f6dc9c16-cbf2-45b8-a96e-881dc80167f6",
         "name": "publisher_ext_ids",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "6723b8fc-7962-436e-ab7a-954199c97c2a",
-        "name": "twilight_roster_gql",
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
@@ -476,19 +451,9 @@ const productionExperiments = [
         "dateFound": "2023-05-05T01:16:09.319Z"
     },
     {
-        "id": "e51fb97f-1dcd-4ba6-8177-81a911b6bf7d",
-        "name": "disco_channel_switcher_logged_in",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "8fcc3f0b-f52a-41d2-b510-929f7742807e",
         "name": "disco_rcmd_web",
         "dateFound": "2023-06-01T20:12:48.836Z"
-    },
-    {
-        "id": "fd5e2971-70d5-4ba9-9c04-ddd084576067",
-        "name": "disco_raid_settings_v2",
-        "dateFound": "2022-09-02T02:26:41.000Z"
     },
     {
         "id": "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a",
@@ -587,11 +552,6 @@ const productionExperiments = [
         "id": "9c0ac7b2-66b0-4980-9bee-42e07c9202c3",
         "name": "pinned_chat",
         "dateFound": "2022-08-31T02:40:58.000Z"
-    },
-    {
-        "id": "57a642f6-2040-4ad9-a552-b5c3665779aa",
-        "name": "insights_nav_redesign",
-        "dateFound": "2022-09-29T23:27:53.000Z"
     },
     {
         "id": "502fe8f0-6858-465e-83b4-8f58f538528a",

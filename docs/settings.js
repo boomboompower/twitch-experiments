@@ -1480,7 +1480,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 28907,
+      "v": 29047,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1492,13 +1492,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -1579,6 +1579,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "VariantC"
+      }]
+    },
+    "2273c2c9-5924-4248-93df-e89c72d62b8e": {
+      "name": "pretzel_rocks_offer_home_card",
+      "v": 29048,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "variant"
       }]
     },
     "24438da2-e87e-4755-83f1-ccf1f5c70c1c": {
@@ -4925,13 +4937,13 @@ window.__twilightSettings = {
     },
     "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4": {
       "name": "pg_personalized_crown_menu",
-      "v": 28623,
+      "v": 29050,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
