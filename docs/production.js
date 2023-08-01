@@ -326,11 +326,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "6000221a-906c-4087-85b8-fd99c936c900",
-        "name": "vxchan_stream_1.1_actions",
-        "dateFound": "2022-10-28T02:22:11.000Z"
-    },
-    {
         "id": "d15008ba-4869-4c35-aa8d-92c38f709a87",
         "name": "color_promo_experiment",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -702,5 +697,15 @@ const productionExperiments = [
         "id": "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4",
         "name": "pg_personalized_crown_menu",
         "dateFound": "2023-07-10T20:15:04.115Z"
+    },
+    {
+        "id": "d8fd989b-c598-43fa-88ca-453150ccb9c8",
+        "name": "hype_chat_buy_your_own",
+        "dateFound": "2023-08-01T20:13:12.483Z"
+    },
+    {
+        "id": "82fc3075-94d3-4953-8e32-1271e754458d",
+        "name": "guest_star_unique_bs_tokens",
+        "dateFound": "2023-08-01T20:13:12.486Z"
     }
 ]

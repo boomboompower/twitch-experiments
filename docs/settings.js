@@ -176,7 +176,7 @@ window.__twilightSettings = {
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_disco_krusty_krab": [0, false],
-  "com30_disco_squidward_snuggles": [0, false],
+  "com30_disco_squidward_snuggles": [1, true],
   "com30_golden_snippets": [0, true],
   "com30_hydro_pump": [1, true],
   "com30_hydro_pump_is_dry": true,
@@ -259,9 +259,9 @@ window.__twilightSettings = {
   "drops_2_user_whitelist": ["25009227", "miri", "cam", "skeltonath", "oroga", "ampt", "butterk2", "rileyjar", "ocean__floor", "cnepetertest", "cnegames", "pennyarcade", "VektorTa", "massiccia", "cicciamassiccia", "ciccia", "new_drops_tester", "cnepetertestviewer", "cado", "overseer_alpha_test", "angela_", "solidsnackdrive", "cnepeter", "CNE_Shawn", "cne_margaret", "levelplane", "CNEMark", "miritest1"],
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
-  "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/c/announcements",
+  "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_dev_console": [0, false],
-  "drops_v3_migration_phase_1_banner_url": "https://twitch.tv",
+  "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_migration_phase_1_flag": [0, false],
   "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
@@ -347,7 +347,7 @@ window.__twilightSettings = {
   "guest_star_settings_modal": [1, true],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
-  "hogwarts_express": [0, false],
+  "hogwarts_express": [1, false],
   "home_shelf_moments": [1, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
   "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000"],
@@ -451,7 +451,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
-  "precious_collective_mushroom": [0, false],
+  "precious_collective_mushroom": [1, false],
   "premiere_video_manager_public": true,
   "premiere_video_manager_staff": true,
   "prime_2_paid": "on",
@@ -3241,7 +3241,7 @@ window.__twilightSettings = {
     },
     "6ab37218-f0c3-4729-bed5-7550d6d1828c": {
       "name": "creator_home_card_feature_alerts",
-      "v": 29096,
+      "v": 29125,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -4969,7 +4969,7 @@ window.__twilightSettings = {
     },
     "b3a4f310-4bb5-411c-b01e-37007a97ee82": {
       "name": "creator_home_streetfighter_6_preaffiliate_streamer_moments_aa",
-      "v": 29092,
+      "v": 29110,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -6006,7 +6006,7 @@ window.__twilightSettings = {
     },
     "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f": {
       "name": "Twilight amazon-ivs-web-broadcast API",
-      "v": 27535,
+      "v": 29129,
       "t": 1,
       "groups": [{
         "weight": 100,
