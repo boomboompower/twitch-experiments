@@ -877,6 +877,15 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "066cfd11-da90-40d3-9088-46acc804c228": {
+      "name": "Passport_Signup_Inhouse_Code_Generation",
+      "v": 29148,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "06b34663-884c-41ad-8e8f-8fd431e03995": {
       "name": "ABRNetworkLinkFilter",
       "v": 11585,
@@ -2045,6 +2054,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "351107f8-6768-4ced-b939-85be970b51fc": {
+      "name": "Passport_Vonage_Two_Factor_Auth",
+      "v": 29146,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "36006d8b-bcf1-45fe-a9c7-ced7a2e45694": {
@@ -3427,6 +3445,15 @@ window.__twilightSettings = {
       "groups": [{
         "weight": 1,
         "value": "fa"
+      }]
+    },
+    "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
+      "name": "Passport_Login_Inhouse_Code_Generation",
+      "v": 29147,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
