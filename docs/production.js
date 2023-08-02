@@ -236,11 +236,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "b8c26067-ebc7-4942-8c7d-14beec8a2d85",
-        "name": "vxp_hide_miniplayer",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f7d79abf-ba0e-4438-9039-e091cb798e90",
         "name": "community_insights",
         "dateFound": "2022-06-15T07:19:12.000Z"

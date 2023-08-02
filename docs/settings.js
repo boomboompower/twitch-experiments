@@ -94,37 +94,11 @@ window.__twilightSettings = {
   "celebi_stream_delay": true,
   "census-affiliate-onboarding-modal-enabled": [0, false],
   "cep_enabled": [0, false],
-  "cf_allow_editors_on_clips_manager": [1, false],
-  "cf_allow_staff_on_clips_manager": [1, false],
   "cf_clip_title_maintenance": false,
-  "cf_do_you_like_tuna": [1, true],
-  "cf_goals_customizations_color": [1, false],
   "cf_goals_subs_dropdown": [1, true],
-  "cf_jim_breaks_the_fourth_wall": [1, true],
   "cf_jim_faxes_from_the_future": 1000,
-  "cf_jim_yellow_sub_marine": [1, true],
-  "cf_premieres_sunset": true,
-  "cf_scotts_tots": [1, true],
-  "cf_secret_agent_big_tuna_2": [1, true],
   "cf_sunset_reruns_announce": false,
-  "cf_terms_allowlist": ["197886470", "94753024", "25385874"],
-  "cf_tourney_cep_format_killswitch": [0, false],
-  "cf_v2_collections_gql": [1, true],
-  "cf_v2_edit_video_modal_gql": [1, false],
-  "cf_v2_update_video_gql": [0, false],
   "cf_van_pelt_squirrel": true,
-  "cf_video_manager_to_gql": [0, true],
-  "cf_wp_disable_automatic_muting": [1, true],
-  "cf_wp_force_broadly_viewable": [0, false],
-  "cf_wp_hackathon": [0, false],
-  "cf_wp_m3_badging": [0, false],
-  "cf_wp_m3_creator_badging": [1, true],
-  "cf_wp_m3_enable_chat": [1, false],
-  "cf_wp_m3_qa_affiliates": [1, false],
-  "cf_wp_m3_qa_ga": [1, true],
-  "cf_wp_m3_qa_partners": [1, true],
-  "cf_wp_m3_search_catalog": [1, true],
-  "cf_wp_m4_channel_page_integration": [1, true],
   "cf_wp_retry_count": 3,
   "cg_sku_presentment_part2": true,
   "cg_tools_creator_goals_card": [0, false],
@@ -178,11 +152,8 @@ window.__twilightSettings = {
   "com30_disco_krusty_krab": [0, false],
   "com30_disco_squidward_snuggles": [1, true],
   "com30_golden_snippets": [0, true],
-  "com30_hydro_pump": [1, true],
-  "com30_hydro_pump_is_dry": true,
   "com30_lil_bro_browsing_AA": false,
   "com30_shapeshifting_ocp_aa": [0, false],
-  "com30_ssoln_aa": false,
   "com30_tpc": [1, true],
   "commerce_bar_experience": "sponsored",
   "community_boost_enabled": [0, false],
@@ -547,7 +518,6 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "shared_comments_enabled": [0, false],
   "should_extensions_check_google_analytics_consent": true,
-  "Shoutouts": [0, true],
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
@@ -639,6 +609,7 @@ window.__twilightSettings = {
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
   "tifa_enabled": [1, false],
+  "tik-tok-connection": [0, false],
   "time-to-stream-feature-flag": [1, true],
   "toga_turtle_street_var_2_rollout": false,
   "tokenization": true,
@@ -3256,13 +3227,13 @@ window.__twilightSettings = {
     },
     "6ab37218-f0c3-4729-bed5-7550d6d1828c": {
       "name": "creator_home_card_feature_alerts",
-      "v": 29125,
+      "v": 29167,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -3495,13 +3466,13 @@ window.__twilightSettings = {
     },
     "754a1643-59f3-467b-aa60-5d2d90bd0b87": {
       "name": "ads_affiliate_p0_tcc",
-      "v": 28841,
+      "v": 29173,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variant"
       }]
     },
@@ -3775,13 +3746,13 @@ window.__twilightSettings = {
     },
     "82fc3075-94d3-4953-8e32-1271e754458d": {
       "name": "Twilight guest star unique browser tokens",
-      "v": 29052,
+      "v": 29159,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "unique_tokens"
       }]
     },
