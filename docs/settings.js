@@ -5598,6 +5598,15 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "d256ff52-3bb3-46b9-984b-0d34ad569bdc": {
+      "name": "rnw_profile_banner_exp",
+      "v": 29149,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "d2e4a581-40d0-48e2-ba4d-429609ef430d": {
       "name": "creator_features_and_tools_creator_home_upsell",
       "v": 20893,
