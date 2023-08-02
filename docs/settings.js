@@ -503,8 +503,6 @@ window.__twilightSettings = {
   "radio_soundtrack_ugc_feature_flag": [0, true],
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
-  "raid_chat_highlights": [1, false],
-  "raid_commands_rollout_v2": [1, true],
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
   "recurly_spm_guard": [1, true],
@@ -640,7 +638,6 @@ window.__twilightSettings = {
   "tcstring_rollout": [1, true],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
-  "thunderdome_removal_flag": [1, true],
   "tifa_enabled": [1, false],
   "time-to-stream-feature-flag": [1, true],
   "toga_turtle_street_var_2_rollout": false,
@@ -2098,6 +2095,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "37f900ab-c9f3-499a-92ba-25d85c208939": {
+      "name": "hype_chat_ingress",
+      "v": 29132,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "38b59330-9056-47a5-a858-615dcd103666": {
       "name": "disco_sprig_logged_out",
       "v": 23992,
@@ -3003,18 +3012,6 @@ window.__twilightSettings = {
       }, {
         "weight": 5,
         "value": "no"
-      }]
-    },
-    "6000221a-906c-4087-85b8-fd99c936c900": {
-      "name": "vxchan_stream_1.1_actions",
-      "v": 19403,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
       }]
     },
     "61a88b03-5eaa-4693-9beb-99d0695432da": {
@@ -6346,13 +6343,13 @@ window.__twilightSettings = {
     },
     "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
       "name": "is-user-in-friendly-fraud-group",
-      "v": 28136,
+      "v": 29140,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "friendly_fraud_model"
       }]
     },
