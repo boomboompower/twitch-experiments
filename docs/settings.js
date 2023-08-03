@@ -64,6 +64,7 @@ window.__twilightSettings = {
   "bits_usage_history": [1, false],
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
+  "Blobfish": "Setting",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
   "bounty_board_brand_portal_trailer_enabled": [1, true],
@@ -131,6 +132,7 @@ window.__twilightSettings = {
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
+  "Chinchilla": "Setting",
   "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
   "cit_gql_rollout": [1, false],
@@ -382,6 +384,7 @@ window.__twilightSettings = {
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
+  "Mosquito": "Settings",
   "motivation_lvf_flag": [1, false],
   "multi_month_gifting": true,
   "multihost_eventing_migration": [0, false],
@@ -423,6 +426,7 @@ window.__twilightSettings = {
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
   "precious_collective_mushroom": [1, false],
+  "precious_collective_perms": [0, false],
   "premiere_video_manager_public": true,
   "premiere_video_manager_staff": true,
   "prime_2_paid": "on",
@@ -452,7 +456,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
-  "pubsub_message_reporting": [0, false],
+  "pubsub_message_reporting": [0.02, false],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
@@ -614,6 +618,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": false,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "Turtle": "Setting",
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
@@ -2086,14 +2091,20 @@ window.__twilightSettings = {
     },
     "37f900ab-c9f3-499a-92ba-25d85c208939": {
       "name": "hype_chat_ingress",
-      "v": 29132,
+      "v": 29179,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "treatment"
+        "value": "full_button_with_copy"
+      }, {
+        "weight": 0,
+        "value": "full_button_no_copy"
+      }, {
+        "weight": 0,
+        "value": "pill_button"
       }]
     },
     "38b59330-9056-47a5-a858-615dcd103666": {
@@ -2617,24 +2628,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "experiment"
-      }]
-    },
-    "545d72f6-7809-4281-a329-cb3750cb0301": {
-      "name": "vxp_bottom_banner",
-      "v": 16350,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "banner"
-      }, {
-        "weight": 0,
-        "value": "banner_with_count"
-      }, {
-        "weight": 0,
-        "value": "banner_new_tab"
       }]
     },
     "54648285-230e-4448-aba0-74e2b6fce71c": {
@@ -3466,13 +3459,13 @@ window.__twilightSettings = {
     },
     "754a1643-59f3-467b-aa60-5d2d90bd0b87": {
       "name": "ads_affiliate_p0_tcc",
-      "v": 29173,
+      "v": 29176,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -3691,17 +3684,17 @@ window.__twilightSettings = {
     },
     "7ef49a91-8645-4e47-bbc5-5cf61acea21e": {
       "name": "time_sync_enabled",
-      "v": 28964,
+      "v": 29182,
       "t": 3,
       "groups": [{
         "weight": 0,
-        "value": "control"
+        "value": "OFF"
       }, {
         "weight": 100,
         "value": "737772548"
       }, {
         "weight": 0,
-        "value": "treatment"
+        "value": "ON"
       }]
     },
     "7fa8f4db-6288-4f30-a184-975b1b4aa4ed": {
@@ -5064,18 +5057,6 @@ window.__twilightSettings = {
         "value": "variant_2"
       }]
     },
-    "b8c26067-ebc7-4942-8c7d-14beec8a2d85": {
-      "name": "vxp_hide_miniplayer",
-      "v": 10831,
-      "t": 1,
-      "groups": [{
-        "weight": 95,
-        "value": "control"
-      }, {
-        "weight": 5,
-        "value": "variant"
-      }]
-    },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
       "v": 26471,
@@ -5934,13 +5915,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 29088,
+      "v": 29180,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "cbr_v1"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "vbr_v1"
       }]
     },
