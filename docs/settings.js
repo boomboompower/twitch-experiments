@@ -127,7 +127,7 @@ window.__twilightSettings = {
   "chat_input_box_verified_only_restriction_enabled": "on",
   "chat_replies_m2a": [1, true],
   "chat_replies_m2b": [1, true],
-  "chat_replies_qol_refactor": [0, false],
+  "chat_replies_qol_refactor": [1, true],
   "chat_send_message_refactor": [0, false],
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
@@ -220,6 +220,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
+  "disco_ccl_clips": [0, false],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -244,6 +245,7 @@ window.__twilightSettings = {
   "Emote_Card_Octane": [1, true],
   "emote_card_whitelist": ["184009112"],
   "emote_picker_load_bits_tier_emotes": [1, true],
+  "emote_sets_pagination_switchover": [0, false],
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
   "enable_desktop_app_sunset_banner": [1, true],
@@ -456,7 +458,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
-  "pubsub_message_reporting": [0.02, false],
+  "pubsub_message_reporting": [0.2, false],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
@@ -3459,13 +3461,13 @@ window.__twilightSettings = {
     },
     "754a1643-59f3-467b-aa60-5d2d90bd0b87": {
       "name": "ads_affiliate_p0_tcc",
-      "v": 29176,
+      "v": 29195,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5693,13 +5695,13 @@ window.__twilightSettings = {
     },
     "d8fd989b-c598-43fa-88ca-453150ccb9c8": {
       "name": "hype_chat_buy_your_own",
-      "v": 28919,
+      "v": 29204,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 5,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 95,
         "value": "treatment"
       }]
     },
@@ -5991,13 +5993,13 @@ window.__twilightSettings = {
     },
     "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f": {
       "name": "Twilight amazon-ivs-web-broadcast API",
-      "v": 29129,
+      "v": 29206,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "v2"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "v1"
       }]
     },
