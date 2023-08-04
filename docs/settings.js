@@ -316,13 +316,13 @@ window.__twilightSettings = {
   "guest_star_request_to_join_private_call_out_duration": 30,
   "guest_star_request_to_join_sort": [1, true],
   "guest_star_request_to_join_vips_filter": [1, true],
-  "guest_star_responsiveness": [0, false],
+  "guest_star_responsiveness": [1, false],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
-  "hogwarts_express": [1, false],
+  "hogwarts_express": [0, false],
   "home_shelf_moments": [1, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
   "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000"],
@@ -458,7 +458,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
-  "pubsub_message_reporting": [0.2, false],
+  "pubsub_message_reporting": [0.4, false],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
@@ -1428,6 +1428,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant1"
+      }]
+    },
+    "1cefc3ab-88f0-442d-ae79-50208b34c3a9": {
+      "name": "Born/Light Viewers Bits Drop for Chess",
+      "v": 29208,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
