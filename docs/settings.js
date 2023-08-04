@@ -458,7 +458,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
-  "pubsub_message_reporting": [0.4, false],
+  "pubsub_message_reporting": [0.6, false],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
