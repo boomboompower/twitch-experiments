@@ -393,7 +393,7 @@ window.__twilightSettings = {
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
   "mv_rd": [0, false],
-  "mv_rd_rollout_date": "2023-07-24T00:00:00Z",
+  "mv_rd_rollout_date": "2023-08-07T00:00:00Z",
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
   "new_games_pill_rollout": [1, false],
@@ -458,7 +458,7 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
-  "pubsub_message_reporting": [0.8, false],
+  "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
@@ -3698,14 +3698,14 @@ window.__twilightSettings = {
     },
     "7ef49a91-8645-4e47-bbc5-5cf61acea21e": {
       "name": "time_sync_enabled",
-      "v": 29182,
+      "v": 29238,
       "t": 3,
       "groups": [{
         "weight": 0,
         "value": "OFF"
       }, {
         "weight": 100,
-        "value": "737772548"
+        "value": "737772548, 758477958"
       }, {
         "weight": 0,
         "value": "ON"

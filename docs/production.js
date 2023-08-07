@@ -579,6 +579,11 @@ const productionExperiments = [
         "dateFound": "2022-09-22T02:28:01.000Z"
     },
     {
+        "id": "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f",
+        "name": "twilight_multihostsdk_api",
+        "dateFound": "2023-08-07T20:12:38.000Z"
+    },
+    {
         "id": "c4c31c6a-4576-4856-b699-548c80d4db30",
         "name": "cheering_web_ux_improvements",
         "dateFound": "2022-11-15T01:55:18.000Z"
@@ -647,11 +652,6 @@ const productionExperiments = [
         "id": "314d0261-c546-4b5a-848d-3d371fec8515",
         "name": "during_ad_messaging_eligibility",
         "dateFound": "2023-06-21T20:13:22.761Z"
-    },
-    {
-        "id": "58777e5e-d828-4cef-b001-f434c0a6566a",
-        "name": "cg_pv",
-        "dateFound": "2023-06-07T20:12:59.990Z"
     },
     {
         "id": "5a3c2a88-a7e6-4e75-a12d-ec7a82264351",
