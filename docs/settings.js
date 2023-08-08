@@ -149,7 +149,7 @@ window.__twilightSettings = {
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
-  "com30_disco_krusty_krab": [0, false],
+  "com30_disco_krusty_krab": [1, true],
   "com30_disco_squidward_snuggles": [1, true],
   "com30_golden_snippets": [0, true],
   "com30_lil_bro_browsing_AA": false,
@@ -323,7 +323,7 @@ window.__twilightSettings = {
   "hogwarts_express": [0, false],
   "home_shelf_moments": [1, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
-  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000"],
+  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -1509,6 +1509,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
+      }]
+    },
+    "21394c0b-6160-4c2a-a943-a22d6828ce07": {
+      "name": "mod_chat_ad_alerts",
+      "v": 29265,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "737771146"
       }]
     },
     "214f827d-459a-473b-aa06-4362c9e45257": {
@@ -5082,13 +5097,13 @@ window.__twilightSettings = {
     },
     "bb661986-5a54-4991-a49a-98fe3a3512c5": {
       "name": "empty-leaderboard-cta",
-      "v": 28410,
+      "v": 29255,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
