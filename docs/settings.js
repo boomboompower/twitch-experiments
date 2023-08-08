@@ -98,8 +98,6 @@ window.__twilightSettings = {
   "cf_clip_title_maintenance": false,
   "cf_goals_subs_dropdown": [1, true],
   "cf_jim_faxes_from_the_future": 1000,
-  "cf_sunset_reruns_announce": false,
-  "cf_van_pelt_squirrel": true,
   "cf_wp_retry_count": 3,
   "cg_sku_presentment_part2": true,
   "cg_tools_creator_goals_card": [0, false],
@@ -645,7 +643,6 @@ window.__twilightSettings = {
   "viewer_milestones_enabled": true,
   "VLM_HLS_Midrolls": [1, false],
   "vod_archives_vira_grand": "on",
-  "vod_enable_highlight_reruns": true,
   "vod_premieres_sunset": "on",
   "vod_suggested_segments": "off",
   "vod_upload_restricted_regions": ["KR"],
@@ -2048,7 +2045,7 @@ window.__twilightSettings = {
     },
     "351107f8-6768-4ced-b939-85be970b51fc": {
       "name": "Passport_Vonage_Two_Factor_Auth",
-      "v": 29146,
+      "v": 29240,
       "t": 2,
       "groups": [{
         "weight": 100,
