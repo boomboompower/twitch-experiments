@@ -6039,6 +6039,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "e7663acb-7979-4b47-8325-557da0d62177": {
+      "name": "invite_raider",
+      "v": 29288,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "treatment"
+      }]
+    },
     "e7a13ac9-8d55-435f-a238-827032e83b31": {
       "name": "smp_support_panel",
       "v": 16560,
