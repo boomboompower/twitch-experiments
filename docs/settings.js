@@ -71,7 +71,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0.01, false],
+  "brand_lift_v0": [0.02, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -234,7 +234,7 @@ window.__twilightSettings = {
   "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_dev_console": [0, false],
   "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
-  "drops_v3_migration_phase_1_flag": [0, false],
+  "drops_v3_migration_phase_1_flag": [1, false],
   "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
@@ -915,16 +915,16 @@ window.__twilightSettings = {
     },
     "098aed3b-5c49-414f-b53a-d22cbc89cd90": {
       "name": "brand_lift_survey_experiment_1",
-      "v": 28978,
+      "v": 29290,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 33,
         "value": "variant_1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_2"
       }]
     },
