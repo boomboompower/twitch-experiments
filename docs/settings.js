@@ -1441,7 +1441,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29047,
+      "v": 29282,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -5941,13 +5941,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 29180,
+      "v": 29276,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "cbr_v1"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "vbr_v1"
       }]
     },
