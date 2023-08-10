@@ -323,7 +323,7 @@ window.__twilightSettings = {
   "hogwarts_express": [0, false],
   "home_shelf_moments": [1, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
-  "hra_allowlist": ["twitch_promotions", "qa_gummyace_partner", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -899,6 +899,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
+      }]
+    },
+    "08186bb0-142d-4b6a-b696-66bf6c33263a": {
+      "name": "guest_star_invite_raiders_cluster_t5",
+      "v": 29293,
+      "t": 1,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "treatment"
       }]
     },
     "08703cd4-7b66-4987-ad43-cddc7095cbc3": {
@@ -5941,13 +5953,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 29276,
+      "v": 29291,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "cbr_v1"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "vbr_v1"
       }]
     },
@@ -6389,6 +6401,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "f36419c3-0075-4c4c-bdbc-5b0f45bbb1b9": {
+      "name": "guest_star_invite_raiders_cluster_t1-4",
+      "v": 29292,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "control"
       }]
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
