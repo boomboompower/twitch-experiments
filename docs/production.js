@@ -579,11 +579,6 @@ const productionExperiments = [
         "dateFound": "2022-09-22T02:28:01.000Z"
     },
     {
-        "id": "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f",
-        "name": "twilight_multihostsdk_api",
-        "dateFound": "2023-08-07T20:12:38.000Z"
-    },
-    {
         "id": "c4c31c6a-4576-4856-b699-548c80d4db30",
         "name": "cheering_web_ux_improvements",
         "dateFound": "2022-11-15T01:55:18.000Z"
