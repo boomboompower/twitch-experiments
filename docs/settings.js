@@ -324,7 +324,7 @@ window.__twilightSettings = {
   "hogwarts_express": [0, false],
   "home_shelf_moments": [1, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
-  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity"],
+  "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity", "shotzzy", "h3cz", "hitchariide"],
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -404,6 +404,7 @@ window.__twilightSettings = {
   "No_Track_Pages": ["/user/password-reset"],
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
+  "omit_topnav_in_theatre": [0, false],
   "onboarding_agreement_api": [1, true],
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
@@ -1846,18 +1847,6 @@ window.__twilightSettings = {
         "value": "variant2"
       }]
     },
-    "2c54d222-9f10-47b1-932c-2f296ba75d1b": {
-      "name": "vx_disco_signup_nudge",
-      "v": 16839,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "2cc56231-050e-4e3b-96d2-ff85d602aab7": {
       "name": "gifting_bundle_animations_experiment",
       "v": 12674,
@@ -2564,13 +2553,13 @@ window.__twilightSettings = {
     },
     "4c8f5315-d3b9-4a73-b3c8-351bf763320a": {
       "name": "ads_p1_tcc",
-      "v": 29036,
+      "v": 29327,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
