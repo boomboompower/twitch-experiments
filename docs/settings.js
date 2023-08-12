@@ -6467,6 +6467,18 @@ window.__twilightSettings = {
         "value": "variant2b"
       }]
     },
+    "f4e543a6-91fc-4c93-81a2-ae27e616a641": {
+      "name": "player_core_edge_prewarm",
+      "v": 29344,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "f5cf38e7-026c-4995-b339-f84f49865c8a": {
       "name": "creator_home_house_channel",
       "v": 28458,
