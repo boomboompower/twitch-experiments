@@ -71,7 +71,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0.5, false],
+  "brand_lift_v0": [1, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -218,7 +218,9 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disco_ccl_clips": [0, false],
+  "disco_ccl_clips": [0.05, false],
+  "disco_top_clips_featured_filter_default": true,
+  "disco_top_clips_time_filter_default": "all",
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -296,7 +298,7 @@ window.__twilightSettings = {
   "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
-  "guest_star_invite_raider_experiment": [0, false],
+  "guest_star_invite_raider_experiment": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
@@ -4612,13 +4614,13 @@ window.__twilightSettings = {
     },
     "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
       "name": "chat_ad_alerts",
-      "v": 28889,
+      "v": 29364,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }, {
         "weight": 0,
