@@ -132,6 +132,7 @@ window.__twilightSettings = {
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
   "Chinchilla": "Setting",
+  "chmod-bcsvs": false,
   "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
   "cit_gql_rollout": [1, false],
