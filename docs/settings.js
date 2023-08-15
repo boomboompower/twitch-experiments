@@ -89,6 +89,7 @@ window.__twilightSettings = {
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla", "vcoesports"],
   "ce_new_banner": [0, false],
+  "ce-tt-flag": [0, false],
   "celebi_animation_settings": "{}",
   "celebi_beta_channels": ["seph"],
   "celebi_celebration_area": "EVERYWHERE",
@@ -218,7 +219,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disco_ccl_clips": [0.05, false],
+  "disco_ccl_clips": [1, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "all",
   "DMCA_Clips_Manager_Hint": [1, true],
@@ -1458,7 +1459,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29282,
+      "v": 29367,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1470,13 +1471,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "variant-wb-b"
       }]
     },
