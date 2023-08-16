@@ -147,6 +147,7 @@ window.__twilightSettings = {
   "Clip_Snip_Retry_Days": 1,
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [0, false],
+  "cmgr-ce-tt": [0, false],
   "cmon_chat_introduction": [1, false],
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
