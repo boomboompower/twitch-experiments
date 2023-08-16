@@ -533,7 +533,7 @@ window.__twilightSettings = {
   "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
-  "sidp_logout_all_toggle": [0, false],
+  "sidp_logout_all_toggle": [1, false],
   "sidp_table_toggle": [0, false],
   "sidp_toggle": [0, false],
   "signup_restricted_country_code": [],
@@ -630,6 +630,7 @@ window.__twilightSettings = {
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
+  "TV2_pre_DNR": [0, false],
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -3745,17 +3746,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 29335,
+      "v": 29386,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },

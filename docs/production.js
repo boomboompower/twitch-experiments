@@ -584,6 +584,11 @@ const productionExperiments = [
         "dateFound": "2022-11-15T01:55:18.000Z"
     },
     {
+        "id": "f289f54d-90f3-4d12-bd58-62e018c397df",
+        "name": "cmgr-exp-edit",
+        "dateFound": "2023-08-16T20:12:18.416Z"
+    },
+    {
         "id": "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc",
         "name": "bits_insufficient_balance_checkout",
         "dateFound": "2022-12-16T01:25:52.000Z"
