@@ -339,6 +339,7 @@ window.__twilightSettings = {
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [0, false],
   "include_chat_timing_nonce": true,
+  "insights_content_filter": [0, false],
   "insights_view_in_chart_scroll": [1, true],
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
@@ -432,6 +433,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
+  "pplus-details": false,
   "precious_collective_mushroom": [1, false],
   "precious_collective_perms": [0, false],
   "premiere_video_manager_public": true,
@@ -528,6 +530,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "shared_comments_enabled": [0, false],
+  "shield_mode_alerts_enabled": [0, false],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
@@ -2126,19 +2129,19 @@ window.__twilightSettings = {
     },
     "37f900ab-c9f3-499a-92ba-25d85c208939": {
       "name": "hype_chat_ingress",
-      "v": 29179,
+      "v": 29387,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "full_button_with_copy"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "full_button_no_copy"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "pill_button"
       }]
     },
@@ -5752,13 +5755,13 @@ window.__twilightSettings = {
     },
     "da034a34-736e-4c7f-9576-2113cc7ce211": {
       "name": "v6s_versions",
-      "v": 27644,
+      "v": 29391,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -6402,13 +6405,13 @@ window.__twilightSettings = {
     },
     "f289f54d-90f3-4d12-bd58-62e018c397df": {
       "name": "cmgr-exp-edit",
-      "v": 29382,
+      "v": 29398,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 10,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 90,
         "value": "variant"
       }]
     },
