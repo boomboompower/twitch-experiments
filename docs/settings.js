@@ -148,7 +148,6 @@ window.__twilightSettings = {
   "Clip_Snip_Retry_Days": 1,
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [0, false],
-  "cmgr-ce-tt": [0, false],
   "cmon_chat_introduction": [1, false],
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
@@ -854,6 +853,21 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "060e6b3a-f339-49ea-a43a-78f6c5b8aa27": {
+      "name": "mocha_latte",
+      "v": 29415,
+      "t": 3,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "737771146"
+      }]
+    },
     "064cdbc9-a25a-4000-a759-cb5d16762af7": {
       "name": "paypal_first_v2",
       "v": 8470,
@@ -1467,7 +1481,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29409,
+      "v": 29413,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1479,13 +1493,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "variant-wb-b"
       }]
     },
@@ -1535,21 +1549,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
-      }]
-    },
-    "21394c0b-6160-4c2a-a943-a22d6828ce07": {
-      "name": "mod_chat_ad_alerts",
-      "v": 29265,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }, {
-        "weight": 100,
-        "value": "737771146"
       }]
     },
     "214f827d-459a-473b-aa06-4362c9e45257": {
@@ -5452,14 +5451,14 @@ window.__twilightSettings = {
     },
     "cf51c206-6e43-4a5d-817f-a72669375f5d": {
       "name": "chat_happening_now_2023",
-      "v": 28270,
+      "v": 29411,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 1,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 99,
         "value": "variant"
       }]
     },
