@@ -193,6 +193,7 @@ window.__twilightSettings = {
   "crowd_chant": [0, false],
   "crowd_chant_length_limit": 120,
   "crowd_chant_query": [0, false],
+  "csai_ad_context_auto_clean": [0, true],
   "CSB_flag": [0, false],
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
@@ -6052,6 +6053,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "e75a804d-10f7-4441-9d89-dc7c59c6cd2d": {
+      "name": "turbo_upsell",
+      "v": 29427,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "post_dnr"
       }]
     },
     "e7663acb-7979-4b47-8325-557da0d62177": {
