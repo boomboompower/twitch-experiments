@@ -413,7 +413,7 @@ window.__twilightSettings = {
   "No_Track_Pages": ["/user/password-reset"],
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "offer_claim_sync": [0, false],
-  "omit_topnav_in_theatre": [0, false],
+  "omit_topnav_in_theatre": [0.5, false],
   "onboarding_agreement_api": [1, true],
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
@@ -468,6 +468,8 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
+  "pubsub_error_reporting-js": [0.03, false],
+  "pubsub_error_reporting-ts": [1, false],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
@@ -3122,18 +3124,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 100,
-        "value": "variant"
-      }]
-    },
-    "644da5b3-fe6b-40f4-b7a3-426348b228bc": {
-      "name": "com30_shapeshifting_ocp",
-      "v": 28015,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
         "value": "variant"
       }]
     },
@@ -5957,13 +5947,13 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 29291,
+      "v": 29443,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "cbr_v1"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "vbr_v1"
       }]
     },
@@ -6394,13 +6384,13 @@ window.__twilightSettings = {
     },
     "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
       "name": "is-user-in-friendly-fraud-group",
-      "v": 29140,
+      "v": 29453,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 10,
         "value": "friendly_fraud_model"
       }]
     },
