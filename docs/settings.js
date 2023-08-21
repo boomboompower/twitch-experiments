@@ -1484,7 +1484,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29413,
+      "v": 29435,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1496,13 +1496,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
