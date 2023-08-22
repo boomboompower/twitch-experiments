@@ -243,6 +243,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_1_flag": [1, false],
   "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
+  "drops_v3_migration_phase_3_flag": [0, false],
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
@@ -568,6 +569,7 @@ window.__twilightSettings = {
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
+  "sponsorships_creator_dashboard": [0, true],
   "sponsorships_revenue": [0, true],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
@@ -1959,16 +1961,16 @@ window.__twilightSettings = {
     },
     "314d0261-c546-4b5a-848d-3d371fec8515": {
       "name": "during_ad_messaging_eligibility",
-      "v": 28556,
+      "v": 29459,
       "t": 1,
       "groups": [{
-        "weight": 34,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 100,
         "value": "iteration1"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "iteration2"
       }]
     },
