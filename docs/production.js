@@ -281,11 +281,6 @@ const productionExperiments = [
         "dateFound": "2023-02-17T01:43:26.000Z"
     },
     {
-        "id": "644da5b3-fe6b-40f4-b7a3-426348b228bc",
-        "name": "com30_shapeshifting_ocp",
-        "dateFound": "2023-03-21T01:23:02.000Z"
-    },
-    {
         "id": "cf91e619-8d8b-486f-83a3-13db61bfbfaf",
         "name": "bits_top_nav_explanation",
         "dateFound": "2022-06-15T07:19:12.000Z"
