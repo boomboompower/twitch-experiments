@@ -587,6 +587,7 @@ window.__twilightSettings = {
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio_aloha": [0, false],
+  "studio_aloha_date": "2023-09-19",
   "studio_companion_mode": [0, true],
   "studio_guest_star_default_layout": [0, false],
   "studio_guest_star_default_layout_release_date": "2023-03-22",
@@ -643,7 +644,8 @@ window.__twilightSettings = {
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
-  "TV2_post_DNR": [0, false],
+  "TV2_post_DNR_ads": [0, false],
+  "TV2_post_DNR_topnav": [0, false],
   "TV2_pre_DNR": [1, true],
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -6052,7 +6054,7 @@ window.__twilightSettings = {
     },
     "e75a804d-10f7-4441-9d89-dc7c59c6cd2d": {
       "name": "turbo_upsell",
-      "v": 29427,
+      "v": 29501,
       "t": 2,
       "groups": [{
         "weight": 100,
