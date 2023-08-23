@@ -365,6 +365,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
+  "ltdv2_rollout_enabled": [0, false],
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
   "mac_studio_downloads_enabled": true,
@@ -641,6 +642,7 @@ window.__twilightSettings = {
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
+  "TV2_post_DNR": [0, false],
   "TV2_pre_DNR": [1, true],
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -2765,37 +2767,37 @@ window.__twilightSettings = {
     },
     "596c83f5-e0c6-44f1-bf05-de9e0d665100": {
       "name": "checkout_ux_phase_1",
-      "v": 28332,
+      "v": 29486,
       "t": 2,
       "groups": [{
-        "weight": 10,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_a"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_b"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_c"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_d"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_e"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_f"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_g"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_h"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_i"
       }]
     },
