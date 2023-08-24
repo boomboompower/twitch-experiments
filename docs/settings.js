@@ -6030,13 +6030,13 @@ window.__twilightSettings = {
     },
     "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f": {
       "name": "Twilight amazon-ivs-web-broadcast API",
-      "v": 29206,
+      "v": 29514,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "v2"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "v1"
       }]
     },
