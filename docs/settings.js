@@ -404,7 +404,7 @@ window.__twilightSettings = {
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
   "mv_rd": [0, false],
-  "mv_rd_rollout_date": "2023-08-07T00:00:00Z",
+  "mv_rd_rollout_date": "2023-08-24T18:38:19.695Z",
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
   "new_games_pill_rollout": [1, false],
@@ -3452,11 +3452,14 @@ window.__twilightSettings = {
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 29147,
+      "v": 29544,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "twilio"
       }]
     },
     "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
@@ -5954,14 +5957,14 @@ window.__twilightSettings = {
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
       "name": "mobile_native_web_transcode_mode",
-      "v": 29443,
+      "v": 29545,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "cbr_v1"
       }, {
-        "weight": 0,
-        "value": "vbr_v1"
+        "weight": 1,
+        "value": "vbr_v2"
       }]
     },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {

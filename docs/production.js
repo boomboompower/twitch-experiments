@@ -624,11 +624,6 @@ const productionExperiments = [
         "dateFound": "2023-03-21T01:23:02.000Z"
     },
     {
-        "id": "631c9574-0e7e-4114-80f2-3c4f7c86c4da",
-        "name": "views_from_twitch_m2",
-        "dateFound": "2023-04-29T01:21:51.366Z"
-    },
-    {
         "id": "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb",
         "name": "chat_signup_gate",
         "dateFound": "2023-04-06T01:19:44.000Z"
@@ -652,11 +647,6 @@ const productionExperiments = [
         "id": "5a3c2a88-a7e6-4e75-a12d-ec7a82264351",
         "name": "ch_dome",
         "dateFound": "2023-05-23T01:24:16.479Z"
-    },
-    {
-        "id": "8de6298f-86f1-4313-919b-52c165a503d1",
-        "name": "new_vs_returning",
-        "dateFound": "2023-06-03T02:14:00.391Z"
     },
     {
         "id": "033ddc81-63cf-4e40-a9dc-440df0537f30",
@@ -707,5 +697,10 @@ const productionExperiments = [
         "id": "e7663acb-7979-4b47-8325-557da0d62177",
         "name": "invite_raider",
         "dateFound": "2023-08-14T20:12:39.266Z"
+    },
+    {
+        "id": "e75a804d-10f7-4441-9d89-dc7c59c6cd2d",
+        "name": "turbo_upsell",
+        "dateFound": "2023-08-24T20:12:57.822Z"
     }
 ]
