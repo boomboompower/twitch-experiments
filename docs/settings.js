@@ -71,7 +71,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0, false],
+  "brand_lift_v0": [1, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -147,7 +147,7 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clips-exporter-youtube-connection": [0, false],
-  "clips-manager-refactor": [0, false],
+  "clips-manager-refactor": [0.25, false],
   "cmon_chat_introduction": [1, false],
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
@@ -198,6 +198,7 @@ window.__twilightSettings = {
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
   "da_manager_m2": [1, false],
+  "dac7-phase-2": [0, false],
   "dashboard_payout_history": true,
   "dashboard_payout_incentives": "on",
   "dashboard_prime_earnings": "on",
@@ -243,7 +244,6 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_1_flag": [1, false],
   "drops_v3_migration_phase_2_date": "2023-09-13T00:00:00",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
-  "drops_v3_migration_phase_3_flag": [0, false],
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
@@ -3452,13 +3452,13 @@ window.__twilightSettings = {
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 29544,
+      "v": 29553,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "twilio"
       }]
     },
