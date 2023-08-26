@@ -405,7 +405,7 @@ window.__twilightSettings = {
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
-  "mv_rd": [0.75, false],
+  "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
