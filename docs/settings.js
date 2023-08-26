@@ -405,8 +405,8 @@ window.__twilightSettings = {
   "multihost_eventing_migration": [0, false],
   "music_follow_feature_allowlist": ["603146961", "735667497", "738912536", "156488576", "749283987", "108122248", "206339667", "220439537", "702882417", "533276397"],
   "music_portal_access": [0, true],
-  "mv_rd": [0, false],
-  "mv_rd_rollout_date": "2023-08-24T18:38:19.695Z",
+  "mv_rd": [0.75, false],
+  "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
   "new_games_pill_rollout": [1, false],
@@ -4819,7 +4819,7 @@ window.__twilightSettings = {
     },
     "acccd881-087f-4c7a-98b4-3725bd3cd457": {
       "name": "analytics_revenue_tcc",
-      "v": 28838,
+      "v": 29570,
       "t": 2,
       "groups": [{
         "weight": 100,
