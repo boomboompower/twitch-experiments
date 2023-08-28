@@ -148,7 +148,7 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clips-exporter-youtube-connection": [0, false],
-  "clips-manager-refactor": [0.5, false],
+  "clips-manager-refactor": [1, false],
   "cmon_chat_introduction": [1, false],
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
@@ -285,7 +285,7 @@ window.__twilightSettings = {
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
-  "friendly-alligator": false,
+  "friendly-alligator": true,
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": false,
@@ -3454,7 +3454,7 @@ window.__twilightSettings = {
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 29568,
+      "v": 29587,
       "t": 2,
       "groups": [{
         "weight": 50,
@@ -3652,6 +3652,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant-m"
+      }]
+    },
+    "7caa1776-e355-413a-ba3f-ab55bc232817": {
+      "name": "guest_star_invite_raiders_cluster_t5",
+      "v": 29589,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "treament"
       }]
     },
     "7ccfd606-6941-4806-9af6-7052e61acef0": {
@@ -6396,13 +6408,13 @@ window.__twilightSettings = {
     },
     "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
       "name": "is-user-in-friendly-fraud-group",
-      "v": 29453,
+      "v": 29583,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 50,
         "value": "friendly_fraud_model"
       }]
     },
