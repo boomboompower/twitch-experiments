@@ -351,6 +351,7 @@ window.__twilightSettings = {
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
+  "irate-opossum": false,
   "irradiated-grumpy-aardvark": false,
   "is_grogu_enabled": [0, false],
   "is_legacy_dashboard_enabled": true,
@@ -3656,13 +3657,13 @@ window.__twilightSettings = {
     },
     "7caa1776-e355-413a-ba3f-ab55bc232817": {
       "name": "guest_star_invite_raiders_cluster_t5",
-      "v": 29589,
+      "v": 29591,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "treament"
       }]
     },
@@ -6154,6 +6155,15 @@ window.__twilightSettings = {
         "value": "on"
       }]
     },
+    "ea5e7804-9b27-4083-b18c-0079519977e1": {
+      "name": "copyright-sqnc-tier-3",
+      "v": 29597,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "eac301ba-275a-4727-ab5b-712f4dc8fb28": {
       "name": "pg_pd_2023",
       "v": 28649,
@@ -6444,13 +6454,13 @@ window.__twilightSettings = {
     },
     "f36419c3-0075-4c4c-bdbc-5b0f45bbb1b9": {
       "name": "guest_star_invite_raiders_cluster_t1-4",
-      "v": 29292,
+      "v": 29590,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "control"
       }]
     },
