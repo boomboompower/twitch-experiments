@@ -664,6 +664,7 @@ window.__twilightSettings = {
   "use-gql-rev": [1, false],
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
+  "v6ssdk_migration": [0, true],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
