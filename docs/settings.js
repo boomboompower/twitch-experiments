@@ -571,6 +571,7 @@ window.__twilightSettings = {
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
+  "sonic_and_tails": [0, true],
   "soundtrack_content_promo_v1": true,
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
@@ -686,6 +687,7 @@ window.__twilightSettings = {
   "watch_channel_update_after_pubsub_max_rps": 2000,
   "watch_history_logging_enabled": [0, false],
   "watch_playback_by_id": [1, true],
+  "watch_streak_milestones_enabled": false,
   "watch_stunt_double_channels": ["dustyis"],
   "watch_update_fragment_viewcount": [1, true],
   "watch_use_stream_status_for_liveness": [0, false],
@@ -3642,7 +3644,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 29336,
+      "v": 29609,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3651,23 +3653,11 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
-      }]
-    },
-    "7caa1776-e355-413a-ba3f-ab55bc232817": {
-      "name": "guest_star_invite_raiders_cluster_t5",
-      "v": 29591,
-      "t": 2,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 50,
-        "value": "treament"
       }]
     },
     "7ccfd606-6941-4806-9af6-7052e61acef0": {
@@ -3771,17 +3761,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 29386,
+      "v": 29610,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }]
     },
@@ -5115,6 +5105,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_2"
+      }]
+    },
+    "b8b7cac6-956d-4819-8d35-9ae57aa5f0ce": {
+      "name": "mobile_native_web_player_hevc",
+      "v": 29607,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "force"
       }]
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
@@ -6453,18 +6458,6 @@ window.__twilightSettings = {
       }, {
         "weight": 90,
         "value": "variant"
-      }]
-    },
-    "f36419c3-0075-4c4c-bdbc-5b0f45bbb1b9": {
-      "name": "guest_star_invite_raiders_cluster_t1-4",
-      "v": 29590,
-      "t": 2,
-      "groups": [{
-        "weight": 50,
-        "value": "treatment"
-      }, {
-        "weight": 50,
-        "value": "control"
       }]
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
