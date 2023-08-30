@@ -694,7 +694,6 @@ window.__twilightSettings = {
   "web_offers_rollout": [1, true],
   "web_sub_tokens": false,
   "why_sub_button": false,
-  "window_focus_blur_remove": [1, false],
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
@@ -5455,6 +5454,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "cee91f9e-e512-4cb7-8cbf-4501d7844ce0": {
+      "name": "checkout_ux_phase_1.5",
+      "v": 29621,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "cef566dc-5836-4f83-8ca6-12839d08426c": {

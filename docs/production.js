@@ -1,5 +1,10 @@
 const productionExperiments = [
     {
+        "id": "4175854e-ac90-49cf-a871-d5d7616e9837",
+        "name": "chmod-bcsvs",
+        "dateFound": "2023-08-30T20:13:13.053Z"
+    },
+    {
         "id": "0b0d562f-72f3-46e5-8535-eeb84203fe3f",
         "name": "toga-turtle-street",
         "dateFound": "2023-01-20T01:37:51.000Z"
