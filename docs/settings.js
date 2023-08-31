@@ -10,6 +10,7 @@ window.__twilightSettings = {
   "activity_feed_qa_ff": [1, true],
   "ad_content_metadata_allowlist": ["155668964", "38543271", "25100025", "24199752", "472905796", "452977866"],
   "ad_content_metadata_rollout": [1, false],
+  "ad_sassy_chat_alert": [0, true],
   "ad_sassy_toggle": [0, true],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
@@ -331,7 +332,7 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
-  "happens_in_vegas": false,
+  "happens_in_vegas": true,
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -571,7 +572,6 @@ window.__twilightSettings = {
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
-  "sonic_and_tails": [0, true],
   "soundtrack_content_promo_v1": true,
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
@@ -650,8 +650,8 @@ window.__twilightSettings = {
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
-  "TV2_post_DNR_ads": [0, false],
-  "TV2_post_DNR_topnav": [0, false],
+  "TV2_post_DNR_ads": [1, true],
+  "TV2_post_DNR_topnav": [1, true],
   "TV2_pre_DNR": [1, true],
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -3643,7 +3643,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 29609,
+      "v": 29628,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3652,10 +3652,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3760,17 +3760,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 29610,
+      "v": 29627,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
