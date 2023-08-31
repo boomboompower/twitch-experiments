@@ -50,11 +50,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "4bc764f2-f282-41e9-8aeb-15cb1f132d78",
-        "name": "animated_emotes_for_affiliates",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "339f74af-0cbc-4e50-a4c9-cc47ffea05e4",
         "name": "bits_card_simplified_cheermote_selection",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -712,5 +707,15 @@ const productionExperiments = [
         "id": "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f",
         "name": "amazon_ivs_web_broadcast_api_v2",
         "dateFound": "2023-08-25T20:12:24.179Z"
+    },
+    {
+        "id": "f36419c3-0075-4c4c-bdbc-5b0f45bbb1b9",
+        "name": "guest_star_invite_raiders_cluster_1",
+        "dateFound": "2023-08-31T20:12:52.243Z"
+    },
+    {
+        "id": "7caa1776-e355-413a-ba3f-ab55bc232817",
+        "name": "guest_star_invite_raiders_cluster_2",
+        "dateFound": "2023-08-31T20:12:52.246Z"
     }
 ]

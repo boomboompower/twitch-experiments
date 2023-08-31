@@ -73,7 +73,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [1, false],
+  "brand_lift_v0": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -652,7 +652,7 @@ window.__twilightSettings = {
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
   "TV2_post_DNR_ads": [1, true],
   "TV2_post_DNR_topnav": [1, true],
-  "TV2_pre_DNR": [1, true],
+  "TV2_pre_DNR": [0, true],
   "twilight_device_type": [0, true],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -6437,13 +6437,13 @@ window.__twilightSettings = {
     },
     "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
       "name": "is-user-in-friendly-fraud-group",
-      "v": 29583,
+      "v": 29644,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 10,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 90,
         "value": "friendly_fraud_model"
       }]
     },
