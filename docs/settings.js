@@ -593,7 +593,7 @@ window.__twilightSettings = {
   "stream_together_guest_screenshare": [0, false],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
-  "studio_aloha": [0, false],
+  "studio_aloha": [1, true],
   "studio_aloha_date": "2023-09-19",
   "studio_companion_mode": [0, true],
   "studio_guest_star_default_layout": [0, false],
@@ -2705,6 +2705,15 @@ window.__twilightSettings = {
         "value": "bottom"
       }]
     },
+    "55ead128-5038-4f33-ba98-ff9a5f070dc7": {
+      "name": "watch_streak_progress_1",
+      "v": 29725,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
       "v": 27743,
@@ -3762,17 +3771,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 29627,
+      "v": 29716,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -4800,6 +4809,15 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "ab040de4-3c63-4c6b-ac1e-36554eafcbc7": {
+      "name": "watch_streak_progress_2_3",
+      "v": 29727,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "ab79d3b7-2881-4c97-be08-b98f1cc4a074": {
       "name": "ios_paid_pinnedchat",
       "v": 28719,
@@ -5237,13 +5255,14 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 28542,
+      "v": 29728,
       "t": 3,
+      "s": 1,
       "groups": [{
-        "weight": 10,
+        "weight": 20,
         "value": "treatment"
       }, {
-        "weight": 90,
+        "weight": 80,
         "value": "control"
       }]
     },
