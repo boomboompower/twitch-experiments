@@ -502,6 +502,7 @@ window.__twilightSettings = {
   "radio_soundtrack_ugc_feature_flag": [0, true],
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
+  "rain_dance": [0, false],
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
   "recurly_spm_guard": [1, true],
@@ -546,7 +547,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "shared_comments_enabled": [0, false],
-  "shield_mode_alerts_enabled": [0, false],
+  "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
@@ -646,7 +647,7 @@ window.__twilightSettings = {
   "tifa_enabled": [1, false],
   "tik-tok-connection": [0, false],
   "time-to-stream-feature-flag": [1, true],
-  "toga_turtle_street_var_2_rollout": false,
+  "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "Turtle": "Setting",
@@ -992,16 +993,16 @@ window.__twilightSettings = {
     },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
       "name": "toga-turtle-street",
-      "v": 27028,
+      "v": 29744,
       "t": 3,
       "groups": [{
-        "weight": 34,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant 1"
       }, {
-        "weight": 33,
+        "weight": 100,
         "value": "variant 2"
       }]
     },
@@ -4845,13 +4846,13 @@ window.__twilightSettings = {
     },
     "acccd881-087f-4c7a-98b4-3725bd3cd457": {
       "name": "analytics_revenue_tcc",
-      "v": 29570,
+      "v": 29746,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
