@@ -199,7 +199,7 @@ window.__twilightSettings = {
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
   "da_manager_m2": [1, false],
-  "dac7-phase-2": [1, false],
+  "dac7-phase-2": [0, false],
   "dac7-phase2-banner": [0, false],
   "dashboard_payout_history": true,
   "dashboard_payout_incentives": "on",
@@ -1506,7 +1506,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29497,
+      "v": 29760,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1518,13 +1518,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -6026,6 +6026,18 @@ window.__twilightSettings = {
         "value": "vbr_v2"
       }]
     },
+    "e320a461-ff88-45f8-aa98-d91f9ea8c0f7": {
+      "name": "dac7-phase2",
+      "v": 29762,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "legacy"
+      }]
+    },
     "e33a85a2-43ab-425b-bc2e-555a650b7f2a": {
       "name": "BROADCASTER_AD_REVENUE_ESTIMATE",
       "v": 3259,
@@ -6513,13 +6525,13 @@ window.__twilightSettings = {
     },
     "f289f54d-90f3-4d12-bd58-62e018c397df": {
       "name": "cmgr-exp-edit",
-      "v": 29398,
+      "v": 29758,
       "t": 2,
       "groups": [{
-        "weight": 10,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 90,
+        "weight": 100,
         "value": "variant"
       }]
     },

@@ -704,6 +704,16 @@ const productionExperiments = [
         "dateFound": "2023-08-24T20:12:57.822Z"
     },
     {
+        "id": "f36419c3-0075-4c4c-bdbc-5b0f45bbb1b9",
+        "name": "guest_star_invite_raiders_cluster_1",
+        "dateFound": "2023-09-07T20:12:53.401Z"
+    },
+    {
+        "id": "7caa1776-e355-413a-ba3f-ab55bc232817",
+        "name": "guest_star_invite_raiders_cluster_2",
+        "dateFound": "2023-09-07T20:12:53.404Z"
+    },
+    {
         "id": "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f",
         "name": "amazon_ivs_web_broadcast_api_v2",
         "dateFound": "2023-08-25T20:12:24.179Z"
