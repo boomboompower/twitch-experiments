@@ -32,7 +32,8 @@ const experimentRegex = / +(var [a-z] = \(\([a-z] = {}\)|[a-z])(\n +)?(\.|\[")(?
         return;
     }
 
-    const buildInfo: BuildInfo = latestBuild.channels[0] as BuildInfo;
+    // Use the primary build info
+    const buildInfo: BuildInfo = latestBuild.channels.find(channel => return channel.primary) as BuildInfo;
     const updatedAt = `Updated: ${formatTime(buildInfo.updated, true)}`;
     const newestBuild = `${buildInfo.releases[0].buildId}\n${updatedAt}`;
 
@@ -93,7 +94,15 @@ async function checkLatestSettings() {
  * @param buildInfo the latest build info.
  */
 async function checkLatestExperiments(buildInfo: BuildInfo) {
-    const twilightProd = buildInfo.releases[0].files.find((file: string) => {
+    const buildFiles = buildInfo.releases[0].files;
+
+    if (buildFiles === null) {
+        console.error('No build files found for the selected release.');
+        
+        return false;
+    }
+    
+    const twilightProd = buildFiles.find((file: string) => {
         return file.startsWith('assets/core-') && file.endsWith('.js')
     })
 
