@@ -33,7 +33,8 @@ const experimentRegex = / +(var [a-z] = \(\([a-z] = {}\)|[a-z])(\n +)?(\.|\[")(?
     }
 
     // Use the primary build info
-    const buildInfo: BuildInfo = latestBuild.channels.find(channel => return channel.primary) as BuildInfo;
+    // TODO proper typing for channel object
+    const buildInfo: BuildInfo = latestBuild.channels.find((channel: any) => { return channel.primary; }) as BuildInfo;
     const updatedAt = `Updated: ${formatTime(buildInfo.updated, true)}`;
     const newestBuild = `${buildInfo.releases[0].buildId}\n${updatedAt}`;
 
