@@ -717,5 +717,10 @@ const productionExperiments = [
         "id": "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f",
         "name": "amazon_ivs_web_broadcast_api_v2",
         "dateFound": "2023-08-25T20:12:24.179Z"
+    },
+    {
+        "id": "218f98db-fccb-4ead-a284-19d7f3b261f4",
+        "name": "new_affiliates_goals",
+        "dateFound": "2023-09-12T20:13:20.333Z"
     }
 ]
