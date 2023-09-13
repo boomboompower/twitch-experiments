@@ -320,6 +320,7 @@ window.__twilightSettings = {
   "guest_star_nameplate_settings": [1, true],
   "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
+  "guest_star_one_mode_to_rule_them_all": [0, false],
   "guest_star_request_to_join": [1, true],
   "guest_star_request_to_join_audio_only": [1, true],
   "guest_star_request_to_join_fetchNextPage_request_cap": 5,
