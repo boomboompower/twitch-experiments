@@ -117,7 +117,7 @@ window.__twilightSettings = {
   "channel_banned_alias_enabled": [0, false],
   "channel_clips_feature": [1, true],
   "channel_enrolled_sm": [1, true],
-  "channel_enrolled_sm_mv": [0, false],
+  "channel_enrolled_sm_mv": [1, true],
   "chat_connect_backoff": 4000,
   "chat_connect_timeout": 6000,
   "chat_filter_enabled": "on",
@@ -254,7 +254,7 @@ window.__twilightSettings = {
   "Emote_Card_Octane": [1, true],
   "emote_card_whitelist": ["184009112"],
   "emote_picker_load_bits_tier_emotes": [1, true],
-  "emote_sets_pagination_switchover": [0.5, false],
+  "emote_sets_pagination_switchover": [0.8, false],
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
   "enable_desktop_app_sunset_banner": [1, true],
@@ -556,7 +556,7 @@ window.__twilightSettings = {
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
-  "shared_comments_enabled": [0, false],
+  "shared_comments_enabled": [1, true],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
@@ -581,7 +581,7 @@ window.__twilightSettings = {
   "skyscraper_kill_switch": false,
   "sl_exp": 0,
   "smgr_remove_view_count": [1, false],
-  "smode_mv_rollout_enabled": false,
+  "smode_mv_rollout_enabled": true,
   "smode_rollout_enabled": true,
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
@@ -5494,13 +5494,13 @@ window.__twilightSettings = {
     },
     "cee91f9e-e512-4cb7-8cbf-4501d7844ce0": {
       "name": "checkout_ux_phase_1.5",
-      "v": 29621,
+      "v": 29892,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
