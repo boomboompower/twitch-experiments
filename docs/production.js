@@ -719,6 +719,11 @@ const productionExperiments = [
         "dateFound": "2023-08-25T20:12:24.179Z"
     },
     {
+        "id": "cee91f9e-e512-4cb7-8cbf-4501d7844ce0",
+        "name": "checkout_ux_phase_1.5",
+        "dateFound": "2023-09-15T20:13:02.393Z"
+    },
+    {
         "id": "218f98db-fccb-4ead-a284-19d7f3b261f4",
         "name": "new_affiliates_goals",
         "dateFound": "2023-09-12T20:13:20.333Z"

@@ -246,7 +246,7 @@ window.__twilightSettings = {
   "drops_v3_dev_console": [0, false],
   "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_migration_phase_1_flag": [1, false],
-  "drops_v3_migration_phase_2_date": "2023-09-18T00:00:00",
+  "drops_v3_migration_phase_2_date": "2023-09-18T22:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
   "edit_broadcast_poll_interval_ms": 60000,
@@ -1517,7 +1517,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29780,
+      "v": 29909,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1529,13 +1529,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
