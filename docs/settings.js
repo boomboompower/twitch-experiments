@@ -309,6 +309,7 @@ window.__twilightSettings = {
   "guest_star_crossover_beta_signup": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
+  "guest_star_early_access_status_indicator": [0, false],
   "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
@@ -5356,6 +5357,15 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "c54ebc3d-e931-4454-ac06-023eba9d9968": {
+      "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
+      "v": 29936,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "c6fd0d37-c577-4e5f-a2a7-9d2e1c7c300b": {
       "name": "community-gifting-recommendation-v2.6",
       "v": 12736,
@@ -6064,7 +6074,7 @@ window.__twilightSettings = {
     },
     "e36f25e1-6a91-40ab-a00a-9755a16e9cae": {
       "name": "ltd_experiment_v2",
-      "v": 29669,
+      "v": 29935,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -6085,8 +6095,11 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "GroupF-180s"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "CONTROL"
+      }, {
+        "weight": 100,
+        "value": "PRERELEASE"
       }]
     },
     "e3e2e186-a378-484c-bf15-2c5194e3bcf8": {
