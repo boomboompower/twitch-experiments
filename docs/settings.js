@@ -2,6 +2,7 @@ window.__twilightSettings = {
   "environment": "production",
   "2fa_remember_me": [1, false],
   "2fa_restricted_country_code": ["RU"],
+  "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
   "ach_migration_to_rarecandy": [1, true],
