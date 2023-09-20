@@ -352,7 +352,7 @@ window.__twilightSettings = {
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
   "hypechat_revenue": [1, true],
-  "igdb_links_enabled": [0, false],
+  "igdb_links_enabled": [0.1, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
   "impacted_notice_banner_enabled": [0, false],
