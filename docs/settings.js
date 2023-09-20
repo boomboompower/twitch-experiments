@@ -93,7 +93,7 @@ window.__twilightSettings = {
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla", "vcoesports"],
   "ce_new_banner": [0, false],
   "ce-tt-banner-expiry": "2023-12-01",
-  "ce-tt-flag": [0, false],
+  "ce-tt-flag": [1, false],
   "celebi_animation_settings": "{}",
   "celebi_beta_channels": ["seph"],
   "celebi_celebration_area": "EVERYWHERE",
@@ -243,7 +243,7 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
-  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d"],
+  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a"],
   "drops_v3_dev_console": [1, false],
   "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_migration_phase_1_flag": [1, false],
@@ -5360,11 +5360,14 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 29936,
+      "v": 29963,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "enabled"
       }]
     },
     "c6fd0d37-c577-4e5f-a2a7-9d2e1c7c300b": {
