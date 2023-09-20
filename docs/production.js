@@ -719,6 +719,11 @@ const productionExperiments = [
         "dateFound": "2023-08-25T20:12:24.179Z"
     },
     {
+        "id": "c54ebc3d-e931-4454-ac06-023eba9d9968",
+        "name": "amazon_ivs_web_broadcast_enable_simulcast",
+        "dateFound": "2023-09-20T20:13:21.359Z"
+    },
+    {
         "id": "cee91f9e-e512-4cb7-8cbf-4501d7844ce0",
         "name": "checkout_ux_phase_1.5",
         "dateFound": "2023-09-15T20:13:02.393Z"

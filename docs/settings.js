@@ -1114,6 +1114,15 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
+      "name": "watch_streak_progress_bar_exp_1",
+      "v": 30001,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "0dc9a9c9-fee5-4b5f-a462-f07675713e5e": {
       "name": "TWILIGHT_FOLLOWING_INDEX_LATEST_VIDEOS_V2",
       "v": 5983,
@@ -2268,6 +2277,15 @@ window.__twilightSettings = {
         "value": "no"
       }]
     },
+    "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
+      "name": "watch_streak_progress_bar_exp_2_3",
+      "v": 30002,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "40cccbb0-2936-4116-9b58-417fdee39806": {
       "name": "better_onsite_gift_notifications",
       "v": 21142,
@@ -2720,15 +2738,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "bottom"
-      }]
-    },
-    "55ead128-5038-4f33-ba98-ff9a5f070dc7": {
-      "name": "watch_streak_progress_1",
-      "v": 29725,
-      "t": 3,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
@@ -4824,15 +4833,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "ab040de4-3c63-4c6b-ac1e-36554eafcbc7": {
-      "name": "watch_streak_progress_2_3",
-      "v": 29727,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "ab79d3b7-2881-4c97-be08-b98f1cc4a074": {
