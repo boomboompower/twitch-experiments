@@ -256,7 +256,7 @@ window.__twilightSettings = {
   "Emote_Card_Octane": [1, true],
   "emote_card_whitelist": ["184009112"],
   "emote_picker_load_bits_tier_emotes": [1, true],
-  "emote_sets_pagination_switchover": [0.8, false],
+  "emote_sets_pagination_switchover": [1, false],
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
   "enable_desktop_app_sunset_banner": [1, true],
@@ -4925,13 +4925,13 @@ window.__twilightSettings = {
     },
     "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4": {
       "name": "pg_personalized_crown_menu",
-      "v": 29060,
+      "v": 30046,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
