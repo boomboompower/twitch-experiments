@@ -526,7 +526,7 @@ window.__twilightSettings = {
   "revive_creator_anniversary": [1, false],
   "reward_campaigns": [1, false],
   "reward_campaigns_gql_reads": [0, false],
-  "rip-in-rip": [0, false],
+  "rip-in-rip": [0.05, false],
   "rocket_train_passengers": ["408380599", "478863946", "695413795"],
   "rocket_train_ready": [1, false],
   "rocket_wheels_help_article": "https://help.twitch.tv/s/article/boost-train",
@@ -3799,17 +3799,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 30062,
+      "v": 30086,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
