@@ -113,6 +113,7 @@ window.__twilightSettings = {
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
   "ch_feature_goals": [1, true],
+  "ch-east": [0, false],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
@@ -3798,17 +3799,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 30038,
+      "v": 30062,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-b"
       }]
     },
