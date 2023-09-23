@@ -526,7 +526,7 @@ window.__twilightSettings = {
   "revive_creator_anniversary": [1, false],
   "reward_campaigns": [1, false],
   "reward_campaigns_gql_reads": [0, false],
-  "rip-in-rip": [0.05, false],
+  "rip-in-rip": [0.5, false],
   "rocket_train_passengers": ["408380599", "478863946", "695413795"],
   "rocket_train_ready": [1, false],
   "rocket_wheels_help_article": "https://help.twitch.tv/s/article/boost-train",
