@@ -113,7 +113,7 @@ window.__twilightSettings = {
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
   "ch_feature_goals": [1, true],
-  "ch-east": [0, false],
+  "ch-east": [1, false],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
@@ -1633,13 +1633,13 @@ window.__twilightSettings = {
     },
     "218f98db-fccb-4ead-a284-19d7f3b261f4": {
       "name": "new_affiliates_goals",
-      "v": 29063,
+      "v": 30121,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
