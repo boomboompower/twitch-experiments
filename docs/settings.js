@@ -67,7 +67,7 @@ window.__twilightSettings = {
   "bits_usage_history": [1, false],
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
-  "Blobfish": "Setting",
+  "Blobfish": "2023-10-01T07:00:00+00:00",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
   "bounty_board_brand_portal_trailer_enabled": [1, true],
@@ -75,6 +75,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "brand_lift_v0": [0, false],
+  "brand_lift_v0_us": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -108,7 +109,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "cg_vuc_enabled": [0, false],
+  "cg_vuc_enabled": [1, false],
   "ch_creators_in_community": [1, true],
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
@@ -322,6 +323,7 @@ window.__twilightSettings = {
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_nameplate_settings": [1, true],
+  "guest_star_new_feedback_modal": [0, false],
   "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
   "guest_star_one_mode_to_rule_them_all": [0, false],
@@ -490,8 +492,6 @@ window.__twilightSettings = {
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
   "pubsub_availability_reporting": [0.03, true],
-  "pubsub_error_reporting-js": [0.03, false],
-  "pubsub_error_reporting-ts": [1, false],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
   "qol_badges_launch": false,
@@ -526,7 +526,7 @@ window.__twilightSettings = {
   "revive_creator_anniversary": [1, false],
   "reward_campaigns": [1, false],
   "reward_campaigns_gql_reads": [0, false],
-  "rip-in-rip": [0.5, false],
+  "rip-in-rip": [1, false],
   "rocket_train_passengers": ["408380599", "478863946", "695413795"],
   "rocket_train_ready": [1, false],
   "rocket_wheels_help_article": "https://help.twitch.tv/s/article/boost-train",
@@ -538,10 +538,10 @@ window.__twilightSettings = {
   "rooms_deprecation_selector_hidden": true,
   "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US", "AI", "AL", "AM", "AN", "AZ", "BA", "BD", "BG", "BI", "BJ", "BL", "BV", "BW", "CC", "CF", "CK", "CN", "CV", "CX", "CZ", "DO", "DZ", "EE", "EG", "EH", "ER", "FK", "GE", "GF", "GH", "GL", "GM", "GN", "GQ", "GS", "GW", "HK", "HM", "IN", "IS", "JO", "KE", "KG", "KH", "KI", "KM", "KZ", "LA", "LS", "LU", "LV", "LY", "MA", "MD", "MH", "ML", "MR", "MS", "MV", "MW", "NF", "NP", "NR", "NU", "PG", "PH", "PK", "PL", "PM", "PN", "PS", "PT", "RO", "SB", "SC", "SH", "SJ", "SL", "SO", "SS", "ST", "TD", "TF", "TG", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TV", "UM", "UZ", "VA", "VC", "VG", "VN", "VU", "WF", "WS", "YE", "YT", "ET"],
   "rpt_messaging": true,
-  "rtj_follow_limit": [0, false],
+  "rtj_follow_limit": [1, false],
   "rtj_inactive_guest": [0, false],
-  "rtj_pause_resume_buttons_enabled": [0, false],
-  "rtj_subscription_limit": [0, false],
+  "rtj_pause_resume_buttons_enabled": [1, false],
+  "rtj_subscription_limit": [1, false],
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
@@ -667,7 +667,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "Turtle": "Setting",
+  "Turtle": "2023-09-26T17:00:00+00:00",
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
   "TV2_launch_date": "2023-05-25T17:00:00.86838Z",
@@ -2014,6 +2014,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "iteration2"
+      }]
+    },
+    "3277ac77-0818-4aab-9573-8ae8df2fd891": {
+      "name": "stream_together_guest_screenshare",
+      "v": 30162,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "32841811-2c64-41dd-b7b0-bd5fd5cd3a12": {
@@ -3823,6 +3835,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "opt-in"
+      }]
+    },
+    "82b2bac1-b750-4f18-b917-5ab1e08ea1d2": {
+      "name": "creator_home_feature_cards_link_out",
+      "v": 30154,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "82fc3075-94d3-4953-8e32-1271e754458d": {
