@@ -253,6 +253,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_2_date": "2023-09-18T20:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
+  "earnings_dashboard_outage_alert": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
@@ -6805,13 +6806,13 @@ window.__twilightSettings = {
     },
     "f8c43aed-0b0e-47bf-88db-5f188bac2922": {
       "name": "bits_simplified_purchase",
-      "v": 28486,
+      "v": 30168,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
