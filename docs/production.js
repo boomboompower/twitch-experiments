@@ -732,5 +732,10 @@ const productionExperiments = [
         "id": "218f98db-fccb-4ead-a284-19d7f3b261f4",
         "name": "new_affiliates_goals",
         "dateFound": "2023-09-12T20:13:20.333Z"
+    },
+    {
+        "id": "e36f25e1-6a91-40ab-a00a-9755a16e9cae",
+        "name": "ltd_experiment_v2",
+        "dateFound": "2023-09-27T20:13:06.878Z"
     }
 ]

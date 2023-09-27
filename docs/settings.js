@@ -101,6 +101,7 @@ window.__twilightSettings = {
   "celebi_stream_delay": true,
   "census-affiliate-onboarding-modal-enabled": [0, false],
   "cep_enabled": [0, false],
+  "cereus_rock_crab": false,
   "cf_clip_title_maintenance": false,
   "cf_goals_subs_dropdown": [1, true],
   "cf_jim_faxes_from_the_future": 1000,
@@ -109,7 +110,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "cg_vuc_enabled": [1, false],
+  "cg_vuc_enabled": [0, false],
   "ch_creators_in_community": [1, true],
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
@@ -2934,15 +2935,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
-      }]
-    },
-    "5a9a17af-4ff6-4916-b044-116c24d6a2c4": {
-      "name": "cereus_rock_crab",
-      "v": 30171,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "5aa83e03-4b09-4387-9c30-2d03bd8f79ee": {
