@@ -2936,6 +2936,15 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "5a9a17af-4ff6-4916-b044-116c24d6a2c4": {
+      "name": "cereus_rock_crab",
+      "v": 30171,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "5aa83e03-4b09-4387-9c30-2d03bd8f79ee": {
       "name": "twilight_subs_prime_2_paid",
       "v": 6401,
