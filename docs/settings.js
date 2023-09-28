@@ -110,7 +110,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "cg_vuc_enabled": [0, false],
+  "cg_vuc_enabled": [1, true],
   "ch_creators_in_community": [1, true],
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
@@ -156,6 +156,7 @@ window.__twilightSettings = {
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
+  "cmr-featured-settings-banner-expiry-date": "2024-01-01",
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
@@ -320,7 +321,7 @@ window.__twilightSettings = {
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
   "guest_star_invite_raider_experiment": [1, true],
-  "guest_star_layout_options": [0, false],
+  "guest_star_layout_options": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
@@ -3813,17 +3814,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 30086,
+      "v": 30197,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
