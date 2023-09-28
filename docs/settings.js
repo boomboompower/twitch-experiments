@@ -11,8 +11,8 @@ window.__twilightSettings = {
   "activity_feed_qa_ff": [1, true],
   "ad_content_metadata_allowlist": ["155668964", "38543271", "25100025", "24199752", "472905796", "452977866"],
   "ad_content_metadata_rollout": [1, false],
-  "ad_sassy_chat_alert": [0, true],
-  "ad_sassy_toggle": [0, true],
+  "ad_sassy_chat_alert": [1, true],
+  "ad_sassy_toggle": [1, true],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "ads_preroll_timeline_enabled": [1, false],
@@ -296,7 +296,7 @@ window.__twilightSettings = {
   "follower_emote_dashboard_access": [0, false],
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
-  "friendly-alligator": true,
+  "friendly-alligator": false,
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": false,
@@ -316,7 +316,7 @@ window.__twilightSettings = {
   "guest_star_crossover_beta_signup": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
   "guest_star_discovery_card": [0, false],
-  "guest_star_early_access_status_indicator": [0, false],
+  "guest_star_early_access_status_indicator": [1, true],
   "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
@@ -369,7 +369,7 @@ window.__twilightSettings = {
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
-  "irate-opossum": false,
+  "irate-opossum": true,
   "irradiated-grumpy-aardvark": false,
   "is_grogu_enabled": [0, false],
   "is_legacy_dashboard_enabled": true,
@@ -388,7 +388,7 @@ window.__twilightSettings = {
   "let-it-rip": [0, false],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
-  "ltdv2_rollout_enabled": [0, false],
+  "ltdv2_rollout_enabled": [1, false],
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
   "mac_studio_downloads_enabled": true,
@@ -6107,31 +6107,31 @@ window.__twilightSettings = {
     },
     "e36f25e1-6a91-40ab-a00a-9755a16e9cae": {
       "name": "ltd_experiment_v2",
-      "v": 29935,
+      "v": 30211,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 16,
         "value": "GroupA-30s"
       }, {
-        "weight": 0,
+        "weight": 16,
         "value": "GroupB-60s"
       }, {
-        "weight": 0,
+        "weight": 16,
         "value": "GroupC-90s"
       }, {
-        "weight": 0,
+        "weight": 16,
         "value": "GroupD-120s"
       }, {
-        "weight": 0,
+        "weight": 16,
         "value": "GroupE-150s"
       }, {
-        "weight": 0,
+        "weight": 16,
         "value": "GroupF-180s"
       }, {
-        "weight": 0,
+        "weight": 4,
         "value": "CONTROL"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "PRERELEASE"
       }]
     },
@@ -6655,13 +6655,13 @@ window.__twilightSettings = {
     },
     "f4e543a6-91fc-4c93-81a2-ae27e616a641": {
       "name": "player_core_edge_prewarm",
-      "v": 29344,
+      "v": 30206,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
