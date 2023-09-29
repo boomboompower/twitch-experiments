@@ -93,6 +93,7 @@ window.__twilightSettings = {
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla", "vcoesports"],
   "ce_new_banner": [0, false],
+  "ce-aep": [0, false],
   "ce-tt-banner-expiry": "2023-12-01",
   "ce-tt-flag": [1, false],
   "celebi_animation_settings": "{}",
@@ -200,6 +201,7 @@ window.__twilightSettings = {
   "crowd_chant": [0, false],
   "crowd_chant_length_limit": 120,
   "crowd_chant_query": [0, false],
+  "CS_settings": [0, false],
   "csai_ad_context_auto_clean": [1, true],
   "CSB_flag": [0, false],
   "CSI_use_xo_actions": true,
@@ -301,7 +303,7 @@ window.__twilightSettings = {
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": false,
   "gs_dropins_alpha": [0, false],
-  "gs_firefox_support": [0, false],
+  "gs_firefox_support": [1, false],
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": false,
   "guest_star_advanced_audio_controls": [1, true],
@@ -6229,6 +6231,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "e79c4cd9-6f2b-43d7-85ba-f8297fa5d929": {
+      "name": "brand_lift_survey_experiment_2",
+      "v": 30214,
+      "t": 2,
+      "groups": [{
+        "weight": 34,
+        "value": "control"
+      }, {
+        "weight": 33,
+        "value": "variant_1"
+      }, {
+        "weight": 33,
+        "value": "variant_2"
       }]
     },
     "e7a13ac9-8d55-435f-a238-827032e83b31": {
