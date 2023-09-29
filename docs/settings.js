@@ -15,6 +15,7 @@ window.__twilightSettings = {
   "ad_sassy_toggle": [1, true],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
+  "ads_dsa_directory_banner": [0, true],
   "ads_preroll_timeline_enabled": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
