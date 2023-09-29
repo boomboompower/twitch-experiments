@@ -253,7 +253,7 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
-  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a"],
+  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a", "6da09649-1fda-4446-a061-cacd8e21b886"],
   "drops_v3_dev_console": [1, false],
   "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_migration_phase_1_flag": [1, false],
@@ -309,6 +309,7 @@ window.__twilightSettings = {
   "gs_firefox_support": [1, false],
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": false,
+  "gs_stream_together_rebrand": [0, false],
   "guest_star_advanced_audio_controls": [1, true],
   "guest_star_audio_controls": [1, false],
   "guest_star_bug_reporting_dialog": [1, true],
@@ -331,7 +332,7 @@ window.__twilightSettings = {
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_nameplate_settings": [1, true],
-  "guest_star_new_feedback_modal": [0, false],
+  "guest_star_new_feedback_modal": [1, true],
   "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
   "guest_star_one_mode_to_rule_them_all": [0, false],
@@ -6061,6 +6062,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "e10c93b8-efad-4f34-98a0-b067ba697067": {
+      "name": "community_intro_rollout",
+      "v": 30234,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "e1632ecc-ce4e-4bb8-9505-398361ca82e0": {
       "name": "twilight_spade_client_improvements",
       "v": 11506,
@@ -6675,13 +6688,13 @@ window.__twilightSettings = {
     },
     "f4e543a6-91fc-4c93-81a2-ae27e616a641": {
       "name": "player_core_edge_prewarm",
-      "v": 30206,
+      "v": 30231,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "treatment"
       }]
     },
