@@ -488,7 +488,7 @@ window.__twilightSettings = {
   "prime-gifting-whitelist": ["solidfps", "hexy", "streamerhouse", "datmodz", "macho", "schviftyfive", "inigomontoya", "xtony_t_x", "angryjoeshow", "harrisheller", "kasrram", "qa_prime_partner_1", "qa_cx_tp_080616580000"],
   "prime-loot-page-hidden-ids": ["d2b3cfee-0031-9cec-bed6-68f17f063bea", "0eb3cfd9-2b0e-7fd6-860a-e77acbefc59b", "a8b3cfef-a3a6-a10a-028e-a3667745cf6e", "a8b3cf95-3d31-8928-fcac-4be714ed4f8b", "2eb3cfe0-5183-50e2-87ff-337f6395b742", "aeb3cfd6-cc37-b3be-cccd-bb4140eb519a", "46b3e982-28a3-241e-9a59-c3223acfb62a", "58b3e983-fa1a-3464-9364-43410fba3ec3", "84b3e97f-5539-2da2-7ad7-5a03f40d9535", "eab3e985-44c4-4c5a-1fab-0fe27d4fde4a", "b0b3e98e-89f2-84ef-0faf-259736fdb7f1", "94b44d55-bdb7-ea3b-981d-4e8e28ad764b", "32b44b56-38a9-ddc3-486c-c7c073bacb9f", "20b44d5c-6d94-eee1-7f5d-e3c5baa5cd67"],
   "prism-endpoint-migration": [0, false],
-  "privacy_center": [0.01, false],
+  "privacy_center": [0, false],
   "project_airhorn": [0, false],
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
@@ -2200,19 +2200,19 @@ window.__twilightSettings = {
     },
     "37f900ab-c9f3-499a-92ba-25d85c208939": {
       "name": "hype_chat_ingress",
-      "v": 29387,
+      "v": 30259,
       "t": 2,
       "groups": [{
-        "weight": 25,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "full_button_with_copy"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "full_button_no_copy"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "pill_button"
       }]
     },
