@@ -237,7 +237,6 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disco_ccl_clips": [1, false],
   "disco_esports_sub_sunset": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "all",
@@ -501,6 +500,7 @@ window.__twilightSettings = {
   "promotions_live_recommended_shelf_enabled": [1, true],
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
+  "ptp-wrding-flag": false,
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
@@ -619,6 +619,7 @@ window.__twilightSettings = {
   "stream_summary_vod_tool_v2_exp": [1, true],
   "stream_summary_vod_tool_v2_override": true,
   "stream_together_guest_screenshare": [0, false],
+  "stream_together_self_cam": [0, false],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
   "studio_aloha": [1, true],
@@ -5474,6 +5475,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "c9d95994-7c23-4474-bcf3-897334182fd8": {
+      "name": "new_pubsub_client",
+      "v": 30300,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "cbf02f73-63ee-4e4d-adce-713b1b351206": {
