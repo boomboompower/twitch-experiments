@@ -160,6 +160,7 @@ window.__twilightSettings = {
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
+  "cmp_dma": [0, false],
   "cmr-featured-settings-banner-expiry-date": "2024-01-01",
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
@@ -2548,6 +2549,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "48d10e52-a85c-4594-af49-3900e3d753d1": {
+      "name": "disco_followed_featured_clips",
+      "v": 30273,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }, {
+        "weight": 0,
+        "value": "variant2"
       }]
     },
     "49083595-80d4-4c13-93a2-20a605b3318e": {
@@ -6299,6 +6315,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "off"
+      }]
+    },
+    "e9e813e3-d361-40a2-874c-664acd8f8c15": {
+      "name": "user_safety_us_545_feature",
+      "v": 30272,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "ea2c9418-1a27-4ec7-b289-9021ee25776d": {
