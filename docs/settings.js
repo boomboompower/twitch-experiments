@@ -331,7 +331,6 @@ window.__twilightSettings = {
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
-  "guest_star_nameplate_settings": [1, true],
   "guest_star_new_feedback_modal": [1, true],
   "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
@@ -500,7 +499,7 @@ window.__twilightSettings = {
   "promotions_live_recommended_shelf_enabled": [1, true],
   "Promotions_Sidenav_Feature_Flag": [1, false],
   "promotions_sidenav_recommended_enabled": [0, true],
-  "ptp-wrding-flag": false,
+  "ptp-wrding-flag": "2023-10-14",
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
@@ -6154,10 +6153,10 @@ window.__twilightSettings = {
     },
     "e36f25e1-6a91-40ab-a00a-9755a16e9cae": {
       "name": "ltd_experiment_v2",
-      "v": 30211,
+      "v": 30308,
       "t": 3,
       "groups": [{
-        "weight": 16,
+        "weight": 18,
         "value": "GroupA-30s"
       }, {
         "weight": 16,
@@ -6172,10 +6171,10 @@ window.__twilightSettings = {
         "weight": 16,
         "value": "GroupE-150s"
       }, {
-        "weight": 16,
+        "weight": 18,
         "value": "GroupF-180s"
       }, {
-        "weight": 4,
+        "weight": 0,
         "value": "CONTROL"
       }, {
         "weight": 0,
