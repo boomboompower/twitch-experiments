@@ -654,9 +654,9 @@ const productionExperiments = [
         "dateFound": "2023-06-03T02:14:00.394Z"
     },
     {
-        "id": "098aed3b-5c49-414f-b53a-d22cbc89cd90",
-        "name": "brand_lift_survey_experiment_1",
-        "dateFound": "2023-07-17T20:15:23.826Z"
+        "id": "e79c4cd9-6f2b-43d7-85ba-f8297fa5d929",
+        "name": "brand_lift_survey_experiment_2",
+        "dateFound": "2023-10-04T20:13:25.006Z"
     },
     {
         "id": "bb661986-5a54-4991-a49a-98fe3a3512c5",
