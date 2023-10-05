@@ -355,7 +355,7 @@ window.__twilightSettings = {
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
-  "home_shelf_moments": [1, false],
+  "home_shelf_moments": [0, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
   "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity", "shotzzy", "h3cz", "hitchariide", "qa_gummyace_partner"],
   "hra_help_link": "https://help.twitch.tv/s/article/sponsorship-experiments-faq",
@@ -390,7 +390,7 @@ window.__twilightSettings = {
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
-  "let-it-rip": [0, false],
+  "let-it-rip": [1, true],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
   "ltdv2_rollout_enabled": [1, false],
@@ -409,7 +409,7 @@ window.__twilightSettings = {
   "mastercard_experiment_end_date": "2022-05-31T23:59:59Z",
   "mastercard_experiment_expiry_date": "2022-12-31T00:00:00Z",
   "mastercard_experiment_start_date": "2022-05-03T00:00:00Z",
-  "mc_sd": [0, false],
+  "mc_sd": [1, true],
   "megacommerce_holiday_2020_part1_end_date": "2020-12-16 13:59:59 GMT-0800",
   "megacommerce_holiday_2020_part1_start_date": "2020-12-02 14:00:00 GMT-0800",
   "megacommerce_holiday_2020_part2_end_date": "2021-01-04 13:59:59 GMT-0800",
@@ -649,7 +649,7 @@ window.__twilightSettings = {
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
   "subsub_help_link": "https://help.twitch.tv/s/article/sponsorship-experiments-faq",
-  "subtember_2023_celebration": [1, false],
+  "subtember_2023_celebration": [0, false],
   "subtoken_balance_wallet": false,
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/",
@@ -1145,6 +1145,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "enabled"
+      }]
+    },
+    "0e248afe-d080-4861-aa8a-f68327aaa15f": {
+      "name": "ads_q4_announcement_tcc",
+      "v": 30342,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
@@ -2656,18 +2668,6 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
-    "4c8f5315-d3b9-4a73-b3c8-351bf763320a": {
-      "name": "ads_p1_tcc",
-      "v": 29327,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
-      }]
-    },
     "4d3d19a7-38c5-4328-9730-7d99565d5edd": {
       "name": "twilight_premiere_upload_flow",
       "v": 2851,
@@ -2762,6 +2762,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "experiment"
+      }]
+    },
+    "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
+      "name": "chat_privmsg_to_gql",
+      "v": 30340,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "54648285-230e-4448-aba0-74e2b6fce71c": {
@@ -3580,18 +3592,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "magic"
-      }]
-    },
-    "754a1643-59f3-467b-aa60-5d2d90bd0b87": {
-      "name": "ads_affiliate_p0_tcc",
-      "v": 29195,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
       }]
     },
     "7678a52b-b88b-491b-b2af-63863fbc0fb0": {
