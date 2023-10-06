@@ -5976,6 +5976,18 @@ window.__twilightSettings = {
         "value": "no"
       }]
     },
+    "db70ef56-9a4b-47b0-9150-1ef2aeabbe25": {
+      "name": "bits_card_evolution",
+      "v": 30353,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "db9207c9-e299-4975-8489-d3aea364b8da": {
       "name": "channel_leaderboard",
       "v": 9393,
