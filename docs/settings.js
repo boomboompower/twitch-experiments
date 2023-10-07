@@ -308,7 +308,7 @@ window.__twilightSettings = {
   "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
   "gs_rtj_partner_only_allowlist": ["21653133"],
-  "gs_stream_together_onboarding": false,
+  "gs_stream_together_onboarding": true,
   "gs_stream_together_rebrand": [0, false],
   "guest_star_advanced_audio_controls": [1, true],
   "guest_star_audio_controls": [1, false],
@@ -5138,6 +5138,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
+      }]
+    },
+    "b56172de-08e4-4fc5-988d-a9d543f4092b": {
+      "name": "warhol_banner",
+      "v": 30374,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "b76b82ac-d5cf-4845-a96f-5243c22856bd": {
