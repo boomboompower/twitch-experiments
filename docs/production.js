@@ -50,6 +50,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "db70ef56-9a4b-47b0-9150-1ef2aeabbe25",
+        "name": "bits_card_evolution",
+        "dateFound": "2023-10-10T20:11:41.348Z"
+    },
+    {
         "id": "339f74af-0cbc-4e50-a4c9-cc47ffea05e4",
         "name": "bits_card_simplified_cheermote_selection",
         "dateFound": "2022-06-15T07:19:12.000Z"
