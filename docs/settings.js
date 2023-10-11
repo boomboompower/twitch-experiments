@@ -77,8 +77,8 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0.01, false],
-  "brand_lift_v0_us": [0.01, false],
+  "brand_lift_v0": [0.5, false],
+  "brand_lift_v0_us": [0.15, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -144,7 +144,7 @@ window.__twilightSettings = {
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
   "Chinchilla": "2023-10-01T07:00:00+00:00",
-  "chmod-bcsvs": false,
+  "chmod-bcsvs": true,
   "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
   "cit_gql_rollout": [1, false],
@@ -618,6 +618,7 @@ window.__twilightSettings = {
   "stream_summary_use_druid": false,
   "stream_summary_vod_tool_v2_exp": [1, true],
   "stream_summary_vod_tool_v2_override": true,
+  "stream_together_beta_modal": [0, false],
   "stream_together_guest_screenshare": [0, false],
   "stream_together_self_cam": [0, false],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
@@ -2349,13 +2350,13 @@ window.__twilightSettings = {
     },
     "4175854e-ac90-49cf-a871-d5d7616e9837": {
       "name": "chmod-bcsvs",
-      "v": 30383,
+      "v": 30433,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment"
       }]
     },

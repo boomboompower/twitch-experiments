@@ -742,5 +742,10 @@ const productionExperiments = [
         "id": "e36f25e1-6a91-40ab-a00a-9755a16e9cae",
         "name": "ltd_experiment_v2",
         "dateFound": "2023-09-27T20:13:06.878Z"
+    },
+    {
+        "id": "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26",
+        "name": "cplat_rb",
+        "dateFound": "2023-10-11T20:13:15.438Z"
     }
 ]
