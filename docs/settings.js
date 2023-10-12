@@ -254,7 +254,7 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
-  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a", "6da09649-1fda-4446-a061-cacd8e21b886"],
+  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a", "6da09649-1fda-4446-a061-cacd8e21b886", "4becdfcb-424c-4540-9245-cc92bc40e712"],
   "drops_v3_dev_console": [1, false],
   "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_migration_phase_1_flag": [1, false],
@@ -1554,7 +1554,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 29909,
+      "v": 30442,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1566,13 +1566,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -2350,13 +2350,13 @@ window.__twilightSettings = {
     },
     "4175854e-ac90-49cf-a871-d5d7616e9837": {
       "name": "chmod-bcsvs",
-      "v": 30433,
+      "v": 30443,
       "t": 3,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "treatment"
       }]
     },
