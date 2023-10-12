@@ -744,6 +744,11 @@ const productionExperiments = [
         "dateFound": "2023-09-27T20:13:06.878Z"
     },
     {
+        "id": "c9d95994-7c23-4474-bcf3-897334182fd8",
+        "name": "new_pubsub_client",
+        "dateFound": "2023-10-12T20:12:15.800Z"
+    },
+    {
         "id": "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26",
         "name": "cplat_rb",
         "dateFound": "2023-10-11T20:13:15.438Z"
