@@ -308,6 +308,7 @@ window.__twilightSettings = {
   "gs_audio_output_settings": false,
   "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
+  "gs_participant_audio_update": false,
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": true,
   "gs_stream_together_rebrand": [0, false],
@@ -322,7 +323,7 @@ window.__twilightSettings = {
   "guest_star_crossover_alpha": [1, true],
   "guest_star_crossover_beta_signup": [1, true],
   "guest_star_dashboard_creator_landing_page": [1, true],
-  "guest_star_discovery_card": [0.3, true],
+  "guest_star_discovery_card": [1, true],
   "guest_star_early_access_status_indicator": [1, true],
   "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
@@ -452,6 +453,7 @@ window.__twilightSettings = {
   "one_click_subs_enabled": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
+  "partner_t2_t3_animated_emotes": [0, false],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
@@ -461,6 +463,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
+  "pc-new-ui": [0, false],
   "pdms_access_requests": [1, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
@@ -2350,13 +2353,13 @@ window.__twilightSettings = {
     },
     "4175854e-ac90-49cf-a871-d5d7616e9837": {
       "name": "chmod-bcsvs",
-      "v": 30462,
+      "v": 30470,
       "t": 3,
       "groups": [{
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 80,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -4011,6 +4014,15 @@ window.__twilightSettings = {
         "value": "DISABLE_TCSTRING"
       }]
     },
+    "85db365d-8337-4adf-8c51-6b5dee17a620": {
+      "name": "ch_stories_spotlight",
+      "v": 30471,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "85e9962b-d35b-4e56-9839-0603129a2de0": {
       "name": "ABRObserveredBitrates",
       "v": 9649,
@@ -5504,13 +5516,13 @@ window.__twilightSettings = {
     },
     "c9d95994-7c23-4474-bcf3-897334182fd8": {
       "name": "new_pubsub_client",
-      "v": 30300,
+      "v": 30473,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant"
       }]
     },
