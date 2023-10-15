@@ -2258,6 +2258,18 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
+    "3add8e99-c391-4e61-9ffe-e09c1d6ddbc3": {
+      "name": "gate_ch_stories_spotlight",
+      "v": 30517,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "3c96ce24-799b-4758-9b0e-adef8f490a33": {
       "name": "xsolla_back_button",
       "v": 17944,
@@ -4016,13 +4028,13 @@ window.__twilightSettings = {
     },
     "85db365d-8337-4adf-8c51-6b5dee17a620": {
       "name": "ch_stories_spotlight",
-      "v": 30497,
+      "v": 30518,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 75,
         "value": "variant"
       }]
     },
