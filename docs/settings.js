@@ -120,6 +120,7 @@ window.__twilightSettings = {
   "ch_feature_chat_rules": [1, true],
   "ch_feature_goals": [1, true],
   "ch-east": [1, false],
+  "change_password_connections": [0, false],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
   "channel_banned_alias_enabled": [0, false],
