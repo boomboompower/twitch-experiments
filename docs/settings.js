@@ -172,6 +172,7 @@ window.__twilightSettings = {
   "com30_tpc": [1, true],
   "commerce_bar_experience": "sponsored",
   "community_boost_enabled": [0, false],
+  "community_intros_rollout": [0, false],
   "community_moments_jitter_range_seconds": 0,
   "community_moments_quick_action_new_date": "2022-02-08T19:00:00Z",
   "community_sub_gifting_banner_timeouts": [0, 25, 35, 45, 55, 60, 60],
@@ -255,7 +256,7 @@ window.__twilightSettings = {
   "drops_event_based": [0, false],
   "drops_itemnames_enabled": true,
   "drops_v3_analytics_learn_more_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
-  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a", "6da09649-1fda-4446-a061-cacd8e21b886", "4becdfcb-424c-4540-9245-cc92bc40e712"],
+  "drops_v3_beta_developer_allowlist": ["59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "ede84f2f-2e8e-47bf-b260-43d2185bb458", "9620a89d-b07c-4160-a851-ae832fa6985e", "62bdb6cb-9535-4955-9663-d20a1f897473", "290a4e6e-1bbb-48a6-8519-4258294aa24a", "4523e84a-450a-4ef5-8c6a-5f78706d1f0d", "d32de13d-937e-4196-8198-1a7f875f295a", "6da09649-1fda-4446-a061-cacd8e21b886", "4becdfcb-424c-4540-9245-cc92bc40e712", "1b03f48f-2625-412b-8d14-028282008a11"],
   "drops_v3_dev_console": [1, false],
   "drops_v3_migration_phase_1_banner_url": "https://discuss.dev.twitch.tv/t/improving-the-flexibility-of-twitch-drops/",
   "drops_v3_migration_phase_1_flag": [1, false],
@@ -264,6 +265,8 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
   "earnings_dashboard_outage_alert": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
+  "embed_ap_enforcement": "warn",
+  "embed_ap_enforcement_deadline": [2023, 10, 1, 19, 0],
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
   "emote_card_whitelist": ["184009112"],
@@ -3854,17 +3857,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 30197,
+      "v": 30556,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "variant-b"
       }]
     },
