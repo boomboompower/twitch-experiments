@@ -70,6 +70,11 @@ const productionExperiments = [
         "dateFound": "2023-06-21T20:13:22.759Z"
     },
     {
+        "id": "6c5bc707-f126-4f26-9bc0-1687cf970085",
+        "name": "cmp_dma",
+        "dateFound": "2023-10-18T20:13:05.228Z"
+    },
+    {
         "id": "faccc9c6-d6b3-4723-94a3-a2976a73ec9e",
         "name": "consent_tool_headline",
         "dateFound": "2022-06-15T07:19:12.000Z"

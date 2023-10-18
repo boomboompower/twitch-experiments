@@ -78,7 +78,7 @@ window.__twilightSettings = {
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
   "brand_lift_v0": [1, false],
-  "brand_lift_v0_us": [0.3, false],
+  "brand_lift_v0_us": [0.4, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -266,7 +266,7 @@ window.__twilightSettings = {
   "earnings_dashboard_outage_alert": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "off",
-  "embed_ap_enforcement_deadline": [2023, 10, 1, 19, 0],
+  "embed_ap_enforcement_deadline": [2023, 10, 15, 19, 0],
   "emote_card": "on",
   "Emote_Card_Octane": [1, true],
   "emote_card_whitelist": ["184009112"],
@@ -2263,13 +2263,13 @@ window.__twilightSettings = {
     },
     "3add8e99-c391-4e61-9ffe-e09c1d6ddbc3": {
       "name": "gate_ch_stories_spotlight",
-      "v": 30517,
+      "v": 30619,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5379,14 +5379,14 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 29728,
+      "v": 30627,
       "t": 3,
       "s": 1,
       "groups": [{
-        "weight": 20,
+        "weight": 80,
         "value": "treatment"
       }, {
-        "weight": 80,
+        "weight": 20,
         "value": "control"
       }]
     },
