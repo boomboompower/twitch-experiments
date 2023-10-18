@@ -395,6 +395,7 @@ window.__twilightSettings = {
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
+  "limited_safari_discovery_card": [0, false],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
   "ltdv2_rollout_enabled": [1, false],
