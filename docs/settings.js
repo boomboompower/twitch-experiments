@@ -210,6 +210,7 @@ window.__twilightSettings = {
   "CS_settings": [1, true],
   "csai_ad_context_auto_clean": [1, true],
   "CSB_flag": [0, false],
+  "CSB_tracking_flag": [0, false],
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
   "da_manager_m2": [1, false],
@@ -240,7 +241,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disco_esports_sub_sunset": [0, false],
+  "disco_esports_sub_sunset": [1, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "all",
   "DMCA_Clips_Manager_Hint": [1, true],
@@ -5379,14 +5380,14 @@ window.__twilightSettings = {
     },
     "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
       "name": "auto_mod_smart_detection",
-      "v": 30627,
+      "v": 30637,
       "t": 3,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "treatment"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }]
     },
