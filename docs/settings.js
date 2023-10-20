@@ -316,7 +316,7 @@ window.__twilightSettings = {
   "gs_participant_audio_update": false,
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": true,
-  "gs_stream_together_rebrand": [0, false],
+  "gs_stream_together_rebrand": [1, true],
   "guest_star_advanced_audio_controls": [1, true],
   "guest_star_audio_controls": [1, false],
   "guest_star_bug_reporting_dialog": [1, true],
