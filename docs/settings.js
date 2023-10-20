@@ -158,6 +158,7 @@ window.__twilightSettings = {
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
+  "clip-checkbox-expiry": "2024-01-01",
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
@@ -5947,6 +5948,21 @@ window.__twilightSettings = {
       }, {
         "weight": 95,
         "value": "treatment"
+      }]
+    },
+    "d9888797-c7bb-443b-9929-7bebc5e9bb08": {
+      "name": "mitch_test_exp",
+      "v": 30669,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 5,
+        "value": "thing"
+      }, {
+        "weight": 2,
+        "value": "new"
       }]
     },
     "d9a876a6-b481-4dcc-9c19-1d717bc623de": {
