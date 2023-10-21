@@ -249,6 +249,7 @@ window.__twilightSettings = {
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
   "DMCA_Persistent_Banner_Hint": [1, false],
+  "dont_report_non_overlapping_obstructions": [0, false],
   "double_phone_verification": [1, false],
   "double_phone_verification_with_sync": [1, false],
   "drops_10_devsite_decommission": true,
