@@ -314,7 +314,7 @@ window.__twilightSettings = {
   "gs_audio_output_settings": false,
   "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
-  "gs_participant_audio_update": false,
+  "gs_participant_audio_update": true,
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": true,
   "gs_stream_together_rebrand": [1, true],
