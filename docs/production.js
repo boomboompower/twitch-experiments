@@ -481,11 +481,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "a2779fdd-31f2-4860-bd0f-da42ea301aa6",
-        "name": "prime_subscription_migration",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "8c49935d-21cd-49a7-b0f8-d514068a5351",
         "name": "upcoming_schedules_directory_page",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -752,6 +747,11 @@ const productionExperiments = [
         "id": "e36f25e1-6a91-40ab-a00a-9755a16e9cae",
         "name": "ltd_experiment_v2",
         "dateFound": "2023-09-27T20:13:06.878Z"
+    },
+    {
+        "id": "3277ac77-0818-4aab-9573-8ae8df2fd891",
+        "name": "stream_together_guest_screenshare",
+        "dateFound": "2023-10-23T20:12:26.711Z"
     },
     {
         "id": "b56172de-08e4-4fc5-988d-a9d543f4092b",
