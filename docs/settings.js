@@ -359,7 +359,7 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
-  "happens_in_vegas": true,
+  "happens_in_vegas": false,
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
