@@ -72,6 +72,7 @@ window.__twilightSettings = {
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
   "Blobfish": "2023-10-01T07:00:00+00:00",
+  "Boh": "Settings",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
   "bounty_board_brand_portal_trailer_enabled": [1, true],
@@ -146,6 +147,7 @@ window.__twilightSettings = {
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
+  "Chihiro": "Settings",
   "Chinchilla": "2023-10-01T07:00:00+00:00",
   "chmod-bcsvs": true,
   "cip_discoverability_channel_analytics": [1, false],
@@ -361,6 +363,7 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
+  "Haku": "Settings",
   "happens_in_vegas": false,
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
@@ -741,6 +744,7 @@ window.__twilightSettings = {
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
+  "Yubaba": "Settings",
   "zuora_enabled": [1, false],
   "experiments": {
     "011d1499-61b3-49b2-92b2-b2ffd353ef00": {
@@ -1565,7 +1569,7 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 30442,
+      "v": 30765,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1577,13 +1581,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -5632,13 +5636,13 @@ window.__twilightSettings = {
     },
     "cee91f9e-e512-4cb7-8cbf-4501d7844ce0": {
       "name": "checkout_ux_phase_1.5",
-      "v": 29892,
+      "v": 30766,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
