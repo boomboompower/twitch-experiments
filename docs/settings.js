@@ -127,6 +127,7 @@ window.__twilightSettings = {
   "channel_clips_feature": [1, true],
   "channel_enrolled_sm": [1, true],
   "channel_enrolled_sm_mv": [1, true],
+  "chat_client_privmsg_to_gql": false,
   "chat_connect_backoff": 4000,
   "chat_connect_timeout": 6000,
   "chat_filter_enabled": "on",
@@ -3859,17 +3860,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 30610,
+      "v": 30725,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -6417,7 +6418,7 @@ window.__twilightSettings = {
     },
     "e9e813e3-d361-40a2-874c-664acd8f8c15": {
       "name": "us_545",
-      "v": 30311,
+      "v": 30730,
       "t": 2,
       "groups": [{
         "weight": 100,
