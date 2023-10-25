@@ -214,8 +214,8 @@ window.__twilightSettings = {
   "crowd_chant_query": [0, false],
   "CS_settings": [1, true],
   "csai_ad_context_auto_clean": [1, true],
-  "CSB_flag": [0, false],
-  "CSB_tracking_flag": [0, false],
+  "CSB_flag": [1, true],
+  "CSB_tracking_flag": [1, true],
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
   "da_manager_m2": [1, false],
@@ -1145,7 +1145,7 @@ window.__twilightSettings = {
     },
     "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
       "name": "watch_streak_progress_bar_exp_1",
-      "v": 30001,
+      "v": 30789,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -1672,13 +1672,13 @@ window.__twilightSettings = {
     },
     "218f98db-fccb-4ead-a284-19d7f3b261f4": {
       "name": "new_affiliates_goals",
-      "v": 30121,
+      "v": 30791,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -2344,7 +2344,7 @@ window.__twilightSettings = {
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
-      "v": 30002,
+      "v": 30790,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -6423,7 +6423,7 @@ window.__twilightSettings = {
     },
     "e9e813e3-d361-40a2-874c-664acd8f8c15": {
       "name": "us_545",
-      "v": 30730,
+      "v": 30795,
       "t": 2,
       "groups": [{
         "weight": 100,
