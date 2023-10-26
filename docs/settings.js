@@ -469,6 +469,7 @@ window.__twilightSettings = {
   "payment_methods_migration": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
+  "payout_method_migration": [0, false],
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
@@ -3536,7 +3537,7 @@ window.__twilightSettings = {
     },
     "72cbae70-b2c0-4c99-a1e6-da6a10a39b73": {
       "name": "player_core_send_recoverable_network_error",
-      "v": 30813,
+      "v": 30831,
       "t": 1,
       "groups": [{
         "weight": 100,
