@@ -270,7 +270,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_2_date": "2023-09-18T20:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
-  "earnings_dashboard_outage_alert": [0, false],
+  "earnings_dashboard_outage_alert": [1, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "off",
   "embed_ap_enforcement_deadline": [2023, 10, 15, 19, 0],
@@ -635,6 +635,7 @@ window.__twilightSettings = {
   "stream_summary_vod_tool_v2_override": true,
   "stream_together_beta_modal": [1, true],
   "stream_together_guest_screenshare": [0, false],
+  "stream_together_news_v1": [0, false],
   "stream_together_self_cam": [1, true],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
@@ -1146,7 +1147,7 @@ window.__twilightSettings = {
     },
     "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
       "name": "watch_streak_progress_bar_exp_1",
-      "v": 30802,
+      "v": 30841,
       "t": 3,
       "groups": [{
         "weight": 100,
@@ -2348,7 +2349,7 @@ window.__twilightSettings = {
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
-      "v": 30807,
+      "v": 30842,
       "t": 3,
       "groups": [{
         "weight": 100,

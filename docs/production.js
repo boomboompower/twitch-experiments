@@ -649,11 +649,6 @@ const productionExperiments = [
         "dateFound": "2023-06-21T20:13:22.761Z"
     },
     {
-        "id": "5a3c2a88-a7e6-4e75-a12d-ec7a82264351",
-        "name": "ch_dome",
-        "dateFound": "2023-05-23T01:24:16.479Z"
-    },
-    {
         "id": "033ddc81-63cf-4e40-a9dc-440df0537f30",
         "name": "one_click_paid_pinned_chat",
         "dateFound": "2023-06-03T02:14:00.394Z"
