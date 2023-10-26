@@ -1145,11 +1145,14 @@ window.__twilightSettings = {
     },
     "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
       "name": "watch_streak_progress_bar_exp_1",
-      "v": 30789,
+      "v": 30802,
       "t": 3,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "0dc9a9c9-fee5-4b5f-a462-f07675713e5e": {
@@ -2344,11 +2347,14 @@ window.__twilightSettings = {
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
-      "v": 30790,
+      "v": 30807,
       "t": 3,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "40cccbb0-2936-4116-9b58-417fdee39806": {
@@ -3530,7 +3536,7 @@ window.__twilightSettings = {
     },
     "72cbae70-b2c0-4c99-a1e6-da6a10a39b73": {
       "name": "player_core_send_recoverable_network_error",
-      "v": 28842,
+      "v": 30813,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -6423,7 +6429,7 @@ window.__twilightSettings = {
     },
     "e9e813e3-d361-40a2-874c-664acd8f8c15": {
       "name": "us_545",
-      "v": 30795,
+      "v": 30814,
       "t": 2,
       "groups": [{
         "weight": 100,
