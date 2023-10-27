@@ -99,7 +99,8 @@ window.__twilightSettings = {
   "cc_v2_whitelist": ["cpt_meticulous_test-staff", "faceittv", "genvid_csgo1test", "genvid_csgo4test", "genvid_csgo5test", "genvid_csgo6test", "maybe_ill_be_tracer-staff", "maybe_ill_be_tracer2", "maybe_ill_be_tracer3-staff", "starladder_cs_en", "starladder5-staff", "starladder10-staff", "starladder_cs_en2-staff", "twitchmusic", "switchott", "shawtest-staff", "ee_cc_ez", "partymobile", "streamkeychanges", "nba2kleague", "nba2kleague1", "nba2kleague2-staff", "vapourdev-staff", "twitch", "twitchpresents", "twitchgaming", "retroitcity", "cdtest1", "mekapika-staff", "crown", "crown_purple", "crown_teal", "crown_emerald", "twitchrivals", "twitchrivals_es", "twitchrivals_fr", "twitchrivals_de", "twitchrivals_it", "twitchrivals_pt", "twitchrivals_kr", "twitchrivals_th", "twitchrivals_jp", "twitchrivals_tw", "twitchrivals_uk", "twitchrivals_pl", "fcftest1-staff", "fcftest2-staff", "fcf", "anshr-staff", "karlaplan", "deiv84", "nicolais86", "taaltest", "grablabsttv", "notgambling", "blastheroes", "chess", "chesscomevents", "chess24", "00101011011011010", "dmr_test", "mlex_multiview", "esl_test1", "esl_csgoc", "esl_csgo", "limelight_dev", "qa_asd_partner", "crown_magenta", "crown_teal", "EASPORTSFIFA", "EACGEFIFA", "iamcristinini", "twitch_platforms_mview", "abulic", "riotgames", "legofan1994", "playapex", "eamaddennfl", "cpt_meticulous", "spontent-staff", "espontent-staff", "sromotorsports", "teamfighttactics", "fifae", "callofduty", "m1lkcast", "FireLeagueTV", "ocesa", "brawlhalla", "vcoesports"],
   "ce_new_banner": [0, false],
   "ce-aep": [0, false],
-  "ce-tt-banner-expiry": "2023-12-01",
+  "ce-ea": [0, false],
+  "ce-tt-banner-expiry": "2023-10-27T17:00:00Z",
   "ce-tt-flag": [1, false],
   "celebi_animation_settings": "{}",
   "celebi_beta_channels": ["seph"],
@@ -315,7 +316,7 @@ window.__twilightSettings = {
   "friendly-alligator": false,
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
-  "gs_audio_output_settings": false,
+  "gs_audio_output_settings": true,
   "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
@@ -6433,6 +6434,18 @@ window.__twilightSettings = {
       "name": "us_545",
       "v": 30814,
       "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
+    "ea2c05f3-faad-44e2-bad5-6ad3726a2398": {
+      "name": "ios_ads_dsa_video",
+      "v": 30854,
+      "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
