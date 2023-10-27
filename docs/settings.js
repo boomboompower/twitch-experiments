@@ -3803,6 +3803,15 @@ window.__twilightSettings = {
         "value": "inactive"
       }]
     },
+    "7d10a0ec-01d2-4624-9e56-49445abde552": {
+      "name": "android_ads_dsa_audio",
+      "v": 30856,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "7de935e6-c8c7-4be7-b694-199a7ec19aa7": {
       "name": "TWILIGHT_AAX_ROLLOUT",
       "v": 9725,
@@ -5035,6 +5044,15 @@ window.__twilightSettings = {
         "value": "holdout"
       }]
     },
+    "ae9c05d7-163f-455d-92e0-2e51bcc32a37": {
+      "name": "android_ads_dsa_video",
+      "v": 30855,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4": {
       "name": "pg_personalized_crown_menu",
       "v": 30046,
@@ -5283,6 +5301,15 @@ window.__twilightSettings = {
         "value": "force"
       }]
     },
+    "ba08ece9-91a7-4894-a1cd-0722dcb9054b": {
+      "name": "android_ads_dsa_bda",
+      "v": 30859,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
       "v": 26471,
@@ -5505,6 +5532,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "model_2_6"
+      }]
+    },
+    "c745cd00-7786-4abf-b049-691c18e28c6e": {
+      "name": "android_ads_dsa_sda_left_third",
+      "v": 30857,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "c7953540-8b70-496a-b794-f600c414d8ef": {
@@ -6653,6 +6689,15 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "group_b"
+      }]
+    },
+    "eee7e98c-b59a-405a-9d9f-5a3d6ec8c91a": {
+      "name": "android_ads_dsa_sda_banner",
+      "v": 30858,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "ef73a98b-b4c7-4566-b8f7-f40f8f3508dc": {
