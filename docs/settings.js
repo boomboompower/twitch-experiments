@@ -271,7 +271,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_2_date": "2023-09-18T20:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
-  "earnings_dashboard_outage_alert": [1, false],
+  "earnings_dashboard_outage_alert": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "off",
   "embed_ap_enforcement_deadline": [2023, 10, 15, 19, 0],
@@ -372,7 +372,7 @@ window.__twilightSettings = {
   "home_shelf_moments": [0, false],
   "homepage_headliner_redesign_feature_flag": [0, true],
   "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity", "shotzzy", "h3cz", "hitchariide", "qa_gummyace_partner"],
-  "hra_help_link": "https://help.twitch.tv/s/article/sponsorship-experiments-faq",
+  "hra_help_link": "https://help.twitch.tv/s/article/streamer-read-ads",
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
@@ -604,7 +604,7 @@ window.__twilightSettings = {
   "skins": "{\"resident-evil-2023-03-the-completionist\":{\"channels\":[\"thecompletionist\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/bg-no-logo/AboveChatBG1.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2023-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#9146FF\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Pre-order & support TheCompletionist\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/resident-evil-2023-03/bg1/OnScreenBG1.png\"}},\"ghost-2023-04-test\":{\"channels\":[\"qa_raquel_partner\"],\"aboveChat\":{\"colorHexCode\":\"#000\",\"iconBackgroundType\":\"#000\",\"backgroundType\":\"ASSET\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/AboveChat-Banner1.jpg\"},\"start\":\"2023-03-29T00:00:00Z\",\"end\":\"2023-04-10T00:00:00Z\",\"videoOverlay\":{\"assetLocation\":\"top_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/ColorLogo2.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.ghostlifestyle.com/products/ghost-gamer-x-faze-clan?variant=42485696594097\",\"name\":\"Ghost\",\"ctaMessage\":\"Use code ZOOMAA to save 20%\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/ghost-2023-04/WhiteLogo1.jpg\"}},\"0\":{\"channels\":[\"qa_gummyace_partner\",\"qa_md_partner\"],\"aboveChat\":{\"colorHexCode\":\"#E9E600\",\"iconBackgroundType\":\"SOLID_COLOR\",\"backgroundType\":\"SOLID_COLOR\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\"},\"start\":\"2023-03-10T02:00:00Z\",\"end\":\"2024-03-10T07:59:00Z\",\"videoOverlay\":{\"assetLocation\":\"bottom_right\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"backgroundType\":\"SOLID_COLOR\",\"colorHexCode\":\"#000000\"},\"brand\":{\"ctaURL\":\"https://www.nexus.gg/completionist\",\"name\":\"CAPCOM\",\"ctaMessage\":\"Build your own Corsair keyboard!\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Blk_Square-resized.png\"}},\"star-forge-2023-03-otknetwork\":{\"channels\":[\"gummyace\",\"otknetwork\"],\"aboveChat\":{\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/channel-skins/corsair-2023-03/Logo_Wht_Square-resized.png\",\"colorHexCode\":\"#0A101D\",\"backgroundType\":\"ASSET\",\"iconBackgroundHexCode\":\"#0A101D\"},\"start\":\"2023-03-14T07:01:00Z\",\"end\":\"2023-03-15T06:59:00Z\",\"brand\":{\"name\":\"star-forge-2023-03-otknetwork\",\"assetURL\":\"https://twitchcreatormarketplace-campaignassetsbucketb830-18zh9nfxvifxr.s3.us-west-2.amazonaws.com/Logo-resized.png\",\"ctaMessage\":\"The Best PCs in the Universe\",\"ctaURL\":\"https://starforgepc.com/Canvas\"}}}",
   "skins_enabled": [1, true],
   "skins_experience": "GQL",
-  "skins_help_link": "https://help.twitch.tv/s/article/sponsorship-experiments-faq",
+  "skins_help_link": "https://help.twitch.tv/s/article/channel-skins",
   "skins_show_on_front_page": [1, true],
   "skins_show_to_channel_ad_free": true,
   "skins_show_to_turbo": false,
@@ -667,7 +667,7 @@ window.__twilightSettings = {
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
-  "subsub_help_link": "https://help.twitch.tv/s/article/sponsorship-experiments-faq",
+  "subsub_help_link": "https://help.twitch.tv/s/article/sponsored-subscriptions",
   "subtember_2023_celebration": [0, false],
   "subtoken_balance_wallet": false,
   "subtokens": [1, true],
@@ -1619,6 +1619,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "on"
+      }]
+    },
+    "20165127-bf25-4f34-81df-caf0d3241301": {
+      "name": "ios_ads_dsa_audio",
+      "v": 30871,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "20bf4ac5-f61d-44a7-8f6d-1106101d4a80": {
@@ -2865,6 +2877,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "575c370c-5077-4d70-a570-362fa0e16933": {
+      "name": "ios_ads_dsa_display_sda",
+      "v": 30874,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "57a642f6-2040-4ad9-a552-b5c3665779aa": {
       "name": "insights_nav_redesign",
       "v": 25256,
@@ -3549,6 +3573,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "734c1a50-c1de-4f7e-add7-60ef3b30f307": {
+      "name": "ios_ads_dsa_display_browse",
+      "v": 30872,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "7351a180-6fac-49c2-a473-1a935de216bb": {
       "name": "cg_tools_features_creator_goals_aatest",
       "v": 21661,
@@ -3801,15 +3837,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "inactive"
-      }]
-    },
-    "7d10a0ec-01d2-4624-9e56-49445abde552": {
-      "name": "android_ads_dsa_audio",
-      "v": 30856,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "7de935e6-c8c7-4be7-b694-199a7ec19aa7": {
@@ -5044,15 +5071,6 @@ window.__twilightSettings = {
         "value": "holdout"
       }]
     },
-    "ae9c05d7-163f-455d-92e0-2e51bcc32a37": {
-      "name": "android_ads_dsa_video",
-      "v": 30855,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }]
-    },
     "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4": {
       "name": "pg_personalized_crown_menu",
       "v": 30046,
@@ -5301,15 +5319,6 @@ window.__twilightSettings = {
         "value": "force"
       }]
     },
-    "ba08ece9-91a7-4894-a1cd-0722dcb9054b": {
-      "name": "android_ads_dsa_bda",
-      "v": 30859,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }]
-    },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
       "v": 26471,
@@ -5532,15 +5541,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "model_2_6"
-      }]
-    },
-    "c745cd00-7786-4abf-b049-691c18e28c6e": {
-      "name": "android_ads_dsa_sda_left_third",
-      "v": 30857,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "c7953540-8b70-496a-b794-f600c414d8ef": {
@@ -6689,15 +6689,6 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "group_b"
-      }]
-    },
-    "eee7e98c-b59a-405a-9d9f-5a3d6ec8c91a": {
-      "name": "android_ads_dsa_sda_banner",
-      "v": 30858,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "ef73a98b-b4c7-4566-b8f7-f40f8f3508dc": {
