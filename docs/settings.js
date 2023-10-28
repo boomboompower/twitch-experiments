@@ -1621,18 +1621,6 @@ window.__twilightSettings = {
         "value": "on"
       }]
     },
-    "20165127-bf25-4f34-81df-caf0d3241301": {
-      "name": "ios_ads_dsa_audio",
-      "v": 30871,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
     "20bf4ac5-f61d-44a7-8f6d-1106101d4a80": {
       "name": "take_the_leaderboard",
       "v": 19345,
@@ -2877,18 +2865,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "575c370c-5077-4d70-a570-362fa0e16933": {
-      "name": "ios_ads_dsa_display_sda",
-      "v": 30874,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
     "57a642f6-2040-4ad9-a552-b5c3665779aa": {
       "name": "insights_nav_redesign",
       "v": 25256,
@@ -3573,18 +3549,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "734c1a50-c1de-4f7e-add7-60ef3b30f307": {
-      "name": "ios_ads_dsa_display_browse",
-      "v": 30872,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
     "7351a180-6fac-49c2-a473-1a935de216bb": {
       "name": "cg_tools_features_creator_goals_aatest",
       "v": 21661,
@@ -3938,7 +3902,7 @@ window.__twilightSettings = {
     },
     "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26": {
       "name": "cplat_rb",
-      "v": 30323,
+      "v": 30889,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -6470,18 +6434,6 @@ window.__twilightSettings = {
       "name": "us_545",
       "v": 30814,
       "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
-    "ea2c05f3-faad-44e2-bad5-6ad3726a2398": {
-      "name": "ios_ads_dsa_video",
-      "v": 30854,
-      "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
