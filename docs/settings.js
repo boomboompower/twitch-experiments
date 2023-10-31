@@ -219,6 +219,8 @@ window.__twilightSettings = {
   "CSB_tracking_flag": [1, true],
   "CSI_use_xo_actions": true,
   "custom_event_destination_threshold": true,
+  "cw_issue_rollout": 0,
+  "cw_receival_enabled": false,
   "da_manager_m2": [1, false],
   "dac7-interrupt-screen": [1, true],
   "dac7-phase-2": [1, false],
