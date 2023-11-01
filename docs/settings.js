@@ -478,6 +478,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
+  "pc-mdf-banner-expiry": "2024-01-01",
   "pc-new-ui": [0, false],
   "pdms_access_requests": [1, true],
   "persisted_queries_enabled": true,

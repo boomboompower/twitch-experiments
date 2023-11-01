@@ -110,6 +110,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d",
+        "name": "chat_privmsg_to_gql",
+        "dateFound": "2023-11-01T20:13:20.845Z"
+    },
+    {
         "id": "4b59d3a3-2a23-41a0-b0f6-a588969cf052",
         "name": "cutwater_embeds_recs",
         "dateFound": "2022-06-15T07:19:12.000Z"
