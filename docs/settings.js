@@ -4611,6 +4611,18 @@ window.__twilightSettings = {
         "value": "enable_charity_beta"
       }]
     },
+    "9d8bbc9c-8072-433c-b54a-99a2437e544d": {
+      "name": "sauron_3p_event_filters",
+      "v": 30952,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "disabled"
+      }, {
+        "weight": 0,
+        "value": "enabled"
+      }]
+    },
     "9ef43141-fe9c-42b9-8566-9ce8f8fd8d65": {
       "name": "prioritize_paypal_eu",
       "v": 10733,
