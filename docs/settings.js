@@ -130,7 +130,7 @@ window.__twilightSettings = {
   "channel_clips_feature": [1, true],
   "channel_enrolled_sm": [1, true],
   "channel_enrolled_sm_mv": [1, true],
-  "chat_client_privmsg_to_gql": false,
+  "chat_client_privmsg_to_gql": true,
   "chat_connect_backoff": 4000,
   "chat_connect_timeout": 6000,
   "chat_filter_enabled": "on",
