@@ -241,6 +241,9 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
+  "dev_holiday_banner_cutoff_date": "2023-11-10T08:00:00Z",
+  "dev_holiday_banner_end_date": "2023-11-26T08:00:00Z",
+  "dev_holiday_banner_start_date": "2023-11-18T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -2582,6 +2585,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2b"
+      }]
+    },
+    "47543f55-6524-4f3a-a241-017bcd97fa16": {
+      "name": "ivs_player_whole_probe",
+      "v": 31003,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "47597570-dd4e-4996-85eb-86db164cae9c": {
@@ -5001,6 +5016,18 @@ window.__twilightSettings = {
       }, {
         "weight": 98,
         "value": "control"
+      }]
+    },
+    "ad505384-e920-4fbc-b497-662840867998": {
+      "name": "web_ivs_player_scip_probe",
+      "v": 31004,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "ad919c2c-f746-432f-88aa-b06141b5de30": {
