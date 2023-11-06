@@ -46,7 +46,7 @@ window.__twilightSettings = {
   "auth_kpsdk_load": [1, false],
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
-  "autonomous_octopuff": [0.5, false],
+  "autonomous_octopuff": [1, false],
   "badge_flair_enabled": true,
   "badge_flair_overrides": ["436929429", "58682589", "467487002", "467832116", "28337972", "409749393", "193141706", "509785842"],
   "badge_modifier_channels": [],
@@ -1582,16 +1582,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 30916,
+      "v": 31028,
       "t": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
