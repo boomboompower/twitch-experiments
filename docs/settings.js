@@ -47,7 +47,7 @@ window.__twilightSettings = {
   "auth_kpsdk_load": [1, false],
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
-  "autonomous_octopuff": [0.5, false],
+  "autonomous_octopuff": [1, false],
   "badge_flair_enabled": true,
   "badge_flair_overrides": ["436929429", "58682589", "467487002", "467832116", "28337972", "409749393", "193141706", "509785842"],
   "badge_modifier_channels": [],
@@ -1401,6 +1401,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "14283583-3c5f-4c0f-9235-0e434fa54182": {
+      "name": "us_545_v2",
+      "v": 31050,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "145ddca3-2724-45ed-9ded-3bf9d2e79811": {
@@ -4063,13 +4075,13 @@ window.__twilightSettings = {
     },
     "85db365d-8337-4adf-8c51-6b5dee17a620": {
       "name": "ch_stories_spotlight",
-      "v": 30518,
+      "v": 31053,
       "t": 3,
       "groups": [{
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -6466,18 +6478,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "off"
-      }]
-    },
-    "e9e813e3-d361-40a2-874c-664acd8f8c15": {
-      "name": "us_545",
-      "v": 30814,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
       }]
     },
     "ea2c9418-1a27-4ec7-b289-9021ee25776d": {
