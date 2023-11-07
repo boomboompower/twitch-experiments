@@ -47,7 +47,7 @@ window.__twilightSettings = {
   "auth_kpsdk_load": [1, false],
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
-  "autonomous_octopuff": [1, false],
+  "autonomous_octopuff": [0.5, false],
   "badge_flair_enabled": true,
   "badge_flair_overrides": ["436929429", "58682589", "467487002", "467832116", "28337972", "409749393", "193141706", "509785842"],
   "badge_modifier_channels": [],
