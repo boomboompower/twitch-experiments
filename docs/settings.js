@@ -1672,6 +1672,21 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
+    "216efd2d-f064-414c-a42d-7aaf4b276213": {
+      "name": "perennial_daylily",
+      "v": 31062,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "flowering"
+      }, {
+        "weight": 0,
+        "value": "blooming"
+      }]
+    },
     "218acff9-67f7-459f-9f3e-d9b41238e761": {
       "name": "ht_celeb_experiment",
       "v": 17652,
