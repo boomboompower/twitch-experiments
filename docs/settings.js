@@ -47,7 +47,7 @@ window.__twilightSettings = {
   "auth_kpsdk_load": [1, false],
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
-  "autonomous_octopuff": [1, false],
+  "autonomous_octopuff": [0.5, false],
   "badge_flair_enabled": true,
   "badge_flair_overrides": ["436929429", "58682589", "467487002", "467832116", "28337972", "409749393", "193141706", "509785842"],
   "badge_modifier_channels": [],
@@ -290,6 +290,7 @@ window.__twilightSettings = {
   "emote_sets_pagination_switchover": [1, false],
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
+  "enable_client_type": false,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
@@ -318,7 +319,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
   "first_paid_gift_offer_feature_flag": [1, true],
-  "follower_emote_dashboard_access": [0, false],
+  "follower_emote_dashboard_access": [1, true],
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": false,
@@ -3062,6 +3063,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "no"
+      }]
+    },
+    "5b9f71db-7d00-45ce-af0c-9fc51cfde437": {
+      "name": "mwot",
+      "v": 31057,
+      "t": 1,
+      "groups": [{
+        "weight": 95,
+        "value": "control"
+      }, {
+        "weight": 5,
+        "value": "treatment"
       }]
     },
     "5bbb7686-196f-40c3-b938-8b33cf6d4343": {
