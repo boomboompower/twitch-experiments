@@ -19,6 +19,8 @@ window.__twilightSettings = {
   "ads_dsa_directory_rectangle": [0, true],
   "ads_dsa_homepage_headliner": [0, true],
   "ads_dsa_stream_lowerthird": [0, true],
+  "ads_dsa_stream_mirrorc": [0, true],
+  "ads_dsa_stream_skyscraper": [0, true],
   "ads_preroll_timeline_enabled": [1, false],
   "aes_active_alerts_usage": [0, false],
   "affiliate_emoticon_prefix_update": [1, true],
@@ -1792,6 +1794,18 @@ window.__twilightSettings = {
         "value": "D"
       }]
     },
+    "25873b9a-11c3-41bc-8a45-a17924078f2d": {
+      "name": "project_pixie_two",
+      "v": 31099,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb": {
       "name": "chat_signup_gate",
       "v": 29704,
@@ -2285,13 +2299,13 @@ window.__twilightSettings = {
     },
     "38b59330-9056-47a5-a858-615dcd103666": {
       "name": "disco_sprig_logged_out",
-      "v": 29708,
+      "v": 31100,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "variant"
       }]
     },

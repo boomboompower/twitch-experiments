@@ -772,5 +772,10 @@ const productionExperiments = [
         "id": "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26",
         "name": "cplat_rb",
         "dateFound": "2023-10-11T20:13:15.438Z"
+    },
+    {
+        "id": "9d8bbc9c-8072-433c-b54a-99a2437e544d",
+        "name": "3p_event_filters",
+        "dateFound": "2023-11-10T00:57:41.837Z"
     }
 ]
