@@ -1163,13 +1163,13 @@ window.__twilightSettings = {
     },
     "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
       "name": "watch_streak_progress_bar_exp_1",
-      "v": 31090,
+      "v": 31107,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -2395,13 +2395,13 @@ window.__twilightSettings = {
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
-      "v": 31089,
+      "v": 31106,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
