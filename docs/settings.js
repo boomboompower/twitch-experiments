@@ -20,6 +20,7 @@ window.__twilightSettings = {
   "ads_dsa_homepage_headliner": [0, true],
   "ads_dsa_stream_lowerthird": [0, true],
   "ads_dsa_stream_mirrorc": [0, true],
+  "ads_dsa_stream_pushdown": [0, true],
   "ads_dsa_stream_skyscraper": [0, true],
   "ads_preroll_timeline_enabled": [1, false],
   "aes_active_alerts_usage": [0, false],
@@ -1163,13 +1164,13 @@ window.__twilightSettings = {
     },
     "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
       "name": "watch_streak_progress_bar_exp_1",
-      "v": 31107,
+      "v": 31130,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -2395,13 +2396,13 @@ window.__twilightSettings = {
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
-      "v": 31106,
+      "v": 31131,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -2873,13 +2874,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 30340,
+      "v": 31135,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant"
       }]
     },
@@ -3955,17 +3956,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31085,
+      "v": 31127,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-b"
       }]
     },
