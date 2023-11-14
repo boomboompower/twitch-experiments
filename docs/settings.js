@@ -537,6 +537,7 @@ window.__twilightSettings = {
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
+  "qna_enabled": false,
   "qol_badges_launch": false,
   "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
   "quick_actions_sanitization_check": [1, false],
@@ -3957,17 +3958,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31127,
+      "v": 31153,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
