@@ -6163,13 +6163,13 @@ window.__twilightSettings = {
     },
     "db70ef56-9a4b-47b0-9150-1ef2aeabbe25": {
       "name": "bits_card_evolution",
-      "v": 30592,
+      "v": 31157,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
