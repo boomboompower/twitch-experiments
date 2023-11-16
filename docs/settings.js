@@ -523,7 +523,7 @@ window.__twilightSettings = {
   "project_airhorn": [0, false],
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
-  "project_leviosa": [1, false],
+  "project_leviosa": [0, false],
   "project_pixie_one": [0, false],
   "project_pixie_two": [0, false],
   "Project_Polaris": [1, true],
@@ -3998,13 +3998,13 @@ window.__twilightSettings = {
     },
     "82b2bac1-b750-4f18-b917-5ab1e08ea1d2": {
       "name": "creator_home_feature_cards_link_out",
-      "v": 30154,
+      "v": 31182,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
