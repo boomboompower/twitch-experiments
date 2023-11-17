@@ -207,6 +207,7 @@ window.__twilightSettings = {
   "copo_spectator_mode": [1, true],
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
+  "cplat_rb_cluster_enabled": false,
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
@@ -492,7 +493,7 @@ window.__twilightSettings = {
   "payout_transparency_v2_active": [1, true],
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
-  "pc-mdf-banner-expiry": "2024-01-01",
+  "pc-mdf-banner-expiry": "2024-02-01",
   "pc-new-ui": [0, false],
   "pdms_access_requests": [1, true],
   "persisted_queries_enabled": true,
@@ -3988,7 +3989,7 @@ window.__twilightSettings = {
     },
     "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26": {
       "name": "cplat_rb",
-      "v": 30889,
+      "v": 31213,
       "t": 2,
       "groups": [{
         "weight": 100,
