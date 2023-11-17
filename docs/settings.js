@@ -28,6 +28,8 @@ window.__twilightSettings = {
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
   "alert_settings_modal": [1, true],
+  "alerts_celebration_emote_promotion": [0, false],
+  "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/celebration_promo.png",
   "alerts_home_redesign": [0, false],
   "am_ccar_feature_enabled": [1, true],
   "amazon_ads_url": "https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=twitch.tv&ex-hargs=v%3D1.0%3Bc%3D8858214122683%3Bp%3De75425fb-5407-7bd5-fd20-f462e98a8777",
@@ -639,8 +641,8 @@ window.__twilightSettings = {
   "soundtrack-playlist-promo": true,
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
-  "sponsorships_creator_dashboard": [0, true],
-  "sponsorships_revenue": [0, true],
+  "sponsorships_creator_dashboard": [1, true],
+  "sponsorships_revenue": [1, true],
   "spotlight_creator_home_upsell_exp": [1, false],
   "spotlight_screenshare_warnings": ["code.exe", "chrome.exe", "discord.exe", "slack.exe", "taskmgr.exe", "calculator.exe", "twitchui.exe", "twitchstudioui.exe", "destiny2.exe", "electron.exe"],
   "squad_stream_ads_heartbeat_interval": 240000,
@@ -2876,13 +2878,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 31135,
+      "v": 31196,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant"
       }]
     },
