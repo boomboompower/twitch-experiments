@@ -634,6 +634,11 @@ const productionExperiments = [
         "dateFound": "2023-07-14T20:14:49.336Z"
     },
     {
+        "id": "060e6b3a-f339-49ea-a43a-78f6c5b8aa27",
+        "name": "mocha_latte",
+        "dateFound": "2023-11-18T00:59:07.624Z"
+    },
+    {
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
         "name": "guest_star_left_nav_online_channel_augmentation",
         "dateFound": "2023-05-04T01:21:12.148Z"

@@ -5596,13 +5596,13 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 29963,
+      "v": 31215,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "enabled"
       }]
     },
