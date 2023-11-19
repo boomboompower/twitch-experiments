@@ -946,16 +946,16 @@ window.__twilightSettings = {
     },
     "060e6b3a-f339-49ea-a43a-78f6c5b8aa27": {
       "name": "mocha_latte",
-      "v": 30493,
+      "v": 31222,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "737771146, 737772548"
       }]
     },
