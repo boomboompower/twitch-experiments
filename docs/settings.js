@@ -709,6 +709,7 @@ window.__twilightSettings = {
   "talk_gs_sbs": [1, true],
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
+  "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202"],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
   "tifa_enabled": [1, false],
@@ -946,13 +947,13 @@ window.__twilightSettings = {
     },
     "060e6b3a-f339-49ea-a43a-78f6c5b8aa27": {
       "name": "mocha_latte",
-      "v": 31222,
+      "v": 31240,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }, {
         "weight": 0,
@@ -5381,13 +5382,13 @@ window.__twilightSettings = {
     },
     "b8b7cac6-956d-4819-8d35-9ae57aa5f0ce": {
       "name": "mobile_native_web_player_hevc",
-      "v": 29607,
+      "v": 31236,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }, {
         "weight": 0,
