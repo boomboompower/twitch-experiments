@@ -478,6 +478,7 @@ window.__twilightSettings = {
   "offer_claim_sync": [0, false],
   "omit_topnav_in_theatre": [1, false],
   "onboarding_agreement_api": [1, true],
+  "onboarding_degraded_alert": [0, false],
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
   "one_click_subs_enabled": [1, false],
@@ -710,7 +711,7 @@ window.__twilightSettings = {
   "talk_gs_sbs": [1, true],
   "tax_onboarding_maintenance": [0, false],
   "tcstring_rollout": [1, true],
-  "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661"],
+  "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124"],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
   "tifa_enabled": [1, false],
@@ -5912,6 +5913,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "NoTagVariant"
+      }]
+    },
+    "d16629fa-a0bf-4a2a-b490-c1f92af05009": {
+      "name": "mobile_native_web_player_av1",
+      "v": 31255,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "force"
       }]
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
