@@ -4304,7 +4304,7 @@ window.__twilightSettings = {
     },
     "8c49935d-21cd-49a7-b0f8-d514068a5351": {
       "name": "upcoming_schedules_directory_page",
-      "v": 21340,
+      "v": 31276,
       "t": 1,
       "groups": [{
         "weight": 0,
