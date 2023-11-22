@@ -593,6 +593,7 @@ window.__twilightSettings = {
   "rtj_subscription_limit": [1, false],
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
+  "sakura_hanami": false,
   "sb_party": [0, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
@@ -6342,6 +6343,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "control"
+      }]
+    },
+    "e195e6f9-a2fe-44ae-a6f6-6c8d438e4b60": {
+      "name": "test_name",
+      "v": 31289,
+      "t": 2,
+      "groups": [{
+        "weight": 90,
+        "value": "control"
+      }, {
+        "weight": 10,
+        "value": "variant"
       }]
     },
     "e24202cd-cd09-4f39-8095-03e16a62e5cd": {
