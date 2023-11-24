@@ -288,7 +288,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_2_date": "2023-09-18T20:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
-  "earnings_dashboard_outage_alert": [0, false],
+  "earnings_dashboard_outage_alert": [1, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "block",
   "embed_ap_enforcement_deadline": [2023, 10, 15, 18, 0],
