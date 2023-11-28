@@ -30,7 +30,7 @@ window.__twilightSettings = {
   "alert_settings_modal": [1, true],
   "alerts_celebration_emote_promotion": [0, false],
   "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/celebration_promo.png",
-  "alerts_home_redesign": [0, false],
+  "alerts_home_redesign": [1, false],
   "am_ccar_feature_enabled": [1, true],
   "amazon_ads_url": "https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=twitch.tv&ex-hargs=v%3D1.0%3Bc%3D8858214122683%3Bp%3De75425fb-5407-7bd5-fd20-f462e98a8777",
   "amazon_ads_url_crown_uk": "https://aax-eu.amazon-adsystem.com/s/iui3?d=forester-did&ex-fargs=%3Fid%3Db8b26227-de81-5bfb-4046-b9158f6a8c08%26type%3D4%26m%3D3&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D3815840130302%3Bp%3DB8B26227-DE81-5BFB-4046-B9158F6A8C08",
@@ -594,7 +594,7 @@ window.__twilightSettings = {
   "rtj_subscription_limit": [1, false],
   "ruby_is_the_cutest_dog_ever": "off",
   "safety_center_feature_flag": [1, false],
-  "sakura_hanami": true,
+  "sakura_hanami": false,
   "sb_party": [0, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
@@ -4710,13 +4710,13 @@ window.__twilightSettings = {
     },
     "9d8bbc9c-8072-433c-b54a-99a2437e544d": {
       "name": "sauron_3p_event_filters",
-      "v": 30952,
+      "v": 31322,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "disabled"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "enabled"
       }]
     },
@@ -5666,13 +5666,13 @@ window.__twilightSettings = {
     },
     "c9d95994-7c23-4474-bcf3-897334182fd8": {
       "name": "new_pubsub_client",
-      "v": 31244,
+      "v": 31323,
       "t": 1,
       "groups": [{
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "variant"
       }]
     },
