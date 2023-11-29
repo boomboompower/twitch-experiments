@@ -176,6 +176,7 @@ window.__twilightSettings = {
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
   "cmp_dma": [0, false],
+  "cmr_icon_button": [0, false],
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
@@ -6314,18 +6315,6 @@ window.__twilightSettings = {
       "t": 2,
       "groups": [{
         "weight": 1,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
-    "e10c93b8-efad-4f34-98a0-b067ba697067": {
-      "name": "community_intro_rollout",
-      "v": 30234,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
