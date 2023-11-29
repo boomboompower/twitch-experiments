@@ -508,6 +508,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
+  "powerful-piplup": false,
   "pplus-details": false,
   "precious_collective_mushroom": [1, false],
   "precious_collective_perms": [1, true],
@@ -2671,16 +2672,16 @@ window.__twilightSettings = {
     },
     "48d10e52-a85c-4594-af49-3900e3d753d1": {
       "name": "disco_followed_featured_clips",
-      "v": 30273,
+      "v": 31376,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant2"
       }]
     },
