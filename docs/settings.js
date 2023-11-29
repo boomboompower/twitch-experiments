@@ -223,6 +223,7 @@ window.__twilightSettings = {
   "crowd_chant": [0, false],
   "crowd_chant_length_limit": 120,
   "crowd_chant_query": [0, false],
+  "CS_mentions_settings": [0, true],
   "CS_settings": [1, true],
   "csai_ad_context_auto_clean": [1, true],
   "CSB_flag": [1, true],
