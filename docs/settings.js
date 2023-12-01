@@ -87,7 +87,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0, false],
+  "brand_lift_v0": [0.01, false],
   "brand_lift_v0_us": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -329,7 +329,6 @@ window.__twilightSettings = {
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
   "first_paid_gift_offer_feature_flag": [1, true],
-  "follower_emote_dashboard_access": [1, true],
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": false,
@@ -536,6 +535,7 @@ window.__twilightSettings = {
   "project_pixie_one": [0, false],
   "project_pixie_two": [0, false],
   "Project_Polaris": [1, true],
+  "promo_hypetrain_enabled": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [0, false],
   "promotions_boost_viewer": [1, true],
@@ -3967,17 +3967,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31153,
+      "v": 31421,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
