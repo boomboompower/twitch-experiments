@@ -16,6 +16,7 @@ window.__twilightSettings = {
   "ad_sassy_toggle": [1, true],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
+  "ads_dsa_audio_csai": [0, true],
   "ads_dsa_directory_banner": [0, true],
   "ads_dsa_directory_rectangle": [0, true],
   "ads_dsa_homepage_headliner": [0, true],
@@ -491,7 +492,7 @@ window.__twilightSettings = {
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [0, false],
-  "payout_onboarding_container_v2": [0.75, true],
+  "payout_onboarding_container_v2": [1, true],
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
@@ -3967,7 +3968,7 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31421,
+      "v": 31433,
       "t": 1,
       "s": 6,
       "groups": [{
