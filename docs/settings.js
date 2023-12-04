@@ -29,7 +29,7 @@ window.__twilightSettings = {
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
   "alert_settings_modal": [1, true],
-  "alerts_celebration_emote_promotion": [1, false],
+  "alerts_celebration_emote_promotion": [0, false],
   "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/celebration_promo.png",
   "alerts_home_redesign": [1, false],
   "am_ccar_feature_enabled": [1, true],
@@ -88,8 +88,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0.01, false],
-  "brand_lift_v0_us": [0, false],
+  "brand_lift_v0": [0.05, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -301,7 +300,7 @@ window.__twilightSettings = {
   "emote_sets_pagination_switchover": [1, false],
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
-  "enable_client_type": false,
+  "enable_client_type": true,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
@@ -1686,21 +1685,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant1"
-      }]
-    },
-    "216efd2d-f064-414c-a42d-7aaf4b276213": {
-      "name": "perennial_daylily",
-      "v": 31062,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "flowering"
-      }, {
-        "weight": 0,
-        "value": "blooming"
       }]
     },
     "218acff9-67f7-459f-9f3e-d9b41238e761": {
