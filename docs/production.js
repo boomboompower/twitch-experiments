@@ -316,11 +316,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "e85998cd-a7b4-400e-8139-6b1aeab9b4c9",
-        "name": "resizable_chat_column",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "d15008ba-4869-4c35-aa8d-92c38f709a87",
         "name": "color_promo_experiment",
         "dateFound": "2022-06-15T07:19:12.000Z"

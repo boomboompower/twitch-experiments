@@ -88,7 +88,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0.05, false],
+  "brand_lift_v0": [0.2, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -695,9 +695,9 @@ window.__twilightSettings = {
   "subscriber_badge_progression": true,
   "subsub_help_link": "https://help.twitch.tv/s/article/sponsored-subscriptions",
   "subtember_2023_celebration": [0, false],
-  "subtoken_balance_wallet": false,
+  "subtoken_balance_wallet": true,
   "subtokens": [1, true],
-  "subtokens_help_link": "https://help.twitch.tv/",
+  "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
   "switch_request_2fa_endpoint": [0, false],
@@ -2762,14 +2762,17 @@ window.__twilightSettings = {
     },
     "4be58f7d-f1bb-45fa-ba17-b5dbf7492fcb": {
       "name": "cplat_rb_ui",
-      "v": 31070,
+      "v": 31467,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "rb-grid"
+      }, {
+        "weight": 0,
+        "value": "rb-list"
       }]
     },
     "4d3d19a7-38c5-4328-9730-7d99565d5edd": {
@@ -3661,6 +3664,18 @@ window.__twilightSettings = {
         "value": "fa"
       }]
     },
+    "7446fe6c-7723-4f47-b901-801dc6a2c343": {
+      "name": "save_your_clips",
+      "v": 31465,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
       "v": 29587,
@@ -3952,17 +3967,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31433,
+      "v": 31463,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
@@ -5587,13 +5602,13 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 31215,
+      "v": 31459,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "enabled"
       }]
     },
