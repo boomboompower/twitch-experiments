@@ -32,6 +32,7 @@ window.__twilightSettings = {
   "alerts_celebration_emote_promotion": [0, false],
   "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/celebration_promo.png",
   "alerts_home_redesign": [1, false],
+  "alerts_revenue_callout_earnings_page_switch": [0, false],
   "am_ccar_feature_enabled": [1, true],
   "amazon_ads_url": "https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=twitch.tv&ex-hargs=v%3D1.0%3Bc%3D8858214122683%3Bp%3De75425fb-5407-7bd5-fd20-f462e98a8777",
   "amazon_ads_url_crown_uk": "https://aax-eu.amazon-adsystem.com/s/iui3?d=forester-did&ex-fargs=%3Fid%3Db8b26227-de81-5bfb-4046-b9158f6a8c08%26type%3D4%26m%3D3&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D3815840130302%3Bp%3DB8B26227-DE81-5BFB-4046-B9158F6A8C08",
@@ -88,7 +89,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "brand_lift_v0": [0.2, false],
+  "brand_lift_v0": [0.4, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -499,7 +500,7 @@ window.__twilightSettings = {
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
   "pc-mdf-banner-expiry": "2024-02-01",
-  "pc-new-ui": [0, false],
+  "pc-new-ui": [1, true],
   "pdms_access_requests": [1, true],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
@@ -3967,17 +3968,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31463,
+      "v": 31473,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 5,
+        "weight": 25,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-b"
       }]
     },
