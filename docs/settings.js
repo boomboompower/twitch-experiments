@@ -509,7 +509,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
-  "powerful-piplup": false,
+  "powerful-piplup": true,
   "pplus-details": false,
   "precious_collective_mushroom": [1, false],
   "precious_collective_perms": [1, true],
