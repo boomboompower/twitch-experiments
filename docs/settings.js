@@ -337,7 +337,7 @@ window.__twilightSettings = {
   "giftcard_currency_expansion": [1, true],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
-  "gs_dropins_alpha": [0, false],
+  "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
   "gs_rtj_partner_only_allowlist": ["21653133"],
@@ -3969,17 +3969,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31543,
+      "v": 31560,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
