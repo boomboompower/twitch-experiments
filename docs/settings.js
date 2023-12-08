@@ -25,7 +25,7 @@ window.__twilightSettings = {
   "ads_dsa_stream_pushdown": [0, true],
   "ads_dsa_stream_skyscraper": [0, true],
   "ads_preroll_timeline_enabled": [1, false],
-  "aes_active_alerts_usage": [0, false],
+  "aes_active_alerts_usage": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
   "alert_settings_modal": [1, true],
@@ -269,7 +269,7 @@ window.__twilightSettings = {
   "disable_pr_for_mr": [1, false],
   "disco_esports_sub_sunset": [1, false],
   "disco_top_clips_featured_filter_default": true,
-  "disco_top_clips_time_filter_default": "all",
+  "disco_top_clips_time_filter_default": "7d",
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -493,7 +493,7 @@ window.__twilightSettings = {
   "payment_methods_migration": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
-  "payout_method_migration": [0, false],
+  "payout_method_migration": [1, true],
   "payout_onboarding_container_v2": [1, true],
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
@@ -536,7 +536,6 @@ window.__twilightSettings = {
   "project_celebration_alerts": [1, false],
   "project_leviosa": [0, false],
   "project_pixie_one": [0, false],
-  "project_pixie_two": [0, false],
   "Project_Polaris": [1, true],
   "promo_hypetrain_enabled": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
@@ -2575,6 +2574,18 @@ window.__twilightSettings = {
         "value": "yes"
       }]
     },
+    "4508f274-a18f-4beb-b48a-b5eb41809399": {
+      "name": "save_your_created_clips",
+      "v": 31570,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "4524eda3-ae03-4a4d-a821-a65a83ef7687": {
       "name": "TWILIGHT_AAX_DISPLAY_CATCH_ALL",
       "v": 16236,
@@ -3664,18 +3675,6 @@ window.__twilightSettings = {
       "groups": [{
         "weight": 1,
         "value": "fa"
-      }]
-    },
-    "7446fe6c-7723-4f47-b901-801dc6a2c343": {
-      "name": "save_your_clips",
-      "v": 31465,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
