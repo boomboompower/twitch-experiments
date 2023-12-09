@@ -211,6 +211,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": false,
   "cplat_rb_cluster_enabled": false,
+  "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830"],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
