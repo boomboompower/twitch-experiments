@@ -34,6 +34,7 @@ window.__twilightSettings = {
   "alerts_home_redesign": [1, false],
   "alerts_revenue_callout_earnings_page_switch": [0, false],
   "am_ccar_feature_enabled": [1, true],
+  "am_fr": [0, false],
   "amazon_ads_url": "https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=twitch.tv&ex-hargs=v%3D1.0%3Bc%3D8858214122683%3Bp%3De75425fb-5407-7bd5-fd20-f462e98a8777",
   "amazon_ads_url_crown_uk": "https://aax-eu.amazon-adsystem.com/s/iui3?d=forester-did&ex-fargs=%3Fid%3Db8b26227-de81-5bfb-4046-b9158f6a8c08%26type%3D4%26m%3D3&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D3815840130302%3Bp%3DB8B26227-DE81-5BFB-4046-B9158F6A8C08",
   "amazon_ads_url_crown_us": "https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fid%3D2d452222-ea0d-0b73-d0cc-472923e63141%26type%3D4%26m%3D1&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D7416603020101%3Bp%3D2D452222-EA0D-0B73-D0CC-472923E63141",
@@ -82,7 +83,7 @@ window.__twilightSettings = {
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
   "Blobfish": "2023-10-01T07:00:00+00:00",
-  "Boh": "Settings",
+  "Boh": "2023-12-27T17:30:00Z",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
   "bounty_board_brand_portal_trailer_enabled": [1, true],
@@ -157,7 +158,7 @@ window.__twilightSettings = {
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
   "Cheer_2_UX_Survey_Link": "https://www.twitch.tv/",
-  "Chihiro": "Settings",
+  "Chihiro": "2024-01-02T18:00:00Z",
   "Chinchilla": "2023-10-01T07:00:00+00:00",
   "chmod-bcsvs": true,
   "cip_discoverability_channel_analytics": [1, false],
@@ -386,7 +387,7 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
-  "Haku": "Settings",
+  "Haku": "2023-12-13T17:30:00Z",
   "happens_in_vegas": false,
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
@@ -776,7 +777,7 @@ window.__twilightSettings = {
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
-  "Yubaba": "Settings",
+  "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
     "011d1499-61b3-49b2-92b2-b2ffd353ef00": {
@@ -3852,16 +3853,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 31084,
+      "v": 31605,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -3969,17 +3970,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31560,
+      "v": 31608,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -5922,13 +5923,13 @@ window.__twilightSettings = {
     },
     "d16629fa-a0bf-4a2a-b490-c1f92af05009": {
       "name": "mobile_native_web_player_av1",
-      "v": 31255,
+      "v": 31606,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }, {
         "weight": 0,
