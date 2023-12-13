@@ -411,7 +411,7 @@ window.__twilightSettings = {
   "intl_pricing_promo_balloon_end_date": "2021-11-03T13:00:00Z",
   "intl_pricing_promo_balloon_start_date": "2021-05-20T20:00:00Z",
   "irate-opossum": true,
-  "irradiated-grumpy-aardvark": false,
+  "irradiated-grumpy-aardvark": true,
   "is_grogu_enabled": [0, false],
   "is_legacy_dashboard_enabled": true,
   "is_nami_enabled": [1, true],
