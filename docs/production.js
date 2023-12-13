@@ -624,16 +624,6 @@ const productionExperiments = [
         "dateFound": "2023-04-06T01:19:44.000Z"
     },
     {
-        "id": "a589a73e-5aaa-4046-b673-152db3c4b8a6",
-        "name": "chat_ad_alerts",
-        "dateFound": "2023-07-14T20:14:49.336Z"
-    },
-    {
-        "id": "060e6b3a-f339-49ea-a43a-78f6c5b8aa27",
-        "name": "mocha_latte",
-        "dateFound": "2023-11-18T00:59:07.624Z"
-    },
-    {
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
         "name": "guest_star_left_nav_online_channel_augmentation",
         "dateFound": "2023-05-04T01:21:12.148Z"
@@ -747,11 +737,6 @@ const productionExperiments = [
         "id": "b56172de-08e4-4fc5-988d-a9d543f4092b",
         "name": "warhol_banner",
         "dateFound": "2023-10-13T20:13:38.233Z"
-    },
-    {
-        "id": "c9d95994-7c23-4474-bcf3-897334182fd8",
-        "name": "new_pubsub_client",
-        "dateFound": "2023-10-12T20:12:15.800Z"
     },
     {
         "id": "4be58f7d-f1bb-45fa-ba17-b5dbf7492fcb",
