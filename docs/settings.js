@@ -24,6 +24,7 @@ window.__twilightSettings = {
   "ads_dsa_stream_mirrorc": [0, true],
   "ads_dsa_stream_pushdown": [0, true],
   "ads_dsa_stream_skyscraper": [0, true],
+  "ads_dsa_video_pbyp": [0, true],
   "ads_preroll_timeline_enabled": [1, false],
   "aes_active_alerts_usage": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
@@ -104,6 +105,7 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
+  "cats_meow_enabled": [0, false],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": [],
@@ -537,9 +539,9 @@ window.__twilightSettings = {
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
   "project_leviosa": [0, false],
-  "project_pixie_one": [0, false],
+  "project_pixie_one": [1, false],
   "Project_Polaris": [1, true],
-  "promo_hypetrain_enabled": [0, false],
+  "promo_hypetrain_enabled": [1, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [0, false],
   "promotions_boost_viewer": [1, true],
@@ -1796,13 +1798,13 @@ window.__twilightSettings = {
     },
     "25873b9a-11c3-41bc-8a45-a17924078f2d": {
       "name": "project_pixie_two",
-      "v": 31099,
+      "v": 31669,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 5,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 95,
         "value": "treatment"
       }]
     },
@@ -3970,17 +3972,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31608,
+      "v": 31672,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
