@@ -2674,16 +2674,16 @@ window.__twilightSettings = {
     },
     "48d10e52-a85c-4594-af49-3900e3d753d1": {
       "name": "disco_followed_featured_clips",
-      "v": 31376,
+      "v": 31686,
       "t": 2,
       "groups": [{
-        "weight": 34,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant1"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant2"
       }]
     },
