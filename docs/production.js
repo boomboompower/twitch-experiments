@@ -674,11 +674,6 @@ const productionExperiments = [
         "dateFound": "2023-08-14T20:12:39.262Z"
     },
     {
-        "id": "82fc3075-94d3-4953-8e32-1271e754458d",
-        "name": "guest_star_unique_bs_tokens",
-        "dateFound": "2023-08-01T20:13:12.486Z"
-    },
-    {
         "id": "e7663acb-7979-4b47-8325-557da0d62177",
         "name": "invite_raider",
         "dateFound": "2023-08-14T20:12:39.266Z"
