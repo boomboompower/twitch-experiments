@@ -191,7 +191,7 @@ window.__twilightSettings = {
   "com30_tpc": [1, true],
   "commerce_bar_experience": "sponsored",
   "community_boost_enabled": [0, false],
-  "community_intros_rollout": [0, false],
+  "community_intros_rollout": [0, true],
   "community_moments_jitter_range_seconds": 0,
   "community_moments_quick_action_new_date": "2022-02-08T19:00:00Z",
   "community_sub_gifting_banner_timeouts": [0, 25, 35, 45, 55, 60, 60],
