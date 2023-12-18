@@ -5684,6 +5684,15 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "ca0e81a6-93f8-4b90-9cb3-747b1769d4fd": {
+      "name": "dropins_add_favorites_home_card",
+      "v": 31714,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "cbf02f73-63ee-4e4d-adce-713b1b351206": {
       "name": "expressions_popular_emotes",
       "v": 20045,
