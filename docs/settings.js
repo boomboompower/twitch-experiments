@@ -539,7 +539,7 @@ window.__twilightSettings = {
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
   "project_leviosa": [0, false],
-  "project_pixie_one": [1, false],
+  "project_pixie_one": [0, false],
   "Project_Polaris": [1, true],
   "promo_hypetrain_enabled": [1, false],
   "promotions_boost_challenges_viewer": [1, true],
