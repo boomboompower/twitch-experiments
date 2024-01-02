@@ -541,7 +541,7 @@ window.__twilightSettings = {
   "project_leviosa": [0, false],
   "project_pixie_one": [0, false],
   "Project_Polaris": [1, true],
-  "promo_hypetrain_enabled": [1, false],
+  "promo_hypetrain_enabled": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [0, false],
   "promotions_boost_viewer": [1, true],
@@ -1798,13 +1798,13 @@ window.__twilightSettings = {
     },
     "25873b9a-11c3-41bc-8a45-a17924078f2d": {
       "name": "project_pixie_two",
-      "v": 31669,
+      "v": 31749,
       "t": 2,
       "groups": [{
-        "weight": 5,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 95,
+        "weight": 0,
         "value": "treatment"
       }]
     },
