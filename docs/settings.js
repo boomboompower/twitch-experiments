@@ -515,6 +515,8 @@ window.__twilightSettings = {
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
+  "pplus_toggle": [0, false],
+  "pplus_widget": [0, false],
   "pplus-details": false,
   "precious_collective_mushroom": [1, false],
   "precious_collective_perms": [1, true],
