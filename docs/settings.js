@@ -12,8 +12,6 @@ window.__twilightSettings = {
   "activity_feed_qa_ff": [1, true],
   "ad_content_metadata_allowlist": ["155668964", "38543271", "25100025", "24199752", "472905796", "452977866"],
   "ad_content_metadata_rollout": [1, false],
-  "ad_sassy_chat_alert": [1, true],
-  "ad_sassy_toggle": [1, true],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "ads_dsa_audio_csai": [0, true],
@@ -214,7 +212,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
   "cplat_rb_cluster_enabled": false,
-  "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830"],
+  "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830", "79280715"],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
@@ -2652,13 +2650,13 @@ window.__twilightSettings = {
     },
     "47543f55-6524-4f3a-a241-017bcd97fa16": {
       "name": "ivs_player_whole_probe",
-      "v": 31003,
+      "v": 31794,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
