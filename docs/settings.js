@@ -1184,18 +1184,6 @@ window.__twilightSettings = {
         "value": "enabled"
       }]
     },
-    "0e248afe-d080-4861-aa8a-f68327aaa15f": {
-      "name": "ads_q4_announcement_tcc",
-      "v": 30342,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
       "v": 26848,
@@ -3933,14 +3921,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31807,
+      "v": 31824,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "base"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "variant-a"
       }, {
         "weight": 0,
@@ -4927,18 +4915,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "off"
-      }]
-    },
-    "a9445a37-d1b7-45ee-9ea4-2d8da493bfb9": {
-      "name": "ad_affiliate_rev_share",
-      "v": 8316,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
       }]
     },
     "a9667563-723a-4cf7-b253-674d9eef0a53": {
