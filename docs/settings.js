@@ -952,21 +952,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "060e6b3a-f339-49ea-a43a-78f6c5b8aa27": {
-      "name": "mocha_latte",
-      "v": 31240,
-      "t": 3,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
-      }, {
-        "weight": 0,
-        "value": "737771146, 737772548"
-      }]
-    },
     "064cdbc9-a25a-4000-a759-cb5d16762af7": {
       "name": "paypal_first_v2",
       "v": 8470,
@@ -4864,21 +4849,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
-      }]
-    },
-    "a589a73e-5aaa-4046-b673-152db3c4b8a6": {
-      "name": "chat_ad_alerts",
-      "v": 29364,
-      "t": 3,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
-      }, {
-        "weight": 0,
-        "value": "737771146"
       }]
     },
     "a5a06042-3edd-400b-bb49-c06beb3480a0": {
