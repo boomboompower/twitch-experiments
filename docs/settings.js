@@ -258,9 +258,6 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
-  "dev_holiday_banner_cutoff_date": "2023-12-08T08:00:00Z",
-  "dev_holiday_banner_end_date": "2024-01-03T08:00:00Z",
-  "dev_holiday_banner_start_date": "2023-12-16T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -1773,27 +1770,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant0"
-      }]
-    },
-    "2559f1ee-d998-4fb5-8be7-9213e688a589": {
-      "name": "bits_skus_reduction",
-      "v": 24150,
-      "t": 2,
-      "groups": [{
-        "weight": 1,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "A"
-      }, {
-        "weight": 0,
-        "value": "B"
-      }, {
-        "weight": 0,
-        "value": "C"
-      }, {
-        "weight": 0,
-        "value": "D"
       }]
     },
     "25873b9a-11c3-41bc-8a45-a17924078f2d": {
@@ -3972,14 +3948,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31672,
+      "v": 31807,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant-a"
       }, {
         "weight": 0,
