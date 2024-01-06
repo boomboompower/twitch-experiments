@@ -60,11 +60,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "c1eb1f14-62db-4604-bfb5-813e752c9dc5",
-        "name": "bits_landing_page",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f8c43aed-0b0e-47bf-88db-5f188bac2922",
         "name": "bits_simplified_purchase",
         "dateFound": "2023-06-21T20:13:22.759Z"
