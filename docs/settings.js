@@ -6,6 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
+  "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
   "active_gift_promo_offer_feature_flag": [1, true],
@@ -2600,13 +2601,13 @@ window.__twilightSettings = {
     },
     "47543f55-6524-4f3a-a241-017bcd97fa16": {
       "name": "ivs_player_whole_probe",
-      "v": 31854,
+      "v": 31870,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
