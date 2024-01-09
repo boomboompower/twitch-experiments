@@ -267,6 +267,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disco_esports_sub_sunset": [1, false],
+  "disco_mizukage_genjutsu": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "DMCA_Clips_Manager_Hint": [1, true],
@@ -3921,14 +3922,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31841,
+      "v": 31859,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
