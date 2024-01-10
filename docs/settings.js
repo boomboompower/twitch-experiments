@@ -15,6 +15,7 @@ window.__twilightSettings = {
   "ad_content_metadata_rollout": [1, false],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
+  "admissible-cement-casserole": false,
   "ads_dsa_audio_csai": [0, true],
   "ads_dsa_directory_banner": [0, true],
   "ads_dsa_directory_rectangle": [0, true],
