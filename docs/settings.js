@@ -272,6 +272,7 @@ window.__twilightSettings = {
   "disco_mizukage_genjutsu": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
+  "display_dma_banner": [0, false],
   "dma_reject_all": [0, false],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
