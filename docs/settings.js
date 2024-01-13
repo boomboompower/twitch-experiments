@@ -5319,7 +5319,7 @@ window.__twilightSettings = {
     },
     "b8b7cac6-956d-4819-8d35-9ae57aa5f0ce": {
       "name": "mobile_native_web_player_hevc",
-      "v": 31236,
+      "v": 31901,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -5329,7 +5329,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 0,
-        "value": "force"
+        "value": "forceOn"
       }]
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
@@ -5613,11 +5613,14 @@ window.__twilightSettings = {
     },
     "ca0e81a6-93f8-4b90-9cb3-747b1769d4fd": {
       "name": "dropins_add_favorites_home_card",
-      "v": 31714,
+      "v": 31906,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
+      }, {
+        "weight": 100,
+        "value": "variant"
       }]
     },
     "cbf02f73-63ee-4e4d-adce-713b1b351206": {
@@ -5861,7 +5864,7 @@ window.__twilightSettings = {
     },
     "d16629fa-a0bf-4a2a-b490-c1f92af05009": {
       "name": "mobile_native_web_player_av1",
-      "v": 31606,
+      "v": 31903,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -5871,7 +5874,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 0,
-        "value": "force"
+        "value": "forceOn"
       }]
     },
     "d1a80945-a4db-41c5-956c-4518ad26a8ca": {
@@ -6890,13 +6893,13 @@ window.__twilightSettings = {
     },
     "f4e543a6-91fc-4c93-81a2-ae27e616a641": {
       "name": "player_core_edge_prewarm",
-      "v": 30231,
+      "v": 31902,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
