@@ -275,7 +275,9 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
+  "dma_devices_allowlist": [],
   "dma_reject_all": [0, false],
+  "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140"],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -606,6 +608,7 @@ window.__twilightSettings = {
   "rtj_pause_resume_buttons_enabled": [1, false],
   "rtj_subscription_limit": [1, false],
   "ruby_is_the_cutest_dog_ever": "off",
+  "sad_shuckle": false,
   "safety_center_feature_flag": [1, false],
   "sakura_hanami": true,
   "sb_party": [0, false],
@@ -1596,16 +1599,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 31119,
+      "v": 31915,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -3593,13 +3596,13 @@ window.__twilightSettings = {
     },
     "72cbae70-b2c0-4c99-a1e6-da6a10a39b73": {
       "name": "player_core_send_recoverable_network_error",
-      "v": 30831,
+      "v": 31914,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },

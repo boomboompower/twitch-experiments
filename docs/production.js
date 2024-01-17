@@ -286,11 +286,6 @@ const productionExperiments = [
         "dateFound": "2023-02-17T01:43:26.000Z"
     },
     {
-        "id": "cf91e619-8d8b-486f-83a3-13db61bfbfaf",
-        "name": "bits_top_nav_explanation",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "a55dd577-ea7e-4e74-9978-2aa997e59603",
         "name": "eu_direct_debit",
         "dateFound": "2022-06-15T07:19:12.000Z"
