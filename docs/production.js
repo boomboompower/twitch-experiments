@@ -519,11 +519,6 @@ const productionExperiments = [
         "dateFound": "2022-10-26T02:11:57.000Z"
     },
     {
-        "id": "9c0ac7b2-66b0-4980-9bee-42e07c9202c3",
-        "name": "pinned_chat",
-        "dateFound": "2022-08-31T02:40:58.000Z"
-    },
-    {
         "id": "502fe8f0-6858-465e-83b4-8f58f538528a",
         "name": "hype_train_all_time_high",
         "dateFound": "2022-07-14T02:16:47.000Z"
@@ -624,11 +619,6 @@ const productionExperiments = [
         "dateFound": "2023-06-21T20:13:22.761Z"
     },
     {
-        "id": "033ddc81-63cf-4e40-a9dc-440df0537f30",
-        "name": "one_click_paid_pinned_chat",
-        "dateFound": "2023-06-03T02:14:00.394Z"
-    },
-    {
         "id": "48d10e52-a85c-4594-af49-3900e3d753d1",
         "name": "disco_followed_featured_clips",
         "dateFound": "2023-10-17T20:13:25.557Z"
@@ -652,16 +642,6 @@ const productionExperiments = [
         "id": "aeae6b87-688d-4843-9dd9-98d0c9e3f6b4",
         "name": "pg_personalized_crown_menu",
         "dateFound": "2023-07-10T20:15:04.115Z"
-    },
-    {
-        "id": "d8fd989b-c598-43fa-88ca-453150ccb9c8",
-        "name": "hype_chat_buy_your_own",
-        "dateFound": "2023-08-01T20:13:12.483Z"
-    },
-    {
-        "id": "37f900ab-c9f3-499a-92ba-25d85c208939",
-        "name": "hype_chat_ingress",
-        "dateFound": "2023-08-14T20:12:39.262Z"
     },
     {
         "id": "e7663acb-7979-4b47-8325-557da0d62177",

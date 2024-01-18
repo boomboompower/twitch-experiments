@@ -15,7 +15,7 @@ window.__twilightSettings = {
   "ad_content_metadata_rollout": [1, false],
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
-  "admissible-cement-casserole": false,
+  "admissible-cement-casserole": true,
   "ads_dsa_audio_csai": [0, true],
   "ads_dsa_audio_pbyp": [0, true],
   "ads_dsa_directory_banner": [0, true],
@@ -58,6 +58,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
+  "auto_push_news_release_date_iso": "2024-01-25T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
   "autonomous_octopuff": [1, false],
@@ -216,7 +217,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
   "cplat_rb_cluster_enabled": false,
-  "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830", "79280715"],
+  "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830", "79280715", "772993767"],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
@@ -3596,13 +3597,13 @@ window.__twilightSettings = {
     },
     "72cbae70-b2c0-4c99-a1e6-da6a10a39b73": {
       "name": "player_core_send_recoverable_network_error",
-      "v": 31926,
+      "v": 31934,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 100,
         "value": "treatment"
       }]
     },
