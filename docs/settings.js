@@ -520,8 +520,8 @@ window.__twilightSettings = {
   "phone_number_signup_settings": [1, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
-  "pplus_toggle": [0, false],
-  "pplus_widget": [0, false],
+  "pplus_toggle": [1, true],
+  "pplus_widget": [1, true],
   "pplus-details": false,
   "precious_collective_mushroom": [1, false],
   "precious_collective_perms": [1, true],
@@ -1600,16 +1600,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 31915,
+      "v": 31945,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
