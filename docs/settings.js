@@ -7087,6 +7087,21 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "faa70fe0-298d-41c5-8f84-7e35066fc3e7": {
+      "name": "turbo_ads_timing_upsell",
+      "v": 32008,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "during_adbreak"
+      }, {
+        "weight": 0,
+        "value": "after_adbreak"
+      }]
+    },
     "faccc9c6-d6b3-4723-94a3-a2976a73ec9e": {
       "name": "consent_tool_headline",
       "v": 20573,
