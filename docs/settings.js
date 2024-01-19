@@ -276,7 +276,7 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
-  "dma_devices_allowlist": ["0f204a8cb553e0db"],
+  "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c"],
   "dma_reject_all": [0, false],
   "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140"],
   "DMCA_Clips_Manager_Hint": [1, true],
