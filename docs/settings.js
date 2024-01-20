@@ -277,7 +277,7 @@ window.__twilightSettings = {
   "display_dma_banner": [0, false],
   "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c", "I8LZR5K40WadwtHL8mhsnfxE1wGd8RfY"],
   "dma_reject_all": [0, false],
-  "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140"],
+  "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140", "1020679178", "1020681333", "1020682363"],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -5619,13 +5619,13 @@ window.__twilightSettings = {
     },
     "ca0e81a6-93f8-4b90-9cb3-747b1769d4fd": {
       "name": "dropins_add_favorites_home_card",
-      "v": 31906,
+      "v": 32019,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant"
       }]
     },
