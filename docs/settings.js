@@ -16,15 +16,11 @@ window.__twilightSettings = {
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "admissible-cement-casserole": true,
-  "ads_dsa_audio_csai": [0, true],
   "ads_dsa_audio_pbyp": [0, true],
   "ads_dsa_directory_banner": [0, true],
   "ads_dsa_directory_rectangle": [0, true],
   "ads_dsa_homepage_headliner": [0, true],
   "ads_dsa_stream_lowerthird": [0, true],
-  "ads_dsa_stream_mirrorc": [0, true],
-  "ads_dsa_stream_pushdown": [0, true],
-  "ads_dsa_stream_skyscraper": [0, true],
   "ads_dsa_stream_squeezeback": [0, true],
   "ads_dsa_video_pbyp": [0, true],
   "ads_preroll_timeline_enabled": [1, false],
@@ -275,9 +271,9 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
-  "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c", "I8LZR5K40WadwtHL8mhsnfxE1wGd8RfY"],
+  "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c", "I8LZR5K40WadwtHL8mhsnfxE1wGd8RfY", "wavSudtQ9FM8TwAotqJdqiGFZsD881Ff", "zXaRzLpKmW1T72WqhvUJj72RG40atA85", "PYXr8Yp5cOSWQRTQ1jifvo6XVfoPQ9UW"],
   "dma_reject_all": [0, false],
-  "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140", "1020679178", "1020681333", "1020682363"],
+  "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140", "1020679178", "1020681333", "1020682363", "1020916305", "1020917850", "1020918940"],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -5619,13 +5615,13 @@ window.__twilightSettings = {
     },
     "ca0e81a6-93f8-4b90-9cb3-747b1769d4fd": {
       "name": "dropins_add_favorites_home_card",
-      "v": 32019,
+      "v": 32037,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
