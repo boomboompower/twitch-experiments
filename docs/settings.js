@@ -99,7 +99,6 @@ window.__twilightSettings = {
   "c2_message_size": [0, false],
   "c2_message_size_participants": [""],
   "c2_message_size_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_4ZuHnB79TByKEJM",
-  "c2_midnight_squid": false,
   "c2_screenshot": [0, false],
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
@@ -541,7 +540,6 @@ window.__twilightSettings = {
   "project_airhorn": [0, false],
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
-  "project_leviosa": [0, false],
   "project_pixie_one": [0, false],
   "Project_Polaris": [1, true],
   "promo_hypetrain_enabled": [0, false],
@@ -2238,8 +2236,8 @@ window.__twilightSettings = {
       }]
     },
     "37f900ab-c9f3-499a-92ba-25d85c208939": {
-      "name": "hype_chat_ingress",
-      "v": 30259,
+      "name": "hype_chat_ingress_deprecated",
+      "v": 32057,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -6033,14 +6031,14 @@ window.__twilightSettings = {
       }]
     },
     "d8fd989b-c598-43fa-88ca-453150ccb9c8": {
-      "name": "hype_chat_buy_your_own",
-      "v": 29204,
+      "name": "hype_chat_buy_your_own_deprecated",
+      "v": 32056,
       "t": 2,
       "groups": [{
-        "weight": 5,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 95,
+        "weight": 0,
         "value": "treatment"
       }]
     },
