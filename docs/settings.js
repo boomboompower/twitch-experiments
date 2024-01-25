@@ -338,6 +338,7 @@ window.__twilightSettings = {
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": false,
   "giftcard_currency_expansion": [1, true],
+  "gkth_reward_update": [0, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
   "gs_dropins_alpha": [1, false],
@@ -2235,24 +2236,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "37f900ab-c9f3-499a-92ba-25d85c208939": {
-      "name": "hype_chat_ingress_deprecated",
-      "v": 32057,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "full_button_with_copy"
-      }, {
-        "weight": 0,
-        "value": "full_button_no_copy"
-      }, {
-        "weight": 0,
-        "value": "pill_button"
-      }]
-    },
     "38b59330-9056-47a5-a858-615dcd103666": {
       "name": "disco_sprig_logged_out",
       "v": 31100,
@@ -3742,18 +3725,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "experiment"
-      }]
-    },
-    "79b1597d-2430-4251-8f89-0168924fc581": {
-      "name": "midnight_squid_deprecated",
-      "v": 19767,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "Control"
-      }, {
-        "weight": 0,
-        "value": "Experiment"
       }]
     },
     "7a036454-ea87-4a34-b8e3-e2facc0a5b50": {
@@ -5278,18 +5249,6 @@ window.__twilightSettings = {
         "value": "657058953"
       }]
     },
-    "b7e96e85-7f92-47f5-824e-d7a64b26eb92": {
-      "name": "cheering2.0_midnight_squid_deprecated",
-      "v": 19766,
-      "t": 3,
-      "groups": [{
-        "weight": 100,
-        "value": "Control"
-      }, {
-        "weight": 0,
-        "value": "Experiment"
-      }]
-    },
     "b885f7db-298e-4128-8e80-260481b5f1a9": {
       "name": "chat_replies_context_preference",
       "v": 14371,
@@ -6028,18 +5987,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "d8fd989b-c598-43fa-88ca-453150ccb9c8": {
-      "name": "hype_chat_buy_your_own_deprecated",
-      "v": 32056,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
       }]
     },
     "d9888797-c7bb-443b-9929-7bebc5e9bb08": {
