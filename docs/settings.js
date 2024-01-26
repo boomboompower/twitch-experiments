@@ -3620,14 +3620,11 @@ window.__twilightSettings = {
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 29587,
+      "v": 32126,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
-      }, {
-        "weight": 50,
-        "value": "twilio"
       }]
     },
     "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
