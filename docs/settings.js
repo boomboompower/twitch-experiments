@@ -54,7 +54,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
-  "auto_push_news_release_date_iso": "2024-01-31T13:30:00Z",
+  "auto_push_news_release_date_iso": "2024-02-08T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
   "autonomous_octopuff": [1, false],
@@ -338,7 +338,7 @@ window.__twilightSettings = {
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": false,
   "giftcard_currency_expansion": [1, true],
-  "gkth_reward_update": [0, false],
+  "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
   "gs_dropins_alpha": [1, false],
@@ -369,6 +369,7 @@ window.__twilightSettings = {
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
   "guest_star_low_trust_user_indicator": [0, false],
+  "guest_star_manual_guest_mapping": [0, false],
   "guest_star_new_feedback_modal": [1, true],
   "guest_star_no_candidates_help_link": "https://help.twitch.tv/s/article/guest-star-faqs#blockedtraffic",
   "guest_star_notifications": [1, false],
@@ -3922,13 +3923,13 @@ window.__twilightSettings = {
     },
     "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26": {
       "name": "cplat_rb",
-      "v": 31213,
+      "v": 32139,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -7027,16 +7028,16 @@ window.__twilightSettings = {
     },
     "faa70fe0-298d-41c5-8f84-7e35066fc3e7": {
       "name": "turbo_ads_timing_upsell",
-      "v": 32008,
+      "v": 32141,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "during_adbreak"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "after_adbreak"
       }]
     },

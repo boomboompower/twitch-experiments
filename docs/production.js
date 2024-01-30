@@ -717,5 +717,10 @@ const productionExperiments = [
         "id": "4508f274-a18f-4beb-b48a-b5eb41809399",
         "name": "save_your_clips",
         "dateFound": "2024-01-26T00:57:20.290Z"
+    },
+    {
+        "id": "faa70fe0-298d-41c5-8f84-7e35066fc3e7",
+        "name": "turbo_ads_timing_upsell",
+        "dateFound": "2024-01-30T00:56:35.771Z"
     }
 ]
