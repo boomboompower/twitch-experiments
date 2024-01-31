@@ -343,6 +343,7 @@ window.__twilightSettings = {
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
+  "gs_collaborators_clips": false,
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
@@ -2540,6 +2541,27 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
+      }]
+    },
+    "46102407-4a25-4bdb-b658-8bf4bd8f4139": {
+      "name": "support_panel_simplification",
+      "v": 32172,
+      "t": 2,
+      "groups": [{
+        "weight": 20,
+        "value": "control"
+      }, {
+        "weight": 20,
+        "value": "treatment_1a"
+      }, {
+        "weight": 20,
+        "value": "treatment_1b"
+      }, {
+        "weight": 20,
+        "value": "treatment_1c"
+      }, {
+        "weight": 20,
+        "value": "treatment_2"
       }]
     },
     "4664cf2d-0df6-43fb-8196-25fac34700d5": {
