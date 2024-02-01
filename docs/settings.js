@@ -1771,6 +1771,21 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "25b8c907-d9ac-461c-8a2a-051719ce739c": {
+      "name": "palword_new",
+      "v": 32184,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "Control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": ""
+      }]
+    },
     "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb": {
       "name": "chat_signup_gate",
       "v": 29704,
