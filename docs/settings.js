@@ -235,7 +235,7 @@ window.__twilightSettings = {
   "CSB_flag": [1, true],
   "CSB_tracking_flag": [1, true],
   "CSI_use_xo_actions": true,
-  "cu-ce": [0, false],
+  "cu-cr-ed": [0, false],
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": false,
   "da_manager_m2": [1, false],
