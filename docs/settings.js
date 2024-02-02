@@ -134,6 +134,7 @@ window.__twilightSettings = {
   "ch_feature_chat_rules": [1, true],
   "ch_feature_goals": [1, true],
   "ch-east": [1, false],
+  "ch-uber-pool": [0, false],
   "change_password_connections": [1, false],
   "change_payout_method_reauth_required": true,
   "channel_analytics_subs_to_gql": [1, false],
@@ -272,7 +273,7 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
-  "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c", "I8LZR5K40WadwtHL8mhsnfxE1wGd8RfY", "wavSudtQ9FM8TwAotqJdqiGFZsD881Ff", "zXaRzLpKmW1T72WqhvUJj72RG40atA85", "PYXr8Yp5cOSWQRTQ1jifvo6XVfoPQ9UW", "XP08dRE1oXYTROZ24h38plAqHnpKqk5c", "1hIR38qwAnUgkwiD3JsgAJmhCHN2NWBp", "NI3CG4o2V3buTDBo7Zp9sFKAo867aIs0", "XcGqlPi5fTVQhwYwOEsoA33XbDfT6xU2", "UTbjTvjjI5iM9dl5u8LPPVb2W3bYgkv1", "IXGmsPzoWvOJf2hv4KcA0JSfDOirsXfU"],
+  "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c", "I8LZR5K40WadwtHL8mhsnfxE1wGd8RfY", "wavSudtQ9FM8TwAotqJdqiGFZsD881Ff", "zXaRzLpKmW1T72WqhvUJj72RG40atA85", "PYXr8Yp5cOSWQRTQ1jifvo6XVfoPQ9UW", "XP08dRE1oXYTROZ24h38plAqHnpKqk5c", "1hIR38qwAnUgkwiD3JsgAJmhCHN2NWBp", "NI3CG4o2V3buTDBo7Zp9sFKAo867aIs0", "XcGqlPi5fTVQhwYwOEsoA33XbDfT6xU2", "UTbjTvjjI5iM9dl5u8LPPVb2W3bYgkv1", "IXGmsPzoWvOJf2hv4KcA0JSfDOirsXfU", "GKdFwpUluPVlGebQScb3jEPH92LEwsIi", "1kDX2ymIRHfwmQ3bSjQlDMuE0bpIkoZ6", "Uudoq9G5CQ08i0iKBRYmVdxR44nJP4nZ"],
   "dma_reject_all": [0, false],
   "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140", "1020679178", "1020681333", "1020682363", "1020916305", "1020917850", "1020918940"],
   "DMCA_Clips_Manager_Hint": [1, true],
@@ -338,7 +339,7 @@ window.__twilightSettings = {
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
-  "friendly-alligator": false,
+  "friendly-alligator": true,
   "giftcard_currency_expansion": [1, true],
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
@@ -5332,6 +5333,15 @@ window.__twilightSettings = {
         "value": "forceOn"
       }]
     },
+    "b91dff12-2754-4bd0-a58a-2c5bbd5d3f5e": {
+      "name": "Passport_Vonage_Signup",
+      "v": 32202,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
       "name": "bda_migration_flag",
       "v": 26471,
@@ -5341,6 +5351,15 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 0,
+        "value": "control"
+      }]
+    },
+    "bb4ca13a-4b3c-48b5-b4d0-fe49d5e7a4c9": {
+      "name": "Passport_Vonage_Login",
+      "v": 32201,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
         "value": "control"
       }]
     },
