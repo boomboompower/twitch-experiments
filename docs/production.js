@@ -90,11 +90,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "cf51c206-6e43-4a5d-817f-a72669375f5d",
-        "name": "chat_happening_now_2023",
-        "dateFound": "2023-03-15T01:34:59.000Z"
-    },
-    {
         "id": "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d",
         "name": "chat_privmsg_to_gql",
         "dateFound": "2023-11-01T20:13:20.845Z"
