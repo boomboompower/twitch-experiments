@@ -273,9 +273,9 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
-  "dma_devices_allowlist": ["0f204a8cb553e0db", "e0908eefe643727c", "I8LZR5K40WadwtHL8mhsnfxE1wGd8RfY", "wavSudtQ9FM8TwAotqJdqiGFZsD881Ff", "zXaRzLpKmW1T72WqhvUJj72RG40atA85", "PYXr8Yp5cOSWQRTQ1jifvo6XVfoPQ9UW", "XP08dRE1oXYTROZ24h38plAqHnpKqk5c", "1hIR38qwAnUgkwiD3JsgAJmhCHN2NWBp", "NI3CG4o2V3buTDBo7Zp9sFKAo867aIs0", "XcGqlPi5fTVQhwYwOEsoA33XbDfT6xU2", "UTbjTvjjI5iM9dl5u8LPPVb2W3bYgkv1", "IXGmsPzoWvOJf2hv4KcA0JSfDOirsXfU", "GKdFwpUluPVlGebQScb3jEPH92LEwsIi", "1kDX2ymIRHfwmQ3bSjQlDMuE0bpIkoZ6", "Uudoq9G5CQ08i0iKBRYmVdxR44nJP4nZ", "HN3JScf1nAW1pIKsKNqMJKK7Ibd6lA2N", "L7z95fAikWWQmWZI7SMJE51MBjnsMzGv"],
+  "dma_devices_allowlist": [],
   "dma_reject_all": [0, false],
-  "dma_users_allowlist": ["998211294", "976115614", "998212002", "985336320", "985333061", "998213140", "1020679178", "1020681333", "1020682363", "1020916305", "1020917850", "1020918940"],
+  "dma_users_allowlist": [],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -1599,6 +1599,15 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant"
+      }]
+    },
+    "1d4c9c37-cf22-4e65-8d21-a1871754dd87": {
+      "name": "amazon_ivs_web_broadcast_retry_errors",
+      "v": 32258,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
