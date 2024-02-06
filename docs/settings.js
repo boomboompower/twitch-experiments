@@ -16,14 +16,13 @@ window.__twilightSettings = {
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "admissible-cement-casserole": true,
-  "ads_dsa_audio_pbyp": [0, true],
-  "ads_dsa_directory_banner": [0, true],
-  "ads_dsa_directory_rectangle": [0, true],
-  "ads_dsa_homepage_headliner": [0, true],
-  "ads_dsa_modal_manager": [0, true],
-  "ads_dsa_stream_lowerthird": [0, true],
-  "ads_dsa_stream_squeezeback": [0, true],
-  "ads_dsa_video_pbyp": [0, true],
+  "ads_dsa_audio_pbyp": [0.05, true],
+  "ads_dsa_directory_banner": [0.05, true],
+  "ads_dsa_directory_rectangle": [0.05, true],
+  "ads_dsa_homepage_headliner": [0.05, true],
+  "ads_dsa_stream_lowerthird": [0.05, true],
+  "ads_dsa_stream_squeezeback": [0.05, true],
+  "ads_dsa_video_pbyp": [0.05, true],
   "ads_preroll_timeline_enabled": [1, false],
   "aes_active_alerts_usage": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
@@ -179,7 +178,7 @@ window.__twilightSettings = {
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
-  "cmp_dma": [0, false],
+  "cmp_dma": [1, false],
   "cmr_icon_button": [1, true],
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
   "cmr-flag": [1, false],
@@ -214,6 +213,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
   "cplat_rb_cluster_enabled": false,
+  "cplat_rb_ga_rollout": false,
   "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830", "79280715", "772993767", "48276979", "428631942"],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
@@ -583,7 +583,7 @@ window.__twilightSettings = {
   "radio_soundtrack_ugc_feature_flag": [0, true],
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
-  "rain_dance": [0, false],
+  "rain_dance": [1, false],
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
   "recurly_spm_guard": [1, true],
@@ -2233,18 +2233,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
-      }]
-    },
-    "372a1386-6285-439b-8439-bdb320d83e78": {
-      "name": "vx_left_pop",
-      "v": 29673,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
       }]
     },
     "37f3bb1b-c6c9-4e79-a707-346c41e0ff7d": {
@@ -4999,7 +4987,7 @@ window.__twilightSettings = {
     },
     "ab79d3b7-2881-4c97-be08-b98f1cc4a074": {
       "name": "ios_paid_pinnedchat",
-      "v": 28719,
+      "v": 32247,
       "t": 1,
       "groups": [{
         "weight": 0,

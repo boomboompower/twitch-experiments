@@ -40,11 +40,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "372a1386-6285-439b-8439-bdb320d83e78",
-        "name": "vx_left_pop",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "ac6aa618-bf3a-4336-9870-d2066b9ea96b",
         "name": "vx_starting_soon_following",
         "dateFound": "2022-06-15T07:19:12.000Z"
