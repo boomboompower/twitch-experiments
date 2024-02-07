@@ -16,13 +16,13 @@ window.__twilightSettings = {
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "admissible-cement-casserole": true,
-  "ads_dsa_audio_pbyp": [0.25, true],
-  "ads_dsa_directory_banner": [0.25, true],
-  "ads_dsa_directory_rectangle": [0.25, true],
-  "ads_dsa_homepage_headliner": [0.25, true],
-  "ads_dsa_stream_lowerthird": [0.25, true],
-  "ads_dsa_stream_squeezeback": [0.25, true],
-  "ads_dsa_video_pbyp": [0.25, true],
+  "ads_dsa_audio_pbyp": [0.5, true],
+  "ads_dsa_directory_banner": [0.5, true],
+  "ads_dsa_directory_rectangle": [0.5, true],
+  "ads_dsa_homepage_headliner": [0.5, true],
+  "ads_dsa_stream_lowerthird": [0.5, true],
+  "ads_dsa_stream_squeezeback": [0.5, true],
+  "ads_dsa_video_pbyp": [0.5, true],
   "ads_preroll_timeline_enabled": [1, false],
   "aes_active_alerts_usage": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
@@ -203,6 +203,7 @@ window.__twilightSettings = {
   "consolidated_dashboard_settings": "on",
   "content_promo": [0, false],
   "contigo_ojos_y_duende_proxima_playback_position": 5,
+  "continuing_sub_alerts_enabled": [0, false],
   "contribution_matching_oz": "",
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
@@ -614,7 +615,6 @@ window.__twilightSettings = {
   "ruby_is_the_cutest_dog_ever": "off",
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
-  "sakura_hanami": true,
   "sb_party": [0, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
@@ -1418,18 +1418,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "145ddca3-2724-45ed-9ded-3bf9d2e79811": {
-      "name": "vx_left_nav_category_click_thru",
-      "v": 29674,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "15e9840b-134e-41c5-93c6-ce638e404887": {
@@ -4761,18 +4749,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
-      }]
-    },
-    "a1fa14d1-a9bd-40a0-83df-c5b6767d5a28": {
-      "name": "vx_left_nav_creator_color",
-      "v": 29675,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "a22564bf-1fa7-49ef-b2a2-e45ed1d88f30": {
