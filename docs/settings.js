@@ -3961,18 +3961,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "82b2bac1-b750-4f18-b917-5ab1e08ea1d2": {
-      "name": "creator_home_feature_cards_link_out",
-      "v": 31182,
-      "t": 3,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 50,
-        "value": "variant"
-      }]
-    },
     "82fc3075-94d3-4953-8e32-1271e754458d": {
       "name": "Twilight guest star unique browser tokens",
       "v": 29189,
