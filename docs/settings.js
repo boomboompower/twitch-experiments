@@ -298,7 +298,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_2_date": "2023-09-18T20:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
-  "earnings_dashboard_outage_alert": [1, false],
+  "earnings_dashboard_outage_alert": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "block",
   "embed_ap_enforcement_deadline": [2023, 10, 15, 18, 0],
@@ -4249,6 +4249,18 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
+    "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
+      "name": "is_channel_in_direct_hype_train_triggers",
+      "v": 32326,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "experiment"
+      }]
+    },
     "8c4717a6-9090-4c4b-8fd3-2f167c797680": {
       "name": "AMV2_PHASE2_RELEASE",
       "v": 16406,
@@ -5234,6 +5246,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "b6b8cde4-27ca-48e4-889c-656504febf9d": {
+      "name": "project_narwhal",
+      "v": 32323,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "b76b82ac-d5cf-4845-a96f-5243c22856bd": {
