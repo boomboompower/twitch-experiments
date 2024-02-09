@@ -560,8 +560,8 @@ window.__twilightSettings = {
   "ptp-wrding-flag": true,
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
-  "pubsub_vs_eventsub": [0, false],
-  "pubsub_vs_eventsub2": [0, false],
+  "pubsub_vs_eventsub": [0.01, false],
+  "pubsub_vs_eventsub2": [0.5, false],
   "pushdown_ui_flag": [1, true],
   "qna_enabled": false,
   "qol_badges_launch": false,
@@ -3345,7 +3345,7 @@ window.__twilightSettings = {
     },
     "64f5c2ae-7746-41cb-a817-983ae8bc0b4f": {
       "name": "fgwpClaimingOnPGHQ",
-      "v": 11678,
+      "v": 32361,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -4263,8 +4263,9 @@ window.__twilightSettings = {
     },
     "8c49935d-21cd-49a7-b0f8-d514068a5351": {
       "name": "upcoming_schedules_directory_page",
-      "v": 31276,
+      "v": 32357,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 0,
         "value": "active"
