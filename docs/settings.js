@@ -320,6 +320,7 @@ window.__twilightSettings = {
   "event_directory_enabled_games": [],
   "events_deprecation_date": "2019-11-12T23:59:59Z",
   "events_deprecation_notice_enabled": true,
+  "eventsub_reconnect_codes": [1006, 4002, 4003, 4004, 4005, 4006],
   "expressions_developer_badge": [1, false],
   "expStaff_upcoming_schedules_directory_page": "active",
   "ext_challenges_whitelist": ["wlisor7an1m544ki2r9i1usl4d5ul0", "a9e46yl7gqwlsz7q6fqdqnrxng7tau", "ltszuxapi6b0wfpde6vqe2rodth4c5", "kd1b92hzrraf5k3uidm0a1u4fhrp6o", "8skl5ohvxvl8deeejox1e1fh7ovunh", "0vzjxlrppvwz5vzhfqwanqmka2g01l", "qxxw3ujo98hs4szinbwt59m94d9ozo"],
@@ -5240,11 +5241,14 @@ window.__twilightSettings = {
     },
     "b6b8cde4-27ca-48e4-889c-656504febf9d": {
       "name": "project_narwhal",
-      "v": 32323,
+      "v": 32376,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "b76b82ac-d5cf-4845-a96f-5243c22856bd": {
