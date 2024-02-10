@@ -54,7 +54,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
-  "auto_push_news_release_date_iso": "2024-02-08T13:30:00Z",
+  "auto_push_news_release_date_iso": "2024-02-15T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [0, false],
   "autonomous_octopuff": [1, false],
