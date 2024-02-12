@@ -407,6 +407,7 @@ window.__twilightSettings = {
   "hra_help_link": "https://help.twitch.tv/s/article/streamer-read-ads",
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
+  "hype_train_end_reward_optimization": true,
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
   "hype_train_v2_topic": false,
@@ -3939,6 +3940,18 @@ window.__twilightSettings = {
         "value": "variant-b"
       }]
     },
+    "810c89aa-ac9b-4601-aac0-2626e7bd7d4f": {
+      "name": "sponsorships_creator_dashboard_version",
+      "v": 32410,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "M1"
+      }, {
+        "weight": 0,
+        "value": "M2"
+      }]
+    },
     "8140d736-e8dd-49bc-b7cb-0d5b65d4cd5b": {
       "name": "mobile_native_chat_filter_existing_users",
       "v": 9186,
@@ -5124,6 +5137,18 @@ window.__twilightSettings = {
       }, {
         "weight": 1,
         "value": "last"
+      }]
+    },
+    "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d": {
+      "name": "agaFgwpRedirectToIdp",
+      "v": 32408,
+      "t": 2,
+      "groups": [{
+        "weight": 90,
+        "value": "control"
+      }, {
+        "weight": 10,
+        "value": "treatment"
       }]
     },
     "b1237c9f-015f-41da-800b-222ecd01b52d": {
