@@ -407,7 +407,7 @@ window.__twilightSettings = {
   "hra_help_link": "https://help.twitch.tv/s/article/streamer-read-ads",
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
-  "hype_train_end_reward_optimization": true,
+  "hype_train_end_reward_optimization": false,
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
   "hype_train_v2_topic": false,
