@@ -284,6 +284,7 @@ window.__twilightSettings = {
   "dont_report_non_overlapping_obstructions": [1, false],
   "double_phone_verification": [1, false],
   "double_phone_verification_with_sync": [1, false],
+  "drop-ins-left-nav": false,
   "drops_10_devsite_decommission": true,
   "drops_2_time_based_ui_enabled": true,
   "drops_2_ui_enabled": true,
@@ -1414,13 +1415,13 @@ window.__twilightSettings = {
     },
     "14283583-3c5f-4c0f-9235-0e434fa54182": {
       "name": "us_545_v2",
-      "v": 31050,
+      "v": 32474,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -1762,13 +1763,13 @@ window.__twilightSettings = {
     },
     "25873b9a-11c3-41bc-8a45-a17924078f2d": {
       "name": "project_pixie_two",
-      "v": 31749,
+      "v": 32470,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 5,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 95,
         "value": "treatment"
       }]
     },
@@ -1858,6 +1859,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "modal_confirmation_full_info"
+      }]
+    },
+    "28fa9829-0d8d-479e-9ee3-2ed56afa528e": {
+      "name": "cplat_rb_exp_ui",
+      "v": 32478,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "rb-grid"
+      }, {
+        "weight": 0,
+        "value": "rb-list"
       }]
     },
     "298a5f39-228a-487a-ad06-422c18458403": {
@@ -2749,16 +2765,16 @@ window.__twilightSettings = {
     },
     "4be58f7d-f1bb-45fa-ba17-b5dbf7492fcb": {
       "name": "cplat_rb_ui",
-      "v": 32458,
+      "v": 32462,
       "t": 2,
       "groups": [{
-        "weight": 34,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "rb-grid"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "rb-list"
       }]
     },
@@ -3810,16 +3826,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 31605,
+      "v": 32465,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -3927,17 +3943,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 31859,
+      "v": 32467,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }]
     },
