@@ -407,7 +407,7 @@ window.__twilightSettings = {
   "hra_help_link": "https://help.twitch.tv/s/article/streamer-read-ads",
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
-  "hype_train_end_reward_optimization": false,
+  "hype_train_end_reward_optimization": true,
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
   "hype_train_v2_topic": false,
@@ -499,7 +499,7 @@ window.__twilightSettings = {
   "onboarding_agreement_api": [1, true],
   "onboarding_degraded_alert": [0, false],
   "onboarding_verification": [1, true],
-  "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK"],
+  "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "TR", "SG", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -2748,16 +2748,16 @@ window.__twilightSettings = {
     },
     "4be58f7d-f1bb-45fa-ba17-b5dbf7492fcb": {
       "name": "cplat_rb_ui",
-      "v": 31467,
+      "v": 32458,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "rb-grid"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "rb-list"
       }]
     },
@@ -5141,7 +5141,7 @@ window.__twilightSettings = {
     },
     "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d": {
       "name": "agaFgwpRedirectToIdp",
-      "v": 32408,
+      "v": 32450,
       "t": 2,
       "groups": [{
         "weight": 90,
