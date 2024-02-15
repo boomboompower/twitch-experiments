@@ -1863,16 +1863,16 @@ window.__twilightSettings = {
     },
     "28fa9829-0d8d-479e-9ee3-2ed56afa528e": {
       "name": "cplat_rb_exp_ui",
-      "v": 32500,
+      "v": 32509,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 33,
         "value": "rb-grid"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "rb-list"
       }]
     },
