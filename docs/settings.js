@@ -501,7 +501,7 @@ window.__twilightSettings = {
   "onboarding_agreement_api": [1, true],
   "onboarding_degraded_alert": [0, false],
   "onboarding_verification": [1, true],
-  "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "TR", "SG", "CZ", "PT", "IE", "HU"],
+  "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -633,6 +633,7 @@ window.__twilightSettings = {
   "sda_subsequent_calls": [1, true],
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
+  "seal-wolf-pie": [0, false],
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
@@ -795,6 +796,7 @@ window.__twilightSettings = {
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
+  "youre-up": false,
   "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
@@ -2636,13 +2638,13 @@ window.__twilightSettings = {
     },
     "47543f55-6524-4f3a-a241-017bcd97fa16": {
       "name": "ivs_player_whole_probe",
-      "v": 31870,
+      "v": 32518,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -3262,6 +3264,18 @@ window.__twilightSettings = {
       }, {
         "weight": 5,
         "value": "no"
+      }]
+    },
+    "5febe0d2-94ac-4def-be94-d048e644d6da": {
+      "name": "remove_confirm_password",
+      "v": 32528,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "61a88b03-5eaa-4693-9beb-99d0695432da": {
@@ -3943,17 +3957,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 32467,
+      "v": 32519,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-b"
       }]
     },
