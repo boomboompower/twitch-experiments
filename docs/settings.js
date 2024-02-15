@@ -412,7 +412,7 @@ window.__twilightSettings = {
   "hype_train_end_reward_optimization": true,
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
-  "hype_train_v2_topic": false,
+  "hype_train_v2_topic": true,
   "hypechat_revenue": [1, true],
   "igdb_links_enabled": [1, true],
   "ignore_mismatch": true,
@@ -1863,7 +1863,7 @@ window.__twilightSettings = {
     },
     "28fa9829-0d8d-479e-9ee3-2ed56afa528e": {
       "name": "cplat_rb_exp_ui",
-      "v": 32478,
+      "v": 32500,
       "t": 2,
       "groups": [{
         "weight": 0,
@@ -5369,6 +5369,18 @@ window.__twilightSettings = {
       "groups": [{
         "weight": 100,
         "value": "control"
+      }]
+    },
+    "b98860b0-4035-4213-beca-9aeac7adb0f8": {
+      "name": "purchase_offer_email_verification",
+      "v": 32503,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
