@@ -3425,6 +3425,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
+      "name": "leftnav_following_promoted_sponsorships",
+      "v": 32550,
+      "t": 2,
+      "groups": [{
+        "weight": 85,
+        "value": "control"
+      }, {
+        "weight": 15,
+        "value": "variant"
+      }]
+    },
     "6a1cba54-d5d3-4117-ab42-06bd5514a134": {
       "name": "mobile_native_user_id_experiment",
       "v": 9191,
