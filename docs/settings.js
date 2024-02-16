@@ -5494,6 +5494,15 @@ window.__twilightSettings = {
         "value": "AAX"
       }]
     },
+    "be455967-0d4e-4a62-a102-5d75bc2b5305": {
+      "name": "android_hypetrain_v2_rollout",
+      "v": 32554,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "bfcc8d0e-7cc5-41df-88ee-32915e0be9b0": {
       "name": "af_palkia",
       "v": 28499,
