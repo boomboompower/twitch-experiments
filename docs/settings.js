@@ -213,9 +213,8 @@ window.__twilightSettings = {
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
-  "cplat_rb_cluster_enabled": false,
+  "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": false,
-  "cplat_rb_ui_tcp_bypass_allowlist": ["72251025", "107591830", "79280715", "772993767", "48276979", "428631942"],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
@@ -2765,21 +2764,6 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
-    "4be58f7d-f1bb-45fa-ba17-b5dbf7492fcb": {
-      "name": "cplat_rb_ui",
-      "v": 32462,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "rb-grid"
-      }, {
-        "weight": 0,
-        "value": "rb-list"
-      }]
-    },
     "4d3d19a7-38c5-4328-9730-7d99565d5edd": {
       "name": "twilight_premiere_upload_flow",
       "v": 2851,
@@ -3969,17 +3953,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 32519,
+      "v": 32572,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
