@@ -3412,13 +3412,13 @@ window.__twilightSettings = {
     },
     "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
       "name": "leftnav_following_promoted_sponsorships",
-      "v": 32583,
+      "v": 32594,
       "t": 2,
       "groups": [{
-        "weight": 63,
+        "weight": 57,
         "value": "control"
       }, {
-        "weight": 37,
+        "weight": 43,
         "value": "variant"
       }]
     },
