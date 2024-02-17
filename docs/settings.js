@@ -633,6 +633,7 @@ window.__twilightSettings = {
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
   "seal-wolf-pie": [0, false],
+  "seal-wolf-pie-date": "2024-03-13 00:00:00 GMT-0700",
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
@@ -1606,16 +1607,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 32063,
+      "v": 32573,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -3252,13 +3253,13 @@ window.__twilightSettings = {
     },
     "5febe0d2-94ac-4def-be94-d048e644d6da": {
       "name": "remove_confirm_password",
-      "v": 32528,
+      "v": 32580,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -3411,13 +3412,13 @@ window.__twilightSettings = {
     },
     "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
       "name": "leftnav_following_promoted_sponsorships",
-      "v": 32550,
+      "v": 32583,
       "t": 2,
       "groups": [{
-        "weight": 85,
+        "weight": 63,
         "value": "control"
       }, {
-        "weight": 15,
+        "weight": 37,
         "value": "variant"
       }]
     },

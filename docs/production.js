@@ -707,5 +707,10 @@ const productionExperiments = [
         "id": "faa70fe0-298d-41c5-8f84-7e35066fc3e7",
         "name": "turbo_ads_timing_upsell",
         "dateFound": "2024-01-30T00:56:35.771Z"
+    },
+    {
+        "id": "5febe0d2-94ac-4def-be94-d048e644d6da",
+        "name": "remove_confirm_password",
+        "dateFound": "2024-02-17T00:55:40.157Z"
     }
 ]
