@@ -1607,16 +1607,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 32573,
+      "v": 32606,
       "t": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -3412,13 +3412,13 @@ window.__twilightSettings = {
     },
     "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
       "name": "leftnav_following_promoted_sponsorships",
-      "v": 32594,
+      "v": 32625,
       "t": 2,
       "groups": [{
-        "weight": 57,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 43,
+        "weight": 80,
         "value": "variant"
       }]
     },
@@ -5345,13 +5345,13 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 32193,
+      "v": 32621,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant_1"
       }, {
         "weight": 0,
