@@ -2533,6 +2533,18 @@ window.__twilightSettings = {
         "value": "feedback"
       }]
     },
+    "446cf133-efde-41e1-b1a0-6c030904210d": {
+      "name": "new_password_guidelines",
+      "v": 32628,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "44a503af-d77f-4f1d-9fa4-c99c5f783f9c": {
       "name": "twilight_video_manager_release",
       "v": 2850,
@@ -3412,13 +3424,13 @@ window.__twilightSettings = {
     },
     "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
       "name": "leftnav_following_promoted_sponsorships",
-      "v": 32625,
+      "v": 32638,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 80,
+        "weight": 100,
         "value": "variant"
       }]
     },
