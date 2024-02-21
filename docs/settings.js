@@ -3265,13 +3265,13 @@ window.__twilightSettings = {
     },
     "5febe0d2-94ac-4def-be94-d048e644d6da": {
       "name": "remove_confirm_password",
-      "v": 32580,
+      "v": 32644,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5357,17 +5357,20 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 32621,
+      "v": 32646,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant_1"
       }, {
         "weight": 0,
         "value": "variant_2"
+      }, {
+        "weight": 0,
+        "value": "variant_3"
       }]
     },
     "b8b7cac6-956d-4819-8d35-9ae57aa5f0ce": {
