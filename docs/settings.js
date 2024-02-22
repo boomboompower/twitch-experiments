@@ -203,7 +203,7 @@ window.__twilightSettings = {
   "consolidated_dashboard_settings": "on",
   "content_promo": [0, false],
   "contigo_ojos_y_duende_proxima_playback_position": 5,
-  "continuing_sub_alerts_enabled": [0, false],
+  "continuing_sub_alerts_enabled": [1, true],
   "contribution_matching_oz": "",
   "cookie_consent_rollout": [1, true],
   "copo_challenges_count": 3,
@@ -5359,19 +5359,19 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 32646,
+      "v": 32666,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 33,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 33,
         "value": "variant_1"
       }, {
         "weight": 0,
         "value": "variant_2"
       }, {
-        "weight": 0,
+        "weight": 34,
         "value": "variant_3"
       }]
     },
@@ -7131,13 +7131,13 @@ window.__twilightSettings = {
     },
     "f8c43aed-0b0e-47bf-88db-5f188bac2922": {
       "name": "bits_simplified_purchase",
-      "v": 30168,
+      "v": 32665,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
