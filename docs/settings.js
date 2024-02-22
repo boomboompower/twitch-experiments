@@ -5359,7 +5359,7 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 32666,
+      "v": 32668,
       "t": 1,
       "groups": [{
         "weight": 33,
@@ -5373,6 +5373,9 @@ window.__twilightSettings = {
       }, {
         "weight": 34,
         "value": "variant_3"
+      }, {
+        "weight": 0,
+        "value": "variant_4"
       }]
     },
     "b8b7cac6-956d-4819-8d35-9ae57aa5f0ce": {
