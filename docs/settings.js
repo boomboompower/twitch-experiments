@@ -75,7 +75,7 @@ window.__twilightSettings = {
   "bits_prime_offer": false,
   "bits_project_marley": [0, false],
   "bits_project_stucco_dashboard": [0, false],
-  "bits_simplified_purchase": [0, false],
+  "bits_simplified_purchase": [1, false],
   "bits_sponsored_cheermote_dashboard_settings": "off",
   "bits_sponsored_cheermotes": "on",
   "bits_sponsored_cheermotes_announcement": "off",
@@ -222,6 +222,7 @@ window.__twilightSettings = {
   "creator_defined_benefits": true,
   "creator_follow_cue": [0, false],
   "creator_follow_cue_card": [0, false],
+  "creator_goals_bits": [0, false],
   "creator_goals_changelog_date": "2021-08-25 00:00:00 GMT-0700",
   "creatorhome_goals_experiment_mock_component_v2": [0, false],
   "creatorhome_new_affiliates_cluster_query": [1, false],
@@ -651,6 +652,7 @@ window.__twilightSettings = {
   "sidp_table_toggle": [0, false],
   "sidp_toggle": [0, false],
   "signup_restricted_country_code": [],
+  "signup_webview": [0, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
@@ -1601,7 +1603,7 @@ window.__twilightSettings = {
     },
     "1d4c9c37-cf22-4e65-8d21-a1871754dd87": {
       "name": "amazon_ivs_web_broadcast_retry_errors",
-      "v": 32258,
+      "v": 32698,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -2586,7 +2588,7 @@ window.__twilightSettings = {
     },
     "46102407-4a25-4bdb-b658-8bf4bd8f4139": {
       "name": "support_panel_simplification",
-      "v": 32172,
+      "v": 32696,
       "t": 2,
       "groups": [{
         "weight": 20,
@@ -4281,6 +4283,15 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant1"
+      }]
+    },
+    "8b0cb43a-720b-4775-9f98-21da360d60b1": {
+      "name": "ivs_player_web_gpu_experiment",
+      "v": 32700,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
