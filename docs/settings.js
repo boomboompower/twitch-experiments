@@ -218,6 +218,7 @@ window.__twilightSettings = {
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
+  "creator_chat_durable_settings": [0, true],
   "creator_chat_highlights": [1, false],
   "creator_defined_benefits": true,
   "creator_follow_cue": [0, false],
@@ -691,6 +692,7 @@ window.__twilightSettings = {
   "stream_summary_vod_tool_v2_exp": [1, true],
   "stream_summary_vod_tool_v2_override": true,
   "stream_together_beta_modal": [1, true],
+  "stream_together_consistency_interval": 3000,
   "stream_together_guest_screenshare": [1, false],
   "stream_together_news_v1": [1, false],
   "stream_together_self_cam": [1, true],
@@ -2588,22 +2590,22 @@ window.__twilightSettings = {
     },
     "46102407-4a25-4bdb-b658-8bf4bd8f4139": {
       "name": "support_panel_simplification",
-      "v": 32696,
+      "v": 32710,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment_1a"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment_1b"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment_1c"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment_2"
       }]
     },
@@ -4286,8 +4288,8 @@ window.__twilightSettings = {
       }]
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
-      "name": "ivs_player_web_gpu_experiment",
-      "v": 32700,
+      "name": "ivs_player_web_gpu_transform",
+      "v": 32701,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -5195,7 +5197,7 @@ window.__twilightSettings = {
     },
     "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d": {
       "name": "agaFgwpRedirectToIdp",
-      "v": 32450,
+      "v": 32706,
       "t": 2,
       "groups": [{
         "weight": 90,
