@@ -398,6 +398,7 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
+  "guest_star_simplification_flag": [0, false],
   "Haku": "2023-12-13T17:45:00Z",
   "happens_in_vegas": false,
   "hide_feedback_on_promoted_card": false,
@@ -803,7 +804,7 @@ window.__twilightSettings = {
   "wysiwyg_chat_input": [1, true],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
-  "youre-up": false,
+  "youre-up": true,
   "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
@@ -1784,13 +1785,13 @@ window.__twilightSettings = {
     },
     "25b8c907-d9ac-461c-8a2a-051719ce739c": {
       "name": "palword_new",
-      "v": 32184,
+      "v": 32726,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "Control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }, {
         "weight": 0,
@@ -4310,13 +4311,13 @@ window.__twilightSettings = {
     },
     "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
       "name": "is_channel_in_direct_hype_train_triggers",
-      "v": 32326,
+      "v": 32727,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "experiment"
       }]
     },
