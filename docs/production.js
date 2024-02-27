@@ -401,11 +401,6 @@ const productionExperiments = [
         "dateFound": "2023-05-05T01:16:09.319Z"
     },
     {
-        "id": "8fcc3f0b-f52a-41d2-b510-929f7742807e",
-        "name": "disco_rcmd_web",
-        "dateFound": "2023-06-01T20:12:48.836Z"
-    },
-    {
         "id": "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a",
         "name": "disco-merhaba",
         "dateFound": "2023-04-06T01:19:44.000Z"
@@ -707,5 +702,10 @@ const productionExperiments = [
         "id": "faa70fe0-298d-41c5-8f84-7e35066fc3e7",
         "name": "turbo_ads_timing_upsell",
         "dateFound": "2024-01-30T00:56:35.771Z"
+    },
+    {
+        "id": "46102407-4a25-4bdb-b658-8bf4bd8f4139",
+        "name": "support_panel_simplification",
+        "dateFound": "2024-02-27T00:55:37.362Z"
     }
 ]

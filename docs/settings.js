@@ -218,7 +218,7 @@ window.__twilightSettings = {
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
-  "creator_chat_durable_settings": [0, true],
+  "creator_chat_durable_settings": [1, true],
   "creator_chat_highlights": [1, false],
   "creator_defined_benefits": true,
   "creator_follow_cue": [0, false],
@@ -1615,16 +1615,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 32606,
+      "v": 32734,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
@@ -2231,11 +2231,14 @@ window.__twilightSettings = {
     },
     "351107f8-6768-4ced-b939-85be970b51fc": {
       "name": "Passport_Vonage_Two_Factor_Auth",
-      "v": 29240,
+      "v": 32744,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
+      }, {
+        "weight": 25,
+        "value": "vonage"
       }]
     },
     "36006d8b-bcf1-45fe-a9c7-ced7a2e45694": {
@@ -2591,22 +2594,22 @@ window.__twilightSettings = {
     },
     "46102407-4a25-4bdb-b658-8bf4bd8f4139": {
       "name": "support_panel_simplification",
-      "v": 32710,
+      "v": 32745,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment_1a"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment_1b"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment_1c"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment_2"
       }]
     },
@@ -4311,13 +4314,13 @@ window.__twilightSettings = {
     },
     "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
       "name": "is_channel_in_direct_hype_train_triggers",
-      "v": 32727,
+      "v": 32731,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "experiment"
       }]
     },
@@ -4419,18 +4422,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
-      }]
-    },
-    "8fcc3f0b-f52a-41d2-b510-929f7742807e": {
-      "name": "disco_rcmd_web",
-      "v": 29706,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant1"
       }]
     },
     "903a2a71-3cc6-489a-9f8a-3804624aeec2": {
