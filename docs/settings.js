@@ -412,6 +412,7 @@ window.__twilightSettings = {
   "hype_train_customization_enabled": [1, false],
   "hype_train_date_countdown": false,
   "hype_train_end_reward_optimization": true,
+  "hype_train_improved_rewards": false,
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
   "hype_train_v2_topic": true,
