@@ -2232,13 +2232,13 @@ window.__twilightSettings = {
     },
     "351107f8-6768-4ced-b939-85be970b51fc": {
       "name": "Passport_Vonage_Two_Factor_Auth",
-      "v": 32744,
+      "v": 32764,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "vonage"
       }]
     },
@@ -4620,6 +4620,18 @@ window.__twilightSettings = {
         "value": "variant2"
       }]
     },
+    "988bfb21-5fdc-4c11-88dd-ebae7e1dab12": {
+      "name": "chmod-vf",
+      "v": 32762,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "9937cd2a-f6aa-46bb-ac07-ff689eccf51f": {
       "name": "prowse_lo_intelshelf",
       "v": 29670,
@@ -5504,15 +5516,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
-      }]
-    },
-    "be455967-0d4e-4a62-a102-5d75bc2b5305": {
-      "name": "android_hypetrain_v2_rollout",
-      "v": 32554,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
       }]
     },
     "bfcc8d0e-7cc5-41df-88ee-32915e0be9b0": {
