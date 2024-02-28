@@ -1773,13 +1773,13 @@ window.__twilightSettings = {
     },
     "25873b9a-11c3-41bc-8a45-a17924078f2d": {
       "name": "project_pixie_two",
-      "v": 32470,
+      "v": 32806,
       "t": 2,
       "groups": [{
-        "weight": 5,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 95,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -3977,23 +3977,23 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 32572,
+      "v": 32807,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
     "810c89aa-ac9b-4601-aac0-2626e7bd7d4f": {
       "name": "sponsorships_creator_dashboard_version",
-      "v": 32410,
+      "v": 32810,
       "t": 2,
       "groups": [{
         "weight": 100,
