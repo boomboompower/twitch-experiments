@@ -707,5 +707,10 @@ const productionExperiments = [
         "id": "46102407-4a25-4bdb-b658-8bf4bd8f4139",
         "name": "support_panel_simplification",
         "dateFound": "2024-02-27T00:55:37.362Z"
+    },
+    {
+        "id": "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d",
+        "name": "agaFgwpRedirectToIdp",
+        "dateFound": "2024-02-28T00:55:37.624Z"
     }
 ]

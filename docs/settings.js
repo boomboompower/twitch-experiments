@@ -95,7 +95,6 @@ window.__twilightSettings = {
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
   "c2_exp_survey": "",
-  "c2_learn_more": "https://twitch.uservoice.com/forums/921826/suggestions/43388733",
   "c2_message_size": [0, false],
   "c2_message_size_participants": [""],
   "c2_message_size_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_4ZuHnB79TByKEJM",
@@ -4294,7 +4293,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 32701,
+      "v": 32773,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -5202,13 +5201,13 @@ window.__twilightSettings = {
     },
     "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d": {
       "name": "agaFgwpRedirectToIdp",
-      "v": 32706,
+      "v": 32776,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment"
       }]
     },
