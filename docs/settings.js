@@ -753,6 +753,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "turbo_ft": false,
   "Turtle": "2023-09-26T17:00:00+00:00",
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
@@ -2570,13 +2571,13 @@ window.__twilightSettings = {
     },
     "4508f274-a18f-4beb-b48a-b5eb41809399": {
       "name": "save_your_created_clips",
-      "v": 32133,
+      "v": 32811,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -4314,13 +4315,13 @@ window.__twilightSettings = {
     },
     "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
       "name": "is_channel_in_direct_hype_train_triggers",
-      "v": 32731,
+      "v": 32818,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "experiment"
       }]
     },
@@ -5377,19 +5378,19 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 32668,
+      "v": 32812,
       "t": 1,
       "groups": [{
-        "weight": 33,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant_1"
       }, {
         "weight": 0,
         "value": "variant_2"
       }, {
-        "weight": 34,
+        "weight": 50,
         "value": "variant_3"
       }, {
         "weight": 0,
