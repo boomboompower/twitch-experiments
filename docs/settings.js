@@ -439,6 +439,7 @@ window.__twilightSettings = {
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
   "kpsdk_timeout": 90000,
+  "lapsed_bits_user": false,
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
@@ -4315,13 +4316,13 @@ window.__twilightSettings = {
     },
     "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
       "name": "is_channel_in_direct_hype_train_triggers",
-      "v": 32818,
+      "v": 32846,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "experiment"
       }]
     },
