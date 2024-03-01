@@ -236,11 +236,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "218acff9-67f7-459f-9f3e-d9b41238e761",
-        "name": "ht_celeb_experiment",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "fcf28cfa-fc55-48ee-af5f-7a88b7d9016c",
         "name": "ht_cta_exp",
         "dateFound": "2022-06-15T07:19:12.000Z"
