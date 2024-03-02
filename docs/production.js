@@ -529,11 +529,6 @@ const productionExperiments = [
         "dateFound": "2023-08-16T20:12:18.416Z"
     },
     {
-        "id": "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc",
-        "name": "bits_insufficient_balance_checkout",
-        "dateFound": "2022-12-16T01:25:52.000Z"
-    },
-    {
         "id": "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c",
         "name": "seg_mented_signup",
         "dateFound": "2022-11-09T02:09:41.000Z"
