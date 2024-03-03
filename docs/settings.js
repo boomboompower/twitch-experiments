@@ -694,6 +694,7 @@ window.__twilightSettings = {
   "stream_summary_vod_tool_v2_exp": [1, true],
   "stream_summary_vod_tool_v2_override": true,
   "stream_together_beta_modal": [1, true],
+  "stream_together_consistency_delay": 5000,
   "stream_together_consistency_interval": 3000,
   "stream_together_guest_screenshare": [1, false],
   "stream_together_news_v1": [1, false],
