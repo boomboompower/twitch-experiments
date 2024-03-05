@@ -381,16 +381,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "3d32141f-1133-42a0-a100-7f0927530062",
-        "name": "disco_recs_context",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "aa9470fc-3394-418e-9f17-8cd22e07f922",
-        "name": "disco_csv3_context",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "c86b522c-2b6c-40d6-97c2-c8912d1f8763",
         "name": "disco_bpli",
         "dateFound": "2023-05-05T01:16:09.319Z"
@@ -399,11 +389,6 @@ const productionExperiments = [
         "id": "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a",
         "name": "disco-merhaba",
         "dateFound": "2023-04-06T01:19:44.000Z"
-    },
-    {
-        "id": "77a6194a-a408-4c3c-ab84-499ccb6e40c4",
-        "name": "disco_sn_query_ctx_login",
-        "dateFound": "2022-09-24T02:34:55.000Z"
     },
     {
         "id": "83e7ac97-5ad9-4564-a47e-9a7814a895bc",

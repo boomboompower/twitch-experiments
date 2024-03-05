@@ -73,7 +73,6 @@ window.__twilightSettings = {
   "bits_management_devsite": [1, false],
   "bits_on_polls": false,
   "bits_prime_offer": false,
-  "bits_project_marley": [0, false],
   "bits_project_stucco_dashboard": [0, false],
   "bits_simplified_purchase": [1, false],
   "bits_sponsored_cheermote_dashboard_settings": "off",
@@ -622,7 +621,6 @@ window.__twilightSettings = {
   "rtj_inactive_guest": [0, false],
   "rtj_pause_resume_buttons_enabled": [1, false],
   "rtj_subscription_limit": [1, false],
-  "ruby_is_the_cutest_dog_ever": "off",
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
@@ -2183,18 +2181,6 @@ window.__twilightSettings = {
         "value": "variant3"
       }]
     },
-    "339f74af-0cbc-4e50-a4c9-cc47ffea05e4": {
-      "name": "bits_card_simplified_cheermote_selection",
-      "v": 16750,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "variant"
-      }, {
-        "weight": 0,
-        "value": "control"
-      }]
-    },
     "3421e6e0-aa9e-4738-8b60-73cb6eac8dea": {
       "name": "sidenav_active_gift",
       "v": 26516,
@@ -2326,18 +2312,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "3d32141f-1133-42a0-a100-7f0927530062": {
-      "name": "disco_recs_context",
-      "v": 29693,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant1"
       }]
     },
     "3e7dadb5-d84a-4bb9-a96a-438e9077f65e": {
@@ -3762,18 +3736,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "77a6194a-a408-4c3c-ab84-499ccb6e40c4": {
-      "name": "disco_sn_query_ctx_login",
-      "v": 29696,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant"
-      }]
-    },
     "77e51732-1a86-4be7-91d3-f67f1512d7b2": {
       "name": "hide_redundant_payment_methods",
       "v": 12537,
@@ -5001,18 +4963,6 @@ window.__twilightSettings = {
         "value": "skip"
       }]
     },
-    "aa9470fc-3394-418e-9f17-8cd22e07f922": {
-      "name": "disco_csv3_context",
-      "v": 29685,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant1"
-      }]
-    },
     "aac9596e-8816-4261-b96c-617b27afe0fc": {
       "name": "twilight_subs_async_checkout",
       "v": 5477,
@@ -5790,18 +5740,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
-      }]
-    },
-    "cc9d278d-5a29-4812-ae8b-1db8bb2c34bc": {
-      "name": "bits_insufficient_balance_checkout",
-      "v": 27142,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
       }]
     },
     "ce577266-68fa-40eb-8c07-5ae30488338f": {
@@ -6805,6 +6743,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "group_b"
+      }]
+    },
+    "eef2ed99-81d7-4119-9ac4-3b9e636ee0dd": {
+      "name": "cplat_unified_home",
+      "v": 32876,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant0"
       }]
     },
     "ef73a98b-b4c7-4566-b8f7-f40f8f3508dc": {
