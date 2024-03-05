@@ -28,6 +28,7 @@ window.__twilightSettings = {
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
   "alert_settings_modal": [1, true],
+  "alert-rando": [0, false],
   "alerts_celebration_emote_promotion": [0, false],
   "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/celebration_promo.png",
   "alerts_home_redesign": [1, false],
@@ -3412,13 +3413,13 @@ window.__twilightSettings = {
     },
     "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
       "name": "leftnav_following_promoted_sponsorships",
-      "v": 32638,
+      "v": 32897,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 40,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 60,
         "value": "variant"
       }]
     },
