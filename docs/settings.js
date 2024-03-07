@@ -70,15 +70,12 @@ window.__twilightSettings = {
   "bda_ad_edge_web": [0, true],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
-  "bits_charity_event": "off",
   "bits_management_devsite": [1, false],
   "bits_on_polls": false,
   "bits_prime_offer": false,
   "bits_project_stucco_dashboard": [0, false],
   "bits_simplified_purchase": [1, false],
   "bits_sponsored_cheermote_dashboard_settings": "off",
-  "bits_sponsored_cheermotes": "on",
-  "bits_sponsored_cheermotes_announcement": "off",
   "bits_usage_history": [1, false],
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
@@ -5583,18 +5580,6 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "whatever"
-      }]
-    },
-    "c4c31c6a-4576-4856-b699-548c80d4db30": {
-      "name": "cheering_web_ux_improvements",
-      "v": 25113,
-      "t": 2,
-      "groups": [{
-        "weight": 5,
-        "value": "control"
-      }, {
-        "weight": 95,
-        "value": "treatment"
       }]
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
