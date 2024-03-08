@@ -652,7 +652,7 @@ window.__twilightSettings = {
   "sidp_table_toggle": [0, false],
   "sidp_toggle": [0, false],
   "signup_restricted_country_code": [],
-  "signup_webview": [0, false],
+  "signup_webview": [1, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
   "sizmek_versatag_games": ["496712", "Call of Duty: WWII", "497571", "Wrestling"],
@@ -754,6 +754,7 @@ window.__twilightSettings = {
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
   "turbo_ft": false,
+  "turbo_v2": [0, false],
   "Turtle": "2023-09-26T17:00:00+00:00",
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
   "TV2_flag": [1, true],
@@ -3825,19 +3826,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 32919,
+      "v": 32937,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -3942,17 +3943,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 32921,
+      "v": 32936,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-b"
       }]
     },

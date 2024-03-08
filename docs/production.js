@@ -45,16 +45,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "db70ef56-9a4b-47b0-9150-1ef2aeabbe25",
-        "name": "bits_card_evolution",
-        "dateFound": "2023-10-10T20:11:41.348Z"
-    },
-    {
-        "id": "339f74af-0cbc-4e50-a4c9-cc47ffea05e4",
-        "name": "bits_card_simplified_cheermote_selection",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f8c43aed-0b0e-47bf-88db-5f188bac2922",
         "name": "bits_simplified_purchase",
         "dateFound": "2023-06-21T20:13:22.759Z"
@@ -502,11 +492,6 @@ const productionExperiments = [
         "id": "1ed04f13-b393-41b0-b432-3d48742f3d82",
         "name": "twilight_multihostsdk_version",
         "dateFound": "2022-09-22T02:28:01.000Z"
-    },
-    {
-        "id": "c4c31c6a-4576-4856-b699-548c80d4db30",
-        "name": "cheering_web_ux_improvements",
-        "dateFound": "2022-11-15T01:55:18.000Z"
     },
     {
         "id": "f289f54d-90f3-4d12-bd58-62e018c397df",
