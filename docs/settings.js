@@ -5167,13 +5167,13 @@ window.__twilightSettings = {
     },
     "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d": {
       "name": "agaFgwpRedirectToIdp",
-      "v": 32826,
+      "v": 32978,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment"
       }]
     },
