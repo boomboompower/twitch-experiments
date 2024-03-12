@@ -604,9 +604,9 @@ const productionExperiments = [
         "dateFound": "2023-09-20T20:13:21.359Z"
     },
     {
-        "id": "1d4c9c37-cf22-4e65-8d21-a1871754dd87",
-        "name": "amazon_ivs_web_broadcast_retry_errors",
-        "dateFound": "2024-02-08T00:55:55.932Z"
+        "id": "f9df183a-f262-4ca0-85e2-153602d5bde8",
+        "name": "amazon_ivs_web_broadcast_retry_errors_userid",
+        "dateFound": "2024-03-12T20:14:09.744Z"
     },
     {
         "id": "cee91f9e-e512-4cb7-8cbf-4501d7844ce0",
