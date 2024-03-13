@@ -209,6 +209,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
+  "cplat_dragon_journal_dashboard": [0, false],
   "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": false,
   "cplat_rb_ga_rollout_callout_expiry_date": "2024-04-14 00:00:00 GMT-0800",
@@ -340,6 +341,7 @@ window.__twilightSettings = {
   "first_paid_gift_offer_feature_flag": [1, true],
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
+  "friendly-alligator": true,
   "giftcard_currency_expansion": [1, true],
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
@@ -5342,10 +5344,10 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 32812,
+      "v": 33013,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
@@ -5354,7 +5356,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant_2"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant_3"
       }, {
         "weight": 0,
