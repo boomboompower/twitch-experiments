@@ -569,8 +569,6 @@ window.__twilightSettings = {
   "ptp-wrding-flag": true,
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
-  "pubsub_vs_eventsub": [0.01, false],
-  "pubsub_vs_eventsub2": [0.5, false],
   "pushdown_ui_flag": [1, true],
   "qna_enabled": false,
   "qol_badges_launch": false,
@@ -692,9 +690,9 @@ window.__twilightSettings = {
   "stream_summary_vod_tool_v2_exp": [1, true],
   "stream_summary_vod_tool_v2_override": true,
   "stream_together_beta_modal": [1, true],
-  "stream_together_consistency_delay": 5000,
-  "stream_together_consistency_heartbeat_interval": 3000,
-  "stream_together_consistency_interval": 3000,
+  "stream_together_consistency_delay": 3000,
+  "stream_together_consistency_heartbeat_interval": 10000,
+  "stream_together_consistency_interval": 5000,
   "stream_together_guest_screenshare": [1, false],
   "stream_together_news_v1": [1, false],
   "stream_together_self_cam": [1, true],
@@ -1082,6 +1080,18 @@ window.__twilightSettings = {
       }, {
         "weight": 33,
         "value": "variant_2"
+      }]
+    },
+    "0a603b81-08db-4537-a52a-bf7b71ac6182": {
+      "name": "garfield_discovery_control",
+      "v": 33026,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
@@ -3682,7 +3692,7 @@ window.__twilightSettings = {
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 32126,
+      "v": 33027,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -5425,11 +5435,14 @@ window.__twilightSettings = {
     },
     "bb4ca13a-4b3c-48b5-b4d0-fe49d5e7a4c9": {
       "name": "Passport_Vonage_Login",
-      "v": 32201,
+      "v": 33021,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
+      }, {
+        "weight": 5,
+        "value": "vonage"
       }]
     },
     "bb661986-5a54-4991-a49a-98fe3a3512c5": {
