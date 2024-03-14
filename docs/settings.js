@@ -431,13 +431,14 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "issue_cw_rollout": [0, false],
+  "kcc_corrective_order_active_range": "2024-03-19T17:00:00.000Z/2024-03-23T17:00:00.000Z",
   "kpsdk_deprecated_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_electron_app": [],
   "kpsdk_helpsite_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
   "kpsdk_timeout": 90000,
-  "lapsed_bits_user": false,
+  "lapsed_bits_user": true,
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
@@ -1628,16 +1629,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 32734,
+      "v": 33033,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -3692,11 +3693,14 @@ window.__twilightSettings = {
     },
     "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
       "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 33027,
+      "v": 33035,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
+      }, {
+        "weight": 50,
+        "value": "vonage"
       }]
     },
     "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
