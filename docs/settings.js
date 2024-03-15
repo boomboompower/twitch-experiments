@@ -350,6 +350,7 @@ window.__twilightSettings = {
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
+  "gs_performance_settings": false,
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": true,
   "gs_stream_together_rebrand": [1, true],
@@ -3235,6 +3236,18 @@ window.__twilightSettings = {
       }, {
         "weight": 30,
         "value": "variant"
+      }]
+    },
+    "5f4f11ac-ce13-471b-9ff2-e408527ceb2f": {
+      "name": "rrt_clock",
+      "v": 33097,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "disabled"
+      }, {
+        "weight": 0,
+        "value": "enabled"
       }]
     },
     "5f5676ea-fa4f-40f7-89bd-c4143e1efdd2": {
