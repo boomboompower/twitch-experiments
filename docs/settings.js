@@ -374,7 +374,7 @@ window.__twilightSettings = {
   "guest_star_layout_options": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
-  "guest_star_longtask_sample_rate": 1,
+  "guest_star_longtask_sample_rate": 0,
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_manual_guest_mapping": [1, false],
   "guest_star_new_feedback_modal": [1, true],
