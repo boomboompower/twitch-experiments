@@ -351,6 +351,7 @@ window.__twilightSettings = {
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
   "gs_performance_settings": false,
+  "gs_performance_settings_release_date_iso": "2024-03-20T13:30:00Z",
   "gs_rtj_partner_only_allowlist": ["21653133"],
   "gs_stream_together_onboarding": true,
   "gs_stream_together_rebrand": [1, true],
