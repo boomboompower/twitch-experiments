@@ -677,5 +677,10 @@ const productionExperiments = [
         "id": "810c89aa-ac9b-4601-aac0-2626e7bd7d4f",
         "name": "sponsorships_creator_dashboard_version",
         "dateFound": "2024-03-06T00:56:31.401Z"
+    },
+    {
+        "id": "a1adca68-e42d-411f-8881-8d743d8a1e4a",
+        "name": "clips_recs_changes",
+        "dateFound": "2024-03-18T20:13:31.451Z"
     }
 ]

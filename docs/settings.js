@@ -376,7 +376,7 @@ window.__twilightSettings = {
   "guest_star_layout_options": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
-  "guest_star_longtask_sample_rate": 0,
+  "guest_star_longtask_tracking": [1, true],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_manual_guest_mapping": [1, false],
   "guest_star_new_feedback_modal": [1, true],
@@ -1069,6 +1069,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "087c2c3c-c2a8-4f62-9460-b7b3672f6c4d": {
+      "name": "manage_to_upgrade_subscription",
+      "v": 33119,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant_1"
       }]
     },
     "098aed3b-5c49-414f-b53a-d22cbc89cd90": {
