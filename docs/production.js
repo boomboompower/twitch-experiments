@@ -659,9 +659,9 @@ const productionExperiments = [
         "dateFound": "2024-01-26T00:57:20.290Z"
     },
     {
-        "id": "faa70fe0-298d-41c5-8f84-7e35066fc3e7",
-        "name": "turbo_ads_timing_upsell",
-        "dateFound": "2024-01-30T00:56:35.771Z"
+        "id": "bb41dcd2-8008-45f0-897a-cd7c4bf8877a",
+        "name": "memberships_upsell_holdout",
+        "dateFound": "2024-03-20T00:56:22.912Z"
     },
     {
         "id": "46102407-4a25-4bdb-b658-8bf4bd8f4139",
