@@ -1644,16 +1644,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 33104,
+      "v": 33169,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -4837,13 +4837,13 @@ window.__twilightSettings = {
     },
     "a1adca68-e42d-411f-8881-8d743d8a1e4a": {
       "name": "clips_recs_changes",
-      "v": 33154,
+      "v": 33170,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -5593,6 +5593,18 @@ window.__twilightSettings = {
       "name": "persistent_goals",
       "v": 25703,
       "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "c2b00621-82e2-4dbd-95da-473c802cd790": {
+      "name": "percolite-clipsSubDomain-topLiveChannels",
+      "v": 33166,
+      "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
