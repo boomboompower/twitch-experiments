@@ -283,7 +283,7 @@ window.__twilightSettings = {
   "dont_report_non_overlapping_obstructions": [1, false],
   "double_phone_verification": [1, false],
   "double_phone_verification_with_sync": [1, false],
-  "drop-ins-left-nav": false,
+  "drop-ins-left-nav": true,
   "drops_10_devsite_decommission": true,
   "drops_2_time_based_ui_enabled": true,
   "drops_2_ui_enabled": true,
@@ -5454,7 +5454,7 @@ window.__twilightSettings = {
     },
     "bb41dcd2-8008-45f0-897a-cd7c4bf8877a": {
       "name": "memberships_upsell_holdout",
-      "v": 33004,
+      "v": 33185,
       "t": 2,
       "groups": [{
         "weight": 100,
