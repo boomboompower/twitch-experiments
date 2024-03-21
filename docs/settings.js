@@ -530,7 +530,7 @@ window.__twilightSettings = {
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
-  "plus_program_widget": [1, false],
+  "plus_program_widget": [0, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
   "pplus_toggle": [1, true],
@@ -3827,6 +3827,18 @@ window.__twilightSettings = {
         "value": "on"
       }]
     },
+    "7a328007-2bfa-4459-81ac-125639a273cf": {
+      "name": "gift_and_sub_button",
+      "v": 33196,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant_1"
+      }]
+    },
     "7aa589f3-34d8-425f-8227-29007d50757e": {
       "name": "twilight_growth_email_verify_bar",
       "v": 5239,
@@ -5385,7 +5397,7 @@ window.__twilightSettings = {
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
-      "v": 33013,
+      "v": 33193,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -5397,10 +5409,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant_2"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant_3"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant_4"
       }]
     },
