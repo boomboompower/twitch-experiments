@@ -210,6 +210,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_dashboard": [0, false],
+  "cplat_dragon_journal_info": [0, true],
   "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": false,
   "cplat_rb_ga_rollout_callout_expiry_date": "2024-04-14 00:00:00 GMT-0800",
