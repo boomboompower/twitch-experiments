@@ -45,6 +45,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "443a498c-c1fb-4cb0-9cee-d8cc2704222f",
+        "name": "bits_custom_amount",
+        "dateFound": "2024-03-26T20:13:31.751Z"
+    },
+    {
         "id": "f8c43aed-0b0e-47bf-88db-5f188bac2922",
         "name": "bits_simplified_purchase",
         "dateFound": "2023-06-21T20:13:22.759Z"
@@ -677,6 +682,11 @@ const productionExperiments = [
         "id": "810c89aa-ac9b-4601-aac0-2626e7bd7d4f",
         "name": "sponsorships_creator_dashboard_version",
         "dateFound": "2024-03-06T00:56:31.401Z"
+    },
+    {
+        "id": "5f4f11ac-ce13-471b-9ff2-e408527ceb2f",
+        "name": "rrt_clock",
+        "dateFound": "2024-03-26T20:13:31.754Z"
     },
     {
         "id": "a1adca68-e42d-411f-8881-8d743d8a1e4a",

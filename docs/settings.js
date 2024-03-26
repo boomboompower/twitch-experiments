@@ -2129,13 +2129,13 @@ window.__twilightSettings = {
     },
     "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e": {
       "name": "mandatory_email_verification",
-      "v": 25388,
+      "v": 33249,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant_1"
       }]
     },
@@ -2915,13 +2915,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 31245,
+      "v": 33255,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "variant"
       }]
     },
@@ -3277,7 +3277,7 @@ window.__twilightSettings = {
     },
     "5f4f11ac-ce13-471b-9ff2-e408527ceb2f": {
       "name": "rrt_clock",
-      "v": 33097,
+      "v": 33254,
       "t": 1,
       "groups": [{
         "weight": 100,
