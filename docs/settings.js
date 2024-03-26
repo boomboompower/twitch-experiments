@@ -382,6 +382,7 @@ window.__twilightSettings = {
   "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
+  "guest_star_invite_improvements": [0, false],
   "guest_star_invite_raider_experiment": [1, true],
   "guest_star_layout_options": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
