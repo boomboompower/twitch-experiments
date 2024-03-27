@@ -5236,6 +5236,18 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "af91cf60-c5e6-4f27-9e00-d56b3ae6248d": {
+      "name": "auto_increment_goal_rollout",
+      "v": 33287,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "afc307f3-4011-40ba-9406-56c474b5922b": {
       "name": "twilight_video_featuro_en",
       "v": 2528,
