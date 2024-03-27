@@ -137,6 +137,8 @@ window.__twilightSettings = {
   "channel_clips_feature": [1, true],
   "channel_enrolled_sm": [1, true],
   "channel_enrolled_sm_mv": [1, true],
+  "channel_skins_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/channel-skin/256.png",
+  "channel_skins_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/channel-skin/2048.png",
   "chat_client_privmsg_to_gql": true,
   "chat_connect_backoff": 4000,
   "chat_connect_timeout": 6000,
@@ -420,11 +422,13 @@ window.__twilightSettings = {
   "homepage_headliner_redesign_feature_flag": [0, true],
   "hra_allowlist": ["twitch_promotions", "twitch_promotions1", "mischacrossing", "eeveelinh", "nixuss", "andycampbellgg", "treandj", "qa_mcj_partner", "qa_hlinsanity_partner", "ariasaki", "lvndmark", "nmplol", "rogue", "grubby", "ninjayla", "averagejonas", "subroza", "lululuvely", "noko", "flats", "karq", "schrodingerlee", "peterpark", "nightblue3", "wirtual", "tinakitten", "kkatamina", "shiphtur", "boxbox", "tsm_imperialhal", "xchocobars", "pobelter", "atomictwins", "zvch", "extraemily", "qa_md_partner", "jujumagumbo", "tenacitytv", "rizzo", "bluefille", "lillyteel", "whiterice3000", "meegndoo", "hlinsanity", "shotzzy", "h3cz", "hitchariide", "qa_gummyace_partner"],
   "hra_help_link": "https://help.twitch.tv/s/article/streamer-read-ads",
+  "hra_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/256.png",
+  "hra_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/2048.png",
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_date_countdown": false,
   "hype_train_end_reward_optimization": true,
-  "hype_train_improved_rewards": false,
+  "hype_train_improved_rewards": true,
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
   "hype_train_v2_topic": true,
@@ -739,6 +743,10 @@ window.__twilightSettings = {
   "subs_gift_progress": [1, true],
   "subscriber_badge_progression": true,
   "subsub_help_link": "https://help.twitch.tv/s/article/sponsored-subscriptions",
+  "subsub_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs/256.png",
+  "subsub_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs/2048.png",
+  "subsub_soldout_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs-sold-out/256.png",
+  "subsub_soldout_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs-sold-out/2048.png",
   "subtember_2023_celebration": [0, false],
   "subtoken_balance_wallet": true,
   "subtokens": [1, true],
@@ -3277,13 +3285,13 @@ window.__twilightSettings = {
     },
     "5f4f11ac-ce13-471b-9ff2-e408527ceb2f": {
       "name": "rrt_clock",
-      "v": 33254,
+      "v": 33263,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "disabled"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "enabled"
       }]
     },
