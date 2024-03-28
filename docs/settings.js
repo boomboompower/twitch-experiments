@@ -2923,13 +2923,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 33255,
+      "v": 33289,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "variant"
       }]
     },
@@ -3285,13 +3285,13 @@ window.__twilightSettings = {
     },
     "5f4f11ac-ce13-471b-9ff2-e408527ceb2f": {
       "name": "rrt_clock",
-      "v": 33263,
+      "v": 33290,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 100,
         "value": "disabled"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "enabled"
       }]
     },
