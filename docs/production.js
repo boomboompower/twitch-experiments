@@ -669,6 +669,11 @@ const productionExperiments = [
         "dateFound": "2024-03-20T00:56:22.912Z"
     },
     {
+        "id": "446cf133-efde-41e1-b1a0-6c030904210d",
+        "name": "new_password_guidelines",
+        "dateFound": "2024-03-28T20:14:13.705Z"
+    },
+    {
         "id": "46102407-4a25-4bdb-b658-8bf4bd8f4139",
         "name": "support_panel_simplification",
         "dateFound": "2024-02-27T00:55:37.362Z"
@@ -692,5 +697,10 @@ const productionExperiments = [
         "id": "a1adca68-e42d-411f-8881-8d743d8a1e4a",
         "name": "clips_recs_changes",
         "dateFound": "2024-03-18T20:13:31.451Z"
+    },
+    {
+        "id": "988bfb21-5fdc-4c11-88dd-ebae7e1dab12",
+        "name": "chmod-vf",
+        "dateFound": "2024-03-28T20:14:13.707Z"
     }
 ]
