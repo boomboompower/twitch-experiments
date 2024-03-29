@@ -645,7 +645,7 @@ window.__twilightSettings = {
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
-  "sba_dl": [0.01, false],
+  "sba_dl": [1, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
@@ -4677,13 +4677,13 @@ window.__twilightSettings = {
     },
     "988bfb21-5fdc-4c11-88dd-ebae7e1dab12": {
       "name": "chmod-vf",
-      "v": 33314,
+      "v": 33347,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -5513,8 +5513,8 @@ window.__twilightSettings = {
       }]
     },
     "bb41dcd2-8008-45f0-897a-cd7c4bf8877a": {
-      "name": "memberships_upsell_holdout",
-      "v": 33211,
+      "name": "global_commerce_upsell_holdout",
+      "v": 33346,
       "t": 2,
       "groups": [{
         "weight": 5,
@@ -6184,6 +6184,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "d671f316-ce88-42c0-963a-81ccdf8c68a7": {
+      "name": "auto_pinned_cheers",
+      "v": 33328,
+      "t": 3,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "d70017a1-a0bf-455b-9d1f-c41def5a8bd3": {
