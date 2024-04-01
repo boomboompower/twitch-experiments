@@ -391,7 +391,7 @@ window.__twilightSettings = {
   "guest_star_layout_options": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
   "guest_star_left_nav_offline_recommended_guests_flag": [0, false],
-  "guest_star_longtask_tracking": [0, false],
+  "guest_star_longtask_tracking": [0.01, false],
   "guest_star_low_trust_user_indicator": [0, false],
   "guest_star_manual_guest_mapping": [1, false],
   "guest_star_new_feedback_modal": [1, true],
@@ -2587,13 +2587,13 @@ window.__twilightSettings = {
     },
     "446cf133-efde-41e1-b1a0-6c030904210d": {
       "name": "new_password_guidelines",
-      "v": 32628,
+      "v": 33379,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant"
       }]
     },
@@ -2927,13 +2927,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 33302,
+      "v": 33372,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "variant"
       }]
     },
@@ -3916,7 +3916,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 32937,
+      "v": 33388,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3925,10 +3925,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
