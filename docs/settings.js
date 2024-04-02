@@ -2587,13 +2587,13 @@ window.__twilightSettings = {
     },
     "446cf133-efde-41e1-b1a0-6c030904210d": {
       "name": "new_password_guidelines",
-      "v": 33379,
+      "v": 33391,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -3865,13 +3865,13 @@ window.__twilightSettings = {
     },
     "7a328007-2bfa-4459-81ac-125639a273cf": {
       "name": "gift_and_sub_button",
-      "v": 33196,
+      "v": 33390,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant_1"
       }]
     },
@@ -5240,18 +5240,6 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
-    "af91cf60-c5e6-4f27-9e00-d56b3ae6248d": {
-      "name": "auto_increment_goal_rollout",
-      "v": 33301,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
     "afc307f3-4011-40ba-9406-56c474b5922b": {
       "name": "twilight_video_featuro_en",
       "v": 2528,
@@ -6091,6 +6079,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
+      }]
+    },
+    "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
+      "name": "auto_increment_goal",
+      "v": 33395,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "d3f30522-c1ec-4e6a-ba77-da90ad6ed053": {
