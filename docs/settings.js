@@ -549,7 +549,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "plus_program_qualification_table": [0, false],
-  "plus_program_widget": [0, false],
+  "plus_program_widget": [0.01, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
   "pplus_toggle": [1, true],
