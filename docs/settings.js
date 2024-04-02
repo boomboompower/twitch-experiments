@@ -6085,13 +6085,13 @@ window.__twilightSettings = {
     },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
       "name": "auto_increment_goal",
-      "v": 33402,
+      "v": 33403,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }]
     },
