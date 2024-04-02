@@ -719,6 +719,8 @@ window.__twilightSettings = {
   "stream_together_consistency_interval": 5000,
   "stream_together_guest_screenshare": [1, false],
   "stream_together_news_v1": [1, false],
+  "stream_together_performance_issue_monitoring_length": 600000,
+  "stream_together_performance_suggestions": [0, false],
   "stream_together_self_cam": [1, true],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
