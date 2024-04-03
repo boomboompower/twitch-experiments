@@ -833,6 +833,7 @@ window.__twilightSettings = {
   "web_sub_tokens": false,
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
+  "xo_email_phone_verification": [0, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
   "youre-up": true,
@@ -1099,13 +1100,13 @@ window.__twilightSettings = {
     },
     "087c2c3c-c2a8-4f62-9460-b7b3672f6c4d": {
       "name": "manage_to_upgrade_subscription",
-      "v": 33119,
+      "v": 33449,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant_1"
       }]
     },
@@ -3867,13 +3868,13 @@ window.__twilightSettings = {
     },
     "7a328007-2bfa-4459-81ac-125639a273cf": {
       "name": "gift_and_sub_button",
-      "v": 33390,
+      "v": 33446,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant_1"
       }]
     },
@@ -4351,11 +4352,14 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 32773,
+      "v": 33453,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
+      }, {
+        "weight": 5,
+        "value": "treatment"
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
@@ -6190,13 +6194,13 @@ window.__twilightSettings = {
     },
     "d671f316-ce88-42c0-963a-81ccdf8c68a7": {
       "name": "auto_pinned_cheers",
-      "v": 33328,
+      "v": 33451,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
