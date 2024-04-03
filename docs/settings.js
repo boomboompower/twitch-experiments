@@ -255,7 +255,7 @@ window.__twilightSettings = {
   "date_smode_enabled": "2022-11-30T18:00:00Z",
   "Default_Emote_Library": [1, false],
   "delete_mod_actions_enabled": [1, false],
-  "desert-wolf-pie": [1, true],
+  "desert-wolf-pie": [0, false],
   "dev_announcement_banner_end_date": "2023-11-15T08:00:00Z",
   "dev_announcement_banner_start_date": "2023-11-06T08:00:00Z",
   "dev_console_nav_update": [0, false],
@@ -549,7 +549,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "plus_program_qualification_table": [0, false],
-  "plus_program_widget": [1, true],
+  "plus_program_widget": [0, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
   "pplus_toggle": [1, true],
@@ -2577,13 +2577,13 @@ window.__twilightSettings = {
     },
     "443a498c-c1fb-4cb0-9cee-d8cc2704222f": {
       "name": "bits_custom_amount",
-      "v": 33409,
+      "v": 33209,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -2929,13 +2929,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 33418,
+      "v": 33372,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "variant"
       }]
     },
@@ -7252,13 +7252,13 @@ window.__twilightSettings = {
     },
     "f9df183a-f262-4ca0-85e2-153602d5bde8": {
       "name": "amazon_ivs_web_broadcast_retry_errors_userid",
-      "v": 33417,
+      "v": 33233,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 5,
         "value": "treatment"
       }]
     },
