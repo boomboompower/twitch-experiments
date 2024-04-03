@@ -255,7 +255,7 @@ window.__twilightSettings = {
   "date_smode_enabled": "2022-11-30T18:00:00Z",
   "Default_Emote_Library": [1, false],
   "delete_mod_actions_enabled": [1, false],
-  "desert-wolf-pie": [0, false],
+  "desert-wolf-pie": [1, true],
   "dev_announcement_banner_end_date": "2023-11-15T08:00:00Z",
   "dev_announcement_banner_start_date": "2023-11-06T08:00:00Z",
   "dev_console_nav_update": [0, false],
@@ -549,7 +549,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "plus_program_qualification_table": [0, false],
-  "plus_program_widget": [0, false],
+  "plus_program_widget": [1, true],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
   "pplus_toggle": [1, true],
@@ -2143,13 +2143,13 @@ window.__twilightSettings = {
     },
     "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e": {
       "name": "mandatory_email_verification",
-      "v": 33249,
+      "v": 33438,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant_1"
       }]
     },
@@ -2577,13 +2577,13 @@ window.__twilightSettings = {
     },
     "443a498c-c1fb-4cb0-9cee-d8cc2704222f": {
       "name": "bits_custom_amount",
-      "v": 33209,
+      "v": 33409,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
@@ -2929,13 +2929,13 @@ window.__twilightSettings = {
     },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
-      "v": 33372,
+      "v": 33418,
       "t": 2,
       "groups": [{
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -4035,17 +4035,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 33240,
+      "v": 33437,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -7252,13 +7252,13 @@ window.__twilightSettings = {
     },
     "f9df183a-f262-4ca0-85e2-153602d5bde8": {
       "name": "amazon_ivs_web_broadcast_retry_errors_userid",
-      "v": 33233,
+      "v": 33417,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "treatment"
       }]
     },
