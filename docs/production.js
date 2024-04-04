@@ -704,8 +704,18 @@ const productionExperiments = [
         "dateFound": "2024-03-18T20:13:31.451Z"
     },
     {
+        "id": "d671f316-ce88-42c0-963a-81ccdf8c68a7",
+        "name": "auto_pinned_cheers",
+        "dateFound": "2024-04-04T20:13:26.613Z"
+    },
+    {
         "id": "7a328007-2bfa-4459-81ac-125639a273cf",
         "name": "gift_and_sub_button",
         "dateFound": "2024-04-02T20:13:02.283Z"
+    },
+    {
+        "id": "087c2c3c-c2a8-4f62-9460-b7b3672f6c4d",
+        "name": "manage_to_upgrade_subscription",
+        "dateFound": "2024-04-04T20:13:26.623Z"
     }
 ]
