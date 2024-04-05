@@ -645,7 +645,6 @@ window.__twilightSettings = {
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
   "sb_party": [0, false],
-  "sba_dl": [1, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
@@ -2035,6 +2034,18 @@ window.__twilightSettings = {
     "2a90d5d9-47ba-47d5-9f92-4b12a7d62ae2": {
       "name": "leftnav_recommended_promoted_streams",
       "v": 17170,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "2b1a59b9-24a4-4cb1-bf3c-2fd0f736236e": {
+      "name": "cplat_rb_exp_ui_sm",
+      "v": 33481,
       "t": 2,
       "groups": [{
         "weight": 100,
