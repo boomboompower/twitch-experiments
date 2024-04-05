@@ -1099,13 +1099,13 @@ window.__twilightSettings = {
     },
     "087c2c3c-c2a8-4f62-9460-b7b3672f6c4d": {
       "name": "manage_to_upgrade_subscription",
-      "v": 33449,
+      "v": 33490,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant_1"
       }]
     },
@@ -4047,17 +4047,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 33484,
+      "v": 33488,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 25,
+        "weight": 50,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
@@ -6205,13 +6205,13 @@ window.__twilightSettings = {
     },
     "d671f316-ce88-42c0-963a-81ccdf8c68a7": {
       "name": "auto_pinned_cheers",
-      "v": 33451,
+      "v": 33485,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
