@@ -2045,14 +2045,14 @@ window.__twilightSettings = {
     },
     "2b1a59b9-24a4-4cb1-bf3c-2fd0f736236e": {
       "name": "cplat_rb_exp_ui_sm",
-      "v": 33481,
+      "v": 33504,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "rb-list"
       }]
     },
     "2c169854-dedd-41d0-8e55-a20ce75424ec": {
@@ -7267,13 +7267,13 @@ window.__twilightSettings = {
     },
     "f9df183a-f262-4ca0-85e2-153602d5bde8": {
       "name": "amazon_ivs_web_broadcast_retry_errors_userid",
-      "v": 33417,
+      "v": 33502,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },

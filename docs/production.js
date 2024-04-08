@@ -484,6 +484,11 @@ const productionExperiments = [
         "dateFound": "2022-10-06T02:09:24.000Z"
     },
     {
+        "id": "b98860b0-4035-4213-beca-9aeac7adb0f8",
+        "name": "checkout_email_phone_verification",
+        "dateFound": "2024-04-08T20:15:19.940Z"
+    },
+    {
         "id": "596c83f5-e0c6-44f1-bf05-de9e0d665100",
         "name": "checkout_ux_phase_1",
         "dateFound": "2023-05-18T01:22:53.534Z"
