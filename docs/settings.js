@@ -3734,6 +3734,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "731eec4c-921a-44ab-84f5-ab1aa1846569": {
+      "name": "mlot_moonlight",
+      "v": 33524,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "7351a180-6fac-49c2-a473-1a935de216bb": {
       "name": "cg_tools_features_creator_goals_aatest",
       "v": 21661,
@@ -4047,17 +4059,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 33488,
+      "v": 33525,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
