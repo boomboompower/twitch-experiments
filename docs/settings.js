@@ -4772,6 +4772,21 @@ window.__twilightSettings = {
         "value": "search"
       }]
     },
+    "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5": {
+      "name": "turbo_and_sub_upsell_during_ads",
+      "v": 33552,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment1"
+      }, {
+        "weight": 0,
+        "value": "treatment2"
+      }]
+    },
     "9b438522-a2c8-465c-aa03-c3d4bacf5509": {
       "name": "community-gifting-recommendation-v2.8",
       "v": 22274,
