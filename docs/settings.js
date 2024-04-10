@@ -5678,18 +5678,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "c2b00621-82e2-4dbd-95da-473c802cd790": {
-      "name": "percolite-clipsSubDomain-topLiveChannels",
-      "v": 33166,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "c2dd6984-2aa8-4ac4-ba47-0cb1322e8ae9": {
       "name": "TWILIGHT_AAX_DISPLAY_EMEA",
       "v": 16147,
