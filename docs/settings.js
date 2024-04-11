@@ -6818,6 +6818,18 @@ window.__twilightSettings = {
         "value": "opt-in"
       }]
     },
+    "ec6a44cf-18e7-4b8f-be4b-dc93ac098de4": {
+      "name": "reduce_pubsub_ping_freq",
+      "v": 33577,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "ecee5139-250a-4615-861e-96671259be3a": {
       "name": "prioritize_xsolla",
       "v": 10523,
