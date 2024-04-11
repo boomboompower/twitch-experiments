@@ -224,7 +224,7 @@ window.__twilightSettings = {
   "creator_defined_benefits": true,
   "creator_follow_cue": [0, false],
   "creator_follow_cue_card": [0, false],
-  "creator_goals_bits": [0, false],
+  "creator_goals_bits": [1, false],
   "creator_goals_changelog_date": "2021-08-25 00:00:00 GMT-0700",
   "creatorhome_goals_experiment_mock_component_v2": [0, false],
   "creatorhome_new_affiliates_cluster_query": [1, false],
@@ -1671,16 +1671,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 33169,
+      "v": 33561,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -4400,13 +4400,13 @@ window.__twilightSettings = {
     },
     "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
       "name": "is_channel_in_direct_hype_train_triggers",
-      "v": 32924,
+      "v": 33566,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "experiment"
       }]
     },
