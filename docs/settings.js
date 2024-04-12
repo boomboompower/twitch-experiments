@@ -616,6 +616,7 @@ window.__twilightSettings = {
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
   "rain_dance": [1, false],
+  "rb_01_enabled": false,
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
   "recurly_spm_guard": [1, true],
@@ -833,7 +834,7 @@ window.__twilightSettings = {
   "web_sub_tokens": false,
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
-  "xo_email_phone_verification": [0, false],
+  "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
   "youre-up": true,
@@ -4076,13 +4077,13 @@ window.__twilightSettings = {
     },
     "810c89aa-ac9b-4601-aac0-2626e7bd7d4f": {
       "name": "sponsorships_creator_dashboard_version",
-      "v": 32810,
+      "v": 33596,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "M1"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "M2"
       }]
     },
@@ -4376,13 +4377,13 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 33453,
+      "v": 33597,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "treatment"
       }]
     },
@@ -5523,13 +5524,13 @@ window.__twilightSettings = {
     },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
-      "v": 32503,
+      "v": 33600,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -6820,14 +6821,17 @@ window.__twilightSettings = {
     },
     "ec6a44cf-18e7-4b8f-be4b-dc93ac098de4": {
       "name": "reduce_pubsub_ping_freq",
-      "v": 33577,
+      "v": 33599,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "treatment1 -default-ping-pong"
+      }, {
+        "weight": 0,
+        "value": "treatment2-15s-ping-pong"
       }]
     },
     "ecee5139-250a-4615-861e-96671259be3a": {
