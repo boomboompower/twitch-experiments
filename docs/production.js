@@ -722,5 +722,10 @@ const productionExperiments = [
         "id": "087c2c3c-c2a8-4f62-9460-b7b3672f6c4d",
         "name": "manage_to_upgrade_subscription",
         "dateFound": "2024-04-04T20:13:26.623Z"
+    },
+    {
+        "id": "d333bbdb-e32b-4e5a-82c3-6b781dcb729e",
+        "name": "auto_increment_goal",
+        "dateFound": "2024-04-12T20:13:12.264Z"
     }
 ]
