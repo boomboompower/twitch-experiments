@@ -834,7 +834,7 @@ window.__twilightSettings = {
   "web_sub_tokens": false,
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
-  "xo_email_phone_verification": [1, false],
+  "xo_email_phone_verification": [0, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
   "youre-up": true,
@@ -5524,13 +5524,13 @@ window.__twilightSettings = {
     },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
-      "v": 33600,
+      "v": 33628,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "treatment"
       }]
     },
