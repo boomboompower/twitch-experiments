@@ -5894,6 +5894,18 @@ window.__twilightSettings = {
         "value": "variant2"
       }]
     },
+    "cdf4e83a-2246-472b-9816-0de82aba340e": {
+      "name": "chat-banned-admins-rollout",
+      "v": 33646,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "ce577266-68fa-40eb-8c07-5ae30488338f": {
       "name": "vxp_left_nav_hover_logged_in",
       "v": 29692,
@@ -6117,13 +6129,13 @@ window.__twilightSettings = {
     },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
       "name": "auto_increment_goal",
-      "v": 33403,
+      "v": 33649,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment"
       }]
     },
