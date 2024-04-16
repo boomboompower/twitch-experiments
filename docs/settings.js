@@ -1153,6 +1153,18 @@ window.__twilightSettings = {
         "value": "variant 2"
       }]
     },
+    "0b3a353b-ec2f-4c3c-b5c1-3812db9f79ae": {
+      "name": "cheer_icon",
+      "v": 33673,
+      "t": 1,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
+      }]
+    },
     "0bddb46c-0c61-49a2-90f9-c6a91f2f35f2": {
       "name": "cg_tools_features_creator_goals",
       "v": 21491,
@@ -3741,13 +3753,13 @@ window.__twilightSettings = {
     },
     "731eec4c-921a-44ab-84f5-ab1aa1846569": {
       "name": "mlot_moonlight",
-      "v": 33524,
+      "v": 33669,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }]
     },
