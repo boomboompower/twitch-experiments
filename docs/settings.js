@@ -3305,14 +3305,17 @@ window.__twilightSettings = {
     },
     "5f4f11ac-ce13-471b-9ff2-e408527ceb2f": {
       "name": "rrt_clock",
-      "v": 33303,
+      "v": 33652,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 98,
         "value": "disabled"
       }, {
         "weight": 1,
         "value": "enabled"
+      }, {
+        "weight": 1,
+        "value": "enabled-pingpong"
       }]
     },
     "5f5676ea-fa4f-40f7-89bd-c4143e1efdd2": {
@@ -6129,13 +6132,13 @@ window.__twilightSettings = {
     },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
       "name": "auto_increment_goal",
-      "v": 33649,
+      "v": 33650,
       "t": 3,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
