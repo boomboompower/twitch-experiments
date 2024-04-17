@@ -841,6 +841,18 @@ window.__twilightSettings = {
   "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
+    "00305eb2-2a2e-4bc4-947d-2663f6e318fc": {
+      "name": "icon_cheer",
+      "v": 33694,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
+      }]
+    },
     "011d1499-61b3-49b2-92b2-b2ffd353ef00": {
       "name": "twilight_sub_gifting",
       "v": 2462,
@@ -1151,18 +1163,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant 2"
-      }]
-    },
-    "0b3a353b-ec2f-4c3c-b5c1-3812db9f79ae": {
-      "name": "cheer_icon",
-      "v": 33690,
-      "t": 1,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 50,
-        "value": "variant"
       }]
     },
     "0bddb46c-0c61-49a2-90f9-c6a91f2f35f2": {
