@@ -843,13 +843,13 @@ window.__twilightSettings = {
   "experiments": {
     "00305eb2-2a2e-4bc4-947d-2663f6e318fc": {
       "name": "icon_cheer",
-      "v": 33694,
+      "v": 33711,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -4392,7 +4392,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 33597,
+      "v": 33714,
       "t": 1,
       "groups": [{
         "weight": 50,
@@ -4400,6 +4400,9 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "treatment_useRenderSurface+config=eyJ1c2VSZW5kZXJTdXJmYWNlIjp0cnVlfQ=="
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
