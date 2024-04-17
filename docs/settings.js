@@ -834,7 +834,7 @@ window.__twilightSettings = {
   "web_sub_tokens": false,
   "why_sub_button": false,
   "wysiwyg_chat_input": [1, true],
-  "xo_email_phone_verification": [0, false],
+  "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
   "youre-up": true,
@@ -1155,7 +1155,7 @@ window.__twilightSettings = {
     },
     "0b3a353b-ec2f-4c3c-b5c1-3812db9f79ae": {
       "name": "cheer_icon",
-      "v": 33673,
+      "v": 33690,
       "t": 1,
       "groups": [{
         "weight": 50,
@@ -5539,13 +5539,13 @@ window.__twilightSettings = {
     },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
-      "v": 33628,
+      "v": 33688,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
