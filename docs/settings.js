@@ -5543,14 +5543,14 @@ window.__twilightSettings = {
     },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
-      "v": 33688,
+      "v": 33753,
       "t": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 10,
-        "value": "treatment"
+        "weight": 50,
+        "value": "variant"
       }]
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
@@ -6278,6 +6278,18 @@ window.__twilightSettings = {
     "d76d85cf-fe5c-46a0-b541-bc01c0487de6": {
       "name": "prime_gaming_crown_offer_prioritization",
       "v": 20127,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "d93167ce-ede1-4d3c-95c2-56114e2a8a81": {
+      "name": "partial_goals",
+      "v": 33762,
       "t": 2,
       "groups": [{
         "weight": 100,
