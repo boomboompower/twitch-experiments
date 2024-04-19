@@ -256,8 +256,6 @@ window.__twilightSettings = {
   "Default_Emote_Library": [1, false],
   "delete_mod_actions_enabled": [1, false],
   "desert-wolf-pie": [1, true],
-  "desklight_deprecation_final": [0, false],
-  "desklight_deprecation_warning": [0, false],
   "dev_announcement_banner_end_date": "2023-11-15T08:00:00Z",
   "dev_announcement_banner_start_date": "2023-11-06T08:00:00Z",
   "dev_console_nav_update": [0, false],
@@ -280,6 +278,8 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
+  "dl_deprecation_final": [0, false],
+  "dl_deprecation_warning": [0, false],
   "dma_devices_allowlist": [],
   "dma_reject_all": [0, false],
   "dma_users_allowlist": [],
@@ -5545,14 +5545,14 @@ window.__twilightSettings = {
     },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
-      "v": 33753,
+      "v": 33788,
       "t": 2,
       "groups": [{
         "weight": 50,
         "value": "control"
       }, {
         "weight": 50,
-        "value": "variant"
+        "value": "treatment"
       }]
     },
     "ba9ce207-d32d-4725-9499-43e369f4136d": {
@@ -7332,13 +7332,13 @@ window.__twilightSettings = {
     },
     "f8c43aed-0b0e-47bf-88db-5f188bac2922": {
       "name": "bits_simplified_purchase",
-      "v": 32665,
+      "v": 33784,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
