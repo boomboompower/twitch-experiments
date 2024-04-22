@@ -194,6 +194,7 @@ window.__twilightSettings = {
   "community_sub_gifting_banner_timeouts": [0, 25, 35, 45, 55, 60, 60],
   "community-intros-15": [1, false],
   "community-moments-rollout": [1, false],
+  "concerning_hobBits": false,
   "consent_banner_headline_rollout": [0, true],
   "consent_dismiss_button_rollout": [1, true],
   "consent_enabled": [1, false],
@@ -441,6 +442,7 @@ window.__twilightSettings = {
   "igdb_links_enabled": [1, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
+  "impacted_notice_banner_enabled": [1, true],
   "include_chat_timing_nonce": true,
   "insights_content_filter": [1, true],
   "intl_pricing_promo_balloon_countries": ["TR", "MX", "AU", "AZ", "BD", "BN", "BT", "CN", "FJ", "FM", "HK", "ID", "IN", "KG", "KH", "KI", "KR", "LA", "LK", "MH", "MN", "MO", "MV", "MY", "NC", "NP", "NR", "NZ", "PF", "PG", "PH", "PK", "PW", "SB", "SG", "TH", "TJ", "TL", "TM", "TO", "TV", "TW", "UZ", "VN", "VU", "WS", "BR", "AR", "BB", "BO", "CL", "CO", "CR", "DO", "EC", "SV", "GT", "HN", "NI", "PA", "PY", "PE", "UY", "AG", "AW", "BS", "BZ", "KY", "CW", "DM", "GD", "GY", "HT", "JM", "KN", "LC", "VC", "SR", "TT", "VE", "AE", "AF", "AO", "BF", "BH", "BI", "BJ", "BW", "CF", "CG", "CM", "CV", "DJ", "DZ", "EG", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "JO", "KE", "KM", "KW", "KZ", "LB", "LS", "LY", "MA", "MG", "MK", "ML", "MR", "MU", "MW", "MZ", "NA", "NE", "NG", "OM", "QA", "RW", "SA", "SC", "SL", "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "ZA", "ZM", "AL", "AM", "AT", "BA", "BE", "BG", "BY", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GE", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MD", "ME", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU", "SE", "SI", "SK", "SM", "UA"],
@@ -7354,13 +7356,13 @@ window.__twilightSettings = {
     },
     "f9df183a-f262-4ca0-85e2-153602d5bde8": {
       "name": "amazon_ivs_web_broadcast_retry_errors_userid",
-      "v": 33502,
+      "v": 33835,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
