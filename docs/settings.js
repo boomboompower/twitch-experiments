@@ -529,7 +529,6 @@ window.__twilightSettings = {
   "one_click_subs_enabled": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
-  "partial_goals": [0, false],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
@@ -1026,6 +1025,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "063fcfe3-e7d6-45f6-a4f4-026909f1e61c": {
+      "name": "partial_goals_channel",
+      "v": 33801,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "064cdbc9-a25a-4000-a759-cb5d16762af7": {
