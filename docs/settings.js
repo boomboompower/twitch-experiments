@@ -455,7 +455,6 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "issue_cw_rollout": [0, false],
-  "kcc_corrective_order_active_range": "2024-03-19T17:00:00.000Z/2024-03-23T17:00:00.000Z",
   "kpsdk_deprecated_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_electron_app": [],
   "kpsdk_helpsite_url": "https://help.twitch.tv/s/article/supported-browsers",

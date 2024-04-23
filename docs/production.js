@@ -670,8 +670,13 @@ const productionExperiments = [
     },
     {
         "id": "bb41dcd2-8008-45f0-897a-cd7c4bf8877a",
-        "name": "memberships_upsell_holdout",
+        "name": "global_commerce_upsell_holdout",
         "dateFound": "2024-03-20T00:56:22.912Z"
+    },
+    {
+        "id": "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5",
+        "name": "turbo_and_sub_upsell_during_ads",
+        "dateFound": "2024-04-23T20:13:27.093Z"
     },
     {
         "id": "446cf133-efde-41e1-b1a0-6c030904210d",
@@ -722,5 +727,10 @@ const productionExperiments = [
         "id": "d333bbdb-e32b-4e5a-82c3-6b781dcb729e",
         "name": "auto_increment_goal",
         "dateFound": "2024-04-12T20:13:12.264Z"
+    },
+    {
+        "id": "00305eb2-2a2e-4bc4-947d-2663f6e318fc",
+        "name": "icon_cheer",
+        "dateFound": "2024-04-23T20:13:27.095Z"
     }
 ]
