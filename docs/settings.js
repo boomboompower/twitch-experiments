@@ -803,7 +803,7 @@ window.__twilightSettings = {
   "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
-  "upsell_above_chat": [0, false],
+  "upsell_above_chat": [1, true],
   "use_intersection": true,
   "use-gql-rev": [1, false],
   "user_anniversary": [0, false],
@@ -1698,16 +1698,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 33634,
+      "v": 33881,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
@@ -4807,16 +4807,16 @@ window.__twilightSettings = {
     },
     "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5": {
       "name": "turbo_and_sub_upsell_during_ads",
-      "v": 33552,
+      "v": 33866,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "treatment1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "treatment2"
       }]
     },
