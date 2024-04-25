@@ -729,6 +729,11 @@ const productionExperiments = [
         "dateFound": "2024-04-12T20:13:12.264Z"
     },
     {
+        "id": "063fcfe3-e7d6-45f6-a4f4-026909f1e61c",
+        "name": "partial_goals_channel",
+        "dateFound": "2024-04-25T01:00:54.280Z"
+    },
+    {
         "id": "00305eb2-2a2e-4bc4-947d-2663f6e318fc",
         "name": "icon_cheer",
         "dateFound": "2024-04-23T20:13:27.095Z"

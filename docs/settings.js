@@ -845,13 +845,13 @@ window.__twilightSettings = {
   "experiments": {
     "00305eb2-2a2e-4bc4-947d-2663f6e318fc": {
       "name": "icon_cheer",
-      "v": 33711,
+      "v": 33900,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -4090,17 +4090,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 33895,
+      "v": 33899,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-b"
       }]
     },
