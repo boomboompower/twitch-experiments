@@ -216,7 +216,7 @@ window.__twilightSettings = {
   "cplat_dragon_journal_info": [0, true],
   "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": false,
-  "cplat_rb_ga_rollout_callout_expiry_date": "2024-04-14 00:00:00 GMT-0800",
+  "cplat_rb_ga_rollout_callout_expiry_date": "2024-07-05 00:00:00 GMT-0800",
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
@@ -4406,13 +4406,13 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 33894,
+      "v": 33931,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }, {
         "weight": 0,
