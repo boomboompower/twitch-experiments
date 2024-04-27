@@ -153,6 +153,7 @@ window.__twilightSettings = {
   "chat_replies_m2a": [1, true],
   "chat_replies_m2b": [1, true],
   "chat_replies_qol_refactor": [1, true],
+  "chat_rules_redesign_enabled": [0, false],
   "chat_send_message_refactor": [0, false],
   "chat_slow_mode_banner": [1, false],
   "chat_timing_heartbeat_ms": 60000,
