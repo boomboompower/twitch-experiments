@@ -2630,13 +2630,13 @@ window.__twilightSettings = {
     },
     "446cf133-efde-41e1-b1a0-6c030904210d": {
       "name": "new_password_guidelines",
-      "v": 33391,
+      "v": 33982,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
