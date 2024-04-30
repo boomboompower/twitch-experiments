@@ -529,6 +529,7 @@ window.__twilightSettings = {
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
+  "open-calling": [0, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
