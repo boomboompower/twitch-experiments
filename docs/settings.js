@@ -357,7 +357,7 @@ window.__twilightSettings = {
   "gs_audio_output_settings": true,
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": false,
-  "gs_collaborators_clips": false,
+  "gs_collaborators_clips": true,
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
@@ -4092,17 +4092,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 33910,
+      "v": 34034,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
