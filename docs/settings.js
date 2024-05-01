@@ -5792,6 +5792,18 @@ window.__twilightSettings = {
         "value": "enabled"
       }]
     },
+    "c6154b47-96ef-44b0-8f30-ff3b630510fa": {
+      "name": "amazon_ivs_web_broadcast_enable_ffa",
+      "v": 34028,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "c6fd0d37-c577-4e5f-a2a7-9d2e1c7c300b": {
       "name": "community-gifting-recommendation-v2.6",
       "v": 12736,
