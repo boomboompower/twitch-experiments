@@ -4408,16 +4408,16 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 33931,
+      "v": 34037,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment_useRenderSurface+config=eyJ1c2VSZW5kZXJTdXJmYWNlIjp0cnVlfQ=="
       }]
     },
