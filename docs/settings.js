@@ -712,6 +712,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
+  "staff_garfield_discovery_control": false,
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -3333,16 +3334,16 @@ window.__twilightSettings = {
     },
     "5f4f11ac-ce13-471b-9ff2-e408527ceb2f": {
       "name": "rrt_clock",
-      "v": 33652,
+      "v": 34081,
       "t": 1,
       "groups": [{
-        "weight": 98,
+        "weight": 100,
         "value": "disabled"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "enabled"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "enabled-pingpong"
       }]
     },
@@ -3459,6 +3460,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "CHANNEL_POINTS_1x"
+      }]
+    },
+    "640c7adc-0807-41f6-9eca-a9ecd4e410f9": {
+      "name": "default_bits_rewards",
+      "v": 34084,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "disabled"
+      }, {
+        "weight": 0,
+        "value": "enabled"
       }]
     },
     "643a6e17-a433-4d4f-929d-7a2cc395578d": {
