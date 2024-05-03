@@ -357,7 +357,7 @@ window.__twilightSettings = {
   "gs_audio_output_settings": true,
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": false,
-  "gs_collaborators_clips": false,
+  "gs_collaborators_clips": true,
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
@@ -4408,16 +4408,16 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34037,
+      "v": 34066,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "treatment_useRenderSurface+config=eyJ1c2VSZW5kZXJTdXJmYWNlIjp0cnVlfQ=="
       }]
     },
@@ -4809,16 +4809,17 @@ window.__twilightSettings = {
     },
     "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5": {
       "name": "turbo_and_sub_upsell_during_ads",
-      "v": 33866,
+      "v": 34063,
       "t": 2,
+      "s": 1,
       "groups": [{
-        "weight": 34,
+        "weight": 1,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 1,
         "value": "treatment1"
       }, {
-        "weight": 33,
+        "weight": 1,
         "value": "treatment2"
       }]
     },
@@ -5558,13 +5559,13 @@ window.__twilightSettings = {
     },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
-      "v": 33788,
+      "v": 34068,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
