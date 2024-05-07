@@ -3782,13 +3782,13 @@ window.__twilightSettings = {
     },
     "731eec4c-921a-44ab-84f5-ab1aa1846569": {
       "name": "mlot_moonlight",
-      "v": 33669,
+      "v": 34114,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -4421,10 +4421,10 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34112,
+      "v": 34113,
       "t": 1,
       "groups": [{
-        "weight": 60,
+        "weight": 50,
         "value": "control"
       }, {
         "weight": 0,
@@ -6777,6 +6777,15 @@ window.__twilightSettings = {
       }, {
         "weight": 5,
         "value": "support_panel"
+      }]
+    },
+    "e83e07cc-c09b-4546-bda3-2f688869bd10": {
+      "name": "is_channel_in_direct_hype_train_triggers_v2",
+      "v": 34118,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "e85998cd-a7b4-400e-8139-6b1aeab9b4c9": {
