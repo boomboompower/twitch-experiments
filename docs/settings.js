@@ -357,7 +357,7 @@ window.__twilightSettings = {
   "gs_audio_output_settings": true,
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": false,
-  "gs_collaborators_clips": false,
+  "gs_collaborators_clips": true,
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
