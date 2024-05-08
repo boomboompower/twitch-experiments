@@ -619,7 +619,7 @@ window.__twilightSettings = {
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
   "rain_dance": [1, false],
-  "rb_01_enabled": false,
+  "rb_01_enabled": true,
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
   "recurly_spm_guard": [1, true],
@@ -2077,13 +2077,13 @@ window.__twilightSettings = {
     },
     "2b1a59b9-24a4-4cb1-bf3c-2fd0f736236e": {
       "name": "cplat_rb_exp_ui_sm",
-      "v": 33504,
+      "v": 34167,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "rb-list"
       }]
     },
