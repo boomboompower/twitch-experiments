@@ -667,6 +667,7 @@ window.__twilightSettings = {
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
+  "send_chat_with_apollo": [0, false],
   "shared_comments_enabled": [1, true],
   "shared-chat-feature-flag": [0, false],
   "shield_mode_alerts_enabled": [1, true],
