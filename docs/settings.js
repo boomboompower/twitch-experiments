@@ -1131,13 +1131,13 @@ window.__twilightSettings = {
     },
     "087c2c3c-c2a8-4f62-9460-b7b3672f6c4d": {
       "name": "manage_to_upgrade_subscription",
-      "v": 33490,
+      "v": 34188,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant_1"
       }]
     },
@@ -5809,13 +5809,13 @@ window.__twilightSettings = {
     },
     "c6154b47-96ef-44b0-8f30-ff3b630510fa": {
       "name": "amazon_ivs_web_broadcast_enable_ffa",
-      "v": 34028,
+      "v": 34185,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -7393,13 +7393,13 @@ window.__twilightSettings = {
     },
     "f9df183a-f262-4ca0-85e2-153602d5bde8": {
       "name": "amazon_ivs_web_broadcast_retry_errors_userid",
-      "v": 33835,
+      "v": 34184,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },

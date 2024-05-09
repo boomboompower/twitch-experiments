@@ -739,6 +739,11 @@ const productionExperiments = [
         "dateFound": "2024-04-25T01:00:54.280Z"
     },
     {
+        "id": "0a603b81-08db-4537-a52a-bf7b71ac6182",
+        "name": "garfield_discovery_control",
+        "dateFound": "2024-05-09T20:13:27.624Z"
+    },
+    {
         "id": "00305eb2-2a2e-4bc4-947d-2663f6e318fc",
         "name": "icon_cheer",
         "dateFound": "2024-04-23T20:13:27.095Z"
