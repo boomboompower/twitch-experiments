@@ -511,6 +511,7 @@ window.__twilightSettings = {
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mwot_leak": false,
+  "narwhal_prime_info": [0, false],
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
   "new_games_pill_rollout": [1, false],
@@ -843,7 +844,7 @@ window.__twilightSettings = {
   "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
-  "youre-up": true,
+  "youre-up": false,
   "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
