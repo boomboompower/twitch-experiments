@@ -226,11 +226,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "028ce2d5-c0e3-4517-8081-7e8f4556a55b",
-        "name": "channel_points_reward_limits_v2",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "fcf28cfa-fc55-48ee-af5f-7a88b7d9016c",
         "name": "ht_cta_exp",
         "dateFound": "2022-06-15T07:19:12.000Z"

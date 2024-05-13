@@ -5810,13 +5810,13 @@ window.__twilightSettings = {
     },
     "c6154b47-96ef-44b0-8f30-ff3b630510fa": {
       "name": "amazon_ivs_web_broadcast_enable_ffa",
-      "v": 34185,
+      "v": 34280,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "treatment"
       }]
     },
