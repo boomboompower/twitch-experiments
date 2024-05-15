@@ -678,7 +678,7 @@ window.__twilightSettings = {
   "sidp_logout_all_toggle": [1, false],
   "sidp_table_toggle": [0, false],
   "sidp_toggle": [0, false],
-  "signup_restricted_country_code": [],
+  "signup_restricted_country_code": ["RU"],
   "signup_webview": [1, false],
   "sizmek_versatag_channels": ["riotgames", "tekken", "rocketleague"],
   "sizmek_versatag_events": ["YeUmkUI9R5GKR5WGtg046A", "f4aK8duASJKiAYAiETsUvw", "WN1Ly4NxRgOrSNWOSG40PQ", "YFCU_dppR6Oor32XLPrU2w", "2HsLVRMUTnqChbVy5YSsfg", "f4aK8duASJKiAYAiETsUvw"],
@@ -5811,13 +5811,13 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 31459,
+      "v": 34335,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "enabled"
       }]
     },
