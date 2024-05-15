@@ -280,7 +280,7 @@ window.__twilightSettings = {
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
   "dl_deprecation_final": [0, false],
-  "dl_deprecation_warning": [0, false],
+  "dl_deprecation_warning": [1, true],
   "dma_devices_allowlist": [],
   "dma_reject_all": [0, false],
   "dma_users_allowlist": [],
@@ -667,7 +667,7 @@ window.__twilightSettings = {
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
-  "send_chat_with_apollo": [0, false],
+  "send_chat_with_apollo": [0, true],
   "shared-chat-feature-flag": [0, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
@@ -1033,13 +1033,13 @@ window.__twilightSettings = {
     },
     "063fcfe3-e7d6-45f6-a4f4-026909f1e61c": {
       "name": "partial_goals_channel",
-      "v": 33801,
+      "v": 34360,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
