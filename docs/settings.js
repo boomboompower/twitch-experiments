@@ -3794,16 +3794,17 @@ window.__twilightSettings = {
     },
     "7340c2ee-6c66-4793-89d7-8deebc7f8b5e": {
       "name": "support_panel_simplification_v2",
-      "v": 34301,
+      "v": 34369,
       "t": 2,
+      "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 1,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment_1"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment_2"
       }]
     },

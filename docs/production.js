@@ -689,6 +689,11 @@ const productionExperiments = [
         "dateFound": "2024-02-27T00:55:37.362Z"
     },
     {
+        "id": "7340c2ee-6c66-4793-89d7-8deebc7f8b5e",
+        "name": "support_panel_simplification_v2",
+        "dateFound": "2024-05-16T01:01:00.984Z"
+    },
+    {
         "id": "810c89aa-ac9b-4601-aac0-2626e7bd7d4f",
         "name": "sponsorships_creator_dashboard_version",
         "dateFound": "2024-03-06T00:56:31.401Z"
