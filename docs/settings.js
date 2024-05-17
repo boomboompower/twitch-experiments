@@ -6807,11 +6807,14 @@ window.__twilightSettings = {
     },
     "e83e07cc-c09b-4546-bda3-2f688869bd10": {
       "name": "is_channel_in_direct_hype_train_triggers_v2",
-      "v": 34118,
+      "v": 34397,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
+      }, {
+        "weight": 100,
+        "value": "experiment"
       }]
     },
     "e85998cd-a7b4-400e-8139-6b1aeab9b4c9": {
