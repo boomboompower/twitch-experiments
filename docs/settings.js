@@ -79,6 +79,7 @@ window.__twilightSettings = {
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
   "Blobfish": "2023-10-01T07:00:00+00:00",
+  "blocked_term_hit_count_enabled": [0, false],
   "Boh": "2023-12-27T17:45:00Z",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
@@ -667,7 +668,7 @@ window.__twilightSettings = {
   "search_debounce_timeout_ms": 50,
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
-  "send_chat_with_apollo": [0, true],
+  "send_chat_with_apollo": [1, true],
   "shared-chat-feature-flag": [0, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
@@ -1299,6 +1300,15 @@ window.__twilightSettings = {
         "value": "enabled"
       }]
     },
+    "0df3f7f8-46f5-45b4-af29-0008b916a1e7": {
+      "name": "private_callout_nudge_subscription",
+      "v": 34390,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
       "name": "project_ape",
       "v": 26848,
@@ -1701,16 +1711,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 34314,
+      "v": 34378,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
@@ -3794,16 +3804,17 @@ window.__twilightSettings = {
     },
     "7340c2ee-6c66-4793-89d7-8deebc7f8b5e": {
       "name": "support_panel_simplification_v2",
-      "v": 34301,
+      "v": 34369,
       "t": 2,
+      "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 1,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment_1"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment_2"
       }]
     },
@@ -5811,25 +5822,25 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 34335,
+      "v": 34381,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "enabled"
       }]
     },
     "c6154b47-96ef-44b0-8f30-ff3b630510fa": {
       "name": "amazon_ivs_web_broadcast_enable_ffa",
-      "v": 34280,
+      "v": 34380,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -6747,8 +6758,8 @@ window.__twilightSettings = {
       }]
     },
     "e75a804d-10f7-4441-9d89-dc7c59c6cd2d": {
-      "name": "turbo_upsell",
-      "v": 29501,
+      "name": "global_memberships_allowlist",
+      "v": 34379,
       "t": 2,
       "groups": [{
         "weight": 100,
