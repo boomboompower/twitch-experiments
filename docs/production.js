@@ -211,11 +211,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "ce577266-68fa-40eb-8c07-5ae30488338f",
-        "name": "vxp_left_nav_hover_logged_in",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f7d79abf-ba0e-4438-9039-e091cb798e90",
         "name": "community_insights",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -233,11 +228,6 @@ const productionExperiments = [
     {
         "id": "e3f98642-92df-404b-a7eb-21da0473a96b",
         "name": "kr_jp_string_test",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "a5870914-ca72-48a8-b03d-829f6bac16be",
-        "name": "left_nav_few_follows",
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
