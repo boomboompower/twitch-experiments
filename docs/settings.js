@@ -749,6 +749,7 @@ window.__twilightSettings = {
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
+  "sub_drops": [],
   "sub_modal_tier_upsell_enabled": true,
   "Subs_Geo_Breakdown": [1, false],
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
@@ -4447,7 +4448,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34113,
+      "v": 34416,
       "t": 1,
       "groups": [{
         "weight": 50,
@@ -4458,6 +4459,12 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "treatment_useRenderSurface+config=eyJ1c2VSZW5kZXJTdXJmYWNlIjp0cnVlfQ=="
+      }, {
+        "weight": 0,
+        "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
+      }, {
+        "weight": 0,
+        "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
@@ -5076,21 +5083,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "t2"
-      }]
-    },
-    "a5870914-ca72-48a8-b03d-829f6bac16be": {
-      "name": "left_nav_few_follows",
-      "v": 14187,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
-      }, {
-        "weight": 0,
-        "value": "variant2"
       }]
     },
     "a5a06042-3edd-400b-bb49-c06beb3480a0": {
@@ -5992,18 +5984,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "ce577266-68fa-40eb-8c07-5ae30488338f": {
-      "name": "vxp_left_nav_hover_logged_in",
-      "v": 29692,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
     "cee91f9e-e512-4cb7-8cbf-4501d7844ce0": {
       "name": "checkout_ux_phase_1.5",
       "v": 30766,
@@ -6807,13 +6787,13 @@ window.__twilightSettings = {
     },
     "e83e07cc-c09b-4546-bda3-2f688869bd10": {
       "name": "is_channel_in_direct_hype_train_triggers_v2",
-      "v": 34397,
+      "v": 34415,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "experiment"
       }]
     },
