@@ -1303,11 +1303,14 @@ window.__twilightSettings = {
     },
     "0df3f7f8-46f5-45b4-af29-0008b916a1e7": {
       "name": "private_callout_nudge_subscription",
-      "v": 34390,
+      "v": 34436,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "0e629110-9517-48f7-a852-8b59678aad3c": {
@@ -1629,6 +1632,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "control"
+      }]
+    },
+    "1a2f2b1e-1b5f-4ded-a512-340708d17c1a": {
+      "name": "partner_plus_upsell_nudge",
+      "v": 34437,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "1a445d6d-d9f8-4ce8-8467-19e3e3f2d84b": {
