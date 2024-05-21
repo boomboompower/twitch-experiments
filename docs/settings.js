@@ -1162,13 +1162,13 @@ window.__twilightSettings = {
     },
     "0a603b81-08db-4537-a52a-bf7b71ac6182": {
       "name": "garfield_discovery_control",
-      "v": 33026,
+      "v": 34549,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -3982,7 +3982,7 @@ window.__twilightSettings = {
     },
     "7a328007-2bfa-4459-81ac-125639a273cf": {
       "name": "gift_and_sub_button",
-      "v": 33446,
+      "v": 34528,
       "t": 2,
       "groups": [{
         "weight": 50,
@@ -4466,7 +4466,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34517,
+      "v": 34547,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -5993,7 +5993,7 @@ window.__twilightSettings = {
     },
     "cdf4e83a-2246-472b-9816-0de82aba340e": {
       "name": "chat-banned-admins-rollout",
-      "v": 33646,
+      "v": 34546,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -6214,13 +6214,13 @@ window.__twilightSettings = {
     },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
       "name": "auto_increment_goal",
-      "v": 33650,
+      "v": 34530,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -6806,13 +6806,14 @@ window.__twilightSettings = {
     },
     "e83e07cc-c09b-4546-bda3-2f688869bd10": {
       "name": "is_channel_in_direct_hype_train_triggers_v2",
-      "v": 34415,
+      "v": 34536,
       "t": 3,
+      "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "experiment"
       }]
     },
