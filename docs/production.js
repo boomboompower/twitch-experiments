@@ -60,16 +60,6 @@ const productionExperiments = [
         "dateFound": "2023-10-18T20:13:05.228Z"
     },
     {
-        "id": "214f827d-459a-473b-aa06-4362c9e45257",
-        "name": "prowse_li_intelshelf",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "9937cd2a-f6aa-46bb-ac07-ff689eccf51f",
-        "name": "prowse_lo_intelshelf",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "4b542915-a76e-42ad-ab85-147642feb395",
         "name": "post_purchase_experience",
         "dateFound": "2022-06-15T07:19:12.000Z"

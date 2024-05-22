@@ -1791,18 +1791,6 @@ window.__twilightSettings = {
         "value": "AAX"
       }]
     },
-    "214f827d-459a-473b-aa06-4362c9e45257": {
-      "name": "prowse_li_intelshelf",
-      "v": 29671,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
-      }]
-    },
     "218acff9-67f7-459f-9f3e-d9b41238e761": {
       "name": "ht_celeb_experiment",
       "v": 17652,
@@ -4814,18 +4802,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
-      }]
-    },
-    "9937cd2a-f6aa-46bb-ac07-ff689eccf51f": {
-      "name": "prowse_lo_intelshelf",
-      "v": 29670,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
       }]
     },
     "994869b7-223b-4d34-b30c-46b403d6468b": {
