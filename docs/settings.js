@@ -4138,17 +4138,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 34034,
+      "v": 34592,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "variant-b"
       }]
     },
