@@ -3481,7 +3481,7 @@ window.__twilightSettings = {
     },
     "640c7adc-0807-41f6-9eca-a9ecd4e410f9": {
       "name": "default_bits_rewards",
-      "v": 34084,
+      "v": 34607,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -5969,13 +5969,13 @@ window.__twilightSettings = {
     },
     "cdf4e83a-2246-472b-9816-0de82aba340e": {
       "name": "chat-banned-admins-rollout",
-      "v": 34546,
+      "v": 34605,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },
