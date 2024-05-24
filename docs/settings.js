@@ -4830,6 +4830,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "99bdab4c-f5cf-490c-bbf8-4fdcab252811": {
+      "name": "web_disco_hamster_switch",
+      "v": 34642,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active"
+      }]
+    },
     "99c425d5-7d9f-47bd-a13a-409903cd6515": {
       "name": "SIGNUP_REDIRECT",
       "v": 2033,
