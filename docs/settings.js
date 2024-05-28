@@ -433,6 +433,7 @@ window.__twilightSettings = {
   "hra_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/256.png",
   "hra_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/1024.png",
   "htc_1": [0, false],
+  "hype_train_availability_sample_rate": 0.1,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_date_countdown": false,
@@ -5978,6 +5979,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
+      }]
+    },
+    "cd491c78-3067-4dd9-879e-0d51110f71a8": {
+      "name": "gift_bundle_discount_experiment",
+      "v": 34708,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "cdf4e83a-2246-472b-9816-0de82aba340e": {
