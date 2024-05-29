@@ -244,7 +244,7 @@ window.__twilightSettings = {
   "cu-cr-ed": [0, false],
   "cu-ve": [0, false],
   "custom_event_destination_threshold": true,
-  "cw_receival_enabled": false,
+  "cw_receival_enabled": true,
   "da_manager_m2": [1, false],
   "dac7-interrupt-screen": [0, false],
   "dac7-phase-2": [1, false],
@@ -851,7 +851,7 @@ window.__twilightSettings = {
   "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
-  "youre-up": false,
+  "youre-up": true,
   "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
