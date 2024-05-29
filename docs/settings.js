@@ -1517,6 +1517,24 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
+    "13dbc695-5fcf-4e37-ac77-4d10b59942ac": {
+      "name": "gwcc_verification_volume",
+      "v": 34741,
+      "t": 2,
+      "groups": [{
+        "weight": 25,
+        "value": "g1"
+      }, {
+        "weight": 25,
+        "value": "g2"
+      }, {
+        "weight": 25,
+        "value": "g3"
+      }, {
+        "weight": 25,
+        "value": "control"
+      }]
+    },
     "141862a5-32f9-47ec-b9d6-49c87830961b": {
       "name": "paypal_first",
       "v": 8224,
@@ -4457,16 +4475,16 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34713,
+      "v": 34742,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
         "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
         "weight": 0,
@@ -5110,6 +5128,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "blurb_and_benefits"
+      }]
+    },
+    "a636f65d-912c-43c8-9a28-bb88babacfca": {
+      "name": "gwcc_verification_volume_row",
+      "v": 34740,
+      "t": 2,
+      "groups": [{
+        "weight": 20,
+        "value": "control"
+      }, {
+        "weight": 30,
+        "value": "g1"
+      }, {
+        "weight": 50,
+        "value": "g2"
       }]
     },
     "a6adfb56-c434-405b-a774-2d6c96e2f815": {
