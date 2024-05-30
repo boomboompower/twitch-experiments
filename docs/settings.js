@@ -558,6 +558,7 @@ window.__twilightSettings = {
   "phase_one_game_migration": [1, true],
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
+  "pin_cheer_block_list": [],
   "plus_program_qualification_table": [1, false],
   "plus_program_widget": [1, true],
   "poliwag_rollout": [1, true],
