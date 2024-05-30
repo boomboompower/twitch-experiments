@@ -3993,13 +3993,13 @@ window.__twilightSettings = {
     },
     "7a328007-2bfa-4459-81ac-125639a273cf": {
       "name": "gift_and_sub_button",
-      "v": 34528,
+      "v": 34795,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 5,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 95,
         "value": "variant_1"
       }]
     },
