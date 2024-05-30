@@ -2765,23 +2765,23 @@ window.__twilightSettings = {
     },
     "469d3786-5788-4cba-b987-d1456de03de6": {
       "name": "percolite-shelf-reranking-logged-in",
-      "v": 33159,
+      "v": 34783,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 2,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "variant1a"
       }, {
-        "weight": 25,
+        "weight": 100,
         "value": "variant1b"
       }, {
-        "weight": 24,
+        "weight": 0,
         "value": "variant2a"
       }, {
-        "weight": 24,
+        "weight": 0,
         "value": "variant2b"
       }]
     },
@@ -7272,23 +7272,23 @@ window.__twilightSettings = {
     },
     "f4c2bf99-4ce0-4f69-b815-969dc434d0d4": {
       "name": "percolite-shelf-reranking-logged-out",
-      "v": 33163,
+      "v": 34784,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 2,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "variant1a"
       }, {
-        "weight": 25,
+        "weight": 100,
         "value": "variant1b"
       }, {
-        "weight": 24,
+        "weight": 0,
         "value": "variant2a"
       }, {
-        "weight": 24,
+        "weight": 0,
         "value": "variant2b"
       }]
     },
