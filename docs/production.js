@@ -565,7 +565,7 @@ const productionExperiments = [
     },
     {
         "id": "e75a804d-10f7-4441-9d89-dc7c59c6cd2d",
-        "name": "turbo_upsell",
+        "name": "global_memberships_allowlist",
         "dateFound": "2023-08-24T20:12:57.822Z"
     },
     {
@@ -627,11 +627,6 @@ const productionExperiments = [
         "id": "b56172de-08e4-4fc5-988d-a9d543f4092b",
         "name": "warhol_banner",
         "dateFound": "2023-10-13T20:13:38.233Z"
-    },
-    {
-        "id": "4be58f7d-f1bb-45fa-ba17-b5dbf7492fcb",
-        "name": "cplat_rb_ui",
-        "dateFound": "2023-11-14T00:58:07.917Z"
     },
     {
         "id": "9d8bbc9c-8072-433c-b54a-99a2437e544d",
@@ -732,5 +727,11 @@ const productionExperiments = [
         "id": "8b0cb43a-720b-4775-9f98-21da360d60b1",
         "name": "ivs_player_web_gpu_transform",
         "dateFound": "2024-04-26T20:14:15.667Z"
+    },
+    {
+        "id": "1a2f2b1e-1b5f-4ded-a512-340708d17c1a",
+        "name": "partner_plus_upsell_nudge",
+        "staffOverride": "variant",
+        "dateFound": "2024-05-31T20:14:19.419Z"
     }
 ]
