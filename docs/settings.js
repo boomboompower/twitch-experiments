@@ -531,7 +531,7 @@ window.__twilightSettings = {
   "offer_claim_sync": [0, false],
   "omit_topnav_in_theatre": [1, false],
   "onboarding_agreement_api": [1, true],
-  "onboarding_degraded_alert": [1, false],
+  "onboarding_degraded_alert": [0, false],
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
