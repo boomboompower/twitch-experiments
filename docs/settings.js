@@ -517,7 +517,7 @@ window.__twilightSettings = {
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mwot_leak": false,
-  "narwhal_prime_info": [0, false],
+  "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
   "new_games_pill_rollout": [1, false],
@@ -5859,14 +5859,14 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 34441,
+      "v": 34838,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "enabled"
       }]
     },
