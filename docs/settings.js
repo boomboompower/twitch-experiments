@@ -362,6 +362,7 @@ window.__twilightSettings = {
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
+  "gs_performance_automated_mitigations": [0, false],
   "gs_performance_fir_count_threshold": 10,
   "gs_performance_freeze_count_threshold": 10,
   "gs_performance_impacted_time_ms": 30000,
