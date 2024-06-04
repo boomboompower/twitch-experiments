@@ -357,6 +357,7 @@ window.__twilightSettings = {
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
+  "gs_automatic_mitigations_release_date_iso": "2024-06-10T13:30:00Z",
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": false,
   "gs_collaborators_clips": true,
@@ -593,7 +594,7 @@ window.__twilightSettings = {
   "project_airhorn": [0, false],
   "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
-  "project_narwhal_end_date": "2024-03-30T03:59:00+00:00",
+  "project_narwhal_end_date": "2029-03-30T03:59:00+00:00",
   "project_narwhal_start_date": "2024-02-26T14:00:00+00:00",
   "project_pixie_one": [0, false],
   "Project_Polaris": [1, true],
@@ -4480,16 +4481,16 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34849,
+      "v": 34850,
       "t": 1,
       "groups": [{
-        "weight": 98,
+        "weight": 90,
         "value": "control"
       }, {
         "weight": 0,
         "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
         "weight": 0,
@@ -4498,7 +4499,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "holdback"
       }]
     },
