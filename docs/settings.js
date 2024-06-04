@@ -567,7 +567,7 @@ window.__twilightSettings = {
   "plus_program_widget": [1, true],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
-  "pp_upsell_nudge": [0, false],
+  "pp_upsell_nudge": [1, false],
   "pplus_toggle": [1, true],
   "pplus_widget": [1, true],
   "pplus-details": false,
@@ -1666,13 +1666,13 @@ window.__twilightSettings = {
     },
     "1a2f2b1e-1b5f-4ded-a512-340708d17c1a": {
       "name": "partner_plus_upsell_nudge",
-      "v": 34437,
+      "v": 34868,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
