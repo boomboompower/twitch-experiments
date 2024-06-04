@@ -6,6 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
+  "account_security_recommendation": false,
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
