@@ -367,6 +367,7 @@ window.__twilightSettings = {
   "gs_performance_freeze_count_threshold": 10,
   "gs_performance_impacted_time_ms": 30000,
   "gs_performance_nack_count_threshold": 10,
+  "gs_performance_new_window": [0, false],
   "gs_performance_pause_count_threshold": 2,
   "gs_performance_pli_count_threshold": 10,
   "gs_performance_recovering_time_ms": 120000,
@@ -3823,13 +3824,13 @@ window.__twilightSettings = {
     },
     "731eec4c-921a-44ab-84f5-ab1aa1846569": {
       "name": "mlot_moonlight",
-      "v": 34114,
+      "v": 34842,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment"
       }]
     },
@@ -4478,7 +4479,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34742,
+      "v": 34847,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -4487,7 +4488,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
         "weight": 0,
@@ -4495,6 +4496,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
+      }, {
+        "weight": 1,
+        "value": "holdback"
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
