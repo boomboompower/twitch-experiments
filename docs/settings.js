@@ -6,7 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
-  "account_security_recommendation": false,
+  "account_security_recommendation": [0, true],
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
@@ -217,7 +217,7 @@ window.__twilightSettings = {
   "cplat_dragon_journal_dashboard": [0, false],
   "cplat_dragon_journal_info": [0, true],
   "cplat_rb_cluster_enabled": true,
-  "cplat_rb_ga_rollout": false,
+  "cplat_rb_ga_rollout": true,
   "cplat_rb_ga_rollout_callout_expiry_date": "2024-07-05 00:00:00 GMT-0800",
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
@@ -440,13 +440,13 @@ window.__twilightSettings = {
   "hype_train_availability_sample_rate": 0.1,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
-  "hype_train_date_countdown": false,
+  "hype_train_date_countdown": true,
   "hype_train_end_reward_optimization": true,
   "hype_train_improved_rewards": true,
-  "hype_train_makeshift_fast_mode_allowlist": [],
+  "hype_train_makeshift_fast_mode_allowlist": ["121606712"],
   "hype_train_personalized_settings_allowlist_key": ["499158006"],
   "hype_train_personalized_settings_enabled": true,
-  "hype_train_progression_default_delay": 2000,
+  "hype_train_progression_default_delay": 1000,
   "hype_train_v2_topic": true,
   "hypechat_revenue": [1, true],
   "igdb_links_enabled": [1, true],
@@ -464,7 +464,7 @@ window.__twilightSettings = {
   "is_nami_enabled": [1, true],
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
-  "issue_cw_rollout": [0, false],
+  "issue_cw_rollout": [1, true],
   "kpsdk_deprecated_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_electron_app": [],
   "kpsdk_helpsite_url": "https://help.twitch.tv/s/article/supported-browsers",
@@ -4481,16 +4481,16 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34880,
+      "v": 34884,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
         "weight": 0,
         "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
         "weight": 0,
@@ -4499,7 +4499,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "holdback"
       }]
     },
