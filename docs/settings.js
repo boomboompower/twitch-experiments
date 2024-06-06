@@ -216,7 +216,7 @@ window.__twilightSettings = {
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_category": [0, false],
   "cplat_dragon_journal_dashboard": [0, false],
-  "cplat_dragon_journal_info": [0, true],
+  "cplat_dragon_journal_info": [1, true],
   "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": true,
   "cplat_rb_ga_rollout_callout_expiry_date": "2024-07-05 00:00:00 GMT-0800",
