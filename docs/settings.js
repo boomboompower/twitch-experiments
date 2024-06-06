@@ -369,7 +369,7 @@ window.__twilightSettings = {
   "gs_performance_freeze_count_threshold": 10,
   "gs_performance_impacted_time_ms": 30000,
   "gs_performance_nack_count_threshold": 10,
-  "gs_performance_new_window": [0, false],
+  "gs_performance_new_window": [1, true],
   "gs_performance_pause_count_threshold": 2,
   "gs_performance_pli_count_threshold": 10,
   "gs_performance_recovering_time_ms": 120000,
@@ -685,6 +685,7 @@ window.__twilightSettings = {
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
+  "show_email_marketing_opt_in": [0, false],
   "show_me_the_money": [1, false],
   "shuffle_panel_extension_recommendations": [1, false],
   "sidp_logout_all_toggle": [1, false],
@@ -4481,16 +4482,16 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 34884,
+      "v": 34891,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
         "weight": 0,
@@ -4499,7 +4500,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "holdback"
       }]
     },
