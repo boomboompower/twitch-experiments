@@ -864,13 +864,13 @@ window.__twilightSettings = {
   "experiments": {
     "00305eb2-2a2e-4bc4-947d-2663f6e318fc": {
       "name": "icon_cheer",
-      "v": 33900,
+      "v": 34902,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
