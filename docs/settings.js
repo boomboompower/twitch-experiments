@@ -3204,6 +3204,15 @@ window.__twilightSettings = {
         "value": "complete"
       }]
     },
+    "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
+      "name": "ivs_player_web_gpu_transform_staff",
+      "v": 34925,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "5a337f67-d3b2-4929-8421-98bdf542c069": {
       "name": "twilight_prime_gift_bomb_device",
       "v": 9537,
