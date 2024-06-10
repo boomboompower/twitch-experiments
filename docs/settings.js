@@ -359,7 +359,7 @@ window.__twilightSettings = {
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
-  "gs_automatic_mitigations_release_date_iso": "2024-06-10T13:30:00Z",
+  "gs_automatic_mitigations_release_date_iso": "2024-06-17T13:30:00Z",
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": false,
   "gs_collaborators_clips": true,
@@ -809,7 +809,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "turbo_ft": false,
+  "turbo_ft": true,
   "turbo_v2": [0, false],
   "Turtle": "2023-09-26T17:00:00+00:00",
   "TV2_DNR_date": "2023-09-01T17:00:00.86838Z",
@@ -4222,7 +4222,7 @@ window.__twilightSettings = {
     },
     "815c9076-15fc-4ed9-9fe3-c7c10fdd4c26": {
       "name": "cplat_rb",
-      "v": 32139,
+      "v": 34943,
       "t": 2,
       "groups": [{
         "weight": 0,
