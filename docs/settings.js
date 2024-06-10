@@ -693,6 +693,7 @@ window.__twilightSettings = {
   "shoutouts_jitter_setting": 500,
   "show_email_marketing_opt_in": [0, false],
   "show_me_the_money": [1, false],
+  "show_sh_category": false,
   "shuffle_panel_extension_recommendations": [1, false],
   "sidp_logout_all_toggle": [1, false],
   "sidp_table_toggle": [0, false],
