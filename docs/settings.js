@@ -283,7 +283,7 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
-  "dj_internal_landing": false,
+  "dj_internal_landing_feature_flag": [0, true],
   "dl_deprecation_final": [0, false],
   "dl_deprecation_warning": [1, true],
   "dma_devices_allowlist": [],
