@@ -4953,6 +4953,18 @@ window.__twilightSettings = {
         "value": "paid"
       }]
     },
+    "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d": {
+      "name": "cu-viewers",
+      "v": 34965,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "no"
+      }, {
+        "weight": 0,
+        "value": "yes"
+      }]
+    },
     "9d3df813-9a03-4663-aacd-9b121abbda14": {
       "name": "show_support_subscribe_button",
       "v": 12852,
