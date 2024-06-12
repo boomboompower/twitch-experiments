@@ -326,6 +326,7 @@ window.__twilightSettings = {
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
+  "enable_signup_phone_validation": [0, false],
   "enable_vod_tool_cluster": true,
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
