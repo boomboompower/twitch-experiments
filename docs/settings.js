@@ -664,6 +664,7 @@ window.__twilightSettings = {
   "rtj_subscription_limit": [1, false],
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
+  "sb_enabled": false,
   "sb_max": 0,
   "sb_min": 0,
   "sb_party": [0, false],
@@ -3844,13 +3845,13 @@ window.__twilightSettings = {
     },
     "731eec4c-921a-44ab-84f5-ab1aa1846569": {
       "name": "mlot_moonlight",
-      "v": 34842,
+      "v": 34978,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
