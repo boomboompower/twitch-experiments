@@ -544,11 +544,6 @@ const productionExperiments = [
         "dateFound": "2023-06-16T20:13:14.347Z"
     },
     {
-        "id": "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3",
-        "name": "auto_mod_smart_detection",
-        "dateFound": "2023-06-15T20:13:07.912Z"
-    },
-    {
         "id": "d657d493-01f3-4a2c-9d7e-f0077830273e",
         "name": "pushdown_logic_enabled",
         "dateFound": "2023-07-18T20:14:03.124Z"
