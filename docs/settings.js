@@ -2185,18 +2185,6 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
-    "2e166263-01ee-4f74-b515-4954358158c6": {
-      "name": "enable-memberships-dunning-period",
-      "v": 35008,
-      "t": 3,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }]
-    },
     "306b5fc1-d28c-4603-b2de-462d32c207bd": {
       "name": "ads_countdown_timers",
       "v": 5877,
