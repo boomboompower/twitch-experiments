@@ -196,7 +196,7 @@ window.__twilightSettings = {
   "community_sub_gifting_banner_timeouts": [0, 25, 35, 45, 55, 60, 60],
   "community-intros-15": [1, false],
   "community-moments-rollout": [1, false],
-  "concerning_hobBits": false,
+  "concerning_hobBits": true,
   "consent_banner_headline_rollout": [0, true],
   "consent_dismiss_button_rollout": [1, true],
   "consent_enabled": [1, false],
@@ -373,6 +373,7 @@ window.__twilightSettings = {
   "gs_performance_impacted_time_ms": 30000,
   "gs_performance_nack_count_threshold": 10,
   "gs_performance_new_window": [1, true],
+  "gs_performance_packet_loss_threshold": 5,
   "gs_performance_pause_count_threshold": 2,
   "gs_performance_pli_count_threshold": 10,
   "gs_performance_recovering_time_ms": 120000,
@@ -3528,13 +3529,13 @@ window.__twilightSettings = {
     },
     "640c7adc-0807-41f6-9eca-a9ecd4e410f9": {
       "name": "default_bits_rewards",
-      "v": 34607,
+      "v": 35002,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "disabled"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "enabled"
       }]
     },
