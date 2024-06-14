@@ -360,7 +360,7 @@ window.__twilightSettings = {
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
-  "gs_automatic_mitigations_release_date_iso": "2024-06-17T13:30:00Z",
+  "gs_automatic_mitigations_release_date_iso": "2024-06-30T13:30:00Z",
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": false,
   "gs_collaborators_clips": true,
@@ -6083,13 +6083,13 @@ window.__twilightSettings = {
     },
     "cdf4e83a-2246-472b-9816-0de82aba340e": {
       "name": "chat-banned-admins-rollout",
-      "v": 34605,
+      "v": 35012,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }]
     },
