@@ -733,5 +733,10 @@ const productionExperiments = [
         "name": "partner_plus_upsell_nudge",
         "staffOverride": "variant",
         "dateFound": "2024-05-31T20:14:19.419Z"
+    },
+    {
+        "id": "cdf4e83a-2246-472b-9816-0de82aba340e",
+        "name": "chat-banned-admins-rollout",
+        "dateFound": "2024-06-17T20:12:52.679Z"
     }
 ]

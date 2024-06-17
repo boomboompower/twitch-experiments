@@ -6,7 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
-  "account_security_recommendation": [0, true],
+  "account_security_recommendation": [0.1, true],
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
@@ -523,7 +523,7 @@ window.__twilightSettings = {
   "music_portal_access": [0, true],
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
-  "mweb_android_upsell_enabled": [0, false],
+  "mweb_android_upsell_enabled": [0, true],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -2966,6 +2966,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
+      "name": "am_lnu",
+      "v": 35029,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "4ef36ab5-119c-4250-91c2-83ffb789c9dd": {
       "name": "twilight_prime_override_offer",
       "v": 5425,
@@ -3865,13 +3877,13 @@ window.__twilightSettings = {
     },
     "731eec4c-921a-44ab-84f5-ab1aa1846569": {
       "name": "mlot_moonlight",
-      "v": 34978,
+      "v": 35031,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "treatment"
       }]
     },
