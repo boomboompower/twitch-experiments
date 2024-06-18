@@ -719,14 +719,14 @@ const productionExperiments = [
         "dateFound": "2024-05-09T20:13:27.624Z"
     },
     {
-        "id": "00305eb2-2a2e-4bc4-947d-2663f6e318fc",
-        "name": "icon_cheer",
-        "dateFound": "2024-04-23T20:13:27.095Z"
-    },
-    {
         "id": "8b0cb43a-720b-4775-9f98-21da360d60b1",
         "name": "ivs_player_web_gpu_transform",
         "dateFound": "2024-04-26T20:14:15.667Z"
+    },
+    {
+        "id": "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66",
+        "name": "ivs_player_web_gpu_transform_staff",
+        "dateFound": "2024-06-18T20:15:14.686Z"
     },
     {
         "id": "1a2f2b1e-1b5f-4ded-a512-340708d17c1a",

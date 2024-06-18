@@ -6,7 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
-  "account_security_recommendation": [0, true],
+  "account_security_recommendation": [0.5, true],
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
@@ -1506,6 +1506,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "12d77139-69a6-4f4e-803c-65ee2896c8fa": {
+      "name": "android_hype_train_tracking_gating",
+      "v": 35053,
+      "t": 1,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "active"
       }]
     },
     "1318509a-bf97-475d-acdc-df6a24ef6e3e": {
@@ -4216,17 +4228,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35050,
+      "v": 35056,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 90,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "variant-b"
       }]
     },
@@ -6089,7 +6101,7 @@ window.__twilightSettings = {
     },
     "cd491c78-3067-4dd9-879e-0d51110f71a8": {
       "name": "gift_bundle_discount_experiment",
-      "v": 34708,
+      "v": 35055,
       "t": 2,
       "groups": [{
         "weight": 100,
