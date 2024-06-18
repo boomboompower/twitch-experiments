@@ -6,7 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
-  "account_security_recommendation": [0.1, true],
+  "account_security_recommendation": [0, true],
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
@@ -362,7 +362,7 @@ window.__twilightSettings = {
   "gs_audio_output_settings": true,
   "gs_automatic_mitigations_release_date_iso": "2024-06-30T13:30:00Z",
   "gs_browsersource_particpant_rf_p1": true,
-  "gs_browsersource_particpant_rf_p2": false,
+  "gs_browsersource_particpant_rf_p2": true,
   "gs_collaborators_clips": true,
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
@@ -523,7 +523,7 @@ window.__twilightSettings = {
   "music_portal_access": [0, true],
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
-  "mweb_android_upsell_enabled": [0, true],
+  "mweb_android_upsell_enabled": [1, true],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -4099,16 +4099,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 34598,
+      "v": 35033,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
