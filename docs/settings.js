@@ -80,7 +80,7 @@ window.__twilightSettings = {
   "bits_world_cup_event": false,
   "bits_world_cup_event_phase_2": false,
   "Blobfish": "2023-10-01T07:00:00+00:00",
-  "blocked_term_hit_count_enabled": [0, false],
+  "blocked_term_hit_count_enabled": [1, false],
   "Boh": "2023-12-27T17:45:00Z",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
@@ -738,6 +738,8 @@ window.__twilightSettings = {
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
+  "stories_following_nav_surfaces": [0, true],
+  "stories_web": [0, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -3249,7 +3251,7 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 35080,
+      "v": 35084,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -3260,6 +3262,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "AB3_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
+      }, {
+        "weight": 0,
+        "value": "AB4_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }]
     },
     "5a337f67-d3b2-4929-8421-98bdf542c069": {
