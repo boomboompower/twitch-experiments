@@ -140,6 +140,7 @@ window.__twilightSettings = {
   "channel_enrolled_sm_mv": [1, true],
   "channel_skins_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/channel-skin/256.png",
   "channel_skins_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/channel-skin/1024.png",
+  "chat_alerts_migration": [0, false],
   "chat_client_privmsg_to_gql": true,
   "chat_connect_backoff": 4000,
   "chat_connect_timeout": 6000,
