@@ -284,6 +284,7 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
+  "dj_category": "dj",
   "dj_internal_landing_feature_flag": [0, true],
   "dl_deprecation_final": [0, false],
   "dl_deprecation_warning": [1, true],
@@ -327,7 +328,7 @@ window.__twilightSettings = {
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
-  "enable_signup_phone_validation": [0, false],
+  "enable_signup_phone_validation": [1, false],
   "enable_vod_tool_cluster": true,
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
@@ -738,8 +739,8 @@ window.__twilightSettings = {
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
-  "stories_following_nav_surfaces": [0, true],
-  "stories_web": [0, true],
+  "stories_following_nav_surfaces": [0, false],
+  "stories_web": [0, false],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -6932,14 +6933,14 @@ window.__twilightSettings = {
     },
     "e83e07cc-c09b-4546-bda3-2f688869bd10": {
       "name": "is_channel_in_direct_hype_train_triggers_v2",
-      "v": 34536,
+      "v": 35098,
       "t": 3,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "experiment"
       }]
     },
