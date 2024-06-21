@@ -6,7 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
-  "account_security_recommendation": [0.5, true],
+  "account_security_recommendation": [0.7, true],
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
@@ -43,6 +43,7 @@ window.__twilightSettings = {
   "amazon_ads_url_prime_page_us": "https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fid%3D573a4bd9-f106-f600-a392-699ceaddb160%26type%3D6%26m%3D1&ex-fch=416613&ex-src=https://www.twitch.tv/prime&ex-hargs=v%3D1.0%3Bc%3D7416603020101%3Bp%3D573A4BD9-F106-F600-A392-699CEADDB160",
   "amazon_advertising_pixel": "https://s.amazon-adsystem.com/iu3?pid=49226e71-48b6-4ccb-bf4c-f82acb404220",
   "amazon_footer_flag": [1, true],
+  "amazon_pay_cv2": [0, true],
   "amazon_pay_enabled": [1, true],
   "amv2_phase_2": [1, true],
   "amv2_phase_2_ccp": [1, false],
@@ -6121,13 +6122,13 @@ window.__twilightSettings = {
     },
     "cdf4e83a-2246-472b-9816-0de82aba340e": {
       "name": "chat-banned-admins-rollout",
-      "v": 35012,
+      "v": 35113,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
@@ -7082,6 +7083,27 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment2-15s-ping-pong"
+      }]
+    },
+    "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
+      "name": "percolite_super-fresh-experiment-1_June2024",
+      "v": 35112,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variantA"
+      }, {
+        "weight": 0,
+        "value": "variantB"
+      }, {
+        "weight": 0,
+        "value": "variantC"
+      }, {
+        "weight": 0,
+        "value": "variantD"
       }]
     },
     "ecee5139-250a-4615-861e-96671259be3a": {
