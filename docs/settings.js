@@ -2046,6 +2046,18 @@ window.__twilightSettings = {
         "value": "rb-list"
       }]
     },
+    "298493c3-dc05-4ad8-ae3f-2bee51c1293d": {
+      "name": "hackweek_trophy_case_season",
+      "v": 35123,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "season_one"
+      }, {
+        "weight": 0,
+        "value": "season_two"
+      }]
+    },
     "298a5f39-228a-487a-ad06-422c18458403": {
       "name": "twilight_merch_store_launch",
       "v": 2159,
