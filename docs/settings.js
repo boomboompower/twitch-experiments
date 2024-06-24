@@ -6,7 +6,7 @@ window.__twilightSettings = {
   "3p_save_oauth_token": [1, true],
   "account_checkup_m2": [1, true],
   "account_checkup_m3": [0.2, true],
-  "account_security_recommendation": [0.7, true],
+  "account_security_recommendation": [1, true],
   "ach_cm": [0, false],
   "ach_migration_to_rarecandy": [1, true],
   "acommand_enabled": true,
@@ -3910,13 +3910,13 @@ window.__twilightSettings = {
     },
     "731eec4c-921a-44ab-84f5-ab1aa1846569": {
       "name": "mlot_moonlight",
-      "v": 35031,
+      "v": 35150,
       "t": 1,
       "groups": [{
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "treatment"
       }]
     },
