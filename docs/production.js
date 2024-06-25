@@ -25,16 +25,6 @@ const productionExperiments = [
         "dateFound": "2022-09-29T23:27:53.000Z"
     },
     {
-        "id": "f4c2bf99-4ce0-4f69-b815-969dc434d0d4",
-        "name": "percolite-shelf-reranking-logged-out",
-        "dateFound": "2023-03-01T01:50:05.000Z"
-    },
-    {
-        "id": "469d3786-5788-4cba-b987-d1456de03de6",
-        "name": "percolite-shelf-reranking-logged-in",
-        "dateFound": "2023-03-01T01:50:05.000Z"
-    },
-    {
         "id": "d44f032c-1c84-4545-ae91-77ff485ef33a",
         "name": "studio_stinger_transition_ui",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -163,6 +153,11 @@ const productionExperiments = [
         "id": "64f5c2ae-7746-41cb-a817-983ae8bc0b4f",
         "name": "fgwpClaimingOnPGHQ",
         "dateFound": "2022-06-15T07:19:12.000Z"
+    },
+    {
+        "id": "ec866d75-9222-4ec1-8bd0-474a7b48cb51",
+        "name": "percolite_super-fresh-experiment-1_June2024",
+        "dateFound": "2024-06-25T20:14:25.084Z"
     },
     {
         "id": "dec8c935-cf8e-48fd-8429-b06001e1a7fb",

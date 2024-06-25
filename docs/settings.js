@@ -699,7 +699,7 @@ window.__twilightSettings = {
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
-  "show_email_marketing_opt_in": [0.5, false],
+  "show_email_marketing_opt_in": [1, false],
   "show_me_the_money": [1, false],
   "show_sh_category": false,
   "shuffle_panel_extension_recommendations": [1, false],
@@ -2998,14 +2998,17 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 35029,
+      "v": 35175,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
+      }, {
+        "weight": 100,
+        "value": "737771146"
       }]
     },
     "4ef36ab5-119c-4250-91c2-83ffb789c9dd": {
