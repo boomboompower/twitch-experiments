@@ -3269,16 +3269,16 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 35084,
+      "v": 35185,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "holdback"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "AB3_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }, {
         "weight": 0,
@@ -4135,16 +4135,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 35033,
+      "v": 35188,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -7102,19 +7102,19 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 35112,
+      "v": 35180,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 70,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variantA"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variantB"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variantC"
       }, {
         "weight": 0,
