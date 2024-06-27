@@ -284,7 +284,7 @@ window.__twilightSettings = {
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
-  "dj_category": "dj",
+  "dj_category": "djs",
   "dj_internal_landing_feature_flag": [0, true],
   "dl_deprecation_final": [0, false],
   "dl_deprecation_warning": [1, true],
@@ -363,7 +363,7 @@ window.__twilightSettings = {
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
-  "gs_automatic_mitigations_release_date_iso": "2024-06-30T13:30:00Z",
+  "gs_automatic_mitigations_release_date_iso": "2024-06-27T14:00:00Z",
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": true,
   "gs_collaborators_clips": true,
@@ -3282,16 +3282,16 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 35222,
+      "v": 35249,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 50,
         "value": "holdback"
       }, {
-        "weight": 10,
+        "weight": 50,
         "value": "AB3_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }, {
         "weight": 0,
@@ -3938,14 +3938,14 @@ window.__twilightSettings = {
     },
     "7340c2ee-6c66-4793-89d7-8deebc7f8b5e": {
       "name": "support_panel_simplification_v2",
-      "v": 34369,
+      "v": 35250,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 1,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "treatment_1"
       }, {
         "weight": 1,

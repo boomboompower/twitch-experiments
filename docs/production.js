@@ -714,6 +714,11 @@ const productionExperiments = [
         "dateFound": "2024-05-09T20:13:27.624Z"
     },
     {
+        "id": "99bdab4c-f5cf-490c-bbf8-4fdcab252811",
+        "name": "web_disco_hamster_switch",
+        "dateFound": "2024-06-27T20:14:31.280Z"
+    },
+    {
         "id": "8b0cb43a-720b-4775-9f98-21da360d60b1",
         "name": "ivs_player_web_gpu_transform",
         "dateFound": "2024-04-26T20:14:15.667Z"
