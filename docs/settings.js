@@ -1677,6 +1677,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "17b68e14-6200-4e8e-b306-39b423226a4a": {
+      "name": "android_copo_message_effects_rendering_enabled",
+      "v": 35230,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active_development"
+      }]
+    },
     "198744b6-e96f-413b-aaf6-eab0128c9833": {
       "name": "signup_redirect_search",
       "v": 2153,
