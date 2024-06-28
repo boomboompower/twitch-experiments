@@ -363,20 +363,21 @@ window.__twilightSettings = {
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
   "gs_audio_output_settings": true,
-  "gs_automatic_mitigations_release_date_iso": "2024-06-27T14:00:00Z",
+  "gs_automatic_mitigations_release_date_iso": "2024-06-27T21:00:00Z",
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": true,
   "gs_collaborators_clips": true,
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
-  "gs_performance_automated_mitigations": [0, false],
+  "gs_performance_automated_mitigations": [1, true],
   "gs_performance_fir_count_threshold": 10,
   "gs_performance_freeze_count_threshold": 10,
   "gs_performance_impacted_time_ms": 30000,
-  "gs_performance_nack_count_threshold": 30,
+  "gs_performance_issues_to_impacted_count": 5,
+  "gs_performance_nack_count_threshold": 50,
   "gs_performance_new_window": [1, true],
-  "gs_performance_packet_loss_threshold": 10,
+  "gs_performance_packet_loss_threshold": 15,
   "gs_performance_pause_count_threshold": 2,
   "gs_performance_pli_count_threshold": 10,
   "gs_performance_recovering_time_ms": 120000,
@@ -1517,13 +1518,13 @@ window.__twilightSettings = {
     },
     "12d77139-69a6-4f4e-803c-65ee2896c8fa": {
       "name": "android_hype_train_tracking_gating",
-      "v": 35053,
+      "v": 35256,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "active"
       }]
     },
