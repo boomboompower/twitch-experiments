@@ -1516,6 +1516,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "12b349a1-b348-4f4c-80d2-6cf9e6a6bfb8": {
+      "name": " xsolla_icons",
+      "v": 35330,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "12d77139-69a6-4f4e-803c-65ee2896c8fa": {
       "name": "android_hype_train_tracking_gating",
       "v": 35256,
@@ -1801,16 +1813,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 35131,
+      "v": 35316,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -2732,13 +2744,13 @@ window.__twilightSettings = {
     },
     "443a498c-c1fb-4cb0-9cee-d8cc2704222f": {
       "name": "bits_custom_amount",
-      "v": 33409,
+      "v": 35318,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -4278,17 +4290,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35241,
+      "v": 35332,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 0,
+        "weight": 10,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "variant-b"
       }]
     },
@@ -6662,6 +6674,18 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant1"
+      }]
+    },
+    "dd51e84b-e52b-4663-9502-6db07968f2f1": {
+      "name": "htc_1",
+      "v": 35324,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "ddd7423a-0cc1-4ad5-8b81-67a5cc57cf85": {
