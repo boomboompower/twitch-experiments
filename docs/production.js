@@ -251,16 +251,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "339010ee-1d18-4e91-8fd7-25b0848d279b",
-        "name": "vx_disco_search_suggestions_v1_logged_out",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
-        "id": "cef566dc-5836-4f83-8ca6-12839d08426c",
-        "name": "vx_disco_search_suggestions_v1_logged_in",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "2c54d222-9f10-47b1-932c-2f296ba75d1b",
         "name": "vx_disco_signup_nudge",
         "dateFound": "2022-06-15T07:19:12.000Z"

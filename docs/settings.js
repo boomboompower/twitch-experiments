@@ -5999,6 +5999,18 @@ window.__twilightSettings = {
         "value": "whatever"
       }]
     },
+    "c3f6dbf8-c926-4b11-9c78-351a313e0287": {
+      "name": "hype_train_left_nav",
+      "v": 35351,
+      "t": 3,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
+      }]
+    },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
       "v": 34838,
