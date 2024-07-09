@@ -244,7 +244,7 @@ window.__twilightSettings = {
   "CSB_flag": [1, true],
   "CSB_tracking_flag": [1, true],
   "CSI_use_xo_actions": true,
-  "cu-cr-ed": [0, false],
+  "cu-cr-ed": [0, true],
   "cu-ve": [0, false],
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": true,
@@ -279,7 +279,6 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disco_esports_sub_sunset": [1, false],
   "disco_mizukage_genjutsu": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
@@ -4290,17 +4289,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35332,
+      "v": 35339,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 10,
+        "weight": 50,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 90,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
