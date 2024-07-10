@@ -672,11 +672,11 @@ window.__twilightSettings = {
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
   "sb_enabled": false,
-  "sb_max": 0,
-  "sb_min": 0,
+  "sb_max": 5,
+  "sb_min": 2,
   "sb_party": [0, false],
-  "sb_paths": [],
-  "sb_refresh_cutoff": 0,
+  "sb_paths": ["/ibai"],
+  "sb_refresh_cutoff": 5000,
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
@@ -3332,6 +3332,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "5a504d3b-df38-41cc-a7f4-c298b917fbe9": {
+      "name": "aof-intervention-hard-block",
+      "v": 35381,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "experiment"
       }]
     },
     "5aa83e03-4b09-4387-9c30-2d03bd8f79ee": {
