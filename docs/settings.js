@@ -216,6 +216,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
+  "cplat_dragon_journal_cat_emp": [0, false],
   "cplat_dragon_journal_category": [0, false],
   "cplat_dragon_journal_dashboard": [0, false],
   "cplat_dragon_journal_info": [1, true],
@@ -1515,18 +1516,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "12b349a1-b348-4f4c-80d2-6cf9e6a6bfb8": {
-      "name": " xsolla_icons",
-      "v": 35330,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "12d77139-69a6-4f4e-803c-65ee2896c8fa": {
       "name": "android_hype_train_tracking_gating",
       "v": 35256,
@@ -2131,6 +2120,18 @@ window.__twilightSettings = {
         "value": "disable"
       }]
     },
+    "29d2dc0c-f7c3-4e51-8ad8-c1b2ae537b6b": {
+      "name": "xsolla_icons_pl",
+      "v": 35395,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "2a419c5c-16b5-48fa-83d4-a5764408545b": {
       "name": "TWILIGHT_AAX_DISPLAY_DIRECTORY_M1",
       "v": 16232,
@@ -2383,24 +2384,6 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
-    "339010ee-1d18-4e91-8fd7-25b0848d279b": {
-      "name": "vx_disco_search_suggestions_v1_logged_out",
-      "v": 29681,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
-      }, {
-        "weight": 0,
-        "value": "variant2"
-      }, {
-        "weight": 0,
-        "value": "variant3"
-      }]
-    },
     "3421e6e0-aa9e-4738-8b60-73cb6eac8dea": {
       "name": "sidenav_active_gift",
       "v": 26516,
@@ -2568,6 +2551,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "no"
+      }]
+    },
+    "3ff30f43-10a3-43ff-9f01-dc870097fbff": {
+      "name": "xsolla_icons_br",
+      "v": 35390,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
@@ -3046,6 +3041,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "on"
+      }]
+    },
+    "4efa42f6-3187-4f57-b237-c748131544fa": {
+      "name": "xsolla_icons_nl",
+      "v": 35397,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "4f82dd22-cf09-44a5-8f17-9641e0cbb3bd": {
@@ -3568,6 +3575,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "es_hd"
+      }]
+    },
+    "61d85bc1-e9e5-473a-9438-01fc9c448234": {
+      "name": "xsolla_icons_jp",
+      "v": 35389,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "61ea1641-8702-4062-a99b-15a1b7dff0c2": {
@@ -5835,6 +5854,18 @@ window.__twilightSettings = {
         "value": "vonage"
       }]
     },
+    "bb5491d5-e7d0-4870-8660-6b5fc9ded3b3": {
+      "name": "xsolla_icons_de",
+      "v": 35388,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "bb661986-5a54-4991-a49a-98fe3a3512c5": {
       "name": "empty-leaderboard-cta",
       "v": 29255,
@@ -6220,24 +6251,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "cef566dc-5836-4f83-8ca6-12839d08426c": {
-      "name": "vx_disco_search_suggestions_v1_logged_in",
-      "v": 29680,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
-      }, {
-        "weight": 0,
-        "value": "variant2"
-      }, {
-        "weight": 0,
-        "value": "variant3"
-      }]
-    },
     "cf51c206-6e43-4a5d-817f-a72669375f5d": {
       "name": "chat_happening_now_2023",
       "v": 29411,
@@ -6549,6 +6562,18 @@ window.__twilightSettings = {
     "d76d85cf-fe5c-46a0-b541-bc01c0487de6": {
       "name": "prime_gaming_crown_offer_prioritization",
       "v": 20127,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "d7d48dc9-1298-4f1c-bf54-dc6d96ce4cee": {
+      "name": "xsolla_icons_be",
+      "v": 35394,
       "t": 2,
       "groups": [{
         "weight": 100,
