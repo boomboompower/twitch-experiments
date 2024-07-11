@@ -780,7 +780,7 @@ window.__twilightSettings = {
   "sua_rollout_date": "2021-11-30T20:45:00.963Z",
   "sua_rollout_enabled": true,
   "sub_count_goal_feature_flag": [1, true],
-  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d"],
+  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512"],
   "sub_modal_tier_upsell_enabled": true,
   "Subs_Geo_Breakdown": [1, false],
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
@@ -1710,13 +1710,13 @@ window.__twilightSettings = {
     },
     "1a2f2b1e-1b5f-4ded-a512-340708d17c1a": {
       "name": "partner_plus_upsell_nudge",
-      "v": 34868,
+      "v": 35422,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -3301,19 +3301,19 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 35249,
+      "v": 35428,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 45,
         "value": "holdback"
       }, {
-        "weight": 50,
+        "weight": 45,
         "value": "AB3_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "AB4_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }]
     },
@@ -4320,17 +4320,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35339,
+      "v": 35426,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
@@ -4636,10 +4636,10 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35286,
+      "v": 35431,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 98,
         "value": "control"
       }, {
         "weight": 0,
@@ -4648,13 +4648,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
       }, {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "holdback"
       }]
     },
