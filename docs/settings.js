@@ -7799,18 +7799,6 @@ window.__twilightSettings = {
         "value": "variant1"
       }]
     },
-    "fbdd8494-4d29-4fc2-86cd-40084b1b9dfc": {
-      "name": "android_mdf_grape",
-      "v": 35436,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "active_20.4"
-      }]
-    },
     "fc1c53d9-b666-41f7-bdbc-90fa2fdbb8f4": {
       "name": "SawmillStaff",
       "v": 24755,
