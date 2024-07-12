@@ -280,7 +280,6 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disco_mizukage_genjutsu": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
@@ -434,7 +433,6 @@ window.__twilightSettings = {
   "guest_star_simplification_flag": [0, false],
   "guest_star_simplification_milestone": [0, false],
   "Haku": "2023-12-13T17:45:00Z",
-  "happens_in_vegas": false,
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -528,11 +526,11 @@ window.__twilightSettings = {
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
+  "mweb_nav_alignment": [0, false],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
-  "new_games_pill_rollout": [1, false],
   "new_live_announcements": true,
   "new_me_command": [1, false],
   "new_password_message": [0, true],
@@ -642,6 +640,7 @@ window.__twilightSettings = {
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
   "rain_dance": [1, false],
+  "raw_japanese_denim": [0, true],
   "rb_01_enabled": true,
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
@@ -798,7 +797,6 @@ window.__twilightSettings = {
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
   "switch_request_2fa_endpoint": [0, false],
-  "tagging_stream_title_first_query_disabled": false,
   "talk_gs_alpha": [1, true],
   "talk_gs_bs_audio_customization": [1, true],
   "talk_gs_join_session_tokens": [1, true],
@@ -2156,24 +2154,6 @@ window.__twilightSettings = {
         "value": "variant 1"
       }]
     },
-    "2a78981b-6bc7-41fc-8e15-b11542f4c5c9": {
-      "name": "disco_onboarding_lite",
-      "v": 29705,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "none"
-      }, {
-        "weight": 0,
-        "value": "simplified"
-      }, {
-        "weight": 0,
-        "value": "supercats"
-      }]
-    },
     "2a90d5d9-47ba-47d5-9f92-4b12a7d62ae2": {
       "name": "leftnav_recommended_promoted_streams",
       "v": 17170,
@@ -2345,18 +2325,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
-      }]
-    },
-    "32841811-2c64-41dd-b7b0-bd5fd5cd3a12": {
-      "name": "vx_disco_personalized_cards",
-      "v": 29682,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "332938cf-904f-401e-ae6c-c1295ef0e8ba": {
@@ -3623,18 +3591,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
-      }]
-    },
-    "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a": {
-      "name": "disco-merhaba",
-      "v": 29701,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "variant1"
       }]
     },
     "63ce5036-1f44-4555-9aac-1daa84571ae8": {
@@ -4907,6 +4863,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "Experiment"
+      }]
+    },
+    "96bd4101-6f72-42b8-a480-c91c36ea72ae": {
+      "name": "web_disco_dj_eligibility",
+      "v": 35445,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active"
       }]
     },
     "97354a27-2799-4195-9d86-7f75acefee52": {
@@ -7829,6 +7797,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant1"
+      }]
+    },
+    "fbdd8494-4d29-4fc2-86cd-40084b1b9dfc": {
+      "name": "android_mdf_grape",
+      "v": 35436,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active_20.4"
       }]
     },
     "fc1c53d9-b666-41f7-bdbc-90fa2fdbb8f4": {

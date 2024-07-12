@@ -30,11 +30,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "ac6aa618-bf3a-4336-9870-d2066b9ea96b",
-        "name": "vx_starting_soon_following",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "f8c43aed-0b0e-47bf-88db-5f188bac2922",
         "name": "bits_simplified_purchase",
         "dateFound": "2023-06-21T20:13:22.759Z"
@@ -341,19 +336,9 @@ const productionExperiments = [
         "dateFound": "2023-05-05T01:16:09.319Z"
     },
     {
-        "id": "63c3db43-8b1a-43ef-84d0-7c1ccfccef8a",
-        "name": "disco-merhaba",
-        "dateFound": "2023-04-06T01:19:44.000Z"
-    },
-    {
         "id": "83e7ac97-5ad9-4564-a47e-9a7814a895bc",
         "name": "disco_carousel_shelf",
         "dateFound": "2023-01-07T01:27:30.000Z"
-    },
-    {
-        "id": "2a78981b-6bc7-41fc-8e15-b11542f4c5c9",
-        "name": "disco_onboarding_lite",
-        "dateFound": "2023-04-14T01:21:21.000Z"
     },
     {
         "id": "b235449a-b882-4266-b968-0fc591fba387",
