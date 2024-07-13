@@ -442,7 +442,7 @@ window.__twilightSettings = {
   "hra_help_link": "https://help.twitch.tv/s/article/streamer-read-ads",
   "hra_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/256.png",
   "hra_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/1024.png",
-  "htc_1": [1, false],
+  "htc_1": [0, false],
   "hype_train_availability_sample_rate": 0,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
