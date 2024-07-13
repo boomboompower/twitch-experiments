@@ -316,11 +316,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "0d552a1e-eb26-4e2a-bc80-9e1da4005a5c",
-        "name": "vx_disco_follow_focus",
-        "dateFound": "2022-06-15T07:19:12.000Z"
-    },
-    {
         "id": "4664cf2d-0df6-43fb-8196-25fac34700d5",
         "name": "wysiwyg_chat_input_user_id",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -487,11 +482,6 @@ const productionExperiments = [
         "id": "e24202cd-cd09-4f39-8095-03e16a62e5cd",
         "name": "mobile_native_web_transcode_mode",
         "dateFound": "2023-03-21T01:23:02.000Z"
-    },
-    {
-        "id": "2636d29c-63ac-4c61-b1fa-ba038d9a8cfb",
-        "name": "chat_signup_gate",
-        "dateFound": "2023-04-06T01:19:44.000Z"
     },
     {
         "id": "56842994-d26e-4f5c-98bd-c6970c1835a3",
