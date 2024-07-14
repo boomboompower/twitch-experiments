@@ -866,7 +866,7 @@ window.__twilightSettings = {
   "watch_channel_update_after_pubsub_max_rps": 2000,
   "watch_history_logging_enabled": [0, false],
   "watch_playback_by_id": [1, true],
-  "watch_streak_milestones_enabled": false,
+  "watch_streak_milestones_enabled": true,
   "watch_stunt_double_channels": ["dustyis"],
   "watch_update_fragment_viewcount": [1, true],
   "watch_use_stream_status_for_liveness": [0, false],
