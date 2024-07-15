@@ -669,11 +669,6 @@ const productionExperiments = [
         "dateFound": "2024-04-25T01:00:54.280Z"
     },
     {
-        "id": "0a603b81-08db-4537-a52a-bf7b71ac6182",
-        "name": "garfield_discovery_control",
-        "dateFound": "2024-05-09T20:13:27.624Z"
-    },
-    {
         "id": "99bdab4c-f5cf-490c-bbf8-4fdcab252811",
         "name": "web_disco_hamster_switch",
         "dateFound": "2024-06-27T20:14:31.280Z"

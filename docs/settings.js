@@ -69,8 +69,6 @@ window.__twilightSettings = {
   "badge_modifiers": ["gold", "silver"],
   "banned_chat_connection": true,
   "bda_ad_edge_web": [0, true],
-  "benchmark_component_threshold": 0,
-  "benchmark_networking_threshold": 0,
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_management_devsite": [1, false],
@@ -565,7 +563,6 @@ window.__twilightSettings = {
   "pc-mdf-banner-expiry": "2024-03-27",
   "pc-new-ui": [1, true],
   "pdms_access_requests": [1, true],
-  "performance_monitoring_threshold": [0.01, 60.0],
   "persisted_queries_enabled": true,
   "persona_flow": [1, true],
   "personalized_sub_modal_phase_one": true,
@@ -4607,10 +4604,10 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35506,
+      "v": 35528,
       "t": 1,
       "groups": [{
-        "weight": 98,
+        "weight": 90,
         "value": "control"
       }, {
         "weight": 0,
@@ -4619,13 +4616,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
       }, {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "holdback"
       }]
     },
