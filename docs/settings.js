@@ -488,6 +488,7 @@ window.__twilightSettings = {
   "ltdv2_rollout_enabled": [1, false],
   "ltu_sb_release": "2022-07-21T18:59:14.055Z",
   "ltu_widget_rollout_date": "2021-11-30T20:15:50.963Z",
+  "lynx_batch_report_experiment": [0, true],
   "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
@@ -575,7 +576,7 @@ window.__twilightSettings = {
   "plus-program-widget-settings": [0, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
-  "pp_upsell_nudge": [1, false],
+  "pp_upsell_nudge": [0, false],
   "pplus_toggle": [1, true],
   "pplus_widget": [1, true],
   "pplus-details": false,
@@ -4605,10 +4606,10 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35546,
+      "v": 35557,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
         "weight": 0,
@@ -4617,13 +4618,13 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
       }, {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "holdback"
       }]
     },

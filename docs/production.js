@@ -454,11 +454,6 @@ const productionExperiments = [
         "dateFound": "2022-11-09T02:09:41.000Z"
     },
     {
-        "id": "30c1a6bc-dc5d-438c-aa3d-9be2c82b974e",
-        "name": "mandatory_email_verification",
-        "dateFound": "2022-11-10T02:03:54.000Z"
-    },
-    {
         "id": "0e629110-9517-48f7-a852-8b59678aad3c",
         "name": "project_ape",
         "dateFound": "2023-03-15T01:34:59.000Z"
@@ -674,6 +669,11 @@ const productionExperiments = [
         "dateFound": "2024-06-27T20:14:31.280Z"
     },
     {
+        "id": "96bd4101-6f72-42b8-a480-c91c36ea72ae",
+        "name": "web_disco_dj_eligibility",
+        "dateFound": "2024-07-16T20:14:32.973Z"
+    },
+    {
         "id": "8b0cb43a-720b-4775-9f98-21da360d60b1",
         "name": "ivs_player_web_gpu_transform",
         "dateFound": "2024-04-26T20:14:15.667Z"
@@ -682,6 +682,36 @@ const productionExperiments = [
         "id": "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66",
         "name": "ivs_player_web_gpu_transform_staff",
         "dateFound": "2024-06-18T20:15:14.686Z"
+    },
+    {
+        "id": "29d2dc0c-f7c3-4e51-8ad8-c1b2ae537b6b",
+        "name": "xsolla_icons_pl",
+        "dateFound": "2024-07-16T20:14:32.975Z"
+    },
+    {
+        "id": "d7d48dc9-1298-4f1c-bf54-dc6d96ce4cee",
+        "name": "xsolla_icons_be",
+        "dateFound": "2024-07-16T20:14:32.976Z"
+    },
+    {
+        "id": "4efa42f6-3187-4f57-b237-c748131544fa",
+        "name": "xsolla_icons_nl",
+        "dateFound": "2024-07-16T20:14:32.977Z"
+    },
+    {
+        "id": "3ff30f43-10a3-43ff-9f01-dc870097fbff",
+        "name": "xsolla_icons_br",
+        "dateFound": "2024-07-16T20:14:32.977Z"
+    },
+    {
+        "id": "bb5491d5-e7d0-4870-8660-6b5fc9ded3b3",
+        "name": "xsolla_icons_de",
+        "dateFound": "2024-07-16T20:14:32.978Z"
+    },
+    {
+        "id": "61d85bc1-e9e5-473a-9438-01fc9c448234",
+        "name": "xsolla_icons_jp",
+        "dateFound": "2024-07-16T20:14:32.979Z"
     },
     {
         "id": "1a2f2b1e-1b5f-4ded-a512-340708d17c1a",
