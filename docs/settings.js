@@ -280,6 +280,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
+  "disable-copo-setting": true,
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
