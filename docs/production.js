@@ -489,11 +489,6 @@ const productionExperiments = [
         "dateFound": "2023-06-21T20:13:22.761Z"
     },
     {
-        "id": "48d10e52-a85c-4594-af49-3900e3d753d1",
-        "name": "disco_followed_featured_clips",
-        "dateFound": "2023-10-17T20:13:25.557Z"
-    },
-    {
         "id": "bb661986-5a54-4991-a49a-98fe3a3512c5",
         "name": "empty-leaderboard-cta",
         "dateFound": "2023-06-16T20:13:14.347Z"

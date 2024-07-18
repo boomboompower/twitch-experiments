@@ -4245,14 +4245,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35603,
+      "v": 35618,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "variant-a"
       }, {
         "weight": 0,
@@ -6138,7 +6138,7 @@ window.__twilightSettings = {
     },
     "cd491c78-3067-4dd9-879e-0d51110f71a8": {
       "name": "gift_bundle_discount_experiment",
-      "v": 35055,
+      "v": 35611,
       "t": 2,
       "groups": [{
         "weight": 100,
