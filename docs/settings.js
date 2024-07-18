@@ -4128,13 +4128,13 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 35188,
+      "v": 35601,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
@@ -4245,14 +4245,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35426,
+      "v": 35603,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
         "weight": 0,
