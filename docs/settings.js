@@ -6997,6 +6997,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "e93ddc07-8ac7-4bf0-a51a-ea689d3d32af": {
+      "name": "mobile_ivs_player_core_bwe_seeding",
+      "v": 35656,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "e993cff0-a27f-4d74-88e8-d67c1486b4ea": {
       "name": "mads_new_path_flag",
       "v": 16639,
