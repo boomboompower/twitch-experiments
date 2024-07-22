@@ -281,7 +281,7 @@ window.__twilightSettings = {
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
-  "disable-copo-setting": true,
+  "disable-copo-setting": false,
   "disco_mi_chiamo": false,
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
@@ -576,7 +576,7 @@ window.__twilightSettings = {
   "pin_cheer_block_list": [],
   "plus_program_qualification_table": [1, false],
   "plus_program_widget": [1, true],
-  "plus-program-widget-settings": [0, false],
+  "plus-program-widget-settings": [1, false],
   "poliwag_rollout": [1, true],
   "powerful-piplup": true,
   "pp_upsell_nudge": [0, false],
@@ -625,7 +625,6 @@ window.__twilightSettings = {
   "qna_enabled": false,
   "qol_badges_launch": false,
   "quests_started_reports_date": "2024-07-17",
-  "quick_actions_pause_raids_date": "2022-09-26 13:00:00 GMT-0700",
   "quick_actions_sanitization_check": [1, false],
   "radio_add_tracks_soundtrack_playlist": [1, true],
   "radio_create_soundtrack_playlist": [1, true],
@@ -862,7 +861,6 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
-  "vxp_blockbuster_creator_enabled": [1, true],
   "watch_avatar_roundification": [1, false],
   "watch_avatar_roundification_notification": [0, false],
   "watch_channel_update_after_pubsub_max_rps": 2000,
@@ -2826,21 +2824,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "48d10e52-a85c-4594-af49-3900e3d753d1": {
-      "name": "disco_followed_featured_clips",
-      "v": 31686,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant1"
-      }, {
-        "weight": 0,
-        "value": "variant2"
-      }]
-    },
     "49083595-80d4-4c13-93a2-20a605b3318e": {
       "name": "Player Core WASM experiment",
       "v": 6558,
@@ -4253,14 +4236,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35662,
+      "v": 35689,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "base"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-a"
       }, {
         "weight": 0,
