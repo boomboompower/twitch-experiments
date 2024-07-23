@@ -3836,6 +3836,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "7207f317-f72c-4956-8a96-0af6567f52e6": {
+      "name": "automod_smart_detection_multilanguage",
+      "v": 35725,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "7217503e-8217-4ed3-bb04-32e1a4894d26": {
       "name": "personalized_crown_menu_2023",
       "v": 28525,
@@ -4553,8 +4565,9 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35580,
+      "v": 35728,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -4565,14 +4578,14 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
       }, {
-        "weight": 50,
-        "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
-      }, {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
         "weight": 50,
         "value": "holdback"
+      }, {
+        "weight": 50,
+        "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
@@ -5888,19 +5901,6 @@ window.__twilightSettings = {
         "value": "bits_landing_page_new_copy"
       }]
     },
-    "c239b7eb-36ce-4b64-bf13-13ee0a6f99c3": {
-      "name": "auto_mod_smart_detection",
-      "v": 30637,
-      "t": 3,
-      "s": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "treatment"
-      }, {
-        "weight": 0,
-        "value": "control"
-      }]
-    },
     "c2478c4d-8ba4-4403-a7c6-da5907480989": {
       "name": "persistent_goals",
       "v": 25703,
@@ -5978,14 +5978,14 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 35670,
+      "v": 35719,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "enabled"
       }]
     },
