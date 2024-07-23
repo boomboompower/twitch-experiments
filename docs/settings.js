@@ -246,7 +246,7 @@ window.__twilightSettings = {
   "CSB_flag": [1, true],
   "CSB_tracking_flag": [1, true],
   "CSI_use_xo_actions": true,
-  "cu-cr-ed": [0, true],
+  "cu-cr-ed": [1, true],
   "cu-ve": [0, false],
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": true,
@@ -369,6 +369,7 @@ window.__twilightSettings = {
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": true,
   "gs_collaborators_clips": true,
+  "gs_dashboard_browsersource_callout": [0, false],
   "gs_dropins_alpha": [1, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
@@ -5216,6 +5217,15 @@ window.__twilightSettings = {
         "value": "t2"
       }]
     },
+    "a5622528-6814-4cbf-b845-bda51e061853": {
+      "name": "amazonpay_cv2_migration",
+      "v": 35699,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "a5a06042-3edd-400b-bb49-c06beb3480a0": {
       "name": "creator_defined_benefits",
       "v": 12057,
@@ -6060,13 +6070,13 @@ window.__twilightSettings = {
     },
     "ca0e81a6-93f8-4b90-9cb3-747b1769d4fd": {
       "name": "dropins_add_favorites_home_card",
-      "v": 32037,
+      "v": 35703,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant"
       }]
     },
