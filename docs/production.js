@@ -464,6 +464,16 @@ const productionExperiments = [
         "dateFound": "2023-01-13T01:39:25.000Z"
     },
     {
+        "id": "2e166263-01ee-4f74-b515-4954358158c6",
+        "name": "enable-memberships-dunning-period",
+        "dateFound": "2024-07-24T01:06:58.130Z"
+    },
+    {
+        "id": "7a6e0909-a506-4da6-a0a4-7177771e1c6d",
+        "name": "enable-memberships-dunning-period-traffic",
+        "dateFound": "2024-07-24T01:06:58.132Z"
+    },
+    {
         "id": "a79fd789-8561-450e-881e-133517728556",
         "name": "csai_preroll_pbyp_exp",
         "dateFound": "2023-04-05T01:09:42.000Z"

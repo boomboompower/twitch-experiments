@@ -447,7 +447,7 @@ window.__twilightSettings = {
   "hra_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/256.png",
   "hra_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/1024.png",
   "htc_1": [0, false],
-  "hype_train_availability_sample_rate": 0,
+  "hype_train_availability_sample_rate": 0.01,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
   "hype_train_date_countdown": true,
@@ -707,7 +707,7 @@ window.__twilightSettings = {
   "shoutouts_jitter_setting": 500,
   "show_email_marketing_opt_in": [1, false],
   "show_me_the_money": [1, false],
-  "show_sh_category": false,
+  "show_sh_category": true,
   "shuffle_panel_extension_recommendations": [1, false],
   "sidp_logout_all_toggle": [1, false],
   "sidp_table_toggle": [0, false],
@@ -1502,13 +1502,13 @@ window.__twilightSettings = {
     },
     "12d77139-69a6-4f4e-803c-65ee2896c8fa": {
       "name": "android_hype_train_tracking_gating",
-      "v": 35256,
+      "v": 35739,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "active"
       }]
     },
@@ -1785,16 +1785,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 35584,
+      "v": 35736,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
