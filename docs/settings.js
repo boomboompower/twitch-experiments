@@ -523,6 +523,7 @@ window.__twilightSettings = {
   "mods_goodbye_takeover": true,
   "Mosquito": "2023-08-31T17:00:00+00:00",
   "motivation_lvf_flag": [1, false],
+  "mpu_portals": [0, false],
   "mtab_release": [1, false],
   "multi_month_gifting": true,
   "multihost_eventing_migration": [0, false],
@@ -2915,6 +2916,18 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
+    "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a": {
+      "name": "amazonpay_cv2_migration_frontend",
+      "v": 35780,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "4d3d19a7-38c5-4328-9730-7d99565d5edd": {
       "name": "twilight_premiere_upload_flow",
       "v": 2851,
@@ -4568,11 +4581,11 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35728,
+      "v": 35778,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 80,
         "value": "control"
       }, {
         "weight": 0,
@@ -4584,10 +4597,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
       }, {
-        "weight": 50,
+        "weight": 10,
         "value": "holdback"
       }, {
-        "weight": 50,
+        "weight": 10,
         "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
       }]
     },
@@ -5037,13 +5050,13 @@ window.__twilightSettings = {
     },
     "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d": {
       "name": "cu-viewers",
-      "v": 34965,
+      "v": 35774,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "no"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "yes"
       }]
     },
@@ -5235,11 +5248,14 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 35699,
+      "v": 35779,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "a5a06042-3edd-400b-bb49-c06beb3480a0": {
