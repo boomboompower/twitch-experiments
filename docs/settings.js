@@ -1786,16 +1786,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 35736,
+      "v": 35783,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -4097,13 +4097,13 @@ window.__twilightSettings = {
     },
     "7a6e0909-a506-4da6-a0a4-7177771e1c6d": {
       "name": "enable-memberships-dunning-period-traffic",
-      "v": 35204,
+      "v": 35791,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
