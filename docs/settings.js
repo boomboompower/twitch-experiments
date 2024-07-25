@@ -300,7 +300,7 @@ window.__twilightSettings = {
   "dont_report_non_overlapping_obstructions": [1, false],
   "double_phone_verification": [1, false],
   "double_phone_verification_with_sync": [1, false],
-  "drop-ins-left-nav": true,
+  "drop-ins-left-nav": false,
   "drops_10_devsite_decommission": true,
   "drops_2_time_based_ui_enabled": true,
   "drops_2_ui_enabled": true,
@@ -370,7 +370,7 @@ window.__twilightSettings = {
   "gs_browsersource_particpant_rf_p2": true,
   "gs_collaborators_clips": true,
   "gs_dashboard_browsersource_callout": [0, false],
-  "gs_dropins_alpha": [1, false],
+  "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
   "gs_performance_automated_mitigations": [1, true],
@@ -850,6 +850,7 @@ window.__twilightSettings = {
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
+  "venmo_feature_flag": false,
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -2182,13 +2183,13 @@ window.__twilightSettings = {
     },
     "2e166263-01ee-4f74-b515-4954358158c6": {
       "name": "enable-memberships-dunning-period",
-      "v": 35008,
+      "v": 35804,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -4097,13 +4098,13 @@ window.__twilightSettings = {
     },
     "7a6e0909-a506-4da6-a0a4-7177771e1c6d": {
       "name": "enable-memberships-dunning-period-traffic",
-      "v": 35791,
+      "v": 35798,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 100,
         "value": "treatment"
       }]
     },

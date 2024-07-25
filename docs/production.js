@@ -728,5 +728,10 @@ const productionExperiments = [
         "id": "cdf4e83a-2246-472b-9816-0de82aba340e",
         "name": "chat-banned-admins-rollout",
         "dateFound": "2024-06-17T20:12:52.679Z"
+    },
+    {
+        "id": "7207f317-f72c-4956-8a96-0af6567f52e6",
+        "name": "automod_smart_detection_multilanguage",
+        "dateFound": "2024-07-25T20:15:19.441Z"
     }
 ]
