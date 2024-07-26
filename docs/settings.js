@@ -288,6 +288,7 @@ window.__twilightSettings = {
   "display_dma_banner": [0, false],
   "dj_category": "djs",
   "dj_internal_landing_feature_flag": [0, true],
+  "dj_subsidy_dashboard": false,
   "dl_deprecation_final": [0, false],
   "dl_deprecation_warning": [1, true],
   "dma_devices_allowlist": [],
