@@ -706,7 +706,6 @@ window.__twilightSettings = {
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
-  "show_email_marketing_opt_in": [1, false],
   "show_me_the_money": [1, false],
   "show_sh_category": true,
   "shuffle_panel_extension_recommendations": [1, false],
@@ -2183,13 +2182,13 @@ window.__twilightSettings = {
     },
     "2e166263-01ee-4f74-b515-4954358158c6": {
       "name": "enable-memberships-dunning-period",
-      "v": 35804,
+      "v": 35818,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "treatment"
       }]
     },
