@@ -748,7 +748,6 @@ window.__twilightSettings = {
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
-  "stories_following_nav_surfaces": [0, false],
   "stories_web": [0, false],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
@@ -2183,13 +2182,13 @@ window.__twilightSettings = {
     },
     "2e166263-01ee-4f74-b515-4954358158c6": {
       "name": "enable-memberships-dunning-period",
-      "v": 35828,
+      "v": 35842,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -3238,7 +3237,7 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 35770,
+      "v": 35835,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3246,9 +3245,6 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "holdback"
-      }, {
-        "weight": 0,
-        "value": "AB3_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }, {
         "weight": 50,
         "value": "AB4_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
@@ -3261,6 +3257,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "staff_debug_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsiKiJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOmZhbHNlLCJtb25pdG9ySW50ZXJ2YWxNcyI6NTAwMCwiZnJhbWVSYXRlRGlmZlBlcmNlbnRhZ2UiOjAuMjUsImZyYW1lQ291bnREaWZmUGVyY2VudGFnZSI6MC4yNX0sIm1vZGVsIjp7ImVuYWJsZSI6dHJ1ZSwiaW5wdXRSZXNvbHV0aW9uQXJlYUJhbmQiOlswLDI0NTc2MDBdLCJzY2FsZUZhY3RvciI6MS4zM30sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjEsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiaW5mbyIsInN0YXR1c0ludGVydmFsTXMiOjUwMDB9LCJyZW5kZXIiOnsiZGVidWciOnRydWV9fQ=="
+      }, {
+        "weight": 0,
+        "value": "holdback2"
       }]
     },
     "5a337f67-d3b2-4929-8421-98bdf542c069": {
@@ -4582,27 +4581,18 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35778,
+      "v": 35843,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
-        "value": "AB1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6ZmFsc2UsImFsbG93X2NhbnZhc192aXNpYmxlIjpmYWxzZSwiaW5pdF90cmFuc2Zvcm1lciI6ZmFsc2UsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
-      }, {
-        "weight": 0,
-        "value": "AB2_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6ZmFsc2V9fQ=="
-      }, {
-        "weight": 0,
-        "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX19"
-      }, {
-        "weight": 10,
+        "weight": 50,
         "value": "holdback"
       }, {
-        "weight": 10,
-        "value": "AB3_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOmZhbHNlLCJhZGRfY2FudmFzX3RvX3N1cmZhY2UiOmZhbHNlLCJhbGxvd19jYW52YXNfdmlzaWJsZSI6ZmFsc2UsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19fX0="
+        "weight": 50,
+        "value": "holdback2"
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
