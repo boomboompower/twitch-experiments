@@ -851,6 +851,7 @@ window.__twilightSettings = {
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
   "venmo_feature_flag": false,
+  "venmo_us_allowlist": ["796183535"],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -3238,16 +3239,16 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 35835,
+      "v": 35886,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 10,
         "value": "holdback"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "AB4_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsib3ZlcnJpZGVzIjp7ImFyY2hpdGVjdHVyZXMiOlsiKiJdLCJ2ZW5kb3JzIjpbIioiXX19LCJsb2dMZXZlbCI6ImRlYnVnIn19"
       }, {
         "weight": 0,
@@ -3259,8 +3260,8 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "staff_debug_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsiKiJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOmZhbHNlLCJtb25pdG9ySW50ZXJ2YWxNcyI6NTAwMCwiZnJhbWVSYXRlRGlmZlBlcmNlbnRhZ2UiOjAuMjUsImZyYW1lQ291bnREaWZmUGVyY2VudGFnZSI6MC4yNX0sIm1vZGVsIjp7ImVuYWJsZSI6dHJ1ZSwiaW5wdXRSZXNvbHV0aW9uQXJlYUJhbmQiOlswLDI0NTc2MDBdLCJzY2FsZUZhY3RvciI6MS4zM30sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjEsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiaW5mbyIsInN0YXR1c0ludGVydmFsTXMiOjUwMDB9LCJyZW5kZXIiOnsiZGVidWciOnRydWV9fQ=="
       }, {
-        "weight": 0,
-        "value": "holdback2"
+        "weight": 10,
+        "value": "AB4.5_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJudmlkaWEiXSwidmVuZG9ycyI6WyJhbXBlcmUiLCJsb3ZlbGFjZSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwibW9kZWwiOnsiZW5hYmxlIjp0cnVlLCJpbnB1dFJlc29sdXRpb25BcmVhQmFuZCI6WzkyMTYwMCw5MjE2MDBdLCJzY2FsZUZhY3RvciI6MS41fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTAsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiaW5mbyIsInN0YXR1c0ludGVydmFsTXMiOjUwMDB9LCJyZW5kZXIiOnsiZGVidWciOmZhbHNlfX0="
       }]
     },
     "5a337f67-d3b2-4929-8421-98bdf542c069": {
@@ -4149,7 +4150,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 35860,
+      "v": 35884,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -4158,10 +4159,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -4266,17 +4267,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35859,
+      "v": 35883,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "variant-b"
       }]
     },
@@ -4849,13 +4850,13 @@ window.__twilightSettings = {
     },
     "96bd4101-6f72-42b8-a480-c91c36ea72ae": {
       "name": "web_disco_dj_eligibility",
-      "v": 35445,
+      "v": 35881,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "active"
       }]
     },
