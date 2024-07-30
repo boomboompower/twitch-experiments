@@ -730,6 +730,11 @@ const productionExperiments = [
         "dateFound": "2024-06-17T20:12:52.679Z"
     },
     {
+        "id": "dd51e84b-e52b-4663-9502-6db07968f2f1",
+        "name": "htc_1",
+        "dateFound": "2024-07-30T20:14:04.729Z"
+    },
+    {
         "id": "7207f317-f72c-4956-8a96-0af6567f52e6",
         "name": "automod_smart_detection_multilanguage",
         "dateFound": "2024-07-25T20:15:19.441Z"
