@@ -703,7 +703,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
-  "shared-chat-feature-flag": [0, false],
+  "shared-chat-feature-flag": [0.01, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
@@ -850,7 +850,6 @@ window.__twilightSettings = {
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
-  "venmo_us_allowlist": ["796183535"],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -3820,6 +3819,18 @@ window.__twilightSettings = {
         "value": "claim_free_with_prime"
       }]
     },
+    "6e4845fb-6097-49f9-88db-31387d48fcd6": {
+      "name": "vat_prefetch",
+      "v": 35913,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "6e7a704f-7d2f-4cb4-ba1d-29a1ab074d01": {
       "name": "na-panmeh",
       "v": 25112,
@@ -3870,13 +3881,13 @@ window.__twilightSettings = {
     },
     "7207f317-f72c-4956-8a96-0af6567f52e6": {
       "name": "automod_smart_detection_multilanguage",
-      "v": 35725,
+      "v": 35905,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
