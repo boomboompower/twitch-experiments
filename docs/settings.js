@@ -5294,6 +5294,15 @@ window.__twilightSettings = {
         "value": "blurb_and_benefits"
       }]
     },
+    "a5c3a8f0-d293-4597-af87-f0352c58d1b3": {
+      "name": "ivs_web_player_device_config_prod_test",
+      "v": 35918,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "a636f65d-912c-43c8-9a28-bb88babacfca": {
       "name": "gwcc_verification_volume_row",
       "v": 34740,
