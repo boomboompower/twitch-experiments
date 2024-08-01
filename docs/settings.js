@@ -556,6 +556,7 @@ window.__twilightSettings = {
   "one_click_subs_enabled": [1, false],
   "open-calling": [0, false],
   "open-collaboration-darklaunch": [0, false],
+  "open-collaboration-dashboard-onboarding": false,
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
@@ -1789,16 +1790,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 35783,
+      "v": 35931,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -4995,13 +4996,13 @@ window.__twilightSettings = {
     },
     "99bdab4c-f5cf-490c-bbf8-4fdcab252811": {
       "name": "web_disco_hamster_switch",
-      "v": 34642,
+      "v": 35934,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "active"
       }]
     },
