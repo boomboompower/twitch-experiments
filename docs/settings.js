@@ -328,6 +328,7 @@ window.__twilightSettings = {
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
   "enable_client_type": true,
+  "enable_clip_asset_durations_logging": false,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
