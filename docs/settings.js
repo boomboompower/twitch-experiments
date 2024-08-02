@@ -217,9 +217,9 @@ window.__twilightSettings = {
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
-  "cplat_dragon_journal_cat_emp": [0, false],
+  "cplat_dragon_journal_cat_emp": [1, true],
   "cplat_dragon_journal_category": [0, false],
-  "cplat_dragon_journal_dashboard": [0, false],
+  "cplat_dragon_journal_dashboard": [1, true],
   "cplat_dragon_journal_info": [1, true],
   "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": true,
@@ -397,6 +397,7 @@ window.__twilightSettings = {
   "guest_star_bug_reporting_dialog": [1, true],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
+  "guest_star_costreaming_simplification_enabled": false,
   "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
@@ -566,6 +567,7 @@ window.__twilightSettings = {
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [1, true],
   "payout_onboarding_container_v2": [1, true],
+  "payout_rtpp": [0, false],
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
@@ -651,7 +653,7 @@ window.__twilightSettings = {
   "radio_update_soundtrack_playlist": [1, true],
   "radio-track-promotion-v0": [1, true],
   "rain_dance": [1, false],
-  "raw_japanese_denim": [0, true],
+  "raw_japanese_denim": [1, true],
   "rb_01_enabled": true,
   "recurly_cc_disabled_countries": [],
   "recurly_enabled": [1, true],
@@ -706,6 +708,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
+  "shared-chat-beta-flag": [0, false],
   "shared-chat-feature-flag": [0, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
@@ -3825,7 +3828,7 @@ window.__twilightSettings = {
     },
     "6e4845fb-6097-49f9-88db-31387d48fcd6": {
       "name": "vat_prefetch",
-      "v": 35913,
+      "v": 35961,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -4996,13 +4999,13 @@ window.__twilightSettings = {
     },
     "99bdab4c-f5cf-490c-bbf8-4fdcab252811": {
       "name": "web_disco_hamster_switch",
-      "v": 35934,
+      "v": 35949,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 100,
         "value": "active"
       }]
     },
