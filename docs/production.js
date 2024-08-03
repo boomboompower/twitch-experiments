@@ -738,5 +738,10 @@ const productionExperiments = [
         "id": "7207f317-f72c-4956-8a96-0af6567f52e6",
         "name": "automod_smart_detection_multilanguage",
         "dateFound": "2024-07-25T20:15:19.441Z"
+    },
+    {
+        "id": "6e4845fb-6097-49f9-88db-31387d48fcd6",
+        "name": "vat_prefetch",
+        "dateFound": "2024-08-03T01:05:29.356Z"
     }
 ]
