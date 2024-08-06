@@ -489,7 +489,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "plz"],
+  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
   "ltdv2_rollout_enabled": [1, false],
@@ -2976,7 +2976,7 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 35175,
+      "v": 36006,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -2986,7 +2986,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 100,
-        "value": "737771146"
+        "value": "737767337"
       }]
     },
     "4ef36ab5-119c-4250-91c2-83ffb789c9dd": {
@@ -3831,13 +3831,13 @@ window.__twilightSettings = {
     },
     "6e4845fb-6097-49f9-88db-31387d48fcd6": {
       "name": "vat_prefetch",
-      "v": 35989,
+      "v": 36003,
       "t": 1,
       "groups": [{
-        "weight": 99,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -4618,20 +4618,20 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 35996,
+      "v": 36005,
       "t": 1,
       "s": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 99,
+        "weight": 95,
         "value": "holdback"
       }, {
         "weight": 0,
         "value": "holdback2"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "AB4_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJhbXBlcmUiLCJsb3ZlbGFjZSJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwibW9kZWwiOnsiZW5hYmxlIjpmYWxzZSwiaW5wdXRSZXNvbHV0aW9uQXJlYUJhbmQiOls5MjE2MDAsOTIxNjAwXSwic2NhbGVGYWN0b3IiOjEuNX0sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjUwLCJpbmNsdWRlUmVjZWl2ZURlbGF5IjpmYWxzZX19LCJsb2dMZXZlbCI6Indhcm4iLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
       }]
     },
@@ -6530,13 +6530,13 @@ window.__twilightSettings = {
     },
     "d671f316-ce88-42c0-963a-81ccdf8c68a7": {
       "name": "auto_pinned_cheers",
-      "v": 33485,
+      "v": 35999,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -6719,7 +6719,7 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 35324,
+      "v": 36000,
       "t": 2,
       "groups": [{
         "weight": 100,
