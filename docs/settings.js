@@ -1264,7 +1264,7 @@ window.__twilightSettings = {
     },
     "0d2af185-1195-4816-a13a-8b2fa9fc8cd9": {
       "name": "social_proof_left_nav",
-      "v": 16023,
+      "v": 36008,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -1315,7 +1315,7 @@ window.__twilightSettings = {
     },
     "0dc9a9c9-fee5-4b5f-a462-f07675713e5e": {
       "name": "TWILIGHT_FOLLOWING_INDEX_LATEST_VIDEOS_V2",
-      "v": 5983,
+      "v": 36009,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1405,7 +1405,7 @@ window.__twilightSettings = {
     },
     "10c75b60-f4c7-460b-99c8-e5caa22fd61f": {
       "name": "twilight_web_side_nav_upsell_center",
-      "v": 4183,
+      "v": 36010,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1522,7 +1522,7 @@ window.__twilightSettings = {
     },
     "1318509a-bf97-475d-acdc-df6a24ef6e3e": {
       "name": "twilight_videos_in_sidenav",
-      "v": 2842,
+      "v": 36031,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -1926,7 +1926,7 @@ window.__twilightSettings = {
     },
     "24a9fd71-71a6-4d1a-890a-9c61a6475f7e": {
       "name": "flix_promoter_rollout",
-      "v": 10004,
+      "v": 36030,
       "t": 1,
       "s": 1,
       "groups": [{
@@ -2050,7 +2050,7 @@ window.__twilightSettings = {
     },
     "29a37cfd-6a34-4624-970f-6b155b40636b": {
       "name": "twilight_web_onboarding_randomized_games",
-      "v": 3101,
+      "v": 36029,
       "t": 2,
       "groups": [{
         "weight": 1,
@@ -2122,7 +2122,7 @@ window.__twilightSettings = {
     },
     "2a90d5d9-47ba-47d5-9f92-4b12a7d62ae2": {
       "name": "leftnav_recommended_promoted_streams",
-      "v": 17170,
+      "v": 36028,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -2146,7 +2146,7 @@ window.__twilightSettings = {
     },
     "2c169854-dedd-41d0-8e55-a20ce75424ec": {
       "name": "leftnav_li_similarity_isolated",
-      "v": 12162,
+      "v": 36012,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -2789,7 +2789,7 @@ window.__twilightSettings = {
     },
     "469d3786-5788-4cba-b987-d1456de03de6": {
       "name": "percolite-shelf-reranking-logged-in",
-      "v": 34783,
+      "v": 36027,
       "t": 2,
       "s": 2,
       "groups": [{
@@ -3389,7 +3389,7 @@ window.__twilightSettings = {
     },
     "5c8e4a59-8c63-4000-9c4e-6224f34b7c21": {
       "name": "twilight_web_onboarding_channel_surfing",
-      "v": 4245,
+      "v": 36026,
       "t": 2,
       "groups": [{
         "weight": 0,
@@ -3669,7 +3669,7 @@ window.__twilightSettings = {
     },
     "6699df7d-9f23-494c-87a1-06fdf80f1e68": {
       "name": "twilight_video_card_updates",
-      "v": 3893,
+      "v": 36025,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3693,7 +3693,7 @@ window.__twilightSettings = {
     },
     "66f6afb6-e637-48af-ad0b-9b8913bc58be": {
       "name": "leftnav_following_promoted_sponsorships",
-      "v": 35581,
+      "v": 36024,
       "t": 2,
       "groups": [{
         "weight": 5,
@@ -3726,7 +3726,7 @@ window.__twilightSettings = {
     },
     "6a244f0e-2e97-4039-b631-4e9e138fe9d3": {
       "name": "picture_by_picture_player_resize",
-      "v": 17535,
+      "v": 36023,
       "t": 1,
       "groups": [{
         "weight": 97,
@@ -3991,7 +3991,7 @@ window.__twilightSettings = {
     },
     "74156eb2-ed95-482c-b006-60c1428e8846": {
       "name": "twilight_web_onboarding_channel_ranking",
-      "v": 3463,
+      "v": 36022,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -4025,7 +4025,7 @@ window.__twilightSettings = {
     },
     "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
       "name": "homepage_headliner_redesign",
-      "v": 26232,
+      "v": 36021,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -4737,7 +4737,7 @@ window.__twilightSettings = {
     },
     "8e25c5be-b20f-44c3-834f-62c447c627aa": {
       "name": "leftnav_affinity_sorted_follows",
-      "v": 13367,
+      "v": 36020,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -4952,7 +4952,7 @@ window.__twilightSettings = {
     },
     "98268c27-df2b-42e9-bf41-01cc64564f6d": {
       "name": "leftnav_li_similarity",
-      "v": 11710,
+      "v": 36011,
       "t": 2,
       "s": 2,
       "groups": [{
@@ -5393,7 +5393,7 @@ window.__twilightSettings = {
     },
     "a9667563-723a-4cf7-b253-674d9eef0a53": {
       "name": "twilight_web_onboarding_user",
-      "v": 2506,
+      "v": 36013,
       "t": 2,
       "groups": [{
         "weight": 1,
@@ -5567,7 +5567,7 @@ window.__twilightSettings = {
     },
     "aeb24e23-67f8-4937-b0fb-57ba9ae2dcf2": {
       "name": "leftnav_lo_similarity_isolated",
-      "v": 13090,
+      "v": 36014,
       "t": 1,
       "groups": [{
         "weight": 1,
@@ -5914,7 +5914,7 @@ window.__twilightSettings = {
     },
     "bd9234fc-3c40-45f6-a544-868478744ba7": {
       "name": "featured_collection_disable",
-      "v": 6184,
+      "v": 36015,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -6195,7 +6195,7 @@ window.__twilightSettings = {
     },
     "cc5fd3e8-7afb-41e4-ab62-29546e226dc8": {
       "name": "leftnav_lo_similarity",
-      "v": 11706,
+      "v": 36016,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -6283,7 +6283,7 @@ window.__twilightSettings = {
     },
     "d005a5ce-4785-4b60-a383-bf08aee73589": {
       "name": "tv_guide",
-      "v": 14680,
+      "v": 36019,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -6313,7 +6313,7 @@ window.__twilightSettings = {
     },
     "d0542db7-8405-42be-a2b7-eb386bdfe34b": {
       "name": "remind_me_on_channel_search",
-      "v": 13336,
+      "v": 36017,
       "t": 2,
       "groups": [{
         "weight": 1,
@@ -7439,7 +7439,7 @@ window.__twilightSettings = {
     },
     "f1825646-3eac-4bac-8be3-ab9f736b7dd8": {
       "name": "new_search_backend",
-      "v": 5622,
+      "v": 36018,
       "t": 1,
       "groups": [{
         "weight": 100,
