@@ -490,7 +490,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
+  "live_payments_banners": [],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
   "ltdv2_rollout_enabled": [1, false],
@@ -3206,7 +3206,7 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 36114,
+      "v": 36122,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3217,6 +3217,12 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "AB4.5_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJhbXBlcmUiLCJsb3ZlbGFjZSIsImNvbW1vbi0zIl0sInZlbmRvcnMiOlsiYXBwbGUiLCJudmlkaWEiXX0sInRyYW5zZm9ybWVyIjp7Im1vbml0b3IiOnsiZW5hYmxlIjp0cnVlLCJtb25pdG9ySW50ZXJ2YWxNcyI6NTAwMCwiZnJhbWVSYXRlRGlmZlBlcmNlbnRhZ2UiOjAuMjUsImZyYW1lQ291bnREaWZmUGVyY2VudGFnZSI6MC4yNX0sIm1vZGVsIjp7ImVuYWJsZSI6dHJ1ZSwiaW5wdXRSZXNvbHV0aW9uQXJlYUJhbmQiOls5MjE2MDAsOTIxNjAwXSwic2NhbGVGYWN0b3IiOjEuNX0sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjUwLCJpbmNsdWRlUmVjZWl2ZURlbGF5IjpmYWxzZX19LCJsb2dMZXZlbCI6ImluZm8iLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
+      }, {
+        "weight": 0,
+        "value": "staff_debug_720p_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJhbXBlcmUiLCJsb3ZlbGFjZSIsImNvbW1vbi0zIl0sInZlbmRvcnMiOlsibnZpZGlhIiwiYXBwbGUiXX0sInRyYW5zZm9ybWVyIjp7Im1vbml0b3IiOnsiZW5hYmxlIjpmYWxzZSwibW9uaXRvckludGVydmFsTXMiOjUwMDAsImZyYW1lUmF0ZURpZmZQZXJjZW50YWdlIjowLjI1LCJmcmFtZUNvdW50RGlmZlBlcmNlbnRhZ2UiOjAuMjV9LCJtb2RlbCI6eyJlbmFibGUiOnRydWUsImlucHV0UmVzb2x1dGlvbkFyZWFCYW5kIjpbOTIxNjAwLDkyMTYwMF0sInNjYWxlRmFjdG9yIjoxLjV9LCJwaXBlbGluZSI6eyJtaW5pbXVtRnJhbWVyYXRlIjoxLCJpbmNsdWRlUmVjZWl2ZURlbGF5IjpmYWxzZX19LCJsb2dMZXZlbCI6ImluZm8iLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
+      }, {
+        "weight": 0,
+        "value": "staff_debug_1080p_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJhbXBlcmUiLCJsb3ZlbGFjZSIsImNvbW1vbi0zIl0sInZlbmRvcnMiOlsibnZpZGlhIiwiYXBwbGUiXX0sInRyYW5zZm9ybWVyIjp7Im1vbml0b3IiOnsiZW5hYmxlIjpmYWxzZSwibW9uaXRvckludGVydmFsTXMiOjUwMDAsImZyYW1lUmF0ZURpZmZQZXJjZW50YWdlIjowLjI1LCJmcmFtZUNvdW50RGlmZlBlcmNlbnRhZ2UiOjAuMjV9LCJtb2RlbCI6eyJlbmFibGUiOnRydWUsImlucHV0UmVzb2x1dGlvbkFyZWFCYW5kIjpbOTIxNjAwLDIwNzM2MDBdLCJzY2FsZUZhY3RvciI6MS4zM30sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjEsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiaW5mbyIsInN0YXR1c0ludGVydmFsTXMiOjUwMDB9LCJyZW5kZXIiOnsiZGVidWciOmZhbHNlfX0="
       }]
     },
     "5a337f67-d3b2-4929-8421-98bdf542c069": {
@@ -3778,13 +3784,13 @@ window.__twilightSettings = {
     },
     "7207f317-f72c-4956-8a96-0af6567f52e6": {
       "name": "automod_smart_detection_multilanguage",
-      "v": 35905,
+      "v": 36124,
       "t": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -4751,13 +4757,13 @@ window.__twilightSettings = {
     },
     "96bd4101-6f72-42b8-a480-c91c36ea72ae": {
       "name": "web_disco_dj_eligibility",
-      "v": 35892,
+      "v": 36129,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "active"
       }]
     },
