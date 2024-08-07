@@ -372,7 +372,7 @@ window.__twilightSettings = {
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": true,
   "gs_collaborators_clips": true,
-  "gs_dashboard_browsersource_callout": [0, false],
+  "gs_dashboard_browsersource_callout": [1, true],
   "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
   "gs_participant_audio_update": true,
@@ -632,7 +632,7 @@ window.__twilightSettings = {
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
-  "qm_enabled": [0.2, false],
+  "qm_enabled": [1, false],
   "qna_enabled": false,
   "qol_badges_launch": false,
   "quests_started_reports_date": "2024-07-17",
@@ -1751,18 +1751,30 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "1e583ca9-02fc-48af-a3b4-14f2c31aec34": {
+      "name": "creator_home_creator_clubs_launch",
+      "v": 36098,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 35931,
+      "v": 36074,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -4180,7 +4192,7 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 35971,
+      "v": 36070,
       "t": 1,
       "s": 6,
       "groups": [{
@@ -4496,14 +4508,14 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 36058,
+      "v": 36085,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 90,
+        "weight": 10,
         "value": "holdback"
       }, {
         "weight": 0,
@@ -4885,17 +4897,17 @@ window.__twilightSettings = {
     },
     "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5": {
       "name": "turbo_and_sub_upsell_during_ads",
-      "v": 34063,
+      "v": 36075,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 1,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "treatment1"
       }, {
-        "weight": 1,
+        "weight": 100,
         "value": "treatment2"
       }]
     },
