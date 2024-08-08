@@ -557,7 +557,7 @@ window.__twilightSettings = {
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
   "open-calling": [0, false],
-  "open-collaboration-darklaunch": [0.01, false],
+  "open-collaboration-darklaunch": [0.4, false],
   "open-collaboration-dashboard-onboarding": false,
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -2970,6 +2970,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "4f4511c5-588d-4a39-8ca1-4b95149a00d2": {
+      "name": "ivs_player_web_safari_mseiw",
+      "v": 36145,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "holdback"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "4f82dd22-cf09-44a5-8f17-9641e0cbb3bd": {
