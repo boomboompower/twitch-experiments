@@ -218,7 +218,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_cat_emp": [1, true],
-  "cplat_dragon_journal_category": [0, false],
+  "cplat_dragon_journal_category": [1, true],
   "cplat_dragon_journal_dashboard": [1, true],
   "cplat_dragon_journal_info": [1, true],
   "cplat_rb_cluster_enabled": true,
@@ -282,7 +282,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_mi_chiamo": false,
+  "disco_mi_chiamo": true,
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
@@ -328,8 +328,8 @@ window.__twilightSettings = {
   "enable_async_giftcard_redemption": [1, true],
   "enable_category_suggestion_cluster": false,
   "enable_client_type": true,
-  "enable_clip_asset_durations_logging": false,
-  "enable_clip_asset_durations_logging_threshold": 1.0,
+  "enable_clip_asset_durations_logging": true,
+  "enable_clip_asset_durations_logging_threshold": 3,
   "enable_desktop_app_sunset_banner": [1, true],
   "enable_kpsdk_desktop_app": false,
   "enable_localized_twitch_music_link": false,
@@ -1495,6 +1495,18 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
+    "134b3a63-5c90-467a-bd12-b69c9dddc8da": {
+      "name": "lynx_experiment",
+      "v": 36138,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "release"
+      }]
+    },
     "13d9c799-61b8-45ad-bed9-7a9822483576": {
       "name": "memberships_heartbreak_allowed",
       "v": 18346,
@@ -1753,13 +1765,13 @@ window.__twilightSettings = {
     },
     "1e583ca9-02fc-48af-a3b4-14f2c31aec34": {
       "name": "creator_home_creator_clubs_launch",
-      "v": 36098,
+      "v": 36137,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -2230,13 +2242,13 @@ window.__twilightSettings = {
     },
     "3166c689-4888-4789-8918-6a4e273d0f67": {
       "name": "android_upsell_banner_redesign",
-      "v": 35494,
+      "v": 36131,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },

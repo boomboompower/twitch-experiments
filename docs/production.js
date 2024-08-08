@@ -748,5 +748,10 @@ const productionExperiments = [
         "id": "6e4845fb-6097-49f9-88db-31387d48fcd6",
         "name": "vat_prefetch",
         "dateFound": "2024-08-03T01:05:29.356Z"
+    },
+    {
+        "id": "3166c689-4888-4789-8918-6a4e273d0f67",
+        "name": "android_upsell_banner_redesign",
+        "dateFound": "2024-08-08T01:07:14.594Z"
     }
 ]
