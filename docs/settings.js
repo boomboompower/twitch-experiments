@@ -557,7 +557,7 @@ window.__twilightSettings = {
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
   "open-calling": [0, false],
-  "open-collaboration-darklaunch": [0.4, false],
+  "open-collaboration-darklaunch": [0.6, false],
   "open-collaboration-dashboard-onboarding": false,
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -1777,16 +1777,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36074,
+      "v": 36153,
       "t": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
