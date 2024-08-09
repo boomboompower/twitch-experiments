@@ -557,7 +557,7 @@ window.__twilightSettings = {
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
   "open-calling": [0, false],
-  "open-collaboration-darklaunch": [0.6, false],
+  "open-collaboration-darklaunch": [1, false],
   "open-collaboration-dashboard-onboarding": false,
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
@@ -4526,17 +4526,17 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 36140,
+      "v": 36155,
       "t": 1,
       "s": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "holdback"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "holdback2"
       }, {
         "weight": 50,
