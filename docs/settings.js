@@ -758,7 +758,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 300,
-  "stories_web": [0, false],
+  "stories_web": [0, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
