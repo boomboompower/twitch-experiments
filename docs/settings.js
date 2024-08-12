@@ -73,6 +73,7 @@ window.__twilightSettings = {
   "bda_ad_edge_web": [0, true],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
+  "bits_in_space": [0, false],
   "bits_management_devsite": [1, false],
   "bits_on_polls": false,
   "bits_prime_offer": false,
@@ -490,7 +491,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": [],
+  "live_payments_banners": ["295e3815-fbcf-41ae-abf7-5d01c8b07482", "be58b12b-62f8-4d42-a10d-584f26fea066"],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
   "ltdv2_rollout_enabled": [1, false],
@@ -758,7 +759,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 300,
-  "stories_web": [0.01, true],
+  "stories_web": [0.1, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -4707,6 +4708,30 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "control"
+      }]
+    },
+    "92c687ee-a8b7-4d6b-976f-eb1e97889d47": {
+      "name": "creator_home_3p_discovery",
+      "v": 36185,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 10,
+        "value": "variant1"
+      }, {
+        "weight": 10,
+        "value": "variant2"
+      }, {
+        "weight": 10,
+        "value": "variant3"
+      }, {
+        "weight": 10,
+        "value": "variant4"
+      }, {
+        "weight": 10,
+        "value": "variant5"
       }]
     },
     "92e71f71-8c36-4c11-9496-42f4f4dc9bac": {
