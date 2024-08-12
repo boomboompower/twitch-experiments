@@ -758,7 +758,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 300,
-  "stories_web": [0, true],
+  "stories_web": [0.01, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -5929,9 +5929,9 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 35719,
+      "v": 36170,
       "t": 1,
-      "s": 1,
+      "s": 2,
       "groups": [{
         "weight": 50,
         "value": "control"
