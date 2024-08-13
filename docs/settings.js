@@ -17,7 +17,7 @@ window.__twilightSettings = {
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "addressability_experiment_enabled": true,
-  "addressability_experiment_survey_p0": [0, false],
+  "addressability_experiment_survey_p0": [0.25, false],
   "admissible-cement-casserole": true,
   "ads_dsa_audio_pbyp": [1, true],
   "ads_dsa_directory_banner": [1, true],
@@ -759,7 +759,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 300,
-  "stories_web": [0.1, true],
+  "stories_web": [0.4, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -5951,14 +5951,17 @@ window.__twilightSettings = {
     },
     "c3f6dbf8-c926-4b11-9c78-351a313e0287": {
       "name": "hype_train_left_nav",
-      "v": 35351,
+      "v": 36222,
       "t": 3,
       "groups": [{
         "weight": 50,
         "value": "control"
       }, {
-        "weight": 50,
-        "value": "variant"
+        "weight": 25,
+        "value": "variant1"
+      }, {
+        "weight": 25,
+        "value": "variant2"
       }]
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
