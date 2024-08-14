@@ -807,6 +807,8 @@ window.__twilightSettings = {
   "subsub_soldout_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs-sold-out/256.png",
   "subsub_soldout_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs-sold-out/1024.png",
   "subtember_2023_celebration": [0, false],
+  "subtember_2024_end_date": "2024-10-01T07:00:00+00:00",
+  "subtember_2024_start_date": "2024-08-31T17:00:00+00:00",
   "subtoken_balance_wallet": true,
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
