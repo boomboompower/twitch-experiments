@@ -17,7 +17,7 @@ window.__twilightSettings = {
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "addressability_experiment_enabled": true,
-  "addressability_experiment_survey_p0": [0.25, false],
+  "addressability_experiment_survey_p0": [0.5, false],
   "admissible-cement-casserole": true,
   "ads_dsa_audio_pbyp": [1, true],
   "ads_dsa_directory_banner": [1, true],
@@ -144,7 +144,7 @@ window.__twilightSettings = {
   "channel_enrolled_sm_mv": [1, true],
   "channel_skins_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/channel-skin/256.png",
   "channel_skins_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/channel-skin/1024.png",
-  "chat_alert_previews": [0, false],
+  "chat_alert_previews": [1, true],
   "chat_alerts_migration": [1, true],
   "chat_client_privmsg_to_gql": true,
   "chat_connect_backoff": 4000,
@@ -491,7 +491,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": ["295e3815-fbcf-41ae-abf7-5d01c8b07482", "be58b12b-62f8-4d42-a10d-584f26fea066"],
+  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
   "longtask_tracking_sample_rate": 0.1,
   "low_trust_users_rollout_enabled": false,
   "ltdv2_rollout_enabled": [1, false],
@@ -759,7 +759,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 300,
-  "stories_web": [0.4, true],
+  "stories_web": [0, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -1498,13 +1498,13 @@ window.__twilightSettings = {
     },
     "134b3a63-5c90-467a-bd12-b69c9dddc8da": {
       "name": "lynx_experiment",
-      "v": 36138,
+      "v": 36240,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "release"
       }]
     },
@@ -1778,16 +1778,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36153,
+      "v": 36237,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
