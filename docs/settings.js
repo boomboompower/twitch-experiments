@@ -17,7 +17,7 @@ window.__twilightSettings = {
   "additional_animated_emote_templates": [0, false],
   "additional_recurly_supported_countries": [],
   "addressability_experiment_enabled": true,
-  "addressability_experiment_survey_p0": [0.5, false],
+  "addressability_experiment_survey_p0": [0.75, false],
   "admissible-cement-casserole": true,
   "ads_dsa_audio_pbyp": [1, true],
   "ads_dsa_directory_banner": [1, true],
@@ -466,6 +466,7 @@ window.__twilightSettings = {
   "igdb_links_enabled": [1, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
+  "ignored_logger_promise_rejection_stacktrace": [],
   "impacted_notice_banner_enabled": [1, true],
   "include_chat_timing_nonce": true,
   "insights_content_filter": [1, true],
@@ -759,7 +760,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 300,
-  "stories_web": [0, true],
+  "stories_web": [0.6, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
   "stream_summary_use_druid": false,
@@ -4102,16 +4103,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 35884,
+      "v": 36272,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -4219,17 +4220,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 36070,
+      "v": 36273,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-b"
       }]
     },
