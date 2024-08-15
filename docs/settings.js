@@ -707,7 +707,7 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
   "shared-chat-beta-flag": [0, false],
-  "shared-chat-feature-flag": [0, false],
+  "shared-chat-feature-flag": [0.15, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
@@ -752,7 +752,7 @@ window.__twilightSettings = {
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
   "staff_garfield_discovery_control": true,
-  "stories_polling_seconds": 300,
+  "stories_polling_seconds": 420,
   "stories_web": [1, true],
   "stream_manager_layout_tracking": [0, false],
   "stream_manager_views_tile_query_update": [0, false],
@@ -4094,19 +4094,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 36272,
+      "v": 36302,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -4211,17 +4211,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 36273,
+      "v": 36305,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant-a"
       }, {
-        "weight": 95,
+        "weight": 75,
         "value": "variant-b"
       }]
     },
@@ -5940,21 +5940,6 @@ window.__twilightSettings = {
         "value": "whatever"
       }]
     },
-    "c3f6dbf8-c926-4b11-9c78-351a313e0287": {
-      "name": "hype_train_left_nav",
-      "v": 36222,
-      "t": 3,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 25,
-        "value": "variant1"
-      }, {
-        "weight": 25,
-        "value": "variant2"
-      }]
-    },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
       "v": 36287,
@@ -6965,6 +6950,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "off"
+      }]
+    },
+    "e9ec257a-77ea-4926-a072-b43d915abcca": {
+      "name": "hype-train-left-nav",
+      "v": 36298,
+      "t": 2,
+      "groups": [{
+        "weight": 33,
+        "value": "control"
+      }, {
+        "weight": 33,
+        "value": "treatment1"
+      }, {
+        "weight": 33,
+        "value": "treatment2"
       }]
     },
     "ea2c9418-1a27-4ec7-b289-9021ee25776d": {
