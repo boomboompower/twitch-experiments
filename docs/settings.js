@@ -707,7 +707,7 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
   "shared-chat-beta-flag": [0, false],
-  "shared-chat-feature-flag": [0.5, false],
+  "shared-chat-feature-flag": [0.75, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
@@ -4212,17 +4212,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 36305,
+      "v": 36320,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-b"
       }]
     },
