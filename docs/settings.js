@@ -707,7 +707,7 @@ window.__twilightSettings = {
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
   "shared-chat-beta-flag": [0, false],
-  "shared-chat-feature-flag": [0.15, false],
+  "shared-chat-feature-flag": [0.5, false],
   "shield_mode_alerts_enabled": [1, true],
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
@@ -733,6 +733,7 @@ window.__twilightSettings = {
   "skins_show_to_turbo": false,
   "skyscraper_kill_switch": false,
   "sl_exp": 0,
+  "smart_banner_custom_meta": true,
   "smgr_remove_view_count": [1, false],
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
@@ -2930,7 +2931,7 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 36006,
+      "v": 36316,
       "t": 3,
       "groups": [{
         "weight": 0,
@@ -2940,7 +2941,7 @@ window.__twilightSettings = {
         "value": "treatment"
       }, {
         "weight": 100,
-        "value": "737767337"
+        "value": "737767337,737772548"
       }]
     },
     "4ef36ab5-119c-4250-91c2-83ffb789c9dd": {
