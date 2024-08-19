@@ -397,7 +397,7 @@ window.__twilightSettings = {
   "guest_star_bug_reporting_dialog": [1, true],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_costreaming_simplification_enabled": false,
+  "guest_star_costreaming_simplification_enabled": true,
   "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
@@ -408,7 +408,7 @@ window.__twilightSettings = {
   "guest_star_express_ftue": [1, true],
   "guest_star_first_party_survey": [0, false],
   "guest_star_guest_audio_controls": [1, false],
-  "guest_star_invite_improvements": [0, false],
+  "guest_star_invite_improvements": [1, false],
   "guest_star_invite_raider_experiment": [1, true],
   "guest_star_layout_options": [1, true],
   "guest_star_left_nav_augmented_data_feature_flag": [0, false],
@@ -436,8 +436,8 @@ window.__twilightSettings = {
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
   "guest_star_settings_modal": [1, true],
-  "guest_star_simplification_flag": [0, false],
-  "guest_star_simplification_milestone": [0, false],
+  "guest_star_simplification_flag": [1, true],
+  "guest_star_simplification_milestone": [1, true],
   "Haku": "2023-12-13T17:45:00Z",
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
@@ -553,9 +553,9 @@ window.__twilightSettings = {
   "onboarding_verification": [1, true],
   "one_click_checkout_country_allowlist": ["US", "DE", "FR", "GB", "IT", "NL", "NO", "ES", "CA", "AU", "JP", "NZ", "HK", "CH", "DK", "AT", "SE", "PL", "BE", "FI", "PR", "CZ", "PT", "IE", "HU"],
   "one_click_subs_enabled": [1, false],
-  "open-calling": [0, false],
+  "open-calling": [1, false],
   "open-collaboration-darklaunch": [1, false],
-  "open-collaboration-dashboard-onboarding": false,
+  "open-collaboration-dashboard-onboarding": true,
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
@@ -6036,13 +6036,13 @@ window.__twilightSettings = {
     },
     "ca0e81a6-93f8-4b90-9cb3-747b1769d4fd": {
       "name": "dropins_add_favorites_home_card",
-      "v": 35703,
+      "v": 36365,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
