@@ -490,7 +490,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": [],
+  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
   "longtask_tracking_sample_rate": 0.1,
   "ltdv2_rollout_enabled": [1, false],
   "lynx_batch_report_experiment": [0, true],
@@ -560,7 +560,7 @@ window.__twilightSettings = {
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
-  "payments_banners_feature_enabled": [0, true],
+  "payments_banners_feature_enabled": [0.01, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [1, true],
@@ -617,6 +617,7 @@ window.__twilightSettings = {
   "project_narwhal_end_date": "2029-03-30T03:59:00+00:00",
   "project_narwhal_start_date": "2024-02-26T14:00:00+00:00",
   "project_pixie_one": [0, false],
+  "project_pixie_one_enddate": "2024-09-16T17:00:00+00:00",
   "Project_Polaris": [1, true],
   "promo_hypetrain_enabled": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
@@ -881,6 +882,7 @@ window.__twilightSettings = {
   "web_offers_rollout": [1, true],
   "web_sub_tokens": false,
   "why_sub_button": false,
+  "wrong_phone_resting": [0, false],
   "wysiwyg_chat_input": [1, true],
   "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
@@ -3754,13 +3756,13 @@ window.__twilightSettings = {
     },
     "6e4845fb-6097-49f9-88db-31387d48fcd6": {
       "name": "vat_prefetch",
-      "v": 36003,
+      "v": 36383,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -6584,8 +6586,9 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 36000,
+      "v": 36385,
       "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
