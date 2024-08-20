@@ -280,7 +280,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_category_redirect_slugs": [],
+  "disco_category_redirect_slugs": ["project-l", "2xko"],
   "disco_mi_chiamo": true,
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
@@ -882,7 +882,7 @@ window.__twilightSettings = {
   "web_offers_rollout": [1, true],
   "web_sub_tokens": false,
   "why_sub_button": false,
-  "wrong_phone_resting": [0, false],
+  "wrong_phone_resting": [1, false],
   "wysiwyg_chat_input": [1, true],
   "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
@@ -6586,14 +6586,14 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 36385,
+      "v": 36408,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
