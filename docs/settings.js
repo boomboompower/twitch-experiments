@@ -60,7 +60,7 @@ window.__twilightSettings = {
   "auth_kpsdk_load": [1, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
-  "automod_ally_test_feature": [0, false],
+  "automod_ally_test_feature": [1, false],
   "automod-sd-release": "2024-08-14T17:00:00Z",
   "autonomous_octopuff": [1, false],
   "badge_flair_enabled": true,
@@ -5946,14 +5946,14 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 36287,
+      "v": 36391,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "enabled"
       }]
     },
