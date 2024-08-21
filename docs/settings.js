@@ -73,7 +73,7 @@ window.__twilightSettings = {
   "bda_ad_edge_web": [0, true],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
-  "bits_in_space": [0, false],
+  "bits_in_space": [1, false],
   "bits_management_devsite": [1, false],
   "bits_on_polls": false,
   "bits_prime_offer": false,
