@@ -85,6 +85,7 @@ window.__twilightSettings = {
   "bits_world_cup_event_phase_2": false,
   "Blobfish": "2023-10-01T07:00:00+00:00",
   "blocked_term_hit_count_enabled": [1, false],
+  "blocked_term_hit_count_release": "2024-06-19T18:18:48.502Z",
   "Boh": "2023-12-27T17:45:00Z",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
@@ -560,7 +561,7 @@ window.__twilightSettings = {
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
-  "payments_banners_feature_enabled": [0.01, true],
+  "payments_banners_feature_enabled": [0.2, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [1, true],
@@ -618,6 +619,8 @@ window.__twilightSettings = {
   "project_narwhal_start_date": "2024-02-26T14:00:00+00:00",
   "project_pixie_one": [0, false],
   "project_pixie_one_enddate": "2024-09-16T17:00:00+00:00",
+  "project_pixie_sub_end_date": "2024-10-01T07:00:00+00:00",
+  "project_pixie_sub_start_date": "2024-08-29T17:00:00+00:00",
   "Project_Polaris": [1, true],
   "promo_hypetrain_enabled": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
@@ -802,8 +805,6 @@ window.__twilightSettings = {
   "subsub_soldout_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs-sold-out/256.png",
   "subsub_soldout_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-subs-sold-out/1024.png",
   "subtember_2023_celebration": [0, false],
-  "subtember_2024_end_date": "2024-10-01T07:00:00+00:00",
-  "subtember_2024_start_date": "2024-08-29T17:00:00+00:00",
   "subtoken_balance_wallet": true,
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
@@ -4215,17 +4216,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 36320,
+      "v": 36412,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }]
     },
