@@ -316,6 +316,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_2_date": "2023-09-18T20:00:00Z",
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
+  "dunk-some-fries": [0, false],
   "earnings_dashboard_outage_alert": [0, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "block",
@@ -757,6 +758,7 @@ window.__twilightSettings = {
   "squad_stream_ads_heartbeat_max_jitter": 10000,
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
+  "st_side_nav_offline_guesting": [0, false],
   "staff_garfield_discovery_control": true,
   "stories_polling_seconds": 420,
   "stories_web": [1, true],
@@ -7089,22 +7091,22 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 35348,
+      "v": 36442,
       "t": 2,
       "groups": [{
-        "weight": 70,
+        "weight": 30,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "variantA"
       }, {
         "weight": 0,
         "value": "variantB"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variantC"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variantD"
       }]
     },
