@@ -6589,7 +6589,7 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 36408,
+      "v": 36460,
       "t": 2,
       "s": 2,
       "groups": [{
@@ -6598,6 +6598,9 @@ window.__twilightSettings = {
       }, {
         "weight": 50,
         "value": "variant"
+      }, {
+        "weight": 0,
+        "value": "variant_with_remaining"
       }]
     },
     "ddd7423a-0cc1-4ad5-8b81-67a5cc57cf85": {
