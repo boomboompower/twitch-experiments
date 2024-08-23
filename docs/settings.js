@@ -6589,14 +6589,14 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 36460,
+      "v": 36471,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }, {
         "weight": 0,
