@@ -32,7 +32,7 @@ window.__twilightSettings = {
   "alert_settings_modal": [1, true],
   "alert-rando": [1, false],
   "alerts_celebration_emote_promotion": [0, false],
-  "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/celebration_promo.png",
+  "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/subtember_2023_celebration_1.png",
   "alerts_home_redesign": [1, false],
   "alerts_revenue_callout_earnings_page_switch": [0, false],
   "am_ccar_feature_enabled": [1, true],
@@ -1779,16 +1779,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36237,
+      "v": 36496,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
