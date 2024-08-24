@@ -739,7 +739,6 @@ window.__twilightSettings = {
   "skins_show_to_turbo": false,
   "skyscraper_kill_switch": false,
   "sl_exp": 0,
-  "smart_banner_custom_meta": true,
   "smgr_remove_view_count": [1, false],
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
