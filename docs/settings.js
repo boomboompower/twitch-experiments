@@ -372,7 +372,6 @@ window.__twilightSettings = {
   "gs_automatic_mitigations_release_date_iso": "2024-06-27T21:00:00Z",
   "gs_browsersource_particpant_rf_p1": true,
   "gs_browsersource_particpant_rf_p2": true,
-  "gs_collaborators_clips": true,
   "gs_dashboard_browsersource_callout": [1, true],
   "gs_dropins_alpha": [0, false],
   "gs_firefox_support": [1, false],
@@ -1780,16 +1779,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36496,
+      "v": 36546,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -6096,13 +6095,13 @@ window.__twilightSettings = {
     },
     "cd491c78-3067-4dd9-879e-0d51110f71a8": {
       "name": "gift_bundle_discount_experiment",
-      "v": 35766,
+      "v": 36547,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
