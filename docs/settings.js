@@ -761,6 +761,7 @@ window.__twilightSettings = {
   "squad_stream_survey_url": "",
   "st_side_nav_offline_guesting": [0, false],
   "staff_garfield_discovery_control": true,
+  "stand_behind_braum": [0, false],
   "stories_polling_seconds": 420,
   "stories_web": [1, true],
   "stream_manager_layout_tracking": [0, false],
@@ -2048,13 +2049,13 @@ window.__twilightSettings = {
     },
     "29d2dc0c-f7c3-4e51-8ad8-c1b2ae537b6b": {
       "name": "xsolla_icons_pl",
-      "v": 35395,
+      "v": 36580,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -2953,13 +2954,13 @@ window.__twilightSettings = {
     },
     "4efa42f6-3187-4f57-b237-c748131544fa": {
       "name": "xsolla_icons_nl",
-      "v": 35397,
+      "v": 36577,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -3496,13 +3497,13 @@ window.__twilightSettings = {
     },
     "61d85bc1-e9e5-473a-9438-01fc9c448234": {
       "name": "xsolla_icons_jp",
-      "v": 35389,
+      "v": 36576,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -5779,13 +5780,13 @@ window.__twilightSettings = {
     },
     "bb5491d5-e7d0-4870-8660-6b5fc9ded3b3": {
       "name": "xsolla_icons_de",
-      "v": 35388,
+      "v": 36578,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -6425,13 +6426,13 @@ window.__twilightSettings = {
     },
     "d7d48dc9-1298-4f1c-bf54-dc6d96ce4cee": {
       "name": "xsolla_icons_be",
-      "v": 35394,
+      "v": 36579,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
