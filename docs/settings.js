@@ -294,6 +294,7 @@ window.__twilightSettings = {
   "dma_devices_allowlist": [],
   "dma_reject_all": [0, false],
   "dma_users_allowlist": [],
+  "dma_users_blocklist": ["991317311"],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -2240,18 +2241,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "iteration2"
-      }]
-    },
-    "3166c689-4888-4789-8918-6a4e273d0f67": {
-      "name": "android_upsell_banner_redesign",
-      "v": 36131,
-      "t": 1,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 50,
-        "value": "treatment"
       }]
     },
     "3277ac77-0818-4aab-9573-8ae8df2fd891": {
