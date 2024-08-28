@@ -344,6 +344,7 @@ window.__twilightSettings = {
   "events_deprecation_date": "2019-11-12T23:59:59Z",
   "events_deprecation_notice_enabled": true,
   "eventsub_reconnect_codes": [1006, 4002, 4003, 4004, 4005, 4006],
+  "export_clip_to_stories": [0, true],
   "expressions_developer_badge": [1, false],
   "expStaff_upcoming_schedules_directory_page": "active",
   "ext_challenges_whitelist": ["wlisor7an1m544ki2r9i1usl4d5ul0", "a9e46yl7gqwlsz7q6fqdqnrxng7tau", "ltszuxapi6b0wfpde6vqe2rodth4c5", "kd1b92hzrraf5k3uidm0a1u4fhrp6o", "8skl5ohvxvl8deeejox1e1fh7ovunh", "0vzjxlrppvwz5vzhfqwanqmka2g01l", "qxxw3ujo98hs4szinbwt59m94d9ozo"],
@@ -4982,7 +4983,7 @@ window.__twilightSettings = {
     },
     "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d": {
       "name": "cu-viewers",
-      "v": 36196,
+      "v": 36605,
       "t": 2,
       "groups": [{
         "weight": 95,
@@ -5210,11 +5211,14 @@ window.__twilightSettings = {
     },
     "a5c3a8f0-d293-4597-af87-f0352c58d1b3": {
       "name": "ivs_web_player_device_config_prod_test",
-      "v": 35918,
+      "v": 36606,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "a636f65d-912c-43c8-9a28-bb88babacfca": {
