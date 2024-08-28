@@ -654,11 +654,6 @@ const productionExperiments = [
         "dateFound": "2024-03-18T20:13:31.451Z"
     },
     {
-        "id": "d671f316-ce88-42c0-963a-81ccdf8c68a7",
-        "name": "auto_pinned_cheers",
-        "dateFound": "2024-08-28T08:19:34.418Z"
-    },
-    {
         "id": "7a328007-2bfa-4459-81ac-125639a273cf",
         "name": "gift_and_sub_button",
         "dateFound": "2024-04-02T20:13:02.283Z"
@@ -758,5 +753,10 @@ const productionExperiments = [
         "id": "134b3a63-5c90-467a-bd12-b69c9dddc8da",
         "name": "lynx_experiment",
         "dateFound": "2024-08-13T20:15:32.656Z"
+    },
+    {
+        "id": "e9ec257a-77ea-4926-a072-b43d915abcca",
+        "name": "hype_train_left_nav",
+        "dateFound": "2024-08-28T12:30:38.967Z"
     }
 ]
