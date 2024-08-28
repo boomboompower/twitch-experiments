@@ -294,7 +294,6 @@ window.__twilightSettings = {
   "dma_devices_allowlist": [],
   "dma_reject_all": [0, false],
   "dma_users_allowlist": [],
-  "dma_users_blocklist": ["991317311"],
   "DMCA_Clips_Manager_Hint": [1, true],
   "DMCA_Copyright_Claims_Page": [1, true],
   "DMCA_Mock_Copyright_Claims_Page": [0, false],
@@ -6579,17 +6578,17 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 36471,
+      "v": 36586,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_with_remaining"
       }]
     },
@@ -7326,6 +7325,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "f399d9f2-1815-4d62-94f2-fd98a5175853": {
+      "name": "test",
+      "v": 36588,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "f46ef7ca-6acc-43b2-bc77-a41077be06d3": {
