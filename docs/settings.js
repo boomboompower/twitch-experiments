@@ -31,7 +31,7 @@ window.__twilightSettings = {
   "affiliate_revenue_share_banner": [1, false],
   "alert_settings_modal": [1, true],
   "alert-rando": [1, false],
-  "alerts_celebration_emote_promotion": [0, false],
+  "alerts_celebration_emote_promotion": [1, false],
   "alerts_celebration_emote_promotion_src": "https://static-cdn.jtvnw.net/static-alert-asset/v1/subtember_2023_celebration_1.png",
   "alerts_home_redesign": [1, false],
   "alerts_revenue_callout_earnings_page_switch": [0, false],
@@ -182,6 +182,7 @@ window.__twilightSettings = {
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
+  "cm-sf": [0, false],
   "cmon_chat_introduction": [1, false],
   "cmp_dma": [1, false],
   "cmr_icon_button": [1, true],
@@ -4983,13 +4984,13 @@ window.__twilightSettings = {
     },
     "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d": {
       "name": "cu-viewers",
-      "v": 36616,
+      "v": 36637,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "no"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "yes"
       }]
     },
