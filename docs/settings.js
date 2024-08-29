@@ -4983,13 +4983,13 @@ window.__twilightSettings = {
     },
     "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d": {
       "name": "cu-viewers",
-      "v": 36605,
+      "v": 36616,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "no"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "yes"
       }]
     },
