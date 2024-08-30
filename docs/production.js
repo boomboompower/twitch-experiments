@@ -559,6 +559,12 @@ const productionExperiments = [
         "dateFound": "2024-05-02T20:14:20.776Z"
     },
     {
+        "id": "a5c3a8f0-d293-4597-af87-f0352c58d1b3",
+        "name": "ivs_web_player_device_config_prod_test",
+        "staffOverride": "treatment",
+        "dateFound": "2024-08-30T04:18:41.682Z"
+    },
+    {
         "id": "cee91f9e-e512-4cb7-8cbf-4501d7844ce0",
         "name": "checkout_ux_phase_1.5",
         "dateFound": "2023-09-15T20:13:02.393Z"
