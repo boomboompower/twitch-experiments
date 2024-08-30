@@ -3067,6 +3067,18 @@ window.__twilightSettings = {
         "value": "bottom"
       }]
     },
+    "56401cc4-f281-4fd3-bcd6-ac421489b20c": {
+      "name": "xsolla_icons_nl",
+      "v": 36639,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "control"
+      }, {
+        "weight": 50,
+        "value": "variant"
+      }]
+    },
     "56842994-d26e-4f5c-98bd-c6970c1835a3": {
       "name": "guest_star_left_nav_online_channel_augmentation",
       "v": 27743,
