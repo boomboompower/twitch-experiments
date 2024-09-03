@@ -1283,7 +1283,7 @@ window.__twilightSettings = {
     },
     "0d8cb7c4-6fe9-4cf6-8e7e-99c1a9e7b676": {
       "name": "watch_streak_progress_bar_exp_1",
-      "v": 31130,
+      "v": 36683,
       "t": 3,
       "groups": [{
         "weight": 50,
@@ -2465,7 +2465,7 @@ window.__twilightSettings = {
     },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
-      "v": 31131,
+      "v": 36682,
       "t": 3,
       "groups": [{
         "weight": 50,
