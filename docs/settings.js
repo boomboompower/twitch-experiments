@@ -558,7 +558,7 @@ window.__twilightSettings = {
   "one_click_subs_enabled": [1, false],
   "open-calling": [1, false],
   "open-collaboration-darklaunch": [1, false],
-  "open-collaboration-dashboard-onboarding": true,
+  "open-collaboration-dashboard-onboarding": false,
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
@@ -637,7 +637,7 @@ window.__twilightSettings = {
   "pubsub_availability_reporting": [0.03, true],
   "pubsub_message_reporting": [1, true],
   "pushdown_ui_flag": [1, true],
-  "qm_enabled": [1, false],
+  "qm_enabled": [0, false],
   "qna_enabled": false,
   "qol_badges_launch": false,
   "quests_started_reports_date": "2024-07-17",
@@ -1782,16 +1782,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36546,
+      "v": 36675,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
