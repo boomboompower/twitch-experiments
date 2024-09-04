@@ -710,9 +710,9 @@ const productionExperiments = [
         "dateFound": "2024-07-16T20:14:32.976Z"
     },
     {
-        "id": "4efa42f6-3187-4f57-b237-c748131544fa",
+        "id": "56401cc4-f281-4fd3-bcd6-ac421489b20c",
         "name": "xsolla_icons_nl",
-        "dateFound": "2024-07-16T20:14:32.977Z"
+        "dateFound": "2024-09-04T01:10:55.057Z"
     },
     {
         "id": "3ff30f43-10a3-43ff-9f01-dc870097fbff",

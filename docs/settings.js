@@ -536,6 +536,7 @@ window.__twilightSettings = {
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
+  "mweb_chat_write": [0, false],
   "mweb_nav_alignment": [0, false],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
@@ -4537,11 +4538,11 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 36480,
+      "v": 36694,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
         "weight": 0,
@@ -4550,8 +4551,11 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB4.5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwibW9kZWwiOnsiZW5hYmxlIjp0cnVlLCJpbnB1dFJlc29sdXRpb25BcmVhQmFuZCI6WzkyMTYwMCw5MjE2MDBdLCJzY2FsZUZhY3RvciI6MS41fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiZXJyb3IiLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
       }, {
-        "weight": 0,
-        "value": "holdback4"
+        "weight": 10,
+        "value": "holdback00"
+      }, {
+        "weight": 10,
+        "value": "holdback11"
       }]
     },
     "8b2a8d0b-a7b0-451a-a343-3eeb60e13a8d": {
@@ -5852,6 +5856,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "AAX"
+      }]
+    },
+    "bf2b721a-14f4-4250-844a-101911395cfe": {
+      "name": "web_disco_canon_tags",
+      "v": 36706,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant1"
+      }, {
+        "weight": 0,
+        "value": "variant2"
       }]
     },
     "bfcc8d0e-7cc5-41df-88ee-32915e0be9b0": {
