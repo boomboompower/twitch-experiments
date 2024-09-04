@@ -367,6 +367,7 @@ window.__twilightSettings = {
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": true,
+  "funny_raven_escaping": [],
   "giftcard_currency_expansion": [1, true],
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
