@@ -367,7 +367,6 @@ window.__twilightSettings = {
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": true,
-  "funny_raven_escaping": ["796183535"],
   "giftcard_currency_expansion": [1, true],
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
@@ -551,6 +550,7 @@ window.__twilightSettings = {
   "nifty-mushroom-committee": [0, false],
   "No_Track_Pages": ["/user/password-reset"],
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
+  "odd_caribou_sleeping": [0, true],
   "offer_claim_sync": [0, false],
   "omit_topnav_in_theatre": [1, false],
   "onboarding_agreement_api": [1, true],
@@ -6991,13 +6991,13 @@ window.__twilightSettings = {
     },
     "e9ec257a-77ea-4926-a072-b43d915abcca": {
       "name": "hype-train-left-nav",
-      "v": 36729,
+      "v": 36746,
       "t": 2,
       "groups": [{
-        "weight": 99,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "treatment1"
       }, {
         "weight": 0,
