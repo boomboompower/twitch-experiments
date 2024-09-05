@@ -1784,16 +1784,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36675,
+      "v": 36722,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -6991,13 +6991,13 @@ window.__twilightSettings = {
     },
     "e9ec257a-77ea-4926-a072-b43d915abcca": {
       "name": "hype-train-left-nav",
-      "v": 36481,
+      "v": 36729,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment1"
       }, {
         "weight": 0,
