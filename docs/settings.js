@@ -5199,14 +5199,14 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 35779,
+      "v": 36720,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
-        "value": "variant"
+        "weight": 100,
+        "value": "treatment"
       }]
     },
     "a5a06042-3edd-400b-bb49-c06beb3480a0": {
