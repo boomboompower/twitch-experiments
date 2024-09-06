@@ -346,7 +346,7 @@ window.__twilightSettings = {
   "events_deprecation_notice_enabled": true,
   "eventsub_reconnect_codes": [1006, 4002, 4003, 4004, 4005, 4006],
   "export_clip_to_stories": [0, true],
-  "export_clip_to_stories_clip_creation_ftue": [0, false],
+  "export_clip_to_stories_clip_creation_ftue": [0, true],
   "expressions_developer_badge": [1, false],
   "expStaff_upcoming_schedules_directory_page": "active",
   "ext_challenges_whitelist": ["wlisor7an1m544ki2r9i1usl4d5ul0", "a9e46yl7gqwlsz7q6fqdqnrxng7tau", "ltszuxapi6b0wfpde6vqe2rodth4c5", "kd1b92hzrraf5k3uidm0a1u4fhrp6o", "8skl5ohvxvl8deeejox1e1fh7ovunh", "0vzjxlrppvwz5vzhfqwanqmka2g01l", "qxxw3ujo98hs4szinbwt59m94d9ozo"],
@@ -1785,16 +1785,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36722,
+      "v": 36783,
       "t": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -6435,6 +6435,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "d6aec4f1-f70c-4dac-818a-63850d7185a7": {
+      "name": "ivs_web_rtx_prefer_main_profile",
+      "v": 36791,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "d70017a1-a0bf-455b-9d1f-c41def5a8bd3": {
