@@ -5199,13 +5199,13 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 36720,
+      "v": 36761,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -6991,16 +6991,16 @@ window.__twilightSettings = {
     },
     "e9ec257a-77ea-4926-a072-b43d915abcca": {
       "name": "hype-train-left-nav",
-      "v": 36746,
+      "v": 36759,
       "t": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 33,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 33,
         "value": "treatment1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "treatment2"
       }]
     },
