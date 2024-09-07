@@ -5861,8 +5861,8 @@ window.__twilightSettings = {
       }]
     },
     "bf2b721a-14f4-4250-844a-101911395cfe": {
-      "name": "web_disco_canon_tags",
-      "v": 36706,
+      "name": "web_disco_better_tags",
+      "v": 36795,
       "t": 1,
       "groups": [{
         "weight": 100,
