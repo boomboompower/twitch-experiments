@@ -566,7 +566,7 @@ window.__twilightSettings = {
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
-  "payments_banners_feature_enabled": [0.2, true],
+  "payments_banners_feature_enabled": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [1, true],
@@ -3346,6 +3346,18 @@ window.__twilightSettings = {
       "name": "creator_anniversaries_left_nav",
       "v": 18197,
       "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "5be7677a-943d-49a4-9eee-d8a5fdea8655": {
+      "name": "shared_chat_spotlight_card",
+      "v": 36823,
+      "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
@@ -6866,6 +6878,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "e5beeeab-073c-465f-8f39-83fb54fa75ec": {
+      "name": "gifting_refresh",
+      "v": 36827,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 100,
+        "value": "treatment_1"
       }]
     },
     "e5c813df-a190-4def-b0cb-932224c989f1": {
