@@ -5976,9 +5976,9 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 36532,
+      "v": 36816,
       "t": 1,
-      "s": 3,
+      "s": 5,
       "groups": [{
         "weight": 50,
         "value": "control"
