@@ -289,7 +289,7 @@ window.__twilightSettings = {
   "display_dma_banner": [0, false],
   "dj_category": "djs",
   "dj_internal_landing_feature_flag": [0, true],
-  "dj_subsidy_dashboard": false,
+  "dj_subsidy_dashboard": true,
   "dl_deprecation_final": [0, false],
   "dl_deprecation_warning": [1, true],
   "dma_devices_allowlist": [],
@@ -718,6 +718,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
+  "shared_chat_pubsub_jitter_ms": 2000,
   "shared-chat-beta-flag": [0, false],
   "shared-chat-feature-flag": [1, false],
   "shield_mode_alerts_enabled": [1, true],
@@ -2931,16 +2932,16 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 36316,
+      "v": 36849,
       "t": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
         "value": "treatment"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "737767337,737772548"
       }]
     },
