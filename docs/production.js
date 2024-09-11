@@ -759,5 +759,10 @@ const productionExperiments = [
         "id": "e9ec257a-77ea-4926-a072-b43d915abcca",
         "name": "hype_train_left_nav",
         "dateFound": "2024-08-28T12:30:38.967Z"
+    },
+    {
+        "id": "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a",
+        "name": "amazonpay_cv2_migration_frontend",
+        "dateFound": "2024-09-11T20:15:06.621Z"
     }
 ]
