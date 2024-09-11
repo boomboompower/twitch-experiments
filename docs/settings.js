@@ -345,8 +345,8 @@ window.__twilightSettings = {
   "events_deprecation_date": "2019-11-12T23:59:59Z",
   "events_deprecation_notice_enabled": true,
   "eventsub_reconnect_codes": [1006, 4002, 4003, 4004, 4005, 4006],
-  "export_clip_to_stories": [0, true],
-  "export_clip_to_stories_clip_creation_ftue": [0, true],
+  "export_clip_to_stories": [1, true],
+  "export_clip_to_stories_clip_creation_ftue": [1, true],
   "expressions_developer_badge": [1, false],
   "expStaff_upcoming_schedules_directory_page": "active",
   "ext_challenges_whitelist": ["wlisor7an1m544ki2r9i1usl4d5ul0", "a9e46yl7gqwlsz7q6fqdqnrxng7tau", "ltszuxapi6b0wfpde6vqe2rodth4c5", "kd1b92hzrraf5k3uidm0a1u4fhrp6o", "8skl5ohvxvl8deeejox1e1fh7ovunh", "0vzjxlrppvwz5vzhfqwanqmka2g01l", "qxxw3ujo98hs4szinbwt59m94d9ozo"],
@@ -692,6 +692,7 @@ window.__twilightSettings = {
   "rtj_inactive_guest": [0, false],
   "rtj_pause_resume_buttons_enabled": [1, false],
   "rtj_subscription_limit": [1, false],
+  "rw-in-tw-cutover": [1, false],
   "sad_shuckle": true,
   "safety_center_feature_flag": [1, false],
   "sb_enabled": false,
@@ -5213,13 +5214,13 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 36766,
+      "v": 36861,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment"
       }]
     },

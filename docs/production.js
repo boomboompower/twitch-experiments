@@ -454,11 +454,6 @@ const productionExperiments = [
         "dateFound": "2022-11-09T02:09:41.000Z"
     },
     {
-        "id": "0e629110-9517-48f7-a852-8b59678aad3c",
-        "name": "project_ape",
-        "dateFound": "2023-03-15T01:34:59.000Z"
-    },
-    {
         "id": "4252ded7-ee34-4c28-92b2-f950b18855a4",
         "name": "mfa_form",
         "dateFound": "2023-01-13T01:39:25.000Z"
@@ -723,6 +718,11 @@ const productionExperiments = [
         "id": "61d85bc1-e9e5-473a-9438-01fc9c448234",
         "name": "xsolla_icons_jp",
         "dateFound": "2024-07-16T20:14:32.979Z"
+    },
+    {
+        "id": "4e4367ca-d0d7-4916-98e6-38c3c22fc619",
+        "name": "am_lnu",
+        "dateFound": "2024-09-11T01:11:06.629Z"
     },
     {
         "id": "1a2f2b1e-1b5f-4ded-a512-340708d17c1a",
