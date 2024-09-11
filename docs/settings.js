@@ -539,6 +539,7 @@ window.__twilightSettings = {
   "mweb_android_upsell_enabled": [1, true],
   "mweb_chat_write": [0, false],
   "mweb_nav_alignment": [0, false],
+  "mweb_player_updates": [0, false],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -1787,16 +1788,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36783,
+      "v": 36863,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
