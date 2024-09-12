@@ -112,6 +112,7 @@ window.__twilightSettings = {
   "ce_new_banner": [0, false],
   "ce-aep": [1, false],
   "ce-ea": [1, false],
+  "ce-ig-ex": [0, false],
   "ce-tt-banner-expiry": "2023-10-27T17:00:00Z",
   "ce-tt-flag": [1, false],
   "celebi_animation_settings": "{}",
@@ -278,6 +279,7 @@ window.__twilightSettings = {
   "dev_video_extension_redesign_testing_env_available": true,
   "developer_badge_connected_games": [1, true],
   "directory_page_upcoming_schedules": [1, true],
+  "disable_inspector_gadget": true,
   "disable_multiview_load": false,
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
@@ -2898,13 +2900,13 @@ window.__twilightSettings = {
     },
     "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a": {
       "name": "amazonpay_cv2_migration_frontend",
-      "v": 35780,
+      "v": 36883,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -5215,13 +5217,13 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 36861,
+      "v": 36882,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment"
       }]
     },
