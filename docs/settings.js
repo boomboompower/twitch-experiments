@@ -249,7 +249,7 @@ window.__twilightSettings = {
   "CSB_tracking_flag": [1, true],
   "CSI_use_xo_actions": true,
   "cu-cr-ed": [1, true],
-  "cu-ve": [0, false],
+  "cu-ve": [1, false],
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": true,
   "da_manager_m2": [1, false],
@@ -2131,6 +2131,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant2"
+      }]
+    },
+    "2caeb3ea-ae9e-4a3c-b675-de3eb85c6ddb": {
+      "name": "ivs_player_web_edge_mseiw",
+      "v": 36913,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "2cc56231-050e-4e3b-96d2-ff85d602aab7": {
