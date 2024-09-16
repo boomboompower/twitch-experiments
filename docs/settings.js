@@ -6109,6 +6109,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "ca505d53-5922-46ba-91d7-25ee70a7a41e": {
+      "name": "percolite_CE_logged-out-experiment",
+      "v": 36977,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "cbf02f73-63ee-4e4d-adce-713b1b351206": {
       "name": "expressions_popular_emotes",
       "v": 20045,
