@@ -627,7 +627,7 @@ window.__twilightSettings = {
   "project_narwhal_start_date": "2024-02-26T14:00:00+00:00",
   "project_pixie_gifts_end_date": "2024-10-01T07:00:00+00:00",
   "project_pixie_gifts_start_date": "2024-09-26T17:00:00+00:00",
-  "project_pixie_one": [1, true],
+  "project_pixie_one": [0, false],
   "project_pixie_one_enddate": "2024-09-15T08:00:00+00:00",
   "project_pixie_sub_end_date": "2024-10-01T07:00:00+00:00",
   "project_pixie_sub_start_date": "2024-08-29T17:00:00+00:00",
