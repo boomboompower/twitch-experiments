@@ -704,7 +704,7 @@ window.__twilightSettings = {
   "sb_party": [0, false],
   "sb_paths": ["/ibai"],
   "sb_refresh_cutoff": 5000,
-  "sc-allowlist": ["1129649784"],
+  "sc-allowlist": ["1129649784", "416121326"],
   "sc-full-rollout": [0, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
@@ -3375,7 +3375,7 @@ window.__twilightSettings = {
     },
     "5be7677a-943d-49a4-9eee-d8a5fdea8655": {
       "name": "shared_chat_spotlight_card",
-      "v": 36823,
+      "v": 36981,
       "t": 1,
       "groups": [{
         "weight": 100,
