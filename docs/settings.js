@@ -4255,17 +4255,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 36939,
+      "v": 36995,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }]
     },
@@ -6040,6 +6040,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "model_2_6"
+      }]
+    },
+    "c704aec0-73be-4ce5-9872-2ce674c5ccb2": {
+      "name": "ivs_player_web_opera_mseiw",
+      "v": 36990,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "holdback"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "c7953540-8b70-496a-b794-f600c414d8ef": {
