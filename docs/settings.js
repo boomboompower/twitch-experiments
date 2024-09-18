@@ -6859,6 +6859,18 @@ window.__twilightSettings = {
         "value": "vbr_v2"
       }]
     },
+    "e27d0b82-7086-4d28-98d4-09dee9f8c7a1": {
+      "name": "android_viewer_clip_exports",
+      "v": 37044,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active_development"
+      }]
+    },
     "e320a461-ff88-45f8-aa98-d91f9ea8c0f7": {
       "name": "dac7-phase2",
       "v": 29762,
@@ -7230,7 +7242,7 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 36442,
+      "v": 37043,
       "t": 2,
       "groups": [{
         "weight": 30,
@@ -7242,10 +7254,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variantB"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "variantC"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "variantD"
       }]
     },
