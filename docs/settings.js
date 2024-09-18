@@ -539,7 +539,7 @@ window.__twilightSettings = {
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
-  "mweb_chat_write": [0, false],
+  "mweb_chat_write": [0.25, false],
   "mweb_nav_alignment": [0, false],
   "mweb_player_updates": [0, false],
   "mwot_leak": false,
@@ -1631,6 +1631,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "release_removed"
+      }]
+    },
+    "171673d5-bd3f-438c-b9da-70ca99609b25": {
+      "name": "ivs_player_web_dropped_frame_filter",
+      "v": 37015,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "holdback"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "172f025c-5e5d-49e3-9e7f-29e2d2505f8e": {
@@ -2914,13 +2929,13 @@ window.__twilightSettings = {
     },
     "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a": {
       "name": "amazonpay_cv2_migration_frontend",
-      "v": 36883,
+      "v": 37021,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -3796,13 +3811,13 @@ window.__twilightSettings = {
     },
     "6e4845fb-6097-49f9-88db-31387d48fcd6": {
       "name": "vat_prefetch",
-      "v": 36383,
+      "v": 37014,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -4571,11 +4586,11 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 36694,
+      "v": 37009,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
@@ -4584,10 +4599,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "AB4.5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwibW9kZWwiOnsiZW5hYmxlIjp0cnVlLCJpbnB1dFJlc29sdXRpb25BcmVhQmFuZCI6WzkyMTYwMCw5MjE2MDBdLCJzY2FsZUZhY3RvciI6MS41fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiZXJyb3IiLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "holdback00"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "holdback11"
       }]
     },
