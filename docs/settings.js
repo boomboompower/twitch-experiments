@@ -5279,13 +5279,13 @@ window.__twilightSettings = {
     },
     "a5c3a8f0-d293-4597-af87-f0352c58d1b3": {
       "name": "ivs_web_player_device_config_prod_test",
-      "v": 36606,
+      "v": 37061,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }]
     },
