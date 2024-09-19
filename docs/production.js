@@ -286,6 +286,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "ca505d53-5922-46ba-91d7-25ee70a7a41e",
+        "name": "percolite_CE_logged-out-experiment",
+        "dateFound": "2024-09-19T01:13:00.316Z"
+    },
+    {
         "id": "11b22bb1-eb3e-4a27-b9fd-13ccbfb5d691",
         "name": "gift_x_more",
         "dateFound": "2022-06-15T07:19:12.000Z"

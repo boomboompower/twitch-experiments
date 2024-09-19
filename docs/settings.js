@@ -1635,7 +1635,7 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37015,
+      "v": 37053,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -1646,6 +1646,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "treatment_100"
       }]
     },
     "172f025c-5e5d-49e3-9e7f-29e2d2505f8e": {
@@ -1807,16 +1810,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 36863,
+      "v": 37050,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
