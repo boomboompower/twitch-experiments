@@ -165,9 +165,19 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "f46ef7ca-6acc-43b2-bc77-a41077be06d3",
-        "name": "mse_in_workers",
-        "dateFound": "2022-06-15T07:19:12.000Z"
+        "id": "4f4511c5-588d-4a39-8ca1-4b95149a00d2",
+        "name": "ivs_player_mse_in_workers_safari",
+        "dateFound": "2024-09-24T01:14:59.619Z"
+    },
+    {
+        "id": "2caeb3ea-ae9e-4a3c-b675-de3eb85c6ddb",
+        "name": "ivs_player_mse_in_workers_edge",
+        "dateFound": "2024-09-24T01:14:59.621Z"
+    },
+    {
+        "id": "c704aec0-73be-4ce5-9872-2ce674c5ccb2",
+        "name": "ivs_player_mse_in_workers_opera",
+        "dateFound": "2024-09-24T01:14:59.622Z"
     },
     {
         "id": "46d7d385-62a6-4aff-bb08-ca35fbadd8e6",

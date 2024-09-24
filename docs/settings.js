@@ -540,7 +540,7 @@ window.__twilightSettings = {
   "mv_rd": [1, false],
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
-  "mweb_chat_write": [0.25, false],
+  "mweb_chat_write": [0.5, false],
   "mweb_nav_alignment": [0, false],
   "mweb_player_updates": [0, false],
   "mwot_leak": false,
