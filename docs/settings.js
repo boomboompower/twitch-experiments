@@ -850,6 +850,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "tubular_tubers_moving": [0, false],
   "turbo_ft": true,
   "turbo_v2": [0, false],
   "Turtle": "2023-09-26T17:00:00+00:00",
@@ -4275,17 +4276,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 36995,
+      "v": 37147,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "variant-b"
       }]
     },
