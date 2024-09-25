@@ -439,6 +439,7 @@ window.__twilightSettings = {
   "guest_star_request_to_join_private_call_out_duration": 30,
   "guest_star_request_to_join_sort": [1, true],
   "guest_star_request_to_join_vips_filter": [1, true],
+  "guest_star_responsive_layout": [0, false],
   "guest_star_responsiveness": [1, false],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
@@ -1813,16 +1814,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37118,
+      "v": 37160,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -2971,13 +2972,13 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 36849,
+      "v": 37171,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment"
       }, {
         "weight": 0,
