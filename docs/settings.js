@@ -371,6 +371,7 @@ window.__twilightSettings = {
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": true,
+  "gift-bundle-upsell-end-date": "2024-11-01T07:00:00+00:00",
   "giftcard_currency_expansion": [1, true],
   "gkth_reward_update": [1, false],
   "graphql_result_proxy_rollout": [0.01, false],
@@ -735,6 +736,7 @@ window.__twilightSettings = {
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
   "show_me_the_money": [1, false],
+  "show_quest_store": true,
   "show_sh_category": true,
   "shuffle_panel_extension_recommendations": [1, false],
   "sidp_logout_all_toggle": [1, false],
@@ -2972,13 +2974,13 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 37171,
+      "v": 37181,
       "t": 3,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }, {
         "weight": 0,
@@ -6960,6 +6962,18 @@ window.__twilightSettings = {
     "e3f98642-92df-404b-a7eb-21da0473a96b": {
       "name": "kr_jp_string_test",
       "v": 14021,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
+    "e47d7cd3-bf87-4b8f-a3c6-8fb34dc3f959": {
+      "name": "enable-gift-bundle-upsell",
+      "v": 37175,
       "t": 2,
       "groups": [{
         "weight": 100,
