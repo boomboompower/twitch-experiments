@@ -36,7 +36,6 @@ window.__twilightSettings = {
   "alerts_home_redesign": [1, false],
   "alerts_revenue_callout_earnings_page_switch": [0, false],
   "am_ccar_feature_enabled": [1, true],
-  "am_fr": [1, true],
   "amazon_ads_url": "https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=twitch.tv&ex-hargs=v%3D1.0%3Bc%3D8858214122683%3Bp%3De75425fb-5407-7bd5-fd20-f462e98a8777",
   "amazon_ads_url_crown_uk": "https://aax-eu.amazon-adsystem.com/s/iui3?d=forester-did&ex-fargs=%3Fid%3Db8b26227-de81-5bfb-4046-b9158f6a8c08%26type%3D4%26m%3D3&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D3815840130302%3Bp%3DB8B26227-DE81-5BFB-4046-B9158F6A8C08",
   "amazon_ads_url_crown_us": "https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fid%3D2d452222-ea0d-0b73-d0cc-472923e63141%26type%3D4%26m%3D1&ex-fch=416613&ex-src=https://www.twitch.tv&ex-hargs=v%3D1.0%3Bc%3D7416603020101%3Bp%3D2D452222-EA0D-0B73-D0CC-472923E63141",
@@ -499,7 +498,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
+  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "5e081f01-7c33-457a-8bf1-ab660a196e8b"],
   "longtask_tracking_sample_rate": 0.1,
   "ltdv2_rollout_enabled": [1, false],
   "lynx_batch_report_experiment": [0, true],
@@ -572,7 +571,7 @@ window.__twilightSettings = {
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
-  "payments_banners_feature_enabled": [1, true],
+  "payments_banners_feature_enabled": [0.05, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [1, true],
@@ -2974,13 +2973,13 @@ window.__twilightSettings = {
     },
     "4e4367ca-d0d7-4916-98e6-38c3c22fc619": {
       "name": "am_lnu",
-      "v": 37181,
+      "v": 37204,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }, {
         "weight": 0,
@@ -5255,7 +5254,7 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 36882,
+      "v": 37205,
       "t": 2,
       "groups": [{
         "weight": 50,
