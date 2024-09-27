@@ -571,7 +571,7 @@ window.__twilightSettings = {
   "p_by_p_gate": [1, true],
   "pay_mambo": [1, true],
   "payment_methods_migration": [1, true],
-  "payments_banners_feature_enabled": [0.05, true],
+  "payments_banners_feature_enabled": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
   "payments_spm_enabled_countries": ["US", "CA", "AT", "BE", "BG", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK", "GR", "CY"],
   "payout_method_migration": [1, true],
@@ -4278,17 +4278,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37152,
+      "v": 37213,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "variant-b"
       }]
     },
