@@ -1817,16 +1817,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37234,
+      "v": 37287,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -5286,11 +5286,14 @@ window.__twilightSettings = {
     },
     "a5c3a8f0-d293-4597-af87-f0352c58d1b3": {
       "name": "ivs_web_player_device_config_prod_test",
-      "v": 37242,
+      "v": 37298,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
+      }, {
+        "weight": 5,
+        "value": "treatment"
       }]
     },
     "a636f65d-912c-43c8-9a28-bb88babacfca": {
@@ -5695,6 +5698,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
+      }]
+    },
+    "b49420ab-8e72-4fc2-a4a9-93ad1608d55d": {
+      "name": "android_portals_signup",
+      "v": 37295,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "b56172de-08e4-4fc5-988d-a9d543f4092b": {
