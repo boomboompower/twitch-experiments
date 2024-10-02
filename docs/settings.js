@@ -813,7 +813,7 @@ window.__twilightSettings = {
   "studio_stream_info_intro_cta": [0, false],
   "studio_vcam": [1, true],
   "sub_count_goal_feature_flag": [1, true],
-  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e"],
+  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74"],
   "sub_modal_tier_upsell_enabled": true,
   "Subs_Geo_Breakdown": [1, false],
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
@@ -2939,13 +2939,13 @@ window.__twilightSettings = {
     },
     "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a": {
       "name": "amazonpay_cv2_migration_frontend",
-      "v": 37021,
+      "v": 37321,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -4280,18 +4280,21 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37279,
+      "v": 37319,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
+      }, {
+        "weight": 100,
+        "value": "variant-m"
       }]
     },
     "810c89aa-ac9b-4601-aac0-2626e7bd7d4f": {
@@ -5256,13 +5259,13 @@ window.__twilightSettings = {
     },
     "a5622528-6814-4cbf-b845-bda51e061853": {
       "name": "amazonpay_cv2_migration",
-      "v": 37205,
+      "v": 37314,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -5286,14 +5289,17 @@ window.__twilightSettings = {
     },
     "a5c3a8f0-d293-4597-af87-f0352c58d1b3": {
       "name": "ivs_web_player_device_config_prod_test",
-      "v": 37298,
+      "v": 37323,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "treatment"
+      }, {
+        "weight": 25,
+        "value": "holdout"
       }]
     },
     "a636f65d-912c-43c8-9a28-bb88babacfca": {
