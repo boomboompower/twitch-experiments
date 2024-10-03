@@ -505,6 +505,7 @@ window.__twilightSettings = {
   "longtask_tracking_sample_rate": 0.1,
   "ltdv2_rollout_enabled": [1, false],
   "lynx_batch_report_experiment": [0, true],
+  "lynx_batch_reporting_release": "2024-10-07T18:18:48.502Z",
   "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
@@ -712,6 +713,7 @@ window.__twilightSettings = {
   "sb_refresh_cutoff": 5000,
   "sc-allowlist": ["73742338", "221753357", "227665048", "21700839", "143819807", "56361303", "62111158", "123983762", "40101058", "127939464", "146947131", "47241839", "25525699", "84346637", "44217375", "113138305", "70801500", "88272226", "26910286", "42849214", "31953269", "8272681", "56693129", "64926136", "45263473", "101320368", "268669435", "416121326", "13220401", "146333452", "38746172", "1114573711", "1114575497", "96046250"],
   "sc-full-rollout": [1, false],
+  "sc-standalone": [0, false],
   "sda_ad_edge_web": [1, true],
   "sda_broadcaster_allowlist": ["25525699", "51898091", "53831996", "76446919", "142679750", "95864871", "30923466", "36470829", "675126186", "712724109"],
   "sda_broadcaster_allowlist_enabled": false,
@@ -1821,16 +1823,16 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37287,
+      "v": 37355,
       "t": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -6060,14 +6062,14 @@ window.__twilightSettings = {
     },
     "c54ebc3d-e931-4454-ac06-023eba9d9968": {
       "name": "Twilight amazon-ivs-web-broadcast enable simulcast",
-      "v": 36816,
+      "v": 37356,
       "t": 1,
       "s": 5,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "enabled"
       }]
     },
