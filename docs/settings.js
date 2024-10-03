@@ -213,6 +213,8 @@ window.__twilightSettings = {
   "contribution_matching_oz": "",
   "cookie_consent_rollout": [1, true],
   "cookie_sync_country_allowlist": ["AU", "NZ"],
+  "cookie_sync_enabled": [0, true],
+  "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=gg_n-index_kg_n-MediaNet_n-Ogury_ox-db5_pm-db5_rx_r1u_rbd_3lift_an-db5",
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
   "copo_shorter_predictions": [1, true],
@@ -4632,6 +4634,15 @@ window.__twilightSettings = {
         "value": "active"
       }]
     },
+    "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
+      "name": "hypetrain_push_notifications",
+      "v": 37345,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "8bfa5d18-0a32-42a1-a8ed-b380408cc18d": {
       "name": "is_channel_in_direct_hype_train_triggers",
       "v": 33566,
@@ -6838,8 +6849,8 @@ window.__twilightSettings = {
       }]
     },
     "e161fc0c-b75a-4801-b65c-36e911afd28f": {
-      "name": "twilight_ads_pr_45s ",
-      "v": 37007,
+      "name": "twilight_p_4",
+      "v": 37346,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -7008,13 +7019,13 @@ window.__twilightSettings = {
     },
     "e5beeeab-073c-465f-8f39-83fb54fa75ec": {
       "name": "gifting_refresh",
-      "v": 36827,
+      "v": 37342,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "treatment_1"
       }]
     },
