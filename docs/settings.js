@@ -168,7 +168,6 @@ window.__twilightSettings = {
   "Chihiro": "2024-01-02T18:00:00Z",
   "Chinchilla": "2023-10-01T07:00:00+00:00",
   "chmod-bcsvs": true,
-  "cip_discoverability_channel_analytics": [1, false],
   "cit_fetch_at_boot": [1, false],
   "cit_gql_rollout": [1, false],
   "cit_kasada_at_boot": [1, false],
