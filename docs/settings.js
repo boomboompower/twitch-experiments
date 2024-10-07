@@ -286,7 +286,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_category_redirect_slugs": ["project-l", "2xko"],
+  "disco_category_redirect_slugs": ["calabiyau", "strinova"],
   "disco_mi_chiamo": true,
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
@@ -611,7 +611,7 @@ window.__twilightSettings = {
   "prime_2_paid": "on",
   "prime_blocked_regions": ["IN", "IND", "CU", "CUB", "SD", "SUD", "IR", "IRN", "CHN", "CN", "SY", "SYR", "PRK", "KP", "RU", "RUS", "BY", "BLR"],
   "prime_crown_sub_tab": [0, false],
-  "prime_gaming_special_event_image": [1, false],
+  "prime_gaming_special_event_image": [0, false],
   "prime_gift_experiment_offer_ids": ["66b38719-794e-2aa7-9ce6-66690ef4f6aa", "34b38f7c-55f8-fbc6-e2b1-1d23987cf594", "8ab38ee7-ad80-a88c-dfe9-aef78c980fde", "acb38f7b-c3f2-307c-2017-c4f3a6acd402"],
   "prime_landing_page_base_url": "https://twitch.amazon.com/prime/country",
   "prime_loot_top_offer_list": "Game",
@@ -1822,8 +1822,9 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37355,
+      "v": 37419,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 50,
         "value": "variant-wb-a"
@@ -5303,14 +5304,11 @@ window.__twilightSettings = {
     },
     "a5c3a8f0-d293-4597-af87-f0352c58d1b3": {
       "name": "ivs_web_player_device_config_prod_test",
-      "v": 37337,
+      "v": 37421,
       "t": 1,
       "groups": [{
-        "weight": 50,
-        "value": "treatment"
-      }, {
-        "weight": 50,
-        "value": "holdback"
+        "weight": 100,
+        "value": "control"
       }]
     },
     "a636f65d-912c-43c8-9a28-bb88babacfca": {
