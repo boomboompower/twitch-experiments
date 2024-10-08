@@ -503,6 +503,7 @@ window.__twilightSettings = {
   "limited_safari_discovery_card": [1, true],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "5e081f01-7c33-457a-8bf1-ab660a196e8b"],
   "longtask_tracking_sample_rate": 0.1,
+  "lor_auuk_enable": false,
   "ltdv2_rollout_enabled": [1, false],
   "lynx_batch_report_experiment": [0, true],
   "lynx_batch_reporting_release": "2024-10-07T18:18:48.502Z",
@@ -1649,19 +1650,19 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37444,
+      "v": 37445,
       "t": 1,
       "groups": [{
-        "weight": 97,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "holdback"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "treatment_10"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "treatment_999"
       }]
     },
@@ -5074,6 +5075,45 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "paid"
+      }]
+    },
+    "9c61d150-c33d-46b8-b695-2f49e87ecc5e": {
+      "name": "disco_cc_channel",
+      "v": 37448,
+      "t": 1,
+      "groups": [{
+        "weight": 1,
+        "value": "control"
+      }, {
+        "weight": 1,
+        "value": "v1"
+      }, {
+        "weight": 1,
+        "value": "v2"
+      }, {
+        "weight": 1,
+        "value": "v3"
+      }, {
+        "weight": 1,
+        "value": "v4"
+      }, {
+        "weight": 1,
+        "value": "v5"
+      }, {
+        "weight": 1,
+        "value": "v6"
+      }, {
+        "weight": 1,
+        "value": "v7"
+      }, {
+        "weight": 1,
+        "value": "v8"
+      }, {
+        "weight": 1,
+        "value": "v9"
+      }, {
+        "weight": 1,
+        "value": "v10"
       }]
     },
     "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d": {
