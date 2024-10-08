@@ -1649,20 +1649,20 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37053,
+      "v": 37444,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 97,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "holdback"
       }, {
-        "weight": 0,
-        "value": "treatment"
+        "weight": 1,
+        "value": "treatment_10"
       }, {
-        "weight": 0,
-        "value": "treatment_100"
+        "weight": 1,
+        "value": "treatment_999"
       }]
     },
     "172f025c-5e5d-49e3-9e7f-29e2d2505f8e": {
