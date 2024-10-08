@@ -369,6 +369,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
   "first_paid_gift_offer_feature_flag": [1, true],
+  "fix_highlight_ordering": false,
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": true,
@@ -529,6 +530,7 @@ window.__twilightSettings = {
   "membrane_channels": "[]",
   "messages_disclosure_enabled": false,
   "midnight_in_paris": false,
+  "mini_aussie_shepherd": [0, false],
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
   "mods_author_subscription": [1, false],
@@ -4286,7 +4288,7 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37319,
+      "v": 37425,
       "t": 1,
       "s": 6,
       "groups": [{
@@ -4296,10 +4298,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant-m"
       }]
     },

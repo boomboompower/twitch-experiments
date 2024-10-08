@@ -484,6 +484,11 @@ const productionExperiments = [
         "dateFound": "2024-07-24T01:06:58.132Z"
     },
     {
+        "id": "e47d7cd3-bf87-4b8f-a3c6-8fb34dc3f959",
+        "name": "enable-gift-bundle-upsell",
+        "dateFound": "2024-10-08T01:14:49.704Z"
+    },
+    {
         "id": "a79fd789-8561-450e-881e-133517728556",
         "name": "csai_preroll_pbyp_exp",
         "dateFound": "2023-04-05T01:09:42.000Z"
