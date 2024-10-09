@@ -773,6 +773,7 @@ window.__twilightSettings = {
   "sp-cw-release": "2024-06-05T18:00:00.353Z",
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "sponsorship_disclosure_enabled": [0, false],
+  "sponsorships_client_portal": [0, false],
   "sponsorships_creator_dashboard": [1, true],
   "sponsorships_revenue": [1, true],
   "spotlight_creator_home_upsell_exp": [1, false],
@@ -1825,17 +1826,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37419,
+      "v": 37466,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
