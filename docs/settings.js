@@ -212,7 +212,7 @@ window.__twilightSettings = {
   "contribution_matching_oz": "",
   "cookie_consent_rollout": [1, true],
   "cookie_sync_country_allowlist": ["AU", "NZ"],
-  "cookie_sync_enabled": [0, true],
+  "cookie_sync_enabled": [0.5, true],
   "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=gg_n-index_kg_n-MediaNet_n-Ogury_ox-db5_pm-db5_rx_r1u_rbd_3lift_an-db5",
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
@@ -6902,13 +6902,13 @@ window.__twilightSettings = {
     },
     "e161fc0c-b75a-4801-b65c-36e911afd28f": {
       "name": "twilight_p_4",
-      "v": 37346,
+      "v": 37477,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 2,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 98,
         "value": "active"
       }]
     },
