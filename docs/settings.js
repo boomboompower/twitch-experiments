@@ -1650,7 +1650,7 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37445,
+      "v": 37461,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -4289,7 +4289,7 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37425,
+      "v": 37455,
       "t": 1,
       "s": 6,
       "groups": [{
@@ -4299,10 +4299,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -6878,6 +6878,15 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "e092b640-09ef-40a6-b764-1d36dfb65ddd": {
+      "name": "mini_aussie_sepherd",
+      "v": 37456,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "e0bf6f39-5593-419d-a2ba-55ceb960d358": {
       "name": "picture_by_picture_for_viewers",
       "v": 7471,
@@ -7061,13 +7070,13 @@ window.__twilightSettings = {
     },
     "e5beeeab-073c-465f-8f39-83fb54fa75ec": {
       "name": "gifting_refresh",
-      "v": 37342,
+      "v": 37460,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "treatment_1"
       }]
     },

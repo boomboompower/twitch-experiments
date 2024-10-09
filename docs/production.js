@@ -180,6 +180,11 @@ const productionExperiments = [
         "dateFound": "2024-09-24T01:14:59.622Z"
     },
     {
+        "id": "171673d5-bd3f-438c-b9da-70ca99609b25",
+        "name": "ivs_player_web_dropped_frame_filter",
+        "dateFound": "2024-10-09T01:14:25.140Z"
+    },
+    {
         "id": "46d7d385-62a6-4aff-bb08-ca35fbadd8e6",
         "name": "web_passthrough_daterange_tags",
         "dateFound": "2024-08-15T01:04:39.808Z"
