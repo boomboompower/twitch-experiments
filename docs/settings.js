@@ -6950,16 +6950,16 @@ window.__twilightSettings = {
     },
     "e27d0b82-7086-4d28-98d4-09dee9f8c7a1": {
       "name": "android_viewer_clip_exports",
-      "v": 37261,
+      "v": 37498,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "active_development"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "active_21.5"
       }]
     },
@@ -7059,13 +7059,13 @@ window.__twilightSettings = {
     },
     "e47d7cd3-bf87-4b8f-a3c6-8fb34dc3f959": {
       "name": "enable-gift-bundle-upsell",
-      "v": 37175,
+      "v": 37497,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 80,
         "value": "treatment"
       }]
     },
