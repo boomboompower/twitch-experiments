@@ -212,7 +212,7 @@ window.__twilightSettings = {
   "contribution_matching_oz": "",
   "cookie_consent_rollout": [1, true],
   "cookie_sync_country_allowlist": ["AU", "NZ"],
-  "cookie_sync_enabled": [0.5, true],
+  "cookie_sync_enabled": [1, true],
   "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=gg_n-index_kg_n-MediaNet_n-Ogury_ox-db5_pm-db5_rx_r1u_rbd_3lift_an-db5",
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
@@ -369,7 +369,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
   "first_paid_gift_offer_feature_flag": [1, true],
-  "fix_highlight_ordering": false,
+  "fix_highlight_ordering": true,
   "follower_emotes_launch": [1, true],
   "freeway_extension_ids": ["4ced1fygnrzerfs95cofbwiltq88uh", "fr22g90tzrvi91eevh5ipehxbko7gd"],
   "friendly-alligator": true,
@@ -697,7 +697,7 @@ window.__twilightSettings = {
   "rooms_deprecation_enabled": true,
   "rooms_deprecation_notice": true,
   "rooms_deprecation_selector_hidden": true,
-  "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US", "AI", "AL", "AM", "AN", "AZ", "BA", "BD", "BG", "BI", "BJ", "BL", "BV", "BW", "CC", "CF", "CK", "CN", "CV", "CX", "CZ", "DO", "DZ", "EE", "EG", "EH", "ER", "FK", "GE", "GF", "GH", "GL", "GM", "GN", "GQ", "GS", "GW", "HK", "HM", "IN", "IS", "JO", "KE", "KG", "KH", "KI", "KM", "KZ", "LA", "LS", "LU", "LV", "LY", "MA", "MD", "MH", "ML", "MR", "MS", "MV", "MW", "NF", "NP", "NR", "NU", "PG", "PH", "PK", "PL", "PM", "PN", "PS", "PT", "RO", "SB", "SC", "SH", "SJ", "SL", "SO", "SS", "ST", "TD", "TF", "TG", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TV", "UM", "UZ", "VA", "VC", "VG", "VN", "VU", "WF", "WS", "YE", "YT", "ET"],
+  "rpt_countries": ["ES", "IT", "TW", "JP", "MX", "AR", "AU", "CL", "FR", "NL", "NZ", "PE", "AD", "AE", "AF", "AG", "AO", "AS", "AT", "AW", "AX", "BB", "BE", "BF", "BH", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BZ", "CA", "CH", "CM", "CO", "CR", "CW", "CY", "DE", "DJ", "DK", "DM", "EC", "FI", "FJ", "FM", "FO", "GA", "GB", "GD", "GG", "GI", "GP", "GR", "GT", "GU", "GY", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IO", "JE", "JM", "KN", "KR", "KW", "KY", "LB", "LC", "LI", "LK", "LT", "MC", "ME", "MF", "MG", "MK", "MN", "MO", "MP", "MQ", "MT", "MU", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "OM", "PA", "PF", "PR", "PW", "PY", "QA", "RE", "RS", "RW", "SA", "SE", "SG", "SI", "SK", "SM", "SN", "SR", "SV", "SX", "SZ", "TC", "TH", "TT", "TZ", "UG", "UY", "VE", "VI", "ZA", "ZM", "US", "AI", "AL", "AM", "AN", "AZ", "BA", "BD", "BG", "BI", "BJ", "BL", "BV", "BW", "CC", "CF", "CK", "CN", "CV", "CX", "CZ", "DO", "DZ", "EE", "EG", "EH", "ER", "FK", "GE", "GF", "GH", "GL", "GM", "GN", "GQ", "GS", "GW", "HK", "HM", "IN", "IS", "JO", "KE", "KG", "KH", "KI", "KM", "KZ", "LA", "LS", "LU", "LV", "LY", "MA", "MD", "MH", "ML", "MR", "MS", "MV", "MW", "NF", "NP", "NR", "NU", "PG", "PH", "PK", "PL", "PM", "PN", "PS", "PT", "RO", "SB", "SC", "SH", "SJ", "SL", "SO", "SS", "ST", "TD", "TF", "TG", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TV", "UM", "UZ", "VA", "VC", "VG", "VN", "VU", "WF", "WS", "YE", "YT", "ET", "UA", "XK"],
   "rpt_messaging": true,
   "rtj_follow_limit": [1, false],
   "rtj_inactive_guest": [0, false],
@@ -6880,8 +6880,8 @@ window.__twilightSettings = {
       }]
     },
     "e092b640-09ef-40a6-b764-1d36dfb65ddd": {
-      "name": "mini_aussie_sepherd",
-      "v": 37456,
+      "name": "mini_aussie_shepherd",
+      "v": 37488,
       "t": 1,
       "groups": [{
         "weight": 100,
