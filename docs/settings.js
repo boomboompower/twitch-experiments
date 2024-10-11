@@ -614,7 +614,7 @@ window.__twilightSettings = {
   "prime_2_paid": "on",
   "prime_blocked_regions": ["IN", "IND", "CU", "CUB", "SD", "SUD", "IR", "IRN", "CHN", "CN", "SY", "SYR", "PRK", "KP", "RU", "RUS", "BY", "BLR"],
   "prime_crown_sub_tab": [0, false],
-  "prime_gaming_special_event_image": [0, false],
+  "prime_gaming_special_event_image": [1, false],
   "prime_gift_experiment_offer_ids": ["66b38719-794e-2aa7-9ce6-66690ef4f6aa", "34b38f7c-55f8-fbc6-e2b1-1d23987cf594", "8ab38ee7-ad80-a88c-dfe9-aef78c980fde", "acb38f7b-c3f2-307c-2017-c4f3a6acd402"],
   "prime_landing_page_base_url": "https://twitch.amazon.com/prime/country",
   "prime_loot_top_offer_list": "Game",
@@ -3346,13 +3346,13 @@ window.__twilightSettings = {
     },
     "5a504d3b-df38-41cc-a7f4-c298b917fbe9": {
       "name": "aof-intervention-hard-block",
-      "v": 35451,
+      "v": 37503,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 5,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 95,
         "value": "experiment"
       }]
     },
