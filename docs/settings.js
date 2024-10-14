@@ -501,7 +501,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "5e081f01-7c33-457a-8bf1-ab660a196e8b"],
+  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": false,
   "ltdv2_rollout_enabled": [1, false],
