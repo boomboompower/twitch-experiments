@@ -450,6 +450,7 @@ window.__twilightSettings = {
   "guest_star_simplification_flag": [1, true],
   "guest_star_simplification_milestone": [1, true],
   "Haku": "2023-12-13T17:45:00Z",
+  "hermes-dl": [0, false],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -1528,13 +1529,13 @@ window.__twilightSettings = {
     },
     "134b3a63-5c90-467a-bd12-b69c9dddc8da": {
       "name": "lynx_experiment",
-      "v": 36240,
+      "v": 37558,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "release"
       }]
     },
@@ -5643,6 +5644,18 @@ window.__twilightSettings = {
       }, {
         "weight": 1,
         "value": "last"
+      }]
+    },
+    "aff9c6d9-15da-439c-bcc3-e96777d512d3": {
+      "name": "hypetrain-thth-experiment",
+      "v": 37553,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "experiment"
       }]
     },
     "b0dfe2ad-e654-45b3-98bc-6c5e86cad31d": {
