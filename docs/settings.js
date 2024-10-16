@@ -563,7 +563,7 @@ window.__twilightSettings = {
   "nifty-mushroom-committee": [0, false],
   "No_Track_Pages": ["/user/password-reset"],
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
-  "odd_caribou_sleeping": [0, true],
+  "odd_caribou_sleeping": [1, true],
   "offer_claim_sync": [0, false],
   "omit_topnav_in_theatre": [1, false],
   "onboarding_agreement_api": [1, true],
@@ -785,6 +785,7 @@ window.__twilightSettings = {
   "squad_stream_ads_send_primary_player": true,
   "squad_stream_survey_url": "",
   "st_side_nav_offline_guesting": [0, false],
+  "st-invite-via-link": [0, false],
   "staff_garfield_discovery_control": true,
   "stand_behind_braum": [0, false],
   "stories_polling_seconds": 420,
@@ -852,6 +853,7 @@ window.__twilightSettings = {
   "talk_gs_pinned_guests": [1, true],
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [1, true],
+  "tater_tot": [0, false],
   "tax_onboarding_maintenance": [0, false],
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
@@ -1554,19 +1556,19 @@ window.__twilightSettings = {
     },
     "13dbc695-5fcf-4e37-ac77-4d10b59942ac": {
       "name": "gwcc_verification_volume",
-      "v": 34741,
+      "v": 37577,
       "t": 2,
       "groups": [{
-        "weight": 25,
+        "weight": 75,
         "value": "g1"
       }, {
-        "weight": 25,
+        "weight": 20,
         "value": "g2"
       }, {
-        "weight": 25,
+        "weight": 5,
         "value": "g3"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "control"
       }]
     },
@@ -6795,17 +6797,17 @@ window.__twilightSettings = {
     },
     "dd51e84b-e52b-4663-9502-6db07968f2f1": {
       "name": "htc_1",
-      "v": 36586,
+      "v": 37580,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 34,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant"
       }, {
-        "weight": 33,
+        "weight": 100,
         "value": "variant_with_remaining"
       }]
     },
