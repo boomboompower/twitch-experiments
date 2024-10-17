@@ -104,6 +104,7 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
+  "can_create_clip_darklaunch": [0, true],
   "cats_meow_enabled": [0, false],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
@@ -228,7 +229,6 @@ window.__twilightSettings = {
   "cplat_rb_cluster_enabled": true,
   "cplat_rb_ga_rollout": true,
   "cplat_rb_ga_rollout_callout_expiry_date": "2024-07-05 00:00:00 GMT-0800",
-  "create_clip_tooltip_rollout": [0, true],
   "creator_anniversaries_enabled": [0, false],
   "creator_camp_launch": "all",
   "creator_chat": [1, false],
@@ -5979,6 +5979,21 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "variant"
+      }]
+    },
+    "bbedb433-bf1d-4d47-afb6-ca5f882d7cc1": {
+      "name": "ivs_web_reader_update",
+      "v": 37618,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "holdback"
       }]
     },
     "bd1b4ced-f031-4733-b5f5-6b9f5ce14777": {
