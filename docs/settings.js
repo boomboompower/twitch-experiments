@@ -105,6 +105,7 @@ window.__twilightSettings = {
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
   "can_create_clip_darklaunch": [0, true],
+  "cat-mouse-food-event": [0, false],
   "cats_meow_enabled": [0, false],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
@@ -1363,18 +1364,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "758474519,758475291,657055705"
-      }]
-    },
-    "0f2bef3d-b383-4f77-9c55-b8681a2c4c4b": {
-      "name": "collab_tot_spotlight_card",
-      "v": 37593,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant"
       }]
     },
     "0f38e1d8-4437-473d-b75e-86d83a8f49fa": {
@@ -4309,17 +4298,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37608,
+      "v": 37629,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
