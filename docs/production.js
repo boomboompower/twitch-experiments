@@ -564,6 +564,16 @@ const productionExperiments = [
         "dateFound": "2023-09-20T20:13:21.359Z"
     },
     {
+        "id": "f9df183a-f262-4ca0-85e2-153602d5bde8",
+        "name": "amazon_ivs_web_broadcast_retry_errors_userid",
+        "dateFound": "2024-10-18T08:20:51.504Z"
+    },
+    {
+        "id": "c6154b47-96ef-44b0-8f30-ff3b630510fa",
+        "name": "amazon_ivs_web_broadcast_enable_ffa",
+        "dateFound": "2024-10-18T08:20:51.506Z"
+    },
+    {
         "id": "a5c3a8f0-d293-4597-af87-f0352c58d1b3",
         "name": "ivs_web_player_device_config_prod_test",
         "staffOverride": "treatment",
