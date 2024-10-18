@@ -1118,13 +1118,13 @@ window.__twilightSettings = {
     },
     "063fcfe3-e7d6-45f6-a4f4-026909f1e61c": {
       "name": "partial_goals_channel",
-      "v": 34360,
+      "v": 37642,
       "t": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -6670,18 +6670,6 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 50,
-        "value": "variant"
-      }]
-    },
-    "d93167ce-ede1-4d3c-95c2-56114e2a8a81": {
-      "name": "partial_goals",
-      "v": 33762,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
         "value": "variant"
       }]
     },
