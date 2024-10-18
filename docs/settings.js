@@ -409,7 +409,6 @@ window.__twilightSettings = {
   "guest_star_bug_reporting_dialog": [1, true],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_costreaming_simplification_enabled": true,
   "guest_star_creator_dashboard_example_clips_list": ["CarelessDeliciousPoultryKippa-yS8ftR2DE-De2WKZ", "RefinedPleasantPanFailFish-p3s1ZGBtHcbdv0W1", "StupidCharmingPorpoiseAllenHuhu-BI09RPrLMpAwBNj7", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
@@ -451,6 +450,7 @@ window.__twilightSettings = {
   "guest_star_settings_modal": [1, true],
   "guest_star_simplification_flag": [1, true],
   "guest_star_simplification_milestone": [1, true],
+  "guest_star_viewership_enabled": [0, false],
   "Haku": "2023-12-13T17:45:00Z",
   "hermes-dl": [0, false],
   "hide_feedback_on_promoted_card": false,
@@ -828,7 +828,7 @@ window.__twilightSettings = {
   "suave_ramen_dumping": [0, false],
   "suave_ramen_dumping_rd": "2024-10-15T18:18:48.502Z",
   "sub_count_goal_feature_flag": [1, true],
-  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74", "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7", "0c95681b-95ad-4be7-a2ba-07dcace74891", "dc639b50-1310-465f-a3a2-7a77e73d6014", "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b"],
+  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74", "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7", "0c95681b-95ad-4be7-a2ba-07dcace74891", "dc639b50-1310-465f-a3a2-7a77e73d6014", "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b", "f751ba67-7c8b-4c41-b6df-bcea0914f3ad"],
   "sub_modal_tier_upsell_enabled": true,
   "Subs_Geo_Breakdown": [1, false],
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
@@ -6256,13 +6256,13 @@ window.__twilightSettings = {
     },
     "ca505d53-5922-46ba-91d7-25ee70a7a41e": {
       "name": "percolite_CE_logged-out-experiment",
-      "v": 37070,
+      "v": 37655,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 80,
         "value": "variant"
       }]
     },
@@ -7638,15 +7638,15 @@ window.__twilightSettings = {
       }]
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
-      "name": "venmo_us",
-      "v": 37582,
+      "name": "cheerful_termite_searching",
+      "v": 37656,
       "t": 2,
       "groups": [{
-        "weight": 10,
+        "weight": 20,
         "value": "variant"
       }, {
-        "weight": 90,
-        "value": "control "
+        "weight": 70,
+        "value": "control"
       }]
     },
     "f4c0f4c8-6fb6-46f9-bb82-2051c2ad49fc": {
