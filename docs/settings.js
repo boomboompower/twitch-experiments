@@ -353,7 +353,7 @@ window.__twilightSettings = {
   "eventsub_reconnect_codes": [1006, 4002, 4003, 4004, 4005, 4006],
   "export_clip_to_stories": [1, true],
   "export_clip_to_stories_clip_creation_ftue": [1, true],
-  "expressions_developer_badge": [1, false],
+  "expressions_developer_badge": [0, false],
   "expStaff_upcoming_schedules_directory_page": "active",
   "ext_challenges_whitelist": ["wlisor7an1m544ki2r9i1usl4d5ul0", "a9e46yl7gqwlsz7q6fqdqnrxng7tau", "ltszuxapi6b0wfpde6vqe2rodth4c5", "kd1b92hzrraf5k3uidm0a1u4fhrp6o", "8skl5ohvxvl8deeejox1e1fh7ovunh", "0vzjxlrppvwz5vzhfqwanqmka2g01l", "qxxw3ujo98hs4szinbwt59m94d9ozo"],
   "ext_sub_to_channel_whitelist": ["a5qgosum7si05cdwematgg2ozjtaq2", "18mdz6bwjda5he7bfsae6h91lgxgdw", "eavqdqcqgwud2gyqcnq9iix4t59j4k", "fr22g90tzrvi91eevh5ipehxbko7gd", "a49eq2cvncnt5n7eg2q6rhevadaz0p", "pt33xuskm584dpxkqnjs35zlkp406d", "vk1a7ieh6mgb3amd1gh81zvmdqcz0m", "d1dp7kdgsq3yg4ddyyel9mz5jebvoo", "xab8h6nj36fc2wtn71yikw9hqjd6v4", "a3gn4obyt6uzyu047scc9jfj7qneau", "fvynlr29tr76g9db18rjes5ptjklm7", "38v1o52q1c2qja1lfr73uid3r5rj8u", "c1kymnzual4uue80v72xt3qwn4a0k0", "5lauckksixlu987b5kbpuul70zqxdz", "oafn7vvzfyzyccwrwrt233221oe5wq", "xptj7dr0lk3xri8fkjot9w7n36zv12", "7nydnrue11053qmjc6g0fd6einj75p", "0btmbqa5tm2pyr0f59td8vk1unwxl6", "vsx7jb2l8d921dwr7b1qdrazuup2zk", "8z7rppiou6n4jf4sdjdz5sycrk0nvo", "07kczqwdkjxw6la4j92crc5wyumjxa"],
@@ -895,6 +895,7 @@ window.__twilightSettings = {
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
+  "vat-prefetch": [0.05, true],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -7492,8 +7493,9 @@ window.__twilightSettings = {
     },
     "eef2ed99-81d7-4119-9ac4-3b9e636ee0dd": {
       "name": "cplat_unified_home",
-      "v": 32876,
+      "v": 37695,
       "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
@@ -7639,10 +7641,11 @@ window.__twilightSettings = {
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
       "name": "cheerful_termite_searching",
-      "v": 37656,
+      "v": 37697,
       "t": 2,
+      "s": 1,
       "groups": [{
-        "weight": 20,
+        "weight": 30,
         "value": "variant"
       }, {
         "weight": 70,
