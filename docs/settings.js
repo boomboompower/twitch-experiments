@@ -184,7 +184,6 @@ window.__twilightSettings = {
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
-  "cm-sf": [0, false],
   "cmon_chat_introduction": [1, false],
   "cmp_dma": [1, false],
   "cmr_icon_button": [1, true],
@@ -1660,19 +1659,19 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37461,
+      "v": 37709,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 97,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "holdback"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment_10"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment_999"
       }]
     },
@@ -4299,17 +4298,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37629,
+      "v": 37708,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -5781,13 +5780,13 @@ window.__twilightSettings = {
     },
     "b49420ab-8e72-4fc2-a4a9-93ad1608d55d": {
       "name": "android_portals_signup",
-      "v": 37295,
+      "v": 37713,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -7368,6 +7367,15 @@ window.__twilightSettings = {
         "value": "treatment2-15s-ping-pong"
       }]
     },
+    "ec84deeb-2cdf-4fea-a6fe-4c1d7ecae886": {
+      "name": "hype_train_gift_cta",
+      "v": 37714,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
       "v": 37043,
@@ -7641,14 +7649,14 @@ window.__twilightSettings = {
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
       "name": "cheerful_termite_searching",
-      "v": 37697,
+      "v": 37716,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 30,
+        "weight": 40,
         "value": "variant"
       }, {
-        "weight": 70,
+        "weight": 60,
         "value": "control"
       }]
     },
