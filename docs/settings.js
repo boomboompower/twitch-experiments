@@ -452,7 +452,7 @@ window.__twilightSettings = {
   "guest_star_simplification_milestone": [1, true],
   "guest_star_viewership_enabled": [0, false],
   "Haku": "2023-12-13T17:45:00Z",
-  "hermes-dl": [0, false],
+  "hermes-dl": [0.01, false],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -6024,13 +6024,13 @@ window.__twilightSettings = {
     },
     "bf2b721a-14f4-4250-844a-101911395cfe": {
       "name": "web_disco_better_tags",
-      "v": 36836,
+      "v": 37698,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant1"
       }, {
         "weight": 0,
