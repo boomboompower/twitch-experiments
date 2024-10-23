@@ -1659,19 +1659,19 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37724,
+      "v": 37735,
       "t": 1,
       "groups": [{
-        "weight": 10,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 70,
+        "weight": 25,
         "value": "holdback"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment_10"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment_999"
       }]
     },
