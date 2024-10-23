@@ -190,6 +190,7 @@ window.__twilightSettings = {
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
+  "collaboration_viewership_enabled": [0, false],
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_disco_krusty_krab": [1, true],
   "com30_disco_squidward_snuggles": [1, true],
@@ -361,7 +362,7 @@ window.__twilightSettings = {
   "extension_discovery_redesign": [0, true],
   "extension_panel_recommendations": [1, true],
   "extension_ratings_download": [1, true],
-  "extension_review_maintenance": [0, false],
+  "extension_review_maintenance": [1, true],
   "extensions_dynamic_management": [1, true],
   "extensions_gql_migration": [1, true],
   "extensions_graphql_request_override": [1, false],
@@ -449,7 +450,6 @@ window.__twilightSettings = {
   "guest_star_settings_modal": [1, true],
   "guest_star_simplification_flag": [1, true],
   "guest_star_simplification_milestone": [1, true],
-  "guest_star_viewership_enabled": [0, false],
   "Haku": "2023-12-13T17:45:00Z",
   "hermes-dl": [0.01, false],
   "hide_feedback_on_promoted_card": false,
@@ -736,7 +736,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
-  "sentry_tracing_threshold": 1,
+  "sentry_tracing_threshold": 0.01,
   "shared_chat_pubsub_jitter_ms": 2000,
   "shared-chat-beta-flag": [1, false],
   "shared-chat-feature-flag": [1, false],
@@ -1659,19 +1659,19 @@ window.__twilightSettings = {
     },
     "171673d5-bd3f-438c-b9da-70ca99609b25": {
       "name": "ivs_player_web_dropped_frame_filter",
-      "v": 37709,
+      "v": 37724,
       "t": 1,
       "groups": [{
-        "weight": 97,
+        "weight": 10,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 70,
         "value": "holdback"
       }, {
-        "weight": 1,
+        "weight": 10,
         "value": "treatment_10"
       }, {
-        "weight": 1,
+        "weight": 10,
         "value": "treatment_999"
       }]
     },
@@ -7240,16 +7240,16 @@ window.__twilightSettings = {
     },
     "e9ec257a-77ea-4926-a072-b43d915abcca": {
       "name": "hype-train-left-nav",
-      "v": 36759,
+      "v": 37723,
       "t": 2,
       "groups": [{
-        "weight": 33,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "treatment1"
       }, {
-        "weight": 33,
+        "weight": 100,
         "value": "treatment2"
       }]
     },
@@ -7369,11 +7369,14 @@ window.__twilightSettings = {
     },
     "ec84deeb-2cdf-4fea-a6fe-4c1d7ecae886": {
       "name": "hype_train_gift_cta",
-      "v": 37714,
+      "v": 37733,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "experiment"
       }]
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
@@ -7649,14 +7652,14 @@ window.__twilightSettings = {
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
       "name": "cheerful_termite_searching",
-      "v": 37716,
+      "v": 37729,
       "t": 2,
-      "s": 2,
+      "s": 3,
       "groups": [{
-        "weight": 40,
+        "weight": 50,
         "value": "variant"
       }, {
-        "weight": 60,
+        "weight": 50,
         "value": "control"
       }]
     },
