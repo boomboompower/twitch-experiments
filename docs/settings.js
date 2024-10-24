@@ -538,6 +538,7 @@ window.__twilightSettings = {
   "mini_aussie_shepherd": [0, false],
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
+  "modern_lobster_singing": [0, false],
   "mods_author_subscription": [1, false],
   "mods_goodbye_takeover": true,
   "Mosquito": "2023-08-31T17:00:00+00:00",
