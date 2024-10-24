@@ -858,7 +858,7 @@ window.__twilightSettings = {
   "talk_gs_pinned_guests": [1, true],
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [1, true],
-  "tater_tot": [0, false],
+  "tater_tot": [1, true],
   "tax_onboarding_maintenance": [0, false],
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
