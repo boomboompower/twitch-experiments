@@ -794,5 +794,10 @@ const productionExperiments = [
         "id": "bf2b721a-14f4-4250-844a-101911395cfe",
         "name": "web_disco_better_tags",
         "dateFound": "2024-10-12T01:12:53.140Z"
+    },
+    {
+        "id": "b49420ab-8e72-4fc2-a4a9-93ad1608d55d",
+        "name": "android_portals_signup",
+        "dateFound": "2024-10-24T01:15:06.786Z"
     }
 ]

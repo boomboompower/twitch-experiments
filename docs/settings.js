@@ -124,7 +124,6 @@ window.__twilightSettings = {
   "celebi_stream_delay": true,
   "census-affiliate-onboarding-modal-enabled": [0, false],
   "cep_enabled": [0, false],
-  "cereus_rock_crab": false,
   "cf_clip_title_maintenance": false,
   "cf_goals_subs_dropdown": [1, true],
   "cf_jim_faxes_from_the_future": 1000,
@@ -365,7 +364,7 @@ window.__twilightSettings = {
   "extension_discovery_redesign": [0, true],
   "extension_panel_recommendations": [1, true],
   "extension_ratings_download": [1, true],
-  "extension_review_maintenance": [1, true],
+  "extension_review_maintenance": [0, false],
   "extensions_dynamic_management": [1, true],
   "extensions_gql_migration": [1, true],
   "extensions_graphql_request_override": [1, false],
@@ -1245,13 +1244,13 @@ window.__twilightSettings = {
     },
     "0a603b81-08db-4537-a52a-bf7b71ac6182": {
       "name": "garfield_discovery_control",
-      "v": 34549,
+      "v": 37744,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -5783,14 +5782,14 @@ window.__twilightSettings = {
     },
     "b49420ab-8e72-4fc2-a4a9-93ad1608d55d": {
       "name": "android_portals_signup",
-      "v": 37713,
+      "v": 37741,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
         "weight": 100,
-        "value": "variant"
+        "value": "active_21.7"
       }]
     },
     "b56172de-08e4-4fc5-988d-a9d543f4092b": {
