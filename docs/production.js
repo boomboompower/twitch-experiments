@@ -796,6 +796,11 @@ const productionExperiments = [
         "dateFound": "2024-10-12T01:12:53.140Z"
     },
     {
+        "id": "ec84deeb-2cdf-4fea-a6fe-4c1d7ecae886",
+        "name": "hype_train_gift_cta",
+        "dateFound": "2024-10-25T20:18:29.505Z"
+    },
+    {
         "id": "b49420ab-8e72-4fc2-a4a9-93ad1608d55d",
         "name": "android_portals_signup",
         "dateFound": "2024-10-24T01:15:06.786Z"
