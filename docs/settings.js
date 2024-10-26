@@ -4774,6 +4774,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "90688b11-7930-4f03-9be1-b6e410aa4df8": {
+      "name": "frame_echo",
+      "v": 37782,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "90c60e63-f179-4892-8c23-4585e3105750": {
       "name": "emote_card",
       "v": 8654,
@@ -5780,18 +5792,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
-      }]
-    },
-    "b49420ab-8e72-4fc2-a4a9-93ad1608d55d": {
-      "name": "android_portals_signup",
-      "v": 37741,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "active_21.7"
       }]
     },
     "b56172de-08e4-4fc5-988d-a9d543f4092b": {
