@@ -177,6 +177,7 @@ window.__twilightSettings = {
   "cit_manager_rollout": [1, false],
   "cit_max_retries": 3,
   "claims_form_bulk_input": [0, false],
+  "clever_diamond_wielding": [0, true],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
@@ -453,7 +454,7 @@ window.__twilightSettings = {
   "guest_star_simplification_flag": [1, true],
   "guest_star_simplification_milestone": [1, true],
   "Haku": "2023-12-13T17:45:00Z",
-  "hermes-dl": [0.1, false],
+  "hermes-dl": [0.25, false],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -1838,17 +1839,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37683,
+      "v": 37805,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
