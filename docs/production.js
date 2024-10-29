@@ -650,11 +650,6 @@ const productionExperiments = [
         "dateFound": "2024-03-06T00:56:31.401Z"
     },
     {
-        "id": "5f4f11ac-ce13-471b-9ff2-e408527ceb2f",
-        "name": "rrt_clock",
-        "dateFound": "2024-10-29T04:20:07.930Z"
-    },
-    {
         "id": "988bfb21-5fdc-4c11-88dd-ebae7e1dab12",
         "name": "chmod-vf",
         "dateFound": "2024-03-28T20:14:13.707Z"
