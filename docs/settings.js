@@ -1819,15 +1819,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "1d4c9c37-cf22-4e65-8d21-a1871754dd87": {
-      "name": "amazon_ivs_web_broadcast_retry_errors",
-      "v": 32698,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }]
-    },
     "1e583ca9-02fc-48af-a3b4-14f2c31aec34": {
       "name": "creator_home_creator_clubs_launch",
       "v": 36137,
@@ -5048,6 +5039,15 @@ window.__twilightSettings = {
         "value": "search"
       }]
     },
+    "9a466bb5-b5e7-4286-a3b7-54bf59c56894": {
+      "name": "amazon_ivs_web_broadcast_disable_token_reuse_msg",
+      "v": 37851,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5": {
       "name": "turbo_and_sub_upsell_during_ads",
       "v": 36075,
@@ -6142,18 +6142,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "enabled"
-      }]
-    },
-    "c6154b47-96ef-44b0-8f30-ff3b630510fa": {
-      "name": "amazon_ivs_web_broadcast_enable_ffa",
-      "v": 34380,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
       }]
     },
     "c6fd0d37-c577-4e5f-a2a7-9d2e1c7c300b": {
@@ -7849,18 +7837,6 @@ window.__twilightSettings = {
     "f8c43aed-0b0e-47bf-88db-5f188bac2922": {
       "name": "bits_simplified_purchase",
       "v": 33784,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
-      }]
-    },
-    "f9df183a-f262-4ca0-85e2-153602d5bde8": {
-      "name": "amazon_ivs_web_broadcast_retry_errors_userid",
-      "v": 34184,
       "t": 2,
       "groups": [{
         "weight": 0,
