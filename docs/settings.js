@@ -108,6 +108,7 @@ window.__twilightSettings = {
   "can_create_clip_darklaunch": [0, true],
   "cat-mouse-food-event": [0, false],
   "cats_meow_enabled": [0, false],
+  "cc_redesign": [0, true],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": [],
@@ -365,7 +366,7 @@ window.__twilightSettings = {
   "extension_discovery_redesign": [0, true],
   "extension_panel_recommendations": [1, true],
   "extension_ratings_download": [1, true],
-  "extension_review_maintenance": [1, true],
+  "extension_review_maintenance": [0, false],
   "extensions_dynamic_management": [1, true],
   "extensions_gql_migration": [1, true],
   "extensions_graphql_request_override": [1, false],
@@ -413,7 +414,7 @@ window.__twilightSettings = {
   "guest_star_bug_reporting_dialog": [1, true],
   "guest_star_channel_invites_query": [1, true],
   "guest_star_channel_page": [1, true],
-  "guest_star_creator_dashboard_example_clips_list": ["IncredulousObesePancakeStinkyCheese-kHISxe37gT7c9WO3", "ComfortableIcyReubenDogFace-IunN-pF9tfMCANW1", "ScaryFitCobraFutureMan-TfJ9lOMTOXJit4Pz", "FamousAssiduousNeanderthalPeanutButterJellyTime-CLmawF-9_TL12NwP", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
+  "guest_star_creator_dashboard_example_clips_list": ["IncredulousObesePancakeStinkyCheese-kHISxe37gT7c9WO3", "ComfortableIcyReubenDogFace-IunN-pF9tfMCANW1", "ScaryFitCobraFutureMan-TfJ9lOMTOXJit4Pz", "AwkwardEasyWormPeteZarollTie-CdpSNiGNKL97RbE5", "PreciousDepressedPuppyTBTacoRight-7wrtlgP4RPKsQgrg", "AmusedAffluentVultureCopyThis-Qr42rRVRjPmrQy66"],
   "guest_star_creator_dashboard_example_videos_list": ["1690623326@00:14:04", "1682909615@02:55:00", "1695444066@03:10:38", "1675602078@2:33:23", "1679248875@001:03:25", "1679213537@01:30:45"],
   "guest_star_creator_dashboard_use_clips": [1, true],
   "guest_star_crossover_alpha": [1, true],
@@ -481,6 +482,7 @@ window.__twilightSettings = {
   "igdb_links_enabled": [1, true],
   "ignore_mismatch": true,
   "ignored_logger_error_dependencies": [],
+  "ignored_logger_error_messages": ["missing subscribe response", "Request blocked by client, probably adblock", "further methods cannot be called\n Failure Code:Error in API: 0", "further methods cannot be called\n Failure Code:Request timed out", "ChunkLoadError", "Loading CSS chunk"],
   "ignored_logger_promise_rejection_stacktrace": [],
   "impacted_notice_banner_enabled": [1, true],
   "include_chat_timing_nonce": true,
@@ -501,7 +503,7 @@ window.__twilightSettings = {
   "kpsdk_login_flag": [1, false],
   "kpsdk_signup_flag": [1, false],
   "kpsdk_timeout": 90000,
-  "lapsed_bits_user": true,
+  "lapsed_bits_user": false,
   "launch_pad": "{\"sv\":\"https://twitchtv.az1.qualtrics.com/jfe/form/SV_agjOSjZcGCGcunc\",\"svd\":30,\"lm\":\"https://help.twitch.tv/s/article/boost-experiment\",\"u\":1000,\"ls\":[1,3,5]}",
   "launch_pad_ready": [0, false],
   "left_nav_polling_interval_ms": 300000,
@@ -2703,18 +2705,6 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "feedback"
-      }]
-    },
-    "443a498c-c1fb-4cb0-9cee-d8cc2704222f": {
-      "name": "bits_custom_amount",
-      "v": 35318,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
       }]
     },
     "446cf133-efde-41e1-b1a0-6c030904210d": {
@@ -7375,31 +7365,31 @@ window.__twilightSettings = {
     },
     "ec84deeb-2cdf-4fea-a6fe-4c1d7ecae886": {
       "name": "hype_train_gift_cta",
-      "v": 37733,
+      "v": 37836,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "experiment"
       }]
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 37043,
+      "v": 37834,
       "t": 2,
       "groups": [{
         "weight": 30,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 70,
         "value": "variantA"
       }, {
         "weight": 0,
         "value": "variantB"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "variantC"
       }, {
         "weight": 0,
