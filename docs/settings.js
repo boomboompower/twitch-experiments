@@ -328,7 +328,7 @@ window.__twilightSettings = {
   "drops_v3_migration_phase_3_date": "2023-10-18T00:00:00",
   "drops_v3_migration_phase_4_date": "2023-11-15T00:00:00",
   "dunk-some-fries": [0, false],
-  "earnings_dashboard_outage_alert": [0, false],
+  "earnings_dashboard_outage_alert": [1, false],
   "edit_broadcast_poll_interval_ms": 60000,
   "embed_ap_enforcement": "block",
   "embed_ap_enforcement_deadline": [2023, 10, 15, 18, 0],
@@ -1834,17 +1834,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 37805,
+      "v": 37875,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
