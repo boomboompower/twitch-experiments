@@ -348,6 +348,7 @@ window.__twilightSettings = {
   "enable_mods_view_bans": false,
   "enable_signup_phone_validation": [1, false],
   "enable_vod_tool_cluster": true,
+  "eti_ic": [0, false],
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
   "eu_respawn_enabled": "on",
@@ -5518,6 +5519,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "abbeeb40-65b8-4d8a-970f-db96631f72be": {
+      "name": "web_channel_metadata_layout",
+      "v": 37860,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant-1"
+      }, {
+        "weight": 0,
+        "value": "variant-2"
       }]
     },
     "acccd881-087f-4c7a-98b4-3725bd3cd457": {
