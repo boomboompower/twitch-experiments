@@ -259,7 +259,7 @@ window.__twilightSettings = {
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": true,
   "da_manager_m2": [1, false],
-  "dac7-interrupt-screen": [1, false],
+  "dac7-interrupt-screen": [0, false],
   "dac7-phase-2": [1, false],
   "dac7-phase2-banner": [1, false],
   "dashboard_payout_history": true,
