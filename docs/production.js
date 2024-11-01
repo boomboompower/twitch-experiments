@@ -45,6 +45,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "0a603b81-08db-4537-a52a-bf7b71ac6182",
+        "name": "garfield_discovery_control",
+        "dateFound": "2024-11-01T01:21:05.376Z"
+    },
+    {
         "id": "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d",
         "name": "chat_privmsg_to_gql",
         "dateFound": "2023-11-01T20:13:20.845Z"
@@ -554,11 +559,6 @@ const productionExperiments = [
         "dateFound": "2023-09-07T20:12:53.404Z"
     },
     {
-        "id": "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f",
-        "name": "amazon_ivs_web_broadcast_api_v2",
-        "dateFound": "2023-08-25T20:12:24.179Z"
-    },
-    {
         "id": "c54ebc3d-e931-4454-ac06-023eba9d9968",
         "name": "amazon_ivs_web_broadcast_enable_simulcast",
         "dateFound": "2023-09-20T20:13:21.359Z"
@@ -799,5 +799,10 @@ const productionExperiments = [
         "id": "b49420ab-8e72-4fc2-a4a9-93ad1608d55d",
         "name": "android_portals_signup",
         "dateFound": "2024-10-24T01:15:06.786Z"
+    },
+    {
+        "id": "9a466bb5-b5e7-4286-a3b7-54bf59c56894",
+        "name": "amazon_ivs_web_broadcast_disable_token_reuse_msg",
+        "dateFound": "2024-11-01T01:21:05.379Z"
     }
 ]
