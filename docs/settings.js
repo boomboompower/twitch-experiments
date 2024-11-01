@@ -866,7 +866,7 @@ window.__twilightSettings = {
   "talk_gs_pinned_guests": [1, true],
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [1, true],
-  "tater_tot": [1, true],
+  "tater_tot": [0, false],
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
