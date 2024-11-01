@@ -1252,13 +1252,13 @@ window.__twilightSettings = {
     },
     "0a603b81-08db-4537-a52a-bf7b71ac6182": {
       "name": "garfield_discovery_control",
-      "v": 37744,
+      "v": 37904,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
