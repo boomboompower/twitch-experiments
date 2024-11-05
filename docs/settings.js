@@ -219,7 +219,7 @@ window.__twilightSettings = {
   "cookie_consent_rollout": [1, true],
   "cookie_sync_country_allowlist": ["AU", "NZ"],
   "cookie_sync_enabled": [1, true],
-  "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=gg_n-index_kg_n-MediaNet_n-Ogury_ox-db5_pm-db5_rx_r1u_rbd_3lift_an-db5",
+  "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=pm-db5_ox-db5_an-db5_rbd_3lift_r1u_gg_n-index_pm-db5_n-MediaNet_n-Ogury_kg",
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
   "copo_shorter_predictions": [1, true],
@@ -3787,6 +3787,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "on"
+      }]
+    },
+    "6c40a5e3-843f-4c06-8039-6bd3b74ce141": {
+      "name": "android_spooky_sprint",
+      "v": 37965,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active_development"
       }]
     },
     "6dad76f4-4183-441b-a5ee-487c49eb2af5": {
