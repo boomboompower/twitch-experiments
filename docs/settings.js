@@ -106,7 +106,7 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
-  "can_create_clip_darklaunch": [0, true],
+  "can_create_clip_darklaunch": [0, false],
   "cat-mouse-food-event": [0, false],
   "cats_meow_enabled": [0, false],
   "cc_redesign": [0, true],
@@ -5694,13 +5694,13 @@ window.__twilightSettings = {
     },
     "aff9c6d9-15da-439c-bcc3-e96777d512d3": {
       "name": "hypetrain-thth-experiment",
-      "v": 37553,
+      "v": 37991,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "experiment"
       }]
     },
@@ -6903,6 +6903,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_2_toggle_benefits"
+      }]
+    },
+    "df56fefb-5585-42ad-b169-a33558100fb5": {
+      "name": "ivs_web_rtx_multi_codec_answer",
+      "v": 37982,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "e03cee79-37a8-4e03-af12-87408e85bfac": {
