@@ -3357,21 +3357,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "e79c4cd9-6f2b-43d7-85ba-f8297fa5d929": {
-      "name": "brand_lift_survey_experiment_2",
-      "v": 30214,
-      "t": 2,
-      "groups": [{
-        "weight": 34,
-        "value": "control"
-      }, {
-        "weight": 33,
-        "value": "variant_1"
-      }, {
-        "weight": 33,
-        "value": "variant_2"
-      }]
-    },
     "e83e07cc-c09b-4546-bda3-2f688869bd10": {
       "name": "is_channel_in_direct_hype_train_triggers_v2",
       "v": 36951,
