@@ -106,7 +106,7 @@ window.__twilightSettings = {
   "c2_screenshot_participants": [""],
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
-  "can_create_clip_darklaunch": [0, false],
+  "can_create_clip_darklaunch": [0, true],
   "cat-mouse-food-event": [0, false],
   "cats_meow_enabled": [0, false],
   "cc_redesign": [0, true],
@@ -559,7 +559,8 @@ window.__twilightSettings = {
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
   "mweb_chat_write": [1, false],
-  "mweb_nav_alignment": [0, false],
+  "mweb_nav_alignment": [0.1, true],
+  "mweb_nav_with_player_updates": [0, false],
   "mweb_player_updates": [0, false],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
@@ -2622,13 +2623,13 @@ window.__twilightSettings = {
     },
     "aff9c6d9-15da-439c-bcc3-e96777d512d3": {
       "name": "hypetrain-thth-experiment",
-      "v": 37991,
+      "v": 38354,
       "t": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 10,
         "value": "experiment"
       }]
     },
@@ -3542,21 +3543,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "no"
-      }]
-    },
-    "faa70fe0-298d-41c5-8f84-7e35066fc3e7": {
-      "name": "turbo_ads_timing_upsell",
-      "v": 32141,
-      "t": 2,
-      "groups": [{
-        "weight": 34,
-        "value": "control"
-      }, {
-        "weight": 33,
-        "value": "during_adbreak"
-      }, {
-        "weight": 33,
-        "value": "after_adbreak"
       }]
     },
     "fba332ae-a178-4b73-8aed-cbc84418e83f": {
