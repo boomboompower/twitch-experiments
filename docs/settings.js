@@ -1036,6 +1036,27 @@ window.__twilightSettings = {
         "value": "variant_1"
       }]
     },
+    "0ae239f6-77e3-412a-92fa-d48c0d0e9c06": {
+      "name": "twilight_hermes_rollout_user",
+      "v": 38420,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "all"
+      }, {
+        "weight": 0,
+        "value": "blue"
+      }, {
+        "weight": 0,
+        "value": "green"
+      }, {
+        "weight": 0,
+        "value": ""
+      }]
+    },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
       "name": "toga-turtle-street",
       "v": 29744,
