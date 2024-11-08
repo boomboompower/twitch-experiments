@@ -45,11 +45,6 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
-        "id": "0a603b81-08db-4537-a52a-bf7b71ac6182",
-        "name": "garfield_discovery_control",
-        "dateFound": "2024-11-01T01:21:05.376Z"
-    },
-    {
         "id": "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d",
         "name": "chat_privmsg_to_gql",
         "dateFound": "2023-11-01T20:13:20.845Z"
@@ -449,11 +444,6 @@ const productionExperiments = [
         "dateFound": "2022-10-06T02:09:24.000Z"
     },
     {
-        "id": "b98860b0-4035-4213-beca-9aeac7adb0f8",
-        "name": "checkout_email_phone_verification",
-        "dateFound": "2024-04-08T20:15:19.940Z"
-    },
-    {
         "id": "596c83f5-e0c6-44f1-bf05-de9e0d665100",
         "name": "checkout_ux_phase_1",
         "dateFound": "2023-05-18T01:22:53.534Z"
@@ -804,5 +794,15 @@ const productionExperiments = [
         "id": "9a466bb5-b5e7-4286-a3b7-54bf59c56894",
         "name": "amazon_ivs_web_broadcast_disable_token_reuse_msg",
         "dateFound": "2024-11-01T01:21:05.379Z"
+    },
+    {
+        "id": "d6aec4f1-f70c-4dac-818a-63850d7185a7",
+        "name": "ivs_web_rtx_prefer_main_profile",
+        "dateFound": "2024-11-08T01:14:08.606Z"
+    },
+    {
+        "id": "df56fefb-5585-42ad-b169-a33558100fb5",
+        "name": "ivs_web_rtx_multi_codec_answer",
+        "dateFound": "2024-11-08T01:14:08.608Z"
     }
 ]

@@ -109,7 +109,7 @@ window.__twilightSettings = {
   "can_create_clip_darklaunch": [1, true],
   "cat-mouse-food-event": [0, false],
   "cats_meow_enabled": [0, false],
-  "cc_redesign": [0, true],
+  "cc_redesign": [1, true],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_single_stream": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
   "cc_v2_whitelist": [],
@@ -561,9 +561,9 @@ window.__twilightSettings = {
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
   "mweb_chat_write": [1, false],
-  "mweb_nav_alignment": [0.1, true],
-  "mweb_nav_with_player_updates": [0, false],
-  "mweb_player_updates": [0, false],
+  "mweb_nav_alignment": [1, true],
+  "mweb_nav_with_player_updates": [0.1, true],
+  "mweb_player_updates": [1, true],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -1036,27 +1036,6 @@ window.__twilightSettings = {
         "value": "variant_1"
       }]
     },
-    "0ae239f6-77e3-412a-92fa-d48c0d0e9c06": {
-      "name": "twilight_hermes_rollout_user",
-      "v": 38420,
-      "t": 2,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "all"
-      }, {
-        "weight": 0,
-        "value": "blue"
-      }, {
-        "weight": 0,
-        "value": "green"
-      }, {
-        "weight": 0,
-        "value": ""
-      }]
-    },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
       "name": "toga-turtle-street",
       "v": 29744,
@@ -1352,18 +1331,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "351107f8-6768-4ced-b939-85be970b51fc": {
-      "name": "Passport_Vonage_Two_Factor_Auth",
-      "v": 32764,
-      "t": 2,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 50,
-        "value": "vonage"
       }]
     },
     "38b59330-9056-47a5-a858-615dcd103666": {
@@ -1940,6 +1907,24 @@ window.__twilightSettings = {
         "value": "active_development"
       }]
     },
+    "6da8a235-737d-4c0e-9fab-22d50301427c": {
+      "name": "twilight_hermes_rollout_user",
+      "v": 38423,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "all"
+      }, {
+        "weight": 0,
+        "value": "blue"
+      }, {
+        "weight": 0,
+        "value": "green"
+      }]
+    },
     "6e4845fb-6097-49f9-88db-31387d48fcd6": {
       "name": "vat_prefetch",
       "v": 37014,
@@ -2014,18 +1999,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
-      }]
-    },
-    "74a36b02-abeb-490b-a09e-d7d27d0c95a6": {
-      "name": "Passport_Login_Inhouse_Code_Generation",
-      "v": 33035,
-      "t": 2,
-      "groups": [{
-        "weight": 50,
-        "value": "control"
-      }, {
-        "weight": 50,
-        "value": "vonage"
       }]
     },
     "74cc9b5c-add5-4e54-b86a-f0f5bac9ec7d": {
@@ -3336,15 +3309,27 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "e5beeeab-073c-465f-8f39-83fb54fa75ec": {
-      "name": "gifting_refresh",
-      "v": 37460,
+    "e4987a7e-ce50-4a26-ba1f-b6c54e412505": {
+      "name": "unhappy_recovery_rate",
+      "v": 38424,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
+    "e5beeeab-073c-465f-8f39-83fb54fa75ec": {
+      "name": "gifting_refresh",
+      "v": 38437,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
         "value": "treatment_1"
       }]
     },
