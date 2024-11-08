@@ -842,7 +842,7 @@ window.__twilightSettings = {
   "suave_ramen_dumping": [1, false],
   "suave_ramen_dumping_rd": "2024-10-15T18:18:48.502Z",
   "sub_count_goal_feature_flag": [1, true],
-  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74", "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7", "0c95681b-95ad-4be7-a2ba-07dcace74891", "dc639b50-1310-465f-a3a2-7a77e73d6014", "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b", "f751ba67-7c8b-4c41-b6df-bcea0914f3ad", "9428ed08-87bd-40fd-ab8c-69966f873a69"],
+  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74", "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7", "0c95681b-95ad-4be7-a2ba-07dcace74891", "dc639b50-1310-465f-a3a2-7a77e73d6014", "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b", "f751ba67-7c8b-4c41-b6df-bcea0914f3ad", "9428ed08-87bd-40fd-ab8c-69966f873a69", "fa395b5e-cadd-47d9-989d-fe511aa3dbb1"],
   "sub_modal_tier_upsell_enabled": true,
   "Subs_Geo_Breakdown": [1, false],
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
@@ -893,6 +893,12 @@ window.__twilightSettings = {
   "TV2_post_DNR_topnav": [1, true],
   "TV2_pre_DNR": [0, true],
   "twilight_device_type": [0, true],
+  "twilight_hermes_rollout_channel_blue": [],
+  "twilight_hermes_rollout_channel_green": [],
+  "twilight_hermes_rollout_device_blue": [],
+  "twilight_hermes_rollout_device_green": [],
+  "twilight_hermes_rollout_user_blue": [],
+  "twilight_hermes_rollout_user_green": [],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
   "twitch_prime_fortnite_link_url": "https://www.epicgames.com/fortnite/twitch-prime-pack2",
@@ -1782,6 +1788,24 @@ window.__twilightSettings = {
       }, {
         "weight": 95,
         "value": "experiment"
+      }]
+    },
+    "5babe887-821c-423e-9cd4-92b630247c75": {
+      "name": "twilight_hermes_rollout_device",
+      "v": 38455,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "all"
+      }, {
+        "weight": 0,
+        "value": "blue"
+      }, {
+        "weight": 0,
+        "value": "green"
       }]
     },
     "5bbb7686-196f-40c3-b938-8b33cf6d4343": {
