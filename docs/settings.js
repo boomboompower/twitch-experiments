@@ -2194,6 +2194,27 @@ window.__twilightSettings = {
         "value": "control"
       }]
     },
+    "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
+      "name": "twilight_hermes_rollout_channel ",
+      "v": 38444,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "all"
+      }, {
+        "weight": 0,
+        "value": "blue"
+      }, {
+        "weight": 0,
+        "value": "green"
+      }, {
+        "weight": 0,
+        "value": ""
+      }]
+    },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
       "v": 37009,
