@@ -796,21 +796,6 @@ const productionExperiments = [
         "dateFound": "2024-11-01T01:21:05.379Z"
     },
     {
-        "id": "8a563d6f-59ed-4b32-8913-88af6a7d702a",
-        "name": "twilight_hermes_rollout_channel",
-        "dateFound": "2024-11-13T01:19:33.344Z"
-    },
-    {
-        "id": "6da8a235-737d-4c0e-9fab-22d50301427c",
-        "name": "twilight_hermes_rollout_user",
-        "dateFound": "2024-11-13T01:19:33.346Z"
-    },
-    {
-        "id": "5babe887-821c-423e-9cd4-92b630247c75",
-        "name": "twilight_hermes_rollout_device",
-        "dateFound": "2024-11-13T01:19:33.353Z"
-    },
-    {
         "id": "d6aec4f1-f70c-4dac-818a-63850d7185a7",
         "name": "ivs_web_rtx_prefer_main_profile",
         "dateFound": "2024-11-08T01:14:08.606Z"
