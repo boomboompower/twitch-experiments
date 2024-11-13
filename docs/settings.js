@@ -695,7 +695,7 @@ window.__twilightSettings = {
   "recurly_spm_guard": [1, true],
   "recurly_tax_enabled": "true",
   "redeem_page_zip_code_required_countries": ["US", "CA"],
-  "responsive_layout_news_release_date_iso": "2024-10-31T13:30:00Z",
+  "responsive_layout_news_release_date_iso": "2024-11-18T13:30:00Z",
   "returning_user_highlights": [1, false],
   "revenue_dashboard_hype_train": true,
   "revenue_leaderboards": true,
@@ -3253,7 +3253,7 @@ window.__twilightSettings = {
     },
     "e092b640-09ef-40a6-b764-1d36dfb65ddd": {
       "name": "mini_aussie_shepherd",
-      "v": 37488,
+      "v": 38519,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -3510,6 +3510,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "graduate"
+      }]
+    },
+    "f0ecbed1-48e3-478d-bc04-77f2cca4dd58": {
+      "name": "is-user-in-friendly-fraud-group",
+      "v": 38516,
+      "t": 2,
+      "groups": [{
+        "weight": 10,
+        "value": "control"
+      }, {
+        "weight": 90,
+        "value": "friendly_fraud_model"
       }]
     },
     "f289f54d-90f3-4d12-bd58-62e018c397df": {
