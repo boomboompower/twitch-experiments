@@ -94,6 +94,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
+  "branch_percentage_enabled_users": [0, false],
   "brand_lift_v0": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -560,9 +561,9 @@ window.__twilightSettings = {
   "mv_rd_rollout_date": "2023-08-25T21:41:49.705Z",
   "mweb_android_upsell_enabled": [1, true],
   "mweb_chat_write": [1, false],
-  "mweb_nav_alignment": [0, true],
-  "mweb_nav_with_player_updates": [0, true],
-  "mweb_player_updates": [0, true],
+  "mweb_nav_alignment": [1, true],
+  "mweb_nav_with_player_updates": [0.1, true],
+  "mweb_player_updates": [1, true],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -897,7 +898,7 @@ window.__twilightSettings = {
   "twilight_hermes_rollout_device_blue": [],
   "twilight_hermes_rollout_device_green": [],
   "twilight_hermes_rollout_user_blue": [],
-  "twilight_hermes_rollout_user_green": [],
+  "twilight_hermes_rollout_user_green": ["hype-train-events-v2"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
   "twitch_prime_fortnite_link_url": "https://www.epicgames.com/fortnite/twitch-prime-pack2",
@@ -1160,17 +1161,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 38500,
+      "v": 38551,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -1932,10 +1933,10 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 38423,
+      "v": 38555,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
         "weight": 0,
@@ -1944,7 +1945,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "blue"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "green"
       }]
     },
@@ -2835,13 +2836,13 @@ window.__twilightSettings = {
     },
     "bf2b721a-14f4-4250-844a-101911395cfe": {
       "name": "web_disco_better_tags",
-      "v": 37698,
+      "v": 38572,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant1"
       }, {
         "weight": 0,

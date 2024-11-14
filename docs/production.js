@@ -746,11 +746,6 @@ const productionExperiments = [
         "dateFound": "2024-07-25T20:15:19.441Z"
     },
     {
-        "id": "6e4845fb-6097-49f9-88db-31387d48fcd6",
-        "name": "vat_prefetch",
-        "dateFound": "2024-08-03T01:05:29.356Z"
-    },
-    {
         "id": "134b3a63-5c90-467a-bd12-b69c9dddc8da",
         "name": "lynx_experiment",
         "dateFound": "2024-08-13T20:15:32.656Z"
