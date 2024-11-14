@@ -544,6 +544,7 @@ window.__twilightSettings = {
   "messages_disclosure_enabled": false,
   "midnight_in_paris": false,
   "mini_aussie_shepherd": [0, false],
+  "mini_aussie_shepherd_dashboard": [0, false],
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
   "modern_lobster_singing": [0, false],
@@ -562,7 +563,7 @@ window.__twilightSettings = {
   "mweb_android_upsell_enabled": [1, true],
   "mweb_chat_write": [1, false],
   "mweb_nav_alignment": [1, true],
-  "mweb_nav_with_player_updates": [0.1, true],
+  "mweb_nav_with_player_updates": [0.5, true],
   "mweb_player_updates": [1, true],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
@@ -2560,6 +2561,18 @@ window.__twilightSettings = {
         "value": "skip"
       }]
     },
+    "a9d6476f-3e00-44a9-bbf5-9094cdaced5c": {
+      "name": "amazon_ivs_web_broadcast_enable_xdp_publish",
+      "v": 38576,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "ab902512-d0da-4bdd-938e-94c30a4d8953": {
       "name": "web_player_parallel_hls",
       "v": 12294,
@@ -3483,6 +3496,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variantD"
+      }]
+    },
+    "edae8489-75e8-42f7-a91d-f5983307eeb0": {
+      "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
+      "v": 38577,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "eef2ed99-81d7-4119-9ac4-3b9e636ee0dd": {
