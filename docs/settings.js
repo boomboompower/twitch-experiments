@@ -187,6 +187,7 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
+  "clips_leaderboard": [0, true],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
@@ -1340,6 +1341,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "3712c2b4-41d2-437c-8e37-83e236543cef": {
+      "name": "ivs_player_probe_endpoint",
+      "v": 38618,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "38b59330-9056-47a5-a858-615dcd103666": {
       "name": "disco_sprig_logged_out",
       "v": 31100,
@@ -1474,11 +1487,14 @@ window.__twilightSettings = {
     },
     "42a78e99-4887-4137-9a3c-120c99b69875": {
       "name": "mini_aussie_shep_user_id",
-      "v": 38591,
+      "v": 38616,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "43376150-2b03-4d30-bfa6-dab9560722cf": {
