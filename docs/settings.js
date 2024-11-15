@@ -452,7 +452,7 @@ window.__twilightSettings = {
   "guest_star_request_to_join_private_call_out_duration": 30,
   "guest_star_request_to_join_sort": [1, true],
   "guest_star_request_to_join_vips_filter": [1, true],
-  "guest_star_responsive_layout": [0, false],
+  "guest_star_responsive_layout": [1, false],
   "guest_star_responsiveness": [1, false],
   "guest_star_rtj_streamer_mod_removal_snackbar": true,
   "guest_star_screen_sharing": [1, true],
@@ -697,7 +697,7 @@ window.__twilightSettings = {
   "recurly_spm_guard": [1, true],
   "recurly_tax_enabled": "true",
   "redeem_page_zip_code_required_countries": ["US", "CA"],
-  "responsive_layout_news_release_date_iso": "2024-11-18T13:30:00Z",
+  "responsive_layout_news_release_date_iso": "2024-11-14T14:30:00Z",
   "returning_user_highlights": [1, false],
   "revenue_dashboard_hype_train": true,
   "revenue_leaderboards": true,
@@ -1470,6 +1470,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_b"
+      }]
+    },
+    "42a78e99-4887-4137-9a3c-120c99b69875": {
+      "name": "mini_aussie_shep_user_id",
+      "v": 38591,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "43376150-2b03-4d30-bfa6-dab9560722cf": {
@@ -2736,6 +2745,27 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "b7fc3072-7594-42d5-8ffe-8c7dcb27247b": {
+      "name": "gifter-badge-exp",
+      "v": 38595,
+      "t": 1,
+      "groups": [{
+        "weight": 20,
+        "value": "control"
+      }, {
+        "weight": 20,
+        "value": "treatment1"
+      }, {
+        "weight": 20,
+        "value": "treatment2"
+      }, {
+        "weight": 20,
+        "value": "treatment3"
+      }, {
+        "weight": 20,
+        "value": "treatment4"
+      }]
+    },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
       "name": "seg_mented_signup",
       "v": 33193,
@@ -3265,15 +3295,6 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
-    "e092b640-09ef-40a6-b764-1d36dfb65ddd": {
-      "name": "mini_aussie_shepherd",
-      "v": 38519,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }]
-    },
     "e161fc0c-b75a-4801-b65c-36e911afd28f": {
       "name": "twilight_p_4",
       "v": 37477,
@@ -3564,14 +3585,14 @@ window.__twilightSettings = {
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
       "name": "cheerful_termite_searching",
-      "v": 37729,
+      "v": 38604,
       "t": 2,
       "s": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }]
     },
