@@ -1301,6 +1301,18 @@ window.__twilightSettings = {
         "value": "milestones"
       }]
     },
+    "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
+      "name": "mini_aussie_shep_dark",
+      "v": 38630,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "314d0261-c546-4b5a-848d-3d371fec8515": {
       "name": "during_ad_messaging_eligibility",
       "v": 29459,
@@ -3601,14 +3613,14 @@ window.__twilightSettings = {
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
       "name": "cheerful_termite_searching",
-      "v": 38604,
+      "v": 38631,
       "t": 2,
       "s": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }]
     },

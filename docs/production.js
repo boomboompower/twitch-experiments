@@ -814,5 +814,15 @@ const productionExperiments = [
         "id": "df56fefb-5585-42ad-b169-a33558100fb5",
         "name": "ivs_web_rtx_multi_codec_answer",
         "dateFound": "2024-11-08T01:14:08.608Z"
+    },
+    {
+        "id": "edae8489-75e8-42f7-a91d-f5983307eeb0",
+        "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
+        "dateFound": "2024-11-16T01:17:44.803Z"
+    },
+    {
+        "id": "a9d6476f-3e00-44a9-bbf5-9094cdaced5c",
+        "name": "amazon_ivs_web_broadcast_enable_xdp_publish",
+        "dateFound": "2024-11-16T01:17:44.805Z"
     }
 ]
