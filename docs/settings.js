@@ -1163,17 +1163,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 38551,
+      "v": 38666,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -2398,11 +2398,14 @@ window.__twilightSettings = {
     },
     "9a466bb5-b5e7-4286-a3b7-54bf59c56894": {
       "name": "amazon_ivs_web_broadcast_disable_token_reuse_msg",
-      "v": 37851,
+      "v": 38660,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "9aaae1a0-f16b-4ffa-ba39-39ccd1e361e5": {
