@@ -1971,10 +1971,10 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 38555,
+      "v": 38682,
       "t": 2,
       "groups": [{
-        "weight": 99,
+        "weight": 95,
         "value": "control"
       }, {
         "weight": 0,
@@ -1983,7 +1983,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "green"
       }]
     },
