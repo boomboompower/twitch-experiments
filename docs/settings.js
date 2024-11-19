@@ -181,7 +181,7 @@ window.__twilightSettings = {
   "cit_max_retries": 3,
   "citadel_wallet": [0, false],
   "claims_form_bulk_input": [0, false],
-  "clever_diamond_wielding": [0, true],
+  "clever_diamond_wielding": [0, false],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
@@ -1971,8 +1971,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 38682,
+      "v": 38702,
       "t": 2,
+      "s": 1,
       "groups": [{
         "weight": 95,
         "value": "control"
