@@ -263,6 +263,7 @@ window.__twilightSettings = {
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": true,
   "da_manager_m2": [1, false],
+  "dac7-banner-allowlist": [0, false],
   "dac7-interrupt-screen": [0, false],
   "dac7-phase-2": [1, false],
   "dac7-phase2-banner": [1, false],
@@ -564,7 +565,7 @@ window.__twilightSettings = {
   "mweb_android_upsell_enabled": [1, true],
   "mweb_chat_write": [1, false],
   "mweb_nav_alignment": [1, true],
-  "mweb_nav_with_player_updates": [0.5, true],
+  "mweb_nav_with_player_updates": [1, true],
   "mweb_player_updates": [1, true],
   "mwot_leak": false,
   "narwhal_prime_info": [1, true],
@@ -2114,7 +2115,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 38472,
+      "v": 38706,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2123,10 +2124,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -2159,17 +2160,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 37708,
+      "v": 38715,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 75,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant-b"
       }, {
         "weight": 0,
