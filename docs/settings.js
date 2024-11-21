@@ -229,6 +229,7 @@ window.__twilightSettings = {
   "copo_spectator_mode": [1, true],
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
+  "courteous_goat_freezing": [0, false],
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_cat_emp": [1, true],
   "cplat_dragon_journal_category": [1, true],
