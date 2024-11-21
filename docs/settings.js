@@ -136,6 +136,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
   "cg_vuc_enabled": [1, true],
+  "cg-tcc-ss": [0, false],
   "ch_creators_in_community": [1, true],
   "ch_feature_auto_mod": [1, true],
   "ch_feature_chat_rules": [1, true],
@@ -181,7 +182,7 @@ window.__twilightSettings = {
   "cit_max_retries": 3,
   "citadel_wallet": [0, false],
   "claims_form_bulk_input": [0, false],
-  "clever_diamond_wielding": [0, false],
+  "clever_diamond_wielding": [1, true],
   "client_availability_reporting": [0.1, true],
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
@@ -1972,11 +1973,11 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 38702,
+      "v": 38744,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "control"
       }, {
         "weight": 0,
@@ -1985,7 +1986,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "blue"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "green"
       }]
     },
@@ -2303,11 +2304,14 @@ window.__twilightSettings = {
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
       "name": "hypetrain_push_notifications",
-      "v": 38737,
+      "v": 38757,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
+      }, {
+        "weight": 100,
+        "value": "variant"
       }]
     },
     "8c49935d-21cd-49a7-b0f8-d514068a5351": {
