@@ -70,7 +70,7 @@ window.__twilightSettings = {
   "badge_modifier_start_date": "2020-02-06T22:00:00.75536206Z",
   "badge_modifiers": ["gold", "silver"],
   "banned_chat_connection": true,
-  "bashful_pot_charming": [0, true],
+  "bashful_pot_charming": [0.5, true],
   "bda_ad_edge_web": [0, true],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
