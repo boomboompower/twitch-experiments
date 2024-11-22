@@ -118,6 +118,7 @@ window.__twilightSettings = {
   "ce_new_banner": [0, false],
   "ce-aep": [1, false],
   "ce-ea": [1, false],
+  "ce-ig-allowlist": ["794180236"],
   "ce-ig-ex": [0, false],
   "ce-tt-banner-expiry": "2023-10-27T17:00:00Z",
   "ce-tt-flag": [1, false],
