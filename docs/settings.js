@@ -94,7 +94,7 @@ window.__twilightSettings = {
   "bounty_board_chat_cta_enabled": [1, true],
   "bounty_board_live_dashboard_widget": "on",
   "bounty_board_promotions_enabled": [1, true],
-  "branch_percentage_enabled_users": [0, false],
+  "branch_percentage_enabled_users": [1, false],
   "brand_lift_v0": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
@@ -299,7 +299,7 @@ window.__twilightSettings = {
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
   "disco_category_redirect_slugs": ["calabiyau", "strinova"],
-  "disco_cold_moon": [0, false],
+  "disco_cold_moon": [0, true],
   "disco_mi_chiamo": true,
   "disco_perseids_meteor_shower": [0, false],
   "disco_top_clips_featured_filter_default": true,
@@ -383,6 +383,7 @@ window.__twilightSettings = {
   "fb_login_support_campaign_end_date": "2021-09-30T23:59:59Z",
   "fb_login_support_campaign_start_date": "2020-03-03T00:00:00Z",
   "fb_tog_enb": [1, true],
+  "fetch_usher_manifest_chrome_cast": [0, false],
   "first_paid_gift_offer_feature_flag": [1, true],
   "fix_highlight_ordering": true,
   "follower_emotes_launch": [1, true],
@@ -2307,13 +2308,13 @@ window.__twilightSettings = {
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
       "name": "hypetrain_push_notifications",
-      "v": 38757,
+      "v": 38817,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant"
       }]
     },
