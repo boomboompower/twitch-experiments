@@ -118,7 +118,7 @@ window.__twilightSettings = {
   "ce_new_banner": [0, false],
   "ce-aep": [1, false],
   "ce-ea": [1, false],
-  "ce-ig-allowlist": ["794180236"],
+  "ce-ig-allowlist": ["794180236", "688971830"],
   "ce-ig-ex": [0, false],
   "ce-tt-banner-expiry": "2023-10-27T17:00:00Z",
   "ce-tt-flag": [1, false],
@@ -2788,23 +2788,20 @@ window.__twilightSettings = {
     },
     "b7fc3072-7594-42d5-8ffe-8c7dcb27247b": {
       "name": "gifter-badge-exp",
-      "v": 38595,
+      "v": 38847,
       "t": 1,
       "groups": [{
-        "weight": 20,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment1"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment2"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment3"
-      }, {
-        "weight": 20,
-        "value": "treatment4"
       }]
     },
     "b89917e6-aaaa-44ac-9fe4-7f34b1b2f89c": {
@@ -3149,6 +3146,18 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 100,
+        "value": "treatment"
+      }]
+    },
+    "d436491a-31fd-4171-8828-064235f3f4e6": {
+      "name": "nabe_experiment",
+      "v": 38854,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
         "value": "treatment"
       }]
     },
