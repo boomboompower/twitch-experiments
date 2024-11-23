@@ -3151,14 +3151,17 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 38854,
+      "v": 38856,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "treatment"
+        "value": "option_1"
+      }, {
+        "weight": 0,
+        "value": "option_2"
       }]
     },
     "d44f032c-1c84-4545-ae91-77ff485ef33a": {
