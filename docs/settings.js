@@ -109,6 +109,8 @@ window.__twilightSettings = {
   "c3p_sprig_countries": ["US", "CA"],
   "can_create_clip_darklaunch": [1, true],
   "cat-mouse-food-event": [0, false],
+  "cat-mouse-food-event-cat-aggs": [1, true],
+  "cat-mouse-food-event-ursus-aggs": [1, true],
   "cats_meow_enabled": [0, false],
   "cc_redesign": [1, true],
   "cc_v2_pov_selector": ["overwatchleague", "overwatchleague_ru", "overwatchleague_fr", "overwatchleague_br", "overwatchleague_kr", "maybe_ill_be_tracer"],
@@ -185,6 +187,7 @@ window.__twilightSettings = {
   "claims_form_bulk_input": [0, false],
   "clever_diamond_wielding": [1, true],
   "client_availability_reporting": [0.1, true],
+  "clip_discovery_setting": [0, false],
   "Clip_Snip_General_Rollout": [1, false],
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
@@ -901,7 +904,7 @@ window.__twilightSettings = {
   "TV2_pre_DNR": [0, true],
   "twilight_device_type": [0, true],
   "twilight_hermes_rollout_channel_blue": [],
-  "twilight_hermes_rollout_channel_green": [],
+  "twilight_hermes_rollout_channel_green": ["hype-train-events-v2"],
   "twilight_hermes_rollout_device_blue": [],
   "twilight_hermes_rollout_device_green": [],
   "twilight_hermes_rollout_user_blue": [],
@@ -3588,13 +3591,13 @@ window.__twilightSettings = {
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
       "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
-      "v": 38895,
+      "v": 38929,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "treatment"
       }]
     },
