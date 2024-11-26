@@ -650,7 +650,6 @@ window.__twilightSettings = {
   "prism-endpoint-migration": [0, false],
   "privacy_center": [1, true],
   "project_airhorn": [0, false],
-  "project_ape": [1, false],
   "project_celebration_alerts": [1, false],
   "project_narwhal_end_date": "2029-03-30T03:59:00+00:00",
   "project_narwhal_start_date": "2024-02-26T14:00:00+00:00",
@@ -1308,7 +1307,7 @@ window.__twilightSettings = {
     },
     "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
       "name": "mini_aussie_shep_dark",
-      "v": 38898,
+      "v": 38909,
       "t": 2,
       "groups": [{
         "weight": 99,
