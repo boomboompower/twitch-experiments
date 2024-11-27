@@ -109,6 +109,7 @@ window.__twilightSettings = {
   "c3p_sprig_countries": ["US", "CA"],
   "can_create_clip_darklaunch": [1, true],
   "cat-mouse-food-event": [0, false],
+  "cat-mouse-food-event-bear-aggs": [1, true],
   "cat-mouse-food-event-cat-aggs": [1, true],
   "cat-mouse-food-event-ursus-aggs": [1, true],
   "cats_meow_enabled": [0, false],
@@ -522,7 +523,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066"],
+  "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159"],
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": true,
   "ltdv2_rollout_enabled": [1, false],
@@ -1311,13 +1312,13 @@ window.__twilightSettings = {
     },
     "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
       "name": "mini_aussie_shep_dark",
-      "v": 38949,
+      "v": 38970,
       "t": 2,
       "groups": [{
-        "weight": 80,
+        "weight": 65,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 35,
         "value": "variant"
       }]
     },
@@ -2167,17 +2168,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 38718,
+      "v": 38971,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
