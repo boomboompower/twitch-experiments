@@ -801,6 +801,8 @@ window.__twilightSettings = {
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "spam_jam": [0, false],
   "spon_ms_value": 5000,
+  "sponsored_social_posts_preview_card_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/256.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/256.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/256.png\"}",
+  "sponsored_social_posts_preview_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/512.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/512.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/512.png\"}",
   "sponsorship_disclosure_enabled": [0, false],
   "sponsorships_client_portal": [0, false],
   "sponsorships_creator_dashboard": [1, true],
@@ -1172,17 +1174,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 38793,
+      "v": 38978,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -2320,6 +2322,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "8bbc90af-a304-4880-bbc2-bb93bbb79259": {
+      "name": "mweb_xo_vs_upsell",
+      "v": 38981,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "8c49935d-21cd-49a7-b0f8-d514068a5351": {
