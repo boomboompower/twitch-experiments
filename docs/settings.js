@@ -88,6 +88,8 @@ window.__twilightSettings = {
   "blocked_term_hit_count_enabled": [1, false],
   "blocked_term_hit_count_release": "2024-06-19T18:18:48.502Z",
   "Boh": "2023-12-27T17:45:00Z",
+  "bonus_round_2024_end_date": "2025-01-02T07:00:00+00:00",
+  "bonus_round_2024_start_date": "2024-12-23T17:00:00+00:00",
   "bounty_board_available_bounties_date": "Wed June 27 2018 00:00:00 GMT-0700 (PDT)",
   "bounty_board_brand_portal_internationalization_enabled": [1, true],
   "bounty_board_brand_portal_trailer_enabled": [1, true],
