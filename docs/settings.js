@@ -98,6 +98,7 @@ window.__twilightSettings = {
   "bounty_board_promotions_enabled": [1, true],
   "branch_percentage_enabled_users": [1, false],
   "brand_lift_v0": [0, false],
+  "browse_with_discovery_setting": [0, false],
   "c2_cel_exp": [0, false],
   "c2_cel_exp_participants": [""],
   "c2_cel_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_6g983xsfyJoU4Zg",
@@ -196,6 +197,7 @@ window.__twilightSettings = {
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
   "clips_leaderboard": [0, true],
+  "clips_live_nudge": [0, false],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
@@ -884,7 +886,7 @@ window.__twilightSettings = {
   "talk_gs_pinned_guests": [1, true],
   "talk_gs_rtj_mod_actions": [1, false],
   "talk_gs_sbs": [1, true],
-  "tater_tot": [0, false],
+  "tater_tot": [1, false],
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
@@ -929,7 +931,7 @@ window.__twilightSettings = {
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
-  "vat-prefetch": [0.05, true],
+  "vat-prefetch": [0.25, true],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -1176,17 +1178,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 38978,
+      "v": 39018,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
