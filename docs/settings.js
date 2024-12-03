@@ -187,6 +187,7 @@ window.__twilightSettings = {
   "cit_kasada_rollout": [1, false],
   "cit_manager_rollout": [1, false],
   "cit_max_retries": 3,
+  "citadel_checkout": [0, false],
   "citadel_wallet": [0, false],
   "claims_form_bulk_input": [0, false],
   "clever_diamond_wielding": [1, true],
@@ -196,7 +197,7 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
-  "clips_leaderboard": [0, true],
+  "clips_leaderboard": [0, false],
   "clips_live_nudge": [0, false],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
@@ -858,7 +859,7 @@ window.__twilightSettings = {
   "suave_ramen_dumping": [1, false],
   "suave_ramen_dumping_rd": "2024-10-15T18:18:48.502Z",
   "sub_count_goal_feature_flag": [1, true],
-  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74", "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7", "0c95681b-95ad-4be7-a2ba-07dcace74891", "dc639b50-1310-465f-a3a2-7a77e73d6014", "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b", "f751ba67-7c8b-4c41-b6df-bcea0914f3ad", "9428ed08-87bd-40fd-ab8c-69966f873a69", "fa395b5e-cadd-47d9-989d-fe511aa3dbb1", "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb"],
+  "sub_drops": ["d32de13d-937e-4196-8198-1a7f875f295a", "3555708b-ff07-4392-a15b-bfae9356dfcf", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "4becdfcb-424c-4540-9245-cc92bc40e712", "2fdd0d7a-10c5-4527-96d3-218ae7884c11", "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d", "cb74a9e3-38be-41c8-90c9-a746079ea512", "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b", "931fd934-2149-4a85-a6d8-2190aa4439f3", "6948a129-2c6d-4d88-9444-6b96918a19f8", "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c", "9620a89d-b07c-4160-a851-ae832fa6985e", "da5bf01b-c1ac-4595-83ab-2ccfe8ffbf74", "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7", "0c95681b-95ad-4be7-a2ba-07dcace74891", "dc639b50-1310-465f-a3a2-7a77e73d6014", "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b", "f751ba67-7c8b-4c41-b6df-bcea0914f3ad", "9428ed08-87bd-40fd-ab8c-69966f873a69", "fa395b5e-cadd-47d9-989d-fe511aa3dbb1", "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb", "9f8615b8-5a09-41eb-aac5-12224258ba68"],
   "sub_modal_tier_upsell_enabled": true,
   "Subs_Geo_Breakdown": [1, false],
   "Subs_Geo_Breakdown_Beta_List": ["38206419", "151100773", "38770961", "50154496", "140519001", "27807625", "194967007", "20850617", "514657184", "137436058", "43547091", "58999722", "136837686", "19107317", "49335974", "23969535", "27928047", "80238475", "29721695", "40796986", "546490318", "32152294", "108256369", "181472330", "40446033", "416355690", "43960948", "72448313", "43943114", "52147160", "89081090", "32776386", "32346877", "63862222", "149857630", "64692329", "57429587", "35047674"],
@@ -1318,13 +1319,13 @@ window.__twilightSettings = {
     },
     "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
       "name": "mini_aussie_shep_dark",
-      "v": 38970,
+      "v": 39029,
       "t": 2,
       "groups": [{
-        "weight": 65,
+        "weight": 35,
         "value": "control"
       }, {
-        "weight": 35,
+        "weight": 65,
         "value": "variant"
       }]
     },
@@ -2274,11 +2275,11 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 38941,
+      "v": 39032,
       "t": 3,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 90,
+        "weight": 50,
         "value": "control"
       }, {
         "weight": 0,
@@ -2287,7 +2288,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "blue"
       }, {
-        "weight": 10,
+        "weight": 50,
         "value": "green"
       }, {
         "weight": 0,
@@ -2330,11 +2331,17 @@ window.__twilightSettings = {
     },
     "8bbc90af-a304-4880-bbc2-bb93bbb79259": {
       "name": "mweb_xo_vs_upsell",
-      "v": 38981,
+      "v": 39028,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_1"
+      }, {
+        "weight": 0,
+        "value": "variant_2"
       }]
     },
     "8c49935d-21cd-49a7-b0f8-d514068a5351": {
@@ -3608,13 +3615,13 @@ window.__twilightSettings = {
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
       "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
-      "v": 38929,
+      "v": 39023,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 50,
         "value": "treatment"
       }]
     },
