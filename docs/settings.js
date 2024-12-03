@@ -310,7 +310,6 @@ window.__twilightSettings = {
   "disable-copo-setting": false,
   "disco_category_redirect_slugs": ["calabiyau", "strinova"],
   "disco_cold_moon": [0, true],
-  "disco_mi_chiamo": true,
   "disco_perseids_meteor_shower": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
