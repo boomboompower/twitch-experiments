@@ -931,7 +931,7 @@ window.__twilightSettings = {
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
-  "vat-prefetch": [0.25, true],
+  "vat-prefetch": [0.5, true],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -1120,6 +1120,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
+      }]
+    },
+    "1416c86d-750b-42e4-96e4-7b1548655ded": {
+      "name": "tlpr_gateway_routing_eu",
+      "v": 39059,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "14283583-3c5f-4c0f-9235-0e434fa54182": {
@@ -1318,13 +1330,13 @@ window.__twilightSettings = {
     },
     "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
       "name": "mini_aussie_shep_dark",
-      "v": 39029,
+      "v": 39049,
       "t": 2,
       "groups": [{
-        "weight": 35,
+        "weight": 20,
         "value": "control"
       }, {
-        "weight": 65,
+        "weight": 80,
         "value": "variant"
       }]
     },
@@ -2609,6 +2621,18 @@ window.__twilightSettings = {
         "value": "g2"
       }]
     },
+    "a680f572-fc37-4836-b07b-a2357b4037cb": {
+      "name": "ivs_player_abr_score",
+      "v": 39054,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "a79fd789-8561-450e-881e-133517728556": {
       "name": "csai_preroll_pbyp_exp",
       "v": 27337,
@@ -2619,6 +2643,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "control"
+      }]
+    },
+    "a81855c2-0068-4d53-a9f3-55292a0a960a": {
+      "name": "tlpr_gateway_routing_usrow",
+      "v": 39060,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "a9667563-723a-4cf7-b253-674d9eef0a53": {
