@@ -240,7 +240,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "courteous_goat_freezing": [0, false],
-  "cows-make-happy-buicks": [0, false],
+  "cows-make-happy-buicks": [1, true],
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_cat_emp": [1, true],
   "cplat_dragon_journal_category": [1, true],
@@ -1330,13 +1330,13 @@ window.__twilightSettings = {
     },
     "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
       "name": "mini_aussie_shep_dark",
-      "v": 39049,
+      "v": 39061,
       "t": 2,
       "groups": [{
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 80,
+        "weight": 100,
         "value": "variant"
       }]
     },
