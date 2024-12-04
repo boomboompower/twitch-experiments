@@ -514,7 +514,7 @@ window.__twilightSettings = {
   "is_nami_international_enabled": [1, true],
   "is_zuko_enabled": [1, true],
   "issue_cw_rollout": [1, true],
-  "kangaroo-mission": [0, false],
+  "kangaroo-mission": [1, true],
   "kpsdk_deprecated_url": "https://help.twitch.tv/s/article/supported-browsers",
   "kpsdk_electron_app": [],
   "kpsdk_helpsite_url": "https://help.twitch.tv/s/article/supported-browsers",
