@@ -206,7 +206,7 @@ window.__twilightSettings = {
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
-  "collaboration_viewership_enabled": [0, false],
+  "collaboration_viewership_enabled": [1, false],
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_disco_krusty_krab": [1, true],
   "com30_disco_squidward_snuggles": [1, true],
@@ -288,8 +288,8 @@ window.__twilightSettings = {
   "Default_Emote_Library": [1, false],
   "delete_mod_actions_enabled": [1, false],
   "desert-wolf-pie": [1, true],
-  "dev_announcement_banner_end_date": "2023-11-15T08:00:00Z",
-  "dev_announcement_banner_start_date": "2023-11-06T08:00:00Z",
+  "dev_announcement_banner_end_date": "2025-01-31T08:00:00Z",
+  "dev_announcement_banner_start_date": "2024-12-04T08:00:00Z",
   "dev_console_nav_update": [0, false],
   "dev_drops_campaign_status_bar_doc": "https://dev.twitch.tv/docs/drops/",
   "dev_drops_campaign_viewer_preview_enabled": false,
@@ -297,6 +297,9 @@ window.__twilightSettings = {
   "dev_drops_V2_launch_doc": "https://blog.twitch.tv/2020/08/18/available-today-a-new-version-of-drops/",
   "dev_enable_drops_v2_console": true,
   "dev_extensions_migrate": "on",
+  "dev_holiday_banner_cutoff_date": "2024-12-16T08:00:00Z",
+  "dev_holiday_banner_end_date": "2025-01-05T08:00:00Z",
+  "dev_holiday_banner_start_date": "2024-12-21T08:00:00Z",
   "dev_video_extension_redesign_full_switch": true,
   "dev_video_extension_redesign_notification": true,
   "dev_video_extension_redesign_testing_env_available": true,
@@ -558,7 +561,7 @@ window.__twilightSettings = {
   "messages_disclosure_enabled": false,
   "midnight_in_paris": false,
   "mini_aussie_shepherd": [1, true],
-  "mini_aussie_shepherd_dashboard": [0, false],
+  "mini_aussie_shepherd_dashboard": [1, true],
   "mobile_phone_verification_enabled": [0, false],
   "modal_layer_menu_enabled": [1, false],
   "modern_lobster_singing": [0, false],
@@ -1190,9 +1193,9 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 39018,
+      "v": 39121,
       "t": 1,
-      "s": 1,
+      "s": 2,
       "groups": [{
         "weight": 50,
         "value": "variant-wb-a"
@@ -1330,13 +1333,13 @@ window.__twilightSettings = {
     },
     "31441b7e-5b0e-4f28-8502-9b38e72d83d7": {
       "name": "mini_aussie_shep_dark",
-      "v": 39061,
+      "v": 39118,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -1526,13 +1529,13 @@ window.__twilightSettings = {
     },
     "42a78e99-4887-4137-9a3c-120c99b69875": {
       "name": "mini_aussie_shep_user_id",
-      "v": 38616,
+      "v": 39119,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
