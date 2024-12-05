@@ -155,6 +155,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "8bbc90af-a304-4880-bbc2-bb93bbb79259",
+        "name": "mweb_xo_vs_upsell",
+        "dateFound": "2024-12-05T01:22:08.691Z"
+    },
+    {
         "id": "42285932-9144-4be5-9532-afc42580ebf2",
         "name": "grandpere",
         "dateFound": "2022-06-15T07:19:12.000Z"

@@ -365,6 +365,7 @@ window.__twilightSettings = {
   "enable_mods_view_bans": false,
   "enable_signup_phone_validation": [1, false],
   "enable_vod_tool_cluster": true,
+  "enticing_croissant_improvising": [0, false],
   "eti_ic": [0, false],
   "eu_direct_debit_allowlist": ["419474736", "499126710", "719587951", "600585984"],
   "eu_direct_debit_valid_schemes": ["BACS", "SEPA"],
@@ -2342,16 +2343,16 @@ window.__twilightSettings = {
     },
     "8bbc90af-a304-4880-bbc2-bb93bbb79259": {
       "name": "mweb_xo_vs_upsell",
-      "v": 39028,
+      "v": 39093,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "variant_2"
       }]
     },
