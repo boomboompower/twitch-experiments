@@ -196,8 +196,8 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
-  "clips_leaderboard": [0, false],
-  "clips_live_nudge": [0, false],
+  "clips_leaderboard": [0, true],
+  "clips_live_nudge": [0, true],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [1, false],
@@ -878,7 +878,7 @@ window.__twilightSettings = {
   "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
   "sunlight_roles_manager_editor_readonly": [0, false],
   "sw_rollout": [0, false],
-  "switch_request_2fa_endpoint": [0, false],
+  "switch_request_2fa_endpoint": [1, true],
   "talk_gs_alpha": [1, true],
   "talk_gs_bs_audio_customization": [1, true],
   "talk_gs_join_session_tokens": [1, true],
@@ -934,7 +934,7 @@ window.__twilightSettings = {
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
   "v6ssdk_migration": [0, true],
-  "vat-prefetch": [0.75, true],
+  "vat-prefetch": [0.99, true],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
   "view_tax_forms_flag": [1, false],
@@ -3717,14 +3717,14 @@ window.__twilightSettings = {
     },
     "f47b4c5a-9351-4cb8-86da-7036f512d29c": {
       "name": "cheerful_termite_searching",
-      "v": 38631,
+      "v": 39124,
       "t": 2,
       "s": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }]
     },

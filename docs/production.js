@@ -296,6 +296,11 @@ const productionExperiments = [
         "dateFound": "2022-06-15T07:19:12.000Z"
     },
     {
+        "id": "e4987a7e-ce50-4a26-ba1f-b6c54e412505",
+        "name": "unhappy_recovery_rate",
+        "dateFound": "2024-12-06T01:21:16.746Z"
+    },
+    {
         "id": "f6dc9c16-cbf2-45b8-a96e-881dc80167f6",
         "name": "publisher_ext_ids",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -734,6 +739,11 @@ const productionExperiments = [
         "name": "partner_plus_upsell_nudge",
         "staffOverride": "variant",
         "dateFound": "2024-05-31T20:14:19.419Z"
+    },
+    {
+        "id": "b7fc3072-7594-42d5-8ffe-8c7dcb27247b",
+        "name": "gifter-badge-exp",
+        "dateFound": "2024-12-06T01:21:16.749Z"
     },
     {
         "id": "cdf4e83a-2246-472b-9816-0de82aba340e",
