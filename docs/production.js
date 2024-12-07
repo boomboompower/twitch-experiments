@@ -821,6 +821,11 @@ const productionExperiments = [
         "dateFound": "2024-11-13T08:21:06.351Z"
     },
     {
+        "id": "abbeeb40-65b8-4d8a-970f-db96631f72be",
+        "name": "web_channel_metadata_layout",
+        "dateFound": "2024-12-07T08:20:33.830Z"
+    },
+    {
         "id": "86b99c86-c11f-429e-8891-d506cca8659b",
         "name": "disco_atlas_perihelion_solstice",
         "dateFound": "2024-11-20T08:22:27.714Z"
