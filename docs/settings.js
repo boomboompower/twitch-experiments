@@ -3653,8 +3653,9 @@ window.__twilightSettings = {
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
       "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
-      "v": 39023,
+      "v": 39169,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 50,
         "value": "control"
