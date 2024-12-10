@@ -1194,17 +1194,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 39121,
+      "v": 39220,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
@@ -3545,18 +3545,6 @@ window.__twilightSettings = {
         "value": "treatment_1"
       }]
     },
-    "e6bb07e1-dbca-43b6-bfa6-9a0fb23cc19f": {
-      "name": "Twilight amazon-ivs-web-broadcast API",
-      "v": 29514,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "v2"
-      }, {
-        "weight": 0,
-        "value": "v1"
-      }]
-    },
     "e75a804d-10f7-4441-9d89-dc7c59c6cd2d": {
       "name": "global_memberships_allowlist",
       "v": 34379,
@@ -3633,13 +3621,13 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 37834,
+      "v": 39225,
       "t": 2,
       "groups": [{
-        "weight": 30,
+        "weight": 10,
         "value": "control"
       }, {
-        "weight": 70,
+        "weight": 90,
         "value": "variantA"
       }, {
         "weight": 0,
