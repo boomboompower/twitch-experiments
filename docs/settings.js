@@ -311,8 +311,8 @@ window.__twilightSettings = {
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
   "disco_category_redirect_slugs": ["calabiyau", "strinova"],
-  "disco_cold_moon": [0, false],
-  "disco_perseids_meteor_shower": [0, false],
+  "disco_cold_moon": [1, false],
+  "disco_perseids_meteor_shower": [1, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
@@ -2251,13 +2251,13 @@ window.__twilightSettings = {
     },
     "86b99c86-c11f-429e-8891-d506cca8659b": {
       "name": "disco_atlas_perihelion_solstice",
-      "v": 38055,
+      "v": 39209,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "launch"
       }, {
         "weight": 0,
