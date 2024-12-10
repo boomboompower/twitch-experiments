@@ -2702,16 +2702,16 @@ window.__twilightSettings = {
     },
     "abbeeb40-65b8-4d8a-970f-db96631f72be": {
       "name": "web_channel_metadata_layout",
-      "v": 39186,
+      "v": 39197,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 98,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "variant-1"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "variant-2"
       }]
     },
@@ -3523,13 +3523,13 @@ window.__twilightSettings = {
     },
     "e4987a7e-ce50-4a26-ba1f-b6c54e412505": {
       "name": "unhappy_recovery_rate",
-      "v": 39133,
+      "v": 39195,
       "t": 2,
       "groups": [{
-        "weight": 97,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 3,
+        "weight": 50,
         "value": "variant"
       }]
     },
