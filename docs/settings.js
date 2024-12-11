@@ -108,7 +108,7 @@ window.__twilightSettings = {
   "c2_screenshot_ux_exp_survey_link": "https://twitchtv.az1.qualtrics.com/jfe/form/SV_1GNQvj2mPWLt41M",
   "c3p_sprig_countries": ["US", "CA"],
   "can_create_clip_darklaunch": [1, true],
-  "cat-mouse-food-event": [0, false],
+  "cat-mouse-food-event": [1, true],
   "cat-mouse-food-event-bear-aggs": [1, true],
   "cat-mouse-food-event-cat-aggs": [1, true],
   "cat-mouse-food-event-ursus-aggs": [1, true],
@@ -2702,16 +2702,16 @@ window.__twilightSettings = {
     },
     "abbeeb40-65b8-4d8a-970f-db96631f72be": {
       "name": "web_channel_metadata_layout",
-      "v": 39197,
+      "v": 39261,
       "t": 2,
       "groups": [{
-        "weight": 98,
+        "weight": 34,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 33,
         "value": "variant-1"
       }, {
-        "weight": 1,
+        "weight": 33,
         "value": "variant-2"
       }]
     },
