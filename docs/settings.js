@@ -2955,7 +2955,7 @@ window.__twilightSettings = {
     },
     "bbedb433-bf1d-4d47-afb6-ca5f882d7cc1": {
       "name": "ivs_web_reader_update",
-      "v": 37618,
+      "v": 39247,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -2966,6 +2966,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "holdback"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "bd9234fc-3c40-45f6-a544-868478744ba7": {
