@@ -849,5 +849,11 @@ const productionExperiments = [
         "id": "a9d6476f-3e00-44a9-bbf5-9094cdaced5c",
         "name": "amazon_ivs_web_broadcast_enable_xdp_publish",
         "dateFound": "2024-11-16T08:19:41.208Z"
+    },
+    {
+        "id": "d436491a-31fd-4171-8828-064235f3f4e6",
+        "name": "nabe_experiment",
+        "staffOverride": "option_2",
+        "dateFound": "2024-12-11T04:20:54.668Z"
     }
 ]
