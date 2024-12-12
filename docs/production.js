@@ -853,7 +853,6 @@ const productionExperiments = [
     {
         "id": "d436491a-31fd-4171-8828-064235f3f4e6",
         "name": "nabe_experiment",
-        "staffOverride": "option_2",
         "dateFound": "2024-12-11T04:20:54.668Z"
     }
 ]

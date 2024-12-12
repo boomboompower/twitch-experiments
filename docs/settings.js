@@ -2651,13 +2651,13 @@ window.__twilightSettings = {
     },
     "a81855c2-0068-4d53-a9f3-55292a0a960a": {
       "name": "tplr_gateway_routing_usrow",
-      "v": 39266,
+      "v": 39274,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },
