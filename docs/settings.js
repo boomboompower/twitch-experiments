@@ -308,7 +308,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_category_redirect_slugs": ["calabiyau", "strinova"],
+  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time"],
   "disco_cold_moon": [1, false],
   "disco_perseids_meteor_shower": [1, false],
   "disco_top_clips_featured_filter_default": true,
