@@ -1128,13 +1128,13 @@ window.__twilightSettings = {
     },
     "1416c86d-750b-42e4-96e4-7b1548655ded": {
       "name": "tplr_gateway_routing_eu",
-      "v": 39267,
+      "v": 39345,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "treatment"
       }]
     },
