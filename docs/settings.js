@@ -194,7 +194,7 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
-  "clips_leaderboard": [1, true],
+  "clips_leaderboard": [0, true],
   "clips_live_nudge": [1, true],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
