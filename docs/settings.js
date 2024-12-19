@@ -812,7 +812,7 @@ window.__twilightSettings = {
   "sponsored_social_posts_preview_card_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/512.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/512.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/512.png\"}",
   "sponsored_social_posts_preview_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/1024.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/1024.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/1024.png\"}",
   "sponsorship_disclosure_enabled": [0, false],
-  "sponsorships_client_portal": [0, false],
+  "sponsorships_client_portal": [1, false],
   "sponsorships_creator_dashboard": [1, true],
   "sponsorships_revenue": [1, true],
   "spotlight_creator_home_upsell_exp": [1, false],
@@ -1194,17 +1194,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 39220,
+      "v": 39432,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
