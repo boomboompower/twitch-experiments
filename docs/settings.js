@@ -194,7 +194,7 @@ window.__twilightSettings = {
   "Clip_Snip_Partner_Rollout": [1, false],
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
-  "clips_leaderboard": [0, true],
+  "clips_leaderboard": [1, true],
   "clips_live_nudge": [1, true],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
@@ -275,8 +275,8 @@ window.__twilightSettings = {
   "da_manager_m2": [1, false],
   "dac7-banner-allowlist": [0, false],
   "dac7-interrupt-screen": [0, false],
-  "dac7-phase-2": [1, false],
-  "dac7-phase2-banner": [1, false],
+  "dac7-phase-2": [0, false],
+  "dac7-phase2-banner": [0, false],
   "dashboard_payout_history": true,
   "dashboard_payout_incentives": "on",
   "dashboard_prime_earnings": "on",
@@ -2853,19 +2853,19 @@ window.__twilightSettings = {
     },
     "b7fc3072-7594-42d5-8ffe-8c7dcb27247b": {
       "name": "gifter-badge-exp",
-      "v": 38847,
+      "v": 39418,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment1"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment2"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment3"
       }]
     },
@@ -3611,14 +3611,14 @@ window.__twilightSettings = {
     },
     "ec84deeb-2cdf-4fea-a6fe-4c1d7ecae886": {
       "name": "hype_train_gift_cta",
-      "v": 38471,
+      "v": 39423,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "experiment"
       }]
     },
