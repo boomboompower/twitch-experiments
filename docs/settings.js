@@ -3076,7 +3076,7 @@ window.__twilightSettings = {
     },
     "ca505d53-5922-46ba-91d7-25ee70a7a41e": {
       "name": "percolite_CE_logged-out-experiment",
-      "v": 37655,
+      "v": 39448,
       "t": 1,
       "groups": [{
         "weight": 20,
@@ -3084,6 +3084,9 @@ window.__twilightSettings = {
       }, {
         "weight": 80,
         "value": "variant"
+      }, {
+        "weight": 0,
+        "value": "variant2"
       }]
     },
     "cc339232-6c9f-4a36-b443-09c082651472": {
