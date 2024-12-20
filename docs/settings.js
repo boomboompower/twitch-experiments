@@ -591,6 +591,8 @@ window.__twilightSettings = {
   "nfl_game_id": "14017",
   "nifty-mushroom-committee": [0, false],
   "No_Track_Pages": ["/user/password-reset"],
+  "not_cht": [1, false],
+  "not_cht_news_release_date_iso": "2025-02-12T13:00:00Z",
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "odd_caribou_sleeping": [1, true],
   "offer_claim_sync": [0, false],
@@ -2802,6 +2804,15 @@ window.__twilightSettings = {
         "value": "experiment"
       }]
     },
+    "b1f2f89d-78aa-4976-8706-98086c0ce3ad": {
+      "name": "cache_placeholder",
+      "v": 39439,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "b235449a-b882-4266-b968-0fc591fba387": {
       "name": "gift_chat_command",
       "v": 19381,
@@ -3234,17 +3245,23 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 38856,
+      "v": 39441,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "option_1"
+        "value": "turbo_2"
       }, {
         "weight": 0,
-        "value": "option_2"
+        "value": "help_2"
+      }, {
+        "weight": 0,
+        "value": "turbo_4"
+      }, {
+        "weight": 0,
+        "value": "help_4"
       }]
     },
     "d44f032c-1c84-4545-ae91-77ff485ef33a": {
