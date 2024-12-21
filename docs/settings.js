@@ -2704,16 +2704,16 @@ window.__twilightSettings = {
     },
     "abbeeb40-65b8-4d8a-970f-db96631f72be": {
       "name": "web_channel_metadata_layout",
-      "v": 39261,
+      "v": 39470,
       "t": 2,
       "groups": [{
-        "weight": 34,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant-1"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant-2"
       }]
     },
