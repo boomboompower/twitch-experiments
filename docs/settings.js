@@ -310,7 +310,7 @@ window.__twilightSettings = {
   "disable-copo-setting": false,
   "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time"],
   "disco_cold_moon": [1, false],
-  "disco_perseids_meteor_shower": [1, false],
+  "disco_perseids_meteor_shower": [0, false],
   "disco_top_clips_featured_filter_default": true,
   "disco_top_clips_time_filter_default": "7d",
   "display_dma_banner": [0, false],
@@ -674,7 +674,7 @@ window.__twilightSettings = {
   "project_pixie_sub_end_date": "2024-10-01T07:00:00+00:00",
   "project_pixie_sub_start_date": "2024-08-29T17:00:00+00:00",
   "Project_Polaris": [1, true],
-  "promo_hypetrain_enabled": [1, false],
+  "promo_hypetrain_enabled": [0, false],
   "promotions_boost_challenges_viewer": [1, true],
   "promotions_boost_settings": [0, false],
   "promotions_boost_viewer": [1, true],
@@ -769,7 +769,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
-  "sentry_tracing_threshold": 0,
+  "sentry_tracing_threshold": 0.01,
   "shared_chat_pubsub_jitter_ms": 2000,
   "shared-chat-beta-flag": [1, false],
   "shared-chat-feature-flag": [1, false],
@@ -1196,17 +1196,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 39467,
+      "v": 39531,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -2253,16 +2253,16 @@ window.__twilightSettings = {
     },
     "86b99c86-c11f-429e-8891-d506cca8659b": {
       "name": "disco_atlas_perihelion_solstice",
-      "v": 39391,
+      "v": 39534,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
         "value": "launch"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "sustain"
       }]
     },
