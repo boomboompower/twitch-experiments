@@ -931,6 +931,7 @@ window.__twilightSettings = {
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
   "upsell_above_chat": [1, true],
   "use_intersection": true,
+  "use-full-locale-in-language-cookie": false,
   "use-gql-rev": [1, false],
   "user_anniversary": [0, false],
   "V6S_iframe_to_div": [1, false],
@@ -1406,6 +1407,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "3d890a07-a9be-4261-93cd-49e1b82badb1": {
+      "name": "player_prioritization",
+      "v": 39561,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "3fa741f6-0bc9-425a-a618-e0ce1e45463a": {
@@ -2190,17 +2203,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 39551,
+      "v": 39562,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 10,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 90,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
