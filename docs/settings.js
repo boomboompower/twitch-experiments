@@ -1874,16 +1874,16 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 38455,
+      "v": 39566,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
         "weight": 0,
@@ -2303,20 +2303,20 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 39032,
+      "v": 39565,
       "t": 3,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 99,
         "value": "green"
       }, {
         "weight": 0,
