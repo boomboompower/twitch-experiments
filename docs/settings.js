@@ -198,7 +198,7 @@ window.__twilightSettings = {
   "clips_live_nudge": [1, true],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
-  "cmon_chat_introduction": [1, false],
+  "cmon_chat_introduction": [0, false],
   "cmp_dma": [1, false],
   "cmr_icon_button": [1, true],
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
