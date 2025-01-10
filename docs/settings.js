@@ -195,7 +195,7 @@ window.__twilightSettings = {
   "Clip_Snip_Retry_Days": 1,
   "clip-checkbox-expiry": "2023-11-27T17:00:00Z",
   "clips_leaderboard": [1, true],
-  "clips_live_nudge": [1, true],
+  "clips_live_nudge": [0, false],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
   "cmon_chat_introduction": [0, false],
@@ -2359,16 +2359,16 @@ window.__twilightSettings = {
     },
     "8bbc90af-a304-4880-bbc2-bb93bbb79259": {
       "name": "mweb_xo_vs_upsell",
-      "v": 39093,
+      "v": 39593,
       "t": 2,
       "groups": [{
-        "weight": 34,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 33,
+        "weight": 0,
         "value": "variant_1"
       }, {
-        "weight": 33,
+        "weight": 50,
         "value": "variant_2"
       }]
     },
