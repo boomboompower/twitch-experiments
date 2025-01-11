@@ -776,11 +776,6 @@ const productionExperiments = [
         "dateFound": "2024-09-11T20:15:06.621Z"
     },
     {
-        "id": "e5beeeab-073c-465f-8f39-83fb54fa75ec",
-        "name": "gifting_refresh",
-        "dateFound": "2024-10-04T01:14:55.264Z"
-    },
-    {
         "id": "e161fc0c-b75a-4801-b65c-36e911afd28f",
         "name": "twilight_p_4",
         "dateFound": "2024-10-04T01:14:55.266Z"
@@ -826,11 +821,6 @@ const productionExperiments = [
         "dateFound": "2024-12-07T08:20:33.830Z"
     },
     {
-        "id": "86b99c86-c11f-429e-8891-d506cca8659b",
-        "name": "disco_atlas_perihelion_solstice",
-        "dateFound": "2024-11-20T08:22:27.714Z"
-    },
-    {
         "id": "d6aec4f1-f70c-4dac-818a-63850d7185a7",
         "name": "ivs_web_rtx_prefer_main_profile",
         "dateFound": "2024-11-08T01:14:08.606Z"
@@ -854,5 +844,10 @@ const productionExperiments = [
         "id": "d436491a-31fd-4171-8828-064235f3f4e6",
         "name": "nabe_experiment",
         "dateFound": "2024-12-11T04:20:54.668Z"
+    },
+    {
+        "id": "d078e8f2-943f-45f2-aaaa-746513cea610",
+        "name": "gifting_refresh_v2",
+        "dateFound": "2025-01-11T01:15:56.295Z"
     }
 ]

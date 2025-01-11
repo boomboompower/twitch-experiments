@@ -1271,13 +1271,13 @@ window.__twilightSettings = {
     },
     "29d2dc0c-f7c3-4e51-8ad8-c1b2ae537b6b": {
       "name": "xsolla_icons_pl",
-      "v": 36580,
+      "v": 39609,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -1763,13 +1763,13 @@ window.__twilightSettings = {
     },
     "56401cc4-f281-4fd3-bcd6-ac421489b20c": {
       "name": "xsolla_icons_nl",
-      "v": 36639,
+      "v": 39607,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -3340,13 +3340,13 @@ window.__twilightSettings = {
     },
     "d7d48dc9-1298-4f1c-bf54-dc6d96ce4cee": {
       "name": "xsolla_icons_be",
-      "v": 36579,
+      "v": 39608,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -3676,14 +3676,14 @@ window.__twilightSettings = {
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
       "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
-      "v": 39169,
+      "v": 39605,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
