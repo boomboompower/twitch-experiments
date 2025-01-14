@@ -1412,13 +1412,13 @@ window.__twilightSettings = {
     },
     "3d890a07-a9be-4261-93cd-49e1b82badb1": {
       "name": "player_prioritization",
-      "v": 39561,
+      "v": 39634,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "treatment"
       }]
     },
@@ -1875,16 +1875,17 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 39581,
+      "v": 39638,
       "t": 1,
+      "s": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "blue"
       }, {
         "weight": 0,
@@ -2304,9 +2305,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 39582,
+      "v": 39646,
       "t": 3,
-      "s": 2,
+      "s": 3,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2314,10 +2315,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "blue"
       }, {
-        "weight": 95,
+        "weight": 90,
         "value": "green"
       }, {
         "weight": 0,
