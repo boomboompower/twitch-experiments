@@ -846,6 +846,11 @@ const productionExperiments = [
         "dateFound": "2024-12-11T04:20:54.668Z"
     },
     {
+        "id": "3d890a07-a9be-4261-93cd-49e1b82badb1",
+        "name": "player_prioritization",
+        "dateFound": "2025-01-14T12:31:18.259Z"
+    },
+    {
         "id": "d078e8f2-943f-45f2-aaaa-746513cea610",
         "name": "gifting_refresh_v2",
         "dateFound": "2025-01-11T01:15:56.295Z"
