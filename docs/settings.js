@@ -1130,14 +1130,14 @@ window.__twilightSettings = {
     },
     "1416c86d-750b-42e4-96e4-7b1548655ded": {
       "name": "tplr_gateway_routing_eu",
-      "v": 39671,
+      "v": 39717,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
@@ -2667,14 +2667,14 @@ window.__twilightSettings = {
     },
     "a81855c2-0068-4d53-a9f3-55292a0a960a": {
       "name": "tplr_gateway_routing_usrow",
-      "v": 39672,
+      "v": 39715,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
@@ -3196,16 +3196,16 @@ window.__twilightSettings = {
     },
     "d078e8f2-943f-45f2-aaaa-746513cea610": {
       "name": "gift_refresh_v2",
-      "v": 38885,
+      "v": 39703,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 33,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "treatment_1"
       }, {
-        "weight": 0,
+        "weight": 33,
         "value": "treatment_2"
       }]
     },
