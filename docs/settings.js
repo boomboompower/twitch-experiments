@@ -58,6 +58,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
+  "auth_passport_skip_integrity_on_signup": [0, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [1, false],
@@ -121,7 +122,7 @@ window.__twilightSettings = {
   "ce_new_banner": [0, false],
   "ce-aep": [1, false],
   "ce-ea": [1, false],
-  "ce-ig-allowlist": ["794180236", "688971830", "1205085885"],
+  "ce-ig-allowlist": ["794180236", "688971830", "1205085885", "890277595"],
   "ce-ig-ex": [0, false],
   "ce-tt-banner-expiry": "2023-10-27T17:00:00Z",
   "ce-tt-flag": [1, false],
@@ -3128,6 +3129,18 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 100,
+        "value": "variant"
+      }]
+    },
+    "cd9316f2-9180-4045-ae80-daf14a6f54b3": {
+      "name": "garfield_gambling_ccl",
+      "v": 39750,
+      "t": 3,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
         "value": "variant"
       }]
     },
