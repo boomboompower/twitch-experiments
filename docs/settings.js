@@ -210,11 +210,11 @@ window.__twilightSettings = {
   "com30_disco_squidward_snuggles": [1, true],
   "commerce_bar_experience": "sponsored",
   "community_boost_enabled": [0, false],
-  "community_intros_rollout": [0, true],
+  "community_intros_rollout": [0, false],
   "community_moments_jitter_range_seconds": 0,
   "community_moments_quick_action_new_date": "2022-02-08T19:00:00Z",
   "community_sub_gifting_banner_timeouts": [0, 25, 35, 45, 55, 60, 60],
-  "community-intros-15": [1, false],
+  "community-intros-15": [0, false],
   "community-moments-rollout": [1, false],
   "concerning_hobBits": true,
   "consent_banner_headline_rollout": [0, true],
@@ -1413,13 +1413,13 @@ window.__twilightSettings = {
     },
     "3d890a07-a9be-4261-93cd-49e1b82badb1": {
       "name": "player_prioritization",
-      "v": 39678,
+      "v": 39720,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "treatment"
       }]
     },
