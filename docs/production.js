@@ -730,11 +730,6 @@ const productionExperiments = [
         "dateFound": "2024-07-16T20:14:32.979Z"
     },
     {
-        "id": "4e4367ca-d0d7-4916-98e6-38c3c22fc619",
-        "name": "am_lnu",
-        "dateFound": "2024-09-11T01:11:06.629Z"
-    },
-    {
         "id": "1a2f2b1e-1b5f-4ded-a512-340708d17c1a",
         "name": "partner_plus_upsell_nudge",
         "staffOverride": "variant",
@@ -784,11 +779,6 @@ const productionExperiments = [
         "id": "bf2b721a-14f4-4250-844a-101911395cfe",
         "name": "web_disco_better_tags",
         "dateFound": "2024-10-12T01:12:53.140Z"
-    },
-    {
-        "id": "ec84deeb-2cdf-4fea-a6fe-4c1d7ecae886",
-        "name": "hype_train_gift_cta",
-        "dateFound": "2024-10-25T20:18:29.505Z"
     },
     {
         "id": "b49420ab-8e72-4fc2-a4a9-93ad1608d55d",
@@ -854,5 +844,10 @@ const productionExperiments = [
         "id": "d078e8f2-943f-45f2-aaaa-746513cea610",
         "name": "gifting_refresh_v2",
         "dateFound": "2025-01-11T01:15:56.295Z"
+    },
+    {
+        "id": "3712c2b4-41d2-437c-8e37-83e236543cef",
+        "name": "ivs_player_probe_endpoint",
+        "dateFound": "2025-01-17T01:13:02.963Z"
     }
 ]
