@@ -1416,13 +1416,13 @@ window.__twilightSettings = {
     },
     "3d890a07-a9be-4261-93cd-49e1b82badb1": {
       "name": "player_prioritization",
-      "v": 39720,
+      "v": 39790,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment"
       }]
     },
