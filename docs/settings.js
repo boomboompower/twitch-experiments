@@ -58,6 +58,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
+  "auth_passport_skip_integrity_on_login": [0, false],
   "auth_passport_skip_integrity_on_signup": [0, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
@@ -777,6 +778,7 @@ window.__twilightSettings = {
   "should_extensions_check_google_analytics_consent": true,
   "shoutouts_ccv_cap_setting": 50000,
   "shoutouts_jitter_setting": 500,
+  "show_dev_portal_sub_drops_banner": false,
   "show_me_the_money": [1, false],
   "show_quest_store": true,
   "show_sh_category": true,
@@ -2674,13 +2676,13 @@ window.__twilightSettings = {
     },
     "aa5ec8aa-bf4a-466f-9d7a-cad35c11f4a2": {
       "name": "player_prioritization_2",
-      "v": 39788,
+      "v": 39805,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
