@@ -854,5 +854,10 @@ const productionExperiments = [
         "id": "3712c2b4-41d2-437c-8e37-83e236543cef",
         "name": "ivs_player_probe_endpoint",
         "dateFound": "2025-01-17T01:13:02.963Z"
+    },
+    {
+        "id": "a680f572-fc37-4836-b07b-a2357b4037cb",
+        "name": "ivs_player_abr_score",
+        "dateFound": "2025-01-22T04:19:17.845Z"
     }
 ]
