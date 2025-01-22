@@ -239,7 +239,7 @@ window.__twilightSettings = {
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
   "courteous_goat_freezing": [1, false],
-  "cows-make-happy-buicks": [1, true],
+  "cows-make-happy-buicks": [0, false],
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_cat_emp": [1, true],
   "cplat_dragon_journal_category": [1, true],
@@ -580,7 +580,7 @@ window.__twilightSettings = {
   "mweb_nav_with_player_updates": [1, true],
   "mweb_player_updates": [1, true],
   "mwot_leak": false,
-  "nabe_cadence": [0, false],
+  "nabe_cadence": [1, false],
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
   "new_games_pill_days": 30,
@@ -829,7 +829,6 @@ window.__twilightSettings = {
   "st_side_nav_offline_guesting": [0, false],
   "st-invite-via-link": [1, false],
   "staff_garfield_discovery_control": true,
-  "stand_behind_braum": [0, false],
   "stories_polling_seconds": 420,
   "stories_web": [1, true],
   "stream_manager_layout_tracking": [0, false],
@@ -899,6 +898,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
+  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -922,7 +922,7 @@ window.__twilightSettings = {
   "twilight_hermes_rollout_channel_blue": ["hype-train-events-v2"],
   "twilight_hermes_rollout_channel_green": ["hype-train-events-v2"],
   "twilight_hermes_rollout_device_blue": ["raid"],
-  "twilight_hermes_rollout_device_green": [],
+  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
   "twilight_hermes_rollout_user_blue": [],
   "twilight_hermes_rollout_user_green": ["hype-train-events-v2"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -1394,13 +1394,13 @@ window.__twilightSettings = {
     },
     "3712c2b4-41d2-437c-8e37-83e236543cef": {
       "name": "ivs_player_probe_endpoint",
-      "v": 38618,
+      "v": 39871,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -1881,20 +1881,20 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 39761,
+      "v": 39863,
       "t": 1,
-      "s": 3,
+      "s": 4,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 99,
         "value": "blue"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "green"
       }]
     },
@@ -2011,20 +2011,20 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 38939,
+      "v": 39862,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 99,
         "value": "blue"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "green"
       }]
     },
@@ -2142,7 +2142,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 38726,
+      "v": 39844,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2151,10 +2151,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -2187,17 +2187,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 39658,
+      "v": 39846,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2290,7 +2290,7 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 39767,
+      "v": 39840,
       "t": 3,
       "s": 5,
       "groups": [{
@@ -2300,10 +2300,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 99,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 1,
         "value": "green"
       }, {
         "weight": 0,
@@ -2676,13 +2676,13 @@ window.__twilightSettings = {
     },
     "aa5ec8aa-bf4a-466f-9d7a-cad35c11f4a2": {
       "name": "player_prioritization_2",
-      "v": 39805,
+      "v": 39849,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "treatment"
       }]
     },
