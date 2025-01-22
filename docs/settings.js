@@ -59,7 +59,7 @@ window.__twilightSettings = {
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
   "auth_passport_skip_integrity_on_login": [0, false],
-  "auth_passport_skip_integrity_on_signup": [0, false],
+  "auth_passport_skip_integrity_on_signup": [0.2, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [1, false],
@@ -533,7 +533,6 @@ window.__twilightSettings = {
   "ltdv2_rollout_enabled": [1, false],
   "lynx_batch_report_experiment": [0, true],
   "lynx_batch_reporting_release": "2024-10-07T18:18:48.502Z",
-  "mac_studio_downloads_enabled": true,
   "mads_enabled": [1, true],
   "mads_polls_dashboard_enabled": [1, true],
   "mads_polls_no_auto_minimize": [1, true],
@@ -847,22 +846,6 @@ window.__twilightSettings = {
   "stream_together_self_cam": [1, true],
   "streamer_trailers_start_date": "2017-10-12T23:00:25.75536206Z",
   "strike_ccar_feature_enabled": [0, false],
-  "studio_aloha": [1, true],
-  "studio_aloha_date": "2023-09-19",
-  "studio_guest_star_default_layout": [0, false],
-  "studio_guest_star_default_layout_release_date": "2023-03-22",
-  "studio_guest_star_layer": [0, false],
-  "studio_import": [1, true],
-  "studio_import_changelog_date": "2022-06-22 00:00:00 GMT-0700",
-  "studio_macos_13_banner": "off",
-  "studio_multi_methods": [0, false],
-  "studio_native_media_layer": [1, true],
-  "studio_native_text_layer": [1, true],
-  "studio_project_airhorn": [1, false],
-  "studio_scene_intro_cta": [0, false],
-  "studio_stream_alerts_changelog_date": "2022-11-08 00:00:00 GMT-0800",
-  "studio_stream_info_intro_cta": [0, false],
-  "studio_vcam": [1, true],
   "suave_ramen_dumping": [1, false],
   "suave_ramen_dumping_rd": "2024-10-15T18:18:48.502Z",
   "sub_count_goal_feature_flag": [1, true],
@@ -931,7 +914,6 @@ window.__twilightSettings = {
   "twitch_prime_fortnite_offer_id": "c0b1816d-300b-d234-828e-59e76119bffe",
   "twitch_prime_fortnite_signup_url": "https://twitch.amazon.com/prime/country?ref_=SM_CM_FNStart_LP&ingress=epic-fortnite",
   "twitch_prime_offerpage_signup_url": "https://twitch.amazon.com/prime/country",
-  "twitch_studio_auto_exclude_from_VOD_and_clips_audio_source_list": ["TwitchSoundtrackUI.exe"],
   "untouch_cam_mig": "{}",
   "update_chunks": ["clips-main.css", "clips-main.js", "core.css", "core.js", "minimal.css", "minimal.js", "pages.browse.css", "pages.browse.js", "pages.channel.components.channel-shell.css", "pages.channel.components.channel-shell.js", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.css", "pages.channel.components.channel-shell.components.chat-shell.components.chat-live.js", "pages.channel.components.channel-shell.components.watch-page-track.css", "pages.channel.components.channel-shell.components.watch-page-track.js", "pages.directory-game.css", "pages.directory-game.js", "pages.front.css", "pages.front.js", "pages.following.css", "pages.following.js", "pages.settings.css", "pages.settings.js", "pages.subs.css", "pages.subs.js", "pages.subs.components.subs-broadcaster-page.css", "pages.subs.components.subs-broadcaster-page.js", "pages.subs-checkout.components.subs-checkout-page.css", "pages.subs-checkout.components.subs-checkout-page.js", "player-core-base.js", "sites.sunlight.pages.stream-summary-page.css", "sites.sunlight.pages.stream-summary-page.js", "vendor.js"],
   "upsell_above_chat": [1, true],
@@ -969,7 +951,7 @@ window.__twilightSettings = {
   "web_sub_tokens": false,
   "whos_there": [1, false],
   "why_sub_button": false,
-  "withholding_dashboard": false,
+  "withholding_dashboard": true,
   "wrong_phone_resting": [1, false],
   "wysiwyg_chat_input": [1, true],
   "xo_email_phone_verification": [1, false],
@@ -1394,13 +1376,13 @@ window.__twilightSettings = {
     },
     "3712c2b4-41d2-437c-8e37-83e236543cef": {
       "name": "ivs_player_probe_endpoint",
-      "v": 39871,
+      "v": 39884,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 20,
         "value": "treatment"
       }]
     },
@@ -2187,17 +2169,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 39846,
+      "v": 39889,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 90,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2312,7 +2294,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 37009,
+      "v": 39885,
       "t": 1,
       "s": 1,
       "groups": [{
@@ -2320,16 +2302,7 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 0,
-        "value": "AB4.1_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwibW9kZWwiOnsiZW5hYmxlIjpmYWxzZSwiaW5wdXRSZXNvbHV0aW9uQXJlYUJhbmQiOls5MjE2MDAsOTIxNjAwXSwic2NhbGVGYWN0b3IiOjEuNX0sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjUwLCJpbmNsdWRlUmVjZWl2ZURlbGF5IjpmYWxzZX19LCJsb2dMZXZlbCI6ImVycm9yIiwic3RhdHVzSW50ZXJ2YWxNcyI6NTAwMH0sInJlbmRlciI6eyJkZWJ1ZyI6ZmFsc2V9fQ=="
-      }, {
-        "weight": 0,
-        "value": "AB4.5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwibW9kZWwiOnsiZW5hYmxlIjp0cnVlLCJpbnB1dFJlc29sdXRpb25BcmVhQmFuZCI6WzkyMTYwMCw5MjE2MDBdLCJzY2FsZUZhY3RvciI6MS41fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfX0sImxvZ0xldmVsIjoiZXJyb3IiLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
-      }, {
-        "weight": 0,
-        "value": "holdback00"
-      }, {
-        "weight": 0,
-        "value": "holdback11"
+        "value": "replace_1080_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsiKiJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOmZhbHNlLCJtb25pdG9ySW50ZXJ2YWxNcyI6NTAwMCwiZnJhbWVSYXRlRGlmZlBlcmNlbnRhZ2UiOjAuMjUsImZyYW1lQ291bnREaWZmUGVyY2VudGFnZSI6MC4yNX0sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjEsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6OCwibW9kZWxzIjpbeyJwYXRoIjoibG9jYWwiLCJpZCI6IjcyMC10by0xMDgwLWFsbCIsIndpZHRoIjoxMjgwLCJoZWlnaHQiOjcyMCwic2NhbGVGYWN0b3IiOjEuNSwic2NvcmVNb2RpZmllciI6MSwiY29kZWMiOiIiLCJlbmNvZGVyIjoiIn1dfX0sImJlaGF2aW9ycyI6eyI3MjAtdG8tMTA4MC1hbGwiOnsiZXh0ZW5kIjpmYWxzZSwicmVwbGFjZSI6dHJ1ZSwibmFtZU92ZXJyaWRlIjoiKFN1cGVyIFJlcykgMTA4MHAifX0sImxvZ0xldmVsIjoiaW5mbyIsInN0YXR1c0ludGVydmFsTXMiOjEwMDB9LCJyZW5kZXIiOnsiZGVidWciOnRydWV9fQ=="
       }]
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
