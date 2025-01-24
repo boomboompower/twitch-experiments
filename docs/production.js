@@ -590,11 +590,6 @@ const productionExperiments = [
         "dateFound": "2023-11-08T00:57:58.933Z"
     },
     {
-        "id": "ae61cd18-02db-44f4-bfe6-fe326d48cef6",
-        "name": "eppo-following-aa-mirror",
-        "dateFound": "2024-08-07T01:07:37.010Z"
-    },
-    {
         "id": "3277ac77-0818-4aab-9573-8ae8df2fd891",
         "name": "stream_together_guest_screenshare",
         "dateFound": "2023-10-23T20:12:26.711Z"
