@@ -801,11 +801,6 @@ const productionExperiments = [
         "dateFound": "2024-11-13T08:21:06.351Z"
     },
     {
-        "id": "abbeeb40-65b8-4d8a-970f-db96631f72be",
-        "name": "web_channel_metadata_layout",
-        "dateFound": "2024-12-07T08:20:33.830Z"
-    },
-    {
         "id": "d6aec4f1-f70c-4dac-818a-63850d7185a7",
         "name": "ivs_web_rtx_prefer_main_profile",
         "dateFound": "2024-11-08T01:14:08.606Z"
