@@ -1235,6 +1235,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "28d621bd-4864-4392-8c87-450cfc8c16e1": {
+      "name": "player_prioritization_3",
+      "v": 39969,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "29b2c41d-9b61-4513-95ca-4080591292d0": {
       "name": "toad_experiment",
       "v": 27331,
@@ -2116,7 +2128,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 39844,
+      "v": 39965,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2125,10 +2137,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-m"
       }]
     },
@@ -2161,17 +2173,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 39898,
+      "v": 39964,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
