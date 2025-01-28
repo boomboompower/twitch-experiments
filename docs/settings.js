@@ -58,7 +58,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
-  "auth_passport_skip_integrity_on_login": [0.25, false],
+  "auth_passport_skip_integrity_on_login": [0.5, false],
   "auth_passport_skip_integrity_on_signup": [1, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
@@ -882,7 +882,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061"],
+  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -2176,17 +2176,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 39964,
+      "v": 40037,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 0,
+        "weight": 10,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2662,13 +2662,13 @@ window.__twilightSettings = {
     },
     "aa5ec8aa-bf4a-466f-9d7a-cad35c11f4a2": {
       "name": "player_prioritization_2",
-      "v": 39849,
+      "v": 40032,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment"
       }]
     },
