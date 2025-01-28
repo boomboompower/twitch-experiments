@@ -58,7 +58,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
-  "auth_passport_skip_integrity_on_login": [0, false],
+  "auth_passport_skip_integrity_on_login": [0.25, false],
   "auth_passport_skip_integrity_on_signup": [1, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
@@ -882,7 +882,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374"],
+  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -1837,10 +1837,10 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 39928,
+      "v": 40006,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
         "weight": 0,
@@ -1851,6 +1851,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "2k_nvidia_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsibnZpZGlhIl19LCJ0cmFuc2Zvcm1lciI6eyJtb25pdG9yIjp7ImVuYWJsZSI6dHJ1ZSwibW9uaXRvckludGVydmFsTXMiOjUwMDAsImZyYW1lUmF0ZURpZmZQZXJjZW50YWdlIjowLjI1LCJmcmFtZUNvdW50RGlmZlBlcmNlbnRhZ2UiOjAuMjV9LCJwaXBlbGluZSI6eyJtaW5pbXVtRnJhbWVyYXRlIjo1NSwiaW5jbHVkZVJlY2VpdmVEZWxheSI6ZmFsc2V9LCJzdXBlclJlcyI6eyJlbmFibGUiOnRydWUsImxvYWRXaWR0aEJ5dGVzIjoxNiwibW9kZWxzIjpbeyJwYXRoIjoibG9jYWwiLCJpZCI6IjEwODAtdG8tMmstaXNoLWFsbCIsIndpZHRoIjoxOTIwLCJoZWlnaHQiOjEwODAsInNjYWxlRmFjdG9yIjoxLjMzLCJzY29yZU1vZGlmaWVyIjoxLCJjb2RlYyI6IiIsImVuY29kZXIiOiIifSx7InBhdGgiOiJsb2NhbCIsImlkIjoiNzIwLXRvLTEwODAtYWxsIiwid2lkdGgiOjEyODAsImhlaWdodCI6NzIwLCJzY2FsZUZhY3RvciI6MS41LCJzY29yZU1vZGlmaWVyIjoxLCJjb2RlYyI6IiIsImVuY29kZXIiOiIifV19fSwiYmVoYXZpb3JzIjp7IjEwODAtdG8tMmstaXNoLWFsbCI6eyJleHRlbmQiOnRydWUsInJlcGxhY2UiOmZhbHNlLCJuYW1lT3ZlcnJpZGUiOiIoU3VwZXIgUmVzKSAxNDM2cCJ9LCI3MjAtdG8tMTA4MC1hbGwiOnsiZXh0ZW5kIjpmYWxzZSwicmVwbGFjZSI6dHJ1ZSwibmFtZU92ZXJyaWRlIjoiKFN1cGVyIFJlcykgMTA4MHAifX0sImxvZ0xldmVsIjoiZGVidWciLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
+      }, {
+        "weight": 5,
+        "value": "AB5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSIsImJsYWNrd2VsbCJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6MTYsIm1vZGVscyI6W3sicGF0aCI6ImxvY2FsIiwiaWQiOiI3MjAtdG8tMTA4MC1hbGwiLCJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjAsInNjYWxlRmFjdG9yIjoxLjUsInNjb3JlTW9kaWZpZXIiOjEsImNvZGVjIjoiIiwiZW5jb2RlciI6IiJ9XX19LCJiZWhhdmlvcnMiOnsiNzIwLXRvLTEwODAtYWxsIjp7ImV4dGVuZCI6ZmFsc2UsInJlcGxhY2UiOnRydWUsIm5hbWVPdmVycmlkZSI6IiJ9fSwibG9nTGV2ZWwiOiJ3YXJuIiwic3RhdHVzSW50ZXJ2YWxNcyI6NTAwMH0sInJlbmRlciI6eyJkZWJ1ZyI6ZmFsc2V9fQ=="
       }]
     },
     "5a504d3b-df38-41cc-a7f4-c298b917fbe9": {
@@ -1867,7 +1870,7 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 39910,
+      "v": 39980,
       "t": 1,
       "s": 5,
       "groups": [{
@@ -1877,10 +1880,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -1997,9 +2000,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 39914,
+      "v": 39977,
       "t": 2,
-      "s": 3,
+      "s": 4,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2007,10 +2010,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -2128,10 +2131,10 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 39965,
+      "v": 40003,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
@@ -2140,7 +2143,7 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -2276,9 +2279,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 39912,
+      "v": 39979,
       "t": 3,
-      "s": 6,
+      "s": 7,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2286,10 +2289,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "green"
       }, {
         "weight": 0,
@@ -2298,7 +2301,7 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 39938,
+      "v": 39989,
       "t": 1,
       "s": 1,
       "groups": [{
@@ -2310,6 +2313,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "2k_all_nomonitor_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsiKiJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOmZhbHNlLCJtb25pdG9ySW50ZXJ2YWxNcyI6NTAwMCwiZnJhbWVSYXRlRGlmZlBlcmNlbnRhZ2UiOjAuMjUsImZyYW1lQ291bnREaWZmUGVyY2VudGFnZSI6MC4yNX0sInBpcGVsaW5lIjp7Im1pbmltdW1GcmFtZXJhdGUiOjEsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6OCwibW9kZWxzIjpbeyJwYXRoIjoibG9jYWwiLCJpZCI6IjEwODAtdG8tMmstaXNoLWFsbCIsIndpZHRoIjoxOTIwLCJoZWlnaHQiOjEwODAsInNjYWxlRmFjdG9yIjoxLjMzLCJzY29yZU1vZGlmaWVyIjoxLCJjb2RlYyI6IiIsImVuY29kZXIiOiIifSx7InBhdGgiOiJsb2NhbCIsImlkIjoiNzIwLXRvLTEwODAtYWxsIiwid2lkdGgiOjEyODAsImhlaWdodCI6NzIwLCJzY2FsZUZhY3RvciI6MS41LCJzY29yZU1vZGlmaWVyIjoxLCJjb2RlYyI6IiIsImVuY29kZXIiOiIifV19fSwiYmVoYXZpb3JzIjp7IjEwODAtdG8tMmstaXNoLWFsbCI6eyJleHRlbmQiOnRydWUsInJlcGxhY2UiOmZhbHNlLCJuYW1lT3ZlcnJpZGUiOiIoU3VwZXIgUmVzKSAxNDM2cCJ9LCI3MjAtdG8tMTA4MC1hbGwiOnsiZXh0ZW5kIjpmYWxzZSwicmVwbGFjZSI6dHJ1ZSwibmFtZU92ZXJyaWRlIjoiKFN1cGVyIFJlcykgMTA4MHAifX0sImxvZ0xldmVsIjoiZGVidWciLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
+      }, {
+        "weight": 0,
+        "value": "AB5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSIsImJsYWNrd2VsbCJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6MTYsIm1vZGVscyI6W3sicGF0aCI6ImxvY2FsIiwiaWQiOiI3MjAtdG8tMTA4MC1hbGwiLCJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjAsInNjYWxlRmFjdG9yIjoxLjUsInNjb3JlTW9kaWZpZXIiOjEsImNvZGVjIjoiIiwiZW5jb2RlciI6IiJ9XX19LCJiZWhhdmlvcnMiOnsiNzIwLXRvLTEwODAtYWxsIjp7ImV4dGVuZCI6ZmFsc2UsInJlcGxhY2UiOnRydWUsIm5hbWVPdmVycmlkZSI6IiJ9fSwibG9nTGV2ZWwiOiJ3YXJuIiwic3RhdHVzSW50ZXJ2YWxNcyI6NTAwMH0sInJlbmRlciI6eyJkZWJ1ZyI6ZmFsc2V9fQ=="
       }]
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
