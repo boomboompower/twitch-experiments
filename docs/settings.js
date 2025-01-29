@@ -124,7 +124,7 @@ window.__twilightSettings = {
   "ce-aep": [1, false],
   "ce-ea": [1, false],
   "ce-ig-allowlist": ["688971830", "1205085885", "890277595"],
-  "ce-ig-ex": [0, false],
+  "ce-ig-ex": [1, true],
   "ce-tt-banner-expiry": "2023-10-27T17:00:00Z",
   "ce-tt-flag": [1, false],
   "celebi_animation_settings": "{}",
@@ -906,7 +906,7 @@ window.__twilightSettings = {
   "twilight_hermes_rollout_channel_blue": ["hype-train-events-v2"],
   "twilight_hermes_rollout_channel_green": ["hype-train-events-v2"],
   "twilight_hermes_rollout_device_blue": ["raid"],
-  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
+  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "extension-control", "bits-ext-v1-transaction", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
   "twilight_hermes_rollout_user_blue": [],
   "twilight_hermes_rollout_user_green": ["hype-train-events-v2"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
@@ -2176,17 +2176,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40042,
+      "v": 40046,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 25,
+        "weight": 50,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
