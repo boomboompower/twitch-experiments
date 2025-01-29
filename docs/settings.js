@@ -58,7 +58,7 @@ window.__twilightSettings = {
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
-  "auth_passport_skip_integrity_on_login": [0.5, false],
+  "auth_passport_skip_integrity_on_login": [1, false],
   "auth_passport_skip_integrity_on_signup": [1, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
@@ -1237,13 +1237,13 @@ window.__twilightSettings = {
     },
     "28d621bd-4864-4392-8c87-450cfc8c16e1": {
       "name": "player_prioritization_3",
-      "v": 39969,
+      "v": 40039,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "treatment"
       }]
     },

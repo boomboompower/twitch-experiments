@@ -836,6 +836,11 @@ const productionExperiments = [
         "dateFound": "2025-01-18T01:11:20.975Z"
     },
     {
+        "id": "28d621bd-4864-4392-8c87-450cfc8c16e1",
+        "name": "player_prioritization_3",
+        "dateFound": "2025-01-29T01:13:26.598Z"
+    },
+    {
         "id": "d078e8f2-943f-45f2-aaaa-746513cea610",
         "name": "gifting_refresh_v2",
         "dateFound": "2025-01-11T01:15:56.295Z"
@@ -844,6 +849,11 @@ const productionExperiments = [
         "id": "3712c2b4-41d2-437c-8e37-83e236543cef",
         "name": "ivs_player_probe_endpoint",
         "dateFound": "2025-01-17T01:13:02.963Z"
+    },
+    {
+        "id": "cd9316f2-9180-4045-ae80-daf14a6f54b3",
+        "name": "garfield_gambling_ccl",
+        "dateFound": "2025-01-29T01:13:26.600Z"
     },
     {
         "id": "a680f572-fc37-4836-b07b-a2357b4037cb",
