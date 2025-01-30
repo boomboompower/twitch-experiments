@@ -2105,6 +2105,18 @@ window.__twilightSettings = {
         "value": "t1"
       }]
     },
+    "7640a2b1-31e7-4f29-bbc4-41d2c9550405": {
+      "name": "ios_clip_player_device_rotation",
+      "v": 40062,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active"
+      }]
+    },
     "7a328007-2bfa-4459-81ac-125639a273cf": {
       "name": "gift_and_sub_button",
       "v": 34795,
