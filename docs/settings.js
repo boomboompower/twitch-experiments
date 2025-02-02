@@ -590,7 +590,7 @@ window.__twilightSettings = {
   "nfl_game_id": "14017",
   "nifty-mushroom-committee": [0, false],
   "No_Track_Pages": ["/user/password-reset"],
-  "not_cht": [1, false],
+  "not_cht": [0, false],
   "not_cht_news_release_date_iso": "2025-02-12T13:00:00Z",
   "notification_app_server_public_key": "BGzteaQYOqrTAPN8EuuowBVG67pHwyZo879XZkC7cUV2QP4qQf-92Pmm9tyOuriJdiKnMDDRi28F5HQK6uSk0vM",
   "odd_caribou_sleeping": [1, true],
