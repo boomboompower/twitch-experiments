@@ -1186,17 +1186,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 40071,
+      "v": 40173,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -1238,13 +1238,13 @@ window.__twilightSettings = {
     },
     "28d621bd-4864-4392-8c87-450cfc8c16e1": {
       "name": "player_prioritization_3",
-      "v": 40039,
+      "v": 40165,
       "t": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -2147,13 +2147,13 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 40003,
+      "v": 40162,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
@@ -2192,14 +2192,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40140,
+      "v": 40164,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-a"
       }, {
         "weight": 0,
@@ -3056,13 +3056,13 @@ window.__twilightSettings = {
     },
     "ca505d53-5922-46ba-91d7-25ee70a7a41e": {
       "name": "percolite_CE_logged-out-experiment",
-      "v": 39448,
+      "v": 40174,
       "t": 1,
       "groups": [{
-        "weight": 20,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 80,
+        "weight": 100,
         "value": "variant"
       }, {
         "weight": 0,
@@ -3228,10 +3228,10 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 39626,
+      "v": 40175,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
@@ -3240,10 +3240,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "help_2"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "turbo_4"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "help_4"
       }]
     },
