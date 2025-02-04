@@ -579,6 +579,7 @@ window.__twilightSettings = {
   "mweb_nav_with_player_updates": [1, true],
   "mweb_player_updates": [1, true],
   "mwot_leak": false,
+  "nab_gate": [0, false],
   "nabe_cadence": [1, false],
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -905,9 +906,9 @@ window.__twilightSettings = {
   "twilight_device_type": [0, true],
   "twilight_hermes_rollout_channel_blue": ["hype-train-events-v2"],
   "twilight_hermes_rollout_channel_green": ["hype-train-events-v2"],
-  "twilight_hermes_rollout_device_blue": ["raid"],
-  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "bits-ext-v1-transaction", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
-  "twilight_hermes_rollout_user_blue": [],
+  "twilight_hermes_rollout_device_blue": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
+  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
+  "twilight_hermes_rollout_user_blue": ["community-points-broadcaster-v1", "predictions-user-v1"],
   "twilight_hermes_rollout_user_green": ["hype-train-events-v2"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -1873,7 +1874,7 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40085,
+      "v": 40147,
       "t": 1,
       "s": 5,
       "groups": [{
@@ -1883,10 +1884,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }]
     },
@@ -2003,7 +2004,7 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40083,
+      "v": 40145,
       "t": 2,
       "s": 4,
       "groups": [{
@@ -2013,10 +2014,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }]
     },
@@ -2191,17 +2192,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40046,
+      "v": 40140,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "base"
       }, {
         "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2294,7 +2295,7 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40084,
+      "v": 40146,
       "t": 3,
       "s": 7,
       "groups": [{
@@ -2304,10 +2305,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }, {
         "weight": 0,
@@ -2316,15 +2317,18 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 40078,
+      "v": 40142,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 100,
-        "value": "control"
+        "weight": 98,
+        "value": "holdout"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "AB5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSIsImJsYWNrd2VsbCJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6MTYsIm1vZGVscyI6W3sicGF0aCI6ImxvY2FsIiwiaWQiOiI3MjAtdG8tMTA4MC1hbGwiLCJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjAsInNjYWxlRmFjdG9yIjoxLjUsInNjb3JlTW9kaWZpZXIiOjEsImNvZGVjIjoiIiwiZW5jb2RlciI6IiJ9XX19LCJiZWhhdmlvcnMiOnsiNzIwLXRvLTEwODAtYWxsIjp7ImV4dGVuZCI6ZmFsc2UsInJlcGxhY2UiOnRydWUsIm5hbWVPdmVycmlkZSI6IiJ9fSwibG9nTGV2ZWwiOiJ3YXJuIiwic3RhdHVzSW50ZXJ2YWxNcyI6NTAwMH0sInJlbmRlciI6eyJkZWJ1ZyI6ZmFsc2V9fQ=="
+      }, {
+        "weight": 1,
+        "value": "control"
       }]
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
