@@ -1120,14 +1120,14 @@ window.__twilightSettings = {
     },
     "1416c86d-750b-42e4-96e4-7b1548655ded": {
       "name": "tplr_gateway_routing_eu",
-      "v": 39717,
+      "v": 40225,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -2651,14 +2651,14 @@ window.__twilightSettings = {
     },
     "a81855c2-0068-4d53-a9f3-55292a0a960a": {
       "name": "tplr_gateway_routing_usrow",
-      "v": 39715,
+      "v": 40226,
       "t": 2,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
