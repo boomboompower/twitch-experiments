@@ -579,7 +579,7 @@ window.__twilightSettings = {
   "mweb_nav_with_player_updates": [1, true],
   "mweb_player_updates": [1, true],
   "mwot_leak": false,
-  "nab_gate": [0, false],
+  "nab_gate": [1, false],
   "nabe_cadence": [1, false],
   "narwhal_prime_info": [1, true],
   "native_broadcast_blacklist": [],
@@ -884,7 +884,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564"],
+  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564", "173653284"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -2318,17 +2318,17 @@ window.__twilightSettings = {
     },
     "8b0cb43a-720b-4775-9f98-21da360d60b1": {
       "name": "ivs_player_web_gpu_transform",
-      "v": 40201,
+      "v": 40214,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 50,
         "value": "holdout"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "AB5_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyJ0dXJpbmciLCJhbXBlcmUiLCJsb3ZlbGFjZSIsImJsYWNrd2VsbCJdLCJ2ZW5kb3JzIjpbIm52aWRpYSJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6MTYsIm1vZGVscyI6W3sicGF0aCI6ImxvY2FsIiwiaWQiOiI3MjAtdG8tMTA4MC1hbGwiLCJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjAsImZyYW1lcmF0ZSI6NjAsInNjYWxlRmFjdG9yIjoxLjUsInNjb3JlTW9kaWZpZXIiOjEsImNvZGVjIjoiIiwiZW5jb2RlciI6IiJ9XX19LCJiZWhhdmlvcnMiOnsiNzIwLXRvLTEwODAtYWxsIjp7ImV4dGVuZCI6ZmFsc2UsInJlcGxhY2UiOnRydWUsIm5hbWVPdmVycmlkZSI6IiJ9fSwibG9nTGV2ZWwiOiJ3YXJuIiwic3RhdHVzSW50ZXJ2YWxNcyI6NTAwMH0sInJlbmRlciI6eyJkZWJ1ZyI6ZmFsc2V9fQ=="
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "control"
       }]
     },
@@ -3229,19 +3229,19 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 40175,
+      "v": 40209,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 80,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "turbo_2"
       }, {
         "weight": 0,
         "value": "help_2"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "turbo_4"
       }, {
         "weight": 0,
