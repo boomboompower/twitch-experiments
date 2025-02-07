@@ -812,6 +812,7 @@ window.__twilightSettings = {
   "soundtrack-playlist-promo": true,
   "sp-cw-release": "2024-06-05T18:00:00.353Z",
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
+  "spam_call": "2025-05-01T23:59:59Z",
   "spam_jam": [0, false],
   "spon_ms_value": 5000,
   "sponsored_social_posts_preview_card_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/512.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/512.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/512.png\"}",
@@ -1875,9 +1876,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40147,
+      "v": 40247,
       "t": 1,
-      "s": 5,
+      "s": 6,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1885,10 +1886,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2005,7 +2006,7 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40145,
+      "v": 40250,
       "t": 2,
       "s": 4,
       "groups": [{
@@ -2015,10 +2016,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2296,9 +2297,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40146,
+      "v": 40248,
       "t": 3,
-      "s": 7,
+      "s": 8,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2306,10 +2307,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "green"
       }, {
         "weight": 0,
