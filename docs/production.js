@@ -60,11 +60,6 @@ const productionExperiments = [
         "dateFound": "2022-09-29T23:27:53.000Z"
     },
     {
-        "id": "9d13fddf-6e8e-4eee-9c4f-3eeb4c02540d",
-        "name": "cu-viewers",
-        "dateFound": "2024-06-14T20:14:51.298Z"
-    },
-    {
         "id": "ad048640-8726-433a-b822-69e30b8faa77",
         "name": "liverecs_holdout_device",
         "dateFound": "2022-06-15T07:19:12.000Z"
