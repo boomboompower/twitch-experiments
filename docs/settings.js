@@ -1189,17 +1189,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 40173,
+      "v": 40284,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -1993,6 +1993,21 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "6bfa5969-6b5d-4d0b-987a-717fd46ce4b2": {
+      "name": "ios_small_bits_sku_50",
+      "v": 40298,
+      "t": 2,
+      "groups": [{
+        "weight": 50,
+        "value": "disabled"
+      }, {
+        "weight": 50,
+        "value": "enabled"
+      }, {
+        "weight": 0,
+        "value": ""
+      }]
+    },
     "6c40a5e3-843f-4c06-8039-6bd3b74ce141": {
       "name": "android_spooky_sprint",
       "v": 37965,
@@ -2195,14 +2210,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40207,
+      "v": 40289,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
