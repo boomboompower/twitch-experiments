@@ -1993,6 +1993,18 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "6a75f64b-9798-49e2-81b1-3b617ddc6ffc": {
+      "name": "android_clips_feed_ccl_obstruction",
+      "v": 40302,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active_23.3"
+      }]
+    },
     "6bfa5969-6b5d-4d0b-987a-717fd46ce4b2": {
       "name": "ios_small_bits_sku_50",
       "v": 40298,
