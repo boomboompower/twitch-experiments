@@ -962,7 +962,7 @@ window.__twilightSettings = {
   "xo_email_phone_verification": [1, false],
   "xo_review_stage": "off",
   "xsolla_enabled": [1, true],
-  "youre-up": false,
+  "youre-up": true,
   "Yubaba": "2024-01-02T18:00:00Z",
   "zuora_enabled": [1, false],
   "experiments": {
