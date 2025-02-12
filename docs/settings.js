@@ -2348,7 +2348,7 @@ window.__twilightSettings = {
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
       "name": "hypetrain_push_notifications",
-      "v": 38817,
+      "v": 40332,
       "t": 2,
       "groups": [{
         "weight": 100,
