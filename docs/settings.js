@@ -2463,13 +2463,13 @@ window.__twilightSettings = {
     },
     "9a466bb5-b5e7-4286-a3b7-54bf59c56894": {
       "name": "amazon_ivs_web_broadcast_disable_token_reuse_msg",
-      "v": 38660,
+      "v": 40318,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
