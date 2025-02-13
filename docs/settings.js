@@ -231,7 +231,7 @@ window.__twilightSettings = {
   "cookie_consent_rollout": [1, true],
   "cookie_sync_country_allowlist": ["AU", "NZ"],
   "cookie_sync_enabled": [1, true],
-  "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=pm-db5_ox-db5_an-db5_rbd_3lift_r1u_gg_n-index_pm-db5_n-MediaNet_n-Ogury_kg",
+  "cookie_sync_url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=pm-db5_ox-db5_an-db5_rbd_3lift_r1u_gg_n-index_pm-db5_n-MediaNet_n-Ogury_kg_n-vmg",
   "copo_challenges_count": 3,
   "copo_mod_participation": [1, true],
   "copo_shorter_predictions": [1, true],
@@ -475,6 +475,8 @@ window.__twilightSettings = {
   "guest_star_simplification_flag": [1, true],
   "guest_star_simplification_milestone": [1, true],
   "Haku": "2023-12-13T17:45:00Z",
+  "hermes-dl": [0.05, false],
+  "hermes-dl-topics": ["user-preferences-update-v1", "predictions-user-v1"],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -942,6 +944,7 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
+  "vpsq_ban_exp": "2025-04-19T23:59:59Z",
   "vpsq_ff": [0, false],
   "watch_avatar_roundification": [1, false],
   "watch_avatar_roundification_notification": [0, false],
@@ -1189,17 +1192,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 40284,
+      "v": 40333,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -2348,13 +2351,13 @@ window.__twilightSettings = {
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
       "name": "hypetrain_push_notifications",
-      "v": 40332,
+      "v": 40334,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -2463,13 +2466,13 @@ window.__twilightSettings = {
     },
     "9a466bb5-b5e7-4286-a3b7-54bf59c56894": {
       "name": "amazon_ivs_web_broadcast_disable_token_reuse_msg",
-      "v": 40318,
+      "v": 40335,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 0,
         "value": "treatment"
       }]
     },
@@ -3449,13 +3452,13 @@ window.__twilightSettings = {
     },
     "e161fc0c-b75a-4801-b65c-36e911afd28f": {
       "name": "twilight_p_4",
-      "v": 37477,
+      "v": 40338,
       "t": 1,
       "groups": [{
-        "weight": 2,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 98,
+        "weight": 0,
         "value": "active"
       }]
     },
