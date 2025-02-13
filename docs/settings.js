@@ -766,6 +766,8 @@ window.__twilightSettings = {
   "sda_subsequent_calls": [1, true],
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
+  "sda_v_ctrs": ["US"],
+  "sda_v_flag": [0, false],
   "seal-wolf-pie": [1, true],
   "seal-wolf-pie-date": "2024-03-13 00:00:00 GMT-0700",
   "search_debounce_timeout_ms": 50,
@@ -2351,7 +2353,7 @@ window.__twilightSettings = {
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
       "name": "hypetrain_push_notifications",
-      "v": 40334,
+      "v": 40356,
       "t": 2,
       "groups": [{
         "weight": 50,
