@@ -816,6 +816,7 @@ window.__twilightSettings = {
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "spam_call": "2025-05-01T23:59:59Z",
   "spam_jam": [0, false],
+  "spam_musubi": "heart",
   "spon_ms_value": 5000,
   "sponsored_social_posts_preview_card_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/512.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/512.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/512.png\"}",
   "sponsored_social_posts_preview_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/1024.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/1024.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/1024.png\"}",
@@ -2180,7 +2181,7 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 40162,
+      "v": 40409,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2225,17 +2226,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40289,
+      "v": 40413,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 90,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant-b"
       }, {
         "weight": 0,

@@ -821,6 +821,11 @@ const productionExperiments = [
         "dateFound": "2024-12-11T04:20:54.668Z"
     },
     {
+        "id": "6167b08f-702c-4755-8f98-6be70140f23b",
+        "name": "sda_v_experiment",
+        "dateFound": "2025-02-19T01:15:41.371Z"
+    },
+    {
         "id": "3d890a07-a9be-4261-93cd-49e1b82badb1",
         "name": "player_prioritization",
         "dateFound": "2025-01-14T12:31:18.259Z"
