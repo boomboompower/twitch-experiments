@@ -274,10 +274,6 @@ window.__twilightSettings = {
   "custom_event_destination_threshold": true,
   "cw_receival_enabled": true,
   "da_manager_m2": [1, false],
-  "dac7-banner-allowlist": [0, false],
-  "dac7-interrupt-screen": [0, false],
-  "dac7-phase-2": [0, false],
-  "dac7-phase2-banner": [0, false],
   "dashboard_payout_history": true,
   "dashboard_payout_incentives": "on",
   "dashboard_prime_earnings": "on",
@@ -888,7 +884,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564", "173653284", "23429329", "117650503", "805161210", "803560634", "81943724", "776486668", "29914663", "30884622", "37913834", "94055225", "144158589", "165010721", "221753357"],
+  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564", "173653284", "23429329", "117650503", "805161210", "803560634", "81943724", "776486668", "29914663", "30884622", "37913834", "94055225", "144158589", "165010721", "221753357", "1057826339"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -898,7 +894,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
-  "tubular_tubers_moving": [0, false],
+  "tubular_tubers_moving": [1, false],
   "turbo_ft": true,
   "turbo_v2": [0, false],
   "Turtle": "2023-09-26T17:00:00+00:00",
@@ -1939,13 +1935,13 @@ window.__twilightSettings = {
     },
     "6167b08f-702c-4755-8f98-6be70140f23b": {
       "name": "sda_v_experiment",
-      "v": 40372,
+      "v": 40435,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment"
       }]
     },
@@ -2226,17 +2222,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40423,
+      "v": 40431,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -3453,13 +3449,13 @@ window.__twilightSettings = {
     },
     "df56fefb-5585-42ad-b169-a33558100fb5": {
       "name": "ivs_web_rtx_multi_codec_answer",
-      "v": 37982,
+      "v": 40437,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
