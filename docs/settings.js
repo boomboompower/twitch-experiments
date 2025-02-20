@@ -302,7 +302,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time"],
+  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time", "project-arc", "pubg-blindspot"],
   "disco_cold_moon": [1, false],
   "disco_perseids_meteor_shower": [0, false],
   "disco_top_clips_featured_filter_default": true,
@@ -942,7 +942,7 @@ window.__twilightSettings = {
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
   "vpsq_ban_exp": "2025-04-19T23:59:59Z",
-  "vpsq_ff": [0, false],
+  "vpsq_ff": [1, false],
   "watch_avatar_roundification": [1, false],
   "watch_avatar_roundification_notification": [0, false],
   "watch_channel_update_after_pubsub_max_rps": 2000,
@@ -1877,9 +1877,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40270,
+      "v": 40445,
       "t": 1,
-      "s": 6,
+      "s": 7,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1887,10 +1887,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }]
     },
@@ -1935,13 +1935,13 @@ window.__twilightSettings = {
     },
     "6167b08f-702c-4755-8f98-6be70140f23b": {
       "name": "sda_v_experiment",
-      "v": 40435,
+      "v": 40451,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 5,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 95,
         "value": "treatment"
       }]
     },
@@ -2034,9 +2034,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40268,
+      "v": 40441,
       "t": 2,
-      "s": 4,
+      "s": 5,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2044,10 +2044,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }]
     },
@@ -2325,9 +2325,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40311,
+      "v": 40443,
       "t": 3,
-      "s": 8,
+      "s": 9,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2335,10 +2335,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }]
     },
@@ -3255,7 +3255,7 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 40217,
+      "v": 40446,
       "t": 1,
       "s": 1,
       "groups": [{
