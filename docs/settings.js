@@ -524,6 +524,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
+  "little_blue_penguin": [0, false],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "08a046e7-bb1e-45c0-a822-1af775bd07f3"],
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": true,
@@ -884,7 +885,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "173653284", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564", "173653284", "23429329", "117650503", "805161210", "803560634", "81943724", "776486668", "29914663", "30884622", "37913834", "94055225", "144158589", "165010721", "221753357", "1057826339"],
+  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564", "173653284", "23429329", "117650503", "805161210", "803560634", "81943724", "776486668", "29914663", "30884622", "37913834", "94055225", "144158589", "165010721", "221753357", "1057826339", "702591128", "1240633782", "932570484", "1240637220", "445742968", "1240603437", "lbrendanl", "qa_lebrendl_affiliate", "yuvst3r", "inormous", "jen4mation", "naatalee", "silentlycoding", "lenalaper", "shanirav", "sehectic", "rahavlussato", "rahavtest", "danirukun", "se_aleks", "se_ashley", "hecticsc", "tahwila", "renziito", "darlene", "kacem", "Fed", "suenamedboy", "giofei", "DragonVampress", "styler", "qa_raquel_partner", "cryonic_tv", "dequat", "eglorian", "amoszigller_", "streamelementshq", "chaoticgabz", "qa_cspon_affiliate", "potateum", "qa_erika_partner", "qa_asun_partner", "qa_jasonlx_partner", "qa_hlinsanity_partner", "qa_rachelvfs_partner"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -3449,13 +3450,13 @@ window.__twilightSettings = {
     },
     "df56fefb-5585-42ad-b169-a33558100fb5": {
       "name": "ivs_web_rtx_multi_codec_answer",
-      "v": 40437,
+      "v": 40460,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment"
       }]
     },
@@ -3686,14 +3687,14 @@ window.__twilightSettings = {
     },
     "eef2ed99-81d7-4119-9ac4-3b9e636ee0dd": {
       "name": "cplat_unified_home",
-      "v": 40183,
+      "v": 40461,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "variant"
       }]
     },
