@@ -887,7 +887,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["731749662", "774910777", "244517555", "12498741", "784355351", "184512278", "41582694", "757240691", "770067788", "160212168", "730397922", "659900335", "499738011", "922076871", "744153374", "687165061", "15245371", "158055564", "173653284", "23429329", "117650503", "805161210", "803560634", "81943724", "776486668", "29914663", "30884622", "37913834", "94055225", "144158589", "165010721", "221753357", "1057826339", "702591128", "1240633782", "932570484", "1240637220", "445742968", "1240603437", "lbrendanl", "qa_lebrendl_affiliate", "yuvst3r", "inormous", "jen4mation", "naatalee", "silentlycoding", "lenalaper", "shanirav", "sehectic", "rahavlussato", "rahavtest", "danirukun", "se_aleks", "se_ashley", "hecticsc", "tahwila", "renziito", "darlene", "kacem", "Fed", "suenamedboy", "giofei", "DragonVampress", "styler", "qa_raquel_partner", "cryonic_tv", "dequat", "eglorian", "amoszigller_", "streamelementshq", "chaoticgabz", "qa_cspon_affiliate", "potateum", "qa_erika_partner", "qa_asun_partner", "qa_jasonlx_partner", "qa_hlinsanity_partner", "qa_rachelvfs_partner"],
+  "third_party_sponsorship_offers_allowlist": ["ashsaidhi", "bigcheese", "bignosebug", "blizz", "bloodyfaster", "broxh_", "carla", "chaoticgabz", "curiousjoi", "cyborgangel", "datadave", "deejayknighttv", "distractedelf", "elspeth", "fems", "imperial", "jambo", "jrocthegod", "julien", "kelpsey", "meganlenius", "negaoryx", "owengejuicetv", "psyche", "radderss", "rubytrue", "sciants_streams", "senseicj", "simcopter1", "skybilz", "smirky", "stevesaylor", "techniq", "thehungerservice", "trash", "uguubear", "uminokaiju", "lbrendanl", "qa_lebrendl_affiliate", "yuvst3r", "inormous", "jen4mation", "naatalee", "silentlycoding", "lenalaper", "shanirav", "sehectic", "rahavlussato", "rahavtest", "danirukun", "se_aleks", "se_ashley", "hecticsc", "tahwila", "renziito", "darlene", "kacem", "fed", "suenamedboy", "giofei", "dragonvampress", "styler", "qa_raquel_partner", "cryonic_tv", "dequat", "eglorian", "amoszigller_", "streamelementshq", "chaoticgabz", "qa_cspon_affiliate", "potateum", "qa_erika_partner", "qa_asun_partner", "qa_jasonlx_partner", "qa_hlinsanity_partner", "qa_rachelvfs_partner", "caroline"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -3452,13 +3452,13 @@ window.__twilightSettings = {
     },
     "df56fefb-5585-42ad-b169-a33558100fb5": {
       "name": "ivs_web_rtx_multi_codec_answer",
-      "v": 40460,
+      "v": 40501,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
