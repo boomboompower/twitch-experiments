@@ -526,6 +526,7 @@ window.__twilightSettings = {
   "limited_safari_discovery_card": [1, true],
   "little_blue_penguin": [0, false],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "08a046e7-bb1e-45c0-a822-1af775bd07f3"],
+  "login_responsive_ui": [0, false],
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": true,
   "ltdv2_rollout_enabled": [1, false],
@@ -1878,9 +1879,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40445,
+      "v": 40480,
       "t": 1,
-      "s": 7,
+      "s": 8,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1888,10 +1889,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2035,9 +2036,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40441,
+      "v": 40476,
       "t": 2,
-      "s": 5,
+      "s": 6,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2326,9 +2327,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40443,
+      "v": 40478,
       "t": 3,
-      "s": 9,
+      "s": 10,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2336,10 +2337,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -3687,14 +3688,14 @@ window.__twilightSettings = {
     },
     "eef2ed99-81d7-4119-9ac4-3b9e636ee0dd": {
       "name": "cplat_unified_home",
-      "v": 40461,
+      "v": 40491,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 100,
         "value": "variant"
       }]
     },
