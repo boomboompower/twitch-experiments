@@ -2656,13 +2656,13 @@ window.__twilightSettings = {
     },
     "a680f572-fc37-4836-b07b-a2357b4037cb": {
       "name": "ivs_player_abr_score",
-      "v": 39054,
+      "v": 40495,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
