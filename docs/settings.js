@@ -2363,13 +2363,13 @@ window.__twilightSettings = {
     },
     "8b4006a5-c88e-46b0-bd23-9f16b2b010f5": {
       "name": "hypetrain_push_notifications",
-      "v": 40356,
+      "v": 40507,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant"
       }]
     },
@@ -3061,9 +3061,9 @@ window.__twilightSettings = {
     },
     "c86b522c-2b6c-40d6-97c2-c8912d1f8763": {
       "name": "disco_bpli",
-      "v": 29711,
+      "v": 40509,
       "t": 2,
-      "s": 1,
+      "s": 2,
       "groups": [{
         "weight": 75,
         "value": "control"
@@ -3372,6 +3372,21 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }]
+    },
+    "dbd54fc9-899c-4088-b8a1-a5accdad1918": {
+      "name": "turbo-sda-upsell-experiment",
+      "v": 40504,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "sda_only"
+      }, {
+        "weight": 0,
+        "value": "combined"
       }]
     },
     "dcb08cfd-cf6c-41d8-9755-477dde483eed": {
