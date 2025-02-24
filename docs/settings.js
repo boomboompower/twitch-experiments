@@ -3670,7 +3670,7 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 40110,
+      "v": 40537,
       "t": 2,
       "groups": [{
         "weight": 0,
@@ -3681,12 +3681,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variantB"
-      }, {
-        "weight": 0,
-        "value": "variantC"
-      }, {
-        "weight": 0,
-        "value": "variantD"
       }]
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
