@@ -805,6 +805,7 @@ window.__twilightSettings = {
   "small_latte_searching": [1, false],
   "smart_friend": [1, true],
   "smgr_remove_view_count": [1, false],
+  "social_auth_google": false,
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
@@ -887,7 +888,7 @@ window.__twilightSettings = {
   "tc_early_bird": false,
   "tcstring_rollout": [1, true],
   "third_party_events_allowlist": ["138803", "257199950", "13376846", "345492", "756364389", "466729740", "657709716", "94055225", "12498741", "175331327", "128266588", "24586202", "612865661", "961456124", "711152402", "662513346"],
-  "third_party_sponsorship_offers_allowlist": ["ashsaidhi", "bigcheese", "bignosebug", "blizz", "bloodyfaster", "broxh_", "carla", "chaoticgabz", "curiousjoi", "cyborgangel", "datadave", "deejayknighttv", "distractedelf", "elspeth", "fems", "imperial", "jambo", "jrocthegod", "julien", "kelpsey", "meganlenius", "negaoryx", "owengejuicetv", "psyche", "radderss", "rubytrue", "sciants_streams", "senseicj", "simcopter1", "skybilz", "smirky", "stevesaylor", "techniq", "thehungerservice", "trash", "uguubear", "uminokaiju", "lbrendanl", "qa_lebrendl_affiliate", "yuvst3r", "inormous", "jen4mation", "naatalee", "silentlycoding", "lenalaper", "shanirav", "sehectic", "rahavlussato", "rahavtest", "danirukun", "se_aleks", "se_ashley", "hecticsc", "tahwila", "renziito", "darlene", "kacem", "fed", "suenamedboy", "giofei", "dragonvampress", "styler", "qa_raquel_partner", "cryonic_tv", "dequat", "eglorian", "amoszigller_", "streamelementshq", "chaoticgabz", "qa_cspon_affiliate", "potateum", "qa_erika_partner", "qa_asun_partner", "qa_jasonlx_partner", "qa_hlinsanity_partner", "qa_rachelvfs_partner", "caroline"],
+  "third_party_sponsorship_offers_allowlist": ["ashsaidhi", "bigcheese", "bignosebug", "blizz", "bloodyfaster", "broxh_", "carla", "chaoticgabz", "curiousjoi", "cyborgangel", "datadave", "deejayknighttv", "distractedelf", "elspeth", "fems", "imperial", "jambo", "jrocthegod", "julien", "kelpsey", "meganlenius", "negaoryx", "owengejuicetv", "psyche", "radderss", "rubytrue", "sciants_streams", "senseicj", "simcopter1", "skybilz", "smirky", "stevesaylor", "techniq", "thehungerservice", "trash", "uguubear", "uminokaiju", "lbrendanl", "qa_lebrendl_affiliate", "yuvst3r", "inormous", "jen4mation", "naatalee", "silentlycoding", "lenalaper", "shanirav", "sehectic", "rahavlussato", "rahavtest", "danirukun", "se_aleks", "se_ashley", "hecticsc", "tahwila", "renziito", "darlene", "kacem", "fed", "suenamedboy", "giofei", "dragonvampress", "styler", "qa_raquel_partner", "cryonic_tv", "dequat", "eglorian", "amoszigller_", "streamelementshq", "chaoticgabz", "qa_cspon_affiliate", "potateum", "qa_erika_partner", "qa_asun_partner", "qa_jasonlx_partner", "qa_hlinsanity_partner", "qa_rachelvfs_partner", "caroline", "twitch_promotions"],
   "thoughtful_eggnog_stacking": [0, false],
   "thumbtack_duration_settings": "{\"amzn1.twitch.commerce.product.size-5-powercheer\": 30,  \"amzn1.twitch.commerce.product.size-10-powercheer\": 60, \"amzn1.twitch.commerce.product.size-25-powercheer\": 150, \"amzn1.twitch.commerce.product.size-50-powercheer\": 300, \"amzn1.twitch.commerce.product.size-100-powercheer\": 600}",
   "thumbtack_ready": false,
@@ -1880,7 +1881,7 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40480,
+      "v": 40552,
       "t": 1,
       "s": 8,
       "groups": [{
@@ -1890,10 +1891,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -2037,9 +2038,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40476,
+      "v": 40554,
       "t": 2,
-      "s": 6,
+      "s": 7,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2047,10 +2048,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -2225,17 +2226,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40431,
+      "v": 40557,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2328,9 +2329,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40478,
+      "v": 40551,
       "t": 3,
-      "s": 10,
+      "s": 11,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2338,10 +2339,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -2656,13 +2657,13 @@ window.__twilightSettings = {
     },
     "a680f572-fc37-4836-b07b-a2357b4037cb": {
       "name": "ivs_player_abr_score",
-      "v": 40495,
+      "v": 40561,
       "t": 1,
       "groups": [{
-        "weight": 95,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -3670,23 +3671,17 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 40110,
+      "v": 40542,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variantA"
       }, {
         "weight": 0,
         "value": "variantB"
-      }, {
-        "weight": 0,
-        "value": "variantC"
-      }, {
-        "weight": 0,
-        "value": "variantD"
       }]
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
