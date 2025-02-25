@@ -805,7 +805,6 @@ window.__twilightSettings = {
   "small_latte_searching": [1, false],
   "smart_friend": [1, true],
   "smgr_remove_view_count": [1, false],
-  "social_auth_google": false,
   "soft_landing_flag": [1, true],
   "sol_sticker_ids": ["c22bdbea-f4f9-40b4-9f01-bd6f702a37f8", "a5eccd44-df34-4f3b-a330-59a3b3c86fa6", "080015ad-6e38-49b1-982a-57048244f7a8"],
   "sol_super_mutators": ["ccm_test", "tw_pa_kauh", "specialbigpanda", "qa_partner2", "diedragondie", "starladder_cs_en", "nagzz21", "leyley", "farrell___", "reeveski", "impactwrestling", "seekaysee", "jacklifear", "doubletoasted", "cellbit", "qa_asd_partner"],
@@ -1881,7 +1880,7 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40552,
+      "v": 40480,
       "t": 1,
       "s": 8,
       "groups": [{
@@ -1891,10 +1890,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2038,9 +2037,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40554,
+      "v": 40476,
       "t": 2,
-      "s": 7,
+      "s": 6,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2048,10 +2047,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 99,
         "value": "green"
       }]
     },
@@ -2226,17 +2225,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 40557,
+      "v": 40431,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2329,9 +2328,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40551,
+      "v": 40478,
       "t": 3,
-      "s": 11,
+      "s": 10,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2339,10 +2338,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2657,13 +2656,13 @@ window.__twilightSettings = {
     },
     "a680f572-fc37-4836-b07b-a2357b4037cb": {
       "name": "ivs_player_abr_score",
-      "v": 40561,
+      "v": 40495,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 5,
         "value": "treatment"
       }]
     },
@@ -3671,17 +3670,23 @@ window.__twilightSettings = {
     },
     "ec866d75-9222-4ec1-8bd0-474a7b48cb51": {
       "name": "percolite_super-fresh-experiment-1_June2024",
-      "v": 40542,
+      "v": 40110,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variantA"
       }, {
         "weight": 0,
         "value": "variantB"
+      }, {
+        "weight": 0,
+        "value": "variantC"
+      }, {
+        "weight": 0,
+        "value": "variantD"
       }]
     },
     "edae8489-75e8-42f7-a91d-f5983307eeb0": {
