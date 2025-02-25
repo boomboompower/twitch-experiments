@@ -1193,17 +1193,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 40402,
+      "v": 40579,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -2657,13 +2657,13 @@ window.__twilightSettings = {
     },
     "a680f572-fc37-4836-b07b-a2357b4037cb": {
       "name": "ivs_player_abr_score",
-      "v": 40561,
+      "v": 40577,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment"
       }]
     },
