@@ -549,11 +549,6 @@ const productionExperiments = [
         "dateFound": "2023-09-07T20:12:53.404Z"
     },
     {
-        "id": "c54ebc3d-e931-4454-ac06-023eba9d9968",
-        "name": "amazon_ivs_web_broadcast_enable_simulcast",
-        "dateFound": "2023-09-20T20:13:21.359Z"
-    },
-    {
         "id": "a5c3a8f0-d293-4597-af87-f0352c58d1b3",
         "name": "ivs_web_player_device_config_prod_test",
         "staffOverride": "treatment",
@@ -799,11 +794,6 @@ const productionExperiments = [
         "id": "df56fefb-5585-42ad-b169-a33558100fb5",
         "name": "ivs_web_rtx_multi_codec_answer",
         "dateFound": "2024-11-08T01:14:08.608Z"
-    },
-    {
-        "id": "edae8489-75e8-42f7-a91d-f5983307eeb0",
-        "name": "amazon_ivs_web_broadcast_enable_init_layer_pref",
-        "dateFound": "2024-11-16T08:19:41.206Z"
     },
     {
         "id": "a9d6476f-3e00-44a9-bbf5-9094cdaced5c",
