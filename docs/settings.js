@@ -60,7 +60,7 @@ window.__twilightSettings = {
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
   "auth_passport_skip_integrity_on_login": [1, false],
-  "auth_passport_skip_integrity_on_signup": [1, false],
+  "auth_passport_skip_integrity_on_signup": [0, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [1, false],
@@ -533,6 +533,7 @@ window.__twilightSettings = {
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": true,
   "ltdv2_rollout_enabled": [1, false],
+  "lucky_waffle_conjuring": [0, true],
   "lynx_batch_report_experiment": [0, true],
   "lynx_batch_reporting_release": "2024-10-07T18:18:48.502Z",
   "mads_enabled": [1, true],
@@ -634,6 +635,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "pin_cheer_block_list": [],
+  "playful_ocean_breeze": [0, false],
   "plus_program_qualification_table": [1, false],
   "plus_program_widget": [1, true],
   "plus-program-widget-settings": [1, false],
@@ -766,7 +768,7 @@ window.__twilightSettings = {
   "sda_subsequent_calls": [1, true],
   "sda_suppress_flag": [1, true],
   "sda_transition_animation_reduction": [1, true],
-  "sda_v_ctrs": ["US"],
+  "sda_v_ctrs": ["78a931ff037d8cf739df0089321f27c1a8bd2d09575413b9c4d99352a2e11f11"],
   "seal-wolf-pie": [1, true],
   "seal-wolf-pie-date": "2024-03-13 00:00:00 GMT-0700",
   "search_debounce_timeout_ms": 50,
@@ -1953,13 +1955,13 @@ window.__twilightSettings = {
     },
     "6167b08f-702c-4755-8f98-6be70140f23b": {
       "name": "sda_v_experiment",
-      "v": 40451,
+      "v": 40675,
       "t": 1,
       "groups": [{
-        "weight": 5,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 95,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -2671,13 +2673,13 @@ window.__twilightSettings = {
     },
     "a680f572-fc37-4836-b07b-a2357b4037cb": {
       "name": "ivs_player_abr_score",
-      "v": 40577,
+      "v": 40668,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
