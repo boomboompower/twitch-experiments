@@ -528,6 +528,8 @@ window.__twilightSettings = {
   "little_blue_penguin": [0, false],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "08a046e7-bb1e-45c0-a822-1af775bd07f3"],
   "login_responsive_ui": [0, false],
+  "login_responsive_ui_desktop": [0, false],
+  "login_responsive_ui_mobile": [0, false],
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": true,
   "ltdv2_rollout_enabled": [1, false],
