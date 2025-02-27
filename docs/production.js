@@ -291,6 +291,11 @@ const productionExperiments = [
         "dateFound": "2024-12-06T01:21:16.746Z"
     },
     {
+        "id": "f786140e-78ca-47b4-b7a4-620c09247899",
+        "name": "xo_cc_expire",
+        "dateFound": "2025-02-27T12:33:26.990Z"
+    },
+    {
         "id": "f6dc9c16-cbf2-45b8-a96e-881dc80167f6",
         "name": "publisher_ext_ids",
         "dateFound": "2022-06-15T07:19:12.000Z"
@@ -849,5 +854,10 @@ const productionExperiments = [
         "id": "eef2ed99-81d7-4119-9ac4-3b9e636ee0dd",
         "name": "cplat_unified_home",
         "dateFound": "2025-02-20T04:19:23.391Z"
+    },
+    {
+        "id": "ec866d75-9222-4ec1-8bd0-474a7b48cb51",
+        "name": "percolite_super-fresh-experiment-1_June2024",
+        "dateFound": "2025-02-27T12:33:26.994Z"
     }
 ]
