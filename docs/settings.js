@@ -142,6 +142,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
+  "cg_vuc": [0, false],
   "cg_vuc_enabled": [1, true],
   "cg-tcc-ss": [1, false],
   "ch_creators_in_community": [1, true],
@@ -472,7 +473,7 @@ window.__twilightSettings = {
   "guest_star_simplification_milestone": [1, true],
   "Haku": "2023-12-13T17:45:00Z",
   "hermes-dl": [0.05, false],
-  "hermes-dl-topics": ["user-preferences-update-v1", "predictions-user-v1"],
+  "hermes-dl-topics": ["polls", "subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "stream-chat-room-v1"],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -1897,9 +1898,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40552,
+      "v": 40691,
       "t": 1,
-      "s": 8,
+      "s": 9,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1907,10 +1908,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -2054,9 +2055,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40554,
+      "v": 40687,
       "t": 2,
-      "s": 7,
+      "s": 8,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2064,10 +2065,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -2345,9 +2346,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40551,
+      "v": 40689,
       "t": 3,
-      "s": 11,
+      "s": 12,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2355,10 +2356,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -3404,6 +3405,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "combined"
+      }]
+    },
+    "dc3ed135-5440-40f0-beb0-1efc8ea60edf": {
+      "name": "sidenav-recommended-categories",
+      "v": 40703,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "dcb08cfd-cf6c-41d8-9755-477dde483eed": {
