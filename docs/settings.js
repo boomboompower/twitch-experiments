@@ -74,6 +74,7 @@ window.__twilightSettings = {
   "badge_modifiers": ["gold", "silver"],
   "banned_chat_connection": true,
   "bda_ad_edge_web": [0, true],
+  "better_rib_breaking": [0, false],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_in_space": [1, false],
@@ -530,11 +531,11 @@ window.__twilightSettings = {
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "08a046e7-bb1e-45c0-a822-1af775bd07f3"],
   "login_responsive_ui": [0, false],
   "login_responsive_ui_desktop": [0, false],
-  "login_responsive_ui_mobile": [0, false],
+  "login_responsive_ui_mobile": [1, false],
   "longtask_tracking_sample_rate": 0.1,
   "lor_auuk_enable": true,
   "ltdv2_rollout_enabled": [1, false],
-  "lucky_waffle_conjuring": [0, true],
+  "lucky_waffle_conjuring": [0, false],
   "lynx_batch_report_experiment": [0, true],
   "lynx_batch_reporting_release": "2024-10-07T18:18:48.502Z",
   "mads_enabled": [1, true],
@@ -2070,6 +2071,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "green"
+      }]
+    },
+    "717b46fe-d568-4230-aa36-725c41f7ee8e": {
+      "name": "v6ssdk_version",
+      "v": 40724,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "1.1.8"
+      }, {
+        "weight": 0,
+        "value": "1.1.9"
       }]
     },
     "7207f317-f72c-4956-8a96-0af6567f52e6": {

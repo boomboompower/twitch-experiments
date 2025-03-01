@@ -816,6 +816,11 @@ const productionExperiments = [
         "dateFound": "2025-02-19T01:15:41.371Z"
     },
     {
+        "id": "48bc90ab-9275-45be-9bd4-9b809645d99a",
+        "name": "vid_omsdk_v_experiment",
+        "dateFound": "2025-03-01T01:22:24.120Z"
+    },
+    {
         "id": "3d890a07-a9be-4261-93cd-49e1b82badb1",
         "name": "player_prioritization",
         "dateFound": "2025-01-14T12:31:18.259Z"
