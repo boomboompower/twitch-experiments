@@ -939,7 +939,7 @@ window.__twilightSettings = {
   "vat-prefetch": [0.99, true],
   "verify_email_login": [1, false],
   "versus_splash_page_link": "/",
-  "very-clever-sharks": [1, true],
+  "very-clever-sharks": [0, false],
   "view_tax_forms_flag": [1, false],
   "viewer_alerts_customization": [1, true],
   "viewer_milestones_enabled": true,
