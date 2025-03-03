@@ -1701,13 +1701,13 @@ window.__twilightSettings = {
     },
     "48bc90ab-9275-45be-9bd4-9b809645d99a": {
       "name": "vid_omsdk_v_experiment",
-      "v": 40658,
+      "v": 40753,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
@@ -3842,13 +3842,13 @@ window.__twilightSettings = {
     },
     "f786140e-78ca-47b4-b7a4-620c09247899": {
       "name": "xo_cc_expire",
-      "v": 40574,
+      "v": 40755,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
