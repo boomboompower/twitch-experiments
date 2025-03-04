@@ -485,6 +485,7 @@ window.__twilightSettings = {
   "hra_preview_card_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/256.png",
   "hra_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/1024.png",
   "htc_1": [1, false],
+  "humble_ocelot_dodging": [0, true],
   "hype_train_availability_sample_rate": 0.1,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
@@ -1713,13 +1714,13 @@ window.__twilightSettings = {
     },
     "48bc90ab-9275-45be-9bd4-9b809645d99a": {
       "name": "vid_omsdk_v_experiment",
-      "v": 40765,
+      "v": 40820,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 100,
         "value": "treatment"
       }]
     },
@@ -2748,13 +2749,13 @@ window.__twilightSettings = {
     },
     "a9d6476f-3e00-44a9-bbf5-9094cdaced5c": {
       "name": "amazon_ivs_web_broadcast_enable_xdp_publish",
-      "v": 38576,
+      "v": 40812,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "treatment"
       }]
     },
