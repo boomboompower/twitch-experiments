@@ -474,7 +474,7 @@ window.__twilightSettings = {
   "guest_star_simplification_milestone": [1, true],
   "Haku": "2023-12-13T17:45:00Z",
   "hermes-dl": [0.05, false],
-  "hermes-dl-topics": ["polls", "subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "stream-chat-room-v1"],
+  "hermes-dl-topics": [],
   "hide_feedback_on_promoted_card": false,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
@@ -918,9 +918,9 @@ window.__twilightSettings = {
   "twilight_hermes_rollout_channel_blue": ["hype-train-events-v2"],
   "twilight_hermes_rollout_channel_green": ["hype-train-events-v2"],
   "twilight_hermes_rollout_device_blue": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
-  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback"],
+  "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback", "polls", "stream-chat-room-v1"],
   "twilight_hermes_rollout_user_blue": ["community-points-broadcaster-v1", "predictions-user-v1"],
-  "twilight_hermes_rollout_user_green": ["hype-train-events-v2"],
+  "twilight_hermes_rollout_user_green": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
   "twitch_prime_fortnite_link_url": "https://www.epicgames.com/fortnite/twitch-prime-pack2",
@@ -1199,17 +1199,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 40654,
+      "v": 40790,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
@@ -1672,6 +1672,18 @@ window.__twilightSettings = {
         "value": "variant2b"
       }]
     },
+    "46c6a720-1023-4472-a05c-628b0b3d84d3": {
+      "name": "clips_leaderboard_rollout",
+      "v": 40764,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "46d7d385-62a6-4aff-bb08-ca35fbadd8e6": {
       "name": "web_passthrough_daterange_tags",
       "v": 35891,
@@ -1701,13 +1713,13 @@ window.__twilightSettings = {
     },
     "48bc90ab-9275-45be-9bd4-9b809645d99a": {
       "name": "vid_omsdk_v_experiment",
-      "v": 40753,
+      "v": 40765,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment"
       }]
     },
@@ -1721,6 +1733,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "4b67767d-6c69-4a75-b352-6d38417c0a37": {
+      "name": "player_prioritization_holdout",
+      "v": 40796,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "holdout"
       }]
     },
     "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a": {
@@ -1899,9 +1923,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40691,
+      "v": 40775,
       "t": 1,
-      "s": 9,
+      "s": 10,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1909,10 +1933,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "blue"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "green"
       }]
     },
@@ -2056,9 +2080,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40687,
+      "v": 40771,
       "t": 2,
-      "s": 8,
+      "s": 9,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2066,10 +2090,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "blue"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "green"
       }]
     },
@@ -2359,9 +2383,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40689,
+      "v": 40773,
       "t": 3,
-      "s": 12,
+      "s": 13,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2369,10 +2393,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "blue"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "green"
       }]
     },
