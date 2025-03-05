@@ -864,5 +864,10 @@ const productionExperiments = [
         "id": "ec866d75-9222-4ec1-8bd0-474a7b48cb51",
         "name": "percolite_super-fresh-experiment-1_June2024",
         "dateFound": "2025-02-27T12:33:26.994Z"
+    },
+    {
+        "id": "717b46fe-d568-4230-aa36-725c41f7ee8e",
+        "name": "v6ssdk_version",
+        "dateFound": "2025-03-05T01:18:34.322Z"
     }
 ]
