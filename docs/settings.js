@@ -3545,13 +3545,13 @@ window.__twilightSettings = {
     },
     "df56fefb-5585-42ad-b169-a33558100fb5": {
       "name": "ivs_web_rtx_multi_codec_answer",
-      "v": 40501,
+      "v": 40828,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
