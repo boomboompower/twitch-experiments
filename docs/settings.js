@@ -2917,6 +2917,15 @@ window.__twilightSettings = {
         "value": "events"
       }]
     },
+    "b396ddb7-f70a-4f2d-ab93-930556c0c871": {
+      "name": "blinding_swallow_dodging",
+      "v": 40827,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }]
+    },
     "b56172de-08e4-4fc5-988d-a9d543f4092b": {
       "name": "warhol_banner",
       "v": 31853,
