@@ -143,7 +143,7 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "cg_vuc": [0, false],
+  "cg_vuc": [1, false],
   "cg_vuc_enabled": [1, true],
   "cg-tcc-ss": [1, false],
   "ch_creators_in_community": [1, true],
@@ -2101,13 +2101,13 @@ window.__twilightSettings = {
     },
     "717b46fe-d568-4230-aa36-725c41f7ee8e": {
       "name": "v6ssdk_version",
-      "v": 40724,
+      "v": 40837,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "1.1.8"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "1.1.9"
       }]
     },
@@ -2917,15 +2917,6 @@ window.__twilightSettings = {
         "value": "events"
       }]
     },
-    "b396ddb7-f70a-4f2d-ab93-930556c0c871": {
-      "name": "blinding_swallow_dodging",
-      "v": 40827,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }]
-    },
     "b56172de-08e4-4fc5-988d-a9d543f4092b": {
       "name": "warhol_banner",
       "v": 31853,
@@ -3002,6 +2993,15 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "treatment"
+      }]
+    },
+    "ba9e9e26-6163-4a93-9264-0ebbf7b9e2bb": {
+      "name": "fun_run_in_the_sun",
+      "v": 40835,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "bb41dcd2-8008-45f0-897a-cd7c4bf8877a": {
