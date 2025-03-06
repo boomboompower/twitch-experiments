@@ -209,6 +209,7 @@ window.__twilightSettings = {
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
   "cmr-flag": [1, false],
   "code_redemption_redeem_page": "on",
+  "collab_analytics": [0, false],
   "collaboration_viewership_enabled": [1, false],
   "colosseum": ["qa_bits_partner", "116076154", "johnnybanana5", "529270304", "seph", "108707191", "qa_slaye_affiliate", "265943326"],
   "com30_disco_krusty_krab": [1, true],
@@ -953,6 +954,7 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
+  "vp_ps": 40,
   "vpsq_ban_exp": "2025-04-19T23:59:59Z",
   "vpsq_ff": [1, false],
   "watch_avatar_roundification": [1, false],
@@ -2101,13 +2103,13 @@ window.__twilightSettings = {
     },
     "717b46fe-d568-4230-aa36-725c41f7ee8e": {
       "name": "v6ssdk_version",
-      "v": 40837,
+      "v": 40844,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 0,
         "value": "1.1.8"
       }, {
-        "weight": 10,
+        "weight": 100,
         "value": "1.1.9"
       }]
     },
@@ -3382,13 +3384,13 @@ window.__twilightSettings = {
     },
     "d6aec4f1-f70c-4dac-818a-63850d7185a7": {
       "name": "ivs_web_rtx_prefer_main_profile",
-      "v": 36791,
+      "v": 40861,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "treatment"
       }]
     },
