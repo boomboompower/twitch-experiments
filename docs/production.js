@@ -615,6 +615,11 @@ const productionExperiments = [
         "dateFound": "2024-04-23T20:13:27.093Z"
     },
     {
+        "id": "dbd54fc9-899c-4088-b8a1-a5accdad1918",
+        "name": "turbo-sda-upsell-experiment",
+        "dateFound": "2025-03-07T04:20:21.713Z"
+    },
+    {
         "id": "446cf133-efde-41e1-b1a0-6c030904210d",
         "name": "new_password_guidelines",
         "dateFound": "2024-03-28T20:14:13.705Z"
@@ -821,19 +826,9 @@ const productionExperiments = [
         "dateFound": "2025-03-01T01:22:24.120Z"
     },
     {
-        "id": "3d890a07-a9be-4261-93cd-49e1b82badb1",
-        "name": "player_prioritization",
-        "dateFound": "2025-01-14T12:31:18.259Z"
-    },
-    {
-        "id": "aa5ec8aa-bf4a-466f-9d7a-cad35c11f4a2",
-        "name": "player_prioritization_2",
-        "dateFound": "2025-01-18T01:11:20.975Z"
-    },
-    {
-        "id": "28d621bd-4864-4392-8c87-450cfc8c16e1",
-        "name": "player_prioritization_3",
-        "dateFound": "2025-01-29T01:13:26.598Z"
+        "id": "4b67767d-6c69-4a75-b352-6d38417c0a37",
+        "name": "player_prioritization_holdout",
+        "dateFound": "2025-03-07T04:20:21.716Z"
     },
     {
         "id": "d078e8f2-943f-45f2-aaaa-746513cea610",

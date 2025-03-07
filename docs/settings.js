@@ -3386,13 +3386,13 @@ window.__twilightSettings = {
     },
     "d6aec4f1-f70c-4dac-818a-63850d7185a7": {
       "name": "ivs_web_rtx_prefer_main_profile",
-      "v": 40861,
+      "v": 40924,
       "t": 1,
       "groups": [{
-        "weight": 90,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "treatment"
       }]
     },
