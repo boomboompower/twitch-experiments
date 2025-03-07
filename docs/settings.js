@@ -1743,13 +1743,13 @@ window.__twilightSettings = {
     },
     "4b67767d-6c69-4a75-b352-6d38417c0a37": {
       "name": "player_prioritization_holdout",
-      "v": 40796,
+      "v": 40919,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 99,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "holdout"
       }]
     },
@@ -1929,9 +1929,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 40775,
+      "v": 40900,
       "t": 1,
-      "s": 10,
+      "s": 11,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1939,10 +1939,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "green"
       }]
     },
@@ -2086,9 +2086,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 40771,
+      "v": 40896,
       "t": 2,
-      "s": 9,
+      "s": 10,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2096,10 +2096,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "green"
       }]
     },
@@ -2389,9 +2389,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 40773,
+      "v": 40898,
       "t": 3,
-      "s": 13,
+      "s": 14,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2399,10 +2399,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "green"
       }]
     },
@@ -3446,16 +3446,16 @@ window.__twilightSettings = {
     },
     "dbd54fc9-899c-4088-b8a1-a5accdad1918": {
       "name": "turbo-sda-upsell-experiment",
-      "v": 40600,
+      "v": 40914,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 1,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "sda_only"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "combined"
       }]
     },
