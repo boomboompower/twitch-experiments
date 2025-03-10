@@ -3461,7 +3461,7 @@ window.__twilightSettings = {
     },
     "dc3ed135-5440-40f0-beb0-1efc8ea60edf": {
       "name": "sidenav_recommended_categories",
-      "v": 40721,
+      "v": 40985,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -3469,6 +3469,12 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_default"
+      }, {
+        "weight": 0,
+        "value": "variant_interleave"
+      }, {
+        "weight": 0,
+        "value": "variant_followedrecs"
       }]
     },
     "dcb08cfd-cf6c-41d8-9755-477dde483eed": {
