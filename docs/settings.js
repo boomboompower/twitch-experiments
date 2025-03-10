@@ -31,6 +31,7 @@ window.__twilightSettings = {
   "aes_active_alerts_usage": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
+  "affluent_noble_nucleus": [0, false],
   "alert_settings_modal": [1, true],
   "alert-rando": [1, false],
   "alerts_celebration_emote_promotion": [0, false],
@@ -144,8 +145,6 @@ window.__twilightSettings = {
   "cg_tools_creator_goals_card": [0, false],
   "cg_tools_creator_goals_card_AAtest": [0, false],
   "cg_tools_dashboard_search": [0, false],
-  "cg_vuc": [1, false],
-  "cg_vuc_enabled": [1, true],
   "cg-tcc-ss": [1, false],
   "ch_creators_in_community": [1, true],
   "ch_feature_auto_mod": [1, true],
@@ -191,7 +190,7 @@ window.__twilightSettings = {
   "cit_manager_rollout": [1, false],
   "cit_max_retries": 3,
   "citadel_checkout": [0, false],
-  "citadel_wallet": [0, false],
+  "citadel_wallet": [1, false],
   "claims_form_bulk_input": [0, false],
   "clever_diamond_wielding": [1, true],
   "client_availability_reporting": [0.1, true],
@@ -883,7 +882,6 @@ window.__twilightSettings = {
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
   "sunlight_roles_manager_editor_readonly": [0, false],
-  "sw_rollout": [0, false],
   "switch_request_2fa_endpoint": [1, true],
   "talk_gs_alpha": [1, true],
   "talk_gs_bs_audio_customization": [1, true],
@@ -956,7 +954,7 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
-  "vp_ps": 40,
+  "vp_ps": 100,
   "vpsq_ban_exp": "2025-04-19T23:59:59Z",
   "vpsq_ff": [1, false],
   "watch_avatar_roundification": [1, false],
@@ -2754,13 +2752,13 @@ window.__twilightSettings = {
     },
     "a9d6476f-3e00-44a9-bbf5-9094cdaced5c": {
       "name": "amazon_ivs_web_broadcast_enable_xdp_publish",
-      "v": 40949,
+      "v": 41011,
       "t": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
