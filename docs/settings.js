@@ -640,7 +640,7 @@ window.__twilightSettings = {
   "phase_two_game_migration": [1, true],
   "phone_number_signup_settings": [1, false],
   "pin_cheer_block_list": [],
-  "playful_ocean_breeze": [0, false],
+  "playful_ocean_breeze": [1, false],
   "plus_program_qualification_table": [1, false],
   "plus_program_widget": [1, true],
   "plus-program-widget-settings": [1, false],
@@ -3014,11 +3014,14 @@ window.__twilightSettings = {
     },
     "ba9e9e26-6163-4a93-9264-0ebbf7b9e2bb": {
       "name": "fun_run_in_the_sun",
-      "v": 40835,
+      "v": 41059,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "bb41dcd2-8008-45f0-897a-cd7c4bf8877a": {
@@ -3341,20 +3344,20 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 40446,
+      "v": 41058,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 80,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "turbo_2"
       }, {
         "weight": 0,
         "value": "help_2"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "turbo_4"
       }, {
         "weight": 0,
