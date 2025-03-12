@@ -613,7 +613,7 @@ window.__twilightSettings = {
   "open-calling": [1, false],
   "open-collaboration-darklaunch": [1, false],
   "open-collaboration-dashboard-onboarding": false,
-  "optimistic_ayeaye_dumping": [0, false],
+  "optimistic_ayeaye_dumping": [1, false],
   "p_by_p_adstart_show_player": [1, true],
   "p_by_p_gate": [1, true],
   "panels-a11y": [1, false],
@@ -2218,13 +2218,13 @@ window.__twilightSettings = {
     },
     "7640a2b1-31e7-4f29-bbc4-41d2c9550405": {
       "name": "ios_clip_player_device_rotation",
-      "v": 40062,
+      "v": 41089,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "active"
       }]
     },
