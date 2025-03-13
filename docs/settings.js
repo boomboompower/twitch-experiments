@@ -3344,7 +3344,7 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 41058,
+      "v": 41092,
       "t": 1,
       "s": 1,
       "groups": [{
@@ -3362,6 +3362,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "help_4"
+      }, {
+        "weight": 0,
+        "value": "support_1"
+      }, {
+        "weight": 0,
+        "value": "support_2"
+      }, {
+        "weight": 0,
+        "value": "turbo_1"
       }]
     },
     "d44f032c-1c84-4545-ae91-77ff485ef33a": {
