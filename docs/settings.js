@@ -585,7 +585,7 @@ window.__twilightSettings = {
   "mweb_nav_alignment": [1, true],
   "mweb_nav_with_player_updates": [1, true],
   "mweb_player_updates": [1, true],
-  "mweb_subscriptions_mgmt": [0, false],
+  "mweb_subscriptions_mgmt": [0, true],
   "mwot_leak": false,
   "nab_gate": [1, false],
   "nabe_cadence": [1, false],
