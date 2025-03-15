@@ -1480,6 +1480,18 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
+    "4006baeb-c62e-44da-96f0-c8706c58f378": {
+      "name": "mysterious_and_important_work",
+      "v": 41164,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "401bc6bb-b8f5-449a-8724-1709e93c9df7": {
       "name": "watch_streak_progress_bar_exp_2_3",
       "v": 36682,
@@ -2512,6 +2524,24 @@ window.__twilightSettings = {
       }, {
         "weight": 10,
         "value": "variant5"
+      }]
+    },
+    "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
+      "name": "sidenav_recommended_categories_device",
+      "v": 41165,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant_default"
+      }, {
+        "weight": 0,
+        "value": "variant_interleave"
+      }, {
+        "weight": 0,
+        "value": "variant_followedrecs"
       }]
     },
     "96bd4101-6f72-42b8-a480-c91c36ea72ae": {
