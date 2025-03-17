@@ -1231,16 +1231,16 @@ window.__twilightSettings = {
     },
     "20337876-3d95-4fe9-afe1-3ffb22208593": {
       "name": "next-up",
-      "v": 41049,
+      "v": 41200,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant2"
       }]
     },
@@ -2797,13 +2797,13 @@ window.__twilightSettings = {
     },
     "a9d6476f-3e00-44a9-bbf5-9094cdaced5c": {
       "name": "amazon_ivs_web_broadcast_enable_xdp_publish",
-      "v": 41011,
+      "v": 41204,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "treatment"
       }]
     },
