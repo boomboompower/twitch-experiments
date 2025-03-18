@@ -76,7 +76,7 @@ window.__twilightSettings = {
   "badge_modifiers": ["gold", "silver"],
   "banned_chat_connection": true,
   "bda_ad_edge_web": [0, true],
-  "better_rib_breaking": [0, false],
+  "better_rib_breaking": [0.05, true],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_in_space": [1, false],
