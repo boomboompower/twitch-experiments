@@ -76,7 +76,7 @@ window.__twilightSettings = {
   "badge_modifiers": ["gold", "silver"],
   "banned_chat_connection": true,
   "bda_ad_edge_web": [0, true],
-  "better_rib_breaking": [0.05, true],
+  "better_rib_breaking": [0.25, true],
   "bits_badge_settings_v2": [1, false],
   "bits_badge_tier_notification": [1, false],
   "bits_in_space": [1, false],
@@ -531,7 +531,6 @@ window.__twilightSettings = {
   "limited_safari_discovery_card": [1, true],
   "little_blue_penguin": [0, false],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "08a046e7-bb1e-45c0-a822-1af775bd07f3", "280cd8f8-0b5c-4adf-bb3f-c1bc1d82814d"],
-  "login_responsive_ui": [0, false],
   "login_responsive_ui_desktop": [0, false],
   "login_responsive_ui_mobile": [1, false],
   "longtask_tracking_sample_rate": 0.1,
@@ -833,7 +832,7 @@ window.__twilightSettings = {
   "sponsored_social_posts_preview_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/1024.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/1024.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/1024.png\"}",
   "sponsorship_campaign_instance_creator_notifications": [1, false],
   "sponsorship_disclosure_enabled": [0, false],
-  "sponsorship_opt_in_campaigns_creator_dashboard": [0, true],
+  "sponsorship_opt_in_campaigns_creator_dashboard": [1, true],
   "sponsorships_client_portal": [1, false],
   "sponsorships_creator_dashboard": [1, true],
   "sponsorships_revenue": [1, true],
@@ -1254,6 +1253,18 @@ window.__twilightSettings = {
         "value": "control"
       }, {
         "weight": 100,
+        "value": "variant"
+      }]
+    },
+    "250e5b0d-ec53-4602-a4c6-13d82bee8698": {
+      "name": "mweb_sub_button_channel_page",
+      "v": 41255,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
         "value": "variant"
       }]
     },
