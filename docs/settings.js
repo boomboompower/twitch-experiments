@@ -62,7 +62,7 @@ window.__twilightSettings = {
   "audio_maf_web": [1, true],
   "auth_kpsdk_load": [1, false],
   "auth_passport_skip_integrity_on_login": [1, false],
-  "auth_passport_skip_integrity_on_signup": [0, false],
+  "auth_passport_skip_integrity_on_signup": [1, false],
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [1, false],
@@ -2309,17 +2309,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 41190,
+      "v": 41388,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-b"
       }, {
         "weight": 0,
