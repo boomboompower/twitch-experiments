@@ -3013,21 +3013,6 @@ window.__twilightSettings = {
         "value": "variant_4"
       }]
     },
-    "b8b7cac6-956d-4819-8d35-9ae57aa5f0ce": {
-      "name": "mobile_native_web_player_hevc",
-      "v": 31901,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
-      }, {
-        "weight": 0,
-        "value": "forceOn"
-      }]
-    },
     "b98860b0-4035-4213-beca-9aeac7adb0f8": {
       "name": "purchase_offer_email_verification",
       "v": 34068,
@@ -3344,21 +3329,6 @@ window.__twilightSettings = {
         "value": "NoTagVariant"
       }]
     },
-    "d16629fa-a0bf-4a2a-b490-c1f92af05009": {
-      "name": "mobile_native_web_player_av1",
-      "v": 31903,
-      "t": 1,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 100,
-        "value": "treatment"
-      }, {
-        "weight": 0,
-        "value": "forceOn"
-      }]
-    },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
       "name": "auto_increment_goal",
       "v": 34530,
@@ -3440,13 +3410,13 @@ window.__twilightSettings = {
     },
     "d6aec4f1-f70c-4dac-818a-63850d7185a7": {
       "name": "ivs_web_rtx_prefer_main_profile",
-      "v": 40967,
+      "v": 41368,
       "t": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
