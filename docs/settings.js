@@ -521,6 +521,7 @@ window.__twilightSettings = {
   "limited_safari_discovery_card": [1, true],
   "little_blue_penguin": [0, false],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "08a046e7-bb1e-45c0-a822-1af775bd07f3", "280cd8f8-0b5c-4adf-bb3f-c1bc1d82814d", "bf3d6aee-0e31-4068-97ee-2b5adf4b9d0d"],
+  "login_resend_twitchguard_timeout": 5000,
   "login_responsive_ui_desktop": [1, false],
   "login_responsive_ui_mobile": [1, false],
   "longtask_tracking_sample_rate": 0.1,
@@ -575,7 +576,7 @@ window.__twilightSettings = {
   "mweb_nav_alignment": [1, true],
   "mweb_nav_with_player_updates": [1, true],
   "mweb_player_updates": [1, true],
-  "mweb_subscriptions_mgmt": [0, true],
+  "mweb_subscriptions_mgmt": [1, true],
   "mwot_leak": false,
   "nab_gate": [1, false],
   "nabe_cadence": [1, false],
@@ -607,6 +608,7 @@ window.__twilightSettings = {
   "p_by_p_gate": [1, true],
   "panels-a11y": [1, false],
   "pay_mambo": [1, true],
+  "pay_sca_enabled": [0, false],
   "payment_methods_migration": [1, true],
   "payments_banners_feature_enabled": [1, true],
   "payments_recurly_countries": ["US", "FI", "ES", "IE", "SK", "RO", "CA", "GB", "AT", "BG", "HR", "CZ", "DK", "EE", "FR", "DE", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "SI", "SE", "BE", "GR", "CY"],
@@ -2309,17 +2311,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 41388,
+      "v": 41399,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2459,16 +2461,16 @@ window.__twilightSettings = {
     },
     "8bbc90af-a304-4880-bbc2-bb93bbb79259": {
       "name": "mweb_xo_vs_upsell",
-      "v": 39593,
+      "v": 41400,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 10,
         "value": "control"
       }, {
         "weight": 0,
         "value": "variant_1"
       }, {
-        "weight": 50,
+        "weight": 90,
         "value": "variant_2"
       }]
     },
