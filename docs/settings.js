@@ -197,6 +197,7 @@ window.__twilightSettings = {
   "clips_live_nudge": [0, false],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
+  "cm_a_funky_banana": [0, false],
   "cmon_chat_introduction": [0, false],
   "cmp_dma": [1, false],
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
@@ -799,6 +800,10 @@ window.__twilightSettings = {
   "skins_show_on_front_page": [1, true],
   "skins_show_to_channel_ad_free": true,
   "skins_show_to_turbo": false,
+  "skyline-agumon-3": [0, false],
+  "skyline-botamon-1": [0, false],
+  "skyline-greymon-4": [0, false],
+  "skyline-koromon-2": [0, false],
   "skyscraper_kill_switch": false,
   "sl_exp": 0,
   "small_latte_searching": [1, false],
@@ -1954,9 +1959,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 41288,
+      "v": 41437,
       "t": 1,
-      "s": 15,
+      "s": 16,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1964,10 +1969,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "blue"
       }, {
-        "weight": 95,
+        "weight": 90,
         "value": "green"
       }]
     },
@@ -2111,9 +2116,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 41284,
+      "v": 41434,
       "t": 2,
-      "s": 14,
+      "s": 15,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2121,10 +2126,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "blue"
       }, {
-        "weight": 95,
+        "weight": 90,
         "value": "green"
       }]
     },
@@ -2414,9 +2419,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 41286,
+      "v": 41435,
       "t": 3,
-      "s": 18,
+      "s": 19,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2424,10 +2429,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 5,
+        "weight": 10,
         "value": "blue"
       }, {
-        "weight": 95,
+        "weight": 90,
         "value": "green"
       }]
     },
