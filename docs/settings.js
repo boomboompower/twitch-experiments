@@ -1002,6 +1002,18 @@ window.__twilightSettings = {
         "value": "experiment"
       }]
     },
+    "03490818-6776-4ebc-87b9-d30e8b8cc46f": {
+      "name": "subs_mgmt_change_spm_banner",
+      "v": 41477,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "063fcfe3-e7d6-45f6-a4f4-026909f1e61c": {
       "name": "partial_goals_channel",
       "v": 37642,
@@ -1253,13 +1265,13 @@ window.__twilightSettings = {
     },
     "250e5b0d-ec53-4602-a4c6-13d82bee8698": {
       "name": "mweb_sub_button_channel_page",
-      "v": 41255,
+      "v": 41476,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
