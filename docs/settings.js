@@ -771,7 +771,6 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
-  "sentry_client_side_sampled_errors": [],
   "sentry_tracing_threshold": 0.01,
   "shared_chat_pubsub_jitter_ms": 2000,
   "shared-chat-beta-flag": [1, false],
@@ -878,6 +877,7 @@ window.__twilightSettings = {
   "subtoken_balance_wallet": true,
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
+  "succulent_waffle_sleeping": [0, true],
   "sunlight_roles_manager_editor_readonly": [0, false],
   "switch_request_2fa_endpoint": [1, true],
   "talk_gs_alpha": [1, true],
@@ -1210,17 +1210,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41418,
+      "v": 41488,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -2330,17 +2330,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 41399,
+      "v": 41497,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
