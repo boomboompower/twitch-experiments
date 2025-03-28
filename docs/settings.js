@@ -1973,9 +1973,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 41437,
+      "v": 41503,
       "t": 1,
-      "s": 16,
+      "s": 17,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -1983,10 +1983,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 90,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2130,9 +2130,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 41434,
+      "v": 41499,
       "t": 2,
-      "s": 15,
+      "s": 16,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2140,10 +2140,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 90,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -2433,9 +2433,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 41435,
+      "v": 41501,
       "t": 3,
-      "s": 19,
+      "s": 20,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2443,10 +2443,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 90,
+        "weight": 75,
         "value": "green"
       }]
     },
