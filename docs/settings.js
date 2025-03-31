@@ -57,7 +57,6 @@ window.__twilightSettings = {
   "artist-alley-feature": [1, false],
   "as_update": [1, false],
   "ask_clint_or_ryan": false,
-  "ats_enabled": [0, false],
   "audio_ad_experiment_duration_bounds": [30, 90],
   "audio_ad_experiment_percentage": [0, false],
   "audio_maf_web": [1, true],
@@ -1240,16 +1239,16 @@ window.__twilightSettings = {
     },
     "20337876-3d95-4fe9-afe1-3ffb22208593": {
       "name": "next-up",
-      "v": 41200,
+      "v": 41572,
       "t": 2,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant1"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant2"
       }]
     },
