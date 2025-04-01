@@ -199,7 +199,7 @@ window.__twilightSettings = {
   "clips_live_nudge": [0, false],
   "clips-exporter-youtube-connection": [0, false],
   "clips-manager-refactor": [1, true],
-  "cm_a_funky_banana": [0, false],
+  "cm_a_funky_banana": [1, false],
   "cmon_chat_introduction": [0, false],
   "cmp_dma": [1, false],
   "cmr-featured-settings-banner-expiry-date": "2023-12-01T17:00:00Z",
@@ -298,7 +298,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time", "project-arc", "pubg-blindspot"],
+  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time", "project-arc", "pubg-blindspot", "marathon-1", "marathon"],
   "disco_cold_moon": [1, false],
   "disco_perseids_meteor_shower": [0, false],
   "disco_top_clips_featured_filter_default": true,
@@ -1214,17 +1214,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41574,
+      "v": 41591,
       "t": 1,
       "s": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
