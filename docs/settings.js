@@ -470,6 +470,8 @@ window.__twilightSettings = {
   "hermes-dl": [0.05, false],
   "hermes-dl-topics": [],
   "hide_feedback_on_promoted_card": false,
+  "hide_msr_dashboard": true,
+  "hide_msr_portal": true,
   "hide_redundant_payment_methods_opt_out": ["175400772", "109091935"],
   "hogwarts_express": [1, false],
   "home_shelf_moments": [0, false],
@@ -772,6 +774,7 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
+  "sentry_client_side_sampled_errors": "",
   "sentry_tracing_threshold": 0.01,
   "shared_chat_pubsub_jitter_ms": 2000,
   "shared-chat-beta-flag": [1, false],
@@ -878,7 +881,7 @@ window.__twilightSettings = {
   "subtoken_balance_wallet": true,
   "subtokens": [1, true],
   "subtokens_help_link": "https://help.twitch.tv/s/article/sub-codes",
-  "succulent_waffle_sleeping": [0, true],
+  "succulent_waffle_sleeping": [1, true],
   "sunlight_roles_manager_editor_readonly": [0, false],
   "switch_request_2fa_endpoint": [1, true],
   "talk_gs_alpha": [1, true],
@@ -920,7 +923,7 @@ window.__twilightSettings = {
   "twilight_hermes_rollout_channel_green": ["hype-train-events-v2", "hype-train-events-v1"],
   "twilight_hermes_rollout_device_blue": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback", "polls", "stream-chat-room-v1", "creator-goals-events-v1", "community-points-channel-v1", "leaderboard-events-v1"],
   "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback", "polls", "stream-chat-room-v1"],
-  "twilight_hermes_rollout_user_blue": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "onsite-notifications", "community-points-user-v1"],
+  "twilight_hermes_rollout_user_blue": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "community-points-user-v1"],
   "twilight_hermes_rollout_user_green": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
@@ -1005,13 +1008,13 @@ window.__twilightSettings = {
     },
     "03490818-6776-4ebc-87b9-d30e8b8cc46f": {
       "name": "subs_mgmt_change_spm_banner",
-      "v": 41477,
+      "v": 41581,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant"
       }]
     },
@@ -1211,9 +1214,9 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41488,
+      "v": 41574,
       "t": 1,
-      "s": 2,
+      "s": 3,
       "groups": [{
         "weight": 50,
         "value": "variant-wb-a"
@@ -1823,6 +1826,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "737767337,737772548"
+      }]
+    },
+    "4efa4a70-fdb2-45c2-ae30-e6ac42c1c56b": {
+      "name": "MSO_rollout_flag",
+      "v": 41586,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "4f4511c5-588d-4a39-8ca1-4b95149a00d2": {
