@@ -298,7 +298,7 @@ window.__twilightSettings = {
   "disable_payout_balance": false,
   "disable_pr_for_mr": [1, false],
   "disable-copo-setting": false,
-  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time", "project-arc", "pubg-blindspot", "marathon-1", "marathon"],
+  "disco_category_redirect_slugs": ["calabiyau", "strinova", "aether-trading-card-game", "cards-of-eternity-the-wheel-of-time", "project-arc", "pubg-blindspot", "marathon-1", "marathon", "marathon-2025", "marathon"],
   "disco_cold_moon": [1, false],
   "disco_perseids_meteor_shower": [0, false],
   "disco_top_clips_featured_filter_default": true,
@@ -774,7 +774,6 @@ window.__twilightSettings = {
   "search_tracking_enabled": true,
   "seatbelt_rollout": [1, true],
   "send_chat_with_apollo": [1, true],
-  "sentry_client_side_sampled_errors": "",
   "sentry_tracing_threshold": 0.01,
   "shared_chat_pubsub_jitter_ms": 2000,
   "shared-chat-beta-flag": [1, false],
@@ -1989,7 +1988,7 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 41503,
+      "v": 41605,
       "t": 1,
       "s": 17,
       "groups": [{
@@ -1999,10 +1998,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -2146,9 +2145,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 41499,
+      "v": 41602,
       "t": 2,
-      "s": 16,
+      "s": 17,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2156,10 +2155,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "green"
       }]
     },
@@ -2261,6 +2260,15 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "t1"
+      }]
+    },
+    "74fdbd35-5d1d-4f28-9baf-6c2a477514ac": {
+      "name": "cardboard_loadout_sauron",
+      "v": 41596,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
       }]
     },
     "7640a2b1-31e7-4f29-bbc4-41d2c9550405": {
@@ -2449,9 +2457,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 41501,
+      "v": 41604,
       "t": 3,
-      "s": 20,
+      "s": 21,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2459,10 +2467,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "green"
       }]
     },
