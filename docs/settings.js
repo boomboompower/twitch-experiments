@@ -3072,14 +3072,14 @@ window.__twilightSettings = {
     },
     "ba9e9e26-6163-4a93-9264-0ebbf7b9e2bb": {
       "name": "fun_run_in_the_sun",
-      "v": 41162,
+      "v": 41650,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "treatment"
       }]
     },
