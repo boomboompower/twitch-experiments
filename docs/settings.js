@@ -823,7 +823,7 @@ window.__twilightSettings = {
   "soundtrack-playlist-promo": true,
   "sp-cw-release": "2024-06-05T18:00:00.353Z",
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
-  "spam_call": "2025-05-01T23:59:59Z",
+  "spam_call": "2025-09-09T23:59:59Z",
   "spam_jam": [0, false],
   "spam_musubi": "heart",
   "spon_ms_value": 5000,
@@ -3427,6 +3427,24 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant"
+      }]
+    },
+    "d5b73000-cada-4308-aece-e37d06c52fc1": {
+      "name": "ios_hermes_rollout_device_v7",
+      "v": 41750,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "all"
+      }, {
+        "weight": 25,
+        "value": "blue"
+      }, {
+        "weight": 75,
+        "value": "green"
       }]
     },
     "d657d493-01f3-4a2c-9d7e-f0077830273e": {
