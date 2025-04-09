@@ -3386,6 +3386,18 @@ window.__twilightSettings = {
         "value": "NoTagVariant"
       }]
     },
+    "d2a15ebf-ddfa-4539-8502-b7f63216444d": {
+      "name": "android_mdf_thumbnail_placeholder",
+      "v": 41822,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active_24.1"
+      }]
+    },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
       "name": "auto_increment_goal",
       "v": 34530,
