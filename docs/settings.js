@@ -1213,17 +1213,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41591,
+      "v": 41818,
       "t": 1,
       "s": 3,
       "groups": [{
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-b"
       }]
     },
@@ -1634,6 +1634,18 @@ window.__twilightSettings = {
         "value": "feedback"
       }]
     },
+    "4437d119-2c19-4770-8492-d55bf43a56fc": {
+      "name": "ads_cspon_video_token_refresh",
+      "v": 41806,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "active"
+      }]
+    },
     "446cf133-efde-41e1-b1a0-6c030904210d": {
       "name": "new_password_guidelines",
       "v": 33982,
@@ -1988,7 +2000,7 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 41669,
+      "v": 41799,
       "t": 1,
       "s": 18,
       "groups": [{
@@ -1998,10 +2010,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -2145,7 +2157,7 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 41665,
+      "v": 41797,
       "t": 2,
       "s": 18,
       "groups": [{
@@ -2155,10 +2167,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -2457,7 +2469,7 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 41667,
+      "v": 41798,
       "t": 3,
       "s": 22,
       "groups": [{
@@ -2467,10 +2479,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -3431,19 +3443,19 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 41750,
+      "v": 41814,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 100,
         "value": "green"
       }]
     },
