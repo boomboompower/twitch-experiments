@@ -237,6 +237,7 @@ window.__twilightSettings = {
   "copo_spectator_mode": [1, true],
   "copyright_complaint_form_enabled": true,
   "copyright_complaint_form_user_allowlist": ["518822316", "514236910", "490177374", "514820819", "191943869", "554342166", "134901385", "225435142"],
+  "correct_barracuda_breaking": [0, false],
   "courteous_goat_freezing": [1, false],
   "cplat_csp_enabled": true,
   "cplat_dragon_journal_cat_emp": [1, true],
@@ -1213,17 +1214,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41818,
+      "v": 41867,
       "t": 1,
       "s": 3,
       "groups": [{
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
