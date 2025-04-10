@@ -524,7 +524,7 @@ window.__twilightSettings = {
   "left_nav_polling_interval_ms": 300000,
   "let-it-rip": [1, true],
   "limited_safari_discovery_card": [1, true],
-  "little_blue_penguin": [0.5, false],
+  "little_blue_penguin": [1, true],
   "live_payments_banners": ["be58b12b-62f8-4d42-a10d-584f26fea066", "84fbe278-60aa-40b9-b97e-46a0a66439ea", "b4a49c67-2625-4cc5-80d6-ae2a75830159", "280cd8f8-0b5c-4adf-bb3f-c1bc1d82814d", "bf3d6aee-0e31-4068-97ee-2b5adf4b9d0d"],
   "login_resend_twitchguard_timeout": 5000,
   "login_responsive_ui_desktop": [1, false],
