@@ -3456,8 +3456,9 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 41814,
+      "v": 41892,
       "t": 1,
+      "s": 1,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -3465,10 +3466,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 0,
+        "weight": 1,
         "value": "blue"
       }, {
-        "weight": 100,
+        "weight": 99,
         "value": "green"
       }]
     },
