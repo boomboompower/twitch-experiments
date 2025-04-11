@@ -66,6 +66,7 @@ window.__twilightSettings = {
   "auto_push_news_release_date_iso": "2024-02-11T13:30:00Z",
   "automod_ally_switchover": [1, false],
   "automod_ally_test_feature": [1, false],
+  "automod_baseline_enabled": false,
   "automod-sd-release": "2024-08-14T17:00:00Z",
   "autonomous_octopuff": [1, false],
   "badge_flair_enabled": true,
@@ -828,6 +829,7 @@ window.__twilightSettings = {
   "spam_jam": [0, false],
   "spam_musubi": "heart",
   "spon_ms_value": 5000,
+  "spon_token_refresh_cooldown_ms": 30000,
   "sponsored_social_posts_preview_card_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/512.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/512.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/512.png\"}",
   "sponsored_social_posts_preview_urls": "{\"BANANA_SPLIT\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/banana-split/1024.png\",\"BLUE_HALO\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/blue-halo/1024.png\",\"DARK_STARBURST\":\"https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/sponsored-social-posts/dark-starburst/1024.png\"}",
   "sponsorship_campaign_instance_creator_notifications": [1, false],
@@ -953,6 +955,8 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
+  "vp_ds": [0, true],
+  "vp_hcu": [0, true],
   "vp_ps": 100,
   "vpsq_ban_exp": "2025-04-19T23:59:59Z",
   "vpsq_ff": [1, false],
@@ -2584,19 +2588,19 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 41165,
+      "v": 41916,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 85,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant_default"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant_interleave"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant_followedrecs"
       }]
     },
