@@ -2588,19 +2588,20 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 41916,
+      "v": 41929,
       "t": 1,
+      "s": 1,
       "groups": [{
-        "weight": 85,
+        "weight": 25,
         "value": "control"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant_default"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant_interleave"
       }, {
-        "weight": 5,
+        "weight": 25,
         "value": "variant_followedrecs"
       }]
     },
