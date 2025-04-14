@@ -955,8 +955,8 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
-  "vp_ds": [0, true],
-  "vp_hcu": [0, true],
+  "vp_ds": [0.25, true],
+  "vp_hcu": [1, true],
   "vp_ps": 100,
   "vpsq_ban_exp": "2025-04-19T23:59:59Z",
   "vpsq_ff": [1, false],
@@ -1218,17 +1218,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41867,
+      "v": 41960,
       "t": 1,
       "s": 3,
       "groups": [{
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-b"
       }]
     },
@@ -2354,6 +2354,18 @@ window.__twilightSettings = {
         "value": "inactive"
       }]
     },
+    "7e07c8f2-e538-4f4d-8b51-b862cadd9a31": {
+      "name": "sub_cancel_appeal",
+      "v": 41962,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "7ef49a91-8645-4e47-bbc5-5cf61acea21e": {
       "name": "time_sync_enabled",
       "v": 38166,
@@ -3430,7 +3442,7 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 41092,
+      "v": 41961,
       "t": 1,
       "s": 1,
       "groups": [{
@@ -3457,6 +3469,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "turbo_1"
+      }, {
+        "weight": 0,
+        "value": "support_4"
       }]
     },
     "d44f032c-1c84-4545-ae91-77ff485ef33a": {
