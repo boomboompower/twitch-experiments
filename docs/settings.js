@@ -955,7 +955,7 @@ window.__twilightSettings = {
   "vod_uploads_restriction": "restricted",
   "vod-clips-category-exclusion-feature-enabled": true,
   "vodcast_deprecation_announcement_enabled": true,
-  "vp_ds": [0.25, true],
+  "vp_ds": [1, true],
   "vp_hcu": [1, true],
   "vp_ps": 100,
   "vpsq_ban_exp": "2025-04-19T23:59:59Z",
