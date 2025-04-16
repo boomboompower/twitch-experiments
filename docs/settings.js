@@ -3444,11 +3444,11 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 41961,
+      "v": 41984,
       "t": 1,
-      "s": 1,
+      "s": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 10,
         "value": "control"
       }, {
         "weight": 0,
@@ -3457,22 +3457,22 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "help_2"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "turbo_4"
       }, {
         "weight": 0,
         "value": "help_4"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "support_1"
       }, {
         "weight": 0,
         "value": "support_2"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "turbo_1"
       }, {
-        "weight": 0,
+        "weight": 20,
         "value": "support_4"
       }]
     },
@@ -3490,9 +3490,9 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 41892,
+      "v": 41983,
       "t": 1,
-      "s": 1,
+      "s": 2,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -3500,10 +3500,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 1,
+        "weight": 25,
         "value": "blue"
       }, {
-        "weight": 99,
+        "weight": 75,
         "value": "green"
       }]
     },
@@ -3593,16 +3593,16 @@ window.__twilightSettings = {
     },
     "dbd54fc9-899c-4088-b8a1-a5accdad1918": {
       "name": "turbo-sda-upsell-experiment",
-      "v": 40914,
+      "v": 41985,
       "t": 2,
       "groups": [{
-        "weight": 1,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 1,
+        "weight": 50,
         "value": "sda_only"
       }, {
-        "weight": 1,
+        "weight": 50,
         "value": "combined"
       }]
     },
