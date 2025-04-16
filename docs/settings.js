@@ -32,7 +32,7 @@ window.__twilightSettings = {
   "aes_active_alerts_usage": [1, false],
   "affiliate_emoticon_prefix_update": [1, true],
   "affiliate_revenue_share_banner": [1, false],
-  "affluent_noble_nucleus": [0, false],
+  "affluent_noble_nucleus": [1, false],
   "alert_settings_modal": [1, true],
   "alert-rando": [1, false],
   "alerts_celebration_emote_promotion": [0, false],
@@ -1220,17 +1220,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 41960,
+      "v": 42000,
       "t": 1,
       "s": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 95,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 0,
+        "weight": 5,
         "value": "variant-wb-b"
       }]
     },
@@ -2562,6 +2562,18 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "active_alt"
+      }]
+    },
+    "8e25d83c-086a-4776-ab71-bea1f5d810c4": {
+      "name": "bva",
+      "v": 41990,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "off"
+      }, {
+        "weight": 0,
+        "value": "on"
       }]
     },
     "90688b11-7930-4f03-9be1-b6e410aa4df8": {
