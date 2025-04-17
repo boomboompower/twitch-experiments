@@ -3128,14 +3128,14 @@ window.__twilightSettings = {
     },
     "ba9e9e26-6163-4a93-9264-0ebbf7b9e2bb": {
       "name": "fun_run_in_the_sun",
-      "v": 41650,
+      "v": 42024,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 75,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 25,
         "value": "treatment"
       }]
     },
@@ -4058,13 +4058,13 @@ window.__twilightSettings = {
     },
     "f786140e-78ca-47b4-b7a4-620c09247899": {
       "name": "xo_cc_expire",
-      "v": 40755,
+      "v": 42022,
       "t": 2,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant"
       }]
     },
