@@ -1819,6 +1819,18 @@ window.__twilightSettings = {
         "value": "holdout"
       }]
     },
+    "4bc11f2e-e0ab-441f-a407-85c44a8259b4": {
+      "name": "twilight_dashboard_casino_cat",
+      "v": 42016,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
+      }]
+    },
     "4c2e38e3-1a98-411c-bc1d-9eb8190fba3a": {
       "name": "amazonpay_cv2_migration_frontend",
       "v": 37755,
@@ -2566,13 +2578,13 @@ window.__twilightSettings = {
     },
     "8e25d83c-086a-4776-ab71-bea1f5d810c4": {
       "name": "bva",
-      "v": 41990,
+      "v": 42013,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "off"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "on"
       }]
     },
@@ -3317,7 +3329,7 @@ window.__twilightSettings = {
     },
     "cd9316f2-9180-4045-ae80-daf14a6f54b3": {
       "name": "garfield_gambling_ccl",
-      "v": 39750,
+      "v": 42009,
       "t": 3,
       "groups": [{
         "weight": 100,
