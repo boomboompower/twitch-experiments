@@ -2195,7 +2195,7 @@ window.__twilightSettings = {
     },
     "717b46fe-d568-4230-aa36-725c41f7ee8e": {
       "name": "v6ssdk_version",
-      "v": 40844,
+      "v": 42053,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2203,6 +2203,9 @@ window.__twilightSettings = {
       }, {
         "weight": 100,
         "value": "1.1.9"
+      }, {
+        "weight": 0,
+        "value": "1.2.1"
       }]
     },
     "7207f317-f72c-4956-8a96-0af6567f52e6": {
