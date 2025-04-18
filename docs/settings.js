@@ -1821,13 +1821,13 @@ window.__twilightSettings = {
     },
     "4bc11f2e-e0ab-441f-a407-85c44a8259b4": {
       "name": "twilight_dashboard_casino_cat",
-      "v": 42016,
+      "v": 42031,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -2578,7 +2578,7 @@ window.__twilightSettings = {
     },
     "8e25d83c-086a-4776-ab71-bea1f5d810c4": {
       "name": "bva",
-      "v": 42013,
+      "v": 42046,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -3514,9 +3514,9 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 41983,
+      "v": 42043,
       "t": 1,
-      "s": 2,
+      "s": 3,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -3524,10 +3524,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "blue"
       }, {
-        "weight": 75,
+        "weight": 50,
         "value": "green"
       }]
     },
