@@ -1643,7 +1643,7 @@ window.__twilightSettings = {
     },
     "4437d119-2c19-4770-8492-d55bf43a56fc": {
       "name": "ads_cspon_video_token_refresh",
-      "v": 41806,
+      "v": 42086,
       "t": 1,
       "groups": [{
         "weight": 100,
@@ -2343,19 +2343,19 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 41780,
+      "v": 42080,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-a"
       }, {
         "weight": 0,
         "value": "variant-b"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-m"
       }]
     },
@@ -2400,14 +2400,14 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 41904,
+      "v": 42088,
       "t": 1,
       "s": 6,
       "groups": [{
-        "weight": 100,
+        "weight": 90,
         "value": "base"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant-a"
       }, {
         "weight": 0,
@@ -3131,14 +3131,14 @@ window.__twilightSettings = {
     },
     "ba9e9e26-6163-4a93-9264-0ebbf7b9e2bb": {
       "name": "fun_run_in_the_sun",
-      "v": 42024,
+      "v": 42087,
       "t": 2,
       "s": 1,
       "groups": [{
-        "weight": 75,
+        "weight": 50,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 50,
         "value": "treatment"
       }]
     },
