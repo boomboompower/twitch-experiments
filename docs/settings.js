@@ -2629,21 +2629,12 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 41951,
+      "v": 42099,
       "t": 1,
       "s": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
-      }, {
-        "weight": 0,
-        "value": "variant_default"
-      }, {
-        "weight": 0,
-        "value": "variant_interleave"
-      }, {
-        "weight": 0,
-        "value": "variant_followedrecs"
       }]
     },
     "96bd4101-6f72-42b8-a480-c91c36ea72ae": {
@@ -3180,7 +3171,7 @@ window.__twilightSettings = {
     },
     "bbedb433-bf1d-4d47-afb6-ca5f882d7cc1": {
       "name": "ivs_web_reader_update",
-      "v": 39247,
+      "v": 42103,
       "t": 1,
       "groups": [{
         "weight": 100,
