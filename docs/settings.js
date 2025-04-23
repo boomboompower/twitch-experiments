@@ -912,6 +912,7 @@ window.__twilightSettings = {
   "toga_turtle_street_var_2_rollout": true,
   "tokenization": true,
   "track_sentry_failures": [0.05, true],
+  "treasure_trains_enabled": false,
   "tubular_tubers_moving": [1, false],
   "turbo_ft": true,
   "turbo_v2": [0, false],
@@ -1220,9 +1221,9 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 42124,
+      "v": 42135,
       "t": 1,
-      "s": 3,
+      "s": 4,
       "groups": [{
         "weight": 50,
         "value": "variant-wb-a"
