@@ -1220,17 +1220,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 42000,
+      "v": 42124,
       "t": 1,
       "s": 3,
       "groups": [{
-        "weight": 95,
+        "weight": 50,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 5,
+        "weight": 50,
         "value": "variant-wb-b"
       }]
     },
@@ -2298,11 +2298,14 @@ window.__twilightSettings = {
     },
     "74fdbd35-5d1d-4f28-9baf-6c2a477514ac": {
       "name": "cardboard_loadout_sauron",
-      "v": 41596,
+      "v": 42121,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "7640a2b1-31e7-4f29-bbc4-41d2c9550405": {
@@ -3462,11 +3465,11 @@ window.__twilightSettings = {
     },
     "d436491a-31fd-4171-8828-064235f3f4e6": {
       "name": "nabe_experiment",
-      "v": 41984,
+      "v": 42125,
       "t": 1,
       "s": 2,
       "groups": [{
-        "weight": 10,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
@@ -3475,22 +3478,22 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "help_2"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "turbo_4"
       }, {
         "weight": 0,
         "value": "help_4"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "support_1"
       }, {
         "weight": 0,
         "value": "support_2"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "turbo_1"
       }, {
-        "weight": 20,
+        "weight": 0,
         "value": "support_4"
       }]
     },
@@ -3508,9 +3511,9 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 42043,
+      "v": 42116,
       "t": 1,
-      "s": 3,
+      "s": 4,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -3518,10 +3521,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "blue"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "green"
       }]
     },
@@ -3611,16 +3614,16 @@ window.__twilightSettings = {
     },
     "dbd54fc9-899c-4088-b8a1-a5accdad1918": {
       "name": "turbo-sda-upsell-experiment",
-      "v": 41985,
+      "v": 42118,
       "t": 2,
       "groups": [{
         "weight": 0,
         "value": "control"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "sda_only"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "combined"
       }]
     },
