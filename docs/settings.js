@@ -485,6 +485,8 @@ window.__twilightSettings = {
   "hra_preview_url": "https://static-cdn.jtvnw.net/sponsorships-campaign-assets/dashboard/preview/streamer-read-ad/1024.png",
   "htc_1": [1, false],
   "humble_ocelot_dodging": [1, true],
+  "hype_plane": false,
+  "hype_plane_newpill": "2025-12-31T23:59:59Z",
   "hype_train_availability_sample_rate": 0.1,
   "hype_train_colors_enabled": true,
   "hype_train_customization_enabled": [1, false],
@@ -961,7 +963,7 @@ window.__twilightSettings = {
   "vp_ds": [1, true],
   "vp_hcu": [1, true],
   "vp_ps": 100,
-  "vpsq_ban_exp": "2025-04-19T23:59:59Z",
+  "vpsq_ban_exp": "2025-05-19T23:59:59Z",
   "vpsq_ff": [1, false],
   "watch_avatar_roundification": [1, false],
   "watch_avatar_roundification_notification": [0, false],
@@ -1087,6 +1089,18 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "variant_1"
+      }]
+    },
+    "0a6b4cdb-c660-4b1c-a014-514efff5493e": {
+      "name": "payments_pantera",
+      "v": 42170,
+      "t": 2,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
       }]
     },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
