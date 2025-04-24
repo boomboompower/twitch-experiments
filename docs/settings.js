@@ -2633,12 +2633,21 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 42099,
+      "v": 42161,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 25,
         "value": "control"
+      }, {
+        "weight": 25,
+        "value": "variant_default"
+      }, {
+        "weight": 25,
+        "value": "variant_followedrecs"
+      }, {
+        "weight": 25,
+        "value": "variant_interleave"
       }]
     },
     "96bd4101-6f72-42b8-a480-c91c36ea72ae": {
@@ -3173,24 +3182,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "bbedb433-bf1d-4d47-afb6-ca5f882d7cc1": {
-      "name": "ivs_web_reader_update",
-      "v": 42103,
-      "t": 1,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "treatment"
-      }, {
-        "weight": 0,
-        "value": "holdback"
-      }, {
-        "weight": 0,
-        "value": "variant"
-      }]
-    },
     "bd9234fc-3c40-45f6-a544-868478744ba7": {
       "name": "featured_collection_disable",
       "v": 36015,
@@ -3442,14 +3433,17 @@ window.__twilightSettings = {
     },
     "d2da6787-f0ca-4210-9e6d-2016e3f64721": {
       "name": "clips_leaderboard_final_rollout",
-      "v": 41903,
+      "v": 42152,
       "t": 3,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "active"
+      }, {
+        "weight": 0,
+        "value": "active_tcp"
       }]
     },
     "d333bbdb-e32b-4e5a-82c3-6b781dcb729e": {
