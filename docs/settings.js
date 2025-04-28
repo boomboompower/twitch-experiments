@@ -831,7 +831,7 @@ window.__twilightSettings = {
   "sp-cw-release": "2024-06-05T18:00:00.353Z",
   "spade_url": "https://boomboompower.github.io/twitch-experiments",
   "spam_call": "2025-09-09T23:59:59Z",
-  "spam_jam": [0, false],
+  "spam_jam": [1, false],
   "spam_musubi": "heart",
   "spon_ms_value": 5000,
   "spon_token_refresh_cooldown_ms": 30000,
@@ -1913,6 +1913,18 @@ window.__twilightSettings = {
         "value": "hype_train_all_time_high_on"
       }]
     },
+    "53a4bb14-432f-4dcd-b5d4-e61221e32ab9": {
+      "name": "hva",
+      "v": 42268,
+      "t": 1,
+      "groups": [{
+        "weight": 100,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "treatment"
+      }]
+    },
     "53ab2d9b-11c2-452b-ad05-e6cf0ddc272d": {
       "name": "chat_privmsg_to_gql",
       "v": 33418,
@@ -2600,13 +2612,13 @@ window.__twilightSettings = {
     },
     "8e25d83c-086a-4776-ab71-bea1f5d810c4": {
       "name": "bva",
-      "v": 42046,
+      "v": 42258,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "off"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "on"
       }]
     },
@@ -3521,20 +3533,20 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 42203,
+      "v": 42266,
       "t": 1,
-      "s": 5,
+      "s": 6,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 0,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "green"
       }]
     },
