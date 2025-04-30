@@ -2396,14 +2396,23 @@ window.__twilightSettings = {
     },
     "7e07c8f2-e538-4f4d-8b51-b862cadd9a31": {
       "name": "sub_cancel_appeal",
-      "v": 41962,
+      "v": 42354,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "variant_b"
+      }, {
+        "weight": 0,
+        "value": "variant_c"
+      }, {
+        "weight": 0,
+        "value": "variant_d"
+      }, {
+        "weight": 0,
+        "value": "variant_e"
       }]
     },
     "7ef49a91-8645-4e47-bbc5-5cf61acea21e": {
