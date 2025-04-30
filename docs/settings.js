@@ -629,6 +629,7 @@ window.__twilightSettings = {
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
+  "payout-threshold-v2": false,
   "payouts_outage_banner": "",
   "paypal_enabled": [1, true],
   "paypal_eu_subs": true,
@@ -1762,13 +1763,13 @@ window.__twilightSettings = {
     },
     "46c6a720-1023-4472-a05c-628b0b3d84d3": {
       "name": "clips_leaderboard_rollout",
-      "v": 42208,
+      "v": 42328,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -2011,14 +2012,14 @@ window.__twilightSettings = {
     },
     "59d57100-3c9c-4f13-aeff-9b1c1b6b4c66": {
       "name": "ivs_player_web_gpu_transform_staff",
-      "v": 42290,
+      "v": 42292,
       "t": 1,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "AB6_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsiKiJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6MTYsIm1vZGVscyI6W3sicGF0aCI6ImxvY2FsIiwiaWQiOiIxMDgwLWVuaGFuY2UtYWxsIiwid2lkdGgiOjE5MjAsImhlaWdodCI6MTA4MCwiZnJhbWVyYXRlIjo2MCwic2NhbGVGYWN0b3IiOjEsInNjb3JlTW9kaWZpZXIiOjEsImNvZGVjIjoiIiwiZW5jb2RlciI6IiJ9XX19LCJiZWhhdmlvcnMiOnsiMTA4MC1lbmhhbmNlLWFsbCI6eyJtb2RlIjoiZW5oYW5jZSIsIm5hbWVPdmVycmlkZSI6IihTdXBlciBSZXMpIDEwODBwIn19LCJsb2dMZXZlbCI6ImluZm8iLCJzdGF0dXNJbnRlcnZhbE1zIjo1MDAwfSwicmVuZGVyIjp7ImRlYnVnIjpmYWxzZX19"
+        "value": "AB6_staff_config_eyJmbGFncyI6eyJlbmFibGVfcmVuZGVyX3N1cmZhY2UiOnRydWUsImFkZF9jYW52YXNfdG9fc3VyZmFjZSI6dHJ1ZSwiYWxsb3dfY2FudmFzX3Zpc2libGUiOnRydWUsImluaXRfdHJhbnNmb3JtZXIiOnRydWUsInJ1bl90cmFuc2Zvcm1lciI6dHJ1ZX0sIm1vZHVsZSI6eyJncHVBbGxvd2xpc3QiOnsiYXJjaGl0ZWN0dXJlcyI6WyIqIl0sInZlbmRvcnMiOlsiKiJdfSwidHJhbnNmb3JtZXIiOnsibW9uaXRvciI6eyJlbmFibGUiOnRydWUsIm1vbml0b3JJbnRlcnZhbE1zIjo1MDAwLCJmcmFtZVJhdGVEaWZmUGVyY2VudGFnZSI6MC4yNSwiZnJhbWVDb3VudERpZmZQZXJjZW50YWdlIjowLjI1fSwicGlwZWxpbmUiOnsibWluaW11bUZyYW1lcmF0ZSI6NTUsImluY2x1ZGVSZWNlaXZlRGVsYXkiOmZhbHNlfSwic3VwZXJSZXMiOnsiZW5hYmxlIjp0cnVlLCJsb2FkV2lkdGhCeXRlcyI6MTI4LCJtb2RlbHMiOlt7InBhdGgiOiJsb2NhbCIsImlkIjoiMTA4MC1lbmhhbmNlLWFsbCIsIndpZHRoIjoxOTIwLCJoZWlnaHQiOjEwODAsImZyYW1lcmF0ZSI6NjAsInNjYWxlRmFjdG9yIjoxLCJzY29yZU1vZGlmaWVyIjoxLCJjb2RlYyI6IiIsImVuY29kZXIiOiIifV19fSwiYmVoYXZpb3JzIjp7IjEwODAtZW5oYW5jZS1hbGwiOnsibW9kZSI6ImVuaGFuY2UiLCJuYW1lT3ZlcnJpZGUiOiIoU3VwZXIgUmVzKSAxMDgwcCJ9fSwibG9nTGV2ZWwiOiJpbmZvIiwic3RhdHVzSW50ZXJ2YWxNcyI6NTAwMH0sInJlbmRlciI6eyJkZWJ1ZyI6ZmFsc2V9fQ=="
       }]
     },
     "5a504d3b-df38-41cc-a7f4-c298b917fbe9": {
@@ -2035,9 +2036,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 42181,
+      "v": 42348,
       "t": 1,
-      "s": 19,
+      "s": 20,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2045,10 +2046,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 95,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "green"
       }]
     },
@@ -2192,9 +2193,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 42177,
+      "v": 42344,
       "t": 2,
-      "s": 19,
+      "s": 20,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2202,10 +2203,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 95,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "green"
       }]
     },
@@ -2317,13 +2318,13 @@ window.__twilightSettings = {
     },
     "74fdbd35-5d1d-4f28-9baf-6c2a477514ac": {
       "name": "cardboard_loadout_sauron",
-      "v": 42121,
+      "v": 42317,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant"
       }]
     },
@@ -2525,9 +2526,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 42179,
+      "v": 42346,
       "t": 3,
-      "s": 23,
+      "s": 24,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2535,10 +2536,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 95,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 5,
         "value": "green"
       }]
     },
@@ -3451,16 +3452,16 @@ window.__twilightSettings = {
     },
     "d2da6787-f0ca-4210-9e6d-2016e3f64721": {
       "name": "clips_leaderboard_final_rollout",
-      "v": 42274,
+      "v": 42310,
       "t": 3,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
         "weight": 0,
         "value": "active"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "active_tcp"
       }]
     },
@@ -3524,9 +3525,9 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 42287,
+      "v": 42326,
       "t": 1,
-      "s": 6,
+      "s": 7,
       "groups": [{
         "weight": 0,
         "value": "control"
