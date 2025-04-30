@@ -1314,6 +1314,24 @@ window.__twilightSettings = {
         "value": "treatment"
       }]
     },
+    "26d5da14-e8de-4fb6-a0a3-78b52a0eca9b": {
+      "name": "ios_hermes_rollout_user_v9",
+      "v": 42390,
+      "t": 2,
+      "groups": [{
+        "weight": 0,
+        "value": "control"
+      }, {
+        "weight": 0,
+        "value": "all"
+      }, {
+        "weight": 99,
+        "value": "blue"
+      }, {
+        "weight": 1,
+        "value": "green"
+      }]
+    },
     "28d621bd-4864-4392-8c87-450cfc8c16e1": {
       "name": "player_prioritization_3",
       "v": 40165,
@@ -2613,13 +2631,13 @@ window.__twilightSettings = {
     },
     "8e25d83c-086a-4776-ab71-bea1f5d810c4": {
       "name": "bva",
-      "v": 42258,
+      "v": 42391,
       "t": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "off"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "on"
       }]
     },
@@ -3534,20 +3552,20 @@ window.__twilightSettings = {
     },
     "d5b73000-cada-4308-aece-e37d06c52fc1": {
       "name": "ios_hermes_rollout_device_v7",
-      "v": 42326,
+      "v": 42367,
       "t": 1,
-      "s": 7,
+      "s": 8,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 99,
+        "weight": 0,
         "value": "blue"
       }, {
-        "weight": 1,
+        "weight": 0,
         "value": "green"
       }]
     },
