@@ -820,6 +820,8 @@ window.__twilightSettings = {
   "small_latte_searching": [1, false],
   "smart_friend": [1, true],
   "smgr_remove_view_count": [1, false],
+  "sms_report_issue": [0, true],
+  "sms_report_issue_timeout": 50000,
   "social_auth_amazon": false,
   "social_auth_apple": false,
   "social_auth_google": false,
@@ -2661,20 +2663,20 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 42414,
+      "v": 42416,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 55,
+        "weight": 100,
         "value": "control"
       }, {
-        "weight": 25,
+        "weight": 0,
         "value": "variant_default"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_followedrecs"
       }, {
-        "weight": 10,
+        "weight": 0,
         "value": "variant_interleave"
       }]
     },
