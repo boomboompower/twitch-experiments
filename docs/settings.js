@@ -629,7 +629,6 @@ window.__twilightSettings = {
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
-  "payout-estimated-v2": false,
   "payout-threshold-v2": false,
   "payouts_outage_banner": "",
   "paypal_enabled": [1, true],
