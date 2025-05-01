@@ -629,6 +629,7 @@ window.__twilightSettings = {
   "payout_transparency": [1, true],
   "payout_transparency_taxes_and_fees": [0, false],
   "payout_transparency_v2_active": [1, true],
+  "payout-estimated-v2": false,
   "payout-threshold-v2": false,
   "payouts_outage_banner": "",
   "paypal_enabled": [1, true],
@@ -1312,24 +1313,6 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
-      }]
-    },
-    "26d5da14-e8de-4fb6-a0a3-78b52a0eca9b": {
-      "name": "ios_hermes_rollout_user_v9",
-      "v": 42390,
-      "t": 2,
-      "groups": [{
-        "weight": 0,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "all"
-      }, {
-        "weight": 99,
-        "value": "blue"
-      }, {
-        "weight": 1,
-        "value": "green"
       }]
     },
     "28d621bd-4864-4392-8c87-450cfc8c16e1": {
@@ -2631,13 +2614,13 @@ window.__twilightSettings = {
     },
     "8e25d83c-086a-4776-ab71-bea1f5d810c4": {
       "name": "bva",
-      "v": 42391,
+      "v": 42406,
       "t": 1,
       "groups": [{
-        "weight": 0,
+        "weight": 100,
         "value": "off"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "on"
       }]
     },
@@ -2679,20 +2662,20 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 42164,
+      "v": 42405,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 100,
+        "weight": 70,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant_default"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant_followedrecs"
       }, {
-        "weight": 0,
+        "weight": 10,
         "value": "variant_interleave"
       }]
     },
