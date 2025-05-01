@@ -2661,14 +2661,14 @@ window.__twilightSettings = {
     },
     "95ea1efe-6d24-47a3-8047-e5d10dda8da1": {
       "name": "sidenav_recommended_categories_device",
-      "v": 42405,
+      "v": 42414,
       "t": 1,
       "s": 1,
       "groups": [{
-        "weight": 70,
+        "weight": 55,
         "value": "control"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "variant_default"
       }, {
         "weight": 10,
