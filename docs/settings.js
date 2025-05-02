@@ -1097,7 +1097,7 @@ window.__twilightSettings = {
     },
     "0a6b4cdb-c660-4b1c-a014-514efff5493e": {
       "name": "payments_pantera",
-      "v": 42170,
+      "v": 42428,
       "t": 2,
       "groups": [{
         "weight": 100,
@@ -1105,6 +1105,9 @@ window.__twilightSettings = {
       }, {
         "weight": 0,
         "value": "treatment"
+      }, {
+        "weight": 0,
+        "value": "variant"
       }]
     },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
@@ -1239,17 +1242,17 @@ window.__twilightSettings = {
     },
     "1ed04f13-b393-41b0-b432-3d48742f3d82": {
       "name": "Twilight amazon-ivs-web-broadcast NPM Distribution",
-      "v": 42135,
+      "v": 42424,
       "t": 1,
       "s": 4,
       "groups": [{
-        "weight": 50,
+        "weight": 0,
         "value": "variant-wb-a"
       }, {
         "weight": 0,
         "value": "wb-base"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "variant-wb-b"
       }]
     },
