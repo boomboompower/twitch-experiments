@@ -2029,7 +2029,7 @@ window.__twilightSettings = {
     },
     "5a504d3b-df38-41cc-a7f4-c298b917fbe9": {
       "name": "aof-intervention-hard-block",
-      "v": 37503,
+      "v": 42465,
       "t": 2,
       "groups": [{
         "weight": 5,
@@ -2217,7 +2217,7 @@ window.__twilightSettings = {
     },
     "717b46fe-d568-4230-aa36-725c41f7ee8e": {
       "name": "v6ssdk_version",
-      "v": 42458,
+      "v": 42463,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2226,10 +2226,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "1.1.9"
       }, {
-        "weight": 50,
+        "weight": 0,
         "value": "1.2.1"
       }, {
-        "weight": 50,
+        "weight": 100,
         "value": "1.2.2"
       }]
     },
