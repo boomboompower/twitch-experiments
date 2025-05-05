@@ -1097,17 +1097,17 @@ window.__twilightSettings = {
     },
     "0a6b4cdb-c660-4b1c-a014-514efff5493e": {
       "name": "payments_pantera",
-      "v": 42428,
+      "v": 42482,
       "t": 2,
       "groups": [{
         "weight": 100,
         "value": "control"
       }, {
         "weight": 0,
-        "value": "treatment"
+        "value": "variant_a"
       }, {
         "weight": 0,
-        "value": "variant"
+        "value": "variant_b"
       }]
     },
     "0b0d562f-72f3-46e5-8535-eeb84203fe3f": {
