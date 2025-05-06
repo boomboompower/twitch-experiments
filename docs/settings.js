@@ -3537,25 +3537,6 @@ window.__twilightSettings = {
         "value": "variant"
       }]
     },
-    "d5b73000-cada-4308-aece-e37d06c52fc1": {
-      "name": "ios_hermes_rollout_device_v7",
-      "v": 42367,
-      "t": 1,
-      "s": 8,
-      "groups": [{
-        "weight": 100,
-        "value": "control"
-      }, {
-        "weight": 0,
-        "value": "all"
-      }, {
-        "weight": 0,
-        "value": "blue"
-      }, {
-        "weight": 0,
-        "value": "green"
-      }]
-    },
     "d657d493-01f3-4a2c-9d7e-f0077830273e": {
       "name": "pushdown_logic_enabled",
       "v": 29067,
