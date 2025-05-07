@@ -1271,16 +1271,16 @@ window.__twilightSettings = {
     },
     "20337876-3d95-4fe9-afe1-3ffb22208593": {
       "name": "next-up",
-      "v": 42487,
+      "v": 42563,
       "t": 2,
       "groups": [{
-        "weight": 100,
+        "weight": 0,
         "value": "control"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant1"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant2"
       }]
     },
