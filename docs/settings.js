@@ -813,6 +813,7 @@ window.__twilightSettings = {
   "skins_show_to_turbo": false,
   "skyline-agumon-3": [0, false],
   "skyline-botamon-1": [0, false],
+  "skyline-digi-egg-0": [0, false],
   "skyline-greymon-4": [0, false],
   "skyline-koromon-2": [0, false],
   "skyscraper_kill_switch": false,
@@ -934,8 +935,8 @@ window.__twilightSettings = {
   "twilight_hermes_rollout_channel_green": ["hype-train-events-v2", "hype-train-events-v1", "user-gift-badge-events-v1"],
   "twilight_hermes_rollout_device_blue": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback", "polls", "stream-chat-room-v1", "creator-goals-events-v1", "community-points-channel-v1", "leaderboard-events-v1"],
   "twilight_hermes_rollout_device_green": ["channel-bits-onetap-events", "channel-emote-updates", "shared-chat-channel-v1", "channel-bit-events-public", "upload-v2", "request-to-join-moderator-v1", "ad-property-refresh", "alert-settings-update", "content-policy-properties", "upload", "extension-control", "bits-ext-v1-transaction", "user-image-update", "plusprogram-points-v1", "channel-bounty-board-events", "ad-stitching", "content-classification-labels-v1", "sponsorships-v1", "shoutout", "charity-campaign-donation-events-v1", "guest-star-channel-v1", "request-to-join-channel-v1", "activity-feed-moderator-v2", "activity-feed-alerts-v2", "broadcast-settings-update", "celebration-events-v1", "bits-rewards-celebration-v1", "ads", "collaboration-status-channel-refetch", "channel-sub-gifts-v1", "pinned-chat-updates-v1", "raid", "video-playback", "polls", "stream-chat-room-v1", "creator-goals-events-v1", "community-points-channel-v1", "leaderboard-events-v1", "predictions-channel-v1", "video-playback-by-id"],
-  "twilight_hermes_rollout_user_blue": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "community-points-user-v1"],
-  "twilight_hermes_rollout_user_green": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "community-points-user-v1", "user-gift-badge-events-v1"],
+  "twilight_hermes_rollout_user_blue": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "community-points-user-v1", "onsite-notifications"],
+  "twilight_hermes_rollout_user_green": ["subs-events-v1", "channel-bits-badge-unlocks", "subscribers-csv-v1", "shared-chat-broadcaster-v1", "emote-animations", "story-publish", "user-unban-requests", "payout-onboarding-events", "bits-ext-v1-user-transaction", "emote-uploads", "automod-levels-modification", "channel-bits-events-v1", "channel-bits-events-v2", "shield-mode", "guest-star-user-v1", "user-moderation-notifications", "private-callout", "user-bits-updates-v1", "channel-subscribe-events-v1", "purchase-fulfillment-events", "collaboration-status-user-update", "ads-manager", "channel-unban-requests", "user-preferences-update-v1", "channel-points-channel-v1", "user-subscribe-events-v1", "automod-queue", "community-points-broadcaster-v1", "user-properties-update", "viewer-milestones", "whispers", "payout-status-events", "follows", "predictions-user-v1", "activity-feed-broadcaster-v2", "low-trust-users", "chatrooms-user-v1", "reportable-moderation-target", "channel-chat-highlights", "chat_moderator_actions", "moderator-actions", "presence", "user-drop-events", "community-points-user-v1", "user-gift-badge-events-v1", "onsite-notifications"],
   "twitch_gift_card_url_us": "https://www.amazon.com/dp/B0893JQ2X2",
   "twitch_prime_fortnite": false,
   "twitch_prime_fortnite_link_url": "https://www.epicgames.com/fortnite/twitch-prime-pack2",
@@ -2041,9 +2042,9 @@ window.__twilightSettings = {
     },
     "5babe887-821c-423e-9cd4-92b630247c75": {
       "name": "twilight_hermes_rollout_device",
-      "v": 42442,
+      "v": 42542,
       "t": 1,
-      "s": 21,
+      "s": 22,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2051,10 +2052,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 90,
+        "weight": 75,
         "value": "blue"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "green"
       }]
     },
@@ -2198,9 +2199,9 @@ window.__twilightSettings = {
     },
     "6da8a235-737d-4c0e-9fab-22d50301427c": {
       "name": "twilight_hermes_rollout_user",
-      "v": 42438,
+      "v": 42540,
       "t": 2,
-      "s": 21,
+      "s": 22,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2208,16 +2209,16 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 90,
+        "weight": 75,
         "value": "blue"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "green"
       }]
     },
     "717b46fe-d568-4230-aa36-725c41f7ee8e": {
       "name": "v6ssdk_version",
-      "v": 42463,
+      "v": 42543,
       "t": 1,
       "groups": [{
         "weight": 0,
@@ -2229,8 +2230,11 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "1.2.1"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "1.2.2"
+      }, {
+        "weight": 100,
+        "value": "1.2.3"
       }]
     },
     "7207f317-f72c-4956-8a96-0af6567f52e6": {
@@ -2371,16 +2375,16 @@ window.__twilightSettings = {
     },
     "7be6e176-3c3e-46a3-ab50-abd8dc73da1e": {
       "name": "Twilight Player Core NPM Distribution (Staff)",
-      "v": 42080,
+      "v": 42557,
       "t": 1,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 0,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 100,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2437,17 +2441,17 @@ window.__twilightSettings = {
     },
     "7ff6a29e-5681-45ed-ad66-46d35a9549bc": {
       "name": "Twilight Player Core NPM Distribution (Public)",
-      "v": 42165,
+      "v": 42561,
       "t": 1,
       "s": 6,
       "groups": [{
         "weight": 0,
         "value": "base"
       }, {
-        "weight": 100,
+        "weight": 50,
         "value": "variant-a"
       }, {
-        "weight": 0,
+        "weight": 50,
         "value": "variant-b"
       }, {
         "weight": 0,
@@ -2540,9 +2544,9 @@ window.__twilightSettings = {
     },
     "8a563d6f-59ed-4b32-8913-88af6a7d702a": {
       "name": "twilight_hermes_rollout_channel ",
-      "v": 42440,
+      "v": 42539,
       "t": 3,
-      "s": 25,
+      "s": 26,
       "groups": [{
         "weight": 0,
         "value": "control"
@@ -2550,10 +2554,10 @@ window.__twilightSettings = {
         "weight": 0,
         "value": "all"
       }, {
-        "weight": 90,
+        "weight": 75,
         "value": "blue"
       }, {
-        "weight": 10,
+        "weight": 25,
         "value": "green"
       }]
     },
