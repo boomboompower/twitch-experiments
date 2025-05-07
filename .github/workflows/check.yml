@@ -1,8 +1,6 @@
 name: App Update Check
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       message:

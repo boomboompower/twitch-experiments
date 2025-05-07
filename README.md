@@ -1,24 +1,39 @@
 # ⚠️ Forewarning ⚠️ 
-You are responsible for what you do on your twitch account, use these overrides with caution. I am not responsible for any account terminations which may occur from this tool.
+Using these experimental overrides comes with some risks. Misusing this tool COULD result in account restrictions, 
+suspensions or other penalties depending on the platform's policies. By using TECG, you acknowledge full responsibility 
+for any actions taken.
 
-## Twitch Experiments
-A tool which allows you to generate a cookie to override experiments on the twitch website.
+## TECG - Stream Service Experiment Cookie Generator
+TECG is an open-source tool designed for developers and enthusiasts who want to explore experimental features in their 
+favorite streaming platforms. It allows users to generate and manage custom cookies, potentially activating unreleased 
+updates or testing new features that might be available on some platforms.
 
-This tool redownloads the settings file every day. Not all experiments do anything - it's probably for the best if you only enable the ones you would like to use. 
+* Generate and import custom experiment cookies for supported platforms.
+* Filter experiments by active, serving one, or unregistered states.
+* Easily copy and paste your generated cookie settings.
+* Explore hundreds of experimental configurations to personalize your experience.
+* User-friendly design, optimized for desktop and mobile use.
 
 ### How to Use
-Just select the experiment buckets you want then copy the cookie to the appropriate location.
+Simply navigate to the [TECG website](https://boomboompower.github.io/tecg) and follow the instructions to generate 
+your custom cookies. This tool is designed to be user-friendly, so you can easily manage your cookies and explore new features
 
-Twitch's experiment parser also uses window search parameters so that's also an alternative.
+### Supported Platforms
+Built for mobile, desktop, and web platforms, TECG is compatible with a wide range of streaming services.
 
-### How to build
-Take a look at the CI, basically
+### Installation
+To build the project, follow these steps:
+1. Install Node.js and npm if you haven't already.
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and navigate to `http://localhost:3000` to see the app in action.
 
-1. Clone the project 
-2. Run npm install
-3. Run npm start when ready.
-
-### Forking
-By default, the github action will not automatically run on any forks. This is intentional to prevent unwanted branch updates.
-
-The action can still be run manually, or the condition in the action can be removed if you would like your fork to run the job daily - just be aware of the quotas on your account! 
+### Contributing
+We welcome contributions to TECG! If you have suggestions, bug reports, or feature requests, please open an issue or 
+submit a pull request on GitHub. We appreciate your help in making TECG even better!

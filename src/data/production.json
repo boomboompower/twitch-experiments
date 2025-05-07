@@ -1,4 +1,4 @@
-const productionExperiments = [
+[
     {
         "id": "4175854e-ac90-49cf-a871-d5d7616e9837",
         "name": "chmod-bcsvs",

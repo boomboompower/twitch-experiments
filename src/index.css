@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-export {
+  background-color: #198a80;
+}
+.bg-export:hover {
+  background-color: #137067;
+}
+
+.bg-reset {
+  background-color: #b52323;
+}
+.bg-reset:hover {
+  background-color: #981c1c;
+}
+
+.bg-settings {
+  background-color: #c77d00;
+}
+.bg-settings:hover {
+  background-color: #a86600;
+}
+
+.bg-tw {
+  background: #9147ff;
+}
+
+.bg-tw:hover {
+  background: #7b3fe4;
+}
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+  body {
+    @apply bg-gray-800 text-gray-200;
+  }
+}

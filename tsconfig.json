@@ -3,19 +3,20 @@
     "outDir": "./dist",
     "allowJs": true,
     "module": "commonjs",
+    "jsx": "react-jsx",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "sourceMap": true,
+    "target": "ES2017",
     "lib": [
       "dom",
-      "es5",
-      "scripthost",
+      "dom.iterable",
+      "es2017"
     ]
   },
-  "files": [
-    "src/index.ts"
-  ],
   "typeRoots": [
     "src/types/index.d.ts",
   ],
