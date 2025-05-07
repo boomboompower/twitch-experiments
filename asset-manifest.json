@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tecg/static/css/main.6068b75f.css",
+    "main.js": "/tecg/static/js/main.263e3f9c.js",
+    "index.html": "/tecg/index.html",
+    "main.6068b75f.css.map": "/tecg/static/css/main.6068b75f.css.map",
+    "main.263e3f9c.js.map": "/tecg/static/js/main.263e3f9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6068b75f.css",
+    "static/js/main.263e3f9c.js"
+  ]
+}

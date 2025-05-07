@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boomboompower.github.io/twitch-experiments/generic/sitemap.xml
