@@ -1,0 +1,33 @@
+{
+  "name": "TECG - Experiment Cookie Generator",
+  "short_name": "TECG",
+  "description": "Generate and manage experimental cookies for streaming platforms.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#2d2d2d",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-92.png",
+      "sizes": "92x92",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null,
+  "permissions": [
+    "storage",
+    "cookies"
+  ],
+  "background": {
+  }
+}

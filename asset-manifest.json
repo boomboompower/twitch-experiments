@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/tecg/static/css/main.6068b75f.css",
-    "main.js": "/tecg/static/js/main.263e3f9c.js",
-    "index.html": "/tecg/index.html",
-    "main.6068b75f.css.map": "/tecg/static/css/main.6068b75f.css.map",
-    "main.263e3f9c.js.map": "/tecg/static/js/main.263e3f9c.js.map"
+    "main.css": "/tecg/static/css/main.0310c2c2.css",
+    "main.js": "/tecg/static/js/main.8c06f7fc.js",
+    "index.html": "/tecg/index.html"
   },
   "entrypoints": [
-    "static/css/main.6068b75f.css",
-    "static/js/main.263e3f9c.js"
+    "static/css/main.0310c2c2.css",
+    "static/js/main.8c06f7fc.js"
   ]
 }
