@@ -1,8 +1,8 @@
-import {ExperimentHolder} from '../hooks/useExperiments';
+import {CollatedExperiment} from '../hooks/useExperiments';
 
 export function convertOverridesToCookie(
     overrides: Record<string, string>,
-    experiments: ExperimentHolder,
+    experiments: CollatedExperiment[],
 ): string {
     const temporaryObject = {
         experiments: {} as { [key: string]: string },
@@ -10,12 +10,15 @@ export function convertOverridesToCookie(
     }
 
     for (const exp of Object.keys(overrides)) {
-        // Find the ID of the experiment in the experiments object. The ID is the key of the object.
-        // Our stored value is the name of the experiment, so we need to find the ID of the experiment in the experiments object.
-        // Then we can use that ID to get the experiment object from the experiments object.
-        const experimentID = Object.keys(experiments).find((key) => {
-            return experiments[key].name === exp;
-        });
+        // Find the ID of the experiment in the experiments object.
+        const experimentID = experiments.find((experiment) => {
+            return experiment.name === exp;
+        })?.id;
+
+        if (!experimentID) {
+            console.warn(`Experiment ${exp} not found in experiments object`);
+            continue;
+        }
 
         temporaryObject.experiments[experimentID] = overrides[exp];
     }

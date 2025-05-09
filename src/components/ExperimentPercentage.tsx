@@ -43,11 +43,11 @@ export function ExperimentPercentage({ unusedCount, totalCount }: ExperimentPerc
                 : 'text-green-500';
 
     return (
-        <div className="flex items-center gap-1 mb-2 mx-0 lg:gap-2">
+        <div className="flex items-center gap-1 mb-2 mx-0 lg:gap-2" aria-label={'Experiment bloat percentage'} role={'banner'}>
             <span className="text-sm text-gray-400">
                 Bloat Percentage:
             </span>
-            <span className={`text-lg font-semibold ${textColor}`}>
+            <span className={`text-sm md:text-lg font-semibold ${textColor}`}>
                 {bloatPercentage.toFixed(1)}%
             </span>
             <span className="text-sm text-gray-400">

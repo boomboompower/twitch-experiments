@@ -181,7 +181,7 @@ export const ActionBarDialogProvider: React.FC<{ children: React.ReactNode }> = 
                 <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
                     <DialogPanel
                         transition
-                        className='w-full max-w-md rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-closed:transform-[scale(95%)] data-closed:opacity-0'
+                        className='w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-closed:transform-[scale(95%)] data-closed:opacity-0'
                     >
                         <DialogTitle as="h3" className="text-lg font-semibold text-white">
                             {dialogContent?.title}
@@ -195,7 +195,9 @@ export const ActionBarDialogProvider: React.FC<{ children: React.ReactNode }> = 
                         <Description className="mt-2 text-sm text-gray-400">
                             {dialogContent?.description}
                         </Description>
-                        <div>{dialogContent?.content}</div>
+                        <div className="overflow-y-auto">
+                            {dialogContent?.content}
+                        </div>
                     </DialogPanel>
                 </div>
             </Dialog>

@@ -1,30 +1,29 @@
 import { useMemo } from 'react';
-import {ExperimentBlock, ExperimentHolder, isServingOneGroup, ProductionBlock} from './useExperiments';
+import {CollatedExperiment} from './useExperiments';
 
 type TabExperiments = {
-    activeExperiments: ExperimentBlock[];
-    servingOneExperiments: ExperimentBlock[];
-    unregisteredExperiments: ExperimentBlock[];
+    activeExperiments: CollatedExperiment[];
+    servingOneExperiments: CollatedExperiment[];
+    unregisteredExperiments: CollatedExperiment[];
 }
 
 /**
  * Hook to categorize experiments by their tab groups: Active, Serving One, Unregistered
- * @param {Array} experiments - The list of experiments.
- * @param {Array} production - The production data.
- * @returns {Object} - Contains categorized experiments.
+ * @param {CollatedExperiment[]} experiments - The list of experiments.
+ * @returns {TabExperiments} - Contains categorized experiments.
  */
-export function useTabExperiments(experiments: ExperimentHolder, production: ProductionBlock[]) : TabExperiments  {
+export function useTabExperiments(experiments: CollatedExperiment[]) : TabExperiments  {
     return useMemo(() => {
-        const active = [];
-        const servingOne = [];
-        const unregistered = [];
+        const active: CollatedExperiment[] = [];
+        const servingOne: CollatedExperiment[] = [];
+        const unregistered: CollatedExperiment[] = [];
 
         // Iterate over the experiments and sort them into the three categories
-        for (const exp of Object.values(experiments)) {
-            const isInProduction = production.some((p) => p.name === exp.name);
+        for (const exp of experiments) {
+            const isInProduction = exp.active;
 
             if (isInProduction) {
-                if (isServingOneGroup(exp)) {
+                if (exp.servingOne) {
                     servingOne.push(exp);
                 } else {
                     active.push(exp);
@@ -39,5 +38,5 @@ export function useTabExperiments(experiments: ExperimentHolder, production: Pro
             servingOneExperiments: servingOne,
             unregisteredExperiments: unregistered,
         };
-    }, [experiments, production]);
+    }, [experiments]);
 }

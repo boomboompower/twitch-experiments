@@ -2,16 +2,15 @@ import {useMemo, useState} from 'react';
 import {Radio, RadioGroup} from '@headlessui/react';
 import {ExperimentIcon} from './ExperimentIcon';
 import {Pill} from './Pill';
-import {ExperimentBlock} from '../hooks/useExperiments';
 import {useExperimentOverrides} from '../contexts/ExperimentOverridesProvider';
+import {CollatedExperiment} from '../hooks/useExperiments';
 
 type ExperimentOverridesProps = {
-    experiment: ExperimentBlock,
-    staffOverride?: string,
+    experiment: CollatedExperiment,
     isLuckyLast?: boolean,
 }
 
-export function ExperimentOverrides({experiment, staffOverride, isLuckyLast}: ExperimentOverridesProps) {
+export function ExperimentOverrides({experiment, isLuckyLast}: ExperimentOverridesProps) {
     // Retrieve the current override from the context
     const {overrides, setOverride, removeOverride} = useExperimentOverrides();
     const [selected, setSelected] = useState(() => {
@@ -30,6 +29,11 @@ export function ExperimentOverrides({experiment, staffOverride, isLuckyLast}: Ex
         return defaultGroup;
     });
     const largestGroup = useMemo(() => {
+        if (experiment.default) {
+            // If the experiment has a default group, return it
+            return experiment.default;
+        }
+
         // Find the group with the largest weight by sorting the groups
         const sortedGroups = [...experiment.groups].sort((a, b) => b.weight - a.weight);
         return sortedGroups[0].value;
@@ -72,7 +76,7 @@ export function ExperimentOverrides({experiment, staffOverride, isLuckyLast}: Ex
                             <div className="text-sm w-full">
                                 <div className="font-semibold text-white">
                                     <span>{group.value}</span>
-                                    {staffOverride && staffOverride === group.value && <Pill label="Staff Default" className="justify-self-end" />}
+                                    {experiment.staffOverride && experiment.staffOverride === group.value && <Pill label="Staff Default" className="justify-self-end" />}
                                     {largestGroup === group.value && <Pill label="Default" className="justify-self-end" />}
                                 </div>
                                 <div className="text-white/50">{group.weight}</div>

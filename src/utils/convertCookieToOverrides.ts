@@ -1,8 +1,8 @@
-import {ExperimentHolder} from '../hooks/useExperiments';
+import {CollatedExperiment} from '../hooks/useExperiments';
 
 export function convertCookieToOverrides(
     cookie: string,
-    experiments: ExperimentHolder,
+    experiments: CollatedExperiment[],
 ): Record<string, string> | null {
     if (!cookie || cookie.length === 0) {
         console.error('Empty cookie string provided');
@@ -39,7 +39,10 @@ export function convertCookieToOverrides(
         // Ensure that the override exists in the experiments object. We need to set
         // The experiment name as the key and the override as the value
         for (const [experimentID, override] of Object.entries(parsedOverrides.experiments)) {
-            const [, experiment] = Object.entries(experiments).find(([expID]) => expID === experimentID);
+            // Find the ID of the experiment in the experiments object.
+            const experiment = experiments.find((experiment) => {
+                return experiment.id === experimentID;
+            });
 
             if (experiment) {
                 overrides[experiment.name] = override;

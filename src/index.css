@@ -5,30 +5,41 @@
 .bg-export {
   background-color: #198a80;
 }
-.bg-export:hover {
+.bg-export:not([disabled]):hover {
   background-color: #137067;
+}
+.bg-export[disabled] {
+  background-color: #0f5b55;
 }
 
 .bg-reset {
   background-color: #b52323;
 }
-.bg-reset:hover {
+.bg-reset:not([disabled]):hover {
   background-color: #981c1c;
+}
+.bg-reset[disabled] {
+  background-color: #7a1e1e;
 }
 
 .bg-settings {
   background-color: #c77d00;
 }
-.bg-settings:hover {
+.bg-settings:not([disabled]):hover {
   background-color: #a86600;
+}
+.bg-settings[disabled] {
+  background-color: #7a5e00;
 }
 
 .bg-tw {
   background: #9147ff;
 }
-
-.bg-tw:hover {
+.bg-tw:not([disabled]):hover {
   background: #7b3fe4;
+}
+.bg-tw[disabled] {
+  background: #6b2fbb;
 }
 
 @layer base {

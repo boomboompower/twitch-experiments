@@ -33,13 +33,13 @@ export function Footer() {
                             By using TECG, you acknowledge full responsibility for any actions taken.</p>
                     </Alert>
 
-                    <p className="text-sm">TECG is an independent project and is not affiliated, associated, authorized,
+                    <p className="text-xs md:text-sm">TECG is an independent project and is not affiliated, associated, authorized,
                         endorsed by, or in any way officially connected with any specific streaming platform or service.
                         All trademarks, service marks, and company names mentioned here are the property of their
                         respective owners.</p>
 
-                    <div className='text-center text-sm'>
-                        <div className="text-sm">&copy; {new Date().getFullYear()} &#x2022; Open-source under the MIT
+                    <div className='text-center text-xs md:text-sm'>
+                        <div>&copy; {new Date().getFullYear()} &#x2022; Open-source under the MIT
                             License
                         </div>
                         <div><span>Designed by </span>

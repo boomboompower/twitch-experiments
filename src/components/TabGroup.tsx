@@ -23,10 +23,10 @@ import { sortExperiments } from '../utils/sortExperiments';
  */
 export function TabGroup() {
     const [selectedIndex, setSelectedIndex] = useState(0)
-    const { experiments, production } = useExperiments();
+    const { experiments } = useExperiments();
     const { sortBy } = useSortBar();
 
-    const { activeExperiments, servingOneExperiments, unregisteredExperiments } = useTabExperiments(experiments, production);
+    const { activeExperiments, servingOneExperiments, unregisteredExperiments } = useTabExperiments(experiments);
 
     const tabExperiments = useMemo(() => {
         // Active is only experiments inside the production.json
@@ -42,7 +42,7 @@ export function TabGroup() {
         }
     }, [selectedIndex, activeExperiments, servingOneExperiments, unregisteredExperiments]);
 
-    const sortedTabExperiments = useMemo(() => sortExperiments(tabExperiments, production, sortBy), [tabExperiments, sortBy, production]);
+    const sortedTabExperiments = useMemo(() => sortExperiments(tabExperiments, sortBy), [tabExperiments, sortBy]);
 
     // Calculate the total number of experiments
     const unusedCount = servingOneExperiments.length + unregisteredExperiments.length;
@@ -62,11 +62,13 @@ export function TabGroup() {
 
             <ExperimentPercentage unusedCount={unusedCount} totalCount={totalExperiments} />
 
-            <TabList className="lg:flex gap-4 grid grid-cols-3">
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore tablist is a valid role. */}
+            <TabList className="lg:flex gap-4 grid grid-cols-3" aria-label="Experiment tabs" role="tablist">
                 {tabData.map(({name, count}, index) => (
                     <Tab
                         key={name}
-                        // onClick={(e) => { setSelectedIndex(name); e.preventDefault(); }}
+                        aria-label={`Select ${name} experiments`}
                         className={`rounded-full px-3 py-1 text-sm font-semibold text-white ${selectedIndex === index ? 'bg-white/15' : 'bg-white/5'}`}
                     >
                         {name}<span className='text-xs'> ({count}/{totalExperiments})</span>
@@ -77,7 +79,7 @@ export function TabGroup() {
                 <TabPanel static>
                     <div className="mt-3 mb-5 gap-4 mx-auto w-full divide-y divide-white/5 rounded-md bg-white/5">
                         {sortedTabExperiments.map((exp, index) => (
-                            <Experiment key={exp.name} experiment={exp} productionData={production} isLuckyLast={index === sortedTabExperiments.length - 1} />
+                            <Experiment key={exp.name} experiment={exp} isLuckyLast={index === sortedTabExperiments.length - 1} />
                         ))}
                     </div>
                 </TabPanel>
