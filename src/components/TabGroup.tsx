@@ -69,7 +69,7 @@ export function TabGroup() {
                     <Tab
                         key={name}
                         aria-label={`Select ${name} experiments`}
-                        className={`rounded-full px-3 py-1 text-sm font-semibold text-white ${selectedIndex === index ? 'bg-white/15' : 'bg-white/5'}`}
+                        className={`rounded-full px-3 py-1 text-sm font-semibold text-white ${selectedIndex === index ? 'bg-[#404955]' : 'bg-[#2a3441]'}`}
                     >
                         {name}<span className='text-xs'> ({count}/{totalExperiments})</span>
                     </Tab>
@@ -77,7 +77,7 @@ export function TabGroup() {
             </TabList>
             <TabPanels>
                 <TabPanel static>
-                    <div className="mt-3 mb-5 gap-4 mx-auto w-full divide-y divide-white/5 rounded-md bg-white/5">
+                    <div className="mt-3 mb-5 gap-4 mx-auto w-full divide-y divide-white/5 rounded-md stack">
                         {sortedTabExperiments.map((exp, index) => (
                             <Experiment key={exp.name} experiment={exp} isLuckyLast={index === sortedTabExperiments.length - 1} />
                         ))}

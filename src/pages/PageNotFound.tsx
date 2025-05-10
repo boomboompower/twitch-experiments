@@ -24,7 +24,7 @@ export function PageNotFound({children}: PageNotFoundProps) {
 
     // Check if the current path is allowed
     if (!hasBeenChecked) {
-        return <div className="flex flex-col items-center justify-center items-center h-screen bg-gray-800 text-gray-200">
+        return <div className="flex flex-col items-center justify-center items-center h-screen bg-gray-800 text-gray-200 z-10">
             <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"></div>
             <div className="text-lg mt-4">Loading</div>
         </div>;

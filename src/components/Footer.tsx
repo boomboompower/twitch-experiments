@@ -43,7 +43,7 @@ export function Footer() {
                             License
                         </div>
                         <div><span>Designed by </span>
-                            <a href='https://github.com/boomboompower/twitch-experiments' target='_blank'
+                            <a href='https://github.com/boomboompower/tecg/' target='_blank'
                                rel='noopener noreferrer'>
                                 <span className='text-blue-500 hover:text-blue-400'>boomboompower</span>
                             </a>

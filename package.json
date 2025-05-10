@@ -6,7 +6,7 @@
   "scripts": {
     "react": "react-scripts start",
     "build": "tsc ./src/downloader.ts --outDir dist && node ./dist/downloader.js",
-    "buildsite": "react-scripts build",
+    "buildsite": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eslint": "eslint . --ext .js,.jsx,.ts,.tsx",

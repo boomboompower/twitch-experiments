@@ -1,4 +1,26 @@
 User-agent: *
-Allow: /
+Allow: /tecg/
+Allow: /tecg/sitemap.xml
+Allow: /tecg/sitemap-style.xsl
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /dev/
+Disallow: /staging/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /config/
+Disallow: /server-status
 
-Sitemap: https://boomboompower.github.io/twitch-experiments/generic/sitemap.xml
+# Ensure stylesheets are allowed
+Allow: /tecg/*.css
+Allow: /tecg/*.js
+Allow: /tecg/*.svg
+Allow: /tecg/*.webp
+Allow: /tecg/*.png
+Allow: /tecg/*.jpg
+Allow: /tecg/*.woff2
+
+# Sitemap Location
+Sitemap: https://boomboompower.github.io/tecg/sitemap.xml

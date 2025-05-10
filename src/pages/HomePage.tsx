@@ -9,7 +9,7 @@ import {Footer} from '../components/Footer';
 export function HomePage() {
     return (
         <div className="h-screen w-full m-auto justify-center">
-            <div className="w-full m-auto max-w-4xl px-4 pt-8">
+            <div className="w-full m-auto max-w-4xl px-4 pt-8 z-10">
                 <header aria-label={'TECG - Experiment Cookie Generator'}>
                     <h1 className="text-3xl font-bold text-white">
                         <span className='block sm:hidden text-xl'>TECG - Experiment Cookie Generator</span>
